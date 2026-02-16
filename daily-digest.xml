@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AI/产品/技术日报</title>
+    <link>http://localhost:8080</link>
+    <description>每日聚合 12 个英文 Newsletter/博客，AI 翻译生成中文摘要和全文</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 16 Feb 2026 07:28:55 +0000</lastBuildDate>
+    <item>
+      <title>📰 AI/产品/技术日报 - 2026-02-16</title>
+      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Three months of OpenClaw&lt;/strong&gt; (Simon Willison): 开源 AI 代理框架 OpenClaw 发布三个月即获近 20 万 GitHub 星标并登陆超级碗广告，创始人 Peter Steinberger 现已加入 OpenAI 并将项目移交独立基金会。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quoting Boris Cherny&lt;/strong&gt; (Simon Willison): Claude Code 创造者 Boris Cherny 指出，尽管 AI 编程工具兴起，提示工程、客户对接与产品规划等关键职责仍需人类完成，优秀工程师在 AI 时代反而更不可或缺。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quoting Thoughtworks&lt;/strong&gt; (Simon Willison): 挑战&amp;quot;AI 淘汰初级开发者&amp;quot;观点，认为 AI 工具反而帮助新人更快创造价值，真正面临技能重塑困境的是占行业主体的中级工程师。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt&lt;/strong&gt; (Simon Willison): 生成式与代理式 AI 正将软件开发的隐患从&amp;quot;技术债务&amp;quot;转向&amp;quot;认知债务&amp;quot;——开发者因依赖 AI 生成代码而逐渐丧失对系统逻辑与维护方法的理解。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one&lt;/strong&gt; (Lenny Rachitsky / Lenny&amp;#x27;s Newsletter): HubSpot 联合创始人 Brian Halligan 提出&amp;quot;创业从未如此简单，规模化却前所未有地困难&amp;quot;，并分享评估创始人的 LOCKS 框架与 AI 时代人才策略。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Community Wisdom&lt;/strong&gt; (Kiyani / Lenny&amp;#x27;s Newsletter): 汇总产品经理社群实战精华，涵盖 AI 编程工具应用、反向免费试用策略实施、产品管理与项目管理角色区分及咨询定价方法。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gwtar: a static efficient single-file HTML format&lt;/strong&gt; (Simon Willison): 新型静态单文件 HTML 归档格式，通过 &lt;code&gt;window.stop()&lt;/code&gt; 与 HTTP 范围请求实现按需加载，但因浏览器安全限制无法本地直接打开，需命令行提取。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Launching Interop 2026&lt;/strong&gt; (Simon Willison): 浏览器互操作性项目 Interop 2026 启动，重点关注跨文档视图过渡（无需 JavaScript 实现 SPA 效果）与 WebAssembly 的 JavaScript Promise 集成。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quoting Eric Meyer&lt;/strong&gt; (Simon Willison): CSS 专家 Eric Meyer 驳斥&amp;quot;CSS 臃肿&amp;quot;论，指出其复杂性源于以人类可读格式覆盖视觉呈现、布局、动画等全方位功能的雄心。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Em dash&lt;/strong&gt; (Simon Willison): 作者否认使用 LLM 写作，解释其文字被误认为 AI 生成的唯一&amp;quot;破绽&amp;quot;是一段自 2015 年沿用至今的自动标点替换代码。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The AI Vampire&lt;/strong&gt; (Simon Willison): 警示单纯利用 AI 提升生产力以取悦雇主只会让员工被榨取价值并加剧倦怠，且 AI 将简单工作自动化后反而将高难度决策压力转移给员工。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deep Blue&lt;/strong&gt; (Simon Willison): 创造&amp;quot;Deep Blue&amp;quot;术语描述软件开发者因生成式 AI 入侵产生的存在主义焦虑与价值危机。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anthropic&amp;#x27;s public benefit mission&lt;/strong&gt; (Simon Willison): 揭示 Anthropic 作为公共利益公司（非非营利组织）无需提交年度公开文件，其注册证书显示使命已从&amp;quot;促进人类文化、社会和技术进步&amp;quot;简化为&amp;quot;造福人类长期利益&amp;quot;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The evolution of OpenAI&amp;#x27;s mission statement&lt;/strong&gt; (Simon Willison): 基于 IRS 税务文件梳理 OpenAI 使命从 2016 年强调&amp;quot;不受财务回报约束、开放分享、安全开发&amp;quot;逐步简化为 2024 年&amp;quot;确保通用人工智能造福全人类&amp;quot;的演变。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;We URGENTLY need a federal law forbidding AI from impersonating humans&lt;/strong&gt; (Gary Marcus): 援引哲学家丹尼特观点，呼吁制定联邦法律禁止机器输出冒充人类、限制聊天机器人使用第一人称，并规范对在世者肖像和声音的 AI 合成。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Irony, Irony laced with Karma, and Terror&lt;/strong&gt; (Gary Marcus): 讽刺 OpenAI 在知识产权问题上的双重标准，同时警示马斯克为追求速度解雇 xAI 安全团队的安全隐患。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reading list 02/14/26&lt;/strong&gt; (Brian Potter / Construction Physics): 建筑与工业技术动态汇编，涵盖美国住房立法、AI 数据中心建设拉动光纤需求、中国汽车入美预期影响及特朗普政府金属关税政策调整。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">http://localhost:8080/daily-digest/2026-02-16</guid>
+      <pubDate>Mon, 16 Feb 2026 07:28:55 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
