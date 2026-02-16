@@ -2,62 +2,53 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>AI/产品/技术日报</title>
-    <link>http://localhost:8080</link>
+    <link>https://stella9625.github.io/newsletter-digest</link>
     <description>每日聚合 12 个英文 Newsletter/博客，AI 翻译生成中文摘要和全文</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 16 Feb 2026 09:32:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 18:57:12 +0000</lastBuildDate>
     <item>
       <title>📰 AI/产品/技术日报 - 2026-02-16</title>
-      <description>&lt;p&gt;&lt;strong&gt;AI 科技日报&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;*2026年2月15日*&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;每日 AI/产品/技术日报&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;警惕&amp;quot;AI吸血鬼&amp;quot;与开发者存在焦虑&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Simon Willison 创造&amp;quot;Deep Blue&amp;quot;一词描述程序员因生成式AI入侵产生的职业倦怠与存在危机；同时警示盲目用AI追求十倍生产力反致身心俱疲且难获相应回报，形成&amp;quot;AI吸血鬼&amp;quot;式劳动剥削。&lt;/p&gt;
-&lt;p&gt;*来源：Simon Willison*&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;从技术债务到认知债务&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;随着AI编程普及，软件开发的核心风险正从传统技术债务转向&amp;quot;认知债务&amp;quot;——开发者过度依赖AI生成代码将逐渐丧失对系统逻辑的深层理解，最终导致维护困难。&lt;/p&gt;
-&lt;p&gt;*来源：Simon Willison*&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AI代理框架OpenClaw爆发&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;开源AI代理框架OpenClaw发布三个月内GitHub星标近20万并亮相超级碗广告；创始人Peter Steinberger宣布加入OpenAI，计划将项目所有权转移至独立基金会。&lt;/p&gt;
-&lt;p&gt;*来源：Simon Willison*&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AI时代工程师价值重估&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Claude Code创造者Boris Cherny强调AI时代仍需工程师提示AI、沟通客户并决策产品方向；Thoughtworks则指出AI加速初级开发者成长，但中级工程师的技能重塑仍是行业难题。&lt;/p&gt;
-&lt;p&gt;*来源：Simon Willison*&lt;/p&gt;
+&lt;h4&gt;🤖 AI 编程工具与无障碍实践&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rodney and Claude Code for Desktop&lt;/strong&gt; (Simon Willison)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Claude 桌面应用支持实时显示 AI &amp;quot;查看&amp;quot;的图像，结合 Rodney 浏览器自动化工具，开发者可在本地直接预览网页截图并进行可视化调试，无需等待代码推送即可验证界面效果。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Opus vs. Codex 实战对决&lt;/strong&gt; (Lenny Rachitsky, *Lenny&amp;#x27;s Newsletter*)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;实战对比揭示 Claude Opus 4.6 擅长功能构建，而 GPT-5.3 Codex 精于代码审查，两者协同可最大化开发效率；节目同时展示视障工程师如何利用 AI 工具消除工作中的无障碍障碍。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;视障工程师的 AI 开发实践&lt;/strong&gt; (Claire Vo, *Lenny&amp;#x27;s Newsletter*)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;视障工程师 Joe McCormick 借助 Claude Code 快速构建个性化 Chrome 扩展，通过&amp;quot;个人软件&amp;quot;填补主流产品的无障碍功能空白，体现多模态 AI 为视障群体打造定制化辅助解决方案的潜力。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4&gt;产品与增长&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;创业易，规模化难&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;红杉资本CEO教练、HubSpot联合创始人Brian Halligan解析当下&amp;quot;创业门槛降低但规模化扩张困难&amp;quot;的现状，分享评估创始人的LOCKS框架及2004红袜队式团队组建策略。&lt;/p&gt;
-&lt;p&gt;*来源：Lenny&amp;#x27;s Newsletter*&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;PM实践智慧集锦&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;社区讨论精选：产品经理如何有效运用AI编程工具、实施反向免费试用策略（reverse free trials）、区分产品管理与项目管理角色，以及咨询工作定价方法。&lt;/p&gt;
-&lt;p&gt;*来源：Lenny&amp;#x27;s Newsletter (Kiyani)*&lt;/p&gt;
+&lt;h4&gt;⚙️ 系统架构创新&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gwtar：高效单文件 HTML 归档格式&lt;/strong&gt; (Simon Willison)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;新型归档格式通过在页面早期调用 &lt;code&gt;window.stop()&lt;/code&gt; 阻断浏览器完整下载，并利用 HTTP 范围请求按需加载尾随的 tar 内容，实现大型资源懒加载；但因浏览器安全限制无法直接本地打开，需借助命令行工具提取。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4&gt;工程与系统设计&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Gwtar：单文件HTML归档新格式&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;一种静态高效的单文件HTML格式，通过在文档头部调用&lt;code&gt;window.stop()&lt;/code&gt;阻止完整下载，并利用HTTP范围请求按需从内联tar数据中提取资源，实现大型媒体懒加载。&lt;/p&gt;
-&lt;p&gt;*来源：Simon Willison*&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Interop 2026启动&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;浏览器兼容性项目Interop 2026正式启动，延续95%+兼容性目标，今年重点实现无需JavaScript的跨文档视图过渡（SPA式页面转场）及WebAssembly JavaScript Promise集成。&lt;/p&gt;
-&lt;p&gt;*来源：Simon Willison*&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;为CSS正名&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Web标准专家Eric Meyer反驳&amp;quot;CSS臃肿混乱&amp;quot;批评，指出CSS以人类可读文本覆盖视觉呈现、布局、动画等全流程，是雄心勃勃而非过度膨胀的技术体系。&lt;/p&gt;
-&lt;p&gt;*来源：Simon Willison*&lt;/p&gt;
+&lt;h4&gt;🧠 AI 时代的社会与心理影响&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The AI Vampire&lt;/strong&gt; (Simon Willison)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;警示员工借助 AI 数倍提升工作效率以取悦雇主，反而可能沦为被&amp;quot;榨干&amp;quot;的对象：公司攫取技术带来的全部价值，而使用者承受职业倦怠却无法获得相称回报，揭示&amp;quot;AI 吸血鬼&amp;quot;式的价值剥削现象。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Deep Blue：程序员的存在焦虑&lt;/strong&gt; (Simon Willison)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;提出&amp;quot;Deep Blue&amp;quot;一词概括软件开发者因生成式 AI 入侵而产生的存在主义焦虑与价值危机；当多年积累的专业技能被 AI 快速替代时，许多程序员正面临严重的心理倦怠与身份迷失。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4&gt;跨界与深度思考&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;OpenAI与Anthropic使命演变&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;梳理税表显示，OpenAI使命从强调&amp;quot;非盈利约束&amp;quot;和&amp;quot;开放分享&amp;quot;的详细表述简化为口号式&amp;quot;确保AGI造福全人类&amp;quot;，折射商业化转型；Anthropic公司章程也显示其公益使命从&amp;quot;促进文化技术进步&amp;quot;缩减为&amp;quot;长期造福人类&amp;quot;。&lt;/p&gt;
-&lt;p&gt;*来源：Simon Willison*&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AI安全与立法紧迫性&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Gary Marcus紧急呼吁制定联邦法律严禁AI冒充人类以防深度伪造诈骗；同时讽刺OpenAI长期侵犯知识产权却反诉被抄袭的荒诞，并警示xAI为赶超OpenAI解散安全团队的严重风险。&lt;/p&gt;
-&lt;p&gt;*来源：Gary Marcus*&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;建筑与工业技术周报&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;美英住房政策改革（纽约分区调整、伦敦新房开工创40年新低）、南地中海建筑安全危机，以及AI数据中心驱动的光纤需求激增、中国汽车潜在进入美国市场等制造业动态。&lt;/p&gt;
-&lt;p&gt;*来源：Construction Physics (Brian Potter)*&lt;/p&gt;</description>
-      <guid isPermaLink="false">http://localhost:8080/daily-digest/2026-02-16</guid>
-      <pubDate>Mon, 16 Feb 2026 09:32:43 +0000</pubDate>
+&lt;h4&gt;📝 轻松随笔&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Em dash&lt;/strong&gt; (Simon Willison)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;作者否认使用 AI 撰写博客内容，但承认其文章中大量出现的 em dash（长破折号）可能是唯一的&amp;quot;LLM 风格&amp;quot;特征，这一自动替换习惯自 2015 年延续至今。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-02-16</guid>
+      <pubDate>Mon, 16 Feb 2026 18:57:12 +0000</pubDate>
     </item>
   </channel>
 </rss>
