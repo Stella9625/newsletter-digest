@@ -7,48 +7,24 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 16 Feb 2026 18:57:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 22:48:02 +0000</lastBuildDate>
     <item>
       <title>📰 AI/产品/技术日报 - 2026-02-16</title>
-      <description>&lt;p&gt;&lt;strong&gt;每日 AI/产品/技术日报&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;🤖 AI 编程工具与无障碍实践&lt;/h4&gt;
+      <description>&lt;p&gt;&lt;strong&gt;AI 编程与工具创新&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Rodney and Claude Code for Desktop&lt;/strong&gt; (Simon Willison)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claude 桌面端实时可视化验证&lt;/strong&gt;：Simon Willison 展示 Claude 桌面应用支持实时显示 AI 查看图片的新功能，结合 Rodney 浏览器自动化工具可即时可视化验证 AI 操作与界面测试结果，无需等待代码推送。（来源：Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Opus 与 Codex 协作最佳实践&lt;/strong&gt;：Lenny Rachitsky 介绍 AI 编程的高效分工模式——Claude Opus 负责构建、GPT-5.3 Codex 负责审查，同时探讨该流程如何帮助视障开发者消除 accessibility 障碍。（来源：Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Claude 桌面应用支持实时显示 AI &amp;quot;查看&amp;quot;的图像，结合 Rodney 浏览器自动化工具，开发者可在本地直接预览网页截图并进行可视化调试，无需等待代码推送即可验证界面效果。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;无障碍技术实践&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Opus vs. Codex 实战对决&lt;/strong&gt; (Lenny Rachitsky, *Lenny&amp;#x27;s Newsletter*)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;视障工程师的&amp;quot;个人软件&amp;quot;实践&lt;/strong&gt;：Claire Vo 报道视力受损工程师 Joe McCormick 如何利用 Claude Code 快速构建个性化 Chrome 扩展，通过定制化工具填补主流产品忽视的无障碍需求，展示 AI 开发辅助工具的实用工作流。（来源：Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;实战对比揭示 Claude Opus 4.6 擅长功能构建，而 GPT-5.3 Codex 精于代码审查，两者协同可最大化开发效率；节目同时展示视障工程师如何利用 AI 工具消除工作中的无障碍障碍。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;职场伦理与深度思考&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;视障工程师的 AI 开发实践&lt;/strong&gt; (Claire Vo, *Lenny&amp;#x27;s Newsletter*)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;视障工程师 Joe McCormick 借助 Claude Code 快速构建个性化 Chrome 扩展，通过&amp;quot;个人软件&amp;quot;填补主流产品的无障碍功能空白，体现多模态 AI 为视障群体打造定制化辅助解决方案的潜力。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;⚙️ 系统架构创新&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Gwtar：高效单文件 HTML 归档格式&lt;/strong&gt; (Simon Willison)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;新型归档格式通过在页面早期调用 &lt;code&gt;window.stop()&lt;/code&gt; 阻断浏览器完整下载，并利用 HTTP 范围请求按需加载尾随的 tar 内容，实现大型资源懒加载；但因浏览器安全限制无法直接本地打开，需借助命令行工具提取。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;🧠 AI 时代的社会与心理影响&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;The AI Vampire&lt;/strong&gt; (Simon Willison)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;警示员工借助 AI 数倍提升工作效率以取悦雇主，反而可能沦为被&amp;quot;榨干&amp;quot;的对象：公司攫取技术带来的全部价值，而使用者承受职业倦怠却无法获得相称回报，揭示&amp;quot;AI 吸血鬼&amp;quot;式的价值剥削现象。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Deep Blue：程序员的存在焦虑&lt;/strong&gt; (Simon Willison)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;提出&amp;quot;Deep Blue&amp;quot;一词概括软件开发者因生成式 AI 入侵而产生的存在主义焦虑与价值危机；当多年积累的专业技能被 AI 快速替代时，许多程序员正面临严重的心理倦怠与身份迷失。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;📝 轻松随笔&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Em dash&lt;/strong&gt; (Simon Willison)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;作者否认使用 AI 撰写博客内容，但承认其文章中大量出现的 em dash（长破折号）可能是唯一的&amp;quot;LLM 风格&amp;quot;特征，这一自动替换习惯自 2015 年延续至今。&lt;/p&gt;</description>
+&lt;li&gt;&lt;strong&gt;&amp;quot;AI 吸血鬼&amp;quot;与职业倦怠警示&lt;/strong&gt;：Simon Willison 以&amp;quot;AI 吸血鬼&amp;quot;为喻，警示员工借助 AI 超负荷工作以取悦雇主的风险——虽能短期提升产出，却会导致认知重负下的精疲力竭，而创造的价值被公司完全攫取。（来源：Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-02-16</guid>
-      <pubDate>Mon, 16 Feb 2026 18:57:12 +0000</pubDate>
+      <pubDate>Mon, 16 Feb 2026 22:48:02 +0000</pubDate>
     </item>
   </channel>
 </rss>
