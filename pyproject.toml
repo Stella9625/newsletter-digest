@@ -1,0 +1,24 @@
+[project]
+name = "newsletter-digest"
+version = "0.1.0"
+description = "Newsletter 聚合翻译工具 - 将英文 RSS 源聚合、翻译、聚类后生成中文 RSS feed"
+requires-python = ">=3.9"
+dependencies = [
+    "feedparser>=6.0",
+    "feedgen>=1.0",
+    "anthropic>=0.40",
+    "openai>=1.0",
+    "python-dotenv>=1.0",
+    "httpx>=0.27",
+    "readability-lxml>=0.8",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+newsletter-digest = "src.main:main"
