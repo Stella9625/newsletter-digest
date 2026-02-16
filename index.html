@@ -165,6 +165,12 @@
     flex-shrink: 0;
     margin-top: 2px;
   }
+  .title-en {
+    font-size: 13px;
+    color: #86868b;
+    margin: 2px 0 6px;
+    font-style: italic;
+  }
   .article-card .tags {
     display: flex;
     flex-wrap: wrap;
@@ -293,43 +299,60 @@
   <div id="tab-digest" class="tab-content active">
     <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">AI编程</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">3</span></div>
 <div class="chart-row"><span class="chart-label">Web标准</span><div class="chart-bar-bg"><div class="chart-bar" style="width:66%;background:#34c759"></div></div><span class="chart-count">2</span></div>
-<div class="chart-row"><span class="chart-label">AI伦理</span><div class="chart-bar-bg"><div class="chart-bar" style="width:66%;background:#ff9500"></div></div><span class="chart-count">2</span></div>
-<div class="chart-row"><span class="chart-label">OpenAI</span><div class="chart-bar-bg"><div class="chart-bar" style="width:66%;background:#af52de"></div></div><span class="chart-count">2</span></div>
-<div class="chart-row"><span class="chart-label">AI剥削</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">职业倦怠</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">职场策略</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">破折号</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
+<div class="chart-row"><span class="chart-label">职业发展</span><div class="chart-bar-bg"><div class="chart-bar" style="width:66%;background:#ff9500"></div></div><span class="chart-count">2</span></div>
+<div class="chart-row"><span class="chart-label">AI安全</span><div class="chart-bar-bg"><div class="chart-bar" style="width:66%;background:#af52de"></div></div><span class="chart-count">2</span></div>
+<div class="chart-row"><span class="chart-label">OpenAI</span><div class="chart-bar-bg"><div class="chart-bar" style="width:66%;background:#ff3b30"></div></div><span class="chart-count">2</span></div>
+<div class="chart-row"><span class="chart-label">AI职场</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">职业倦怠</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">劳动剥削</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
       <h2>2026-02-16 日报</h2>
-      <p><strong>LLM &amp; AI 工具</strong></p>
-<ul>
-<li><strong>Three months of OpenClaw</strong> (Simon Willison): 开源 AI 代理框架 OpenClaw 发布三个月即获近 20 万 GitHub 星标并登陆超级碗广告，创始人 Peter Steinberger 现已加入 OpenAI 并将项目移交独立基金会。</li>
-<li><strong>Quoting Boris Cherny</strong> (Simon Willison): Claude Code 创造者 Boris Cherny 指出，尽管 AI 编程工具兴起，提示工程、客户对接与产品规划等关键职责仍需人类完成，优秀工程师在 AI 时代反而更不可或缺。</li>
-<li><strong>Quoting Thoughtworks</strong> (Simon Willison): 挑战&quot;AI 淘汰初级开发者&quot;观点，认为 AI 工具反而帮助新人更快创造价值，真正面临技能重塑困境的是占行业主体的中级工程师。</li>
-<li><strong>How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt</strong> (Simon Willison): 生成式与代理式 AI 正将软件开发的隐患从&quot;技术债务&quot;转向&quot;认知债务&quot;——开发者因依赖 AI 生成代码而逐渐丧失对系统逻辑与维护方法的理解。</li>
-</ul>
-<p><strong>产品与增长</strong></p>
-<ul>
-<li><strong>Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one</strong> (Lenny Rachitsky / Lenny&#x27;s Newsletter): HubSpot 联合创始人 Brian Halligan 提出&quot;创业从未如此简单，规模化却前所未有地困难&quot;，并分享评估创始人的 LOCKS 框架与 AI 时代人才策略。</li>
-<li><strong>Community Wisdom</strong> (Kiyani / Lenny&#x27;s Newsletter): 汇总产品经理社群实战精华，涵盖 AI 编程工具应用、反向免费试用策略实施、产品管理与项目管理角色区分及咨询定价方法。</li>
-</ul>
-<p><strong>工程与系统设计</strong></p>
-<ul>
-<li><strong>Gwtar: a static efficient single-file HTML format</strong> (Simon Willison): 新型静态单文件 HTML 归档格式，通过 <code>window.stop()</code> 与 HTTP 范围请求实现按需加载，但因浏览器安全限制无法本地直接打开，需命令行提取。</li>
-<li><strong>Launching Interop 2026</strong> (Simon Willison): 浏览器互操作性项目 Interop 2026 启动，重点关注跨文档视图过渡（无需 JavaScript 实现 SPA 效果）与 WebAssembly 的 JavaScript Promise 集成。</li>
-<li><strong>Quoting Eric Meyer</strong> (Simon Willison): CSS 专家 Eric Meyer 驳斥&quot;CSS 臃肿&quot;论，指出其复杂性源于以人类可读格式覆盖视觉呈现、布局、动画等全方位功能的雄心。</li>
-<li><strong>Em dash</strong> (Simon Willison): 作者否认使用 LLM 写作，解释其文字被误认为 AI 生成的唯一&quot;破绽&quot;是一段自 2015 年沿用至今的自动标点替换代码。</li>
-</ul>
-<p><strong>跨界与深度思考</strong></p>
-<ul>
-<li><strong>The AI Vampire</strong> (Simon Willison): 警示单纯利用 AI 提升生产力以取悦雇主只会让员工被榨取价值并加剧倦怠，且 AI 将简单工作自动化后反而将高难度决策压力转移给员工。</li>
-<li><strong>Deep Blue</strong> (Simon Willison): 创造&quot;Deep Blue&quot;术语描述软件开发者因生成式 AI 入侵产生的存在主义焦虑与价值危机。</li>
-<li><strong>Anthropic&#x27;s public benefit mission</strong> (Simon Willison): 揭示 Anthropic 作为公共利益公司（非非营利组织）无需提交年度公开文件，其注册证书显示使命已从&quot;促进人类文化、社会和技术进步&quot;简化为&quot;造福人类长期利益&quot;。</li>
-<li><strong>The evolution of OpenAI&#x27;s mission statement</strong> (Simon Willison): 基于 IRS 税务文件梳理 OpenAI 使命从 2016 年强调&quot;不受财务回报约束、开放分享、安全开发&quot;逐步简化为 2024 年&quot;确保通用人工智能造福全人类&quot;的演变。</li>
-<li><strong>We URGENTLY need a federal law forbidding AI from impersonating humans</strong> (Gary Marcus): 援引哲学家丹尼特观点，呼吁制定联邦法律禁止机器输出冒充人类、限制聊天机器人使用第一人称，并规范对在世者肖像和声音的 AI 合成。</li>
-<li><strong>Irony, Irony laced with Karma, and Terror</strong> (Gary Marcus): 讽刺 OpenAI 在知识产权问题上的双重标准，同时警示马斯克为追求速度解雇 xAI 安全团队的安全隐患。</li>
-<li><strong>Reading list 02/14/26</strong> (Brian Potter / Construction Physics): 建筑与工业技术动态汇编，涵盖美国住房立法、AI 数据中心建设拉动光纤需求、中国汽车入美预期影响及特朗普政府金属关税政策调整。</li>
-</ul>
+      <p><strong>AI 科技日报</strong></p>
+<p>*2026年2月15日*</p>
+<hr>
+<h4>LLM &amp; AI 工具</h4>
+<p><strong>警惕&quot;AI吸血鬼&quot;与开发者存在焦虑</strong></p>
+<p>Simon Willison 创造&quot;Deep Blue&quot;一词描述程序员因生成式AI入侵产生的职业倦怠与存在危机；同时警示盲目用AI追求十倍生产力反致身心俱疲且难获相应回报，形成&quot;AI吸血鬼&quot;式劳动剥削。</p>
+<p>*来源：Simon Willison*</p>
+<p><strong>从技术债务到认知债务</strong></p>
+<p>随着AI编程普及，软件开发的核心风险正从传统技术债务转向&quot;认知债务&quot;——开发者过度依赖AI生成代码将逐渐丧失对系统逻辑的深层理解，最终导致维护困难。</p>
+<p>*来源：Simon Willison*</p>
+<p><strong>AI代理框架OpenClaw爆发</strong></p>
+<p>开源AI代理框架OpenClaw发布三个月内GitHub星标近20万并亮相超级碗广告；创始人Peter Steinberger宣布加入OpenAI，计划将项目所有权转移至独立基金会。</p>
+<p>*来源：Simon Willison*</p>
+<p><strong>AI时代工程师价值重估</strong></p>
+<p>Claude Code创造者Boris Cherny强调AI时代仍需工程师提示AI、沟通客户并决策产品方向；Thoughtworks则指出AI加速初级开发者成长，但中级工程师的技能重塑仍是行业难题。</p>
+<p>*来源：Simon Willison*</p>
+<hr>
+<h4>产品与增长</h4>
+<p><strong>创业易，规模化难</strong></p>
+<p>红杉资本CEO教练、HubSpot联合创始人Brian Halligan解析当下&quot;创业门槛降低但规模化扩张困难&quot;的现状，分享评估创始人的LOCKS框架及2004红袜队式团队组建策略。</p>
+<p>*来源：Lenny&#x27;s Newsletter*</p>
+<p><strong>PM实践智慧集锦</strong></p>
+<p>社区讨论精选：产品经理如何有效运用AI编程工具、实施反向免费试用策略（reverse free trials）、区分产品管理与项目管理角色，以及咨询工作定价方法。</p>
+<p>*来源：Lenny&#x27;s Newsletter (Kiyani)*</p>
+<hr>
+<h4>工程与系统设计</h4>
+<p><strong>Gwtar：单文件HTML归档新格式</strong></p>
+<p>一种静态高效的单文件HTML格式，通过在文档头部调用<code>window.stop()</code>阻止完整下载，并利用HTTP范围请求按需从内联tar数据中提取资源，实现大型媒体懒加载。</p>
+<p>*来源：Simon Willison*</p>
+<p><strong>Interop 2026启动</strong></p>
+<p>浏览器兼容性项目Interop 2026正式启动，延续95%+兼容性目标，今年重点实现无需JavaScript的跨文档视图过渡（SPA式页面转场）及WebAssembly JavaScript Promise集成。</p>
+<p>*来源：Simon Willison*</p>
+<p><strong>为CSS正名</strong></p>
+<p>Web标准专家Eric Meyer反驳&quot;CSS臃肿混乱&quot;批评，指出CSS以人类可读文本覆盖视觉呈现、布局、动画等全流程，是雄心勃勃而非过度膨胀的技术体系。</p>
+<p>*来源：Simon Willison*</p>
+<hr>
+<h4>跨界与深度思考</h4>
+<p><strong>OpenAI与Anthropic使命演变</strong></p>
+<p>梳理税表显示，OpenAI使命从强调&quot;非盈利约束&quot;和&quot;开放分享&quot;的详细表述简化为口号式&quot;确保AGI造福全人类&quot;，折射商业化转型；Anthropic公司章程也显示其公益使命从&quot;促进文化技术进步&quot;缩减为&quot;长期造福人类&quot;。</p>
+<p>*来源：Simon Willison*</p>
+<p><strong>AI安全与立法紧迫性</strong></p>
+<p>Gary Marcus紧急呼吁制定联邦法律严禁AI冒充人类以防深度伪造诈骗；同时讽刺OpenAI长期侵犯知识产权却反诉被抄袭的荒诞，并警示xAI为赶超OpenAI解散安全团队的严重风险。</p>
+<p>*来源：Gary Marcus*</p>
+<p><strong>建筑与工业技术周报</strong></p>
+<p>美英住房政策改革（纽约分区调整、伦敦新房开工创40年新低）、南地中海建筑安全危机，以及AI数据中心驱动的光纤需求激增、中国汽车潜在进入美国市场等制造业动态。</p>
+<p>*来源：Construction Physics (Brian Potter)*</p>
     </div>
   </div>
 
@@ -338,33 +361,50 @@
     <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">The AI Vampire</div>
+        <div class="title">AI吸血鬼</div>
         <span class="tone-pill" style="background:#ffe4e6;color:#be123c">😤 批评</span>
       </div>
-      <div class="tags"><span class="tag">AI剥削</span><span class="tag">职业倦怠</span><span class="tag">职场策略</span></div>
-      <div class="summary">作者指出，单纯利用AI提升生产力以取悦雇主往往只会让员工被公司榨取全部价值而难以获得相应回报，并加剧职业倦怠；同时AI在自动化简单工作的同时，反而将高难度的决策与问题解决压力转移给员工，加重了认知负担。</div>
+      <div class="title-en">The AI Vampire</div>
+      <div class="tags"><span class="tag">AI职场</span><span class="tag">职业倦怠</span><span class="tag">劳动剥削</span></div>
+      <div class="summary">文章指出，员工若盲目利用AI追求十倍生产力以讨好雇主，最终只会被公司榨取全部价值，既难获相应回报又会招致同事反感，且因认知负担而身心俱疲。作者将这种现象喻为&quot;AI吸血鬼&quot;，并强调AI虽自动化了简单工作，却加重了决策压力，反而限制了可持续的工作强度。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">You&#x27;re tired, Boss. You got nothing for it.</div><div class="quote-zh">你累坏了，老大。但你一无所获。</div></div>
-<div class="quote-block"><div class="quote-en">But now with AI, it&#x27;s oh, so much easier.</div><div class="quote-zh">但如今有了AI，哦，这一切变得容易多了。</div></div>
+<div class="quote-block"><div class="quote-en">You&#x27;re tired, Boss. You got nothing for it.</div><div class="quote-zh">你累坏了，老板。可你啥也没捞着。</div></div>
+<div class="quote-block"><div class="quote-en">But now with AI, it&#x27;s oh, so much easier.</div><div class="quote-zh">但现在有了AI，这事儿变得——哦——容易多了。</div></div>
 </div>
-      <div class="translation"><p>AI吸血鬼</p>
-<blockquote>假设你是公司里唯一一个使用AI（人工智能）的人。在情景A中，你决定要给雇主留下深刻印象，每天工作8小时，但产出效率是原来的10倍。你表现出色，让其他所有人相形见绌。</blockquote>
-<blockquote></blockquote>
-<blockquote>在这种情景下，你的雇主攫取了你采用AI带来的100%价值。你一无所获，或者至少，你的薪水不会变成原来的9倍。而且现在所有人都讨厌你。</blockquote>
-<blockquote></blockquote>
-<blockquote>而且你*精疲力竭*。你累了，老板。你为此一无所获。</blockquote>
-<blockquote></blockquote>
-<blockquote>恭喜你，你刚被公司榨干了。我在职业生涯中曾多次被榨干到倦怠（burnout）的地步，甚至在Google也有一两次。但现在有了AI，这变得如此容易。</blockquote>
-<p>假设你是公司里唯一一个使用AI（人工智能）的人。</p>
-<p>在情景A中，你决定要给雇主留下深刻印象，每天工作8小时，但产出效率是原来的10倍。你表现出色，让其他所有人相形见绌。</p>
-<p>在这种情景下，你的雇主攫取了你采用AI带来的100%价值。你一无所获，或者至少，你的薪水不会变成原来的9倍。而且现在所有人都讨厌你。</p>
-<p>而且你*精疲力竭*。你累了，老板。你为此一无所获。</p>
-<p>恭喜你，你刚被公司榨干了。我在职业生涯中曾多次被榨干到倦怠（burnout）的地步，甚至在Google也有一两次。但现在有了AI，这变得如此容易。</p>
-<p>Steve报告称，由于agentic engineering（智能体工程）带来的认知负担，他需要更多睡眠，并指出每天四小时的agent（智能体）工作才是更现实的节奏：</p>
-<blockquote>我曾提出，AI通过自动化简单的工作，把困难的决定、总结和问题解决都留给了我们，这让我们所有人都变成了杰夫·贝索斯（Jeff Bezos）。我发现，即使经过大量练习，我也只能在每天一次或偶尔两次的短时段内，以这种节奏舒适地工作几个小时。</blockquote>
-<p>我曾提出，AI通过自动化简单的工作，把困难的决定、总结和问题解决都留给了我们，这让我们所有人都变成了杰夫·贝索斯（Jeff Bezos）。我发现，即使经过大量练习，我也只能在每天一次或偶尔两次的短时段内，以这种节奏舒适地工作几个小时。</p>
-<p>Via Tim Bray</p>
-<p>Tags: steve-yegge, ai（人工智能）, generative-ai（生成式AI）, llms（大语言模型）, ai-assisted-programming（AI辅助编程）, ai-ethics（AI伦理）, coding-agents（编程智能体）</p></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">The AI Vampire（AI 吸血鬼）</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Let's pretend you're the only person at your company using AI.In Scenario A, you decide you're going to impress your employer, and work for 8 hours a day at 10x productivity. You knock it out of the park and make everyone else look terrible by comparison.In that scenario, your employer captures 100% of the value fromyouadopting AI. You get nothing, or at any rate, it ain't gonna be 9x your salary. And everyone hates you now.And you'reexhausted.You're tired, Boss. You got nothing for it.Congrats, you were just drained by a company. I've been drained to the point of burnout several times in my career, even at Google once or twice. But now with AI, it's oh, so much easier.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">假设你是公司中唯一一个使用 <strong style="color:#c0392b">AI</strong>（人工智能）的人。在场景 A 中，你决定要给 <strong style="color:#c0392b">employer</strong>（雇主）留下深刻印象，每天工作 8 小时，产出达到 10 倍的 <strong style="color:#c0392b">productivity</strong>（生产力）。你表现出色，让其他所有人相形见绌。在这种情况下，你的雇主从你采用 AI 的行为中攫取了 100% 的 <strong style="color:#c0392b">value</strong>（价值）。你一无所获，或者无论如何，你的薪水也不会变成原来的 9 倍。而且现在所有人都讨厌你。而且你<strong style="color:#c0392b">精疲力尽</strong>（exhausted）。老板，你累坏了。你为此付出了却一无所获。恭喜，你刚被一家公司榨干了。在我的职业生涯中，我曾多次被压榨到 <strong style="color:#c0392b">burnout</strong>（职业倦怠）的地步，即使在 <strong style="color:#2471a3">Google</strong>（谷歌）也有一两次。但现在有了 AI，这一切变得如此简单。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Let's pretend you're the only person at your company using AI.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">假设你是公司中唯一一个使用 <strong style="color:#c0392b">AI</strong>（人工智能）的人。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">In Scenario A, you decide you're going to impress your employer, and work for 8 hours a day at 10x productivity. You knock it out of the park and make everyone else look terrible by comparison.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">在 <strong style="color:#c0392b">Scenario A</strong>（场景 A）中，你决定要给雇主留下深刻印象，每天工作 8 小时，产出达到 10 倍的 <strong style="color:#c0392b">productivity</strong>（生产力）。你表现出色，让其他所有人相形见绌。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">In that scenario, your employer captures 100% of the value fromyouadopting AI. You get nothing, or at any rate, it ain't gonna be 9x your salary. And everyone hates you now.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">在这种情况下，你的雇主从你采用 <strong style="color:#c0392b">AI</strong> 的行为中攫取了 100% 的 <strong style="color:#c0392b">value</strong>（价值）。你一无所获，或者无论如何，你的薪水也不会变成原来的 9 倍。而且现在所有人都讨厌你。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">And you'reexhausted.You're tired, Boss. You got nothing for it.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">而且你<strong style="color:#c0392b">精疲力尽</strong>（exhausted）。老板，你累坏了。你为此付出了却一无所获。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Congrats, you were just drained by a company. I've been drained to the point of burnout several times in my career, even at Google once or twice. But now with AI, it's oh, so much easier.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">恭喜，你刚被一家公司<strong style="color:#c0392b">榨干</strong>（drained）了。在我的职业生涯中，我曾多次被压榨到 <strong style="color:#c0392b">burnout</strong>（职业倦怠）的地步，即使在 <strong style="color:#2471a3">Google</strong>（谷歌）也有一两次。但现在有了 <strong style="color:#c0392b">AI</strong>，这一切变得如此简单。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Steve reports needing more sleep due to the cognitive burden involved in agentic engineering, and notes that four hours of agent work a day is a more realistic pace:</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#2471a3">Steve</strong> 报告称，由于 <strong style="color:#c0392b">agentic engineering</strong>（智能体工程）带来的 <strong style="color:#c0392b">cognitive burden</strong>（认知负担），他需要更多的睡眠，并指出每天进行四小时的 <strong style="color:#c0392b">agent</strong>（智能体）工作是一个更现实的节奏：</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">I’ve argued that AI has turned us all into Jeff Bezos, by automating the easy work, and leaving us with all the difficult decisions, summaries, and problem-solving. I find that I am only really comfortable working at that pace for short bursts of a few hours once or occasionally twice a day, even with lots of practice.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">我曾提出，<strong style="color:#c0392b">AI</strong> 通过自动化简单的工作，把困难的决定、总结和问题解决都留给了我们，从而让我们所有人都变成了 <strong style="color:#2471a3">Jeff Bezos</strong>（杰夫·贝索斯）。我发现，即使经过大量练习，我也只能在每天一次或偶尔两次的短时段内，以那样的节奏舒适地工作几个小时。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">I’ve argued that AI has turned us all into Jeff Bezos, by automating the easy work, and leaving us with all the difficult decisions, summaries, and problem-solving. I find that I am only really comfortable working at that pace for short bursts of a few hours once or occasionally twice a day, even with lots of practice.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">我曾提出，<strong style="color:#c0392b">AI</strong> 通过自动化简单的工作，把困难的决定、总结和问题解决都留给了我们，从而让我们所有人都变成了 <strong style="color:#2471a3">Jeff Bezos</strong>（杰夫·贝索斯）。我发现，即使经过大量练习，我也只能在每天一次或偶尔两次的短时段内，以那样的节奏舒适地工作几个小时。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">ViaTim Bray</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">Via <strong style="color:#2471a3">Tim Bray</strong></p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Tags:steve-yegge,ai,generative-ai,llms,ai-assisted-programming,ai-ethics,coding-agents</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">标签：<strong style="color:#2471a3">steve-yegge</strong>、<strong style="color:#c0392b">ai</strong>、<strong style="color:#c0392b">generative-ai</strong>（生成式人工智能）、<strong style="color:#c0392b">llms</strong>（大语言模型）、<strong style="color:#c0392b">ai-assisted-programming</strong>（AI 辅助编程）、<strong style="color:#c0392b">ai-ethics</strong>（AI 伦理）、<strong style="color:#c0392b">coding-agents</strong>（编程智能体）</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -372,17 +412,34 @@
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">Em dash</div>
+        <div class="title">破折号代码</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="tags"><span class="tag">破折号</span><span class="tag">博客</span><span class="tag">LLM</span></div>
-      <div class="summary">作者否认使用LLM撰写博客内容，但指出其文字被误认为AI生成的唯一&quot;破绽&quot;是一段从2015年沿用至今的代码——该代码会自动将短横线替换为em dash（—）。</div>
+      <div class="title-en">Em dash</div>
+      <div class="tags"><span class="tag">破折号</span><span class="tag">编程</span><span class="tag">博客</span></div>
+      <div class="summary">作者否认使用大语言模型撰写博客内容，但坦承其写作中唯一带有&quot;AI味&quot;的部分是一段自2015年博客迁移以来沿用至今的代码——该代码用于自动将短横线替换为em破折号。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">I don&#x27;t do that, and I don&#x27;t think my writing has much of an LLM smell to it... with one notable exception:</div><div class="quote-zh">我没有那样做，而且我认为我的写作没有什么大语言模型的味道……除了一个明显的例外：</div></div>
+<div class="quote-block"><div class="quote-en">I don&#x27;t do that, and I don&#x27;t think my writing has much of an LLM smell to it... with one notable exception:</div><div class="quote-zh">我没有那么做，而且我觉得我的文章没有什么&#x27;LLM味儿&#x27;……除了一个明显的例外：</div></div>
 </div>
-      <div class="translation"><p>我偶尔会被指责使用 LLMs（大型语言模型）来撰写博客内容。我并不会这样做，而且我认为我的写作并没有什么 LLM 的味道……除了一个明显的例外：</p>
-<pre><code># Finally, do em dashess=s.replace(&#x27; - &#x27;,u&#x27;\u2014&#x27;)</code></pre>
-<p>这段用于在文章中添加 em dash（长破折号）的代码至少可以追溯到 2015 年，当时我将博客从一个旧版本的 Django（存储在一个早已遗失的 Mercurial 仓库中）迁移出来，并在 GitHub 上重新开始。</p></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Em dash（长破折号）</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+I'm occasionally accused of using <strong style="color:#c0392b">LLMs</strong> to write the content on my blog. I don't do that, and I don't think my writing has much of an LLM smell to it... with one notable exception:
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+我偶尔被指责使用 <strong style="color:#c0392b">LLMs</strong>（大语言模型，Large Language Models）来撰写博客内容。我并没有这样做，而且我认为我的写作并没有太多 LLM 的气息……除了一个显著的例外：
+</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code># Finally, do em dashess=s.replace(' - ',u'\u2014')</code></pre>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+That code to add <strong style="color:#c0392b">em dashes</strong> to my posts dates back toat least 2015 when I ported my blog from an older version of <strong style="color:#2471a3">Django</strong> (in a long-lost <strong style="color:#2471a3">Mercurial</strong> repository) and started afresh on <strong style="color:#2471a3">GitHub</strong>.
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+这段为我的文章添加<strong style="color:#c0392b">长破折号</strong>（em dashes）的代码至少可以追溯到 2015 年，当时我将博客从一个旧版本的 <strong style="color:#2471a3">Django</strong> 框架（在一个早已遗失的 <strong style="color:#2471a3">Mercurial</strong> 仓库中）迁移出来，并在 <strong style="color:#2471a3">GitHub</strong> 上重新开始。
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://simonwillison.net/2026/Feb/15/em-dashes/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -390,58 +447,238 @@
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">Deep Blue</div>
+        <div class="title">Deep Blue：AI引发的程序员存在危机</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="tags"><span class="tag">AI焦虑</span><span class="tag">程序员</span><span class="tag">存在危机</span></div>
-      <div class="summary">文章创造了&quot;Deep Blue&quot;（深蓝）一词，用以描述软件开发者因生成式AI入侵而产生的职业倦怠与存在主义焦虑，探讨了技术人面对多年积累技能被取代时的价值危机与心理困境。</div>
+      <div class="title-en">Deep Blue</div>
+      <div class="tags"><span class="tag">AI焦虑</span><span class="tag">程序员心理</span><span class="tag">存在危机</span></div>
+      <div class="summary">文章创造了&quot;Deep Blue&quot;一词，用以描述软件开发者因生成式AI快速侵入编程领域而产生的职业倦怠与存在主义焦虑；作者结合个人经历指出，这种&quot;被AI取代&quot;的心理危机正在给技术社区带来真实的痛苦，需要被正视和集体讨论。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">But on the other hand... what was I even for?</div><div class="quote-zh">但另一方面……我还有什么存在的意义呢？</div></div>
-<div class="quote-block"><div class="quote-en">The idea that this could all be stripped away by a chatbot is deeply upsetting.</div><div class="quote-zh">想到这一切都可能被一个聊天机器人剥夺，令人深感不安。</div></div>
+<div class="quote-block"><div class="quote-en">The idea that this could all be stripped away by a chatbot is deeply upsetting.</div><div class="quote-zh">想到这一切可能被一个聊天机器人夺走，令人深感不安。</div></div>
+<div class="quote-block"><div class="quote-en">I dedicated my career to learning this thing and now it just does it. What am I even for?</div><div class="quote-zh">我毕生致力于学习这门技艺，现在它却能直接做到了。那我还有什么用呢？</div></div>
 </div>
-      <div class="translation"><p>文章标题: Deep Blue</p>
-<p>上个月，我们在Oxide and Friends播客中创造了一个新的术语（主要归功于Adam Leventhal），用以描述一种心理状态：由于生成式AI（generative AI）对其工作领域的侵蚀，许多软件开发者正感受到心理倦怠（ennui）逐渐演变为存在主义焦虑（existential dread）。</p>
-<p>我们称之为<strong>Deep Blue</strong>。</p>
-<p>你可以在那一集的第47分15秒实时听到这个术语的诞生过程。我在下方附上了一段转录文字。</p>
-<p>Deep Blue是一个切实存在的问题。</p>
-<p>成为一名职业软件工程师很难。要达到足以让人付费请你写代码的水平，需要数年的专注投入。回报是丰厚的：这是一份薪酬优厚的职业，能为你开启诸多绝佳的机会。</p>
-<p>这也是一份几乎没有门槛和昂贵先决条件的职业。你不需要昂贵的学位或认证（accreditation）。一台笔记本电脑、一个网络连接，再加上大量的时间和好奇心，就足以让你起步。</p>
-<p>而且这份职业会奖励极客（nerds）！那些在青少年时期花大量时间捣鼓计算机的人，事实证明是对未来的一笔非常聪明的投资。</p>
-<p>想到这一切可能被一个聊天机器人（chatbot）夺走，实在令人深感不安。</p>
-<p>我在大多数常逛的在线社区中都看到了Deep Blue的迹象。甚至有同行指责我，认为我通过帮助人们理解AI辅助编程（AI-assisted programming）的效果，正在 actively harming（主动损害）他们未来的职业生涯。</p>
-<p>我认为这个问题正在给我们社区中的许多人造成 genuine mental anguish（真正的精神痛苦）。给它一个名字，能让我们更容易就此展开对话。</p>
-<h4>我的Deep Blue经历</h4>
-<p>我清楚记得第一次经历Deep Blue的情形。对我来说，它是在2023年初由ChatGPT代码解释器（Code Interpreter）触发的。</p>
-<p>我的主要项目是Datasette，一个用数据讲故事的开源工具生态系统。我曾致力于帮助人们（最初聚焦于记者）清理、分析并从各种形式的数据中寻找意义。</p>
-<p>我原以为为此需要构建大量软件！这感觉像是一个能让我愉快投入多年的挑战。</p>
-<p>然后，我尝试将一份包含数十万行的旧金山警察局事件报告（San Francisco Police Department Incident Reports）CSV文件上传到ChatGPT Code Interpreter……结果，仅凭几个提示词，它就完成了我未来几年餐巾纸路线图（napkin roadmap）上列出的所有数据清理和分析工作。</p>
-<p>它甚至将数据转换成了一个规范化的SQLite数据库（normalized SQLite database），并让我下载了结果！</p>
-<p>我记得当时脑海中同时闪过两个相互矛盾的念头。</p>
-<p>一方面，作为一个希望记者能更好地利用数据的人，这感觉像是一个huge breakthrough（重大突破）。想象一下，给世界上每位记者都配备一位随叫随到的分析师，帮助他们解决任何能想到的数据问题！</p>
-<p>但另一方面……我还有什么用呢？我对自己项目价值的信心遭受了沉重打击。我为自己选择的道路突然间变成了一条死胡同（dead end）？</p>
-<p>就在过去几周，由于Claude Opus 4.5/4.6和GPT-5.2/5.3的编码智能体（coding agent）效应，我又经历了几波Deep Blue的痛苦。正如许多其他人也观察到的，最新一代的coding agents（编码智能体），只要给对提示词，确实能连续运转几分钟到几小时，产出符合给定标准、可运行的、有文档记录的、经过充分测试的软件。</p>
-<p>&quot;它们写的代码质量不行&quot;这种说法现在已经不再奏效了。</p>
-<h4>经过轻微编辑的对话转录</h4>
-<blockquote>Bryan：我认为我们将看到AI引发的倦怠（AI induced ennui）成为一个真正的问题，特别是软件工程师会变得无精打采（listless），因为AI什么都能做。Simon，你怎么看？</blockquote>
-<blockquote>Simon：确实如此。任何密切关注coding agents（编码智能体）的人都已经感受到了这一点。某种程度上，当你意识到自己仍然有价值时，你就会挺过去，尽管你现在完全不需要记忆编程语言的语法了。</blockquote>
-<blockquote>我看到很多人正在经历存在主义危机（existential crises），他们非常、非常不开心，因为他们觉得：&quot;我 dedicate（奉献）了我的职业生涯来学习这个东西，现在它自己就会做了。我究竟是为了什么存在的？&quot;我很乐意试图说服那些人，他们存在的意义有很多，他们积累的经验一点也没有浪费，但从心理层面来说，这对软件工程师来说是一段艰难的时期。</blockquote>
-<blockquote>[...]</blockquote>
-<blockquote>Bryan：好吧，我预测我们会给这种感觉命名。不管那是什么，我们会给这种感觉、这种——不管你想称之为忧郁（blueness）还是目标丧失（loss of purpose）——一个名字，而且我们会以有方向性的方式集体应对它。</blockquote>
-<blockquote>Adam：好吧，这是你的高光时刻。选个名字吧。如果你现在call your shot（提前宣布），这就像你pointing to the stands（指向看台）。你知道，我——就像deep blue，你知道的。</blockquote>
-<blockquote>Bryan：是啊，deep blue。我喜欢这个。我喜欢deep blue。Deep blue。哦，你是不是walk me into that（给我设套）了，你个混蛋？你just blew out the candles on my birthday cake（吹灭了我生日蛋糕上的蜡烛/抢了我的风头）。</blockquote>
-<blockquote>这根本不是我的高光时刻。那是你的高光时刻。不，那个，Adam，那个非常棒。那就是deep blue。</blockquote>
-<blockquote>Simon：所有国际象棋和围棋选手在十年前都经历过这一切，而且他们变得更强了。</blockquote>
-<p>Bryan：我认为我们将看到AI引发的倦怠成为一个真正的问题，特别是软件工程师会变得无精打采，因为AI什么都能做。Simon，你怎么看？</p>
-<p>Simon：确实如此。任何密切关注coding agents的人都已经感受到了这一点。某种程度上，当你意识到自己仍然有价值时，你就会挺过去，尽管你现在完全不需要记忆编程语言的语法了。</p>
-<p>我看到很多人正在经历存在主义危机，他们非常、非常不开心，因为他们觉得：&quot;我奉献了我的职业生涯来学习这个东西，现在它自己就会做了。我究竟是为了什么存在的？&quot;我很乐意试图说服那些人，他们存在的意义有很多，他们积累的经验一点也没有浪费，但从心理层面来说，这对软件工程师来说是一段艰难的时期。</p>
-<p>[...]</p>
-<p>Bryan：好吧，我预测我们会给这种感觉命名。不管那是什么，我们会给这种感觉、这种——不管你想称之为忧郁还是目标丧失——一个名字，而且我们会以有方向性的方式集体应对它。</p>
-<p>Adam：好吧，这是你的高光时刻。选个名字吧。如果你现在提前宣布，这就像你指向看台。你知道，我——就像deep blue，你知道的。</p>
-<p>Bryan：是啊，deep blue。我喜欢这个。我喜欢deep blue。Deep blue。哦，你是不是给我设套了，你个混蛋？你吹灭了我生日蛋糕上的蜡烛。</p>
-<p>这根本不是我的高光时刻。那是你的高光时刻。不，那个，Adam，那个非常棒。那就是deep blue。</p>
-<p>Simon：所有国际象棋和围棋选手在十年前都经历过这一切，而且他们变得更强了。</p>
-<p>原来那已经是二十多年前的事了：Deep Blue于1997年击败了Garry Kasparov（加里·卡斯帕罗夫）。</p>
-<p>Tags: definitions, careers, ai, generative-ai, llms, ai-assisted-programming, oxide, bryan-cantrill, ai-ethics, coding-agents</p></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Deep Blue</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+We coined a new term on the <strong style="color:#2471a3">Oxide and Friends</strong> podcast last month (primary credit to <strong style="color:#2471a3">Adam Leventhal</strong>) covering the sense of psychological ennui leading into existential dread that many software developers are feeling thanks to the encroachment of <strong style="color:#c0392b">generative AI</strong> (生成式人工智能) into their field of work.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+上个月，我们在 <strong style="color:#2471a3">Oxide and Friends</strong> 播客中创造了一个新的术语（主要归功于 <strong style="color:#2471a3">Adam Leventhal</strong>），用以描述许多软件开发者在 <strong style="color:#c0392b">generative AI</strong>（生成式人工智能）侵入其工作领域时所感受到的那种心理倦怠（ennui）演变成存在性恐惧（existential dread）的感觉。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+We're calling it <strong style="color:#c0392b">Deep Blue</strong>.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+我们称之为 <strong style="color:#c0392b">Deep Blue</strong>（深蓝焦虑）。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+You can listen to it being coined in real time from 47:15 in the episode. I've included a transcript below.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+你可以在节目的 47:15 处实时收听这个术语的诞生过程。我在下方附上了文字记录。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Deep Blue is a very real issue.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+Deep Blue 是一个非常真实的问题。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Becoming a professional <strong style="color:#c0392b">software engineer</strong> (软件工程师) is hard. Getting good enough for people to pay you money to write software takes years of dedicated work. The rewards are significant: this is a well compensated career which opens up a lot of great opportunities.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+成为一名职业的 <strong style="color:#c0392b">software engineer</strong>（软件工程师）很难。要达到能让别人花钱请你写软件的水平，需要多年的专注努力。回报是丰厚的：这是一个报酬丰厚的职业，能带来许多绝佳的机会。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+It's also a career that's mostly free from gatekeepers and expensive prerequisites. You don't need an expensive degree or accreditation. A laptop, an internet connection and a lot of time and curiosity is enough to get you started.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+这也是一个基本上没有门槛和昂贵先决条件的职业。你不需要昂贵的学位或认证。一台笔记本电脑、一个互联网连接，加上大量的时间和好奇心，就足以让你入门。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+And it rewards the nerds! Spending your teenage years tinkering with computers turned out to be a very smart investment in your future.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+而且它奖励极客们！在青少年时期花时间摆弄电脑，结果证明是对未来的非常明智的投资。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+The idea that this could all be stripped away by a chatbot is deeply upsetting.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+想到这一切都可能被一个聊天机器人剥夺，令人深感不安。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+I've seen signs of Deep Blue in most of the online communities I spend time in. I've even faced accusations from my peers that I am actively harming their future careers through my work helping people understand how well AI-assisted programming can work.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+我在大多数常去的在线社区中都看到了 Deep Blue 的迹象。我甚至遭到同行的指责，说我通过帮助他人理解 AI 辅助编程的效果，正在积极损害他们未来的职业生涯。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+I think this is an issue which is causing genuine mental anguish for a lot of people in our community. Giving it a name makes it easier for us to have conversations about it.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+我认为这个问题正在给我们的社区中的许多人带来真正的精神痛苦。给它一个名字，让我们能够更容易地就此展开对话。
+</p>
+
+<h4 style="margin:24px 0 12px;">My experiences of Deep Blue</h4>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+I distinctly remember my first experience of Deep Blue. For me it was triggered by <strong style="color:#c0392b">ChatGPT Code Interpreter</strong> back in early 2023.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+我清楚地记得我第一次经历 Deep Blue 的情景。对我来说，它是由 2023 年初的 <strong style="color:#c0392b">ChatGPT Code Interpreter</strong>（ChatGPT 代码解释器）触发的。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+My primary project is <strong style="color:#c0392b">Datasette</strong>, an ecosystem of open source tools for telling stories with data. I had dedicated myself to the challenge of helping people (initially focusing on journalists) clean up, analyze and find meaning in data, in all sorts of shapes and sizes.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+我的主要项目是 <strong style="color:#c0392b">Datasette</strong>，一个用数据讲故事的开源工具生态系统。我致力于帮助人们（最初专注于记者）清理、分析并从各种形状和规模的数据中发现意义的挑战。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+I expected I would need to build a lot of software for this! It felt like a challenge that could keep me happily engaged for many years to come.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+我原以为为此需要构建大量的软件！这感觉像是一个能让我在未来多年里愉快投入的挑战。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Then I tried uploading a CSV file of San Francisco Police Department Incident Reports - hundreds of thousands of rows - to ChatGPT Code Interpreter and... it did every piece of data cleanup and analysis I had on my napkin roadmap for the next few years with a couple of prompts.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+然后我尝试将一份旧金山警察局事件报告（San Francisco Police Department Incident Reports）的 CSV 文件——包含数十万行数据——上传到 ChatGPT Code Interpreter，结果……它通过几个提示词，就完成了我餐巾纸上未来几年的路线图中规划的所有数据清理和分析工作。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+It even converted the data into a neatly normalized <strong style="color:#c0392b">SQLite</strong> database and let me download the result!
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+它甚至将数据转换成了一个规范整洁的 <strong style="color:#c0392b">SQLite</strong> 数据库，并让我下载了结果！
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+I remember having two competing thoughts in parallel.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+我记得当时脑海中同时有两个相互矛盾的想法。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+On the one hand, as somebody who wants journalists to be able to do more with data, this felt like a huge breakthrough. Imagine giving every journalist in the world an on-demand analyst who could help them tackle any data question they could think of!
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+一方面，作为一个希望记者能够更好地利用数据的人，这感觉像是一个巨大的突破。想象一下，如果给世界上每一位记者都配备一名随叫随到的分析师，帮助他们解决任何能想到的数据问题！
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+But on the other hand... what was I even for? My confidence in the value of my own projects took a painful hit. Was the path I'd chosen for myself suddenly a dead end?
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+但另一方面……那我还有什么用呢？我对自己项目价值的信心受到了沉重的打击。我为自己选择的道路突然变成死胡同了吗？
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+I've had some further pangs of Deep Blue just in the past few weeks, thanks to the <strong style="color:#c0392b">Claude Opus</strong> 4.5/4.6 and <strong style="color:#c0392b">GPT-5.2/5.3</strong> <strong style="color:#c0392b">coding agent</strong> (编码代理) effect. As many other people are also observing, the latest generation of coding agents, given the right prompts, really can churn away for a few minutes to several hours and produce working, documented and fully tested software that exactly matches the criteria they were given.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+就在过去几周，由于 <strong style="color:#c0392b">Claude Opus</strong> 4.5/4.6 和 <strong style="color:#c0392b">GPT-5.2/5.3</strong> 的 <strong style="color:#c0392b">coding agent</strong>（编码代理）效应，我又经历了几次 Deep Blue 的刺痛。正如许多其他人也观察到的那样，最新一代的编码代理，只要给出合适的提示词，真的能够持续工作几分钟到几个小时，生成可运行、有文档记录且经过充分测试的软件，完全符合给定的标准。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+"The code they write isn't any good" doesn't really cut it any more.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+"它们写的代码不够好"这种说法已经站不住脚了。
+</p>
+
+<h4 style="margin:24px 0 12px;">A lightly edited transcript</h4>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+<strong style="color:#2471a3">Bryan</strong>: I think that we're going to see a real problem with AI induced ennui where software engineers in particular get listless because the AI can do anything. <strong style="color:#2471a3">Simon</strong>, what do you think about that?
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+<strong style="color:#2471a3">Bryan</strong>：我认为我们将看到 AI 引起的倦怠（ennui）成为一个真正的问题，特别是软件工程师会变得无精打采，因为 AI 什么都能做。<strong style="color:#2471a3">Simon</strong>，你怎么看？
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+<strong style="color:#2471a3">Simon</strong>: Definitely. Anyone who's paying close attention to <strong style="color:#c0392b">coding agents</strong> is feeling some of that already. There's an extent where you sort of get over it when you realize that you're still useful, even though your ability to memorize the syntax of program languages is completely irrelevant now.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+<strong style="color:#2471a3">Simon</strong>：确实。任何密切关注 <strong style="color:#c0392b">coding agents</strong>（编码代理）的人都已经感受到了这一点。在某种程度上，当你意识到自己仍然有用时，你就会克服这种感觉，尽管你记忆编程语言语法的能力现在已经完全无关紧要了。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Something I see a lot of is people out there who are having existential crises and are very, very unhappy because they're like, "I dedicated my career to learning this thing and now it just does it. What am I even for?". I will very happily try and convince those people that they are for a whole bunch of things and that none of that experience they've accumulated has gone to waste, but psychologically it's a difficult time for software engineers.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+我经常看到有些人正在经历存在危机，非常非常不开心，因为他们觉得："我 dedicating 了我的职业生涯来学习这些东西，现在它就这么做到了。我到底还有什么用？" 我会非常乐意试图说服那些人，他们仍然有很多价值，他们积累的所有经验都没有白费，但从心理上讲，这对软件工程师来说是一个艰难的时期。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+[...]
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+[……]
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+<strong style="color:#2471a3">Bryan</strong>: Okay, so I'm going to predict that we name that. Whatever that is, we have a name for that kind of feeling and that kind of, whether you want to call it a blueness or a loss of purpose, and that we're kind of trying to address it collectively in a directed way.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+<strong style="color:#2471a3">Bryan</strong>：好的，我预测我们会给这种感觉命名。不管是什么，我们会为那种感觉命名，那种……无论你想称之为忧郁（blueness）还是目标丧失（loss of purpose），我们会试图以有方向性的方式集体解决这个问题。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+<strong style="color:#2471a3">Adam</strong>: Okay, this is your big moment. Pick the name. If you call your shot from here, this is you pointing to the stands. You know, I – Like deep blue, you know.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+<strong style="color:#2471a3">Adam</strong>：好的，这是你的重要时刻。选个名字吧。如果你从这里说出你的选择，就像你指向看台那样。你知道，我——就像 deep blue，你知道的。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+<strong style="color:#2471a3">Bryan</strong>: Yeah, deep blue. I like that. I like deep blue. Deep blue. Oh, did you walk me into that, you bastard? You just blew out the candles on my birthday cake.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+<strong style="color:#2471a3">Bryan</strong>：是的，deep blue。我喜欢这个。我喜欢 deep blue。Deep blue。哦，你是不是故意引导我说出这个的，你这个混蛋？你刚刚吹灭了我生日蛋糕上的蜡烛。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+It wasn't my big moment at all. That was your big moment. No, that is, <strong style="color:#2471a3">Adam</strong>, that is very good. That is deep blue.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+这根本不是我的重要时刻。那是你的重要时刻。不，那是——<strong style="color:#2471a3">Adam</strong>，那非常好。那就是 deep blue。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+<strong style="color:#2471a3">Simon</strong>: All of the chess players and the Go players went through this a decade ago and they have come out stronger.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+<strong style="color:#2471a3">Simon</strong>：所有的国际象棋选手和围棋选手在十年前都经历过这些，而且他们变得更加强大了。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Turns out it was more than a decade ago: Deep Blue defeated <strong style="color:#2471a3">Garry Kasparov</strong> in 1997.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+原来那是十多年前的事了：<strong style="color:#2471a3">Garry Kasparov</strong>（加里·卡斯帕罗夫）在 1997 年被 Deep Blue（深蓝计算机）击败。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Tags: definitions, careers, ai, generative-ai, llms, ai-assisted-programming, oxide, bryan-cantrill, ai-ethics, coding-agents
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+标签：definitions（定义）, careers（职业）, ai（人工智能）, generative-ai（生成式人工智能）, llms（大语言模型）, ai-assisted-programming（AI辅助编程）, oxide（Oxide公司）, bryan-cantrill（布莱恩·坎特里尔）, ai-ethics（AI伦理）, coding-agents（编码代理）
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://simonwillison.net/2026/Feb/15/deep-blue/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -449,37 +686,112 @@
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">Gwtar: a static efficient single-file HTML format</div>
-        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
+        <div class="title">Gwtar：静态高效的单文件HTML归档格式</div>
+        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
       </div>
-      <div class="tags"><span class="tag">归档技术</span><span class="tag">前端优化</span><span class="tag">文件格式</span></div>
-      <div class="summary">Gwtar是一种静态高效的单文件HTML归档格式，它通过提前调用`window.stop()`阻止浏览器完整下载，将资源以内联tar形式存储，并利用HTTP范围请求与PerformanceObserver实现按需加载。但由于浏览器安全限制，该文件无法直接在本地打开，需通过命令行提取后查看。</div>
+      <div class="title-en">Gwtar: a static efficient single-file HTML format</div>
+      <div class="tags"><span class="tag">网页归档</span><span class="tag">单文件</span><span class="tag">HTML格式</span><span class="tag">懒加载</span></div>
+      <div class="summary">Gwtar 是一种静态高效的单文件 HTML 归档格式，它通过在文档头部调用 `window.stop()` 阻止浏览器下载完整内容，并利用 HTTP 范围请求按需从内联的 tar 数据中提取资源，实现大型媒体文件的懒加载。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Amusingly for an archive format it doesn&#x27;t actually work if you open the file directly on your own computer.</div><div class="quote-zh">颇具讽刺意味的是，作为一种归档格式，如果你直接在本地计算机上打开它，它实际上并不能工作。</div></div>
-<div class="quote-block"><div class="quote-en">The key trick it uses is to fire window.stop() early in the page to prevent the browser from downloading the whole thing, then following that call with inline tar uncompressed content.</div><div class="quote-zh">它使用的关键技巧是在页面早期触发 window.stop() 以阻止浏览器下载整个文件，随后在该调用之后附加内联的未压缩 tar 内容。</div></div>
+<div class="quote-block"><div class="quote-en">Amusingly for an archive format it doesn&#x27;t actually work if you open the file directly on your own computer.</div><div class="quote-zh">颇具讽刺意味的是，作为一种归档格式，如果你直接在本地计算机上打开该文件，它实际上却无法工作。</div></div>
 </div>
-      <div class="translation"><p>Gwtar：一种静态高效的单文件 HTML 格式</p>
-<p>它使用的核心技巧是在页面早期调用 window.stop()（停止窗口加载）以阻止浏览器下载整个文件，随后在该调用之后附加内联的未压缩 tar 内容。</p>
-<p>随后，当页面需要时，它可以通过 HTTP 范围请求（HTTP range requests）从该 tar 数据中按需获取内容。</p>
-<p>已经加载的 JavaScript 会将资源 URL（asset URLs）重写为指向 https://localhost/purely，使其加载失败。然后它使用 PerformanceObserver（性能观察器）来捕获这些尝试加载的操作：</p>
-<pre><code>let perfObserver = new PerformanceObserver((entryList, observer) =&gt; {
-    resourceURLStringsHandler(entryList.getEntries().map(entry =&gt; entry.name));
+      <div class="translation"><h3 style="margin:24px 0 12px;">Gwtar: a static efficient single-file HTML format</h3>
+<h3 style="margin:24px 0 12px;">Gwtar：一种静态高效的单文件HTML格式</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+The key trick it uses is to fire <strong style="color:#c0392b">window.stop()</strong> early in the page to prevent the browser from downloading the whole thing, then following that call with inline <strong style="color:#c0392b">tar</strong> uncompressed content.
+
+It can then make <strong style="color:#c0392b">HTTP range</strong> requests to fetch content from that tar data on-demand when it is needed by the page.
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+它使用的关键技巧是在页面早期调用 <strong style="color:#c0392b">window.stop()</strong> 来阻止浏览器下载整个文件，然后在该调用之后附加内联的未压缩 <strong style="color:#c0392b">tar</strong>（磁带归档）内容。随后，当页面需要时，它可以通过 <strong style="color:#c0392b">HTTP range</strong>（HTTP范围）请求按需从这些 tar 数据中获取内容。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+The JavaScript that has already loaded rewrites asset URLs to point to <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">https://localhost/</code> purely so that they will fail to load. Then it uses a <strong style="color:#c0392b">PerformanceObserver</strong> to catch those attempted loads:
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+已加载的 JavaScript 会将资源 URL 重写指向 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">https://localhost/</code> 纯粹是为了让它们加载失败。然后它使用 <strong style="color:#c0392b">PerformanceObserver</strong>（性能观察器）来捕获这些尝试加载的行为：
+</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>let perfObserver = new PerformanceObserver((entryList, observer) => {
+    resourceURLStringsHandler(entryList.getEntries().map(entry => entry.name));
 });
-perfObserver.observe({ entryTypes: [ &quot;resource&quot; ] });</code></pre>
-<p>该 resourceURLStringsHandler 回调（callback）会查找该资源是否已加载，否则通过 HTTP 范围请求获取，然后使用 blob: URL 将其插入到正确的位置。</p>
-<p>如果你查看源代码，文档中 window.stop() 部分看起来是这样的：</p>
-<p>颇具讽刺意味的是，作为一种归档格式（archive format），如果你直接在本地计算机上打开该文件，它实际上无法工作。如果你尝试这样做，会看到以下内容：</p>
-<blockquote>你看到的是这条消息，而不是你应该看到的页面，因为 gwtar 文件无法在本地打开（由于网页浏览器的安全限制）。要在你的计算机上打开此页面，请使用以下 shell 命令：</blockquote>
-<blockquote></blockquote>
-<blockquote>perl -ne &#x27;print $_ if $x; $x=1 if /&lt;!-- GWTAR END/&#x27; &lt; foo.gwtar.html | tar --extract</blockquote>
-<blockquote></blockquote>
-<blockquote>然后在任何网页浏览器中打开文件 foo.html。</blockquote>
-<p>你看到的是这条消息，而不是你应该看到的页面，因为 gwtar 文件无法在本地打开（由于网页浏览器的安全限制）。</p>
-<p>要在你的计算机上打开此页面，请使用以下 shell 命令：</p>
-<p>perl -ne &#x27;print $_ if $x; $x=1 if /&lt;!-- GWTAR END/&#x27; &lt; foo.gwtar.html | tar --extract</p>
-<p>然后在任何网页浏览器中打开文件 foo.html。</p>
-<p>via Hacker News</p>
-<p>标签：archiving（归档）, html, javascript</p></div>
+perfObserver.observe({ entryTypes: [ "resource" ] });</code></pre>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">PerformanceObserver</code> 代码示例
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+That <strong style="color:#c0392b">resourceURLStringsHandler</strong> callback finds the resource if it is already loaded or fetches it with an HTTP range request otherwise and then inserts the resource in the right place using a <strong style="color:#c0392b">blob: URL</strong>.
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+该 <strong style="color:#c0392b">resourceURLStringsHandler</strong>（资源URL字符串处理程序）回调函数会查找资源是否已加载，否则通过 HTTP range 请求获取资源，然后使用 <strong style="color:#c0392b">blob: URL</strong>（二进制大对象URL）将资源插入到正确的位置。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Here's what the <strong style="color:#c0392b">window.stop()</strong> portion of the document looks like if you view the source:
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+如果你查看源代码，文档中 <strong style="color:#c0392b">window.stop()</strong> 部分看起来像这样：
+</p>
+
+<img src="https://static.simonwillison.net/static/2026/gwtar.jpg" alt='Screenshot of a macOS terminal window titled "gw — more big.html — 123×46" showing the source code of a gwtar (self-extracting HTML archive) file. The visible code includes JavaScript with requestIdleCallback(getMainPageHTML);, a <noscript> block with warnings: a "js-disabled-warning" stating "This HTML page requires JavaScript to be enabled to render, as it is a self-extracting gwtar HTML file," a description of gwtar as "a portable self-contained standalone HTML file which is designed to nevertheless support efficient lazy loading of all assets such as large media files," with a link to https://gwern.net/gwtar, a "local-file-warning" with a shell command perl -ne'print $_ if $x; $x=1 if /<!-- GWTAR END/' &lt; foo.gwtar.html | tar --extract, and a "server-fail-warning" about misconfigured servers. Below the HTML closing tags and <!-- GWTAR END comment is binary tar archive data with the filename 2010-02-brianmoriarty-thesecretofpsalm46.html, showing null-padded tar header fields including ustar^@00root and octal size/permission values. At the bottom, a SingleFile metadata comment shows url: https://web.archive.org/web/20230512001411/http://ludix.com/moriarty/psalm46.html and saved date: Sat Jan 17 2026 19:26:49 GMT-0800 (Pacific Standard Time).' style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<img src="https://static.simonwillison.net/static/2026/gwtar.jpg" alt='Screenshot of a macOS terminal window titled "gw — more big.html — 123×46" showing the source code of a gwtar (self-extracting HTML archive) file. The visible code includes JavaScript with requestIdleCallback(getMainPageHTML);, a <noscript> block with warnings: a "js-disabled-warning" stating "This HTML page requires JavaScript to be enabled to render, as it is a self-extracting gwtar HTML file," a description of gwtar as "a portable self-contained standalone HTML file which is designed to nevertheless support efficient lazy loading of all assets such as large media files," with a link to https://gwern.net/gwtar, a "local-file-warning" with a shell command perl -ne'print $_ if $x; $x=1 if /<!-- GWTAR END/' &lt; foo.gwtar.html | tar --extract, and a "server-fail-warning" about misconfigured servers. Below the HTML closing tags and <!-- GWTAR END comment is binary tar archive data with the filename 2010-02-brianmoriarty-thesecretofpsalm46.html, showing null-padded tar header fields including ustar^@00root and octal size/permission values. At the bottom, a SingleFile metadata comment shows url: https://web.archive.org/web/20230512001411/http://ludix.com/moriarty/psalm46.html and saved date: Sat Jan 17 2026 19:26:49 GMT-0800 (Pacific Standard Time).' style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Amusingly for an archive format it doesn't actually work if you open the file directly on your own computer. Here's what you see if you try to do that:
+
+> You are seeing this message, instead of the page you should be seeing, because <strong style="color:#c0392b">gwtar</strong> files cannot be opened locally (due to web browser security restrictions). To open this page on your computer, use the following shell command: perl -ne'print $_ if $x; $x=1 if /<!-- GWTAR END/' &lt; foo.gwtar.html | tar --extract Then open the file <strong style="color:#c0392b">foo.html</strong> in any web browser.
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+颇具讽刺意味的是，作为一种归档格式，如果你直接在本地计算机上打开该文件，它实际上无法工作。如果你尝试这样做，会看到以下内容：
+
+> 你看到此消息，而非你应该看到的页面，是因为 <strong style="color:#c0392b">gwtar</strong> 文件无法在本地打开（由于网页浏览器安全限制）。要在你的计算机上打开此页面，请使用以下 shell 命令：<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">perl -ne'print $_ if $x; $x=1 if /<!-- GWTAR END/' &lt; foo.gwtar.html | tar --extract</code> 然后在任何网页浏览器中打开文件 <strong style="color:#c0392b">foo.html</strong>。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+You are seeing this message, instead of the page you should be seeing, because <strong style="color:#c0392b">gwtar</strong> files cannot be opened locally (due to web browser security restrictions).
+
+To open this page on your computer, use the following shell command:
+
+perl -ne'print $_ if $x; $x=1 if /&lt;!-- GWTAR END/' &lt; foo.gwtar.html | tar --extract
+
+Then open the file <strong style="color:#c0392b">foo.html</strong> in any web browser.
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+你看到此消息，而非你应该看到的页面，是因为 <strong style="color:#c0392b">gwtar</strong> 文件无法在本地打开（由于网页浏览器安全限制）。
+
+要在你的计算机上打开此页面，请使用以下 shell 命令：
+
+<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">perl -ne'print $_ if $x; $x=1 if /&lt;!-- GWTAR END/' &lt; foo.gwtar.html | tar --extract</code>
+
+然后在任何网页浏览器中打开文件 <strong style="color:#c0392b">foo.html</strong>。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Via <strong style="color:#2471a3">Hacker News</strong>
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+来源：<strong style="color:#2471a3">Hacker News</strong>
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Tags: <strong style="color:#c0392b">archiving</strong>, <strong style="color:#c0392b">html</strong>, <strong style="color:#c0392b">javascript</strong>
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+标签：<strong style="color:#c0392b">archiving</strong>（归档）、<strong style="color:#c0392b">html</strong>、<strong style="color:#c0392b">javascript</strong>
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://simonwillison.net/2026/Feb/15/gwtar/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -487,22 +799,45 @@ perfObserver.observe({ entryTypes: [ &quot;resource&quot; ] });</code></pre>
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">Three months of OpenClaw</div>
+        <div class="title">OpenClaw 的三个月</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="tags"><span class="tag">OpenClaw</span><span class="tag">开源</span><span class="tag">AI智能体</span></div>
-      <div class="summary">开源AI代理框架OpenClaw在发布仅三个月内便引爆科技圈，收获近20万GitHub星标并被超级碗广告提及；其创始人Peter Steinberger现已宣布加入OpenAI，同时将项目所有权转移至新成立的独立基金会。</div>
+      <div class="title-en">Three months of OpenClaw</div>
+      <div class="tags"><span class="tag">OpenClaw</span><span class="tag">AI智能体</span><span class="tag">开源</span></div>
+      <div class="summary">开源AI代理框架OpenClaw在发布不到三个月内迅速走红，GitHub星标数逼近20万并亮相超级碗广告；其创始人Peter Steinberger近日宣布加入OpenAI，并计划将该项目所有权转移至独立基金会。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">It&#x27;s wild that the first commit to OpenClaw was on November 25th 2025, and less than three months later it&#x27;s hit 10,000 commits from 600 contributors, attracted 196,000 GitHub stars and sort-of been featured in an extremely vague Super Bowl commercial for AI.com.</div><div class="quote-zh">太疯狂了——OpenClaw 的首次提交是在 2025 年 11 月 25 日，而不到三个月后，它就获得了来自 600 名贡献者的 10,000 次提交，吸引了 196,000 个 GitHub 星标，还某种程度上亮相于 AI.com 一支极其模糊的超级碗广告中。</div></div>
-<div class="quote-block"><div class="quote-en">Looks like vaporware to me - all you can do right now is reserve a handle - but it&#x27;s still remarkable to see an open source project get to that level of hype in such a short space of time.</div><div class="quote-zh">在我看来这像是雾件（vaporware）——目前你唯一能做的就是预订一个用户名——但看到一个开源项目在这么短的时间内获得如此程度的炒作，仍然令人惊讶。</div></div>
+<div class="quote-block"><div class="quote-en">It&#x27;s wild that the first commit to OpenClaw was on November 25th 2025, and less than three months later it&#x27;s hit 10,000 commits from 600 contributors, attracted 196,000 GitHub stars and sort-of been featured in an extremely vague Super Bowl commercial for AI.com.</div><div class="quote-zh">真是疯狂，OpenClaw 的首个提交还是在 2025 年 11 月 25 日，而不到三个月后，它已经获得了来自 600 名贡献者的 10,000 次提交，吸引了 196,000 个 GitHub 星标，甚至还算是出现在了 AI.com 那条极其模糊的超级碗广告中。</div></div>
+<div class="quote-block"><div class="quote-en">Looks like vaporware to me - all you can do right now is reserve a handle - but it&#x27;s still remarkable to see an open source project get to that level of hype in such a short space of time.</div><div class="quote-zh">在我看来这像是忽悠人的玩意儿——目前你能做的只是预订一个账号——但能在如此短的时间内看到一个开源项目达到这种炒作高度，仍然令人瞩目。</div></div>
 </div>
-      <div class="translation"><p>令人难以置信的是，OpenClaw 的首次 commit（代码提交）是在 2025 年 11 月 25 日，而不到三个月后，它已经获得了来自 600 名 contributor（贡献者）的 10,000 次提交，吸引了 196,000 个 GitHub stars（星标），并且某种程度上出现在了一则为 AI.com 制作的、极其模糊的 Super Bowl（超级碗）广告中。</p>
-<p>引用 AI.com 创始人 Kris Marszalek 的话，他是历史上最昂贵域名的购买者，斥资 7000 万美元购得该域名：</p>
-<blockquote>ai.com 是全球首个易于使用且安全的 OpenClaw 实现方案；OpenClaw 是两周前 went viral（病毒式爆红）的开源 agent framework（智能体框架）。我们让毫无技术背景的用户也能轻松使用，同时通过 hardening security（安全加固）来保护您的数据安全。</blockquote>
-<p>ai.com 是全球首个易于使用且安全的 OpenClaw 实现方案；OpenClaw 是两周前 went viral（病毒式爆红）的开源 agent framework（智能体框架）。我们让毫无技术背景的用户也能轻松使用，同时通过 hardening security（安全加固）来保护您的数据安全。</p>
-<p>在我看来这像是 vaporware（空头软件）——目前你所能做的只是 reserve a handle（预留用户名）——但看到一个开源项目在如此短的时间内达到那样的 hype（炒作热度），仍然令人瞩目。</p>
-<p>Update（更新）：OpenClaw 创始人 Peter Steinberger 刚刚 announced（宣布）他将加入 OpenAI，并计划将 OpenClaw 的所有权转移给一个新的 independent foundation（独立基金会）。</p>
-<p>Tags（标签）：ai-agents（AI 智能体）, openclaw, ai（人工智能）, open-source（开源）, domains（域名）, openai, peter-steinberger</p></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Three months of OpenClaw<br/>OpenClaw 的三个月</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">It's wild that the first <strong style="color:#c0392b">commit</strong>（提交）to <strong style="color:#c0392b">OpenClaw</strong> was on November 25th 2025, and less than three months later it's hit 10,000 commits from 600 <strong style="color:#c0392b">contributors</strong>（贡献者）, attracted 196,000 <strong style="color:#c0392b">GitHub stars</strong> and sort-of been featured in an extremely vague <strong style="color:#c0392b">Super Bowl commercial</strong> for AI.com.</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">令人惊讶的是，<strong style="color:#c0392b">OpenClaw</strong> 的首次<strong style="color:#c0392b">提交</strong>（commit）发生在2025年11月25日，而不到三个月后，该项目已达成10,000次提交，拥有600名<strong style="color:#c0392b">贡献者</strong>（contributors），获得196,000个 <strong style="color:#c0392b">GitHub stars</strong>，并在 AI.com 一则极其含糊的<strong style="color:#c0392b">超级碗广告</strong>（Super Bowl commercial）中 sort-of 亮相。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Quoting <strong style="color:#2471a3">AI.com</strong> founder <strong style="color:#2471a3">Kris Marszalek</strong>, purchaser of the most expensive <strong style="color:#c0392b">domain</strong>（域名）in history for $70m:</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">引用 <strong style="color:#2471a3">AI.com</strong> 创始人、以7000万美元购得历史上最昂贵<strong style="color:#c0392b">域名</strong>（domain）的 <strong style="color:#2471a3">Kris Marszalek</strong> 的话：</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">ai.com is the world's first easy-to-use and secure implementation of OpenClaw, the <strong style="color:#c0392b">open source</strong>（开源）<strong style="color:#c0392b">agent framework</strong>（智能体框架）that went viral two weeks ago; we made it easy to use without any technical skills, while hardening security to keep your data safe.</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">ai.com 是全球首个易于使用且安全的 OpenClaw 实现，这是一个两周前爆红的<strong style="color:#c0392b">开源</strong>（open source）<strong style="color:#c0392b">智能体框架</strong>（agent framework）；我们让它无需任何技术技能即可使用，同时加固安全性以保护您的数据安全。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">ai.com is the world's first easy-to-use and secure implementation of OpenClaw, the open source agent framework that went viral two weeks ago; we made it easy to use without any technical skills, while hardening security to keep your data safe.</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">ai.com 是全球首个易于使用且安全的 OpenClaw 实现，这个开源智能体框架两周前刚刚爆红；我们让它无需任何技术技能即可使用，同时加固安全性以保护您的数据安全。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Looks like <strong style="color:#c0392b">vaporware</strong>（雾件/概念产品）to me - all you can do right now is reserve a <strong style="color:#c0392b">handle</strong>（用户名）- but it's still remarkable to see an open source project get to that level of <strong style="color:#c0392b">hype</strong>（炒作热度）in such a short space of time.</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">在我看来这像是 <strong style="color:#c0392b">vaporware</strong>（雾件/概念产品）——目前您只能预订一个<strong style="color:#c0392b">用户名</strong>（handle）——但看到一个开源项目在如此短的时间内获得如此高的<strong style="color:#c0392b">炒作热度</strong>（hype），仍然令人瞩目。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Update: OpenClaw creator <strong style="color:#2471a3">Peter Steinberger</strong> just announced that he's joining <strong style="color:#2471a3">OpenAI</strong> and plans to transfer ownership of OpenClaw to a new independent <strong style="color:#c0392b">foundation</strong>（基金会）.</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">更新：OpenClaw 的创建者 <strong style="color:#2471a3">Peter Steinberger</strong> 刚刚宣布，他将加入 <strong style="color:#2471a3">OpenAI</strong>，并计划将 OpenClaw 的所有权转移给一个新的独立<strong style="color:#c0392b">基金会</strong>（foundation）。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Tags: <strong style="color:#c0392b">ai-agents</strong>, openclaw, ai, <strong style="color:#c0392b">open-source</strong>, domains, openai, peter-steinberger</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">标签：<strong style="color:#c0392b">ai-agents</strong>（AI 智能体）, openclaw, ai, <strong style="color:#c0392b">open-source</strong>（开源）, domains, openai, peter-steinberger</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://simonwillison.net/2026/Feb/15/openclaw/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -510,20 +845,41 @@ perfObserver.observe({ entryTypes: [ &quot;resource&quot; ] });</code></pre>
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">Quoting Eric Meyer</div>
-        <span class="tone-pill" style="background:#ffe4e6;color:#be123c">😤 批评</span>
+        <div class="title">Eric Meyer：CSS并非臃肿，而是极其雄心勃勃</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="tags"><span class="tag">CSS</span><span class="tag">Web标准</span><span class="tag">前端开发</span></div>
-      <div class="summary">Eric Meyer驳斥了&quot;CSS臃肿混乱&quot;的批评，认为CSS实则是以人类可读格式涵盖视觉呈现、布局、动画等全方位功能的雄心之作，其复杂性正体现了覆盖范围之广，值得开发者给予更多尊重。</div>
+      <div class="title-en">Quoting Eric Meyer</div>
+      <div class="tags"><span class="tag">CSS</span><span class="tag">Web标准</span><span class="tag">技术观点</span></div>
+      <div class="summary">Eric Meyer反驳了&quot;CSS臃肿混乱&quot;的批评，指出CSS并非过度膨胀，而是以人类可读文本涵盖视觉呈现、布局、动画等全方位设计领域的雄心勃勃的技术体系。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">It’s not bloated, it’s fantastically ambitious.</div><div class="quote-zh">它并非臃肿不堪，而是怀有极其宏大的抱负。</div></div>
-<div class="quote-block"><div class="quote-en">Put somerespecton itsname.</div><div class="quote-zh">对它放尊重点 / 给予它应有的尊重。</div></div>
+<div class="quote-block"><div class="quote-en">My dude. My brother in Chromium.</div><div class="quote-zh">我的老兄，我的Chromium兄弟啊。</div></div>
+<div class="quote-block"><div class="quote-en">It’s not bloated, it’s fantastically ambitious. Its reach is greater than most of us can hope to grasp.</div><div class="quote-zh">它并非臃肿，而是极其雄心勃勃。它的触及范围远超我们大多数人所能把握的。</div></div>
 </div>
-      <div class="translation"><p>文章标题：引用 Eric Meyer 的话</p>
-<blockquote>我又看到一条&quot;CSS（层叠样式表）是个极度臃肿混乱的烂摊子&quot;的抱怨，我就想说了。我的老兄。我的 Chromium（Chromium）好兄弟啊。它正竭尽全力，试图以人类可读的文本格式，来表达 visual presentation（视觉呈现）、layout design（布局设计）、typography（字体排印）、animation（动画）、digital interactivity（数字交互）以及其它一些事物的全部内涵。它不是臃肿，而是极具雄心壮志。它的覆盖范围之广，超出了我们大多数人所能企及的理解。放尊重点。</blockquote>
-<p>我又看到一条&quot;CSS（层叠样式表）是个极度臃肿混乱的烂摊子&quot;的抱怨，我就想说了。我的老兄。我的 Chromium（Chromium）好兄弟啊。它正竭尽全力，试图以人类可读的文本格式，来表达 visual presentation（视觉呈现）、layout design（布局设计）、typography（字体排印）、animation（动画）、digital interactivity（数字交互）以及其它一些事物的全部内涵。它不是臃肿，而是极具雄心壮志。它的覆盖范围之广，超出了我们大多数人所能企及的理解。放尊重点。</p>
-<p>——Eric Meyer</p>
-<p>标签：css, web-standards, eric-meyer</p></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Quoting Eric Meyer</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+I saw yet another “<strong style="color:#c0392b">CSS</strong> is a massively bloated mess” whine and I’m like. My dude. My brother in <strong style="color:#2471a3">Chromium</strong>. It is trying as hard as it can to express the totality of <strong style="color:#c0392b">visual presentation</strong> and <strong style="color:#c0392b">layout design</strong> and typography and animation and digital interactivity and a few other things in a human-readable text format. It’s not bloated, it’s fantastically ambitious. Its reach is greater than most of us can hope to grasp. Put somerespecton itsname.
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+我又看到有人在抱怨“<strong style="color:#c0392b">CSS</strong>（层叠样式表）是个臃肿混乱的大麻烦”，我就想说的是。老兄啊。我那位深耕 <strong style="color:#2471a3">Chromium</strong> 的兄弟。它正竭尽全力试图以人类可读的文本格式，去表达<strong style="color:#c0392b">视觉呈现</strong>、<strong style="color:#c0392b">版式设计</strong>、字体排印、动画、数字交互以及其他诸多内容的全部可能性。这不是臃肿，这是极其雄心勃勃。它的覆盖范围之广，远超我们大多数人所能理解的范畴。<strong style="color:#c0392b">Put somerespecton itsname</strong>（放尊重点）。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+—<strong style="color:#2471a3">Eric Meyer</strong>
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+——<strong style="color:#2471a3">Eric Meyer</strong>
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Tags: <strong style="color:#c0392b">css</strong>, <strong style="color:#c0392b">web-standards</strong>, <strong style="color:#2471a3">eric-meyer</strong>
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+标签：<strong style="color:#c0392b">CSS</strong>、<strong style="color:#c0392b">Web Standards</strong>（Web 标准）、<strong style="color:#2471a3">Eric Meyer</strong>
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://simonwillison.net/2026/Feb/15/eric-meyer/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -531,88 +887,75 @@ perfObserver.observe({ entryTypes: [ &quot;resource&quot; ] });</code></pre>
 <div class="article-card">
       <div class="source">Lenny&#x27;s Newsletter</div>
       <div class="title-row">
-        <div class="title">Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)</div>
+        <div class="title">红杉CEO教练：创业从未如此简单，扩张从未如此艰难</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="tags"><span class="tag">创业</span><span class="tag">创始人</span><span class="tag">团队管理</span><span class="tag">AI</span></div>
-      <div class="summary">HubSpot联合创始人、现任红杉资本CEO教练Brian Halligan在访谈中阐述了一个核心观点：如今创业从未如此简单，但企业规模化却达到了前所未有的困难程度。他结合15年创业管理经验，分享了评估创始人的LOCKS框架、组建高效团队的方法以及AI时代的人才策略等实战见解。</div>
+      <div class="title-en">Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)</div>
+      <div class="tags"><span class="tag">创业</span><span class="tag">CEO教练</span><span class="tag">规模化</span><span class="tag">团队建设</span></div>
+      <div class="summary">HubSpot联合创始人、红杉资本CEO教练Brian Halligan在访谈中剖析了当下&quot;创业门槛空前降低，但规模化扩张空前困难&quot;的行业现状，并分享了其评估创始人的LOCKS框架、2004红袜队式团队组建策略，以及AI时代企业销售岗位的前景等核心观点。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Why it&#x27;s never been easier to start a company, and never been harder to scale one</div><div class="quote-zh">为什么现在创业从未如此简单，而规模化发展却从未如此艰难</div></div>
-<div class="quote-block"><div class="quote-en">Why hiring &#x27;spicy&#x27; candidates beats consensus picks</div><div class="quote-zh">为什么招聘&#x27;有个性&#x27;（spicy）的候选人胜过共识性选择</div></div>
+<div class="quote-block"><div class="quote-en">Why it’s never been easier to start a company, and never been harder to scale one</div><div class="quote-zh">创业从未如此简单，而扩张从未如此艰难</div></div>
+<div class="quote-block"><div class="quote-en">Hiring &#x27;spicy&#x27; candidates beats consensus picks</div><div class="quote-zh">雇用&#x27;有个性&#x27;的候选人胜过选择达成共识的稳妥人选</div></div>
 </div>
-      <div class="translation"><p>文章标题: Sequoia（红杉资本）CEO 教练：为何现在创办公司从未如此容易，而扩大规模从未如此困难 | Brian Halligan（HubSpot 联合创始人）</p>
-<p>Brian Halligan 联合创立了 HubSpot，担任 CEO 约 15 年，现在作为红杉资本（Sequoia）内部 CEO 教练，为红杉增长最快的创始人们提供辅导。</p>
-<p>在 YouTube、Spotify 和 Apple Podcasts 上收听</p>
-<h4>我们讨论的内容：</h4>
-<ul>
-<li>他用于评估创始人的 LOCKS 框架</li>
-</ul>
-<p>他用于评估创始人的 LOCKS 框架</p>
-<ul>
-<li>为何你应该像 2004 年红袜队那样组建团队</li>
-</ul>
-<p>为何你应该像 2004 年红袜队那样组建团队</p>
-<ul>
-<li>为何招聘&quot;有个性&quot;（spicy）的候选人胜过共识性选择</li>
-</ul>
-<p>为何招聘&quot;有个性&quot;（spicy）的候选人胜过共识性选择</p>
-<ul>
-<li>为何企业销售（enterprise sales）将是 AI 最后取代的白领工作</li>
-</ul>
-<p>为何企业销售（enterprise sales）将是 AI 最后取代的白领工作</p>
-<ul>
-<li>我最喜欢的一些&quot;Halligan 名言&quot;（Halliganisms）</li>
-</ul>
-<p>我最喜欢的一些&quot;Halligan 名言&quot;（Halliganisms）</p>
-<h4>本节目由以下赞助商呈现：</h4>
-<blockquote>Sentry——代码出错，更快修复</blockquote>
-<p>Datadog——现已收购 Eppo，领先的实验与功能标记（feature flagging）平台</p>
-<p>WorkOS——面向 B2B SaaS 的现代身份平台（identity platform），前 100 万月活跃用户（MAUs）免费</p>
-<p>Sentry——代码出错，更快修复</p>
-<p>Datadog——现已收购 Eppo，领先的实验与功能标记（feature flagging）平台</p>
-<p>WorkOS——面向 B2B SaaS 的现代身份平台（identity platform），前 100 万月活跃用户（MAUs）免费</p>
-<h4>如何找到 Brian Halligan</h4>
-<p>• X：https://x.com/bhalligan</p>
-<p>• LinkedIn：linkedin.com/in/brianhalligan</p>
-<p>• Delphi：https://www.delphi.ai/bhalligan</p>
-<p>• Podcast：https://sequoiacap.com/series/long-strange-trip</p>
-<h4>参考资料：</h4>
-<p>• Dev Ittycheria on LinkedIn：https://www.linkedin.com/in/dittycheria</p>
-<p>• HubSpot：https://www.hubspot.com</p>
-<p>• Parker Conrad on LinkedIn：https://www.linkedin.com/in/parkerconrad</p>
-<p>• McKinsey &amp; Company：https://www.mckinsey.com</p>
-<p>• Brian Chesky’s new playbook：https://www.lennysnewsletter.com/p/brian-cheskys-contrarian-approach</p>
-<p>• Jensen Huang on LinkedIn：https://www.linkedin.com/in/jenhsunhuang</p>
-<p>• Winston Weinberg on LinkedIn：https://www.linkedin.com/in/winston-weinberg</p>
-<p>• James Cadwallader on LinkedIn：https://www.linkedin.com/in/jsca</p>
-<p>• Gabriel Stengel on LinkedIn：https://www.linkedin.com/in/gabestengel</p>
-<p>• He saved OpenAI, invented the &quot;Like&quot; button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more：https://www.lennysnewsletter.com/p/he-saved-openai-bret-taylor</p>
-<p>• Scaling Entrepreneurial Ventures：https://orbit.mit.edu/classes/scaling-entrepreneurial-ventures-15.392</p>
-<p>• OpenClaw：https://openclaw.ai</p>
-<p>• Ruth Porat on LinkedIn：https://www.linkedin.com/in/ruth-porat</p>
-<p>• Mike Krzyzewski：https://goduke.com/sports/mens-basketball/roster/coaches/mike-krzyzewski/4159</p>
-<p>• Dalai Lama’s 18 Rules for Living：https://www.prm.nau.edu/prm205/Dalai-Lama-18-rules-for-living.htm</p>
-<p>• Zigging vs. zagging: How HubSpot built a $30B company | Dharmesh Shah (co-founder/CTO)：https://www.lennysnewsletter.com/p/lessons-from-30-years-of-building</p>
-<p>• Kareem Amin on LinkedIn：https://www.linkedin.com/in/kareemamin</p>
-<p>• Glassdoor：https://www.glassdoor.com</p>
-<p>• Tobi Lütke’s leadership playbook: Playing infinite games, operating from first principles, and maximizing human potential (founder and CEO of Shopify)：https://www.lennysnewsletter.com/p/tobi-lutkes-leadership-playbook</p>
-<p>• Katie Burke on LinkedIn：https://www.linkedin.com/in/katie-burke-965767a</p>
-<p>• Jerry Garcia：https://en.wikipedia.org/wiki/Jerry_Garcia</p>
-<p>• Bob Weir：https://en.wikipedia.org/wiki/Bob_Weir</p>
-<p>• Phil Lesh：https://en.wikipedia.org/wiki/Phil_Lesh</p>
-<p>• Ron &quot;Pigpen&quot; McKernan：https://en.wikipedia.org/wiki/Ron_%22Pigpen%22_McKernan</p>
-<p>• Marc Andreessen: The real AI boom hasn’t even started yet：https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom</p>
-<p>• The American Revolution：https://www.pbs.org/kenburns/the-american-revolution</p>
-<p>• Delphi：https://www.delphi.ai</p>
-<p>• Sonos：https://www.sonos.com</p>
-<p>• Yamini Rangan on LinkedIn：https://www.linkedin.com/in/yaminirangan</p>
-<p>• The Boston Red Sox：https://www.mlb.com/redsox</p>
-<h4>推荐书籍：</h4>
-<p>• 《感恩而死乐队的营销课：每个企业都能向这支史上最具标志性乐队学习什么》（Marketing Lessons from the Grateful Dead: What Every Business Can Learn from the Most Iconic Band in History）：https://www.amazon.com/Marketing-Lessons-Grateful-Dead-Business/dp/0470900520</p>
-<p>制作与营销由 https://penname.co/ 负责。如有赞助播客的咨询，请发邮件至 podcast@lennyrachitsky.com。</p>
-<p>Lenny 可能是文中讨论公司的投资人。</p>
-<h3>本次对话中我最大的收获：</h3>
-<p>阅读更多</p></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">红杉资本CEO教练：为什么现在创业比以往任何时候都容易，但规模化却比以往任何时候都困难 | Brian Halligan（HubSpot联合创始人）</h3>
+
+<img src="https://substackcdn.com/image/fetch/$s_!w8Ot!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd21a6498-8dfa-4e4a-8ad3-03dddd773645_1920x1080.png" alt="Brian Halligan" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;"><strong style="color:#2471a3">Brian Halligan</strong> co-founded <strong style="color:#2471a3">HubSpot</strong>, ran it as CEO for about 15 years, and now coaches <strong style="color:#2471a3">Sequoia</strong>’s fastest-growing founders as their in-house CEO coach.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#2471a3">Brian Halligan</strong> 联合创立了 <strong style="color:#2471a3">HubSpot</strong>，担任CEO约15年，现在作为内部CEO教练为 <strong style="color:#2471a3">Sequoia</strong>（红杉资本）增长最快的创始人提供辅导。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Listen on <strong style="color:#2471a3">YouTube</strong>, <strong style="color:#2471a3">Spotify</strong>, and <strong style="color:#2471a3">Apple Podcasts</strong></blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">可在 <strong style="color:#2471a3">YouTube</strong>、<strong style="color:#2471a3">Spotify</strong> 和 <strong style="color:#2471a3">Apple Podcasts</strong> 收听</p>
+
+<h3 style="margin:24px 0 12px;">We discuss（本期讨论）：</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">• His <strong style="color:#c0392b">LOCKS framework</strong> for evaluating founders</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">• 他评估创始人的 <strong style="color:#c0392b">LOCKS 框架</strong>（LOCKS framework）</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">• Why you should build your team like the <strong style="color:#2471a3">2004 Red Sox</strong></blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">• 为什么你应该像 <strong style="color:#2471a3">2004年红袜队</strong>（Red Sox）那样组建团队</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">• Why hiring “spicy” candidates beats consensus picks</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">• 为什么招聘"有个性"（spicy）的候选人胜过一致同意的选择</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">• Why <strong style="color:#c0392b">enterprise sales</strong> will be the last white-collar job AI replaces</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">• 为什么 <strong style="color:#c0392b">企业销售</strong>（enterprise sales）将是AI最后取代的白领工作</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">• Some of my favorite “Halliganisms”</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">• 我最喜欢的一些"Halliganisms"（Halligan语录/ Halligan式金句）</p>
+
+<h3 style="margin:24px 0 12px;">Brought to you by（本期赞助商）：</h3>
+
+<img src="https://substackcdn.com/image/fetch/$s_!Tw_F!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39dc5db3-5594-4924-a069-0b264a06aa9f_3444x285.png" alt="Sponsors" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;"><strong style="color:#2471a3">Sentry</strong>—Code breaks, fix it faster<br/><strong style="color:#2471a3">Datadog</strong>—Now home to <strong style="color:#2471a3">Eppo</strong>, the leading experimentation and feature flagging platform<br/><strong style="color:#2471a3">WorkOS</strong>—Modern identity platform for B2B SaaS, free up to 1 million MAUs</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#2471a3">Sentry</strong>——代码出错，更快修复<br/><strong style="color:#2471a3">Datadog</strong>——现为 <strong style="color:#2471a3">Eppo</strong> 的母公司，领先的实验和特性标记（feature flagging）平台<br/><strong style="color:#2471a3">WorkOS</strong>——面向B2B SaaS的现代身份平台，支持高达100万月活跃用户（MAUs）免费使用</p>
+
+<h3 style="margin:24px 0 12px;">Where to find Brian Halligan（如何找到Brian Halligan）：</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">• X: https://x.com/bhalligan<br/>• LinkedIn: linkedin.com/in/brianhalligan<br/>• Delphi: https://www.delphi.ai/bhalligan<br/>• Podcast: https://sequoiacap.com/series/long-strange-trip</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">• X: https://x.com/bhalligan<br/>• 领英：linkedin.com/in/brianhalligan<br/>• Delphi：https://www.delphi.ai/bhalligan<br/>• 播客：https://sequoiacap.com/series/long-strange-trip</p>
+
+<h3 style="margin:24px 0 12px;">Referenced（参考链接）：</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">• <strong style="color:#2471a3">Dev Ittycheria</strong> on LinkedIn: https://www.linkedin.com/in/dittycheria<br/>• <strong style="color:#2471a3">HubSpot</strong>: https://www.hubspot.com<br/>• <strong style="color:#2471a3">Parker Conrad</strong> on LinkedIn: https://www.linkedin.com/in/parkerconrad<br/>• <strong style="color:#2471a3">McKinsey & Company</strong>: https://www.mckinsey.com<br/>• <strong style="color:#2471a3">Brian Chesky</strong>’s new playbook: https://www.lennysnewsletter.com/p/brian-cheskys-contrarian-approach<br/>• <strong style="color:#2471a3">Jensen Huang</strong> on LinkedIn: https://www.linkedin.com/in/jenhsunhuang<br/>• <strong style="color:#2471a3">Winston Weinberg</strong> on LinkedIn: https://www.linkedin.com/in/winston-weinberg<br/>• <strong style="color:#2471a3">James Cadwallader</strong> on LinkedIn: https://www.linkedin.com/in/jsca<br/>• <strong style="color:#2471a3">Gabriel Stengel</strong> on LinkedIn: https://www.linkedin.com/in/gabestengel<br/>• He saved OpenAI, invented the “Like” button, and built Google Maps: <strong style="color:#2471a3">Bret Taylor</strong> on the future of careers, coding, agents, and more: https://www.lennysnewsletter.com/p/he-saved-openai-bret-taylor<br/>• <strong style="color:#c0392b">Scaling Entrepreneurial Ventures</strong>: https://orbit.mit.edu/classes/scaling-entrepreneurial-ventures-15.392<br/>• <strong style="color:#2471a3">OpenClaw</strong>: https://openclaw.ai<br/>• <strong style="color:#2471a3">Ruth Porat</strong> on LinkedIn: https://www.linkedin.com/in/ruth-porat<br/>• <strong style="color:#2471a3">Mike Krzyzewski</strong>: https://goduke.com/sports/mens-basketball/roster/coaches/mike-krzyzewski/4159<br/>• <strong style="color:#c0392b">Dalai Lama’s 18 Rules for Living</strong>: https://www.prm.nau.edu/prm205/Dalai-Lama-18-rules-for-living.htm<br/>• Zigging vs. zagging: How <strong style="color:#2471a3">HubSpot</strong> built a $30B company | <strong style="color:#2471a3">Dharmesh Shah</strong> (co-founder/CTO): https://www.lennysnewsletter.com/p/lessons-from-30-years-of-building<br/>• <strong style="color:#2471a3">Kareem Amin</strong> on LinkedIn: https://www.linkedin.com/in/kareemamin<br/>• <strong style="color:#2471a3">Glassdoor</strong>: https://www.glassdoor.com<br/>• <strong style="color:#2471a3">Tobi Lütke</strong>’s leadership playbook: Playing infinite games, operating from first principles, and maximizing human potential (founder and CEO of <strong style="color:#2471a3">Shopify</strong>): https://www.lennysnewsletter.com/p/tobi-lutkes-leadership-playbook<br/>• <strong style="color:#2471a3">Katie Burke</strong> on LinkedIn: https://www.linkedin.com/in/katie-burke-965767a<br/>• <strong style="color:#2471a3">Jerry Garcia</strong>: https://en.wikipedia.org/wiki/Jerry_Garcia<br/>• <strong style="color:#2471a3">Bob Weir</strong>: https://en.wikipedia.org/wiki/Bob_Weir<br/>• <strong style="color:#2471a3">Phil Lesh</strong>: https://en.wikipedia.org/wiki/Phil_Lesh<br/>• <strong style="color:#2471a3">Ron “Pigpen” McKernan</strong>: https://en.wikipedia.org/wiki/Ron_%22Pigpen%22_McKernan<br/>• <strong style="color:#2471a3">Marc Andreessen</strong>: The real AI boom hasn’t even started yet: https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom<br/>• <strong style="color:#c0392b">The American Revolution</strong>: https://www.pbs.org/kenburns/the-american-revolution<br/>• <strong style="color:#2471a3">Delphi</strong>: https://www.delphi.ai<br/>• <strong style="color:#2471a3">Sonos</strong>: https://www.sonos.com<br/>• <strong style="color:#2471a3">Yamini Rangan</strong> on LinkedIn: https://www.linkedin.com/in/yaminirangan<br/>• <strong style="color:#2471a3">The Boston Red Sox</strong>: https://www.mlb.com/redsox</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">• <strong style="color:#2471a3">Dev Ittycheria</strong> 领英主页：https://www.linkedin.com/in/dittycheria<br/>• <strong style="color:#2471a3">HubSpot</strong>：https://www.hubspot.com<br/>• <strong style="color:#2471a3">Parker Conrad</strong> 领英主页：https://www.linkedin.com/in/parkerconrad<br/>• <strong style="color:#2471a3">McKinsey & Company</strong>（麦肯锡）：https://www.mckinsey.com<br/>• <strong style="color:#2471a3">Brian Chesky</strong> 的新打法：https://www.lennysnewsletter.com/p/brian-cheskys-contrarian-approach<br/>• <strong style="color:#2471a3">Jensen Huang</strong>（黄仁勋）领英主页：https://www.linkedin.com/in/jenhsunhuang<br/>• <strong style="color:#2471a3">Winston Weinberg</strong> 领英主页：https://www.linkedin.com/in/winston-weinberg<br/>• <strong style="color:#2471a3">James Cadwallader</strong> 领英主页：https://www.linkedin.com/in/jsca<br/>• <strong style="color:#2471a3">Gabriel Stengel</strong> 领英主页：https://www.linkedin.com/in/gabestengel<br/>• 他拯救了OpenAI，发明了"点赞"按钮，并构建了Google地图：<strong style="color:#2471a3">Bret Taylor</strong> 谈职业未来、编程、智能体（agents）等：https://www.lennysnewsletter.com/p/he-saved-openai-bret-taylor<br/>• <strong style="color:#c0392b">Scaling Entrepreneurial Ventures</strong>（规模化创业企业，MIT课程）：https://orbit.mit.edu/classes/scaling-entrepreneurial-ventures-15.392<br/>• <strong style="color:#2471a3">OpenClaw</strong>：https://openclaw.ai<br/>• <strong style="color:#2471a3">Ruth Porat</strong> 领英主页：https://www.linkedin.com/in/ruth-porat<br/>• <strong style="color:#2471a3">Mike Krzyzewski</strong>（老K教练）：https://goduke.com/sports/mens-basketball/roster/coaches/mike-krzyzewski/4159<br/>• <strong style="color:#c0392b">Dalai Lama’s 18 Rules for Living</strong>（达赖喇嘛的18条生活法则）：https://www.prm.nau.edu/prm205/Dalai-Lama-18-rules-for-living.htm<br/>• Zigging vs. zagging：<strong style="color:#2471a3">HubSpot</strong> 如何打造300亿美元公司 | <strong style="color:#2471a3">Dharmesh Shah</strong>（联合创始人/CTO）：https://www.lennysnewsletter.com/p/lessons-from-30-years-of-building<br/>• <strong style="color:#2471a3">Kareem Amin</strong> 领英主页：https://www.linkedin.com/in/kareemamin<br/>• <strong style="color:#2471a3">Glassdoor</strong>（玻璃门）：https://www.glassdoor.com<br/>• <strong style="color:#2471a3">Tobi Lütke</strong> 的领导手册：玩无限游戏、从第一性原理出发、最大化人类潜能（<strong style="color:#2471a3">Shopify</strong> 创始人兼CEO）：https://www.lennysnewsletter.com/p/tobi-lutkes-leadership-playbook<br/>• <strong style="color:#2471a3">Katie Burke</strong> 领英主页：https://www.linkedin.com/in/katie-burke-965767a<br/>• <strong style="color:#2471a3">Jerry Garcia</strong>（杰瑞·加西亚）：https://en.wikipedia.org/wiki/Jerry_Garcia<br/>• <strong style="color:#2471a3">Bob Weir</strong>（鲍勃·威尔）：https://en.wikipedia.org/wiki/Bob_Weir<br/>• <strong style="color:#2471a3">Phil Lesh</strong>（菲尔·莱什）：https://en.wikipedia.org/wiki/Phil_Lesh<br/>• <strong style="color:#2471a3">Ron “Pigpen” McKernan</strong>（罗恩"猪圈"麦克尼尔）：https://en.wikipedia.org/wiki/Ron_%22Pigpen%22_McKernan<br/>• <strong style="color:#2471a3">Marc Andreessen</strong>（马克·安德森）：真正的AI热潮甚至还没开始：https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom<br/>• <strong style="color:#c0392b">The American Revolution</strong>（美国独立战争，PBS纪录片）：https://www.pbs.org/kenburns/the-american-revolution<br/>• <strong style="color:#2471a3">Delphi</strong>：https://www.delphi.ai<br/>• <strong style="color:#2471a3">Sonos</strong>：https://www.sonos.com<br/>• <strong style="color:#2471a3">Yamini Rangan</strong> 领英主页：https://www.linkedin.com/in/yaminirangan<br/>• <strong style="color:#2471a3">The Boston Red Sox</strong>（波士顿红袜队）：https://www.mlb.com/redsox</p>
+
+<h3 style="margin:24px 0 12px;">Recommended book（推荐书籍）：</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">• <strong style="color:#c0392b">Marketing Lessons from the Grateful Dead: What Every Business Can Learn from the Most Iconic Band in History</strong>: https://www.amazon.com/Marketing-Lessons-Grateful-Dead-Business/dp/0470900520</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">• <strong style="color:#c0392b">Marketing Lessons from the Grateful Dead: What Every Business Can Learn from the Most Iconic Band in History</strong>（《从感恩至死乐队学到的营销课：每个企业都能从这支最具标志性乐队中学到什么》）：https://www.amazon.com/Marketing-Lessons-Grateful-Dead-Business/dp/0470900520</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Production and marketing by https://penname.co/. For inquiries about sponsoring the podcast, email podcast@lennyrachitsky.com.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">制作和营销由 https://penname.co/ 提供。有关赞助播客的咨询，请发送邮件至 podcast@lennyrachitsky.com。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Lenny may be an investor in the companies discussed.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">Lenny 可能是文中讨论公司的投资人。</p>
+
+<h3 style="margin:24px 0 12px;">My biggest takeaways from this conversation（我从这次对话中最大的收获）：</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Read more</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">阅读更多</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://www.lennysnewsletter.com/p/sequoia-ceo-coach-why-its-never-been" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -620,25 +963,74 @@ perfObserver.observe({ entryTypes: [ &quot;resource&quot; ] });</code></pre>
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt</div>
+        <div class="title">生成式与代理式AI：从技术债务到认知债务的转变</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
+      <div class="title-en">How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt</div>
       <div class="tags"><span class="tag">认知债务</span><span class="tag">AI编程</span><span class="tag">技术债务</span></div>
-      <div class="summary">随着生成式AI和代理式AI的普及，软件开发的隐患正从技术债务转向认知债务：开发者因依赖AI快速生成代码而逐渐丧失对系统逻辑、设计意图和修改方法的理解，即使代码本身质量尚可，也可能导致项目难以维护和迭代。</div>
+      <div class="summary">随着生成式AI和代理式AI的普及，软件开发的核心风险正从技术债务转向认知债务。文章指出，当开发者过度依赖AI生成代码而缺乏深层理解时，将逐渐丧失对系统逻辑和设计意图的掌握，最终导致维护困难甚至开发瘫痪。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Even if AI agents produce code that could be easy to understand, the humans involved may have simply lost the plot and may not understand what the program is supposed to do, how their intentions were implemented, or how to possibly change it.</div><div class="quote-zh">即使AI代理生成的代码本身可能很容易理解，但相关人员却可能已经完全迷失了方向，无法理解程序应该做什么、他们的意图是如何被实现的，又或者如何对其进行修改。</div></div>
-<div class="quote-block"><div class="quote-en">I no longer have a firm mental model of what they can do and how they work, which means each additional feature becomes harder to reason about, eventually leading me to lose the ability to make confident decisions about where to go next.</div><div class="quote-zh">我不再对它们能做什么以及工作原理有清晰的心理模型，这意味着每增加一个新功能都变得更难以推理，最终让我失去了对下一步该往何处去做出自信决断的能力。</div></div>
+<div class="quote-block"><div class="quote-en">I&#x27;ve been experimenting with prompting entire new features into existence without reviewing their implementations and, while it works surprisingly well, I&#x27;ve found myself getting lost in my own projects.</div><div class="quote-zh">我一直在尝试通过提示词直接生成完整的新功能，而无需审查其具体实现；虽然效果出奇地好，但我发现自己竟在自己的项目中迷失了方向。</div></div>
+<div class="quote-block"><div class="quote-en">I no longer have a firm mental model of what they can do and how they work, which means each additional feature becomes harder to reason about, eventually leading me to lose the ability to make confident decisions about where to go next.</div><div class="quote-zh">我不再对它们能做什么以及如何工作拥有坚定的心理模型，这意味着每增加一个新功能都变得更难以推理，最终导致我失去了对下一步方向做出果断决定的能力。</div></div>
 </div>
-      <div class="translation"><p>生成式与智能体AI如何将关注点从技术债务转向认知债务</p>
-<blockquote>Cognitive Debt（认知债务）是最近逐渐受到关注的一个术语，它传达的概念是：追求速度所产生的债务累积存在于开发者的大脑中，影响他们的实际体验以及&quot;快速前进&quot;或进行修改的能力。即使AI agents（AI智能体）生成的代码可能易于理解，但相关人员可能已经完全迷失了方向，无法理解程序应该做什么、他们的意图是如何被实现的，或者如何可能对其进行修改。</blockquote>
-<p>Cognitive Debt（认知债务）是最近逐渐受到关注的一个术语，它传达的概念是：追求速度所产生的债务累积存在于开发者的大脑中，影响他们的实际体验以及&quot;快速前进&quot;或进行修改的能力。即使AI agents（AI智能体）生成的代码可能易于理解，但相关人员可能已经完全迷失了方向，无法理解程序应该做什么、他们的意图是如何被实现的，或者如何可能对其进行修改。</p>
-<p>Margaret-Anne 用一个关于她指导的学生团队的轶事进一步阐述了这一点：</p>
-<blockquote>但到了第7、8周时，有一个团队遇到了瓶颈。他们再也无法在不破坏某些意外功能的情况下进行哪怕简单的修改。当我与他们见面时，团队最初归咎于Technical Debt（技术债务）：混乱的代码、糟糕的架构、仓促的实现。但随着我们深入挖掘，真正的问题浮现出来：团队中没有人能解释为什么做出了某些设计决策，或者系统的不同部分应该如何协同工作。代码可能很混乱，但更大的问题是系统的理论体系——他们共享的理解——已经支离破碎或完全消失了。他们积累Cognitive Debt（认知债务）的速度超过了技术债务，这使他们陷入了瘫痪。</blockquote>
-<p>但到了第7、8周时，有一个团队遇到了瓶颈。他们再也无法在不破坏某些意外功能的情况下进行哪怕简单的修改。当我与他们见面时，团队最初归咎于Technical Debt（技术债务）：混乱的代码、糟糕的架构、仓促的实现。但随着我们深入挖掘，真正的问题浮现出来：团队中没有人能解释为什么做出了某些设计决策，或者系统的不同部分应该如何协同工作。代码可能很混乱，但更大的问题是系统的理论体系——他们共享的理解——已经支离破碎或完全消失了。他们积累Cognitive Debt（认知债务）的速度超过了技术债务，这使他们陷入了瘫痪。</p>
-<p>我自己在一些更具雄心的、与vibe-code-adjacent（氛围编程相关）的项目中也经历过这种情况。我一直在尝试通过prompting（提示词工程）直接生成完整的新功能，而不审查其实现细节，虽然这出奇地有效，但我发现自己在自己的项目中迷失了方向。</p>
-<p>我不再对它们能做什么以及如何工作拥有坚实的心理模型，这意味着每增加一个功能就变得更难以推理，最终导致我失去了对下一步方向做出自信决策的能力。</p>
-<p>via Martin Fowler</p>
-<p>Tags: definitions, ai, generative-ai, llms, ai-assisted-programming, vibe-coding</p></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt</h3>
+<h3 style="margin:24px 0 12px;">生成式与智能体AI如何将关注点从技术债务转向认知债务</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+<strong style="color:#c0392b">Cognitive debt</strong>（认知债务）, a term gainingtractionrecently, instead communicates the notion that the debt compounded from going fast lives in the brains of the developers and affects their lived experiences and abilities to "go fast" or to make changes. Even if <strong style="color:#c0392b">AI agents</strong>（AI智能体） produce code that could be easy to understand, the humans involved may have simply lost the plot and may not understand what the program is supposed to do, how their intentions were implemented, or how to possibly change it.
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+<strong style="color:#c0392b">Cognitive debt</strong>（认知债务）是一个最近逐渐受到关注的术语，它传达的观念是：由快速开发所累积的债务存在于开发人员的大脑中，影响着他们的实际体验以及"快速前进"或做出变更的能力。即使<strong style="color:#c0392b">AI agents</strong>（AI智能体）生成的代码可能易于理解，但相关人员可能已经完全失去头绪（lost the plot），无法理解程序应该做什么、他们的意图是如何被实现的，或者如何对其进行修改。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+<strong style="color:#2471a3">Margaret-Anne</strong> expands on this further with an anecdote about a student team she coached:
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+<strong style="color:#2471a3">Margaret-Anne</strong> 通过讲述她指导的一个学生团队的故事进一步阐述了这一点：
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+But by weeks 7 or 8, one team hit a wall. They could no longer make even simple changes without breaking something unexpected. When I met with them, the team initially blamed <strong style="color:#c0392b">technical debt</strong>（技术债务）: messy code, poor architecture, hurried implementations. But as we dug deeper, the real problem emerged: no one on the team could explain why certain design decisions had been made or how different parts of the system were supposed to work together. The code might have been messy, but the bigger issue was that the theory of the system, their shared understanding, had fragmented or disappeared entirely. They had accumulated <strong style="color:#c0392b">cognitive debt</strong>（认知债务） faster than <strong style="color:#c0392b">technical debt</strong>（技术债务）, and it paralyzed them.
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+但到了第7、8周时，一个团队撞上了南墙。他们再也无法在不破坏某些意外功能的情况下做出哪怕简单的变更。当我与他们会面时，团队最初将其归咎于<strong style="color:#c0392b">technical debt</strong>（技术债务）：混乱的代码、糟糕的架构、仓促的实现。但随着我们深入挖掘，真正的问题浮出水面：团队中没有人能解释为什么做出了某些设计决策，或者系统的不同部分应该如何协同工作。代码可能很混乱，但更大的问题是系统的理论体系——他们的共同理解——已经支离破碎或完全消失了。他们累积<strong style="color:#c0392b">cognitive debt</strong>（认知债务）的速度超过了技术债务，这使他们陷入了瘫痪。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+I've experienced this myself on some of my more ambitious <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">vibe-code-adjacent</code> projects. I've been experimenting with prompting entire new features into existence without reviewing their implementations and, while it works surprisingly well, I've found myself getting lost in my own projects.
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+我自己在一些更具野心的<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">vibe-code-adjacent</code>（氛围编程相关）项目中也经历过这种情况。我一直在尝试通过<strong style="color:#c0392b">prompting</strong>（提示词工程）直接生成完整的新功能，而不审查其具体实现，虽然效果出奇地好，但我发现自己在自己的项目中迷失了方向。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+I no longer have a firm <strong style="color:#c0392b">mental model</strong>（心理模型） of what they can do and how they work, which means each additional feature becomes harder to reason about, eventually leading me to lose the ability to make confident decisions about where to go next.
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+我不再对它们能做什么以及如何工作拥有清晰的<strong style="color:#c0392b">mental model</strong>（心理模型），这意味着每个额外的功能都变得更难以推理，最终导致我失去了对下一步方向做出自信决策的能力。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Via <strong style="color:#2471a3">Martin Fowler</strong>
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+来源：<strong style="color:#2471a3">Martin Fowler</strong>
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Tags: definitions, ai, generative-ai, llms, ai-assisted-programming, vibe-coding
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+标签：definitions, ai, generative-ai, llms, ai-assisted-programming, vibe-coding
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://simonwillison.net/2026/Feb/15/cognitive-debt/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -646,24 +1038,45 @@ perfObserver.observe({ entryTypes: [ &quot;resource&quot; ] });</code></pre>
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">Launching Interop 2026</div>
+        <div class="title">Interop 2026 启动</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="tags"><span class="tag">浏览器</span><span class="tag">Web标准</span><span class="tag">互操作性</span><span class="tag">WebAssembly</span></div>
-      <div class="summary">Interop 2026正式启动，延续了该项目自2021年以来推动浏览器兼容性的显著成效；本年度重点关注跨文档视图过渡（无需JavaScript实现SPA风格页面切换）以及WebAssembly的JavaScript Promise集成（简化C/C++异步编译）两大特性。</div>
+      <div class="title-en">Launching Interop 2026</div>
+      <div class="tags"><span class="tag">浏览器兼容</span><span class="tag">Web标准</span><span class="tag">前端技术</span></div>
+      <div class="summary">Interop 2026正式启动，延续了自2021年以来推动浏览器兼容性提升至95%以上的显著成效，今年将重点实现跨文档视图过渡（无需JavaScript的页面间SPA式转场）及WebAssembly JavaScript Promise集成等关键功能。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">I hadn&#x27;t realized how influential and successful the Interop series has been.</div><div class="quote-zh">我之前从未意识到Interop系列竟然如此具有影响力且大获成功。</div></div>
-<div class="quote-block"><div class="quote-en">This will provide fancy SPA-style transitions between pages on websites with no JavaScript at all.</div><div class="quote-zh">这将为网站页面之间提供炫酷的SPA风格过渡效果，而且完全不需要JavaScript。</div></div>
+<div class="quote-block"><div class="quote-en">I hadn&#x27;t realized how influential and successful the Interop series has been.</div><div class="quote-zh">我之前没意识到 Interop 系列竟然如此有影响力且成功。</div></div>
+<div class="quote-block"><div class="quote-en">This will provide fancy SPA-style transitions between pages on websites with no JavaScript at all.</div><div class="quote-zh">这将为网站页面之间提供酷炫的 SPA 风格过渡效果，而且完全不需要 JavaScript。</div></div>
 </div>
-      <div class="translation"><p>Interop 2026 正式启动</p>
-<p>我之前并未意识到 Interop 系列具有如此重大的影响力和成功程度。该项目始于 2021 年，当时名为 Compat 2021，随后在 2022 年更名为 Interop（浏览器互操作性计划）。</p>
-<p>每年的仪表板（dashboard）可以在此处查看，它们展示了该计划取得了多么显著的成效：2021、2022、2023、2024、2025、2026。</p>
-<p>以下是 2025 年的进度图表，显示了各大浏览器厂商（browser vendors）正竞相在年底前达到 95% 以上的分数：</p>
-<p>我对 2026 年最期待的功能是 Cross-document View Transitions（跨文档视图过渡），它建立在 2025 年成功实现的 Same-Document View Transitions（同文档视图过渡）目标基础之上。这将为网站页面之间提供炫酷的 SPA（单页应用）风格过渡效果，且完全不需要 JavaScript。</p>
-<p>作为一名热衷于钻研 WebAssembly（Wasm）的开发者，我对这一项也很感兴趣：</p>
-<blockquote>JavaScript Promise Integration for Wasm（Wasm 的 JavaScript Promise 集成）允许 WebAssembly 异步地&quot;挂起&quot;，等待外部 Promise 的结果。这简化了 C/C++ 等期望 API 同步执行的语言的编译工作。</blockquote>
-<p>JavaScript Promise Integration for Wasm（Wasm 的 JavaScript Promise 集成）允许 WebAssembly 异步地&quot;挂起&quot;，等待外部 Promise 的结果。这简化了 C/C++ 等期望 API 同步执行的语言的编译工作。</p>
-<p>Tags: browsers, css, javascript, web-standards, webassembly, jake-archibald</p></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Launching Interop 2026（启动 Interop 2026）</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">I hadn't realized how influential and successful the <strong style="color:#c0392b">Interop</strong>（浏览器互操作性）series has been. It started back in 2021 as <strong style="color:#c0392b">Compat 2021</strong> before being rebranded to Interop in 2022.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">我此前并未意识到 <strong style="color:#c0392b">Interop</strong>（浏览器互操作性）系列项目具有如此深远的影响力且取得了如此巨大的成功。该项目始于 2021 年，最初名为 <strong style="color:#c0392b">Compat 2021</strong>，后于 2022 年更名为 Interop。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">The <strong style="color:#c0392b">dashboards</strong>（仪表板）for each year can be seen here, and they demonstrate how wildly effective the program has been: 2021, 2022, 2023, 2024, 2025, 2026.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">每年的 <strong style="color:#c0392b">dashboards</strong>（仪表板）可在此处查看，它们展示了该计划取得了何等显著的成效：2021、2022、2023、2024、2025、2026。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Here's the progress chart for 2025, which shows every <strong style="color:#c0392b">browser vendor</strong>（浏览器厂商）racing towards a <strong style="color:#c0392b">95%+ score</strong> by the end of the year:</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">以下是 2025 年的进度图表，显示了各大 <strong style="color:#c0392b">浏览器厂商</strong>（browser vendor）竞相在年底达到 <strong style="color:#c0392b">95% 以上得分</strong>（95%+ score）的情况：</p>
+
+<img src="https://static.simonwillison.net/static/2026/interop-2025.jpg" alt="Line chart showing Interop 2025 browser compatibility scores over the year (Jan–Dec) for Chrome, Edge, Firefox, Safari, and Interop. Y-axis ranges from 0% to 100%. Chrome (yellow) and Edge (green) lead, starting around 80% and reaching near 100% by Dec. Firefox (orange) starts around 48% and climbs to ~98%. Safari (blue) starts around 45% and reaches ~96%. The Interop line (dark green/black) starts lowest around 29% and rises to ~95% by Dec. All browsers converge near 95–100% by year's end." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<img src="https://static.simonwillison.net/static/2026/interop-2025.jpg" alt="Line chart showing Interop 2025 browser compatibility scores over the year (Jan–Dec) for Chrome, Edge, Firefox, Safari, and Interop. Y-axis ranges from 0% to 100%. Chrome (yellow) and Edge (green) lead, starting around 80% and reaching near 100% by Dec. Firefox (orange) starts around 48% and climbs to ~98%. Safari (blue) starts around 45% and reaches ~96%. The Interop line (dark green/black) starts lowest around 29% and rises to ~95% by Dec. All browsers converge near 95–100% by year's end." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">The feature I'm most excited about in 2026 is <strong style="color:#c0392b">Cross-document View Transitions</strong>（跨文档视图过渡）, building on the successful 2025 target of <strong style="color:#c0392b">Same-Document View Transitions</strong>（同文档视图过渡）. This will provide fancy <strong style="color:#c0392b">SPA</strong>（Single Page Application，单页应用）-style transitions between pages on websites with no JavaScript at all.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">2026 年最让我兴奋的功能是 <strong style="color:#c0392b">Cross-document View Transitions</strong>（跨文档视图过渡），它建立在 2025 年成功实现的 <strong style="color:#c0392b">Same-Document View Transitions</strong>（同文档视图过渡）目标之上。这将使网站能够在页面之间实现精美的 <strong style="color:#c0392b">SPA</strong>（Single Page Application，单页应用）式过渡效果，且完全无需 JavaScript。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">As a keen <strong style="color:#c0392b">WebAssembly</strong>（网络汇编）tinkerer I'm also intrigued by this one:</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">作为一名热衷的 <strong style="color:#c0392b">WebAssembly</strong>（网络汇编，简称 Wasm）研究者，我对以下这项功能也颇感兴趣：</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;"><strong style="color:#c0392b">JavaScript Promise Integration</strong>（JavaScript Promise 集成）for Wasm allows WebAssembly to asynchronously 'suspend', waiting on the result of an external promise. This simplifies the compilation of languages like <strong style="color:#c0392b">C/C++</strong> which expect APIs to run synchronously.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#c0392b">JavaScript Promise Integration</strong>（JavaScript Promise 集成）for Wasm 允许 WebAssembly 异步"暂停"（suspend），等待外部 promise 的结果。这简化了诸如 <strong style="color:#c0392b">C/C++</strong> 等期望 API 同步运行的语言的编译工作。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;"><strong style="color:#c0392b">JavaScript Promise Integration for Wasm</strong>allows WebAssembly to asynchronously 'suspend', waiting on the result of an external promise. This simplifies the compilation of languages like C/C++ which expect APIs to run synchronously.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#c0392b">JavaScript Promise Integration for Wasm</strong>（Wasm 的 JavaScript Promise 集成）允许 WebAssembly 异步"挂起"（suspend），等待外部 promise 的结果。这简化了像 C/C++ 这样期望 API 同步运行的语言的编译工作。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Tags: browsers,css,javascript,web-standards,webassembly,<strong style="color:#2471a3">jake-archibald</strong></blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">标签：browsers、css、javascript、web-standards、webassembly、<strong style="color:#2471a3">Jake Archibald</strong></p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://simonwillison.net/2026/Feb/15/interop-2026/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -671,20 +1084,48 @@ perfObserver.observe({ entryTypes: [ &quot;resource&quot; ] });</code></pre>
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">Quoting Boris Cherny</div>
+        <div class="title">Boris Cherny：工程正在改变，但工程师比以往更重要</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="tags"><span class="tag">AI编程</span><span class="tag">工程师</span><span class="tag">Claude</span></div>
-      <div class="summary">尽管Claude等AI编程工具兴起，Claude Code创造者Boris Cherny强调Anthropic仍在大力招聘开发者，认为提示工程、客户对接、跨团队协调和产品规划等关键职责仍需人类完成，优秀的工程师在AI时代反而更加不可或缺。</div>
+      <div class="title-en">Quoting Boris Cherny</div>
+      <div class="tags"><span class="tag">AI编程</span><span class="tag">工程师</span><span class="tag">职业发展</span></div>
+      <div class="summary">Claude Code创造者Boris Cherny指出，即便在AI辅助编程时代，仍需要工程师来提示AI、与客户沟通并决定产品方向；他认为工程领域正在变革，优秀的工程师比以往任何时候都更加重要。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Someone has to prompt the Claudes, talk to customers, coordinate with other teams, decide what to build next.</div><div class="quote-zh">总得有人去提示那些Claude，与客户交谈，与其他团队协调，决定下一步该构建什么。</div></div>
-<div class="quote-block"><div class="quote-en">Engineering is changing and great engineers are more important than ever.</div><div class="quote-zh">工程正在发生改变，而优秀的工程师比以往任何时候都更加重要。</div></div>
+<div class="quote-block"><div class="quote-en">Someone has to prompt the Claudes, talk to customers, coordinate with other teams, decide what to build next. Engineering is changing and great engineers are more important than ever.</div><div class="quote-zh">总得有人去提示Claude，与客户交流，协调其他团队，决定接下来该构建什么。工程正在经历变革，而优秀的工程师比以往任何时候都更加重要。</div></div>
 </div>
-      <div class="translation"><p>文章标题: 引用 Boris Cherny</p>
-<blockquote>Someone has to prompt（提示）the Claudes, talk to customers, coordinate with other teams, decide what to build next. Engineering（工程）is changing and great engineers are more important than ever.</blockquote>
-<p>Someone has to prompt（提示）the Claudes, talk to customers, coordinate with other teams, decide what to build next. Engineering（工程）is changing and great engineers are more important than ever.</p>
-<p>——Boris Cherny，Claude Code 创造者，谈 Anthropic 为何仍在招聘开发人员</p>
-<p>Tags:careers（职业）,anthropic,ai（人工智能）,claude-code,llms（大语言模型）,coding-agents（编程智能体）,ai-assisted-programming（AI 辅助编程）,generative-ai（生成式 AI）</p></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Quoting Boris Cherny</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Someone has to <strong style="color:#c0392b">prompt</strong> the <strong style="color:#c0392b">Claudes</strong>, talk to customers, coordinate with other teams, decide what to build next. Engineering is changing and great engineers are more important than ever.
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+总得有人来给 <strong style="color:#c0392b">Claude</strong>（AI 助手）编写<strong style="color:#c0392b">提示词（prompt）</strong>，与客户沟通，跨团队协调，并决定下一步该构建什么。工程领域正在经历深刻变革，而优秀的工程师比以往任何时候都更加重要。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Someone has to prompt the Claudes, talk to customers, coordinate with other teams, decide what to build next. Engineering is changing and great engineers are more important than ever.
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+总得有人来给 Claude 编写提示词，与客户沟通，跨团队协调，并决定下一步该构建什么。工程领域正在经历深刻变革，而优秀的工程师比以往任何时候都更加重要。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+—<strong style="color:#2471a3">Boris Cherny</strong>, <strong style="color:#c0392b">Claude Code</strong> creator, on why <strong style="color:#2471a3">Anthropic</strong> are still hiring developers
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+——<strong style="color:#2471a3">Boris Cherny</strong>，<strong style="color:#c0392b">Claude Code</strong>（智能编程助手）的创造者，阐述 <strong style="color:#2471a3">Anthropic</strong>（Anthropic 公司）为何仍在招聘开发人员
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Tags:careers,anthropic,ai,claude-code,llms,coding-agents,ai-assisted-programming,generative-ai
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+标签：careers（职业发展）、<strong style="color:#2471a3">anthropic</strong>、<strong style="color:#c0392b">ai</strong>（人工智能）、<strong style="color:#c0392b">claude-code</strong>（Claude 代码助手）、<strong style="color:#c0392b">llms</strong>（大语言模型）、<strong style="color:#c0392b">coding-agents</strong>（编程智能体）、<strong style="color:#c0392b">ai-assisted-programming</strong>（AI 辅助编程）、<strong style="color:#c0392b">generative-ai</strong>（生成式 AI）
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://simonwillison.net/2026/Feb/14/boris/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -692,28 +1133,61 @@ perfObserver.observe({ entryTypes: [ &quot;resource&quot; ] });</code></pre>
 <div class="article-card">
       <div class="source">Gary Marcus</div>
       <div class="title-row">
-        <div class="title">We URGENTLY need a federal law forbidding AI from impersonating humans</div>
+        <div class="title">迫切需要联邦立法禁止AI冒充人类</div>
         <span class="tone-pill" style="background:#ffe4e6;color:#be123c">😤 批评</span>
       </div>
-      <div class="tags"><span class="tag">深度伪造</span><span class="tag">AI立法</span><span class="tag">AI诈骗</span></div>
-      <div class="summary">文章援引哲学家丹尼特的观点，强调随着深度伪造和AI语音模仿技术的快速发展已引发严重诈骗风险，美国迫切需要制定联邦法律，明确禁止机器输出冒充人类、限制聊天机器人使用第一人称，并严格规范对在世者肖像和声音的AI合成使用。</div>
+      <div class="title-en">We URGENTLY need a federal law forbidding AI from impersonating humans</div>
+      <div class="tags"><span class="tag">深度伪造</span><span class="tag">AI立法</span><span class="tag">身份冒充</span><span class="tag">AI安全</span></div>
+      <div class="summary">文章指出，随着Deepfake和AI语音技术的飞速发展，诈骗分子已能轻易伪造真人形象和声音实施欺诈，因此紧急呼吁立即制定联邦法律，严禁AI系统冒充人类，并防止企业游说削弱AI监管。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Anybody&#x27;s appearance can (given sufficient data) be faked now, at any time, for almost nothing.</div><div class="quote-zh">只要有足够数据，任何人的外貌现在都可以在任何时候、以几乎零成本被伪造。</div></div>
-<div class="quote-block"><div class="quote-en">Generative AI systems may still struggle to reason, as discussed here recently, but they were built for mimicry, and their mimicry has gotten to the point where we must do something now.</div><div class="quote-zh">生成式AI系统或许仍在推理能力上挣扎（正如最近在此讨论的），但它们天生就是为模仿而构建的，且其模仿能力已达至我们此刻必须采取行动的地步。</div></div>
+<div class="quote-block"><div class="quote-en">All of this has gone too far, too fast.</div><div class="quote-zh">这一切发展得太远、太快了。</div></div>
+<div class="quote-block"><div class="quote-en">Anybody’s appearance can (given sufficient data) be faked now, at any time, for almost nothing.</div><div class="quote-zh">只要有足够数据，现在几乎可以零成本、随时随地伪造任何人的外貌。</div></div>
 </div>
-      <div class="translation"><p>文章标题：我们迫切需要一项禁止AI冒充人类的联邦法律</p>
-<p>2023年5月，我在美国参议院作证的前一晚，已故哲学家Daniel Dennett给我发来一篇手稿，他称之为&quot;counterfeit people（假冒人类）&quot;。几天后，这篇文章发表在《大西洋月刊》上。</p>
-<p>这是第一段。</p>
-<p>他当时是对的。三年后的今天更是如此。他所呼吁的那种法律——禁止&quot;制造并&#x27;传播&#x27; counterfeit people（假冒人类）&quot;——的需求如今已迫在眉睫。</p>
-<p>今天早上发给我的两条消息让这一点显而易见。第一条（原始来源显然在这个帖子中）展示了deep fake（深度伪造）视频技术已经发展到何种程度：</p>
-<p>任何人的外貌现在（只要数据充足）都可以被伪造，随时随地，几乎零成本。</p>
-<p>与此同时，还记得OpenClaw吗？我曾警告说它会造成各种安全风险。现在又有了新情况：你可以让OpenClaw给人打电话，并假装是人类。</p>
-<p>诈骗者将是最早采用这些工具的人之一。事实上他们已经在用了；昨天一位正在为纪录片拍摄我的朋友告诉我，他的一位加拿大朋友被一段Mark Carney的deepfaked（深度伪造）视频骗走了数十万美元。因为伪造工具已经变得如此先进，2026年几乎肯定会发生比历史上其他所有年份加起来还要多的此类deepfaked（深度伪造）诈骗。</p>
-<p>今天就告诉你们的代表，而不是明天：我们必须通过联邦法律，禁止将machine output（机器输出）冒充为人类呈现，并且我们必须制定执行这些法律的手段。聊天机器人不得使用第一人称；未经在世人士明确同意，不得再制作其声音和图像的deepfakes（深度伪造），明显的讽刺作品等除外。这一切发展得太过、太快。我们不能让企业游说者阻挠解决这些问题的努力。</p>
-<p>Generative AI（生成式AI）系统可能仍在推理方面存在困难，正如最近在本文讨论的那样，但它们生来就是为了模仿，而且它们的模仿能力已经达到了我们必须立即采取行动的地步。</p>
-<p>最后，我将引用Dennett那篇极具先见之明的《大西洋月刊》文章（遗憾的是该文需要付费订阅）：</p>
-<p>立即订阅</p>
-<p>一些州法律正试图解决这些问题，但正如我们所知，联邦政府正在试图削弱各州通过和执行AI监管的能力。</p></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">We URGENTLY need a federal law forbidding AI from impersonating humans<br/>我们迫切需要制定禁止AI冒充人类的联邦法律</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">The night before I testified in the US Senate in May, 2023, the late philosopher Daniel Dennett sent me a manuscript that he called “counterfeit people”. It was published a few days later in The Atlantic.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">2023年5月，就在我前往<strong style="color:#2471a3">美国参议院</strong>（US Senate）作证的前一晚，已故哲学家<strong style="color:#2471a3">Daniel Dennett</strong>（丹尼尔·丹尼特）送给我一份他称之为"<strong style="color:#c0392b">counterfeit people</strong>"（伪造人/冒牌人）的手稿。几天后，该文发表在<strong style="color:#2471a3">The Atlantic</strong>（《大西洋月刊》）上。</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!KEn2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52d55192-048f-4a92-83d6-cff6a90053d6_1814x896.png" alt="Article screenshot" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Here the first paragraph.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">以下是该文的第一段。</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!voea!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3413dc91-f4b4-4ac6-8e62-96c72ebf4c65_1468x850.png" alt="First paragraph text" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">He was right then. Three years later even more so. The need for the kind of law he was calling for – one forbidding “the creation of and ‘passing along’ of counterfeit people” is now urgent.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">他当时是对的。三年后的今天更是如此。他所呼吁的那种法律——禁止"<strong style="color:#c0392b">counterfeit people</strong>"（伪造人）的"制造并'传播'"——的需求如今已十分紧迫。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Two items sent to me this morning make that absolutely clear. The first (original sources apparently in this thread here) shows how far deep fake videos have come:</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">今天早上发给我的两件事清楚地说明了这一点。第一件（原始出处显然在这个帖子中）展示了<strong style="color:#c0392b">deep fake</strong>（深度伪造）视频已经发展到何种程度：</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Anybody’s appearance can (given sufficient data) be faked now, at any time, for almost nothing.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">只要有足够数据，任何人的外貌现在都可以被伪造，随时随地，而且成本几乎为零。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Meanwhile, remember OpenClaw, and how I warned that it would cause all kinds of security risks? Well here’s a new one, you can have OpenClaw call people, and pretend to be human.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">与此同时，还记得<strong style="color:#c0392b">OpenClaw</strong>吗？我曾警告过它会造成各种安全风险。现在又有了新情况：你可以让OpenClaw给人们打电话，并<strong style="color:#c0392b">冒充人类</strong>（impersonating humans）。</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!FIHD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f70a956-9c97-44a9-88b5-e33491a9db63_1489x844.jpeg" alt="OpenClaw interface" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Scammers will be among the first to adopt these tools. And indeed they already have; a friend who was filming me for a documentary yesterday told me of a Canadian friend of his who was scammed out of hundreds of thousands of dollars by a deepfaked video of Mark Carney. Because the tools for counterfeiting have gotten so good 2026 will almost certainly see more deepfaked scams like this than the rest of history combined.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">诈骗者将是最早采用这些工具的人之一。事实上他们已经在这么做了；昨天一位正在为纪录片拍摄我的朋友告诉我，他的一个加拿大朋友被一段<strong style="color:#2471a3">Mark Carney</strong>（马克·卡尼）的<strong style="color:#c0392b">deepfaked</strong>（深度伪造的）视频骗走了数十万美元。由于<strong style="color:#c0392b">counterfeiting</strong>（伪造）工具已经变得如此先进，2026年几乎肯定会比历史上所有年份加起来出现更多的此类深度伪造诈骗。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Tell your representatives today, not tomorrow, that we must pass federal laws forbidding machine output from being presented as humans, and that we must develop the means to enforce those laws. No use of the first person by chatbots, and no more deepfakes of living people’s voices and images without their express consent, aside from carveouts for obvious parody and so on. All of this has gone too far, too fast. And we must not let corporate lobbyists thwart efforts to address all this.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">今天就告诉你的代表们，而不是明天，我们必须通过<strong style="color:#c0392b">联邦法律</strong>（federal laws），禁止将机器输出冒充为人类呈现，并且我们必须制定执行这些法律的手段。禁止<strong style="color:#c0392b">chatbots</strong>（聊天机器人）使用第一人称，未经生者明确同意，不得再对其声音和图像进行<strong style="color:#c0392b">deepfakes</strong>（深度伪造），除非出于明显的戏仿等例外情况。这一切发展得太快、太远了。我们绝不能让<strong style="color:#2471a3">corporate lobbyists</strong>（企业游说者）阻挠解决这些问题的努力。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Generative AI systems may still struggle to reason, as discussed here recently, but they were built for mimicry, and their mimicry has gotten to the point where we must do something now.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#c0392b">Generative AI</strong>（生成式AI）系统可能仍在推理方面存在困难，正如最近在本文中讨论的那样，但它们天生就是为了<strong style="color:#c0392b">mimicry</strong>（模仿）而构建的，而且它们的模仿能力已经达到了我们现在必须采取行动的地步。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">I will end by quoting from Dennett’s deeply prescient Atlantic essay (and I am sorry that it is paywalled):</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">我将以引用<strong style="color:#2471a3">Dennett</strong>那篇极具先见之明的<strong style="color:#2471a3">Atlantic</strong>（《大西洋月刊》）文章来结束本文（很抱歉该文章需要付费阅读）：</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!KKvp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa53c6cfa-12be-48e6-80c7-df525a6f3140_1617x482.png" alt="Dennett quote" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Subscribe now</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">立即订阅</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Some state laws are trying to address these issues, but as we know the Federal government is trying to undermine the states’ abilities to pass and enforce AI regulation.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">一些州法律正试图解决这些问题，但正如我们所知，<strong style="color:#2471a3">Federal government</strong>（联邦政府）正在试图削弱各州通过和执行<strong style="color:#c0392b">AI regulation</strong>（AI监管）的能力。</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://garymarcus.substack.com/p/we-urgently-need-a-federal-law-forbidding" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -721,16 +1195,17 @@ perfObserver.observe({ entryTypes: [ &quot;resource&quot; ] });</code></pre>
 <div class="article-card">
       <div class="source">Lenny&#x27;s Newsletter</div>
       <div class="title-row">
-        <div class="title">🧠 Community Wisdom: How PMs are using AI coding tools, implementing reverse free trials, distinguishing yourself as a product manager vs. project manager, pricing your consulting work, and more</div>
+        <div class="title">社区智慧：PM的AI工具应用、反向免费试用与职业区分之道</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="tags"><span class="tag">产品经理</span><span class="tag">AI工具</span><span class="tag">定价策略</span><span class="tag">职业建议</span></div>
-      <div class="summary">本期会员专属周刊汇总了Slack社群中的精华讨论，涵盖产品经理如何运用AI编程工具、实施反向免费试用策略、区分产品管理与项目管理角色定位以及咨询定价等热门实战话题。</div>
+      <div class="title-en">🧠 Community Wisdom: How PMs are using AI coding tools, implementing reverse free trials, distinguishing yourself as a product manager vs. project manager, pricing your consulting work, and more</div>
+      <div class="tags"><span class="tag">产品经理</span><span class="tag">AI工具</span><span class="tag">定价策略</span></div>
+      <div class="summary">本期订阅专享的&quot;Community Wisdom&quot;栏目精选了Slack社区的热门讨论，涵盖产品经理运用AI编程工具、实施反向免费试用策略、区分产品与项目经理角色以及咨询定价等实用话题。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">👋 Hello and welcome to this week’s edition of ✨Community Wisdom✨ a subscriber-only email, delivered every Saturday, highlighting the most helpful conversations in our members-only Slack community.</div><div class="quote-zh">👋 你好，欢迎阅读本周的✨社区智慧✨特刊——这是一份仅限订阅者的邮件，每周六送达，旨在精选我们专属Slack社区中最具价值的对话。</div></div>
+<div class="quote-block"><div class="quote-en">Hello and welcome to this week’s edition of ✨Community Wisdom✨ a subscriber-only email, delivered every Saturday, highlighting the most helpful conversations in our members-only Slack community.</div><div class="quote-zh">欢迎阅读本周的✨社区智慧✨订阅者专属通讯，每周六送达，精选我们会员专属Slack社区中最有价值的讨论。</div></div>
 </div>
-      <div class="translation"><p>文章标题：🧠 Community Wisdom（社区智慧）：产品经理（PMs）如何使用 AI 编程工具、实施反向免费试用（reverse free trials）、区分产品经理（product manager）与项目经理（project manager）、为你的咨询业务定价，以及更多精彩内容</p>
-<p>👋 你好，欢迎阅读本周的 ✨Community Wisdom（社区智慧）✨。这是一封仅限订阅者（subscriber-only）的邮件，每周六发送，精选我们仅限会员（members-only）的 Slack 社区中最有价值的讨论。</p></div>
+      <div class="translation"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">👋 Hello and welcome to this week’s edition of ✨Community Wisdom✨ a subscriber-only email, delivered every Saturday, highlighting the most helpful conversations in our members-only Slack community.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">👋 你好，欢迎阅读本周的<strong style="color:#c0392b">Community Wisdom</strong>（社区智慧）专栏——这是一封<strong style="color:#c0392b">subscriber-only</strong>（仅限订阅者）的邮件，每周六送达，重点呈现我们<strong style="color:#c0392b">members-only Slack community</strong>（仅限会员的 Slack 社区）中最有价值的讨论。</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://www.lennysnewsletter.com/p/community-wisdom-how-pms-are-using" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -738,39 +1213,92 @@ perfObserver.observe({ entryTypes: [ &quot;resource&quot; ] });</code></pre>
 <div class="article-card">
       <div class="source">Construction Physics</div>
       <div class="title-row">
-        <div class="title">Reading list 02/14/26</div>
+        <div class="title">建筑与工业技术阅读清单（2月14日）</div>
         <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
       </div>
-      <div class="tags"><span class="tag">房地产</span><span class="tag">制造业</span><span class="tag">基础设施</span><span class="tag">产业政策</span></div>
-      <div class="summary">这是一份关于建筑、基础设施与工业技术领域的每周新闻汇编，涵盖了美国住房立法进展与纽约分区改革、AI数据中心建设拉动光纤需求激增、中国汽车入美预期对日韩车企的冲击，以及特朗普政府计划放宽金属关税以降低制造业成本等热点动态。</div>
+      <div class="title-en">Reading list 02/14/26</div>
+      <div class="tags"><span class="tag">住房</span><span class="tag">基础设施</span><span class="tag">制造业</span></div>
+      <div class="summary">本周阅读清单聚焦建筑与工业技术领域，涵盖美英住房政策改革（如纽约分区调整、伦敦新房开工创40年新低）及南地中海建筑安全危机，同时追踪制造业动态，包括AI数据中心推动光纤需求激增、中国汽车潜在进入美国市场，以及特朗普政府调整金属关税以提振制造业竞争力。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">This was true when Gizmodo published its 2015 article Why Is My Smart Home So Fucking Dumb?, and it seems like it&#x27;s still true today.</div><div class="quote-zh">早在2015年Gizmodo发布那篇题为《为什么我的智能家居他妈的这么蠢？》的文章时就是如此，而今天看来依然如此。</div></div>
+<div class="quote-block"><div class="quote-en">This was true when Gizmodo published its 2015 article Why Is My Smart Home So Fucking Dumb?, and it seems like it’s still true today.</div><div class="quote-zh">当Gizmodo在2015年发表《为什么我的智能家居这么他妈的蠢？》这篇文章时，情况就是这样，而直到今天似乎依然如此。</div></div>
+<div class="quote-block"><div class="quote-en">Sunderji’s Paradox: the rich spend a smaller fraction of their income on their housing than the poor, but as countries get richer these fractions don’t change.</div><div class="quote-zh">桑德吉悖论：富人比穷人在住房上花费的收入比例更小，但随着国家变得更富裕，这些比例并不会改变。</div></div>
 </div>
-      <div class="translation"><p>阅读清单 02/14/26</p>
-<p>欢迎来到阅读清单，这是一份关于建筑、基础设施和工业技术的新闻与链接的每周汇总。大约三分之二的阅读清单内容设有付费墙（paywalled），如需完整访问，请成为付费订阅者。</p>
-<p>本周事务性通知：</p>
-<ul>
-<li>我的书入围了曼哈顿研究所（Manhattan Institute）的哈耶克图书奖（Hayek Book Prize）。</li>
-</ul>
-<p>我的书入围了曼哈顿研究所（Manhattan Institute）的哈耶克图书奖（Hayek Book Prize）。</p>
-<h4>住房</h4>
-<p>《大西洋月刊》（The Atlantic）发表了一篇关于大多数智能家居技术（smart home technology）仍然多么难以使用且用户体验多么差的文章。当 Gizmodo 在 2015 年发表《Why Is My Smart Home So Fucking Dumb?》一文时，情况就是如此，而直到今天似乎依然如此。[The Atlantic]</p>
-<p>司法部（Department of Justice）显然正在考虑对美国住宅建筑商展开反垄断调查（antitrust probe），原因可能是他们通过名为&quot;美国领先建筑商&quot;（Leading Builders of America）的行业协会协调定价。[Bloomberg]</p>
-<p>美国众议院（US House of Representatives）通过了《21世纪住房法案》（Housing in the 21st Century Act）。这是众议院版本的《ROAD住房法案》（ROAD to Housing Act），该法案已于去年十月在参议院获得通过，我曾在 Statecraft 上讨论过。这些法案其中包括取消预制（移动）房屋（manufactured/mobile homes）必须配备钢制底盘（steel chassis）的要求，这是该行业长期抱怨的问题。[X]</p>
-<p>特朗普和新当选的纽约市长佐赫兰·曼达尼（Zohran Mamdani）显然都对纽约市的区划改革（zoning reform）充满热情。[Politico]</p>
-<p>美国人正承担越来越多的信用卡债务，但到目前为止，抵押贷款违约率（mortgage delinquencies）仍保持相当平稳。[X]</p>
-<p>南地中海地区（Southern Mediterranean）的建筑物似乎正更频繁地倒塌，可能是由于海平面上升导致侵蚀加剧。&quot;亚历山大港（Alexandria）是埃及一座历史悠久且人口稠密的港口城市，代表了南地中海的几个沿海城镇，在过去二十年间，其海岸线沿线已发生超过 280 起建筑倒塌事故，根本原因仍在调查中。&quot;[Wiley] [Usc]</p>
-<p>Sunderji 悖论（Sunderji&#x27;s Paradox）：富人将其收入的较小部分用于住房，但随着国家变得更加富裕，这些比例并未改变。[Substack]</p>
-<p>&quot;伦敦设定的目标是在未来十年每年新建 88,000 套住房。去年仅开工 5,891 套——比目标低 94%，同比下降 75%，是全国降幅最大的地区，创近 40 年有记录以来的最低水平，也是本世纪发达国家任何主要城市的最低数字。&quot;[FT]</p>
-<h4>制造业</h4>
-<p>《华尔街日报》（WSJ）发表了一篇关于康宁（Corning）的文章，这家玻璃公司正在生产 AI 数据中心（AI data centers）突然需求激增的光纤电缆（fiber optic cable）。&quot;2018 年，Weeks 和 O&#x27;Day 前往达拉斯参观了 Meta（当时称为 Facebook）拥有的一座数据中心。他们对连接那座巨大仓库内所有服务器所需的光纤电缆（fiber-optic cabling）需求感到惊讶。Facebook 当时混合使用铜缆和现有的光纤，但发现两者都不适合这项任务。康宁研究部门负责人 Claudio Mazzali 表示，这促使康宁的工程师将电缆做得更细，但也更坚固，使其能够承受急剧弯曲。五年后，ChatGPT 首次亮相，对光纤供电数据中心的需求激增。&#x27;我们很庆幸在 2018 年去了那里，也很庆幸做了那次押注，&#x27;O&#x27;Day 说。他补充道，当时他们根本不知道这会是一笔好投资还是一笔失败的投资。&quot;[Wall Street Journal]</p>
-<p>在其他玻璃制造新闻中，《华尔街日报》还发表了一篇关于挡风玻璃（windshield）制造商对一家位于美国、由中国所有的挡风玻璃工厂以远低于他们的成本生产挡风玻璃感到不满的文章。[Wall Street Journal]</p>
-<p>彭博社（Bloomberg）发表了一篇关于中国汽车进入美国市场是否只是时间问题的文章。一个有趣的观点是，实际上可能最受低价中国汽车涌入威胁的是韩国和日本进口车（它们主导着美国市场的低端），而非美国品牌。[Bloomberg]</p>
-<p>比亚迪（BYD）一月份的销售额比去年下降了 30%。[X]</p>
-<p>一家美国无人机制造商被赶出了他们在布鲁克林海军造船厂（Brooklyn Navy Yard）的场地，显然部分原因是激进分子施压，不满他们向以色列供应无人机。[Mondoweiss] [X]</p>
-<p>白宫（White House）发布了一份海事行动计划（maritime action plan），旨在振兴美国造船业。我还没有机会仔细阅读，但这似乎是几十项政策建议的集合。[White House]</p>
-<p>我们此前曾指出，关税（tariffs）的一个重大缺点是，它们可能通过抬高制造业投入品的价格，使国内制造业的竞争力下降。现在特朗普政府计划放宽对金属和铝的关税。[FT]</p>
-<p>阅读更多</p></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Reading list 02/14/26</h3>
+<h3 style="margin:24px 0 12px;">阅读清单 02/14/26</h3>
+
+<img src="https://substackcdn.com/image/fetch/$s_!SNUx!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21d8b837-7e0f-4947-9153-abc71a281378_1280x1388.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Welcome to the reading list, a weekly list of news and links related to buildings, infrastructure, and industrial technology. Roughly 2/3rds of the reading list is paywalled, so for full access become a paid subscriber.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">欢迎阅读本期清单，这是一份每周更新的新闻和链接汇总，内容涵盖<strong style="color:#c0392b">建筑</strong>（buildings）、<strong style="color:#c0392b">基础设施</strong>（infrastructure）和<strong style="color:#c0392b">工业技术</strong>（industrial technology）。阅读清单约有三分之二的内容设有付费墙，如需获取完整访问权限，请成为付费订阅者。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Housekeeping items this week:</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">本周事务公告：</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">- My bookis a finalist for the Manhattan Institute’sHayek Book Prize.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">- 我的著作入围了<strong style="color:#2471a3">曼哈顿研究所</strong>（Manhattan Institute）的<strong style="color:#c0392b">哈耶克图书奖</strong>（Hayek Book Prize）决赛名单。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">My bookis a finalist for the Manhattan Institute’sHayek Book Prize.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">我的著作入围了<strong style="color:#2471a3">曼哈顿研究所</strong>的<strong style="color:#c0392b">哈耶克图书奖</strong>决赛名单。</p>
+
+<h3 style="margin:24px 0 12px;">Housing</h3>
+<h3 style="margin:24px 0 12px;">住房</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">The Atlantic has a piece on how difficult and user-unfriendly most smart home technology still is. This was true when Gizmodo published its 2015 article Why Is My Smart Home So Fucking Dumb?, and it seems like it’s still true today. [The Atlantic]</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#2471a3">The Atlantic</strong>（《大西洋月刊》）发表了一篇关于大多数<strong style="color:#c0392b">智能家居</strong>（smart home）技术仍然多么难以使用且对用户不友好的文章。早在 2015 年 <strong style="color:#2471a3">Gizmodo</strong> 发表《为什么我的智能家居这么蠢？》（Why Is My Smart Home So Fucking Dumb?）一文时就是如此，而今天看来依然如故。[The Atlantic]</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">The Department of Justice is apparently considering opening an antitrust probe into US homebuilders, possibly due to their coordination on prices through a trade group. “Leading Builders of America”. [Bloomberg]</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#2471a3">美国司法部</strong>（Department of Justice）显然正在考虑对全美房屋建筑商展开<strong style="color:#c0392b">反垄断调查</strong>（antitrust probe），原因可能是他们通过名为"<strong style="color:#2471a3">美国领先建筑商</strong>（Leading Builders of America）"的贸易团体协调定价。[Bloomberg]</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">The US house of representatives passes the Housing in the 21st Century Act. This is the house version of theROAD to Housing Actwhich was passed by the senate back in October, and whichI talked about on Statecraft. Among other things these bills remove the requirement that manufactured (mobile) homes have steel chassis, which the industry has long complained about. [X]</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#2471a3">美国众议院</strong>通过了《21 世纪住房法案》（Housing in the 21st Century Act）。这是参议院于去年十月通过的<strong style="color:#c0392b">ROAD to Housing Act</strong>（住房之路法案）的众议院版本，我曾在 <strong style="color:#c0392b">Statecraft</strong> 节目中讨论过该法案。这些法案的多项内容中包括取消对<strong style="color:#c0392b">预制（移动）房屋</strong>（manufactured/mobile homes）必须配备钢制底盘的要求，业界长期以来对此多有抱怨。[X]</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Trump and newly elected New York mayor Zohran Mamdani are apparently both enthusiastic about NYC zoning reform. [Politico]</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#2471a3">特朗普</strong>（Trump）与新当选的纽约市长 <strong style="color:#2471a3">Zohran Mamdani</strong> 显然都对纽约市的<strong style="color:#c0392b">分区改革</strong>（zoning reform）持热情态度。[Politico]</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Americans are taking on more and more credit card debt, but mortgage delinquencies so far remain fairly flat. [X]</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">美国人的<strong style="color:#c0392b">信用卡债务</strong>（credit card debt）正在不断增加，但迄今为止<strong style="color:#c0392b">抵押贷款违约率</strong>（mortgage delinquencies）仍保持相对平稳。[X]</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!oFYD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F512f416f-4c3b-4f24-8e34-101365a840a6_1588x1566.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Buildings are apparently more frequently collapsing in the Southern Mediterranean, possibly due to increased erosion due to rising sea levels. “Alexandria, a historic and densely populated port city in Egypt representative of several coastal towns in the Southern Mediterranean, has experienced over 280 building collapses along its shorelines over the past two decades, and the root causes are still under investigation.” [Wiley] [Usc]</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">南地中海地区的建筑物似乎正越来越频繁地倒塌，原因可能是<strong style="color:#c0392b">海平面上升</strong>（rising sea levels）导致的侵蚀加剧。"<strong style="color:#2471a3">亚历山大</strong>（Alexandria）是埃及一座历史悠久且人口稠密的港口城市，代表了南地中海多个沿海城镇，在过去二十年间，其海岸线沿线已发生超过 280 起建筑倒塌事件，根本原因仍在调查中。"[Wiley] [Usc]</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Sunderji’s Paradox: the rich spend a smaller fraction of their income on their housing than the poor, but as countries get richer these fractions don’t change. [Substack]</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#c0392b">Sunderji 悖论</strong>（Sunderji's Paradox）：富人将其收入用于住房的比例低于穷人，但随着国家变得富裕，这些比例并不会改变。[Substack]</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!JNMM!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F445c8baa-36ad-438e-b8ec-cc316f703941_1456x1548.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">“London has been set a target of building 88,000 new homes per year over the next decade. Last year construction started on just 5,891 — 94 per cent below target, a 75 per cent year-on-year decline, the steepest drop in the country, the lowest tally since records began almost 40 years ago and the lowest figure for any major city in the developed world this century.” [FT]</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">"伦敦设定的目标是未来十年每年新建 88,000 套住房。去年仅开工 5,891 套——比目标低 94%，同比下降 75%，为全国降幅最大，创近 40 年有记录以来最低水平，也是本世纪发达国家任何主要城市的最低数字。"[FT]</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!labM!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F333c25c1-098f-40d3-be14-cf9be516aa77_706x495.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<h3 style="margin:24px 0 12px;">Manufacturing</h3>
+<h3 style="margin:24px 0 12px;">制造业</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">The WSJ has a piece on Corning, the glass company that’s manufacturing the suddenly-in-demand fiber optic cable for AI data centers. “In 2018, Weeks and O’Day went to Dallas to tour a data center owned by Meta, then known as Facebook. They marveled at the demand for fiber-optic cabling to connect all the servers inside that giant warehouse. Facebook was using a mix of copper cables and existing fiber optics, but found both ill-suited to the task. This spurred Corning’s engineers to make their cables thinner, but also tougher, so they could withstand tight bends, says Claudio Mazzali, Corning’s head of research. Five years later, ChatGPT made its debut, and demand for fiber-powered data centers exploded. “We’re thankful that we made the trip in 2018 and thankful that we made the bet,” says O’Day. At the time, they had no idea whether it would be a good investment or a dud, he adds.” [Wall Street Journal]</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#2471a3">《华尔街日报》</strong>（WSJ）发表了一篇关于<strong style="color:#2471a3">康宁</strong>（Corning）的文章，这家玻璃公司正在生产<strong style="color:#c0392b">人工智能数据中心</strong>（AI data centers）突然急需的<strong style="color:#c0392b">光纤电缆</strong>（fiber optic cable）。"2018 年，<strong style="color:#2471a3">Weeks</strong> 和 <strong style="color:#2471a3">O'Day</strong> 前往达拉斯参观了 <strong style="color:#2471a3">Meta</strong>（当时称为 Facebook）拥有的一座数据中心。他们对连接这座巨型仓库内所有服务器所需的<strong style="color:#c0392b">光纤电缆</strong>需求感到惊讶。Facebook 当时混用铜缆和现有光纤，但发现两者都不太适合这项任务。康宁研究负责人 <strong style="color:#2471a3">Claudio Mazzali</strong> 表示，这促使康宁的工程师将电缆做得更细，但也更坚固，以便能够承受急弯。五年后，<strong style="color:#c0392b">ChatGPT</strong> 首次亮相，对光纤供电数据中心的需求激增。'我们很感激 2018 年去了那里，也很感激我们下了这个赌注，'O'Day 说。他补充道，当时他们根本不知道这是一笔好投资还是会失败。"[Wall Street Journal]</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">In other glass manufacturing news, the WSJ also has a piece about windshield manufacturers upset about a US-based, Chinese-owned windshield factory making windshields for far cheaper than they can. [Wall Street Journal]</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">在另一则玻璃制造新闻中，<strong style="color:#2471a3">WSJ</strong> 还报道了一篇关于<strong style="color:#c0392b">挡风玻璃</strong>（windshield）制造商不满的文章，他们抱怨一家位于美国、由中国拥有的<strong style="color:#c0392b">挡风玻璃工厂</strong>以远低于他们的成本生产挡风玻璃。[Wall Street Journal]</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Bloomberg has a piece on whether its only a matter of time before Chinese cars are available in the US. One interesting point is that it’s actually Korean and Japanese imports (which dominate the low end of the US market), not US brands, which might be most threatened by an influx of low-priced Chinese cars. [Bloomberg]</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#2471a3">Bloomberg</strong> 发表了一篇关于中国汽车进入美国市场是否只是时间问题的文章。一个有趣的观点是，受低价中国汽车涌入威胁最大的实际上可能是<strong style="color:#c0392b">韩系和日系进口车</strong>（它们主导着美国低端市场），而非美国本土品牌。[Bloomberg]</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">BYD’s January sales were 30% lower than last year. [X]</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#2471a3">比亚迪</strong>（BYD）一月份的销量比去年同期下降了 30%。[X]</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">A US drone manufacturer was booted out of their space at the Brooklyn Navy Yard, apparently in part due to activist pressure upset that they were supplying drones to Israel. [Mondoweiss] [X]</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">一家美国<strong style="color:#c0392b">无人机</strong>（drone）制造商被赶出了位于<strong style="color:#2471a3">布鲁克林海军造船厂</strong>（Brooklyn Navy Yard）的场地，部分原因显然是活动人士施压，不满其向以色列供应无人机。[Mondoweiss] [X]</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">The Whitehouse released a maritime action plan for revitalizing US shipbuilding. I haven’t had a chance to read through it closely, but it seems to be a collection of a few dozen policy recommendations. [White House]</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#2471a3">白宫</strong>（Whitehouse）发布了一项旨在振兴美国<strong style="color:#c0392b">造船业</strong>（shipbuilding）的<strong style="color:#c0392b">海事行动计划</strong>（maritime action plan）。我还没机会仔细阅读，但这似乎包含数十条政策建议。[White House]</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">We’ve previously noted that a big drawback of tariffs is that they can make domestic manufacturing less competitive by jacking up the price for inputs to manufacturing. Now the Trump Administration plans to relax the tariffs of metal and aluminum. [FT]</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">我们此前曾指出，<strong style="color:#c0392b">关税</strong>（tariffs）的一大弊端在于，它们会通过推高制造业<strong style="color:#c0392b">投入品</strong>（inputs）的价格来削弱本土制造业的竞争力。如今<strong style="color:#2471a3">特朗普政府</strong>（Trump Administration）计划放宽对金属和铝的关税。[FT]</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Read more</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">阅读更多</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://www.construction-physics.com/p/reading-list-021426" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -778,20 +1306,41 @@ perfObserver.observe({ entryTypes: [ &quot;resource&quot; ] });</code></pre>
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">Quoting Thoughtworks</div>
-        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
+        <div class="title">Thoughtworks：AI重塑工程师价值层级</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
+      <div class="title-en">Quoting Thoughtworks</div>
       <div class="tags"><span class="tag">AI编程</span><span class="tag">职业发展</span><span class="tag">技能重塑</span></div>
-      <div class="summary">本文挑战了&quot;AI将淘汰初级开发者&quot;的观点，指出AI工具反而帮助新人更快上手并创造更高价值；真正令人担忧的是占行业主体的中级工程师，他们可能缺乏适应新环境的基础技能，且难以通过再培训弥补这一差距。</div>
+      <div class="summary">Thoughtworks指出，AI工具非但未淘汰初级开发者，反而助其更快度过入门期并创造更高价值；真正令人担忧的是人数众多但基本功薄弱的中级工程师，如何有效再培训这一群体仍是行业未解难题。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">They serve as a call option on future productivity.</div><div class="quote-zh">他们相当于未来生产力的看涨期权。</div></div>
-<div class="quote-block"><div class="quote-en">And they are better at AI tools than senior engineers, having never developed the habits and assumptions that slow adoption.</div><div class="quote-zh">而且他们在AI工具的使用上比资深工程师更胜一筹，因为他们从未养成那些拖慢技术采纳的习惯和固有假设。</div></div>
+<div class="quote-block"><div class="quote-en">They serve as a call option on future productivity. And they are better at AI tools than senior engineers, having never developed the habits and assumptions that slow adoption.</div><div class="quote-zh">他们相当于对未来生产力的看涨期权。而且因为他们从未形成那些阻碍技术采纳的习惯和假设，他们比资深工程师更擅长使用AI工具。</div></div>
+<div class="quote-block"><div class="quote-en">The real concern is mid-level engineers who came up during the decade-long hiring boom and may not have developed the fundamentals needed to thrive in the new environment.</div><div class="quote-zh">真正令人担忧的是那些在过去十年招聘繁荣期成长起来的中级工程师，他们可能尚未掌握在新环境中蓬勃发展所需的基本功。</div></div>
 </div>
-      <div class="translation"><p>文章标题：引用 Thoughtworks 观点</p>
-<p>这次闭门会议质疑了&quot;AI 将淘汰初级开发人员（junior developers）&quot;的论调。初级开发人员（junior developers）的盈利能力前所未有。AI 工具（AI tools）能帮助他们更快度过入职初期那个尴尬的净负值阶段（net-negative phase）。他们相当于对未来生产力的看涨期权（call option）。而且，由于从未养成那些会拖慢技术采纳速度的习惯和思维定式，他们在使用 AI 工具方面比资深工程师（senior engineers）更加得心应手。</p>
-<p>真正令人担忧的是那些在长达十年的招聘繁荣期（hiring boom）中成长起来的中级工程师（mid-level engineers），他们可能尚未掌握在新环境中蓬勃发展所需的基本功。这一群体在数量上构成了行业的主体，而对他们进行再培训确实困难重重。会议探讨了学徒制模式（apprenticeship models）、轮岗计划（rotation programs）和终身学习机制（lifelong learning structures）是否能够弥补这一缺口，但也承认目前尚无组织解决这一难题。</p>
-<p>——Thoughtworks，关于&quot;软件工程的未来&quot;的闭门会议研究发现，遵循查塔姆宫规则（Chatham House rules）</p>
-<p>Tags:ai-assisted-programming,careers,ai</p></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Quoting Thoughtworks</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+The retreat challenged the narrative that <strong style="color:#c0392b">AI eliminates the need for junior developers</strong>. Juniors are more profitable than they have ever been. <strong style="color:#c0392b">AI tools</strong> get them past the awkward initial <strong style="color:#c0392b">net-negative phase</strong> faster. They serve as a <strong style="color:#c0392b">call option</strong> on future productivity. And they are better at AI tools than senior engineers, having never developed the habits and assumptions that slow adoption.
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+此次战略研讨会挑战了"<strong style="color:#c0392b">AI eliminates the need for junior developers</strong>（AI将淘汰初级开发者）"的论调。初级开发者比以往任何时候都更具盈利价值。<strong style="color:#c0392b">AI tools</strong>（AI工具）能帮助他们更快地度过尴尬的 initial <strong style="color:#c0392b">net-negative phase</strong>（净负值阶段）。他们就像是未来生产力的 <strong style="color:#c0392b">call option</strong>（看涨期权）。而且，由于从未形成阻碍技术采纳的习惯和思维定式，他们在使用AI工具方面甚至比资深工程师更为出色。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+The real concern is <strong style="color:#c0392b">mid-level engineers</strong> who came up during the decade-long <strong style="color:#c0392b">hiring boom</strong> and may not have developed the <strong style="color:#c0392b">fundamentals</strong> needed to thrive in the new environment. This population represents the bulk of the industry by volume, and retraining them is genuinely difficult. The retreat discussed whether <strong style="color:#c0392b">apprenticeship models</strong>, <strong style="color:#c0392b">rotation programs</strong> and lifelong learning structures could address this gap, but acknowledged that no organization has solved it yet.
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+真正的隐患在于那些在过去长达十年的 <strong style="color:#c0392b">hiring boom</strong>（招聘热潮）中成长起来的 <strong style="color:#c0392b">mid-level engineers</strong>（中级工程师），他们可能尚未掌握在新环境中蓬勃发展所需的 <strong style="color:#c0392b">fundamentals</strong>（基本功）。这一群体在数量上占据了行业的绝大部分，对他们进行再培训确实困难重重。研讨会探讨了 <strong style="color:#c0392b">apprenticeship models</strong>（学徒制模式）、<strong style="color:#c0392b">rotation programs</strong>（轮岗计划）以及终身学习体系是否能够填补这一鸿沟，但也承认目前尚无组织成功解决这一难题。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+—<strong style="color:#2471a3">Thoughtworks</strong>, findings from a retreat concerning "the future of software engineering", conducted under <strong style="color:#2471a3">Chatham House</strong> rules
+</blockquote>
+
+<p style="margin:8px 0 20px;line-height:1.8;">
+— <strong style="color:#2471a3">Thoughtworks</strong>，关于"软件工程的未来"的战略研讨会 findings，遵循 <strong style="color:#2471a3">Chatham House</strong> rules（查塔姆研究所规则）进行
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://simonwillison.net/2026/Feb/14/thoughtworks/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -799,26 +1348,88 @@ perfObserver.observe({ entryTypes: [ &quot;resource&quot; ] });</code></pre>
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">Anthropic&#x27;s public benefit mission</div>
+        <div class="title">Anthropic的公益使命</div>
         <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
       </div>
+      <div class="title-en">Anthropic&#x27;s public benefit mission</div>
       <div class="tags"><span class="tag">Anthropic</span><span class="tag">公益使命</span><span class="tag">AI伦理</span></div>
-      <div class="summary">Anthropic作为公共利益公司（而非非营利组织），无需像OpenAI那样向IRS提交年度公开文件，但其特拉华州注册证书显示，公司使命已从2021年强调的&quot;促进人类文化、社会和技术进步&quot;简化为&quot;造福人类长期利益&quot;。</div>
+      <div class="summary">与OpenAI不同，Anthropic作为公共利益公司无需向IRS提交年度公开文件，但其特拉华州公司章程显示，其使命已从2021年的&quot;促进人类文化、社会和技术进步&quot;简化为&quot;长期造福人类&quot;。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Anthropic&#x27;s are much less interesting that OpenAI&#x27;s.</div><div class="quote-zh">Anthropic的（文件）比OpenAI的有趣程度差远了。</div></div>
-<div class="quote-block"><div class="quote-en">But when I asked Claude it ran a search and dug up this Google Drive folder where Zach Stein-Perlman shared Certificate of Incorporation documents he obtained from the State of Delaware!</div><div class="quote-zh">但当我询问Claude时，它运行了一次搜索并挖掘出了这个Google Drive文件夹，Zach Stein-Perlman在里面分享了他从特拉华州获得的注册证书文件！</div></div>
+<div class="quote-block"><div class="quote-en">Anthropic&#x27;s are much less interesting that OpenAI&#x27;s.</div><div class="quote-zh">Anthropic的（使命文件）远没有OpenAI的那么有趣。</div></div>
+<div class="quote-block"><div class="quote-en">But when I asked Claude it ran a search and dug up this Google Drive folder where Zach Stein-Perlman shared Certificate of Incorporation documents he obtained from the State of Delaware!</div><div class="quote-zh">但当我询问Claude时，它进行了一番搜索，并挖掘出了这个Google Drive文件夹——Zach Stein-Perlman在其中分享了他从特拉华州获得的注册证书文件！</div></div>
 </div>
-      <div class="translation"><p><strong>Anthropic的公共利益使命</strong></p>
-<p>有人询问，是否存在相当于OpenAI历年向美国国税局（IRS）提交的使命声明的Anthropic版本。</p>
-<p>Anthropic是一家&quot;public benefit corporation&quot;（公共利益公司），但并非非营利组织，因此无需每年向IRS（美国国税局）提交公开文件。</p>
-<p>但当我询问Claude时，它进行了一番搜索，并挖出了这个Google Drive文件夹，其中Zach Stein-Perlman分享了他从特拉华州政府获取的Certificate of Incorporation（公司章程）文件！</p>
-<p>Anthropic的文件远不如OpenAI的那么有意思。2021年的最早文件写道：</p>
-<blockquote>The specific public benefit that the Corporation will promote is to responsibly develop and maintain advanced Al for the cultural, social and technological improvement of humanity.</blockquote>
-<p>The specific public benefit that the Corporation will promote is to responsibly develop and maintain advanced Al for the cultural, social and technological improvement of humanity.</p>
-<p>此后直至2024年的每一份文件都使用了更新后的版本，内容如下：</p>
-<blockquote>The specific public benefit that the Corporation will promote is to responsibly develop and maintain advanced AI for the long term benefit of humanity.</blockquote>
-<p>The specific public benefit that the Corporation will promote is to responsibly develop and maintain advanced AI for the long term benefit of humanity.</p>
-<p>标签：ai-ethics（人工智能伦理）, anthropic, ai（人工智能）</p></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Anthropic's public benefit mission</h3>
+<h3 style="margin:24px 0 12px;">Anthropic的公共利益使命</h3>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Someone asked if there was an <strong style="color:#2471a3">Anthropic</strong> equivalent to <strong style="color:#2471a3">OpenAI</strong>'s <strong style="color:#c0392b">IRS mission statements</strong> over time.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+有人询问，<strong style="color:#2471a3">Anthropic</strong> 是否有可媲美 <strong style="color:#2471a3">OpenAI</strong> 历年 <strong style="color:#c0392b">IRS mission statements</strong>（美国国税局使命声明）的相应文件。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Anthropic are a "<strong style="color:#c0392b">public benefit corporation</strong>" but not a <strong style="color:#c0392b">non-profit</strong>, so they don't have the same requirements to file public documents with the <strong style="color:#2471a3">IRS</strong> every year.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+Anthropic 是一家"<strong style="color:#c0392b">public benefit corporation</strong>（公共利益公司）"，而非 <strong style="color:#c0392b">non-profit</strong>（非营利组织），因此无需每年向 <strong style="color:#2471a3">IRS</strong>（美国国税局）提交公开文件。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+But when I asked <strong style="color:#2471a3">Claude</strong> it ran a search and dug up this Google Drive folder where <strong style="color:#2471a3">Zach Stein-Perlman</strong> shared <strong style="color:#c0392b">Certificate of Incorporation</strong> documents he obtained from the <strong style="color:#2471a3">State of Delaware</strong>!
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+但当我询问 <strong style="color:#2471a3">Claude</strong> 时，它进行了一番搜索，发现了 <strong style="color:#2471a3">Zach Stein-Perlman</strong> 分享的 Google Drive 文件夹，其中包含他从 <strong style="color:#2471a3">特拉华州</strong>（State of Delaware）获取的 <strong style="color:#c0392b">Certificate of Incorporation</strong>（公司注册证书）文件！
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Anthropic's are much less interesting that <strong style="color:#2471a3">OpenAI</strong>'s. The earliest document from <strong style="color:#c0392b">2021</strong> states:
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+Anthropic 的文件远不如 <strong style="color:#2471a3">OpenAI</strong> 的有趣。<strong style="color:#c0392b">2021</strong> 年的最早文件声明如下：
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+The specific <strong style="color:#c0392b">public benefit</strong> that the <strong style="color:#c0392b">Corporation</strong> will promote is to responsibly develop and maintain <strong style="color:#c0392b">advanced AI</strong> for the cultural, social and technological improvement of humanity.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+本公司将推动的特定<strong style="color:#c0392b">public benefit</strong>（公共利益）是：负责任地开发并维护 <strong style="color:#c0392b">advanced AI</strong>（先进人工智能），以促进人类在文化、社会和技术方面的进步。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+The specific public benefit that the Corporation will promote is to responsibly develop and maintain advanced AI for the cultural, social and technological improvement of humanity.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+本公司将推动的特定公共利益是：负责任地开发并维护先进人工智能，以促进人类在文化、社会和技术方面的进步。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Every subsequent document up to <strong style="color:#c0392b">2024</strong> uses an <strong style="color:#c0392b">updated version</strong> which says:
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+截至 <strong style="color:#c0392b">2024</strong> 年的每一份后续文件都使用了<strong style="color:#c0392b">updated version</strong>（更新版本），内容如下：
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+The specific public benefit that the Corporation will promote is to responsibly develop and maintain advanced AI for the <strong style="color:#c0392b">long term benefit</strong> of humanity.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+本公司将推动的特定公共利益是：负责任地开发并维护先进人工智能，以造福人类的 <strong style="color:#c0392b">long term benefit</strong>（长远利益）。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+The specific public benefit that the Corporation will promote is to responsibly develop and maintain advanced AI for the long term benefit of humanity.
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+本公司将推动的特定公共利益是：负责任地开发并维护先进人工智能，以造福人类的长远利益。
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">
+Tags: ai-ethics, anthropic, ai
+</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">
+标签：ai-ethics（人工智能伦理）、anthropic、ai（人工智能）
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://simonwillison.net/2026/Feb/13/anthropic-public-benefit-mission/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -826,34 +1437,92 @@ perfObserver.observe({ entryTypes: [ &quot;resource&quot; ] });</code></pre>
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">The evolution of OpenAI&#x27;s mission statement</div>
+        <div class="title">OpenAI使命宣言的演变</div>
         <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
       </div>
-      <div class="tags"><span class="tag">OpenAI</span><span class="tag">使命演变</span><span class="tag">AI伦理</span></div>
-      <div class="summary">本文基于OpenAI向美国国税局提交的历年税务文件，梳理了其使命声明从2016年强调&quot;不受财务回报约束、开放分享、安全开发&quot;的详细描述，逐步演变为2024年简化为&quot;确保通用人工智能造福全人类&quot;的极简版本，反映出该组织逐渐淡化了对财务约束、开放性和安全性等关键承诺。</div>
+      <div class="title-en">The evolution of OpenAI&#x27;s mission statement</div>
+      <div class="tags"><span class="tag">OpenAI</span><span class="tag">使命演变</span><span class="tag">非营利</span></div>
+      <div class="summary">文章通过梳理OpenAI自2016年至2024年向IRS提交的税表发现，其使命宣言从最初强调&quot;不受财务回报约束&quot;、&quot;开放分享&quot;和&quot;协作构建安全AI&quot;的详细表述，逐步简化为2024年仅剩&quot;确保通用人工智能造福全人类&quot;的简短版本，删除了关于非营利约束、开放性和安全责任等关键承诺，折射出该组织从理想主义非营利机构向商业化公司转型的轨迹。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">I went through and extracted that mission statement for 2016 through 2024, then had Claude Code help me fake the commit dates to turn it into a git repository and share that as a Gist - which means that Gist&#x27;s revisions page shows every edit they&#x27;ve made since they started filing their taxes!</div><div class="quote-zh">我逐一提取了2016年至2024年的使命宣言，然后让Claude Code帮我伪造提交日期，将其变成了一个git仓库并分享为Gist——这意味着该Gist的修订页面显示了他们自开始报税以来所做的每一次编辑！</div></div>
-<div class="quote-block"><div class="quote-en">They&#x27;ve expanded &#x27;humanity&#x27; to &#x27;all of humanity&#x27;, but there&#x27;s no mention of safety any more and I guess they can finally start focusing on that need to generate financial returns!</div><div class="quote-zh">他们将&#x27;人类&#x27;扩展为&#x27;全人类&#x27;，但不再提及安全，而且我猜他们终于可以开始专注于创造财务回报的需求了！</div></div>
+<div class="quote-block"><div class="quote-en">They&#x27;re still &#x27;unconstrained by a need to generate financial return&#x27; though.</div><div class="quote-zh">不过，他们仍然&#x27;不受创造财务回报需求的约束&#x27;。</div></div>
+<div class="quote-block"><div class="quote-en">I guess they can finally start focusing on that need to generate financial returns!</div><div class="quote-zh">我想他们终于可以开始专注于创造财务回报的需求了！</div></div>
 </div>
-      <div class="translation"><p>文章标题：OpenAI 使命声明的演变</p>
-<p>作为美国《国内税收法》501(c)(3)条款（USA 501(c)(3)）规定的非营利组织，OpenAI 每年必须向美国国税局（IRS）提交纳税申报表（tax return）。该申报表中有一个必填字段是&quot;简要描述组织的使命或最重要的活动&quot;——这具有实际的法律效力，因为美国国税局可以用它来评估该组织是否坚持其使命，以及是否应当维持其非营利组织的免税资格（tax-exempt status）。</p>
-<p>你可以在 ProPublica 优秀的 Nonprofit Explorer（非营利组织查询工具）上按年份浏览 OpenAI 的税务申报文件。</p>
-<p>我查阅并提取了 OpenAI 从 2016 年到 2024 年的使命声明，然后让 Claude Code 帮我伪造提交日期，将其转换为一个 Git 仓库，并以 Gist 的形式分享——这意味着该 Gist 的修订历史页面（revisions page）展示了他们自从开始报税以来所做的每一次修改！</p>
-<p>看到他们这些年来所做的修改，真的很有意思。</p>
-<p>2016 年的原始使命声明如下（是的，&quot;OpenAIs&quot; 中的撇号在原始文件中确实缺失）：</p>
-<blockquote>OpenAIs goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return. We think that artificial intelligence technology will help shape the 21st century, and we want to help the world build safe AI technology and ensure that AI&#x27;s benefits are as widely and evenly distributed as possible. Were trying to build AI as part of a larger community, and we want to openly share our plans and capabilities along the way.</blockquote>
-<p>OpenAIs goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return. We think that artificial intelligence technology will help shape the 21st century, and we want to help the world build safe AI technology and ensure that AI&#x27;s benefits are as widely and evenly distributed as possible. Were trying to build AI as part of a larger community, and we want to openly share our plans and capabilities along the way.</p>
-<p>2018 年，他们删除了关于&quot;试图作为更大社区的一部分构建人工智能，并希望在此过程中公开分享我们的计划和能力&quot;的部分。</p>
-<p>2020 年，他们从&quot;造福全人类（benefit humanity as a whole）&quot;中删除了&quot;作为一个整体（as a whole）&quot;的表述。不过，他们仍然&quot;不受产生财务回报需求的约束&quot;。</p>
-<p>2021 年出现了一些有趣的变化。他们仍然不受产生财务回报需求的约束，但这里首次出现了&quot;通用人工智能（general-purpose artificial intelligence）&quot;的表述（取代了&quot;数字智能（digital intelligence）&quot;）。他们也变得更加自信：不再是&quot;最可能造福人类&quot;，而是直接说&quot;造福人类（benefits humanity）&quot;。</p>
-<p>他们之前想要&quot;帮助世界构建安全的人工智能技术&quot;，但现在他们要亲自来做这件事了：&quot;公司的目标是开发并负责任地部署安全的人工智能技术&quot;。</p>
-<p>2022 年只修改了一个重要词汇：他们在&quot;构建……造福人类的人工智能&quot;中添加了&quot;安全地（safely）&quot;，变成了&quot;构建……安全地造福人类的人工智能&quot;。他们仍然不受那些财务回报的约束！</p>
-<p>2023 年没有变化……但到了 2024 年，他们几乎删除了全部内容，简化为：</p>
-<blockquote>OpenAIs mission is to ensure that artificial general intelligence benefits all of humanity.</blockquote>
-<p>OpenAIs mission is to ensure that artificial general intelligence benefits all of humanity.</p>
-<p>他们将&quot;人类（humanity）&quot;扩展为了&quot;全人类（all of humanity）&quot;，但不再提及安全，而且我猜他们终于可以开始专注于产生财务回报的需求了！</p>
-<p>更新：我找到了来自 Anthropic 的类似但无趣得多的文件。</p>
-<p>标签：ai, openai, ai-ethics, propublica</p></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">The evolution of OpenAI's mission statement</h3>
+<h4 style="margin:24px 0 12px;">OpenAI使命宣言的演变</h4>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">As a USA <strong style="color:#2471a3">501(c)(3)</strong> the <strong style="color:#2471a3">OpenAI</strong> non-profit has to file a tax return each year with the <strong style="color:#2471a3">IRS</strong>. One of the required fields on that tax return is to "Briefly describe the organization's mission or most significant activities" - this has actual legal weight to it as the IRS can use it to evaluate if the organization is sticking to its mission and deserves to maintain its non-profit tax-exempt status.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">作为一家美国<strong style="color:#2471a3">501(c)(3)</strong>（免税非营利组织）机构，<strong style="color:#2471a3">OpenAI</strong>这家非营利组织每年必须向<strong style="color:#2471a3">IRS</strong>（美国国税局）提交纳税申报表。该申报表的一个必填字段是"简要描述组织的使命或最重要的活动"——这具有实际的法律效力，因为IRS可以用它来评估该组织是否坚持其使命，以及是否值得维持其非营利免税地位。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">You can browse OpenAI's tax filings by year on <strong style="color:#2471a3">ProPublica</strong>'s excellent <strong style="color:#c0392b">Nonprofit Explorer</strong>.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">你可以在<strong style="color:#2471a3">ProPublica</strong>（公益新闻机构）优秀的<strong style="color:#c0392b">Nonprofit Explorer</strong>（非营利组织探索器）上按年份浏览OpenAI的纳税申报文件。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">I went through and extracted that mission statement for 2016 through 2024, then had <strong style="color:#2471a3">Claude Code</strong> help me fake the commit dates to turn it into a <strong style="color:#c0392b">git</strong> repository and share that as a <strong style="color:#c0392b">Gist</strong> - which means that Gist's revisions page shows every edit they've made since they started filing their taxes!</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">我仔细查阅并提取了2016年至2024年的使命宣言，然后让<strong style="color:#2471a3">Claude Code</strong>（AI编程助手）帮我伪造提交日期，将其转换为一个<strong style="color:#c0392b">git</strong>（版本控制系统）仓库，并作为<strong style="color:#c0392b">Gist</strong>（GitHub代码片段分享服务）分享——这意味着该Gist的修订页面显示了他们自开始报税以来所做的每一次编辑！</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">It's really interesting seeing what they've changed over time.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">看看他们随时间推移所做的改变真的很有趣。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">The original 2016 mission reads as follows (and yes, the apostrophe in "OpenAIs" is missing in the original):</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">2016年的原始使命宣言如下（是的，"OpenAIs"中的撇号在原文中确实缺失）：</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">OpenAIs goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return. We think that artificial intelligence technology will help shape the 21st century, and we want to help the world build safe AI technology and ensure that AI's benefits are as widely and evenly distributed as possible. Were trying to build AI as part of a larger community, and we want to openly share our plans and capabilities along the way.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">OpenAIs目标是推进<strong style="color:#c0392b">digital intelligence</strong>（数字智能），以最有可能造福全人类的方式，不受产生财务回报需求的约束。我们认为<strong style="color:#c0392b">artificial intelligence</strong>（人工智能）技术将帮助塑造21世纪，我们希望帮助世界构建安全的AI技术，并确保AI的益处尽可能广泛且均匀地分布。我们试图作为更大社区的一部分来构建AI，并且希望在此过程中公开分享我们的计划和能力。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">OpenAIs goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return. We think that artificial intelligence technology will help shape the 21st century, and we want to help the world build safe AI technology and ensure that AI's benefits are as widely and evenly distributed as possible. Were trying to build AI as part of a larger community, and we want to openly share our plans and capabilities along the way.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">OpenAIs目标是推进<strong style="color:#c0392b">digital intelligence</strong>（数字智能），以最有可能造福全人类的方式，不受产生财务回报需求的约束。我们认为<strong style="color:#c0392b">artificial intelligence</strong>（人工智能）技术将帮助塑造21世纪，我们希望帮助世界构建安全的AI技术，并确保AI的益处尽可能广泛且均匀地分布。我们试图作为更大社区的一部分来构建AI，并且希望在此过程中公开分享我们的计划和能力。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">In 2018 they dropped the part about "trying to build AI as part of a larger community, and we want to openly share our plans and capabilities along the way."</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">2018年，他们删除了关于"试图作为更大社区的一部分来构建AI，并且希望在此过程中公开分享我们的计划和能力"的部分。</p>
+
+<img src="https://static.simonwillison.net/static/2026/mission-3.jpg" alt="Git diff showing the 2018 revision deleting the final two sentences: "Were trying to build AI as part of a larger community, and we want to openly share our plans and capabilities along the way."" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<img src="https://static.simonwillison.net/static/2026/mission-3.jpg" alt="Git diff showing the 2018 revision deleting the final two sentences: "Were trying to build AI as part of a larger community, and we want to openly share our plans and capabilities along the way."" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">In 2020 they dropped the words "as a whole" from "benefit humanity as a whole". They're still "unconstrained by a need to generate financial return" though.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">2020年，他们从"benefit humanity as a whole"（造福全人类）中删除了"as a whole"（整个）一词。不过，他们仍然"不受产生财务回报需求的约束"。</p>
+
+<img src="https://static.simonwillison.net/static/2026/mission-5.jpg" alt="Git diff showing the 2020 revision dropping "as a whole" from "benefit humanity as a whole" and changing "We think" to "OpenAI believes"" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<img src="https://static.simonwillison.net/static/2026/mission-5.jpg" alt="Git diff showing the 2020 revision dropping "as a whole" from "benefit humanity as a whole" and changing "We think" to "OpenAI believes"" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Some interesting changes in 2021. They're still unconstrained by a need to generate financial return, but here we have the first reference to "<strong style="color:#c0392b">general-purpose artificial intelligence</strong>" (replacing "digital intelligence"). They're more confident too: it's not "most likely to benefit humanity", it's just "benefits humanity".</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">2021年出现了一些有趣的变化。他们仍然不受产生财务回报需求的约束，但这里首次提到了"<strong style="color:#c0392b">general-purpose artificial intelligence</strong>"（通用人工智能，取代"digital intelligence"）。他们也变得更加自信：不再是"最有可能造福人类"，而是直接说"造福人类"。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">They previously wanted to "help the world build safe AI technology", but now they're going to do that themselves: "the companys goal is to develop and responsibly deploy safe AI technology".</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">他们之前希望"帮助世界构建安全的AI技术"，但现在他们要亲自来做这件事："公司的目标是开发并<strong style="color:#c0392b">responsibly deploy</strong>（负责任地部署）安全的AI技术"。</p>
+
+<img src="https://static.simonwillison.net/static/2026/mission-6.jpg" alt="Git diff showing the 2021 revision replacing "goal is to advance digital intelligence" with "mission is to build general-purpose artificial intelligence", changing "most likely to benefit" to just "benefits", and replacing "help the world build safe AI technology" with "the companys goal is to develop and responsibly deploy safe AI technology"" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<img src="https://static.simonwillison.net/static/2026/mission-6.jpg" alt="Git diff showing the 2021 revision replacing "goal is to advance digital intelligence" with "mission is to build general-purpose artificial intelligence", changing "most likely to benefit" to just "benefits", and replacing "help the world build safe AI technology" with "the companys goal is to develop and responsibly deploy safe AI technology"" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">2022 only changed one significant word: they added "safely" to "build ... (AI) that safely benefits humanity". They're still unconstrained by those financial returns!</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">2022年只改变了一个重要词汇：他们在"build ... (AI) that safely benefits humanity"（构建……安全造福人类的AI）中添加了"safely"（安全地）。他们仍然不受那些财务回报的约束！</p>
+
+<img src="https://static.simonwillison.net/static/2026/mission-7.jpg" alt="Git diff showing the 2022 revision adding "(AI)" and the word "safely" so it now reads "that safely benefits humanity", and changing "the companys" to "our"" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<img src="https://static.simonwillison.net/static/2026/mission-7.jpg" alt="Git diff showing the 2022 revision adding "(AI)" and the word "safely" so it now reads "that safely benefits humanity", and changing "the companys" to "our"" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">No changes in 2023... but then in 2024 they deleted almost the entire thing, reducing it to simply:</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">2023年没有变化……但在2024年，他们几乎删除了整个内容，将其简化为：</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">OpenAIs mission is to ensure that artificial general intelligence benefits all of humanity.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">OpenAIs使命是确保<strong style="color:#c0392b">artificial general intelligence</strong>（通用人工智能，AGI）造福全人类。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">OpenAIs mission is to ensure that artificial general intelligence benefits all of humanity.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">OpenAIs使命是确保<strong style="color:#c0392b">artificial general intelligence</strong>（通用人工智能，AGI）造福全人类。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">They've expanded "humanity" to "all of humanity", but there's no mention of safety any more and I guess they can finally start focusing on that need to generate financial returns!</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">他们将"humanity"扩展为"all of humanity"（全人类），但不再提及<strong style="color:#c0392b">safety</strong>（安全），而且我想他们终于可以开始专注于产生财务回报的需求了！</p>
+
+<img src="https://static.simonwillison.net/static/2026/mission-9.jpg" alt="Git diff showing the 2024 revision deleting the entire multi-sentence mission statement and replacing it with just "OpenAIs mission is to ensure that artificial general intelligence benefits all of humanity."" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<img src="https://static.simonwillison.net/static/2026/mission-9.jpg" alt="Git diff showing the 2024 revision deleting the entire multi-sentence mission statement and replacing it with just "OpenAIs mission is to ensure that artificial general intelligence benefits all of humanity."" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Update: I found loosely equivalent but much less interesting documents from <strong style="color:#2471a3">Anthropic</strong>.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">更新：我找到了来自<strong style="color:#2471a3">Anthropic</strong>（AI安全公司）的类似但无趣得多的文件。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Tags: <strong style="color:#c0392b">ai</strong>, <strong style="color:#2471a3">openai</strong>, <strong style="color:#c0392b">ai-ethics</strong>, <strong style="color:#2471a3">propublica</strong></blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">标签：<strong style="color:#c0392b">ai</strong>（人工智能），<strong style="color:#2471a3">openai</strong>，<strong style="color:#c0392b">ai-ethics</strong>（AI伦理），<strong style="color:#2471a3">propublica</strong></p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://simonwillison.net/2026/Feb/13/openai-mission-statement/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
@@ -861,29 +1530,64 @@ perfObserver.observe({ entryTypes: [ &quot;resource&quot; ] });</code></pre>
 <div class="article-card">
       <div class="source">Gary Marcus</div>
       <div class="title-row">
-        <div class="title">Irony, Irony laced with Karma, and Terror</div>
+        <div class="title">讽刺、业报与恐惧</div>
         <span class="tone-pill" style="background:#ffe4e6;color:#be123c">😤 批评</span>
       </div>
-      <div class="tags"><span class="tag">OpenAI</span><span class="tag">知识产权</span><span class="tag">AI安全</span><span class="tag">xAI</span></div>
-      <div class="summary">文章讽刺了OpenAI在知识产权问题上的双重标准——长期&quot;白嫖&quot;创作者却抱怨自身IP被盗，同时警示马斯克为追求AI竞赛速度而解雇xAI安全团队的鲁莽行为将带来严重安全隐患。</div>
+      <div class="title-en">Irony, Irony laced with Karma, and Terror</div>
+      <div class="tags"><span class="tag">知识产权</span><span class="tag">AI安全</span><span class="tag">OpenAI</span></div>
+      <div class="summary">本文既讽刺了OpenAI长期侵犯他人知识产权却反诉被抄袭的荒诞与因果报应，也警示了马斯克旗下xAI为加速赶超而解散安全团队所带来的严重AI安全风险。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Man who literally begged governments for wholesale exemption from copyright law so he could free ride on artists and writers bitches about …. free riders.</div><div class="quote-zh">那个 literally（字面意义上）恳求政府全面豁免版权法以便搭艺术家和作家便车的人，现在却抱怨……搭便车者。</div></div>
-<div class="quote-block"><div class="quote-en">A zillionaire hellbent on winning the AI race and no longer interested in AI safety is not what the world needs.</div><div class="quote-zh">一个执意要赢得AI竞赛且不再对AI安全感兴趣的亿万富翁，不是这个世界所需要的。</div></div>
+<div class="quote-block"><div class="quote-en">Man who literally begged governments for wholesale exemption from copyright law so he could free ride on artists and writers bitches about …. free riders.</div><div class="quote-zh">那个曾乞求政府全面豁免版权法以白嫖艺术家和作家作品的人，居然在抱怨……白嫖者。</div></div>
+<div class="quote-block"><div class="quote-en">A zillionaire hellbent on winning the AI race and no longer interested in AI safety is not what the world needs.</div><div class="quote-zh">一个一心想赢得AI竞赛且不再对AI安全感兴趣的亿万富翁，绝非世界所需。</div></div>
 </div>
-      <div class="translation"><h4>讽刺：</h4>
-<p>关于 Matt Shumer 那篇荒谬的博客，本周早些时候我已经评论过了……</p>
-<h4>掺杂着因果报应的讽刺：</h4>
-<p>长期以来，我一直在撰写关于 OpenAI 如何大肆攫取艺术家和作家知识产权（IP, Intellectual Property）的文章。即便如此，我也没想到会有这样的后续更新：OpenAI 竟然在哀叹自己的 IP 被剽窃：</p>
-<p>那个 literally（字面意义上）乞求政府给予全面版权法豁免，以便自己能够免费搭便车利用艺术家和作家作品的人，现在却在抱怨……搭便车者（free riders）。</p>
-<p>如果历史上最大的 IP 盗窃者之一最终被大规模的 IP 盗窃所击垮，那确实是历史上最伟大的讽刺之一。</p>
-<p>但这确实是因果报应（Karma）的一次真正胜利。</p>
-<h4>恐惧</h4>
-<p>还记得我去年七月那篇文章吗？当时我谈到 Elon 日益鲁莽的行为如何亲身提高了我的 p(doom)（毁灭概率）评估？</p>
-<p>The Verge 的 Hayden Field 刚刚发布了一篇重磅独家新闻（scoop）：Elon 的 xAI 在一次旨在加速进展的重组（reorg）中，基本已经瓦解（gutted）了其安全运营部门，该公司&quot;担心陷入&#x27;追赶阶段&#x27;&quot;。最可怕的部分是：</p>
-<blockquote>&quot;安全部门在 xAI 已经是一个死亡的组织（dead org），&quot; [Field 的内部消息源] 表示。查看 Elon Musk 在 X 上分享的重构后的组织架构图，完全没有提及安全团队。</blockquote>
-<p>&quot;安全部门在 xAI 已经是一个死亡的组织，&quot; [Field 的内部消息源] 表示。查看 Elon Musk 在 X 上分享的重构后的组织架构图，完全没有提及安全团队。</p>
-<p>这绝非好事。一个一心想赢得 AI 竞赛且不再对 AI 安全感兴趣的亿万富翁，绝不是这个世界所需要的。</p>
-<p>立即订阅</p></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Irony, Irony laced with Karma, and Terror</h3>
+<h4 style="margin:20px 0 10px;color:#666;">讽刺、因果报应交织的讽刺，以及恐惧</h4>
+
+<h3 style="margin:24px 0 12px;">Irony:</h3>
+<h4 style="margin:20px 0 10px;color:#666;">讽刺：</h4>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Re <strong style="color:#2471a3">Matt Shumer</strong>’s ridiculous blog that I commented on earlier this week….</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">关于我本周早些时候评论过的<strong style="color:#2471a3">Matt Shumer</strong>那篇荒谬的博客……</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!6oyc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc32fb527-0d68-47c0-b961-89a3d174a1a3_1417x1064.png" alt="Blog screenshot" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<h3 style="margin:24px 0 12px;">Irony laced with Karma:</h3>
+<h4 style="margin:20px 0 10px;color:#666;">因果报应交织的讽刺：</h4>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">I have been writing for a long time about how <strong style="color:#2471a3">OpenAI</strong> snarfs the <strong style="color:#c0392b">intellectual property (IP, 知识产权)</strong> of artists and writers. Even I didn’t expect this update: OpenAI whining over its own IP being ripped off:</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">长期以来，我一直在撰写关于<strong style="color:#2471a3">OpenAI</strong>如何攫取艺术家和作家的<strong style="color:#c0392b">知识产权（intellectual property, IP）</strong>的文章。即便如此，我也没料到这则更新：<strong style="color:#2471a3">OpenAI</strong>竟然在抱怨自己的IP被剽窃：</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!HX60!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F296d2bca-35e0-4ce2-9c48-e375686f523a_1417x933.png" alt="OpenAI complaining about IP theft" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Man who literally begged governments for wholesale exemption from <strong style="color:#c0392b">copyright law</strong> so he could free ride on artists and writers bitches about …. free riders.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">那个 literally 乞求政府全面豁免<strong style="color:#c0392b">版权法（copyright law）</strong>以便免费搭乘艺术家和作家作品便车的人，现在却抱怨起……免费搭车者（free riders）。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">It would indeed be one the great ironies of history if one of the biggest IP thieves in history was taken down by mass IP theft.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">如果历史上最大的IP盗窃者之一最终被大规模IP盗窃所击倒，那确实是历史上最大的讽刺之一。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">But a real victory for <strong style="color:#c0392b">Karma</strong>.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">但这确实是<strong style="color:#c0392b">因果报应（Karma）</strong>的真正胜利。</p>
+
+<h3 style="margin:24px 0 12px;">Terror</h3>
+<h4 style="margin:20px 0 10px;color:#666;">恐惧</h4>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Remember my essay last July about how <strong style="color:#2471a3">Elon</strong>’s increasingly reckless behavior was personally elevating my <strong style="color:#c0392b">p(doom)</strong>?</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">还记得我去年七月的那篇文章吗？关于<strong style="color:#2471a3">Elon Musk（埃隆·马斯克）</strong>日益鲁莽的行为如何 personally 提升了我的<strong style="color:#c0392b">毁灭概率（p(doom)）</strong>？</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;"><strong style="color:#2471a3">Hayden Field</strong> at <strong style="color:#2471a3">The Verge</strong> just posted a big scoop: <strong style="color:#2471a3">Elon</strong>’s <strong style="color:#c0392b">xAI</strong> has basically <strong style="color:#c0392b">gutted</strong> its safety operation in a reorg aimed at accelerating progress, with the company “concerned about being ‘stuck up in the catch up phase.” The scariest part is this:</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;"><strong style="color:#2471a3">The Verge</strong>的<strong style="color:#2471a3">Hayden Field</strong>刚刚发布了一则重磅独家新闻：<strong style="color:#2471a3">Elon Musk</strong>的<strong style="color:#c0392b">xAI</strong>在一次旨在加速进步的重组中，基本上<strong style="color:#c0392b">瓦解（gutted）</strong>了其安全运营，该公司"担心'陷入追赶阶段'"。最可怕的部分是：</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">> “Safety is a dead org at xAI,” [Field’s source on the inside] said. Looking at the restructured org chart <strong style="color:#2471a3">Elon Musk</strong> shared on X, there’s no mention of a safety team.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">"xAI的安全部门已经是个死掉的组织（dead org）了，" [Field的内部消息源] 说。看看<strong style="color:#2471a3">Elon Musk</strong>在X上分享的重组后的组织架构图，完全没有提到安全团队。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">“Safety is a dead org at xAI,” [Field’s source on the inside] said. Looking at the restructured org chart <strong style="color:#2471a3">Elon Musk</strong> shared on X, there’s no mention of a safety team.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">"xAI的安全部门已经是个死掉的组织了，" [Field的内部消息源] 说。看看<strong style="color:#2471a3">Elon Musk</strong>在X上分享的重组后的组织架构图，完全没有提到安全团队。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">That can’t be good. A zillionaire hellbent on winning the <strong style="color:#c0392b">AI race</strong> and no longer interested in <strong style="color:#c0392b">AI safety</strong> is not what the world needs.</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">这可不是什么好事。一个一心想赢得<strong style="color:#c0392b">AI竞赛（AI race）</strong>且不再对<strong style="color:#c0392b">AI安全（AI safety）</strong>感兴趣的亿万富翁，绝不是世界需要的东西。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:12px 0;background:#f9f9fb;color:#666;font-size:14px;">Subscribe now</blockquote>
+<p style="margin:8px 0 20px;line-height:1.8;">立即订阅</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
       <a class="link" href="https://garymarcus.substack.com/p/irony-irony-laced-with-karma-and" target="_blank">阅读原文 &rarr;</a>
     </div>
