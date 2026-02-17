@@ -7,24 +7,35 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 16 Feb 2026 22:48:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 23:16:57 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-02-16</title>
-      <description>&lt;p&gt;&lt;strong&gt;AI 编程与工具创新&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-02-17</title>
+      <description>&lt;p&gt;&lt;strong&gt;AI 日报 | 模型迭代与科研范式变革&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 模型动态&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Claude 桌面端实时可视化验证&lt;/strong&gt;：Simon Willison 展示 Claude 桌面应用支持实时显示 AI 查看图片的新功能，结合 Rodney 浏览器自动化工具可即时可视化验证 AI 操作与界面测试结果，无需等待代码推送。（来源：Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Opus 与 Codex 协作最佳实践&lt;/strong&gt;：Lenny Rachitsky 介绍 AI 编程的高效分工模式——Claude Opus 负责构建、GPT-5.3 Codex 负责审查，同时探讨该流程如何帮助视障开发者消除 accessibility 障碍。（来源：Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen 3.5 系列发布&lt;/strong&gt;：通义千问推出 3.5 版本（含 397B-A17B MoE 架构），以 170 亿激活参数实现 Open-Opus 级别性能，支持原生多模态处理、百万级长上下文及智能体工具调用；同步关注 Manus Agents 进展与推理成本经济影响。（Simon Willison, Latent Space, TLDR AI）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;无障碍技术实践&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI 工具与科研提效&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;视障工程师的&amp;quot;个人软件&amp;quot;实践&lt;/strong&gt;：Claire Vo 报道视力受损工程师 Joe McCormick 如何利用 Claude Code 快速构建个性化 Chrome 扩展，通过定制化工具填补主流产品忽视的无障碍需求，展示 AI 开发辅助工具的实用工作流。（来源：Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI 重塑科研流程&lt;/strong&gt;：Claude Code 等编程助手使研究者能够零成本独立验证研究想法，无需依赖学生资源，显著压缩从问题到初步答案的周期，或将深刻改变未来科研协作模式。（Simon Willison 引述 Dimitris Papailiopoulos）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Showboat 工具链更新&lt;/strong&gt;：发布 Chartroom（支持在 Markdown 中嵌入 matplotlib 生成图表）与 datasette-showboat（实现 AI 编程文档远程实时发布），进一步完善 AI 辅助编程工具生态。（Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;职场伦理与深度思考&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;提示工程与可信 AI&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;quot;AI 吸血鬼&amp;quot;与职业倦怠警示&lt;/strong&gt;：Simon Willison 以&amp;quot;AI 吸血鬼&amp;quot;为喻，警示员工借助 AI 超负荷工作以取悦雇主的风险——虽能短期提升产出，却会导致认知重负下的精疲力竭，而创造的价值被公司完全攫取。（来源：Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可信 AI 分析方法论&lt;/strong&gt;：针对 LLM 常见数据捏造与洞察泛化问题，Caitlin Sullivan 分享四种经实战验证的提示词技巧与验证方法，帮助提取可落地的客户洞察。（Lenny Rachitsky / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;工程可视化与认知优化&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;代码差异漫画化&lt;/strong&gt;：为缓解 AI 辅助编程带来的&amp;quot;认知债务&amp;quot;，开发者尝试使用 Nano Banana Pro 将代码 diff 转化为六格网络漫画，以趣味可视化方式降低技术理解门槛。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;跨界掠影&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;经典科幻考据&lt;/strong&gt;：1966 年 8 月 2 日《星际迷航》开场白原始草稿披露，展现企业号五年银河系巡逻任务的初版设定。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;濒危物种保护&lt;/strong&gt;：新西兰鸮鹦鹉种群迎来四年来首批雏鸟，总数增至 237 只。（Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-02-16</guid>
-      <pubDate>Mon, 16 Feb 2026 22:48:02 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-02-17</guid>
+      <pubDate>Tue, 17 Feb 2026 23:16:57 +0000</pubDate>
     </item>
   </channel>
 </rss>
