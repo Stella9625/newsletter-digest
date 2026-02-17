@@ -73,13 +73,35 @@ MVP_SOURCES = [
         name="Simon Willison",
         url="https://simonwillison.net/atom/everything/",
         category="AI工具",
-        note="AI工具实操，更新极高频",
+        note="AI工具实操，HN连续3年#1",
     ),
     RSSSource(
-        name="AI News by swyx",
-        url="https://buttondown.email/ainews/rss",
+        name="Gary Marcus",
+        url="https://garymarcus.substack.com/feed",
+        category="AI评论",
+        note="AI怀疑派视角，平衡hype",
+    ),
+    RSSSource(
+        name="TLDR AI",
+        url="https://tldr.tech/api/rss/ai",
         category="AI综合",
-        note="每日AI领域全景汇总",
+        note="每日AI/ML/论文短摘要",
+    ),
+]
+
+# 全量源（12个）
+ALL_SOURCES = [
+    RSSSource(
+        name="Simon Willison",
+        url="https://simonwillison.net/atom/everything/",
+        category="AI工具",
+        note="AI工具实操，HN连续3年#1",
+    ),
+    RSSSource(
+        name="Mitchell Hashimoto",
+        url="https://mitchellh.com/feed.xml",
+        category="工程",
+        note="HashiCorp联创，底层工程原理",
     ),
     RSSSource(
         name="Antirez",
@@ -87,25 +109,9 @@ MVP_SOURCES = [
         category="工程",
         note="Redis作者，系统设计",
     ),
-]
-
-# 全量源（后续扩展）
-ALL_SOURCES = MVP_SOURCES + [
     RSSSource(
-        name="Mitchell Hashimoto",
-        url="https://mitchellh.com/feed",
-        category="工程",
-        note="底层工程原理",
-    ),
-    RSSSource(
-        name="Andrej Karpathy (Blog)",
+        name="Andrej Karpathy",
         url="https://karpathy.bearblog.dev/feed/",
-        category="AI研究",
-        note="AI研究+教育",
-    ),
-    RSSSource(
-        name="Andrej Karpathy (Substack)",
-        url="https://karpathy.substack.com/feed",
         category="AI研究",
         note="AI研究+教育",
     ),
@@ -116,10 +122,16 @@ ALL_SOURCES = MVP_SOURCES + [
         note="React核心，编程思维",
     ),
     RSSSource(
+        name="Dwarkesh Patel",
+        url="https://www.dwarkesh.com/feed",
+        category="AI访谈",
+        note="深度AI访谈，含完整文字稿",
+    ),
+    RSSSource(
         name="Gary Marcus",
         url="https://garymarcus.substack.com/feed",
         category="AI评论",
-        note="AI怀疑派视角",
+        note="AI怀疑派视角，平衡hype",
     ),
     RSSSource(
         name="Lenny's Newsletter",
@@ -134,15 +146,21 @@ ALL_SOURCES = MVP_SOURCES + [
         note="AI+人文视角",
     ),
     RSSSource(
-        name="Gwern",
-        url="https://gwern.net/feed",
-        category="深度研究",
-        note="深度长文，AI/心理学/统计",
-    ),
-    RSSSource(
         name="Construction Physics",
         url="https://www.construction-physics.com/feed",
         category="行业分析",
-        note="工程创新与行业分析",
+        note="工程创新与行业变革分析",
+    ),
+    RSSSource(
+        name="Latent Space",
+        url="https://latent.space/feed",
+        category="AI工程",
+        note="swyx主理，AI工程师深度访谈+日报",
+    ),
+    RSSSource(
+        name="TLDR AI",
+        url="https://tldr.tech/api/rss/ai",
+        category="AI综合",
+        note="每日AI/ML/论文短摘要",
     ),
 ]
