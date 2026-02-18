@@ -7,35 +7,36 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 17 Feb 2026 23:16:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Feb 2026 23:09:10 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-02-17</title>
-      <description>&lt;p&gt;&lt;strong&gt;AI 日报 | 模型迭代与科研范式变革&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 模型动态&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-02-18</title>
+      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Qwen 3.5 系列发布&lt;/strong&gt;：通义千问推出 3.5 版本（含 397B-A17B MoE 架构），以 170 亿激活参数实现 Open-Opus 级别性能，支持原生多模态处理、百万级长上下文及智能体工具调用；同步关注 Manus Agents 进展与推理成本经济影响。（Simon Willison, Latent Space, TLDR AI）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claude Sonnet 4.6 发布&lt;/strong&gt;：Anthropic 推出新版本，支持最高 100 万 token 上下文窗口，知识截止更新至 2025 年 8 月，编程与推理能力全面提升；测试显示其在 SVG 创意生成中倾向添加装饰细节。（Simon Willison / TLDR AI）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;AI 工具与科研提效&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AI 重塑科研流程&lt;/strong&gt;：Claude Code 等编程助手使研究者能够零成本独立验证研究想法，无需依赖学生资源，显著压缩从问题到初步答案的周期，或将深刻改变未来科研协作模式。（Simon Willison 引述 Dimitris Papailiopoulos）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Showboat 工具链更新&lt;/strong&gt;：发布 Chartroom（支持在 Markdown 中嵌入 matplotlib 生成图表）与 datasette-showboat（实现 AI 编程文档远程实时发布），进一步完善 AI 辅助编程工具生态。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NotebookLM 新增 PPTX 导出&lt;/strong&gt;：支持基于提示的幻灯片修订导出，可直接将研究内容转换为可编辑的演示文稿格式。（TLDR AI）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;提示工程与可信 AI&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;可信 AI 分析方法论&lt;/strong&gt;：针对 LLM 常见数据捏造与洞察泛化问题，Caitlin Sullivan 分享四种经实战验证的提示词技巧与验证方法，帮助提取可落地的客户洞察。（Lenny Rachitsky / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI 基础设施并购潮&lt;/strong&gt;：OpenAI 收购 OpenClaw 加码自主智能体（Agent）布局；Mistral 收购云原生平台 Koyeb，完善 AI 云基础设施生态。（TLDR AI）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;工程可视化与认知优化&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;代码差异漫画化&lt;/strong&gt;：为缓解 AI 辅助编程带来的&amp;quot;认知债务&amp;quot;，开发者尝试使用 Nano Banana Pro 将代码 diff 转化为六格网络漫画，以趣味可视化方式降低技术理解门槛。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rodney v0.4.0 浏览器测试工具发布&lt;/strong&gt;：规范退出码机制（错误与检查失败分离），新增 JavaScript 断言测试（&lt;code&gt;rodney assert&lt;/code&gt;）、目录级会话管理及跨平台支持（Windows/macOS/Linux），支持可视化控制与调试已有 Chrome 实例。（Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;跨界掠影&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;经典科幻考据&lt;/strong&gt;：1966 年 8 月 2 日《星际迷航》开场白原始草稿披露，展现企业号五年银河系巡逻任务的初版设定。（Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;濒危物种保护&lt;/strong&gt;：新西兰鸮鹦鹉种群迎来四年来首批雏鸟，总数增至 237 只。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI 时代的类型系统反思&lt;/strong&gt;：25 年经验的资深开发者指出，随着 AI 编程助手普及，正从抗拒转向接受强类型——当 AI 代劳繁琐的类型定义后，显式类型带来的可维护性好处变得极具吸引力。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI 编程颠覆已至&lt;/strong&gt;：以 Claude Code 为代表的工具在 11 月实现质的飞跃，能够独立完成过去需耗费数十万美元及数月工期的复杂项目，标志期待已久的 AI 颠覆正式来临，将彻底重塑软件行业的成本结构与生产模式。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LLM 吞噬专业技能？&lt;/strong&gt; Martin Fowler 指出，大语言模型正在吞噬传统专业技能，使得驾驭 AI 的能力比掌握特定平台细节更重要，这可能推动&amp;quot;专家型通才&amp;quot;（Expert Generalist）角色的崛起，也可能只是绕过而非真正消除技术壁垒。（Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-02-17</guid>
-      <pubDate>Tue, 17 Feb 2026 23:16:57 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-02-18</guid>
+      <pubDate>Wed, 18 Feb 2026 23:09:10 +0000</pubDate>
     </item>
   </channel>
 </rss>
