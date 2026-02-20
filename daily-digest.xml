@@ -7,33 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Feb 2026 22:59:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 22:48:02 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-02-19</title>
-      <description>&lt;p&gt;&lt;strong&gt;AI/产品/技术日报&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
+      <title>📰 AI/产品/技术日报 - 2026-02-20</title>
+      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 模型&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Gemini 3.1 Pro 发布遇技术故障&lt;/strong&gt; (Simon Willison / Simon Willison): Google 发布 Gemini 3.1 Pro 并宣称 SVG 动画性能显著提升，但实测显示响应极慢且频繁出现高负载错误，疑似发布初期技术故障。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SWE-bench 榜单：Claude 4.5 Opus 登顶，中国模型崛起&lt;/strong&gt; (Simon Willison / Simon Willison): 2026 年 2 月 SWE-bench 更新显示，Claude 4.5 Opus 以 76.8% 解决率居首，MiniMax、GLM-5 等四款中国模型跻身前十，GPT-5.2 位列第六。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Claude Code 负责人：编程问题已基本解决&lt;/strong&gt; (Lenny Rachitsky / Lenny&amp;#x27;s Newsletter): Anthropic 的 Boris Cherny 指出，Claude Code 已占 4% 公开 GitHub 提交量，正从快速原型工具重塑软件工程，并探讨了编程解决后的未来图景。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Anthropic 研究：AI 智能体自主性持续进化&lt;/strong&gt; (Latent Space / Latent Space): 基于 Claude Code 实际数据显示，智能体平均无干预执行时长从 25 分钟增至 45 分钟以上，但 73% 操作仍有人类深度参与，强调自主性是模型、用户与产品&amp;quot;共同构建&amp;quot;的结果。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Gemini 集成 Lyria 3 支持音乐生成&lt;/strong&gt; (TLDR / TLDR AI): Google Gemini 新增音乐生成功能，集成 Lyria 3 模型；同时 World Labs 获 10 亿美元投资推进 3D 空间智能技术。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google 发布 Gemini 3.1 Pro 预览版&lt;/strong&gt;：在 ARC-AGI 2 推理基准实现翻倍突破（达 77.1%），编码与 Agent 能力显著提升，已逐步集成至应用及 API；社区认可其性能跃升，但也针对基准针对性提出争议。（来源：Latent Space, TLDR AI）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4&gt;产品与增长&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;AI 基础设施与性能优化&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;独立博客的赞助变现实验&lt;/strong&gt; (Simon Willison / Simon Willison): 知名开发者 Simon Willison 尝试采用 Troy Hunt 式简洁横幅赞助模式，在保持内容独立性与可信度的同时获取收入，弥补机会成本。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;AI 基础模型的资本飞轮与投资风险&lt;/strong&gt; (Latent Space / Latent Space): a16z 合伙人 Martin Casado 与 Sarah Wang 指出，AI 模型公司通过&amp;quot;融资-购算力-训练-变现&amp;quot;新型飞轮打破风投与成长投资界限，但警告&amp;quot;无聊&amp;quot;的企业软件反而成为最被低估的投资机会。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Taalas 发布超高性能 AI 芯片&lt;/strong&gt;：加拿大硬件初创公司 Taalas 推出首款芯片，以每秒 17,000 tokens 速度运行 Llama 3.1 8B，通过 3-bit 与 6-bit 混合激进量化技术实现极致推理性能。（来源：Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ggml.ai 加入 Hugging Face&lt;/strong&gt;：llama.cpp 开发团队正式加入 Hugging Face，将通过与 Transformers 库的无缝集成及改善软件用户体验，共同推动本地 AI 模型的长期发展。（来源：Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;提示词缓存成为 AI Agent 架构核心&lt;/strong&gt;：Anthropic 工程师 Thariq Shihipar 指出，提示缓存技术通过复用历史计算显著降低延迟与成本，使 Claude Code 等长时智能体产品成为可能；该团队已将缓存命中率视为关键服务指标。（来源：Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4&gt;工程与系统设计&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;工程实践与开发工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Ladybird 浏览器放弃 Swift 计划&lt;/strong&gt; (Simon Willison / Simon Willison): 开源浏览器项目 Ladybird 正式从代码库中移除 Swift，因长期未能取得实质性进展而放弃将其作为内存安全语言的方案。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;quot;AWS for Everything&amp;quot;：柔性自动化的未来&lt;/strong&gt; (Brian Potter / Construction Physics): 文章提出 AI 与机器人技术可能催生制造业与科研领域的&amp;quot;万物即服务&amp;quot;模式，通过共享基础设施与智能调度，为小批量多样化需求提供低成本定制化生产，打破传统规模经济局限。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cursor 本地智能体沙盒与优化工具&lt;/strong&gt;：Cursor 推出本地智能体沙盒安全方案，同时 optimize_anything 通用文本优化 API 发布，展现大模型推理能力与工程实践创新的双重提升。（来源：TLDR AI）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI 编程会话日志恢复实践&lt;/strong&gt;：开发者分享使用并行 AI 智能体编程时，通过 Claude Code 会话日志成功恢复因系统崩溃丢失代码的案例。（来源：Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-02-19</guid>
-      <pubDate>Thu, 19 Feb 2026 22:59:29 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-02-20</guid>
+      <pubDate>Fri, 20 Feb 2026 22:48:02 +0000</pubDate>
     </item>
   </channel>
 </rss>
