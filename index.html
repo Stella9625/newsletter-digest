@@ -297,207 +297,494 @@
 
   <!-- 日报 Tab -->
   <div id="tab-digest" class="tab-content active">
-    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">大模型</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">2</span></div>
-<div class="chart-row"><span class="chart-label">Gemini</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">2</span></div>
-<div class="chart-row"><span class="chart-label">AI硬件</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">推理加速</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#af52de"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">模型量化</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">本地AI</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">开源</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">基准测试</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
+    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">产品管理</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">企业级</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">工程协同</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">社区智慧</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">房地产</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">制造业</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">基础设施</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">电动车</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
-      <h2>2026-02-20 日报</h2>
-      <p><strong>LLM &amp; AI 模型</strong></p>
-<ul>
-<li><strong>Google 发布 Gemini 3.1 Pro 预览版</strong>：在 ARC-AGI 2 推理基准实现翻倍突破（达 77.1%），编码与 Agent 能力显著提升，已逐步集成至应用及 API；社区认可其性能跃升，但也针对基准针对性提出争议。（来源：Latent Space, TLDR AI）</li>
-</ul>
-<p><strong>AI 基础设施与性能优化</strong></p>
-<ul>
-<li><strong>Taalas 发布超高性能 AI 芯片</strong>：加拿大硬件初创公司 Taalas 推出首款芯片，以每秒 17,000 tokens 速度运行 Llama 3.1 8B，通过 3-bit 与 6-bit 混合激进量化技术实现极致推理性能。（来源：Simon Willison）</li>
-<li><strong>ggml.ai 加入 Hugging Face</strong>：llama.cpp 开发团队正式加入 Hugging Face，将通过与 Transformers 库的无缝集成及改善软件用户体验，共同推动本地 AI 模型的长期发展。（来源：Simon Willison）</li>
-<li><strong>提示词缓存成为 AI Agent 架构核心</strong>：Anthropic 工程师 Thariq Shihipar 指出，提示缓存技术通过复用历史计算显著降低延迟与成本，使 Claude Code 等长时智能体产品成为可能；该团队已将缓存命中率视为关键服务指标。（来源：Simon Willison）</li>
-</ul>
-<p><strong>工程实践与开发工具</strong></p>
-<ul>
-<li><strong>Cursor 本地智能体沙盒与优化工具</strong>：Cursor 推出本地智能体沙盒安全方案，同时 optimize_anything 通用文本优化 API 发布，展现大模型推理能力与工程实践创新的双重提升。（来源：TLDR AI）</li>
-<li><strong>AI 编程会话日志恢复实践</strong>：开发者分享使用并行 AI 智能体编程时，通过 Claude Code 会话日志成功恢复因系统崩溃丢失代码的案例。（来源：Simon Willison）</li>
-</ul>
+      <h2>2026-02-21 日报</h2>
+      <p><strong>AI/产品/技术日报</strong> | 2026-02-22</p>
+<hr>
+<h4>LLM &amp; AI 基础设施</h4>
+<p><strong>OpenAI 推出 GPT-5.3-Codex-Spark，推理速度大幅提升</strong></p>
+<p>Thibault Sottiaux 宣布新模型推理速度提升约 30%，每秒可处理超 1200 个 token，显著优化代码生成场景的性能表现。（Simon Willison）</p>
+<p><strong>Andrej Karpathy 提出 &quot;Claws&quot; 架构层概念</strong></p>
+<p>Karpathy 将 Claws 定义为 LLM Agents 之上的新一代编排层，通过高级调度与持久化能力推动 AI 架构演进，并对 NanoClaw 等轻量级开源方案表示关注。（Simon Willison）</p>
+<p><strong>定制 ASIC 芯片或成 LLM 推理新趋势</strong></p>
+<p>Latent Space 分析指出，随着模型架构标准化，为特定大模型定制 ASIC 芯片可节省 20% 以上推理成本，并实现近两万 token/秒的超高速推理，模型-芯片协同设计将成为重要方向。（Latent Space）</p>
+<hr>
+<h4>AI 工程实践</h4>
+<p><strong>借助 Claude Code 重构个人博客内容系统</strong></p>
+<p>开发者 Simon Willison 分享其博客新增 &quot;beats&quot; 功能的全过程，利用 AI 编程助手完成多数据源集成（GitHub、TIL、博物馆文章等），实现代码发布、工具展示与研究项目的自动化聚合。（Simon Willison）</p>
+<hr>
+<h4>产品管理与增长</h4>
+<p><strong>企业级产品准备的社区实战智慧</strong></p>
+<p>Lenny&#x27;s Newsletter 精选社区讨论，涵盖企业级产品 readiness 评估、工程进度超前时的产品策略调整、PRD 版本管理技巧，以及基于个人精力曲线的工作规划方法。（Kiyani / Lenny&#x27;s Newsletter）</p>
+<hr>
+<h4>跨界产业观察</h4>
+<p><strong>AI 数据中心推动全球制造业投资新格局</strong></p>
+<p>美国房价呈现地域分化（中西部/东北部上涨，南部回调），中国电动车凭借垂直整合维持价格优势；同时 AI 数据中心需求正驱动美光、台积电等芯片巨头在美国进行数百亿美元制造投资。（Brian Potter / Construction Physics）</p>
     </div>
   </div>
 
   <!-- 文章 Tab -->
   <div id="tab-articles" class="tab-content">
     <div class="article-card">
-      <div class="source">Simon Willison</div>
+      <div class="source">Lenny&#x27;s Newsletter</div>
       <div class="title-row">
-        <div class="title">Taalas 实现 Llama 3.1 8B 每秒 1.7 万 Token 极速推理</div>
+        <div class="title">社区智慧：企业级产品准备、工程超前应对、PRD版本管理与精力规划</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">Taalas serves Llama 3.1 8B at 17,000 tokens/second</div>
-      <div class="tags"><span class="tag">AI硬件</span><span class="tag">推理加速</span><span class="tag">模型量化</span></div>
-      <div class="summary">加拿大硬件初创公司Taalas发布首款AI芯片，以每秒17,000个token的超高速度运行Llama 3.1 8B模型，通过3-bit与6-bit混合的激进量化技术实现极致推理性能。</div>
+      <div class="title-en">🧠 Community Wisdom: Making your product enterprise-ready, when engineering outpaces product, managing PRD versions as features evolve, planning work around energy, and more</div>
+      <div class="tags"><span class="tag">产品管理</span><span class="tag">企业级</span><span class="tag">工程协同</span><span class="tag">社区智慧</span></div>
+      <div class="summary">本期社区周报精选了会员专属Slack社群中的高价值讨论，围绕企业级产品准备、工程进度超前时的应对策略、功能迭代中的PRD版本管理以及基于精力规划工作等实战经验展开。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">I was going to include a video of their demo but it&#x27;s so fast it would look more like a screenshot.</div><div class="quote-zh">我本来打算收录他们演示的视频，但它速度快得看起来更像一张截图。</div></div>
-<div class="quote-block"><div class="quote-en">Their next generation will use 4-bit - presumably they have quite a long lead time for baking out new models!</div><div class="quote-zh">下一代将使用 4-bit——想必他们“烘焙”新模型的周期相当长！</div></div>
+<div class="quote-block"><div class="quote-en">Hello and welcome to this week’s edition of ✨Community Wisdom✨ a subscriber-only email, delivered every Saturday, highlighting the most helpful conversations in our members-only Slack community.</div><div class="quote-zh">欢迎阅读本周的✨社区智慧✨，这是一封每周六发送的订阅者专享邮件，精选我们会员专属Slack社区中最有价值的讨论。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Taalas serves Llama 3.1 8B at 17,000 tokens/second</h3>
+      <div class="translation"><div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+👋 Hello and welcome to this week’s edition of ✨<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Community Wisdom</strong>✨ a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">subscriber-only</strong> email, delivered every Saturday, highlighting the most helpful conversations inour members-only <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong> community.
+</div>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">20th February 2026</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">2026年2月20日</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Taalas</strong> serves <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Llama 3.1 8B</strong> at 17,000 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tokens/second</strong> (via) This new Canadian <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">hardware startup</strong> just announced their first product - a custom hardware implementation of the Llama 3.1 8B model (fromJuly 2024) that can run at a staggering 17,000 tokens/second.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Taalas</strong>以每秒17,000个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">token（词元）</strong>的速度运行<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Llama 3.1 8B</strong>模型（via）这家加拿大<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">硬件初创公司</strong>刚刚发布了他们的首款产品——Llama 3.1 8B模型（发布于2024年7月）的定制硬件实现方案，运行速度高达惊人的每秒17,000个token。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I was going to include a video of their demo but it's so fast it would look more like a screenshot. You can try it out at <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">chatjimmy.ai</strong>.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我本打算嵌入他们演示的视频，但速度实在太快，看起来更像是一张静态截图。你可以在<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">chatjimmy.ai</strong>上亲自体验。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">They describe their <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Silicon Llama</strong> as "aggressively <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">quantized</strong>, combining <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">3-bit</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">6-bit</strong> parameters." Their next generation will use 4-bit - presumably they have quite a long lead time for baking out new models!</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">他们将这款<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Silicon Llama</strong>描述为"采用激进的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">量化（quantized）</strong>技术，结合了<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">3-bit</strong>和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">6-bit</strong>参数"。下一代产品将使用4-bit精度—— presumably 他们在流片（baking out）新模型方面有着相当长的交付周期！</p></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+👋 你好，欢迎阅读本周的 ✨<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Community Wisdom</strong>（社区精华）✨ 专栏——这是一封<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">仅对订阅者开放</strong>（subscriber-only）的邮件，每周六发送，重点呈现我们仅限会员加入的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong> 社区中最具价值的讨论。
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Feb/20/taalas/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://www.lennysnewsletter.com/p/community-wisdom-making-your-product" target="_blank">阅读原文 &rarr;</a>
     </div>
 
 <div class="article-card">
-      <div class="source">Simon Willison</div>
+      <div class="source">Construction Physics</div>
       <div class="title-row">
-        <div class="title">ggml.ai 加入 Hugging Face，确保本地 AI 长期发展</div>
-        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
+        <div class="title">每周阅读清单 02/21/26</div>
+        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
       </div>
-      <div class="title-en">ggml.ai joins Hugging Face to ensure the long-term progress of Local AI</div>
-      <div class="tags"><span class="tag">本地AI</span><span class="tag">开源</span><span class="tag">大模型</span></div>
-      <div class="summary">ggml.ai（llama.cpp开发团队）加入Hugging Face，双方将通过与Transformers库的无缝集成及改善软件用户体验，共同推动本地AI模型的长期发展与普及。</div>
+      <div class="title-en">Reading List 02/21/26</div>
+      <div class="tags"><span class="tag">房地产</span><span class="tag">制造业</span><span class="tag">基础设施</span><span class="tag">电动车</span></div>
+      <div class="summary">本文梳理了建筑与制造业最新动态：美国房价呈现地域分化，中西部与东北部上涨而南部回调，且房龄结构差异显著；全球制造业方面，中国电动车凭借垂直整合维持价格优势，而AI数据中心需求正推动美光、台积电等芯片巨头在美国进行数百亿美元的制造投资。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">It&#x27;s hard to overstate the impact Georgi Gerganov has had on the local model space.</div><div class="quote-zh">Georgi Gerganov 对本地模型领域的影响力再怎么强调也不为过。</div></div>
-<div class="quote-block"><div class="quote-en">I&#x27;m also excited to see investment in &#x27;packaging and user experience of ggml-based software&#x27;.</div><div class="quote-zh">看到对&#x27;ggml 软件包装和用户体验&#x27;的投入，我也感到兴奋。</div></div>
+<div class="quote-block"><div class="quote-en">Also, the places with the biggest COVID housing price booms are now the places where it&#x27;s the hardest to sell your house.</div><div class="quote-zh">此外，那些在新冠疫情期间房价暴涨的地区，如今却成了最难卖房的地方。</div></div>
+<div class="quote-block"><div class="quote-en">Interestingly, this map lines up really well with this map of what time period the largest fraction of homes in a given area were built in.</div><div class="quote-zh">有趣的是，这张地图与另一张显示各地区房屋主要建造时期的地图惊人地吻合。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">ggml.ai joins Hugging Face to ensure the long-term progress of Local AI</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ggml.ai</strong> 加入 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hugging Face</strong>，以确保<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">本地 AI</strong>（Local AI）的长期发展</p>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Reading List 02/21/26</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">It's hard to overstate the impact <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Georgi Gerganov</strong> has had on the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">local model</strong> space. Back in March 2023 his release of<strong>llama.cpp</strong>made it possible to run a local<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM</strong>on<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">consumer hardware</strong>. The<strong>original README</strong>said:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">很难夸大 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Georgi Gerganov</strong> 对<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">本地模型</strong>（local model）领域产生的影响。早在 2023 年 3 月，他发布的 <strong>llama.cpp</strong> 使得在<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">消费级硬件</strong>（consumer hardware）上运行本地<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">大语言模型</strong>（LLM, Large Language Model）成为可能。其<strong>原始 README</strong> 写道：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">The main goal is to run the model using<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">4-bit quantization</strong>on a MacBook. [...] This was hacked in an evening - I have no idea if it works correctly.</blockquote></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">主要目标是在 MacBook 上使用<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">4-bit 量化</strong>（4-bit quantization）技术运行模型。[...] 这是一个晚上 hack 出来的产物——我不知道它是否能正常工作。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I wrote about trying<strong>llama.cpp</strong>out at the time in<strong>Large language models are having their Stable Diffusion moment</strong>:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我当时在《Large language models are having their Stable Diffusion moment》一文中写到了试用 <strong>llama.cpp</strong> 的经历：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">I used it to run the<strong>7B LLaMA</strong>model on my laptop last night, and then this morning upgraded to the<strong>13B model</strong>—the one that<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Facebook</strong>claim is competitive with<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT-3</strong>.</blockquote></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">昨晚我用它在笔记本电脑上运行了 70 亿参数的 <strong>LLaMA</strong> 模型，今天早上升级到了 130 亿参数版本——也就是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Facebook</strong>（现 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Meta</strong>）声称能与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT-3</strong> 竞争的模型。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Meta</strong>'s<strong>original LLaMA release</strong>depended on<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyTorch</strong>and their<strong>FairScale</strong>PyTorch extension for running on multiple GPUs, and required<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CUDA</strong>and<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NVIDIA</strong>hardware. Georgi's work opened that up to a much wider range of hardware and kicked off the local model movement that has continued to grow since then.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Meta</strong> 的<strong>原始 LLaMA 发布</strong>依赖于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyTorch</strong> 及其 <strong>FairScale</strong> PyTorch 扩展来在多 GPU 上运行，并且需要 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CUDA</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NVIDIA</strong> 硬件。而 Georgi 的工作将其开放给了范围更广的硬件，并由此拉开了本地模型运动的序幕，该运动此后持续发展壮大。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hugging Face</strong>are already responsible for the incredibly influential<strong>Transformers</strong>library used by the majority of LLM releases today. They've proven themselves a good steward for that<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">open source</strong>project, which makes me optimistic for the future of<strong>llama.cpp</strong>and related projects.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hugging Face</strong> 已经负责维护着极具影响力的 <strong>Transformers</strong> 库，该库被当今大多数 LLM 发布所使用。他们已证明自己是这个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">开源</strong>（open source）项目的优秀管理者，这让我对 <strong>llama.cpp</strong> 及相关项目的未来感到乐观。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This section from the announcement looks particularly promising:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">公告中的这一段看起来特别有前景：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">Going forward, our joint efforts will be geared towards the following objectives:
-<ul style="margin:8px 0;padding-left:24px;">
-<li>Towards seamless "single-click" integration with the<strong>transformers</strong>library. The<strong>transformers</strong>framework has established itself as the 'source of truth' for AI model definitions. Improving the compatibility between the transformers and the<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ggml</strong>ecosystems is essential for wider model support and quality control.</li>
-<li>Better packaging and user experience of<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ggml</strong>-based software. As we enter the phase in which<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">local inference</strong>becomes a meaningful and competitive alternative to<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">cloud inference</strong>, it is crucial to improve and simplify the way in which casual users deploy and access local models. We will work towards making<strong>llama.cpp</strong>ubiquitous and readily available everywhere, and continue partnering with great downstream projects.</li>
-</ul>
-</blockquote></div>
-<div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<p style="margin:0 0 8px 0;">展望未来，我们的共同努力将围绕以下目标展开：</p>
-<ul style="margin:0;padding-left:24px;">
-<li>实现与 <strong>transformers</strong> 库的无缝"一键式"集成。<strong>transformers</strong> 框架已成为 AI 模型定义的"事实标准"（source of truth）。提升 transformers 与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ggml</strong> 生态系统之间的兼容性，对于更广泛的模型支持和质量控制至关重要。</li>
-<li>改进基于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ggml</strong> 的软件的打包方式和用户体验。随着我们进入<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">本地推理</strong>（local inference）成为<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">云端推理</strong>（cloud inference）的有意义且具竞争力的替代方案的阶段，改进和简化普通用户部署和访问本地模型的方式变得至关重要。我们将致力于使 <strong>llama.cpp</strong> 无处不在且随时可用，并继续与优秀的下游项目合作。</li>
-</ul>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<img src="https://substackcdn.com/image/fetch/$s_!mxoB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7baaaa68-8c33-4c9c-9738-7af13dad7f09_1600x1063.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+Welcome to the reading list, a weekly roundup of news and links related to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">buildings</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">infrastructure</strong>, and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">industrial technology</strong>. Roughly 2/3rds of the reading list is paywalled, so for full access become a paid subscriber.
 </div>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Given the influence of<strong>Transformers</strong>, this closer integration could lead to model releases that are compatible with the<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GGML</strong>ecosystem out of the box. That would be a big win for the local model ecosystem.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">鉴于 <strong>Transformers</strong> 的影响力，这种更紧密的集成可能会促使发布的模型<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">开箱即用</strong>（out of the box）地兼容 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GGML</strong> 生态系统。这将成为本地模型生态系统的一大胜利。</p>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+欢迎来到阅读清单，这是与<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">建筑</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">基础设施</strong>和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">工业技术</strong>相关的新闻和链接的每周汇总。阅读清单中约有三分之二的内容设有付费墙，因此要获取完整访问权限，请成为付费订阅者。
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I'm also excited to see investment in "packaging and user experience of<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ggml</strong>-based software". This has mostly been left to tools like<strong>Ollama</strong>and<strong>LM Studio</strong>.<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ggml-org</strong>released<strong>LlamaBarn</strong>last year - "a macOS menu bar app for running local LLMs" - and I'm hopeful that further investment in this area will result in more high quality<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">open source</strong>tools for running local models from the team best placed to deliver them.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我也很高兴看到对"基于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ggml</strong> 的软件打包和用户体验"的投入。这方面此前主要留给了 <strong>Ollama</strong> 和 <strong>LM Studio</strong> 等工具。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ggml-org</strong> 去年发布了 <strong>LlamaBarn</strong>——一款"用于运行本地 LLM 的 macOS 菜单栏应用"——我希望在这一领域的进一步投入，能够由最适合的团队开发出更多用于运行本地模型的高质量<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">开源</strong>（open source）工具。</p>
+<h4 style="margin:24px 0 12px;">Housing</h4>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Via<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">@ggerganov</strong></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">来自 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">@ggerganov</strong></p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+A map of how <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">home prices</strong> have shifted in the last year. Prices in the midwest and parts of the northeast are up, prices in the south are down. [X]
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags:<strong>open-source</strong>,<strong>transformers</strong>,<strong>ai</strong>,<strong>generative-ai</strong>,<strong>llama</strong>,<strong>local-llms</strong>,<strong>llms</strong>,<strong>hugging-face</strong>,<strong>llama-cpp</strong></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">开源</strong>（open-source）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">transformers</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">人工智能</strong>（ai）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">生成式 AI</strong>（generative-ai）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llama</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">本地 LLM</strong>（local-llms）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">大语言模型</strong>（llms）、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hugging Face</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llama-cpp</strong></p></div>
+<img src="https://substackcdn.com/image/fetch/$s_!3UQo!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0db26002-6065-4c8b-b93b-c4bbf7dd6a89_1236x1142.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+一张显示过去一年<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">房价</strong>（home prices）变化的地图。中西部和东北部部分地区的房价上涨，而南部地区的房价下跌。[X]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Interestingly, this map lines up really well with this map of what time period the largest fraction of homes in a given area were built in. In the midwest and northeast, for most areas the largest fraction were built prior to 1939. In the south, for most areas it's post-2000. [X]
+
+<img src="https://substackcdn.com/image/fetch/$s_!C0PP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F964aad8d-644d-4625-9b7d-8f84c6c7ff82_675x844.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+有趣的是，这张地图与另一张显示特定区域内大部分房屋建于哪个时期的地图高度吻合。在中西部和东北部，大多数地区的大部分房屋建于1939年之前。而在南部，大多数地区的大部分房屋建于2000年之后。[X]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Also, the places with the biggest <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">COVID housing price booms</strong> are now the places where it's the hardest to sell your house. [X]
+
+<img src="https://substackcdn.com/image/fetch/$s_!GGOk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F10308b96-5a39-41ec-8e32-83a5e74fcb00_1907x1479.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+此外，那些<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">新冠疫情房价 boom</strong>（COVID housing price booms）最严重的地区，现在正是最难卖房的地方。[X]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bloomberg</strong> has a piece looking at different decisions made by <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">homeowners</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">renters</strong> who expect to buy a home someday, and renters who expect never to own a home. One interesting datapoint: for low-income brackets, renters have a higher propensity to invest in crypto, and a higher rate of reporting that they put in low effort at work. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bloomberg</strong>]
+
+<img src="https://substackcdn.com/image/fetch/$s_!OToJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe8b2c4ea-a0c5-48fb-8afb-1e6ec6a89f5a_640x725.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">彭博社</strong>（Bloomberg）发表了一篇文章，探讨<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">房主</strong>（homeowners）、期望某天购房的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">租房者</strong>（renters）以及期望永不购房的租房者所做出的不同决策。一个有趣的数据点是：对于低收入阶层，租房者投资加密货币的倾向更高，并且报告自己在工作中投入精力较少的比例也更高。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bloomberg</strong>]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Related, in an essay about <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">California's pivot to anti-growth</strong> in the 1960s, I noted how <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Prop 13</strong>, which cut property taxes and locked in extremely low tax rates, cemented the opposition to growth that had been rising since the 1960s, and that there were similar "tax revolts" in states across the country. Now it seems like opposition to property tax is gaining traction again: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Florida's</strong> house of representatives just passed a bill that would remove non-school property taxes for all "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">homesteaded properties</strong>" (which, as I understand it, basically means primary residences). [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Florida Phoenix</strong>]
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+相关地，在一篇关于加利福尼亚州在1960年代转向<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">反增长</strong>（anti-growth）的文章中，我曾指出<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">13号提案</strong>（Prop 13）如何削减了房产税并锁定了极低的税率，从而巩固了自1960年代以来日益增长的反增长情绪，并且美国各州也出现了类似的"税收反抗"。如今，对房产税的反对似乎再次获得势头：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">佛罗里达州</strong>（Florida）众议院刚刚通过了一项法案，将为所有"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">宅地房产</strong>"（homesteaded properties，据我理解，基本上指主要住所）取消非学校用途的房产税。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Florida Phoenix</strong>]
+</p>
+
+<h4 style="margin:24px 0 12px;">Manufacturing</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+The <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rhodium Group</strong> has a good article breaking down why <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Chinese EVs</strong> are so cheap. It doesn't seem to be about labor productivity (which is lower than Western firms), or subsidies. Instead, the advantage mostly comes from the level of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vertical integration</strong> they're operating at. 
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+"For <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">BYD</strong>, vertical integration is the single most important factor behind the company's price advantage. That said, even among Chinese OEMs, BYD and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Leapmotor</strong> are outliers. This helps explain why BYD has been among the companies most consistently leading price decreases over 2024 and 2025. Vertical integration requires higher upfront capex and R&D, but it eliminates supplier markups across a much larger share of the vehicle."
+</blockquote>
+
+[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">RHG</strong>]
+
+<img src="https://substackcdn.com/image/fetch/$s_!0spy!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39af9cde-03fe-412c-8860-f3037444bf8d_1056x659.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">荣鼎集团</strong>（Rhodium Group）发表了一篇好文章，分析了<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">中国电动汽车</strong>（Chinese EVs）为何如此便宜。这似乎与劳动生产率（低于西方企业）或补贴无关。相反，这种优势主要来自它们所达到的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">垂直整合</strong>（vertical integration）水平。
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+"对于<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">比亚迪</strong>（BYD）而言，垂直整合是该公司价格优势背后最重要的单一因素。也就是说，即便在中国原始设备制造商（OEMs）中，比亚迪和<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">零跑汽车</strong>（Leapmotor）也是特例。这有助于解释为何比亚迪一直是2024年和2025年持续引领降价的公司之一。垂直整合需要更高的前期资本支出（capex）和研发（R&D）投入，但它消除了车辆更大部分供应链中的供应商加价。"
+</blockquote>
+
+[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">RHG</strong>]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Discussions between <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ford</strong> and the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Trump administration</strong> about setting up <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Chinese car plants</strong> in the US via joint ventures. This idea keeps coming up. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bloomberg</strong>]
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">福特</strong>（Ford）与<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">特朗普政府</strong>（Trump administration）就通过合资企业在美国建立<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">中国汽车工厂</strong>（Chinese car plants）进行了讨论。这个想法不断被提出。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bloomberg</strong>]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Thanks to the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">trade war</strong> with China, and the huge amount of chips and other electronics the US is importing from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Taiwan</strong> for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">data center construction</strong>, the US now imports more from Taiwan than it does from China. [X]
+
+<img src="https://substackcdn.com/image/fetch/$s_!1vlb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcd27e0d7-69f2-498f-8c77-ce39093c05fb_2048x1308.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+由于与中国的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">贸易战</strong>（trade war），以及美国为<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">数据中心建设</strong>（data center construction）而从<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">台湾</strong>（Taiwan）进口的大量芯片和其他电子产品，美国现在从台湾的进口额已超过从中国。[X]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Similarly, thanks to the huge demand for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">memory chips</strong> from AI data centers, computer memory manufacturer <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Micron</strong> is spending billions of dollars on new memory fabs in the US. 
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+"In Boise, where the company is based, Micron is spending $50 billion to more than double the size of its 450-acre campus, including the construction of two new chip factories, or fabs…That's not all. Near Syracuse, Micron just broke ground on a $100 billion fab complex that represents the state of New York's largest-ever private investment."
+</blockquote>
+
+[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Wall Street Journal</strong>]
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+同样，由于对AI数据中心的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">存储芯片</strong>（memory chips）的巨大需求，计算机存储制造商<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">美光</strong>（Micron）正在美国斥资数十亿美元建设新的存储晶圆厂（fabs）。
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+"在公司总部所在地博伊西（Boise），美光正投入500亿美元，将其占地450英亩的园区规模扩大一倍以上，包括建设两座新的芯片工厂，即晶圆厂（fabs）……这还不是全部。在锡拉丘兹（Syracuse）附近，美光刚刚破土动工一个价值1000亿美元的晶圆厂综合体，这是纽约州有史以来最大的私人投资。"
+</blockquote>
+
+[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">华尔街日报</strong>（Wall Street Journal）]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Likewise, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">TSMC</strong> is planning to spend $100B on four more Arizona fabs. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Tech Powerup</strong>]
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+同样，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">台积电</strong>（TSMC）计划斥资1000亿美元在亚利桑那州再建四座晶圆厂（fabs）。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Tech Powerup</strong>]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+The <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">WSJ</strong> on the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">EV writedowns</strong> of the US auto manufacturers. 
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+"More than $20 billion in previously announced investments in EV and battery facilities were wiped out last year, according to <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Atlas Public Policy</strong>, which tracks clean-economy investments. That drove the first net annual decrease in announced investments in years."
+</blockquote>
+
+[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Wall Street Journal</strong>] Related, car manufacturer <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stellantis</strong> sells its stake in a Canadian battery manufacturing plant for $100. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Detroit News</strong>]
+
+<img src="https://substackcdn.com/image/fetch/$s_!ru3D!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89d95593-ed3f-4bcd-9a31-30ca1e29acf3_729x1040.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">华尔街日报</strong>（WSJ）报道了美国汽车制造商的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">电动汽车资产减记</strong>（EV writedowns）情况。
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+"据追踪清洁经济投资的<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Atlas Public Policy</strong>称，去年此前宣布的电动汽车和电池设施投资中有超过200亿美元被抹去。这导致多年来宣布的投资首次出现年度净减少。"
+</blockquote>
+
+[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">华尔街日报</strong>（Wall Street Journal）] 相关地，汽车制造商<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stellantis</strong>以100美元的价格出售了其在加拿大一家电池制造厂的股份。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Detroit News</strong>]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+US <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vaccine manufacturers</strong> are struggling: thanks to <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">RFK's</strong> anti-vaccine efforts at the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Department of Health and Human Services</strong>, vaccine sales are down, jobs are getting cut, and investments in new vaccines are being scaled back. And it seems like things might get even worse for them. 
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+"A major concern for the big companies is whether the Trump administration will do away with the special liability protections afforded to vaccine makers that have helped them stay in the market."
+</blockquote>
+
+[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NYT</strong>]
+
+<img src="https://substackcdn.com/image/fetch/$s_!G77S!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0513a57-d0c9-4376-9004-442b194b4646_634x439.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+美国<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">疫苗制造商</strong>（vaccine manufacturers）正陷入困境：由于<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">小罗伯特·肯尼迪</strong>（RFK）在<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">卫生与公众服务部</strong>（Department of Health and Human Services）推行的反疫苗努力，疫苗销量下降，工作岗位被削减，对新疫苗的投资也在缩减。而且对他们来说，情况似乎可能变得更糟。
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+"大型公司主要担心的是，特朗普政府是否会取消给予疫苗制造商的特殊责任保护，正是这些保护帮助它们得以留在市场中。"
+</blockquote>
+
+[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">纽约时报</strong>（NYT）]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Read more
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+阅读更多
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://www.construction-physics.com/p/reading-list-022126" target="_blank">阅读原文 &rarr;</a>
     </div>
 
 <div class="article-card">
       <div class="source">Latent Space</div>
       <div class="title-row">
-        <div class="title">Gemini 3.1 Pro发布：ARC-AGI 2性能翻倍</div>
-        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
+        <div class="title">定制ASIC趋势</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">[AINews] Gemini 3.1 Pro: 2x 3.0 on ARC-AGI 2</div>
-      <div class="tags"><span class="tag">Gemini</span><span class="tag">基准测试</span><span class="tag">大模型</span></div>
-      <div class="summary">Google发布Gemini 3.1 Pro预览版，在ARC-AGI 2推理基准上实现翻倍突破（达77.1%），编码与Agent能力强劲，已逐步集成至Gemini应用及API；社区认可其性能跃升与实用价值，但也指出部分产品上线延迟及基准针对性的争议。</div>
+      <div class="title-en">[AINews] The Custom ASIC Thesis</div>
+      <div class="tags"><span class="tag">ASIC</span><span class="tag">定制芯片</span><span class="tag">推理加速</span></div>
+      <div class="summary">本文探讨了为特定大模型定制 ASIC 芯片的经济可行性，指出随着模型架构标准化，为单模型&quot;烘焙&quot;专用芯片可节省 20% 以上推理成本并实现近两万 token/秒的超高速推理，预示着模型-芯片协同设计将成为未来趋势。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">It&#x27;s getting a little hard to say interesting things with all the round robin minor version updates of frontier models every week, but Gemini 3.1 Pro seems like a decent enough advance to catch up...</div><div class="quote-zh">面对前沿模型每周轮番推出的这些小版本更新，要说些有趣的话正变得越来越难——但Gemini 3.1 Pro看起来是一次足够体面的进步，足以赶上甚至在某些情况下超越其他前沿模型...</div></div>
+<div class="quote-block"><div class="quote-en">This is an impressive result…. that we have no idea how to productize yet.</div><div class="quote-zh">这是一个令人印象深刻的结果……但我们还不知道如何将其产品化。</div></div>
+<div class="quote-block"><div class="quote-en">And anytime there is a huge capability overhang opening up, AI Engineers should rush in to figure out the “capability market fit”.</div><div class="quote-zh">每当出现巨大的能力过剩时，AI工程师都应该冲进去找出&#x27;能力与市场契合点&#x27;。</div></div>
 </div>
       <div class="translation"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-AI News for 2/18/2026-2/19/2026. We checked 12 subreddits,544 Twittersand 24 Discords (262channels, and14980messages) for you. Estimated reading time saved (at 200wpm):1467minutes.AINews’ websitelets you search all past issues. As a reminder,AINews is now a section of Latent Space. You canopt in/outof email frequencies!
+AI News for 2/19/2026-2/20/2026. We checked 12 subreddits,544 Twittersand 24 Discords (262channels, and12582messages) for you. Estimated reading time saved (at 200wpm):1242minutes.AINews’ websitelets you search all past issues. As a reminder,AINews is now a section of Latent Space. You canopt in/outof email frequencies!
 </div>
 </blockquote>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-2026年2月18日至19日的AI新闻。我们为您检查了12个Reddit子版块、544个Twitter账号和24个Discord服务器（262个频道，共14,980条消息）。预计节省阅读时间（按每分钟200词计算）：1,467分钟。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AINews</strong>网站允许您搜索所有往期内容。提醒一下，AINews现已成为<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Latent Space</strong>的一个栏目。您可以选择接收邮件的频率！
+AI 新闻，2026年2月19日-20日。我们为您查看了12个 subreddit、544个 Twitter 账号和24个 Discord（262个频道，共12,582条消息）。预计节省的阅读时间（按每分钟200词计算）：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">1242分钟</strong>。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AINews</strong> 的网站可让您搜索所有往期内容。提醒您，AINews 现已成为 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Latent Space</strong> 的一个栏目。您可以选择接收/取消接收邮件频率！
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-AI News for 2/18/2026-2/19/2026. We checked 12 subreddits,544 Twittersand 24 Discords (262channels, and14980messages) for you. Estimated reading time saved (at 200wpm):1467minutes.AINews’ websitelets you search all past issues. As a reminder,AINews is now a section of Latent Space. You canopt in/outof email frequencies!
+AI News for 2/19/2026-2/20/2026. We checked 12 subreddits,544 Twittersand 24 Discords (262channels, and12582messages) for you. Estimated reading time saved (at 200wpm):1242minutes.AINews’ websitelets you search all past issues. As a reminder,AINews is now a section of Latent Space. You canopt in/outof email frequencies!
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-2026年2月18日至19日的AI新闻。我们为您检查了12个Reddit子版块、544个Twitter账号和24个Discord服务器（262个频道，共14,980条消息）。预计节省阅读时间（按每分钟200词计算）：1,467分钟。AINews网站允许您搜索所有往期内容。提醒一下，AINews现已成为Latent Space的一个栏目。您可以选择接收邮件的频率！
+AI 新闻，2026年2月19日-20日。我们为您查看了12个 subreddit、544个 Twitter 账号和24个 Discord（262个频道，共12,582条消息）。预计节省的阅读时间（按每分钟200词计算）：1242分钟。AINews 的网站可让您搜索所有往期内容。提醒您，AINews 现已成为 Latent Space 的一个栏目。您可以选择接收/取消接收邮件频率！
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-It’s getting a little hard to say interesting things with all the round robin minor version updates of frontier models every week, but Gemini 3.1 Pro seems like a decent enough advance to catch up, and in some cases, supercede, the fellow frontier models (this is surely the reason that 3.1 -had- to be released, because with 5.3 and 4.6 things were seriously falling behind for Google1)
+Congrats to theggml + Huggingface team, note theOpus 4.6 METR debate, and readChris Lattner’s Claude C Compiler analysis. But those aren’t the top stories.
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-随着前沿模型每周都在进行轮番的小版本更新，要说些有趣的事情变得有点困难，但<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini 3.1 Pro</strong>看起来是一次足够体面的进步，能够追赶并在某些情况下超越其他前沿模型（这肯定是必须发布3.1版本的原因，因为在<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong>推出5.3和4.6之后，情况确实严重落后了）。
+祝贺 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ggml</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Huggingface</strong> 团队，关注 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Opus 4.6</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">METR</strong> 辩论，并阅读 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Chris Lattner</strong> 对 Claude C 编译器的分析。但这些都不是头条新闻。
 </p>
-
-<img src="https://substackcdn.com/image/fetch/$s_!yx8y!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8564929f-b251-49ac-bc93-3564e36f2cd2_2160x2700.png" alt="Image" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-It’s better at somesvg design things:
+Today, 2.5 year oldTaalas announcedashockingly fast 16,960 tokens per secondper user production API service for the Llama 3.1 8B model (launched July 2024):
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-它在某些<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SVG设计</strong>方面表现更好：
+今天，成立仅2.5年的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Taalas</strong> 宣布了一项令人震惊的高速生产级 API 服务：针对 Llama 3.1 8B 模型（2024年7月发布），每用户每秒可处理 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">16,960 tokens</strong>：
 </p>
 
-<img src="https://substackcdn.com/image/fetch/$s_!ccZ4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45ca8560-c21c-4986-878f-0c6bd90275f6_1200x1078.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+<img src="https://substackcdn.com/image/fetch/$s_!oVQ7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49185ac5-439f-4605-ba64-42d42591e30c_2050x1478.png" alt="Taalas API Performance" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-and translating textual vibes tovisual aesthetics:
+While there are some other non-speed gains (less build cost and power draw), it is also offset by some other footnotes on quantization (which they note the HC2 will resolve with standardized low precision FP4).
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-并且在将文本氛围转化为<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">视觉美学</strong>方面：
+虽然还有其他非速度方面的收益（更低的构建成本和功耗），但这也被一些关于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">quantization（量化）</strong>的脚注所抵消（他们指出 HC2 将通过标准化的低精度 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FP4</strong> 解决这一问题）。
 </p>
 
-<img src="https://substackcdn.com/image/fetch/$s_!LpTw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcef6b7d8-c9db-4e5b-80db-4d65f9535c1a_1202x1082.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+This is an impressive result…. that we have no idea how to productize yet.And anytime there is a huge capability overhang opening up, AI Engineers should rush in to figure out the “capability market fit”.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+这是一个令人印象深刻的结果……但我们尚不知道如何将其<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">productize（产品化）</strong>。每当出现巨大的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">capability overhang（能力过剩）</strong>时，AI 工程师们都应该冲进去寻找"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">capability market fit（能力市场契合度）</strong>"。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+As for the overall proposition of going custom ASIC, we’re still thinking about this week’s Latent Space withMartin Casado and Sarah Wang, where Martin reiterated his conviction in the math of doing custom accelerators (ASICs)PER MODEL, essentially “baking the LLM into silicon”, foreshadowingthe OpenAI Broadcom deal:
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+至于采用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">custom ASIC（定制专用集成电路）</strong>的整体命题，我们仍在思考本周 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Latent Space</strong> 节目中 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Martin Casado</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Sarah Wang</strong> 的对话。Martin 重申了他对<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"> per model（按模型）</strong>定制加速器（ASIC）数学逻辑的坚定信念——本质上是将 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM（大语言模型）</strong>"烘焙进硅片"——这预示了 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Broadcom</strong> 的交易：
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Martin:It makes sense to actually do a custom ASIC if you can do it in time. The question now is timelines, but not money because rough math:
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Martin</strong>：如果你能在合适的时间内完成，那么做定制 ASIC 是有意义的。现在的问题是时间线，而不是资金，因为粗略计算：
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li>If it’s a billion dollar training run, then the inference for that model has to be over a billion, otherwise it won’t be solvent.</li>
+</ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<ul style="margin:0;padding-left:20px;">
+<li>如果训练成本是10亿美元，那么该模型的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">inference（推理）</strong>成本必须超过10亿美元，否则无法收回成本。</li>
+</ul>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+If it’s a billion dollar training run, then the inference for that model has to be over a billion, otherwise it won’t be solvent.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+如果训练成本是10亿美元，那么该模型的推理成本必须超过10亿美元，否则无法收回成本。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li>So let’s assume if you could save 20%, (which you could save much more than 20% with an ASIC), that’s $200 million.</li>
+</ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<ul style="margin:0;padding-left:20px;">
+<li>因此假设你能节省20%（而使用 ASIC 可以节省远超20%），那就是2亿美元。</li>
+</ul>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+So let’s assume if you could save 20%, (which you could save much more than 20% with an ASIC), that’s $200 million.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+因此假设你能节省20%（而使用 ASIC 可以节省远超20%），那就是2亿美元。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li>You can tape out a chip for $200 million.</li>
+</ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<ul style="margin:0;padding-left:20px;">
+<li>你可以用2亿美元完成芯片的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tape out（流片）</strong>。</li>
+</ul>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+You can tape out a chip for $200 million.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+你可以用2亿美元完成芯片的流片。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Right? So now you can literally like justify economically, not timeline wise. That’s a different issue.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+对吧？所以现在从经济角度完全可以证明其合理性，尽管时间线上是另一回事。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+swyx:An ASIC per model, because that, that’s how much we leave on the table every single time we do generic Nvidia.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">swyx</strong>：每个模型一个 ASIC，因为每次我们使用通用的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Nvidia</strong> 芯片时，都会损失这么多收益。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Martin Casado:Exactly. No, it, it is actually much more than that. You could probably get, you know, a factor of two, which would be 500 million. Typical MFU would be like 50.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Martin Casado</strong>：完全正确。实际上远不止如此。你可能会获得大约两倍的提升，也就是5亿美元。典型的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MFU（模型浮点运算利用率）</strong>大约是50%。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+We understand the tradeoffs that custom chips offer faster/cheaper inference in exchange for lower model quality (by being, in Taalas’ case, 1.5 years behind the frontier), but that gap is virtually certain to close as LLMs continue to standardize in architecture and, more to the point, OpenAI and others start doingfullyintegrated model-chip codesign as Martin predicts. It’s not even about the cost savings at this point - the potential of actualfrontier quality + >20,000 tok/s inferenceis incomprehensible to AI Engineers of today and we should start those thought experiments and product surfaces today with an expectation that we’ll get there in under 2 years from today.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+我们理解定制芯片的权衡：以模型质量为代价换取更快/更便宜的推理（在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Taalas</strong> 的案例中，其模型比前沿水平落后1.5年），但随着 LLM 架构持续标准化，更重要的是，正如 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Martin</strong> 所预测的，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 等公司开始进行完全集成的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"> model-chip codesign（模型-芯片协同设计）</strong>，这一差距几乎肯定会缩小。此刻甚至已无关成本节省——真正的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"> frontier quality（前沿质量）</strong>加上每秒超过20,000 token 的推理速度，对于今天的 AI 工程师来说是不可想象的，我们应该今天就开始这些思想实验和产品设计，期望在两年内实现这一目标。
+</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!AQKx!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F135eb2d4-a2b3-41db-8d80-3456a144fb84_3092x1430.png" alt="ASIC Performance Chart" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
 <h3 style="margin:24px 0 12px;">AI Twitter Recap</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-AI Twitter 回顾
-</p>
+<h4 style="margin:24px 0 12px;">Frontier model evals: Gemini 3.1 Pro, SWE-bench, MRCR, and “bipolar” real‑world performance</h4>
 
-<h4 style="margin:24px 0 12px;">Top Story: Gemini 3.1 release facts and reactions/opinions</h4>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li>Gemini 3.1 Pro shows strong retrieval + mixed agentic usability: Context Arena’s MRCR update reportsGemini 3.1 Pro Previewnear-tiesGPT‑5.2 (thinking:xhigh)on easier retrieval (2‑needle @128k AUC99.6% vs 99.8%) and notably stronger on harder multi‑needle retrieval (8‑needle @128k AUC87.8%, beating GPT‑5.2 thinking tiers reported there) (DillonUzar). Separately,Artificial Analysishighlights a likely underappreciated angle:token efficiency + price; they claim their Intelligence Index suite cost$892on Gemini 3.1 Pro Preview vs$2,304(GPT‑5.2 xhigh) and$2,486(Opus 4.6 max), with fewer tokens consumed than GPT‑5.2 in their runs (ArtificialAnlys).</li>
+</ul>
+</div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-头条新闻：Gemini 3.1 发布的事实与反应/观点
+<ul style="margin:0;padding-left:20px;">
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gemini 3.1 Pro</strong> 展现出强大的检索能力和参差不齐的智能体可用性：Context Arena 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MRCR（多针检索能力率）</strong>更新报告显示，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gemini 3.1 Pro Preview</strong> 在简单检索任务（2-needle @128k AUC 99.6% vs 99.8%）上几乎持平 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GPT‑5.2</strong>（thinking:xhigh），而在更难的多针检索（8-needle @128k AUC 87.8%）上明显更强，击败了报告中提到的 GPT‑5.2 各思考层级（<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">DillonUzar</strong>）。另据报道，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Artificial Analysis</strong> 强调了一个可能被低估的角度：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">token efficiency（token 效率）</strong>和价格；他们声称其 Intelligence Index 测试套件在 Gemini 3.1 Pro Preview 上花费892美元，相比之下 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GPT‑5.2</strong> xhigh 为2,304美元，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Opus 4.6</strong> max 为2,486美元，且运行中消耗的 token 比 GPT‑5.2 更少（<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ArtificialAnlys</strong>）。</li>
+</ul>
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Google shippedGemini 3.1 Pro(generally described as aPreviewfor developers) and rolled it out across theGemini app,NotebookLM,Gemini API / AI Studio, andVertex AI, positioning it as the “core intelligence” fromGemini 3 Deep Thinkscaled down for practical product use. The announcement emphasized a big reasoning jump—especiallyARC-AGI-2 = 77.1%—plus strong coding and agentic-tool benchmarks (e.g.,SWE-Bench Verified = 80.6%) and improved hallucination behavior. Independent leaderboards and evaluators largely corroborated top-tier performance and strong cost/intelligence positioning, while reaction threads highlighted (a) excitement about practical gains (SVG/web/UI/code quality, agentic use cases), (b) skepticism about benchmark-targeting and “eval tweeting,” (c) concerns aroundGDPval(real-world agentic tasks) not leading despite other SOTA scores, and (d) rollout friction: users finding some products (Gemini CLI / Code Assist / Antigravity) unavailable or inconsistently updated at launch.
+Gemini 3.1 Pro shows strong retrieval + mixed agentic usability: Context Arena’s MRCR update reportsGemini 3.1 Pro Previewnear-tiesGPT‑5.2 (thinking:xhigh)on easier retrieval (2‑needle @128k AUC99.6% vs 99.8%) and notably stronger on harder multi‑needle retrieval (8‑needle @128k AUC87.8%, beating GPT‑5.2 thinking tiers reported there) (DillonUzar). Separately,Artificial Analysishighlights a likely underappreciated angle:token efficiency + price; they claim their Intelligence Index suite cost$892on Gemini 3.1 Pro Preview vs$2,304(GPT‑5.2 xhigh) and$2,486(Opus 4.6 max), with fewer tokens consumed than GPT‑5.2 in their runs (ArtificialAnlys).
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong>发布了<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini 3.1 Pro</strong>（通常被描述为面向开发者的预览版），并将其推广至Gemini应用、NotebookLM、Gemini API / AI Studio和Vertex AI，将其定位为Gemini 3 Deep Think的"核心智能"经缩放后用于实际产品。公告强调了一次巨大的推理能力提升——特别是<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ARC-AGI-2</strong>达到77.1%——以及强大的编码和Agentic（智能体）工具基准测试（例如<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SWE-Bench Verified</strong>达到80.6%）和改进的幻觉行为。独立的排行榜和评估者基本证实了其顶级性能和强大的成本/智能比定位，而反应帖文则强调：（a）对实际应用收益（SVG/网页/UI/代码质量、Agentic应用场景）的兴奋，（b）对针对基准测试和"评估推文"的怀疑，（c）尽管其他SOTA（State of the Art，最先进的）分数领先，但GDPval（现实世界Agentic任务）未能领先的担忧，以及（d）推广阻力：用户发现某些产品（Gemini CLI / Code Assist / Antigravity）在发布时不可用或更新不一致。
+Gemini 3.1 Pro 展现出强大的检索能力和参差不齐的智能体可用性：Context Arena 的 MRCR 更新报告显示，Gemini 3.1 Pro Preview 在简单检索任务（2-needle @128k AUC 99.6% vs 99.8%）上几乎持平 GPT‑5.2（thinking:xhigh），而在更难的多针检索（8-needle @128k AUC 87.8%）上明显更强，击败了报告中提到的 GPT‑5.2 各思考层级（DillonUzar）。另据报道，Artificial Analysis 强调了一个可能被低估的角度：token 效率和价格；他们声称其 Intelligence Index 测试套件在 Gemini 3.1 Pro Preview 上花费892美元，相比之下 GPT‑5.2 xhigh 为2,304美元，Opus 4.6 max 为2,486美元，且运行中消耗的 token 比 GPT‑5.2 更少（ArtificialAnlys）。
 </p>
 
-<h4 style="margin:24px 0 12px;">Facts vs. opinions</h4>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li>But engineers report “bench strength, product weakness”: multiple threads complain Gemini’s tooling/harnesses lag—e.g., model availability inconsistencies in the CLI and buggy agent behavior in “Antigravity,” plus a worrying “UI lies / model lies” confusion where the app claims Gemini but reports Claude underneath (Yuchenj_UW,Yuchenj_UW). Even enthusiastic takes (“faster horse”) are juxtaposed with frustration about actually using it day‑to‑day (theo).</li>
+</ul>
+</div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-事实与观点
+<ul style="margin:0;padding-left:20px;">
+<li>但工程师们报告"基准测试强劲，产品体验薄弱"：多个帖子抱怨 Gemini 的工具/框架滞后——例如 CLI 中模型可用性不一致、"Antigravity"中的智能体行为有缺陷，以及令人担忧的"UI 撒谎/模型撒谎"混乱，即应用声称使用 Gemini 但底层报告的是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong>（<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Yuchenj_UW</strong>）。即便是热情的评价（"更快的马"）也与日常实际使用的挫败感形成对比（<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">theo</strong>）。</li>
+</ul>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+But engineers report “bench strength, product weakness”: multiple threads complain Gemini’s tooling/harnesses lag—e.g., model availability inconsistencies in the CLI and buggy agent behavior in “Antigravity,” plus a worrying “UI lies / model lies” confusion where the app claims Gemini but reports Claude underneath (Yuchenj_UW,Yuchenj_UW). Even enthusiastic takes (“faster horse”) are juxtaposed with frustration about actually using it day‑to‑day (theo).
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+但工程师们报告"基准测试强劲，产品体验薄弱"：多个帖子抱怨 Gemini 的工具/框架滞后——例如 CLI 中模型可用性不一致、"Antigravity"中的智能体行为有缺陷，以及令人担忧的"UI 撒谎/模型撒谎"混乱，即应用声称使用 Gemini 但底层报告的是 Claude（Yuchenj_UW）。即便是热情的评价（"更快的马"）也与日常实际使用的挫败感形成对比（theo）。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li>SWE-bench Verified evaluation methodology matters again: MiniMax points to an “independent look” at SWE-bench Verified results forMiniMax M2.5under the same setup, implying earlier comparisons across labs may have been apples-to-oranges (MiniMax_AI). Epoch AI explicitly acknowledges this failure mode: they updated SWE‑bench Verified methodology because their prior runs were systematically different from others, and now see results closer to developer‑reported scores (EpochAIResearch).</li>
+</ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<ul style="margin:0;padding-left:20px;">
+<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SWE-bench Verified</strong> 评估方法再次受到关注：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">MiniMax</strong> 指出在相同设置下对 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">MiniMax M2.5</strong> 的 SWE-bench Verified 结果进行了"独立审视"，暗示早期跨实验室的比较可能是"苹果比橙子"（<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">MiniMax_AI</strong>）。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Epoch AI</strong> 明确承认了这一故障模式：他们更新了 SWE-bench Verified 方法，因为之前运行的系统性与他人不同，现在看到的结果更接近开发者报告的分数（<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">EpochAIResearch</strong>）。</li>
+</ul>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+SWE-bench Verified evaluation methodology matters again: MiniMax points to an “independent look” at SWE-bench Verified results forMiniMax M2.5under the same setup, implying earlier comparisons across labs may have been apples-to-oranges (MiniMax_AI). Epoch AI explicitly acknowledges this failure mode: they updated SWE‑bench Verified methodology because their prior runs were systematically different from others, and now see results closer to developer‑reported scores (EpochAIResearch).
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+SWE-bench Verified 评估方法再次受到关注：MiniMax 指出在相同设置下对 MiniMax M2.5 的 SWE-bench Verified 结果进行了"独立审视"，暗示早期跨实验室的比较可能是"苹果比橙子"（MiniMax_AI）。Epoch AI 明确承认了这一故障模式：他们更新了 SWE-bench Verified 方法，因为之前运行的系统性与他人不同，现在看到的结果更接近开发者报告的分数（EpochAIResearch）。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li>Benchmark oddities are prompting “what are we measuring?” debates: one example—frontier models “smash ARC-AGI” yet struggle with Connect 4, suggesting ARC‑style puzzles may capture only a narrow slice of spatial/game reasoning despite being designed to resist overfitting (paul_cal). Another thread expects only a few models to make progress on a “simple harness” for ARC‑AGI‑3 and flags cost as the constraint (scaling01,scaling01).</li>
+</ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<ul style="margin:0;padding-left:20px;">
+<li>基准测试的异常现象引发了"我们在测量什么？"的辩论：一个例子是——前沿模型在"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ARC-AGI</strong>"上表现出色，却在四子连珠（Connect 4）上挣扎，这表明尽管 ARC 风格的谜题旨在抵抗过拟合，但它们可能只捕捉了空间/游戏推理的狭窄切片（<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">paul_cal</strong>）。另一个帖子预计只有少数模型能在 ARC-AGI-3 的"简单框架"上取得进展，并指出成本是制约因素（<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">scaling01</strong>）。</li>
+</ul>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Benchmark oddities are prompting “what are we measuring?” debates: one example—frontier models “smash ARC-AGI” yet struggle with Connect 4, suggesting ARC‑style puzzles may capture only a narrow slice of spatial/game reasoning despite being designed to resist overfitting (paul_cal). Another thread expects only a few models to make progress on a “simple harness” for ARC‑AGI‑3 and flags cost as the constraint (scaling01,scaling01).
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+基准测试的异常现象引发了"我们在测量什么？"的辩论：一个例子是——前沿模型在"ARC-AGI"上表现出色，却在四子连珠（Connect 4）上挣扎，这表明尽管 ARC 风格的谜题旨在抵抗过拟合，但它们可能只捕捉了空间/游戏推理的狭窄切片（paul_cal）。另一个帖子预计只有少数模型能在 ARC-AGI-3 的"简单框架"上取得进展，并指出成本是制约因素（scaling01）。
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
@@ -507,287 +794,231 @@ Read more
 阅读更多
 </p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://www.latent.space/p/ainews-gemini-31-pro-2x-30-on-arc" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://www.latent.space/p/ainews-the-custom-asic-thesis" target="_blank">阅读原文 &rarr;</a>
     </div>
 
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">Claude Code 的提示缓存工程实践</div>
-        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
-      </div>
-      <div class="title-en">Quoting Thariq Shihipar</div>
-      <div class="tags"><span class="tag">提示缓存</span><span class="tag">AI代理</span><span class="tag">成本优化</span></div>
-      <div class="summary">Anthropic工程师Thariq Shihipar指出，提示词缓存技术通过复用历史计算显著降低延迟与成本，使Claude Code等长时智能体产品成为可能；该团队围绕缓存构建整套系统架构，并将其命中率视为关键服务指标，过低时甚至会触发严重事故警报。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">At Claude Code, we build our entire harness around prompt caching. A high prompt cache hit rate decreases costs and helps us create more generous rate limits for our subscription plans, so we run alerts on our prompt cache hit rate and declare SEVs if they&#x27;re too low.</div><div class="quote-zh">在 Claude Code，我们围绕提示缓存构建了整个技术架构。高缓存命中率能降低成本，并帮助我们为用户订阅计划设置更宽松的速率限制，因此我们对缓存命中率设置告警，如果太低会宣布为严重事故（SEV）。</div></div>
-</div>
-      <div class="translation"><div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-Long running <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic products</strong> like <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> are made feasible by <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt caching</strong> which allows us to reuse computation from previous roundtrips and significantly decrease latency and cost. [...]
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-诸如 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> 之类的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">长时间运行智能体产品</strong>（Long running agentic products）之所以能够实现，得益于<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">提示词缓存</strong>（prompt caching）技术，它使我们能够复用先前交互回合（roundtrips）中的计算结果，从而显著降低延迟和成本。[...]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-At <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong>, we build our entire harness around <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt caching</strong>. A high <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt cache hit rate</strong> decreases costs and helps us create more generous <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">rate limits</strong> for our subscription plans, so we run alerts on our prompt cache hit rate and declare <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SEVs</strong> if they're too low.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> 中，我们围绕<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">提示词缓存</strong>（prompt caching）构建了完整的支撑架构（harness）。较高的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">缓存命中率</strong>（cache hit rate）能够降低成本，并帮助我们为订阅计划设置更宽松的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">速率限制</strong>（rate limits），因此我们会针对缓存命中率设置监控告警，并在命中率过低时宣布<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">重大事故</strong>（SEVs，Site Events）。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-—<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Thariq Shihipar</strong>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-——<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Thariq Shihipar</strong>（<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 工程师）
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags: <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">prompt-engineering</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">anthropic</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">claude-code</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ai-agents</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">generative-ai</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ai</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llms</code>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">prompt-engineering（提示工程）</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">anthropic</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">claude-code</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ai-agents（AI 智能体）</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">generative-ai（生成式 AI）</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ai（人工智能）</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llms（大语言模型）</code>
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Feb/20/thariq-shihipar/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">TLDR AI</div>
-      <div class="title-row">
-        <div class="title">Gemini 3.1 Pro发布、万能优化API与智能体沙盒技术</div>
-        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
-      </div>
-      <div class="title-en">Gemini 3.1 Pro 🧠, optimize anything 📈, agent sandboxing 🔐</div>
-      <div class="tags"><span class="tag">Gemini</span><span class="tag">AI智能体</span><span class="tag">优化</span><span class="tag">沙箱</span></div>
-      <div class="summary">本期内容涵盖Google Gemini 3.1 Pro大模型重大升级（ARC-AGI-2性能翻倍）、Cursor本地智能体沙盒安全方案，以及optimize_anything通用文本优化API等前沿进展，展现了大模型推理能力突破与工程实践创新的双重提升。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">It is interesting that tricks like this are still possible despite the amount of work being put into improving large language models. The discovery proves how much room for improvement there still is for current models.</div><div class="quote-zh">尽管大语言模型的改进工作已经投入了如此之多，但此类技巧仍然可行，这本身就很有意思。这一发现证明了当前模型仍有巨大的改进空间。</div></div>
-<div class="quote-block"><div class="quote-en">If it can be serialized to a string and its quality measured, a large language model can reason about it and propose improvements.</div><div class="quote-zh">只要它能被序列化为字符串且其质量可以被衡量，大语言模型就能对其进行推理并提出改进方案。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">TLDR AI 2026-02-20</h3>
-
-<h3 style="margin:24px 0 12px;">Gemini 3.1 Pro 🧠, optimize anything 📈, agent sandboxing 🔐</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Google test NotebookLM integration for Opal workflows (1 minute read)</h4>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<h4>Google 测试 NotebookLM 与 Opal 工作流的集成（1 分钟阅读）</h4>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Google tests <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NotebookLM</strong> integration within <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Opal</strong> workflows, enhancing data extraction and automation. This integration aims to streamline processes and improve workflow efficiency for users.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-Google 正在测试 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NotebookLM</strong> 与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Opal</strong> 工作流的集成，以增强数据提取和自动化能力。该集成旨在简化流程并提高用户的工作流效率。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Gemini 3.1 Pro (5 minute read)</h4>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<h4>Gemini 3.1 Pro（5 分钟阅读）</h4>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> released <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini 3.1 Pro</strong> as the upgraded core model behind recent Gemini 3 "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Deep Think</strong>" improvements, and began rolling it out to the Gemini API/AI Studio, Vertex AI, Android Studio, the Gemini app, and NotebookLM. The post highlighted a verified 77.1% score on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ARC-AGI-2</strong>, more than doubling Gemini 3 Pro's result.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> 发布了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini 3.1 Pro</strong>，作为近期 Gemini 3 "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Deep Think</strong>"（深度思考）功能改进的升级核心模型，并开始将其推出至 Gemini API/AI Studio、Vertex AI、Android Studio、Gemini 应用和 NotebookLM。该公告强调了其在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ARC-AGI-2</strong> 基准测试上验证达到的 77.1% 得分，是 Gemini 3 Pro 结果的两倍多。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Implementing a secure sandbox for local agents (7 minute read)</h4>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<h4>为本地智能体实现安全沙箱（7 分钟阅读）</h4>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cursor</strong> described an "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agent sandboxing</strong>" system that let local coding agents run freely inside a constrained environment and only asked for approval when leaving the sandbox (often for internet access).
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cursor</strong> 描述了一种"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">智能体沙箱</strong>（agent sandboxing）"系统，该系统允许本地编程智能体在受约束的环境中自由运行，仅在离开沙箱（通常是为了访问互联网）时才需要请求批准。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>ARC-AGI-3 UPDATE (5 minute read)</h4>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<h4>ARC-AGI-3 更新（5 分钟阅读）</h4>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ARC-AGI-3</strong> is an Interactive Reasoning Benchmark designed to measure an AI Agent's ability to generalize in novel, unseen environments. <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Opus 4.6</strong> demonstrates better reasoning and use of memory than <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini 3.1 Pro</strong> and solves more levels. Current models may be able to solve ARC-AGI-3 given access to a harness with a simple memory. Memory scaffolds are likely enough for pseudo-continual learning to push us to some self-improvement or research-agent threshold within the next 2 years.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ARC-AGI-3</strong> 是一个交互式推理基准测试（Interactive Reasoning Benchmark），旨在衡量 AI 智能体在全新的、未见过的环境中进行泛化的能力。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Opus 4.6</strong> 展现出比 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini 3.1 Pro</strong> 更强的推理和记忆使用能力，并解决了更多关卡。如果当前模型能够使用带有简单记忆机制的 harness（测试框架），它们可能能够解决 ARC-AGI-3。记忆支架（memory scaffolds）很可能足以支持伪持续学习（pseudo-continual learning），在未来 2 年内推动我们达到某种自我改进或研究型智能体的阈值。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>AI #156 Part 1: They Do Mean The Effect On Jobs (58 minute read)</h4>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<h4>AI #156 第一部分：他们确实指的是对就业的影响（58 分钟阅读）</h4>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-This post contains a roundup of what happened in AI this week. It focuses on projections of jobs and economic impacts and also timelines to the world being transformed. It also covers recent podcasts with <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Dario Amodei</strong> and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Elon Musk</strong>. A linked table of contents with a short description for each section is available.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-本文汇总了本周 AI 领域发生的事件。它重点关注就业和经济影响的预测，以及世界被改变的时间线。文章还涵盖了与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Dario Amodei</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Elon Musk</strong> 的近期播客内容。文中提供了带链接的目录，每个部分都有简短描述。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>👨‍💻 Engineering & Research</h4>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<h4>👨‍💻 工程与研究</h4>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Crusoe: deploy fine-tuned models with zero infrastructure headaches (Sponsor)</h4>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<h4>Crusoe：零基础设施烦恼部署微调模型（赞助商）</h4>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Looking to deploy AI that you actually own?
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-希望部署你真正拥有的 AI？
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Crusoe</strong> unlocks breakthrough speed and throughput without the infra overhead. Run SOTA fine-tuned models: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DeepSeek</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">gpt-oss</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Kimi</strong>, or bring your own. Power production apps with high reliability. Focus on innovation and leave the clusters to Crusoe's expert team.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Crusoe</strong> 无需基础设施开销即可解锁突破性的速度和吞吐量。运行最先进的微调模型：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DeepSeek</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">gpt-oss</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Kimi</strong>，或携带你自己的模型。以高可靠性为生产级应用提供动力。专注于创新，将集群管理交给 Crusoe 的专业团队。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Multi-Agent Cooperation (9 minute read)</h4>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<h4>多智能体协作（9 分钟阅读）</h4>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Building on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Transformer</strong> architecture, the authors proposed training sequence-model agents against many different opponents so they learned to adapt within each game without hardcoded assumptions about how others learn.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-基于 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Transformer</strong> 架构，作者们提出训练序列模型智能体对抗许多不同的对手，使它们学会在每个游戏中自适应，而无需关于其他智能体如何学习的硬编码假设。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>optimize_anything: A Universal API for Optimizing any Text Parameter (132 minute read)</h4>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<h4>optimize_anything：优化任何文本参数的通用 API（132 分钟阅读）</h4>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">optimize_anything</strong> is a declarative API that optimizes any artifact representable as text. Users declare what to optimize and how to measure it, and the system handles the search. It consistently matches or outperforms domain-specific tools. A surprisingly wide range of problems can be formulated as optimizing a text artifact. If it can be serialized to a string and its quality measured, a large language model can reason about it and propose improvements.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">optimize_anything</strong> 是一个声明式 API（declarative API），可以优化任何可表示为文本的工件（artifact）。用户声明要优化的内容以及如何衡量它，系统则负责处理搜索过程。它始终能够与特定领域工具相匹配或超越其性能。令人惊讶的是，范围极广的问题都可以被形式化为优化文本工件。如果某物可以被序列化为字符串且其质量可以被衡量，那么大语言模型（large language model, LLM）就能对其进行推理并提出改进建议。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Repeating Prompts (1 minute read)</h4>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<h4>重复提示（1 分钟阅读）</h4>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-When not using reasoning, repeating the input prompt improves performance for popular models without increasing the number of generated tokens or latency. It is interesting that tricks like this are still possible despite the amount of work being put into improving large language models. The discovery proves how much room for improvement there still is for current models.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-在不使用推理（reasoning）功能时，重复输入提示可以提高流行模型的性能，而不会增加生成 token 的数量或延迟。尽管人们在改进大语言模型方面投入了大量工作，但像这样的技巧仍然可行，这很有趣。这一发现证明了当前模型仍有巨大的改进空间。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>9 Observations from Building with AI Agents (2 minute read)</h4>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<h4>构建 AI 智能体的 9 个观察（2 分钟阅读）</h4>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Prototype with the best and polish small gems. Use teams of agents as micromanagers, and experiment with different tools and workflows. Document everything to create improvement loops that improve success rates without manual intervention. Skills are easier to debug than code.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-用最好的模型进行原型设计，并打磨小的精华部分。使用智能体团队作为微观管理者（micromanagers），并尝试不同的工具和工作流。记录所有内容以创建改进循环（improvement loops），从而在没有人工干预的情况下提高成功率。技能（skills）比代码更容易调试。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>How will OpenAI compete? (25 minute read)</h4>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<h4>OpenAI 将如何竞争？（25 分钟阅读）</h4>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> has a big user base, but it has limited engagement and stickiness and no network effect. The company doesn't have any unique technology. The incumbents have already matched the technology and are leveraging their product and distribution. This post takes a look at OpenAI's strategy and how the company can compete in today's landscape.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 拥有庞大的用户基础，但其用户参与度和粘性有限，且没有网络效应。该公司没有任何独特的技术。现有竞争对手（incumbents）已经赶上了技术水平，并正在利用其产品和分销渠道。本文探讨了 OpenAI 的战略以及该公司如何在当今的竞争格局中保持竞争力。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h3>Get the most interesting AI stories and breakthroughs delivered in a free daily email.</h3>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<h3>通过免费每日邮件获取最有趣的 AI 故事和突破性进展。</h3>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Join 920,000 readers for
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-加入 920,000 名读者
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://tldr.tech/ai/2026-02-20" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">代码失而复得</div>
+        <div class="title">Thibault Sottiaux 语录</div>
         <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
       </div>
-      <div class="title-en">Recovering lost code</div>
-      <div class="tags"><span class="tag">代码恢复</span><span class="tag">AI编程</span><span class="tag">并行代理</span></div>
-      <div class="summary">作者在使用并行AI智能体编程时，因电脑崩溃丢失了存储在临时目录中的代码功能，最终通过Claude Code的会话日志成功恢复。</div>
+      <div class="title-en">Quoting Thibault Sottiaux</div>
+      <div class="tags"><span class="tag">GPT-5.3</span><span class="tag">性能优化</span><span class="tag">OpenAI</span></div>
+      <div class="summary">OpenAI的Thibault Sottiaux宣布，GPT-5.3-Codex-Spark模型的推理速度已提升约30%，目前每秒可处理超过1200个token。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Reached the stage of parallel agent psychosis where I&#x27;ve lost a whole feature</div><div class="quote-zh">已经达到了并行代理精神错乱（parallel agent psychosis）的阶段，整个功能都搞丢了</div></div>
-<div class="quote-block"><div class="quote-en">Turns out I&#x27;d been hacking on a random prototype in /tmp and then my computer crashed and rebooted and I lost the code... but it&#x27;s all still there</div><div class="quote-zh">原来是我在 /tmp 里随意捣鼓一个原型，然后电脑崩溃重启，代码丢了……但居然都还在那里</div></div>
+<div class="quote-block"><div class="quote-en">We’ve made GPT-5.3-Codex-Spark about 30% faster. It is now serving at over 1200 tokens per second.</div><div class="quote-zh">我们将 GPT-5.3-Codex-Spark 的速度提升了约 30%，现在它以每秒超过 1200 个 token 的速度运行。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Recovering lost code / 恢复丢失的代码</h3>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Quoting Thibault Sottiaux</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">摘自 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Thibault Sottiaux</strong></p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Reached the stage of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">parallel agent psychosis</strong> where I've lost a whole <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">feature</strong> - I know I had it yesterday, but I can't seem to find the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">branch</strong> or <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">worktree</strong> or <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">cloud instance</strong> or <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">checkout</strong> with it in.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我已经进入了<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">并行智能体精神错乱</strong>（parallel agent psychosis）的阶段，以至于丢失了整个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">功能特性</strong>（feature）——我确信昨天还在的，却怎么也找不到包含它的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">分支</strong>（branch）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">工作树</strong>（worktree）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">云实例</strong>（cloud instance）或<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">检出</strong>（checkout）了。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">21st February 2026</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">2026年2月21日</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">... found it! Turns out I'd been hacking on a random <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prototype</strong> in <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/tmp</code> and then my computer crashed and rebooted and I lost the code... but it's all still there in <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">~/.claude/projects/session logs</code> and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> can extract it out and spin up the missing feature again.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">……找到了！原来我之前一直在<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/tmp</code>目录里随意开发一个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">原型</strong>（prototype），然后电脑崩溃重启，代码就丢了……但所有内容都还在<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">~/.claude/projects/session logs</code>里，而且<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong>能够将其提取出来，并重新启动那个丢失的功能。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+    We’ve made <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT-5.3-Codex-Spark</strong> about 30% faster. It is now serving at over 1200 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tokens</strong> per second.
+  </blockquote>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+  我们将 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT-5.3-Codex-Spark</strong> 的速度提升了约 30%。现在它的服务速度已超过每秒 1200 个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">token</strong>（词元）。
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">parallel-agents</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">coding-agents</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">claude-code</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">generative-ai</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ai</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llms</strong></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">并行智能体</strong>（parallel-agents）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">编程智能体</strong>（coding-agents）、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">生成式 AI</strong>（generative-ai）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">人工智能</strong>（ai）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">大语言模型</strong>（llms）</p></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">We’ve made <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT-5.3-Codex-Spark</strong> about 30% faster. It is now serving at over 1200 tokens per second.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我们将 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT-5.3-Codex-Spark</strong> 的速度提升了约 30%。现在它的服务速度已超过每秒 1200 个 token。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">—<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Thibault Sottiaux</strong>,<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">——<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Thibault Sottiaux</strong>，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong></p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Feb/19/recovering-lost-code/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Simon Willison</div>
+      <div class="title-row">
+        <div class="title">Andrej Karpathy 谈 AI 代理新层 &quot;Claws&quot;</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
+      </div>
+      <div class="title-en">Andrej Karpathy talks about &quot;Claws&quot;</div>
+      <div class="tags"><span class="tag">AI代理</span><span class="tag">Claws</span><span class="tag">LLM</span></div>
+      <div class="summary">Andrej Karpathy将&quot;Claws&quot;定义为LLM agents之上的新一代架构层，通过更高级的编排、调度和持久化能力推动AI技术演进，并对NanoClaw等轻量级开源方案表示关注。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">fits into both my head and that of AI agents, so it feels manageable, auditable, flexible, etc.</div><div class="quote-zh">既能装进我的脑袋，也能被 AI 代理理解，因此感觉可管理、可审计、灵活自如。</div></div>
+<div class="quote-block"><div class="quote-en">just like LLM agents were a new layer on top of LLMs, Claws are now a new layer on top of LLM agents, taking the orchestration, scheduling, context, tool calls and a kind of persistence to a next level.</div><div class="quote-zh">正如 LLM 代理是 LLM 之上的新层，Claws 现在成为 LLM 代理之上的新层，将编排、调度、上下文、工具调用以及某种持久性提升到新水平。</div></div>
+</div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Andrej Karpathy talks about "Claws"</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+I'm definitely a bit sus'd to run <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenClaw</strong> specifically [...] But I do love the concept and I think that just like <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM agents</strong> were a new layer on top of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLMs</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claws</strong> are now a new layer on top of LLM agents, taking the orchestration, scheduling, context, tool calls and a kind of persistence to a next level.
+</blockquote>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+坦白说，我对专门运行 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenClaw</strong> 确实有点顾虑 [...] 但我确实喜欢这个理念，而且我认为正如 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM 智能体（LLM agents）</strong> 是在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">大语言模型（LLMs）</strong> 之上的新层，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claws</strong> 现在正成为 LLM 智能体之上的新层，将编排（orchestration）、调度（scheduling）、上下文（context）、工具调用（tool calls）以及某种持久化（persistence）能力提升到新的水平。
+</blockquote>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+I'm definitely a bit sus'd to run <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenClaw</strong> specifically [...] But I do love the concept and I think that just like <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM agents</strong> were a new layer on top of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLMs</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claws</strong> are now a new layer on top of LLM agents, taking the orchestration, scheduling, context, tool calls and a kind of persistence to a next level.
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+坦白说，我对专门运行 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenClaw</strong> 确实有点顾虑 [...] 但我确实喜欢这个理念，而且我认为正如 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM 智能体（LLM agents）</strong> 是在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">大语言模型（LLMs）</strong> 之上的新层，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claws</strong> 现在正成为 LLM 智能体之上的新层，将编排、调度、上下文、工具调用以及某种持久化能力提升到新的水平。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Looking around, and given that the high level idea is clear, there are a lot of smaller <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claws</strong> starting to pop out. For example, on a quick skim <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NanoClaw</strong> looks really interesting in that the core engine is ~4000 lines of code (fits into both my head and that of AI agents, so it feels manageable, auditable, flexible, etc.) and runs everything in containers by default. [...]
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+环顾四周，考虑到高层次概念（high level idea）已经清晰，许多小型的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claws</strong> 项目开始涌现。例如，快速浏览之下，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NanoClaw</strong> 看起来很有趣，其核心引擎只有约 4000 行代码（既在我能理解的范围内，也适合 AI 智能体处理，因此感觉可管理、可审计、灵活等），并且默认在容器中运行所有内容。[...]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Anyway there are many others - e.g. nanobot, zeroclaw, ironclaw, picoclaw (lol @ prefixes). [...]
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+总之还有很多其他的——例如 nanobot、zeroclaw、ironclaw、picoclaw（这些前缀真好笑）。[...]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Not 100% sure what my setup ends up looking like just yet but <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claws</strong> are an awesome, exciting new layer of the AI stack.
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+我还不能百分之百确定我的最终配置会是什么样子，但 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claws</strong> 确实是 AI 技术栈（AI stack）中一个令人兴奋且很棒的新层。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Andrej</strong> has an ear for fresh terminology (see <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vibe coding</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic engineering</strong>) and I think he's right about this one, too: "Claw" is becoming a term of art for the entire category of <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenClaw</strong>-like agent systems - <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agents</strong> that generally run on personal hardware, communicate via messaging protocols and can both act on direct instructions and schedule tasks.
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Andrej（安德烈）</strong> 对新鲜术语很有嗅觉（参见 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vibe coding（氛围编程）</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic engineering（智能体工程）</strong>），我认为他在这个术语上同样是对的："Claw" 正在成为整个 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenClaw</strong> 类智能体系统类别的专业术语（term of art）——这类 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 智能体（AI agents）</strong> 通常运行在个人硬件上，通过消息协议通信，既能执行直接指令，也能调度任务。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+It even comes with an established emoji 🦞
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+它甚至已经有了一个固定的表情符号 🦞
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Tags:definitions,ai,andrej-karpathy,generative-ai,llms,ai-agents,openclaw
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+标签：definitions（定义）、ai（人工智能）、andrej-karpathy（安德烈·卡帕蒂）、generative-ai（生成式 AI）、llms（大语言模型）、ai-agents（AI 智能体）、openclaw
+</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://simonwillison.net/2026/Feb/21/claws/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Simon Willison</div>
+      <div class="title-row">
+        <div class="title">我的博客新增五大内容板块（Beats功能）</div>
+        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
+      </div>
+      <div class="title-en">Adding TILs, releases, museums, tools and research to my blog</div>
+      <div class="tags"><span class="tag">博客</span><span class="tag">AI编程</span><span class="tag">内容整合</span><span class="tag">工具</span></div>
+      <div class="summary">本文作者介绍了其博客新增的&quot;beats&quot;功能，通过集成五个不同数据源，将GitHub代码发布、TIL博客、博物馆文章、在线工具和AI研究项目等多元在线活动聚合展示；整个开发过程借助Claude Code等AI编程助手高效完成，包括数据解析、UI适配和多页面集成。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">Since I&#x27;m responsible for both the source and the destination I&#x27;m fine with a brittle solution that would be too risky against a source that I don&#x27;t control myself.</div><div class="quote-zh">由于我同时负责数据源和接收端，所以我可以接受这个脆弱的解决方案——如果数据源不受我控制，这种方案就太冒险了。</div></div>
+<div class="quote-block"><div class="quote-en">I knocked most of the feature out in a single morning while working in parallel on various other things.</div><div class="quote-zh">我只用一个上午就搞定了这个功能的大部分工作，而且当时还在同时处理其他各种事情。</div></div>
+</div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Adding TILs, releases, museums, tools and research to my blog<br>为我的博客新增 TIL、版本发布、博物馆、工具和研究内容</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I've been wanting to add indications of my various other online activities to my blog for a while now. I just turned on a new feature I'm calling "beats" (after story beats, naming this was hard!) which adds five new types of content to my site, all corresponding to activity elsewhere.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我一直想在自己的博客中添加一些标识，来展示我在其他平台上的各类在线活动。刚刚我上线了一个名为"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">beats</strong>"（灵感来自<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">story beats</strong>（故事节拍），取名可真难！）的新功能，它为我的网站增加了五种新的内容类型，全部对应于我在其他地方的动态。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Here's what beats look like:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">以下是 beats 的展示效果：</p>
+
+<img src="https://static.simonwillison.net/static/2026/three-beats.jpg" alt="Screenshot of a fragment of a page showing three entries from 30th Dec 2025. First: [RELEASE] &quot;datasette-turnstile 0.1a0 — Configurable CAPTCHAs for Datasette paths usin…&quot; at 7:23 pm. Second: [TOOL] &quot;Software Heritage Repository Retriever — Download archived Git repositories f…&quot; at 11:41 pm. Third: [TIL] &quot;Downloading archived Git repositories from archive.softwareheritage.org — …&quot; at 11:43 pm." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<img src="https://static.simonwillison.net/static/2026/three-beats.jpg" alt="Screenshot of a fragment of a page showing three entries from 30th Dec 2025. First: [RELEASE] &quot;datasette-turnstile 0.1a0 — Configurable CAPTCHAs for Datasette paths usin…&quot; at 7:23 pm. Second: [TOOL] &quot;Software Heritage Repository Retriever — Download archived Git repositories f…&quot; at 11:41 pm. Third: [TIL] &quot;Downloading archived Git repositories from archive.softwareheritage.org — …&quot; at 11:43 pm." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Those three are from the 30th December 2025 archive page.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这三条内容来自 2025 年 12 月 30 日的归档页面。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Beats are little inline links with badges that fit into different content timeline views around my site, including the homepage, search and archive pages.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Beats</strong> 是带有徽章（<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">badges</strong>）的小型内联链接（<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">inline links</strong>），可以嵌入到我网站各处不同的内容时间线视图中，包括首页、搜索页和归档页。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">There are currently five types of beats:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">目前共有五种类型的 beats：</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:8px 0;padding-left:24px;">
+<li>Releases are GitHub releases of my many different open source projects, imported from this JSON file that was constructed by GitHub Actions.</li>
+<li>TILs are the posts from my TIL blog, imported using a SQL query over JSON and HTTP against the Datasette instance powering that site.</li>
+<li>Museums are new posts on my niche-museums.com blog, imported from this custom JSON feed.</li>
+<li>Tools are HTML and JavaScript tools I've vibe-coded on my tools.simonwillison.net site, as described in Useful patterns for building HTML tools.</li>
+<li>Research is for AI-generated research projects, hosted in my simonw/research repo and described in Code research projects with async coding agents like Claude Code and Codex.</li>
+</ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<ul style="margin:8px 0;padding-left:24px;">
+<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Releases</strong>（版本发布）是我众多开源项目的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GitHub releases</strong>，数据从由 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub Actions</strong> 构建的 JSON 文件导入。</li>
+<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">TILs</strong>（今日所学，Today I Learned）来自我的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">TIL 博客</strong>，通过针对该网站底层的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Datasette</strong> 实例执行 SQL 查询（基于 JSON 和 HTTP）导入。</li>
+<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Museums</strong>（博物馆）是我的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">niche-museums.com</strong> 博客上的新文章，从这个自定义 JSON 订阅源导入。</li>
+<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Tools</strong>（工具）是我在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">tools.simonwillison.net</strong> 网站上通过"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vibe-coded</strong>"（氛围编程）编写的 HTML 和 JavaScript 工具，如《Useful patterns for building HTML tools》（构建 HTML 工具的实用模式）中所述。</li>
+<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Research</strong>（研究）用于展示 AI 生成的研究项目，托管在我的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">simonw/research</strong> 代码仓库中，并在《Code research projects with async coding agents like Claude Code and Codex》（使用 Claude Code 和 Codex 等异步编程代理进行代码研究项目）一文中有详细描述。</li>
+</ul>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">That's five different custom integrations to pull in all of that data. The good news is that this kind of integration project is the kind of thing that coding agents really excel at. I knocked most of the feature out in a single morning while working in parallel on various other things.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这意味着需要五种不同的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">自定义集成</strong>（custom integrations）来拉取所有这些数据。好消息是，这种集成项目正是<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">编程代理</strong>（coding agents）真正擅长的领域。我只用一个上午就完成了该功能的大部分开发，期间还并行处理着其他各种事务。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I didn't have a useful structured feed of my Research projects, and it didn't matter because I gave Claude Code a link to the raw Markdown README that lists them all and it spun up a parser regex. Since I'm responsible for both the source and the destination I'm fine with a brittle solution that would be too risky against a source that I don't control myself.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我并没有为 Research 项目准备一个有用的结构化数据源，但这无关紧要，因为我给了 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> 一个指向原始 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Markdown README</strong> 文件的链接，其中列出了所有项目，然后它就快速编写了一个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">解析器正则表达式</strong>（parser regex）。由于数据源和目的地都由我负责，所以我对这种脆弱的解决方案感到满意——如果数据源不是我亲自控制的，这种方案风险就太大了。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Claude also handled all of the potentially tedious UI integration work with my site, making sure the new content worked on all of my different page types and was handled correctly by my faceted search engine.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> 还处理了所有可能繁琐的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">UI 集成</strong>（UI integration）工作，确保新内容在我所有不同类型的页面上都能正常显示，并能被我的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">分面搜索引擎</strong>（faceted search engine）正确处理。</p>
+
+<h4 style="margin:24px 0 12px;">Prototyping with Claude Artifacts<br>使用 Claude Artifacts 进行原型设计</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I actually prototyped the initial concept for beats in regular Claude - not Claude Code - taking advantage of the fact that it can clone public repos from GitHub these days. I started with:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">实际上，我是在常规的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong>（而非 Claude Code）中 prototyped beats 的初始概念，利用了它如今可以从 GitHub <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">克隆公共仓库</strong>（clone public repos）的功能。我从以下提示开始：</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">Clone simonw/simonwillisonblog and tell me about the models and views</blockquote>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">克隆 simonw/simonwillisonblog 仓库，并告诉我其中的模型（models）和视图（views）</blockquote>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">And then later in the brainstorming session said:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">然后在头脑风暴过程中又说：</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">use the templates and CSS in this repo to create a new artifact with all HTML and CSS inline that shows me my homepage with some of those inline content types mixed in</blockquote>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">使用这个仓库中的模板和 CSS 创建一个新的 artifact，将所有 HTML 和 CSS 内联，向我展示混合了这些内联内容类型的首页效果</blockquote>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">After some iteration we got to this artifact mockup, which was enough to convince me that the concept had legs and was worth handing over to full Claude Code for web to implement.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">经过几轮迭代，我们得到了这个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">artifact 原型</strong>（artifact mockup），这足以让我相信这个概念是可行的（had legs），值得交给完整的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code for web</strong> 来实现。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">If you want to see how the rest of the build played out the most interesting PRs are Beats #592 which implemented the core feature and Add Museums Beat importer #595 which added the Museums content type.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如果你想了解后续构建过程的细节，最有趣的两个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PR</strong>（Pull Request）分别是实现了核心功能的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Beats #592</strong>，以及添加了博物馆内容类型的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Add Museums Beat importer #595</strong>。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: blogging, museums, ai, til, generative-ai, llms, ai-assisted-programming, claude-artifacts, claude-code</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">blogging</strong>（博客），museums（博物馆），ai（人工智能），til（今日所学），generative-ai（生成式 AI），llms（大语言模型），ai-assisted-programming（AI 辅助编程），claude-artifacts，claude-code</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://simonwillison.net/2026/Feb/20/beats/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-02-20
+  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-02-21
 </div>
 
 <script>
