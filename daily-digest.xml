@@ -7,32 +7,17 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 21 Feb 2026 22:46:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 22:29:44 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-02-21</title>
-      <description>&lt;p&gt;&lt;strong&gt;AI/产品/技术日报&lt;/strong&gt; | 2026-02-22&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; AI 基础设施&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;OpenAI 推出 GPT-5.3-Codex-Spark，推理速度大幅提升&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Thibault Sottiaux 宣布新模型推理速度提升约 30%，每秒可处理超 1200 个 token，显著优化代码生成场景的性能表现。（Simon Willison）&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Andrej Karpathy 提出 &amp;quot;Claws&amp;quot; 架构层概念&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Karpathy 将 Claws 定义为 LLM Agents 之上的新一代编排层，通过高级调度与持久化能力推动 AI 架构演进，并对 NanoClaw 等轻量级开源方案表示关注。（Simon Willison）&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;定制 ASIC 芯片或成 LLM 推理新趋势&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latent Space 分析指出，随着模型架构标准化，为特定大模型定制 ASIC 芯片可节省 20% 以上推理成本，并实现近两万 token/秒的超高速推理，模型-芯片协同设计将成为重要方向。（Latent Space）&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;AI 工程实践&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;借助 Claude Code 重构个人博客内容系统&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;开发者 Simon Willison 分享其博客新增 &amp;quot;beats&amp;quot; 功能的全过程，利用 AI 编程助手完成多数据源集成（GitHub、TIL、博物馆文章等），实现代码发布、工具展示与研究项目的自动化聚合。（Simon Willison）&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;产品管理与增长&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;企业级产品准备的社区实战智慧&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Lenny&amp;#x27;s Newsletter 精选社区讨论，涵盖企业级产品 readiness 评估、工程进度超前时的产品策略调整、PRD 版本管理技巧，以及基于个人精力曲线的工作规划方法。（Kiyani / Lenny&amp;#x27;s Newsletter）&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;跨界产业观察&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;AI 数据中心推动全球制造业投资新格局&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;美国房价呈现地域分化（中西部/东北部上涨，南部回调），中国电动车凭借垂直整合维持价格优势；同时 AI 数据中心需求正驱动美光、台积电等芯片巨头在美国进行数百亿美元制造投资。（Brian Potter / Construction Physics）&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-02-21</guid>
-      <pubDate>Sat, 21 Feb 2026 22:46:16 +0000</pubDate>
+      <title>📰 AI/产品/技术日报 - 2026-02-22</title>
+      <description>&lt;p&gt;&lt;strong&gt;每日 AI 日报&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;LLM &amp;amp; AI 工具&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;How I think about Codex&lt;/strong&gt; | Simon Willison&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;提出 Codex 的三层架构框架（Model/Harness/Surfaces），阐明该模型并非&amp;quot;基础模型+外挂工具&amp;quot;的传统模式，而是针对开源框架原生训练，将工具调用与迭代验证能力内置于学习过程中的智能体范式。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-02-22</guid>
+      <pubDate>Sun, 22 Feb 2026 22:29:44 +0000</pubDate>
     </item>
   </channel>
 </rss>
