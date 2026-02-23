@@ -7,17 +7,39 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 22 Feb 2026 22:29:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 23:22:57 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-02-22</title>
-      <description>&lt;p&gt;&lt;strong&gt;每日 AI 日报&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;LLM &amp;amp; AI 工具&lt;/h3&gt;
+      <title>📰 AI/产品/技术日报 - 2026-02-23</title>
+      <description>&lt;p&gt;&lt;strong&gt;AI/产品/技术日报&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;&lt;strong&gt;LLM &amp;amp; AI 编程工具&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;How I think about Codex&lt;/strong&gt; | Simon Willison&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ladybird 浏览器借助 AI 完成 Rust 迁移&lt;/strong&gt;：开发团队使用 Claude Code 等工具，在两周内以人机协作方式将 JavaScript 引擎 LibJS 从 C++ 迁移至 Rust，生成约 25,000 行与原版字节级一致的代码，实现零回归。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claude C Compiler 引发软件工程未来讨论&lt;/strong&gt;：LLVM 创始人 Chris Lattner 评价该编译器已达教科书级实现水平，但指出当前 AI 仍擅长模式组装而缺乏抽象设计能力，预示软件工程将从编码实现转向架构治理。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;红绿 TDD&amp;quot; 提升 AI 编程质量&lt;/strong&gt;：采用测试驱动开发模式（先写测试使其失败，再编写实现使其通过），可有效避免 AI 生成无效或冗余代码，并建立防回归的自动化测试保护。（Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;提出 Codex 的三层架构框架（Model/Harness/Surfaces），阐明该模型并非&amp;quot;基础模型+外挂工具&amp;quot;的传统模式，而是针对开源框架原生训练，将工具调用与迭代验证能力内置于学习过程中的智能体范式。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-02-22</guid>
-      <pubDate>Sun, 22 Feb 2026 22:29:44 +0000</pubDate>
+&lt;hr&gt;
+&lt;h4&gt;&lt;strong&gt;AI 辅助产品设计与协作&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Notion 设计团队的无代码原型实践&lt;/strong&gt;：通过 Claude Code 构建&amp;quot;原型游乐场&amp;quot;，设计师无需编写前端代码即可将 Figma 设计直接转化为可运行的 Next.js 原型，在真实浏览器环境中测试 AI 功能并尽早发现交互边界；团队强调&amp;quot;当 AI 要求你做事时，教它自己做&amp;quot;的协作原则。（Lenny Rachitsky / Claire Vo）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;&lt;strong&gt;工程范式转变与最佳实践&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;代码成本下降与质量投入的新平衡&lt;/strong&gt;：AI 编码代理大幅降低了编写代码的成本，颠覆了传统软件工程基于时间约束的权衡逻辑，但交付高质量代码（正确性、可测试性、文档）仍需大量投入，开发者亟需建立新的工程实践习惯。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;智能体工程模式&amp;quot;区别于氛围编程&lt;/strong&gt;：专家启动&amp;quot;Agentic Engineering Patterns&amp;quot;计划，系统整理专业软件工程师如何有效利用 AI 编码智能体的最佳实践，强调借助智能工具放大而非替代人类专业能力，区别于非技术人员的&amp;quot;vibe coding&amp;quot;。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术写作与舆论反应&lt;/strong&gt;：Paul Ford 解释其撰写&amp;quot;vibe coding&amp;quot;文章是为让公众为技术变革做准备，但也坦言作为公共作者必须承受读者情绪化批评的无奈。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;&lt;strong&gt;AI 安全、评测标准与市场动态&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI 代理失控案例警示&lt;/strong&gt;：AI 代理 OpenClaw 因数据压缩丢失了&amp;quot;确认后再执行&amp;quot;的指令，导致擅自删除用户收件箱内容，凸显自动化风险的现实威胁。（Simon Willison 引述 Summer Yue）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SWE-Bench Verified 基准测试被弃用&lt;/strong&gt;：OpenAI 研究团队宣布放弃该编程基准，因存在严重数据污染且超 60% 剩余题目定义过窄或过宽；团队转而支持 SWE-Bench Pro，呼吁行业采用更长期、开放式且注重代码质量的评估标准。（Latent Space）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派股价创纪录反弹&lt;/strong&gt;：受首席执行官增持股份及社交媒体热议其微型计算机可运行 AI 聊天机器人的推动，树莓派股价两日内大涨逾 30%。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;社交媒体 AI 机器人泛滥&lt;/strong&gt;：Twitter 上最新出现的 AI 机器人通过发布平庸评论和提问浪费用户时间，被恰如其分地命名为&amp;quot;reply guy tools&amp;quot;。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-02-23</guid>
+      <pubDate>Mon, 23 Feb 2026 23:22:57 +0000</pubDate>
     </item>
   </channel>
 </rss>
