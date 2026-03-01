@@ -7,513 +7,427 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 28 Feb 2026 22:38:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 22:40:48 +0000</lastBuildDate>
     <item>
-      <title>[翻译] Latent Space: OpenAI完成史上最大初创融资1100亿美元，投后估值8400亿</title>
-      <link>https://www.latent.space/p/ainews-openai-closes-110b-raise-from</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #OpenAI #巨额融资 #AI投资 #科技巨头&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; OpenAI以8400亿美元投后估值完成1100亿美元融资，由Amazon、NVIDIA和SoftBank共同领投，创下初创公司史上最大融资纪录；公司同时披露ChatGPT周活用户突破9亿、付费企业用户超900万等强劲增长数据。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: [AINews] OpenAI closes $110B raise from Amazon, NVIDIA, SoftBank in largest startup fundraise in history @ $840B post-money&lt;/p&gt;
+      <title>[翻译] Lenny's Newsletter: 设计流程已死：新范式取而代之</title>
+      <link>https://www.lennysnewsletter.com/p/the-design-process-is-dead</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI设计 #设计流程 #人机协作&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 前Figma设计总监、现Anthropic设计负责人Jenny Wen指出，传统的&amp;quot;发现-原型-迭代&amp;quot;线性设计流程在AI时代正逐渐失效，取而代之的是设计师与AI工具深度协作的实时迭代模式；她同时分享了从管理岗回归一线工作的心得，以及未来设计人才需具备审美判断、技术理解和快速适应能力的三大核心特质。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)&lt;/p&gt;
 &lt;hr/&gt;
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;AI News for 2/26/2026-2/27/2026. We checked 12 subreddits, 544 Twitters and 24 Discords (263 channels, and 12529 messages) for you. Estimated reading time saved (at 200wpm): 1189 minutes. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;2026年2月26日至27日的AI新闻。我们为您检查了12个Reddit子版块、544个Twitter账号和24个Discord服务器（263个频道，共12,529条消息）。预计节省阅读时间（按每分钟200词计算）：1189分钟。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AINews&lt;/strong&gt;的网站可让您搜索所有往期内容。提醒：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AINews&lt;/strong&gt;现已成为&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Latent Space&lt;/strong&gt;的一个栏目。您可以选择接收邮件的频率！&lt;/blockquote&gt;
-&lt;/p&gt;
+&lt;img src="https://substackcdn.com/image/fetch/$s_!1570!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F37f93dd5-bc3b-4d56-a51b-a5320d72a51e_1920x1080.png" alt="文章标题图" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Against the backdrop of nonstop positioning with the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Department of War&lt;/strong&gt; (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; refusing terms vs &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; doing a deal), &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; finally closed the much debated Big Round that had been started since December. In the post, they make several interesting new disclosures:
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-在&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;战争部&lt;/strong&gt;（Department of War）持续施压的背景下（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;拒绝条款 vs &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;达成交易），&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;终于完成了自12月启动以来备受争议的大规模融资轮。在公告中，他们披露了几项引人注目的新数据：
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jenny Wen&lt;/strong&gt; leads design for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; at &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;. Prior to this, she was Director of Design at &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Figma&lt;/strong&gt;, where she led the teams behind FigJam and Slides. Before that, she was a designer at Dropbox, Square, and Shopify.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jenny Wen&lt;/strong&gt;（珍妮·温）现任&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;公司&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt;产品负责人。在此之前，她曾任&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Figma&lt;/strong&gt;设计总监，负责FigJam和Slides团队。更早之前，她曾在Dropbox、Square和Shopify担任设计师。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Weekly &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt; users have more than tripled since the start of the year to &lt;strong&gt;1.6M&lt;/strong&gt; (was 1M on Feb 4 (!!?!?!))&lt;/li&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Listen on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt;, and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;可在&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt;和&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt;收听&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;We discuss:&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;我们讨论的内容：&lt;/h3&gt;
+
+&lt;ul style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;li&gt;Why the classic &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;discovery → mock → iterate&lt;/strong&gt; design process is becoming obsolete&lt;/li&gt;
+&lt;li&gt;Why the classic discovery → mock → iterate design process is becoming obsolete&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;每周&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt;用户自年初以来增长超过两倍，达到&lt;strong&gt;160万&lt;/strong&gt;（2月4日时为100万，!!?!?!）&lt;/li&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为什么经典的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;发现（discovery）→ 原型（mock）→ 迭代（iterate）&lt;/strong&gt;设计流程正在过时&lt;/p&gt;
+
+&lt;ul style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;li&gt;What a day in the life of a designer at &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; looks like, including her &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI tool stack&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;What a day in the life of a designer at Anthropic looks like, including her AI tool stack&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/p&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;在&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;的设计师一天是如何度过的，包括她的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI工具栈（AI tool stack）&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;More than &lt;strong&gt;9 million paying business users&lt;/strong&gt; rely on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; for work (was 3M in June 2025)&lt;/li&gt;
+&lt;ul style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;li&gt;Whether &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; will eventually surpass humans in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;taste&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;judgment&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Whether AI will eventually surpass humans in taste and judgment&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;超过&lt;strong&gt;900万付费企业用户&lt;/strong&gt;依赖&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt;办公（2025年6月时为300万）&lt;/li&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;最终是否会在&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;品味（taste）&lt;/strong&gt;和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;判断力（judgment）&lt;/strong&gt;上超越人类&lt;/p&gt;
+
+&lt;ul style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;li&gt;Why Jenny left a director role at &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Figma&lt;/strong&gt; to return to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;IC work&lt;/strong&gt; at &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Why Jenny left a director role at Figma to return to IC work at Anthropic&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/p&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为什么Jenny放弃了&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Figma&lt;/strong&gt;的总监职位，回到&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;从事&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;IC（Individual Contributor，个人贡献者）&lt;/strong&gt;工作&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; is where people start with AI, with &lt;strong&gt;more than 900M weekly active users&lt;/strong&gt;, and we now have &lt;strong&gt;more than 50 million consumer subscribers&lt;/strong&gt; (monetization continuing to accelerate in Jan/Feb) (was 800M in Oct 2025, 35M paying in July)&lt;/li&gt;
+&lt;ul style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;li&gt;The three &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;archetypes&lt;/strong&gt; Jenny is hiring for now&lt;/li&gt;
+&lt;li&gt;The three archetypes Jenny is hiring for now&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt;是人们接触AI的起点，拥有&lt;strong&gt;超过9亿周活跃用户&lt;/strong&gt;，且我们现有&lt;strong&gt;超过5000万消费者订阅用户&lt;/strong&gt;（1月/2月商业化持续加速）（2025年10月时为8亿，7月付费用户为3500万）&lt;/li&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Jenny目前正在招聘的三种&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;原型/典型人才（archetypes）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;li&gt;Why &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;chatbot interfaces&lt;/strong&gt; may be more durable than most people expect&lt;/li&gt;
+&lt;li&gt;Why chatbot interfaces may be more durable than most people expect&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/p&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为什么&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;聊天机器人界面（chatbot interfaces）&lt;/strong&gt;可能比大多数人预期的更具持久性&lt;/p&gt;
 
-&lt;img src="https://substackcdn.com/image/fetch/$s_!fhcB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dd10ca4-c51f-4905-acbf-c1bc803b5ca7_890x600.png" alt="OpenAI融资数据图表" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Brought to you by:&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;本期赞助商：&lt;/h3&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-All this justifies &lt;strong&gt;$110B&lt;/strong&gt; in new investment at a &lt;strong&gt;$730B pre-money valuation&lt;/strong&gt;:
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-所有这些数据证明了在&lt;strong&gt;投前估值7300亿美元&lt;/strong&gt;基础上进行&lt;strong&gt;1100亿美元&lt;/strong&gt;新投资的合理性：
-&lt;/p&gt;
+&lt;img src="https://substackcdn.com/image/fetch/$s_!t7kE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcdcff333-48ef-4960-a5f6-389738486e9b_3444x285.png" alt="赞助商Logo" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;$30B from SoftBank&lt;/strong&gt; ("advancing our own &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ASI&lt;/strong&gt; strategy"),&lt;/li&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;color:#9a9ea6;font-size:14px;line-height:1.7;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Mercury&lt;/strong&gt;—Radically different banking&lt;br/&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Orkes&lt;/strong&gt;—The enterprise platform for reliable applications and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic workflows&lt;/strong&gt;&lt;br/&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Omni&lt;/strong&gt;—AI analytics your customers can trust
+&lt;/blockquote&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;color:#2c2c2e;font-size:15px;line-height:1.8;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Mercury&lt;/strong&gt;—彻底不同的银行服务&lt;br/&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Orkes&lt;/strong&gt;—面向可靠应用和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;代理工作流（agentic workflows）&lt;/strong&gt;的企业平台&lt;br/&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Omni&lt;/strong&gt;—客户可信赖的AI分析工具
+&lt;/blockquote&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;Where to find Jenny Wen:&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;如何找到Jenny Wen：&lt;/h3&gt;
+
+&lt;ul style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;li&gt;X: &lt;a href="https://x.com/jenny_wen" style="color:#2471a3;"&gt;https://x.com/jenny_wen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LinkedIn: &lt;a href="https://www.linkedin.com/in/jennywen" style="color:#2471a3;"&gt;https://www.linkedin.com/in/jennywen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Substack: &lt;a href="https://jennywen.substack.com" style="color:#2471a3;"&gt;https://jennywen.substack.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website: &lt;a href="https://jennywen.ca" style="color:#2471a3;"&gt;https://jennywen.ca&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;软银（SoftBank）&lt;/strong&gt;出资&lt;strong&gt;300亿美元&lt;/strong&gt;（"推进我们自身的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ASI&lt;/strong&gt;（Artificial Superintelligence，人工超级智能）战略"），&lt;/li&gt;
+&lt;ul style="color:#2c2c2e;font-size:15px;line-height:1.8;margin:4px 0 24px;"&gt;
+&lt;li&gt;X（推特）：&lt;a href="https://x.com/jenny_wen" style="color:#2471a3;"&gt;https://x.com/jenny_wen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;领英：&lt;a href="https://www.linkedin.com/in/jennywen" style="color:#2471a3;"&gt;https://www.linkedin.com/in/jennywen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Substack：&lt;a href="https://jennywen.substack.com" style="color:#2471a3;"&gt;https://jennywen.substack.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;个人网站：&lt;a href="https://jennywen.ca" style="color:#2471a3;"&gt;https://jennywen.ca&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;$30B from NVIDIA&lt;/strong&gt; (including the use of 3 GW of dedicated inference capacity and 2 GW of training on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Vera Rubin&lt;/strong&gt; systems) - down from "up to $100B", still with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;circular funding&lt;/strong&gt; concerns&lt;/li&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Referenced:&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;参考资料：&lt;/h3&gt;
+
+&lt;ul style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Figma&lt;/strong&gt;: &lt;a href="https://www.figma.com" style="color:#2471a3;"&gt;https://www.figma.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;: &lt;a href="https://www.anthropic.com" style="color:#2471a3;"&gt;https://www.anthropic.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;v0&lt;/strong&gt;: &lt;a href="https://v0.app" style="color:#2471a3;"&gt;https://v0.app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Navigating a Design Career with Jenny Wen | Figma at Waterloo: &lt;a href="https://www.youtube.com/watch?v=OHcBPMh2ivk" style="color:#2471a3;"&gt;https://www.youtube.com/watch?v=OHcBPMh2ivk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Cowork&lt;/strong&gt;: &lt;a href="https://claude.com/product/cowork" style="color:#2471a3;"&gt;https://claude.com/product/cowork&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Use &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; in VS Code: &lt;a href="https://code.claude.com/docs/en/vs-code" style="color:#2471a3;"&gt;https://code.claude.com/docs/en/vs-code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Claude Code in Slack: &lt;a href="https://code.claude.com/docs/en/slack" style="color:#2471a3;"&gt;https://code.claude.com/docs/en/slack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lex Fridman&lt;/strong&gt;'s website: &lt;a href="https://lexfridman.com" style="color:#2471a3;"&gt;https://lexfridman.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Head of Claude Code: What happens after coding is solved | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Boris Cherny&lt;/strong&gt;: &lt;a href="https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt;: &lt;a href="https://openclaw.ai" style="color:#2471a3;"&gt;https://openclaw.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI's CPO on how AI changes must-have skills, moats, coding, startup playbooks, more | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Kevin Weil&lt;/strong&gt; (CPO at OpenAI, ex-Instagram, Twitter): &lt;a href="https://www.lennysnewsletter.com/p/kevin-weil-open-ai" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/kevin-weil-open-ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marc Andreessen&lt;/strong&gt;: The real AI boom hasn't even started yet: &lt;a href="https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Socratica&lt;/strong&gt;: &lt;a href="https://www.socratica.info" style="color:#2471a3;"&gt;https://www.socratica.info&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic's CPO on what comes next | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Mike Krieger&lt;/strong&gt; (co-founder of Instagram): &lt;a href="https://www.lennysnewsletter.com/p/anthropics-cpo-heres-what-comes-next" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/anthropics-cpo-heres-what-comes-next&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Radical Candor&lt;/strong&gt;: From theory to practice with author &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Kim Scott&lt;/strong&gt;: &lt;a href="https://www.lennysnewsletter.com/p/radical-candor-from-theory-to-practice" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/radical-candor-from-theory-to-practice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan Tana&lt;/strong&gt;'s 'legibility matrix' on X: &lt;a href="https://x.com/evantana/status/1927404374252269667" style="color:#2471a3;"&gt;https://x.com/evantana/status/1927404374252269667&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How to spot a top 1% startup early: &lt;a href="https://www.lennysnewsletter.com/p/how-to-spot-a-top-1-startup-early" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/how-to-spot-a-top-1-startup-early&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Palantir&lt;/strong&gt;: &lt;a href="https://www.palantir.com" style="color:#2471a3;"&gt;https://www.palantir.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Stripe&lt;/strong&gt;: &lt;a href="https://stripe.com" style="color:#2471a3;"&gt;https://stripe.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Linear&lt;/strong&gt;: &lt;a href="https://linear.app" style="color:#2471a3;"&gt;https://linear.app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Notion&lt;/strong&gt;: &lt;a href="https://www.notion.com" style="color:#2471a3;"&gt;https://www.notion.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Julie Zhuo&lt;/strong&gt;'s website: &lt;a href="https://www.juliezhuo.com" style="color:#2471a3;"&gt;https://www.juliezhuo.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Sentimental Value&lt;/em&gt;: &lt;a href="https://www.imdb.com/title/tt27714581" style="color:#2471a3;"&gt;https://www.imdb.com/title/tt27714581&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Pitt&lt;/em&gt; on Prime Video: &lt;a href="https://www.amazon.com/The-Pitt-Season-1/dp/B0DNRR8QWD" style="color:#2471a3;"&gt;https://www.amazon.com/The-Pitt-Season-1/dp/B0DNRR8QWD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Noah Wyle&lt;/strong&gt;: &lt;a href="https://en.wikipedia.org/wiki/Noah_Wyle" style="color:#2471a3;"&gt;https://en.wikipedia.org/wiki/Noah_Wyle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;ER&lt;/em&gt; on Prime Video: &lt;a href="https://www.amazon.com/gp/video/detail/B0FWZSDYRP" style="color:#2471a3;"&gt;https://www.amazon.com/gp/video/detail/B0FWZSDYRP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Retro&lt;/strong&gt;: &lt;a href="https://retro.app" style="color:#2471a3;"&gt;https://retro.app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Granola&lt;/strong&gt;: &lt;a href="https://www.granola.ai" style="color:#2471a3;"&gt;https://www.granola.ai&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;英伟达（NVIDIA）&lt;/strong&gt;出资&lt;strong&gt;300亿美元&lt;/strong&gt;（包括使用3吉瓦专用推理算力和2吉瓦&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Vera Rubin&lt;/strong&gt;系统训练算力）——较此前"高达1000亿美元"的传闻有所下降，仍存在&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;循环注资&lt;/strong&gt;（circular funding）担忧&lt;/li&gt;
+&lt;ul style="color:#2c2c2e;font-size:15px;line-height:1.8;margin:4px 0 24px;"&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Figma&lt;/strong&gt;：&lt;a href="https://www.figma.com" style="color:#2471a3;"&gt;https://www.figma.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;：&lt;a href="https://www.anthropic.com" style="color:#2471a3;"&gt;https://www.anthropic.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;v0&lt;/strong&gt;（Vercel推出的AI生成UI工具）：&lt;a href="https://v0.app" style="color:#2471a3;"&gt;https://v0.app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《与Jenny Wen探讨设计职业生涯 | Figma at Waterloo》：&lt;a href="https://www.youtube.com/watch?v=OHcBPMh2ivk" style="color:#2471a3;"&gt;https://www.youtube.com/watch?v=OHcBPMh2ivk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Cowork&lt;/strong&gt;（Claude协作功能）：&lt;a href="https://claude.com/product/cowork" style="color:#2471a3;"&gt;https://claude.com/product/cowork&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;在VS Code中使用&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt;：&lt;a href="https://code.claude.com/docs/en/vs-code" style="color:#2471a3;"&gt;https://code.claude.com/docs/en/vs-code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Slack中的Claude Code：&lt;a href="https://code.claude.com/docs/en/slack" style="color:#2471a3;"&gt;https://code.claude.com/docs/en/slack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lex Fridman&lt;/strong&gt;（莱克斯·弗里德曼）的网站：&lt;a href="https://lexfridman.com" style="color:#2471a3;"&gt;https://lexfridman.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《Claude Code负责人：当编程被解决后会发生什么 | Boris Cherny》：&lt;a href="https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt;：&lt;a href="https://openclaw.ai" style="color:#2471a3;"&gt;https://openclaw.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《OpenAI CPO谈AI如何改变必备技能、护城河、编程、创业剧本等 | Kevin Weil（OpenAI首席产品官，前Instagram、Twitter）》：&lt;a href="https://www.lennysnewsletter.com/p/kevin-weil-open-ai" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/kevin-weil-open-ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marc Andreessen&lt;/strong&gt;（马克·安德森）：真正的AI繁荣甚至还未开始》：&lt;a href="https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Socratica&lt;/strong&gt;（苏格拉底式学习工具）：&lt;a href="https://www.socratica.info" style="color:#2471a3;"&gt;https://www.socratica.info&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《Anthropic CPO谈未来展望 | Mike Krieger（Instagram联合创始人）》：&lt;a href="https://www.lennysnewsletter.com/p/anthropics-cpo-heres-what-comes-next" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/anthropics-cpo-heres-what-comes-next&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Radical Candor&lt;/strong&gt;（彻底坦率）：与作者&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Kim Scott&lt;/strong&gt;从理论到实践》：&lt;a href="https://www.lennysnewsletter.com/p/radical-candor-from-theory-to-practice" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/radical-candor-from-theory-to-practice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan Tana&lt;/strong&gt;在X上的"可读性矩阵"：&lt;a href="https://x.com/evantana/status/1927404374252269667" style="color:#2471a3;"&gt;https://x.com/evantana/status/1927404374252269667&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《如何早期识别顶尖1%的创业公司》：&lt;a href="https://www.lennysnewsletter.com/p/how-to-spot-a-top-1-startup-early" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/how-to-spot-a-top-1-startup-early&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Palantir&lt;/strong&gt;：&lt;a href="https://www.palantir.com" style="color:#2471a3;"&gt;https://www.palantir.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Stripe&lt;/strong&gt;：&lt;a href="https://stripe.com" style="color:#2471a3;"&gt;https://stripe.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Linear&lt;/strong&gt;（项目管理工具）：&lt;a href="https://linear.app" style="color:#2471a3;"&gt;https://linear.app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Notion&lt;/strong&gt;：&lt;a href="https://www.notion.com" style="color:#2471a3;"&gt;https://www.notion.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Julie Zhuo&lt;/strong&gt;（朱莉·卓）的网站：&lt;a href="https://www.juliezhuo.com" style="color:#2471a3;"&gt;https://www.juliezhuo.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《情感价值》（Sentimental Value）：&lt;a href="https://www.imdb.com/title/tt27714581" style="color:#2471a3;"&gt;https://www.imdb.com/title/tt27714581&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《匹兹堡医护前线》（The Pitt）Prime Video：&lt;a href="https://www.amazon.com/The-Pitt-Season-1/dp/B0DNRR8QWD" style="color:#2471a3;"&gt;https://www.amazon.com/The-Pitt-Season-1/dp/B0DNRR8QWD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Noah Wyle&lt;/strong&gt;（诺亚·怀尔）：&lt;a href="https://en.wikipedia.org/wiki/Noah_Wyle" style="color:#2471a3;"&gt;https://en.wikipedia.org/wiki/Noah_Wyle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《急诊室的故事》（ER）Prime Video：&lt;a href="https://www.amazon.com/gp/video/detail/B0FWZSDYRP" style="color:#2471a3;"&gt;https://www.amazon.com/gp/video/detail/B0FWZSDYRP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Retro&lt;/strong&gt;（团队协作工具）：&lt;a href="https://retro.app" style="color:#2471a3;"&gt;https://retro.app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Granola&lt;/strong&gt;（AI会议笔记工具）：&lt;a href="https://www.granola.ai" style="color:#2471a3;"&gt;https://www.granola.ai&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;$50B from Amazon&lt;/strong&gt; with &lt;strong&gt;increased partnership&lt;/strong&gt; (analysis) involving:
-&lt;ul&gt;
-&lt;li&gt;an initial $15 billion investment and followed by another $35 billion in the coming months when certain conditions are met — leaving Amazon with a &lt;strong&gt;large stake in both OpenAI and Anthropic&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;"&lt;strong&gt;Stateful Runtime Environment&lt;/strong&gt;" powered by OpenAI on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Amazon Bedrock&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;AWS&lt;/strong&gt; will be the exclusive third-party cloud provider for &lt;strong&gt;OpenAI Frontier&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2 gigawatts of Trainium capacity&lt;/strong&gt; through AWS infrastructure worth "$100 billion over 8 years", spanning both &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Trainium3&lt;/strong&gt; and next-gen &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Trainium4&lt;/strong&gt; chips&lt;/li&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Recommended books:&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;推荐书籍：&lt;/h3&gt;
+
+&lt;ul style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Radical Candor&lt;/strong&gt;: Be a Kick-Ass Boss Without Losing Your Humanity&lt;/em&gt;: &lt;a href="https://www.amazon.com/Radical-Candor-Kick-Ass-Without-Humanity/dp/1250103509" style="color:#2471a3;"&gt;https://www.amazon.com/Radical-Candor-Kick-Ass-Without-Humanity/dp/1250103509&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;The Power Broker&lt;/strong&gt;: Robert Moses and the Fall of New York&lt;/em&gt;: &lt;a href="https://www.amazon.com/Power-Broker-Robert-Moses-Fall/dp/0394480767" style="color:#2471a3;"&gt;https://www.amazon.com/Power-Broker-Robert-Moses-Fall/dp/0394480767&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Insomniac City&lt;/strong&gt;: New York, Oliver Sacks, and Me&lt;/em&gt;: &lt;a href="https://www.amazon.com/Insomniac-City-New-York-Oliver/dp/162040494X" style="color:#2471a3;"&gt;https://www.amazon.com/Insomniac-City-New-York-Oliver/dp/162040494X&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
+&lt;ul style="color:#2c2c2e;font-size:15px;line-height:1.8;margin:4px 0 24px;"&gt;
+&lt;li&gt;《&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Radical Candor&lt;/strong&gt;（彻底坦率）：如何在不失去人性的情况下成为出色的老板》：&lt;a href="https://www.amazon.com/Radical-Candor-Kick-Ass-Without-Humanity/dp/1250103509" style="color:#2471a3;"&gt;https://www.amazon.com/Radical-Candor-Kick-Ass-Without-Humanity/dp/1250103509&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;The Power Broker&lt;/strong&gt;（权力掮客）：罗伯特·摩西与纽约的衰落》：&lt;a href="https://www.amazon.com/Power-Broker-Robert-Moses-Fall/dp/0394480767" style="color:#2471a3;"&gt;https://www.amazon.com/Power-Broker-Robert-Moses-Fall/dp/0394480767&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Insomniac City&lt;/strong&gt;（失眠之城）：纽约、奥利弗·萨克斯与我》：&lt;a href="https://www.amazon.com/Insomniac-City-New-York-Oliver/dp/162040494X" style="color:#2471a3;"&gt;https://www.amazon.com/Insomniac-City-New-York-Oliver/dp/162040494X&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;亚马逊（Amazon）&lt;/strong&gt;出资&lt;strong&gt;500亿美元&lt;/strong&gt;，并达成&lt;strong&gt;深化合作&lt;/strong&gt;（分析）：
-&lt;ul&gt;
-&lt;li&gt;初期投资150亿美元，未来数月满足特定条件后再追加350亿美元——这将使亚马逊在&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;和&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;中均持有大量股份&lt;/li&gt;
-&lt;li&gt;由OpenAI提供支持的"&lt;strong&gt;有状态运行时环境&lt;/strong&gt;"（Stateful Runtime Environment）运行于&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Amazon Bedrock&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AWS&lt;/strong&gt;将成为&lt;strong&gt;OpenAI Frontier&lt;/strong&gt;的独家第三方云提供商&lt;/li&gt;
-&lt;li&gt;通过AWS基础设施提供&lt;strong&gt;2吉瓦Trainium算力&lt;/strong&gt;，8年期价值"1000亿美元"，涵盖&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Trainium3&lt;/strong&gt;及下一代&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Trainium4&lt;/strong&gt;芯片&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Close watchers might notice the absence of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt;, which continues the existing reduced partnership and gets the &lt;strong&gt;stateless APIs&lt;/strong&gt;.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-密切关注者可能注意到&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;微软（Microsoft）&lt;/strong&gt;的缺席，后者继续维持现有缩减版合作关系，并获得&lt;strong&gt;无状态API&lt;/strong&gt;（stateless APIs）访问权限。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Production and marketing by &lt;a href="https://penname.co/" style="color:#2471a3;"&gt;https://penname.co/&lt;/a&gt;. For inquiries about sponsoring the podcast, email &lt;a href="mailto:podcast@lennyrachitsky.com" style="color:#2471a3;"&gt;podcast@lennyrachitsky.com&lt;/a&gt;.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;制作与营销由 &lt;a href="https://penname.co/" style="color:#2471a3;"&gt;https://penname.co/&lt;/a&gt; 提供。如有赞助播客的咨询，请发送邮件至 &lt;a href="mailto:podcast@lennyrachitsky.com" style="color:#2471a3;"&gt;podcast@lennyrachitsky.com&lt;/a&gt;。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-To put this in perspective, &lt;strong&gt;118 countries/economies have a nominal GDP below $100B&lt;/strong&gt; — roughly 61% of all world economies. Because the consecutive "largest fundraises in history" are too big to fit in a human head, here's a chart worthy of &lt;strong&gt;wtfhappened2025.com&lt;/strong&gt;:
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-为提供参照，&lt;strong&gt;118个国家/经济体的名义GDP低于1000亿美元&lt;/strong&gt;——约占全球所有经济体的61%。由于连续创纪录的"史上最大融资轮"规模已超出人类直观理解范围，以下是来自&lt;strong&gt;wtfhappened2025.com&lt;/strong&gt;的图表：
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Lenny may be an investor in the companies discussed.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Lenny可能是文中讨论公司的投资者。&lt;/p&gt;
 
-&lt;img src="https://substackcdn.com/image/fetch/$s_!ax2C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89dd9766-2fb1-4d42-86f2-6afd1fdfa06d_1206x1401.webp" alt="历史融资规模对比图表" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-and outside of AI, a 10 year history:
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-以及AI领域之外，过去十年的历史：
-&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!YaNo!,w_5760,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff262d5b1-7a48-45f4-ae8c-b2646931577f_2910x514.png" alt="十年融资历史图表" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-and here from &lt;strong&gt;OpenAI Deep Research&lt;/strong&gt; + &lt;strong&gt;ChatGPT Canvas&lt;/strong&gt;, sorted by descending amount:
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-以下数据来自&lt;strong&gt;OpenAI Deep Research&lt;/strong&gt; + &lt;strong&gt;ChatGPT Canvas&lt;/strong&gt;，按金额降序排列：
-&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!Xhe0!,w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e25815d-e755-44e5-b77b-81fb495c7821_2564x2006.png" alt="融资轮次排序图表" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-or a timeline perspective:
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-或时间线视角：
-&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!Iqub!,w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F93ed2a68-ee2f-4599-b965-d993d697115b_2590x2038.png" alt="融资时间线图表" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;h3 style="margin:24px 0 12px;"&gt;AI Twitter Recap&lt;/h3&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;AI Twitter 回顾&lt;/h3&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Hypernetworks for instant LoRA "compilation": Doc-to-LoRA + Text-to-LoRA&lt;/h4&gt;
-&lt;h4 style="margin:24px 0 12px;"&gt;用于即时LoRA"编译"的超网络：Doc-to-LoRA + Text-to-LoRA&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;Doc-to-LoRA / Text-to-LoRA&lt;/strong&gt; (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sakana AI&lt;/strong&gt;): &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sakana&lt;/strong&gt; introduces two related methods that &lt;strong&gt;amortize customization cost&lt;/strong&gt; by training a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;hypernetwork&lt;/strong&gt; to generate &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LoRA adapters&lt;/strong&gt; in a single forward pass, turning what would be fine-tuning / distillation / long-context prompting into "&lt;strong&gt;instant weight updates&lt;/strong&gt;." The core claim: instead of keeping everything in an expensive active context window, you can &lt;strong&gt;compile&lt;/strong&gt; task descriptions or long documents into adapter weights with &lt;strong&gt;sub-second latency&lt;/strong&gt;, enabling rapid adaptation and "&lt;strong&gt;durable memory&lt;/strong&gt;"-like behavior (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SakanaAILabs&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;hardmaru&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;Doc-to-LoRA / Text-to-LoRA&lt;/strong&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sakana AI&lt;/strong&gt;）：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sakana&lt;/strong&gt;推出了两种相关方法，通过训练一个&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;超网络&lt;/strong&gt;（hypernetwork）在单次前向传播中生成&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LoRA适配器&lt;/strong&gt;（LoRA adapters，Low-Rank Adaptation，低秩适配），从而&lt;strong&gt;摊薄定制成本&lt;/strong&gt;，将原本需要微调/蒸馏/长上下文提示的过程转变为"&lt;strong&gt;即时权重更新&lt;/strong&gt;"。核心主张：无需将所有内容保留在昂贵的活跃上下文窗口中，而是可以将任务描述或长文档&lt;strong&gt;编译&lt;/strong&gt;（compile）为适配器权重，实现&lt;strong&gt;亚秒级延迟&lt;/strong&gt;，支持快速适配和类似"&lt;strong&gt;持久记忆&lt;/strong&gt;"的行为（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SakanaAILabs&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;hardmaru&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Text-to-LoRA&lt;/strong&gt;: specializes to &lt;strong&gt;unseen tasks&lt;/strong&gt; from just a natural language description (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SakanaAILabs&lt;/strong&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Text-to-LoRA&lt;/strong&gt;：仅通过自然语言描述即可专门处理&lt;strong&gt;未见过的任务&lt;/strong&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SakanaAILabs&lt;/strong&gt;）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Doc-to-LoRA&lt;/strong&gt;: internalizes factual documents; on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;needle-in-a-haystack&lt;/strong&gt;, reports &lt;strong&gt;near-perfect accuracy&lt;/strong&gt; on sequences &lt;strong&gt;~5× longer&lt;/strong&gt; than the base model context window, and even demonstrates a cross-modal trick: transferring visual information from a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;VLM&lt;/strong&gt; into a text-only model via internalized weights (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SakanaAILabs&lt;/strong&gt;; recap thread &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;omarsar0&lt;/strong&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Doc-to-LoRA&lt;/strong&gt;：内化事实性文档；在&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;大海捞针&lt;/strong&gt;（needle-in-a-haystack）测试中，在比基础模型上下文窗口&lt;strong&gt;长约5倍&lt;/strong&gt;的序列上实现&lt;strong&gt;近乎完美的准确率&lt;/strong&gt;，甚至展示了一项跨模态技巧：通过内化的权重将信息从&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;VLM&lt;/strong&gt;（Vision Language Model，视觉语言模型）迁移至纯文本模型（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SakanaAILabs&lt;/strong&gt;；回顾帖 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;omarsar0&lt;/strong&gt;）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Positioning vs long-context&lt;/strong&gt;: explicitly framed as a way to reduce &lt;strong&gt;quadratic attention costs&lt;/strong&gt; and avoid rereading long docs at every call — &lt;strong&gt;store knowledge in adapters&lt;/strong&gt; rather than tokens (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;omarsar0&lt;/strong&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;与长上下文技术的定位对比&lt;/strong&gt;：明确将其定位为降低&lt;strong&gt;二次方注意力成本&lt;/strong&gt;（quadratic attention costs）并避免每次调用时重复阅读长文档的方式——将知识&lt;strong&gt;存储在适配器中&lt;/strong&gt;而非token中（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;omarsar0&lt;/strong&gt;）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Credit / prior art tension&lt;/strong&gt;: One researcher complains that &lt;strong&gt;Hypersteer&lt;/strong&gt; (hypernetworks producing steering vectors from text descriptions) did not get sufficient credit in later similar work (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;aryaman2020&lt;/strong&gt;). There's also broad community excitement / "hypernetworks are back" reactions (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;willdepue&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;zhansheng&lt;/strong&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;学术署名/先前技术争议&lt;/strong&gt;：一位研究人员抱怨&lt;strong&gt;Hypersteer&lt;/strong&gt;（通过超网络从文本描述生成引导向量）在后续类似工作中未获得充分引用（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;aryaman2020&lt;/strong&gt;）。社区也有广泛反响/"超网络回归"的评论（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;willdepue&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;zhansheng&lt;/strong&gt;）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Open question raised&lt;/strong&gt;: why not just use attention with an extremely long &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;KV cache&lt;/strong&gt; — i.e., is Doc-to-LoRA mainly about efficiency/serving cost? (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;hyhieu226&lt;/strong&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;提出的开放性问题&lt;/strong&gt;：为何不直接使用带有极长&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;KV缓存&lt;/strong&gt;（KV cache，键值缓存）的注意力机制——即Doc-to-LoRA是否主要关于效率/推理成本？（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;hyhieu226&lt;/strong&gt;）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;OpenAI financing + deployment transparency tooling&lt;/h4&gt;
-&lt;h4 style="margin:24px 0 12px;"&gt;OpenAI融资 + 部署透明度工具&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;$110B funding round&lt;/strong&gt;: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; announces a &lt;strong&gt;$110B raise&lt;/strong&gt; with backing from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Amazon&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NVIDIA&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SoftBank&lt;/strong&gt;, framed as scaling infra "to bring AI to everyone" (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;sama&lt;/strong&gt;). A separate note from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Epoch AI&lt;/strong&gt; contextualizes the scale: The round would nearly triple total capital raised to date; &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;The Information&lt;/strong&gt; reportedly projects &lt;strong&gt;$157B cash burn through 2028&lt;/strong&gt;, and this round + existing cash would roughly match that projection (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;EpochAIResearch&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;1100亿美元融资轮&lt;/strong&gt;：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;宣布完成&lt;strong&gt;1100亿美元融资&lt;/strong&gt;，由&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;亚马逊&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;英伟达&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;软银&lt;/strong&gt;支持，定位为扩展基础设施以"将AI带给每个人"（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;sama&lt;/strong&gt;）。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Epoch AI&lt;/strong&gt;的独立注释提供了规模背景：该轮融资将使迄今筹集的总资本近乎翻三倍；据&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;The Information&lt;/strong&gt; reportedly 预测，到2028年将消耗&lt;strong&gt;1570亿美元现金&lt;/strong&gt;，而本轮融资+现有现金大致与该预测相符（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;EpochAIResearch&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;Deployment Safety Hub&lt;/strong&gt;: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; launches a searchable site to browse "&lt;strong&gt;system cards&lt;/strong&gt;" (previously PDFs) as a more accessible interface to deployment safety documentation (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;dgrobinson&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;部署安全中心&lt;/strong&gt;（Deployment Safety Hub）：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;推出一个可搜索网站，用于浏览"&lt;strong&gt;系统卡&lt;/strong&gt;"（system cards，此前为PDF格式），作为访问部署安全文档的更友好界面（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;dgrobinson&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;US DoD ("Department of War") vs Anthropic saga: supply-chain designation, backlash, and industry implications&lt;/h4&gt;
-&lt;h4 style="margin:24px 0 12px;"&gt;美国DoD（"战争部"）与Anthropic之争：供应链认定、反弹及行业影响&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;Anthropic draws a line; tech reacts&lt;/strong&gt;: A central flashpoint is &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;'s public refusal to enable &lt;strong&gt;mass domestic surveillance&lt;/strong&gt; and &lt;strong&gt;fully autonomous weapons&lt;/strong&gt; (as characterized by posters reacting to Anthropic's statement), which drew rare cross-competitor praise and heightened attention to "&lt;strong&gt;red lines&lt;/strong&gt;" in frontier deployment (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;mmitchell_ai&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ilyasut&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;Anthropic划定红线；科技界反应&lt;/strong&gt;：核心爆发点是&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;公开拒绝支持&lt;strong&gt;大规模国内监控&lt;/strong&gt;和&lt;strong&gt;完全自主武器&lt;/strong&gt;（据回应Anthropic声明的发帖者描述），这赢得了罕见的跨竞争对手赞誉，并引发对前沿部署"&lt;strong&gt;红线&lt;/strong&gt;"（red lines）的高度关注（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;mmitchell_ai&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ilyasut&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;Designation shock + legal scope debate&lt;/strong&gt;: Posts circulate a claimed &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;DoW&lt;/strong&gt; move to designate &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; a "&lt;strong&gt;Supply-Chain Risk to National Security&lt;/strong&gt;" and to pressure contractors/partners — sparking arguments about legality, precedent, and chilling effects (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;kimmonismus&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;deanwball&lt;/strong&gt;). One legal clarification: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;DoD&lt;/strong&gt; can restrict what contractors do &lt;strong&gt;on DoD contract work&lt;/strong&gt;, but likely can't legally ban contractors from using &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; in their private/commercial work (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;petereharrell&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;认定冲击 + 法律范围辩论&lt;/strong&gt;：帖子流传称&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;战争部（DoW）&lt;/strong&gt;计划将&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;认定为"&lt;strong&gt;对国家安全的供应链风险&lt;/strong&gt;"（Supply-Chain Risk to National Security）并向承包商/合作伙伴施压——引发关于合法性、先例和寒蝉效应的争论（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;kimmonismus&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;deanwball&lt;/strong&gt;）。一项法律澄清：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;国防部（DoD）&lt;/strong&gt;可限制承包商在&lt;strong&gt;国防部合同工作&lt;/strong&gt;中的行为，但可能无法在法律上禁止承包商在私人/商业工作中使用&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;petereharrell&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;Economic/strategic fallout framing&lt;/strong&gt;: The sharpest critiques argue this would damage US credibility as a business partner and potentially force hyperscalers/investors into impossible tradeoffs (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;deanwball&lt;/strong&gt;); others note uncertainty until full details are known but still see a supply-chain designation as ill-fitting (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;jachiam0&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;经济/战略后果框架&lt;/strong&gt;：最尖锐的批评认为这将损害美国作为商业伙伴的信誉，并可能迫使超大规模云服务商/投资者陷入不可能的权衡（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;deanwball&lt;/strong&gt;）；其他人指出在完整细节公布前存在不确定性，但仍认为供应链认定并不合适（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;jachiam0&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;Public sentiment spike&lt;/strong&gt;: Posts highlight strong public outrage at the idea of a &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;DoD&lt;/strong&gt;-backed domestic surveillance program and punishment for refusal (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;quantian1&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;janleike&lt;/strong&gt;). Many users signal "&lt;strong&gt;solidarity subscriptions&lt;/strong&gt;" to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;willdepue&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Yuchenj_UW&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;公众情绪激增&lt;/strong&gt;：帖子强调公众对&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;国防部&lt;/strong&gt;支持的国内监控计划及惩罚拒绝行为的想法感到强烈愤慨（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;quantian1&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;janleike&lt;/strong&gt;）。许多用户表示要"&lt;strong&gt;团结性订阅&lt;/strong&gt;"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;willdepue&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Yuchenj_UW&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;Anthropic statement and intent to litigate&lt;/strong&gt;: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; posts an official statement responding to Secretary &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hegseth&lt;/strong&gt;'s comments (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AnthropicAI&lt;/strong&gt;). Commentary highlights the line "&lt;strong&gt;challenge any supply chain risk designation in court&lt;/strong&gt;" and emphasizes the dispute over restricting customers outside &lt;strong&gt;DoD&lt;/strong&gt; contract scope (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;iScienceLuvr&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;Anthropic声明及诉讼意向&lt;/strong&gt;：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;发布官方声明回应&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hegseth&lt;/strong&gt;部长的评论（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AnthropicAI&lt;/strong&gt;）。评论强调"&lt;strong&gt;将在法庭上质疑任何供应链风险认定&lt;/strong&gt;"这一表述，并强调争议焦点在于限制&lt;strong&gt;国防部&lt;/strong&gt;合同范围外的客户（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;iScienceLuvr&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;Meta-point&lt;/strong&gt;: Regardless of where one lands on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;'s choices, many posts treat this as a &lt;strong&gt;governance precedent&lt;/strong&gt; moment: who decides acceptable use, what due process exists, and how contracts interact with fast-moving model capabilities (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;kipperrii&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;元观点&lt;/strong&gt;：无论个人对&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;的选择持何立场，许多帖子将此视为一个&lt;strong&gt;治理先例&lt;/strong&gt;（governance precedent）时刻：谁决定可接受的使用方式、存在何种正当程序、以及合同如何与快速迭代的模型能力互动（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;kipperrii&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Models + leaderboards: Qwen3.5 expansion and "open model" rankings&lt;/h4&gt;
-&lt;h4 style="margin:24px 0 12px;"&gt;模型 + 排行榜：Qwen3.5扩展及"开放模型"排名&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;Qwen3.5 new releases&lt;/strong&gt; (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Artificial Analysis&lt;/strong&gt; summary): &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Alibaba&lt;/strong&gt; expands &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Qwen3.5&lt;/strong&gt; with &lt;strong&gt;27B dense&lt;/strong&gt;, &lt;strong&gt;122B A10B MoE&lt;/strong&gt;, and &lt;strong&gt;35B A3B MoE&lt;/strong&gt;, all &lt;strong&gt;Apache 2.0&lt;/strong&gt;, &lt;strong&gt;262K context&lt;/strong&gt; (extendable to 1M via &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;YaRN&lt;/strong&gt; per the post). &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Artificial Analysis&lt;/strong&gt; reports &lt;strong&gt;Intelligence Index&lt;/strong&gt; scores: &lt;strong&gt;27B = 42&lt;/strong&gt;, &lt;strong&gt;122B A10B = 42&lt;/strong&gt;, &lt;strong&gt;35B A3B = 37&lt;/strong&gt;, with notable agentic/task metrics like &lt;strong&gt;GDPval-AA 1205&lt;/strong&gt; for 27B, plus detailed tradeoffs (hallucination/accuracy and token usage — 27B used &lt;strong&gt;98M output tokens&lt;/strong&gt; to run the index) (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ArtificialAnlys&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;Qwen3.5新版本&lt;/strong&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Artificial Analysis&lt;/strong&gt;总结）：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;阿里巴巴（Alibaba）&lt;/strong&gt;扩展&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Qwen3.5&lt;/strong&gt;系列，发布&lt;strong&gt;27B稠密模型&lt;/strong&gt;、&lt;strong&gt;122B A10B MoE&lt;/strong&gt;（Mixture of Experts，专家混合）和&lt;strong&gt;35B A3B MoE&lt;/strong&gt;，均采用&lt;strong&gt;Apache 2.0&lt;/strong&gt;协议，支持&lt;strong&gt;262K上下文&lt;/strong&gt;（据帖子称可通过&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;YaRN&lt;/strong&gt;扩展至1M）。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Artificial Analysis&lt;/strong&gt;报告显示&lt;strong&gt;智能指数&lt;/strong&gt;（Intelligence Index）得分：&lt;strong&gt;27B = 42&lt;/strong&gt;，&lt;strong&gt;122B A10B = 42&lt;/strong&gt;，&lt;strong&gt;35B A3B = 37&lt;/strong&gt;，其中27B在Agent/任务指标表现突出如&lt;strong&gt;GDPval-AA 1205&lt;/strong&gt;，以及详细权衡（幻觉/准确率和token使用量——27B运行该指数消耗了&lt;strong&gt;9800万输出token&lt;/strong&gt;）（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ArtificialAnlys&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;Arena leaderboards&lt;/strong&gt; (Feb 2026): &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Arena&lt;/strong&gt; posts &lt;strong&gt;Top Open Models&lt;/strong&gt; for text and code. Text top-3: &lt;strong&gt;GLM-5 (1455)&lt;/strong&gt;, &lt;strong&gt;Qwen-3.5 397B A17B (1454)&lt;/strong&gt;, &lt;strong&gt;Kimi-K2.5 Thinking (1452)&lt;/strong&gt; (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;arena&lt;/strong&gt;). Code Arena top includes &lt;strong&gt;GLM-5 (1451)&lt;/strong&gt; at #1, with &lt;strong&gt;Kimi-K2.5&lt;/strong&gt; and &lt;strong&gt;MiniMax-M2.5&lt;/strong&gt; tied at #2 (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;arena&lt;/strong&gt;). Arena also highlights &lt;strong&gt;Arena-Rank&lt;/strong&gt;, their open-source ranking package for reproducible leaderboards (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;arena&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;竞技场排行榜&lt;/strong&gt;（Arena leaderboards，2026年2月）：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Arena&lt;/strong&gt;发布文本和代码领域的&lt;strong&gt;顶级开放模型&lt;/strong&gt;。文本前三：&lt;strong&gt;GLM-5 (1455)&lt;/strong&gt;、&lt;strong&gt;Qwen-3.5 397B A17B (1454)&lt;/strong&gt;、&lt;strong&gt;Kimi-K2.5 Thinking (1452)&lt;/strong&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;arena&lt;/strong&gt;）。代码竞技场榜首包括&lt;strong&gt;GLM-5 (1451)&lt;/strong&gt;居首，&lt;strong&gt;Kimi-K2.5&lt;/strong&gt;和&lt;strong&gt;MiniMax-M2.5&lt;/strong&gt;并列第二（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;arena&lt;/strong&gt;）。Arena还重点介绍了&lt;strong&gt;Arena-Rank&lt;/strong&gt;，其用于可复现排行榜的开源排名包（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;arena&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;Perplexity open-sources bidirectional embedding models&lt;/strong&gt; (claim): A thread claims &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Perplexity&lt;/strong&gt; open-sourced &lt;strong&gt;bidirectional "Qwen3-retrained" embedding models&lt;/strong&gt; (0.6B/4B; standard vs context-aware embeddings; MIT licensed) to improve document-level understanding for retrieval; treat as a third-party summary rather than primary release notes (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;LiorOnAI&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;Perplexity开源双向嵌入模型&lt;/strong&gt;（传闻）：有帖子称&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Perplexity&lt;/strong&gt;开源了&lt;strong&gt;双向"Qwen3重训练"嵌入模型&lt;/strong&gt;（0.6B/4B；标准vs上下文感知嵌入；MIT许可证）以提升检索的文档级理解；请视为第三方总结而非官方发布说明（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;LiorOnAI&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Systems, inference, kernels, and RL training: bandwidth, ROCm, and off-policy RL&lt;/h4&gt;
-&lt;h4 style="margin:24px 0 12px;"&gt;系统、推理、内核及RL训练：带宽、ROCm及离线策略RL&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;vLLM ROCm attention backends&lt;/strong&gt; (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AMD&lt;/strong&gt;): &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;vLLM&lt;/strong&gt; announces &lt;strong&gt;7 attention backends for vLLM on ROCm&lt;/strong&gt; with KV-cache layout changes, batching tricks, and model-specific kernels; reported &lt;strong&gt;up to 4.4× decode throughput&lt;/strong&gt; on AMD GPUs with an env var switch (&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;VLLM_ROCM_USE_AITER=1&lt;/code&gt;) (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;vllm_project&lt;/strong&gt;). A follow-up details &lt;strong&gt;MLA KV compression&lt;/strong&gt; claims (e.g., &lt;strong&gt;~8K → 576 dims&lt;/strong&gt;) and throughput wins on &lt;strong&gt;MI300X&lt;/strong&gt;/&lt;strong&gt;MI325X&lt;/strong&gt;/&lt;strong&gt;MI355X&lt;/strong&gt; (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;vllm_project&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;vLLM ROCm注意力后端&lt;/strong&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AMD&lt;/strong&gt;）：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;vLLM&lt;/strong&gt;宣布支持&lt;strong&gt;ROCm平台的7种vLLM注意力后端&lt;/strong&gt;，包含KV缓存布局变更、批处理技巧及模型特定内核；据报道通过环境变量切换（&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;VLLM_ROCM_USE_AITER=1&lt;/code&gt;）可在AMD GPU上实现&lt;strong&gt;高达4.4倍解码吞吐&lt;/strong&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;vllm_project&lt;/strong&gt;）。后续详情披露了&lt;strong&gt;MLA KV压缩&lt;/strong&gt;（Multi-head Latent Attention，多头潜在注意力）宣称（例如&lt;strong&gt;约8K → 576维&lt;/strong&gt;）及在&lt;strong&gt;MI300X&lt;/strong&gt;/&lt;strong&gt;MI325X&lt;/strong&gt;/&lt;strong&gt;MI355X&lt;/strong&gt;上的吞吐优势（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;vllm_project&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;DeepSeek DualPath I/O paper&lt;/strong&gt; (third-party explainer): A &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ZhihuFrontier&lt;/strong&gt; summary describes a &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;DeepSeek&lt;/strong&gt;+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;THU&lt;/strong&gt;+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;PKU&lt;/strong&gt; paper proposing system-level redesign of &lt;strong&gt;Prefill/Decode&lt;/strong&gt; to exploit idle storage NIC bandwidth on decode nodes via &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;RDMA&lt;/strong&gt;, aiming at KV-cache movement bottlenecks for agentic long-context inference; includes claimed speedups (e.g., &lt;strong&gt;1.87×&lt;/strong&gt; on DS-660B) with caveats for smaller models (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ZhihuFrontier&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;DeepSeek DualPath I/O论文&lt;/strong&gt;（第三方解读）：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ZhihuFrontier&lt;/strong&gt;摘要描述了一篇&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;DeepSeek&lt;/strong&gt;+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;清华（THU）&lt;/strong&gt;+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;北大（PKU）&lt;/strong&gt;的论文，提出对&lt;strong&gt;预填充/解码&lt;/strong&gt;（Prefill/Decode）的系统级重构，通过&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;RDMA&lt;/strong&gt;（Remote Direct Memory Access，远程直接内存访问）利用解码节点上的空闲存储NIC带宽，旨在解决Agent长上下文推理中的KV缓存移动瓶颈；包含宣称的加速比（例如DS-660B上&lt;strong&gt;1.87倍&lt;/strong&gt;），并附注对小模型的适用性限制（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ZhihuFrontier&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;Kernel/infra chatter&lt;/strong&gt; ("quack", &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Liger&lt;/strong&gt;): A thread points to &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Dao-AILab&lt;/strong&gt;'s &lt;strong&gt;quack&lt;/strong&gt; writeup on memory hierarchy bandwidth, plus a note that &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Liger&lt;/strong&gt; not using cluster-level reductions for xentropy could explain slower performance in some settings (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;fleetwood___&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;内核/基础设施讨论&lt;/strong&gt;（"quack"、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Liger&lt;/strong&gt;）：有帖子指出&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Dao-AILab&lt;/strong&gt;关于内存层级带宽的&lt;strong&gt;quack&lt;/strong&gt;技术文章，另提到&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Liger&lt;/strong&gt;未对交叉熵（xentropy）使用集群级归约（cluster-level reductions），这或可解释某些场景下的性能下降（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;fleetwood___&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;Off-policy RL for reasoning&lt;/strong&gt; (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Databricks MosaicAI&lt;/strong&gt;): &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Databricks&lt;/strong&gt; promotes &lt;strong&gt;OAPL&lt;/strong&gt; (Optimal Advantage-based Policy Optimization with lagged inference policy) as a stable &lt;strong&gt;off-policy&lt;/strong&gt; alternative that can match/beat &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GRPO&lt;/strong&gt; while using &lt;strong&gt;~3× fewer training generations&lt;/strong&gt;, positioned as operationally simpler than strict on-policy loops (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;DbrxMosaicAI&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;jefrankle&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;用于推理的离线策略RL&lt;/strong&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Databricks MosaicAI&lt;/strong&gt;）：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Databricks&lt;/strong&gt;推广&lt;strong&gt;OAPL&lt;/strong&gt;（Optimal Advantage-based Policy Optimization with lagged inference policy，基于最优优势的策略优化与滞后推理策略）作为一种稳定的&lt;strong&gt;离线策略&lt;/strong&gt;（off-policy）替代方案，可在使用&lt;strong&gt;约3倍更少训练轮次&lt;/strong&gt;的情况下达到或超越&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GRPO&lt;/strong&gt;（Group Relative Policy Optimization，组相对策略优化），定位为操作上比严格的在线策略循环更简洁（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;DbrxMosaicAI&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;jefrankle&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;ERL vs RLVR&lt;/strong&gt; (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Turing Post&lt;/strong&gt; explainer): A long "workflow breakdown" contrasts standard &lt;strong&gt;RLVR&lt;/strong&gt; (scalar verifiable rewards) with &lt;strong&gt;Experiential Reinforcement Learning (ERL)&lt;/strong&gt; inserting within-episode reflection/retry + distillation; cites reported gains (e.g., &lt;strong&gt;+81% Sokoban&lt;/strong&gt;) and tradeoffs (pipeline complexity/compute) (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;TheTuringPost&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;ERL vs RLVR&lt;/strong&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Turing Post&lt;/strong&gt;解读）：一篇详尽的"工作流拆解"对比了标准&lt;strong&gt;RLVR&lt;/strong&gt;（Reinforcement Learning with Verifiable Rewards，可验证奖励强化学习，标量可验证奖励）与&lt;strong&gt;ERL&lt;/strong&gt;（Experiential Reinforcement Learning，经验强化学习，插入片段内反思/重试+蒸馏）；引用报告的增益（例如&lt;strong&gt;推箱子游戏+81%&lt;/strong&gt;）及权衡（流水线复杂度/计算量）（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;TheTuringPost&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong&gt;Mamba-2 / GDN initialization bug discussion&lt;/strong&gt;: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Albert Gu&lt;/strong&gt; clarifies a viral plot debate: main takeaway is an &lt;strong&gt;init bug&lt;/strong&gt; materially affecting some results; also notes nuanced interactions in hybrids (e.g., "stronger" components can make others "lazy," with a related reference) (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;_albertgu&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;_albertgu&lt;/strong&gt;).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong&gt;Mamba-2 / GDN初始化错误讨论&lt;/strong&gt;：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Albert Gu&lt;/strong&gt;澄清了一场病毒式传播的图表争议：主要结论是&lt;strong&gt;初始化错误&lt;/strong&gt;（init bug）确实影响了部分结果；还指出混合架构中的微妙交互（例如，"更强"的组件可能使其他组件"懒惰"，并附相关参考文献）（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;_albertgu&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;_albertgu&lt;/strong&gt;）。
-&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Top tweets (by engagement, technical / industry-relevant)&lt;/h4&gt;
-&lt;h4 style="margin:24px 0 12px;"&gt;热门推文（按互动量排序，技术/行业相关）&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI raises $110B (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;sama&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;)&lt;/li&gt;
-&lt;li&gt;Sakana AI Doc-to-LoRA / Text-to-LoRA (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SakanaAILabs&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;hardmaru&lt;/strong&gt;)&lt;/li&gt;
-&lt;li&gt;Anthropic–DoD supply-chain designation critique / governance precedent (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;deanwball&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;quantian1&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;janleike&lt;/strong&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Karpathy&lt;/strong&gt; on coding workflow evolution (tab → agents → parallelism) (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;karpathy&lt;/strong&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Karpathy&lt;/strong&gt; on "programming a research org" with multi-agent workflows; limitations observed (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;karpathy&lt;/strong&gt;)&lt;/li&gt;
-&lt;li&gt;Anthropic official statement (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AnthropicAI&lt;/strong&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI融资1100亿美元（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;sama&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;）&lt;/li&gt;
-&lt;li&gt;Sakana AI Doc-to-LoRA / Text-to-LoRA（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SakanaAILabs&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;hardmaru&lt;/strong&gt;）&lt;/li&gt;
-&lt;li&gt;Anthropic-DoD供应链认定批评/治理先例（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;deanwball&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;quantian1&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;janleike&lt;/strong&gt;）&lt;/li&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Karpathy&lt;/strong&gt;谈编码工作流演进（标签页 → 智能体 → 并行化）（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;karpathy&lt;/strong&gt;）&lt;/li&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Karpathy&lt;/strong&gt;谈用多智能体工作流"编程研究机构"；观察到的局限性（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;karpathy&lt;/strong&gt;）&lt;/li&gt;
-&lt;li&gt;Anthropic官方声明（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AnthropicAI&lt;/strong&gt;）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;h3 style="margin:24px 0 12px;"&gt;AI Reddit Recap&lt;/h3&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;AI Reddit 回顾&lt;/h3&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;/r/LocalLlama + /r/localLLM Recap&lt;/h4&gt;
-&lt;h4 style="margin:24px 0 12px;"&gt;/r/LocalLlama + /r/localLLM 回顾&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Read more
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-阅读更多
-&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.latent.space/p/ainews-openai-closes-110b-raise-from"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.latent.space/p/ainews-openai-closes-110b-raise-from</guid>
-      <pubDate>Sat, 28 Feb 2026 05:01:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Construction Physics: 每周阅读清单 02/28/26</title>
-      <link>https://www.construction-physics.com/p/reading-list-022826</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #住房 #房地产 #建筑许可 #城市规划&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本期阅读清单聚焦住房与制造业两大领域：研究显示洛杉矶的住房许可成本使开发商多支付50%溢价，且高端住房通过&amp;quot;过滤效应&amp;quot;可缓解整体供应紧张；同时，日本电视制造业正全面退出市场，而中国制造业的崛起对德国工业构成&amp;quot;二次冲击&amp;quot;，加之美国大型建厂项目仍面临环保诉讼等NIMBY阻力。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Reading List 02/28/26&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Reading List 02/28/26&lt;/h3&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!joGp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f66c569-7ddd-4bf9-8d21-3056b0a4422f_1010x1221.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Welcome to the reading list, a weekly roundup of what happened in infrastructure, buildings, and building things. Roughly 2/3rds of the reading list is paywalled, so for full access become a paid subscriber.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;欢迎阅读本清单，这是关于&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;基础设施&lt;/strong&gt;、建筑和建造行业的每周综述。约三分之二的内容设有付费墙，如需完整访问，请成为付费订阅者。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;No newsletter this week, but I'm working on a longer essay about the history of Operation Breakthrough (a greatly expanded and more thorough version of an older essay) that will be out next week.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;本周没有通讯，但我正在撰写一篇关于"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;突破行动&lt;/strong&gt;"（Operation Breakthrough）历史的更长文章（这是一篇旧文的大幅扩展和更详尽版本），将于下周发布。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Housing&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;It's obvious that getting housing projects permitted in the US is often quite difficult, but it's not always obvious how difficult. Previous research by economist &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Ed Glaeser&lt;/strong&gt; has tried to quantify this by estimating the "hedonic" value of land (how much people would pay for a given amount of land space), which gives an implied value for how much the "permit" portion is worth. Now Economists &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan Soltas&lt;/strong&gt; and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jonathan Gruber&lt;/strong&gt; have a paper out looking at how much of a burden permitting is in the city of Los Angeles in dollar terms. From the abstract: "Permitting costs are widely cited, but little analyzed, as a key burden on housing development in leading U.S. cities. We measure them using an implicit market for "ready-to-issue" permits in Los Angeles, where landowners can prepay permitting costs and sell preapproved land to developers at a premium. Using a repeat-listing difference-in-differences estimator, we find developers pay 50 percent more ($48 per square foot) for preapproved land. Comparing similar proposed developments, preapproval raises the probability of completing construction within four years of site acquisition by 10 percentage points (30 percent). Permitting can explain one third of the gap in Los Angeles between home prices and construction costs." Would love to see more research like this for other metro areas [X]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;显然，在美国获得住房项目&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;许可审批&lt;/strong&gt;（permitting）往往相当困难，但究竟有多困难并不总是显而易见。经济学家&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Ed Glaeser&lt;/strong&gt;此前的研究试图通过估算土地的"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;享乐价值&lt;/strong&gt;"（hedonic value，即人们愿意为特定土地面积支付的价格）来量化这一问题，从而得出"许可"部分的隐含价值。现在，经济学家&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan Soltas&lt;/strong&gt;和&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jonathan Gruber&lt;/strong&gt;发表了一篇论文，研究在洛杉矶市许可审批的负担究竟有多少美元。摘要中写道："许可成本被广泛引用，但很少被分析，作为美国主要城市住房开发的关键负担。我们利用洛杉矶'待发放'许可的隐性市场来衡量这些成本，在那里土地所有者可以预付许可费用，并以溢价将预批准的土地出售给开发商。使用重复挂牌的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;双重差分&lt;/strong&gt;（difference-in-differences）估计量，我们发现开发商为预批准土地多支付50%（每平方英尺48美元）。比较类似的拟议开发项目，预批准将使在购地后四年内完成建设的概率提高10个百分点（30%）。许可可以解释洛杉矶房价与建筑成本之间差距的三分之一。"希望看到更多针对其他大都市区的此类研究 [X]&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Restricting &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;institutional investors&lt;/strong&gt; from owning single family homes continues to be a major political talking point, but I remain unconvinced that this has much impact on home prices. More evidence for this: A 2022 ban on investors from buying homes to rent in the Netherlands didn't affect home prices [SSRN]. And there doesn't seem to be much relationship between institutional ownership and home price appreciation at the city level. [Progressive Policy]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;限制&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;机构投资者&lt;/strong&gt;（institutional investors）拥有单户住宅仍然是一个主要的政治话题，但我仍然不相信这对房价有太大影响。更多证据：2022年荷兰禁止投资者购买房屋用于出租的禁令并未影响房价 [SSRN]。而且在城市层面，机构所有权与房价增值之间似乎没有太大关系。[Progressive Policy]&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!PdTJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62541653-e09c-44c3-9145-43ec0bb72a38_753x599.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;The Atlantic&lt;/strong&gt; has a good article about how high-end housing can increase housing supply across income levels. When people move into a new, expensive unit, many of them will move from lower-cost units, which in turn will be occupied by people moving from even lower cost units, and so on.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;《大西洋月刊》（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;The Atlantic&lt;/strong&gt;）有一篇好文章，讲述高端住房如何能在各个收入水平上增加住房供应。当人们搬进新的昂贵单元时，他们中的许多人会从较低成本的单元搬出，而这些单元又会被从更低成本单元搬来的人占据，依此类推。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;...three researchers looked in extraordinary detail at the effects of a new 43-story condo project in Honolulu. The building, called the Central, sits right behind the giant Ala Moana shopping center, halfway between downtown and the beachfront hotels of Waikiki. It comprises both subsidized and market-rate units, priced at around $780,000 for the former, and $1.25 million for the latter. What the researchers found was that the new housing freed up older, cheaper apartments, which, in turn, became occupied by people leaving behind still-cheaper homes elsewhere in the city, and so on. A new rung higher up the housing ladder permitted people lower down to climb. The paper estimates the tower's 512 units created at least 557 vacancies across the city—with some units opening up no empty apartments (if, say, an adult child moved to the Central from their parents' home) and others creating as many as four vacancies around town.&lt;/blockquote&gt; [The Atlantic]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;...三位研究人员极其详细地研究了檀香山一个新的43层公寓项目的影响。这座名为"中央"（the Central）的建筑位于巨大的阿拉莫阿纳购物中心（Ala Moana shopping center）正后方，地处市中心和威基基海滩酒店之间的中点。它包含&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;补贴单元&lt;/strong&gt;（subsidized units）和市场价单元，前者售价约78万美元，后者125万美元。研究人员发现，新住房释放了更旧、更便宜的公寓，而这些公寓又被城市中其他地方离开更便宜住房的人占据，依此类推。住房阶梯上更高的新一级让下方的人得以攀爬。该论文估计，这座塔的512个单元在整个城市创造了至少557个空置房源——有些单元没有产生空公寓（例如，如果成年子女从父母家搬到中央大厦），而有些则在全城创造了多达四个空缺。&lt;/blockquote&gt; [The Atlantic]&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;When population peaked in various US counties. [X]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;美国各县人口何时达到峰值。[X]&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!5KDc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb9bff336-bb25-4744-8cd3-b73a39b7dea4_1600x1188.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;How home prices have changed in several countries over the last several years. Why are prices up so much in Mexico? [X]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;过去几年几个国家的房价如何变化。为什么墨西哥的房价上涨这么多？[X]&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!ecvA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a202ffd-b2f0-487f-b8a4-f78e22f83d5b_1600x902.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;IFP&lt;/strong&gt; colleague &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Connor O'Brien&lt;/strong&gt; noted that statistics about the skyrocketing age of homebuyers in the US is based on a mailed survey by the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;National Association of Realtors&lt;/strong&gt; that is far higher than other estimates. [X]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;IFP&lt;/strong&gt;同事&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Connor O'Brien&lt;/strong&gt;指出，关于美国购房者年龄飙升的统计数据是基于&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;美国房地产经纪人协会&lt;/strong&gt;（National Association of Realtors）的一项邮寄调查，该数据远高于其他估计。[X]&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!9Foy!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5107d1c2-52b5-4039-9491-48b22ae636c5_1240x928.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Manufacturing&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;It really seems to be the end of an era for Japanese TV manufacturing. A few weeks ago &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sony&lt;/strong&gt; spun off its TV business into a joint venture with China. Now &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Panasonic&lt;/strong&gt; is exiting the TV business as well. "Today, it announced that Chinese company &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Skyworth&lt;/strong&gt; will take over manufacturing, marketing, and selling Panasonic-branded TVs." [Arstechnica]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;日本电视制造业似乎真的到了一个时代的终结。几周前，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;索尼&lt;/strong&gt;（Sony）将其电视业务分拆为与中国的合资企业。现在&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;松下&lt;/strong&gt;（Panasonic）也将退出电视业务。"今天，该公司宣布中国公司&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;创维&lt;/strong&gt;（Skyworth）将接管松下品牌电视的制造、营销和销售。" [Arstechnica]&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;From the annals of "environmental laws give &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;NIMBYs&lt;/strong&gt; the tools to endlessly delay projects." Construction of a $100 billion &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Micron&lt;/strong&gt; memory fab in New York is being held up by a lawsuit from six local residents who oppose the project. They're arguing that the environmental impact study (which took nearly two years to complete) was "unnecessarily rushed." [X]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;来自"环境法赋予&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;邻避主义者&lt;/strong&gt;（NIMBYs，Not In My Backyard）无休止拖延项目的工具"的编年史。纽约一座价值1000亿美元的&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;美光&lt;/strong&gt;（Micron）存储芯片&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;晶圆厂&lt;/strong&gt;（memory fab）的建设正被六名反对该项目的当地居民提起的诉讼所耽搁。他们辩称，环境影响研究（耗时近两年完成）"过于仓促地推进"了。[X]&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Expanding US &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;electricity generation capacity&lt;/strong&gt; has been bottlenecked by gas turbine suppliers, but it looks like the major manufacturers are significantly expanding their capacity. ""We expect at least 19 GW of total available equipment capacity by 2028, increasing to 49 [GW] and 76 GW by 2029 and 2030," &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jefferies&lt;/strong&gt; said." [Utility Dive]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;美国&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;发电能力&lt;/strong&gt;（electricity generation capacity）的扩张一直受到燃气轮机供应商的瓶颈制约，但看起来主要制造商正在大幅扩大产能。"我们预计，到2028年总可用设备产能至少将达到19&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;吉瓦&lt;/strong&gt;（GW），到2029年和2030年将分别增至49吉瓦和76吉瓦，"&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;杰富瑞&lt;/strong&gt;（Jefferies）表示。[Utility Dive]&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;The Economist&lt;/strong&gt; on the Chinese threat to German manufacturing. "What many Germans call the "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;China shock 2.0&lt;/strong&gt;" plays into fears that the country's industrial heart is being hollowed out. In &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Baden-Württemberg&lt;/strong&gt;, a rich state that holds an election on March 8th, candidates are issuing dire prophecies about becoming the "Detroit of Europe"." [The Economist]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;《经济学人》（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;The Economist&lt;/strong&gt;）关于中国对德国制造业威胁的报道。"许多德国人所说的'&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;中国冲击2.0&lt;/strong&gt;'（China shock 2.0）加剧了人们对该国工业核心被掏空的担忧。在&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;巴登-符腾堡州&lt;/strong&gt;（Baden-Württemberg），这个将于3月8日举行选举的富裕州，候选人们正在发出关于成为'欧洲底特律'的可怕预言。"[The Economist]&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;My biggest takeaways from this conversation:&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;本次对话我的最大收获：&lt;/h3&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Read more&lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;阅读更多&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.construction-physics.com/p/reading-list-022826"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.construction-physics.com/p/reading-list-022826</guid>
-      <pubDate>Sat, 28 Feb 2026 13:54:39 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/the-design-process-is-dead"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/the-design-process-is-dead</guid>
+      <pubDate>Sun, 01 Mar 2026 13:31:18 +0000</pubDate>
     </item>
     <item>
-      <title>[翻译] Lenny's Newsletter: 社区智慧：从零构建技术栈、熬过痛苦演示、管理LLM成本及更多</title>
-      <link>https://www.lennysnewsletter.com/p/community-wisdom-building-your-tech</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #社区智慧 #技术栈 #LLM #产品演示&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本期《Community Wisdom》通讯精选了会员社区中最有价值的讨论，涵盖从零构建技术栈、应对棘手产品演示、管理LLM成本以及新手设计师资源等实用话题。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: 🧠 Community Wisdom: Building your tech stack from scratch, surviving painful product demos, managing LLM credit costs, resources for new designers, and more&lt;/p&gt;
+      <title>[翻译] Antirez: Redis 编程模式</title>
+      <link>http://antirez.com/news/161</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Redis #编程 #设计模式 #数据库&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 这是一份面向LLM与开发者的Redis编程模式综合文档，详尽整理了命令用法、数据类型、配置技巧及可落地的算法实现，为实际编码提供实用参考。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Redis patterns for coding&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;🧠 Community Wisdom: Building your tech stack from scratch, surviving painful product demos, managing LLM credit costs, resources for new designers, and more&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;🧠 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Community Wisdom&lt;/strong&gt;（社区智慧）：从零构建&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;技术栈&lt;/strong&gt;（tech stack）、熬过痛苦的产品演示、管理 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM&lt;/strong&gt; 积分成本、新手设计师资源等&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Redis patterns for coding&lt;/h3&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;👋 Hello and welcome to this week’s edition of ✨&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Community Wisdom&lt;/strong&gt;✨ a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;subscriber-only&lt;/strong&gt; email, delivered every Saturday, highlighting the most helpful conversations inour &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt; community.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;👋 你好，欢迎阅读本周的✨Community Wisdom✨——这是一封仅对&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;订阅者&lt;/strong&gt;（subscriber-only）开放的邮件，每周六发送，重点介绍我们仅限会员的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt; 社区中最有帮助的对话。&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Here &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;coding agents&lt;/strong&gt; can find:
+&lt;ol style="margin:8px 0;padding-left:24px;"&gt;
+&lt;li&gt;Exhaustive documentation about &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Redis&lt;/strong&gt; commands and data types.&lt;/li&gt;
+&lt;li&gt;Patterns commonly used.&lt;/li&gt;
+&lt;li&gt;Configuration hints.&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Algorithms&lt;/strong&gt; that can be mounted using Redis commands.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;a href="https://redis.antirez.com/" style="color:#2471a3;text-decoration:none;"&gt;https://redis.antirez.com/&lt;/a&gt; Some humans claim this documentation is actually useful for actual people, as well :) I'm posting this to make sure &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;search engines&lt;/strong&gt; will index it.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+在这里，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM&lt;/strong&gt;（大语言模型）和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;coding agents&lt;/strong&gt;（编码代理）可以找到：&lt;ol style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;关于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Redis&lt;/strong&gt; 命令（commands）和数据类型（data types）的详尽文档；&lt;/li&gt;&lt;li&gt;常用的模式（Patterns）；&lt;/li&gt;&lt;li&gt;配置（Configuration）提示；&lt;/li&gt;&lt;li&gt;可以使用 Redis 命令实现的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;算法&lt;/strong&gt;（Algorithms）。&lt;/li&gt;&lt;/ol&gt;&lt;a href="https://redis.antirez.com/" style="color:#2471a3;"&gt;https://redis.antirez.com/&lt;/a&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;antirez&lt;/strong&gt; 为 Redis 作者 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Salvatore Sanfilippo&lt;/strong&gt; 的网名）一些人类声称这份文档对真实的人类实际上也很有用 :) 我发布这个是为了确保&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;搜索引擎&lt;/strong&gt;（search engines）能够索引它。
+&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/community-wisdom-building-your-tech"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/community-wisdom-building-your-tech</guid>
-      <pubDate>Sat, 28 Feb 2026 17:16:48 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="http://antirez.com/news/161"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">http://antirez.com/news/161</guid>
+      <pubDate>Sun, 01 Mar 2026 09:55:09 +0000</pubDate>
     </item>
     <item>
-      <title>[翻译] Simon Willison: 恳请停止使用通行密钥加密用户数据</title>
-      <link>https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #通行密钥 #数据加密 #身份验证&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 由于用户经常丢失通行密钥且可能导致加密数据永久无法恢复，专家强烈呼吁行业停止用其加密用户数据，仅将其作为防钓鱼的身份验证凭证使用。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Please, please, please stop using passkeys for encrypting user data&lt;/p&gt;
+      <title>[翻译] Simon Willison: 交互式解释</title>
+      <link>https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI编程 #交互解释 #认知债务&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 针对AI代理编程带来的&amp;quot;认知债务&amp;quot;问题，本文提出通过构建交互式解释（如动画演示）来深入理解代码逻辑，并以词云生成的阿基米德螺旋布局算法为例，展示了动画如何直观呈现代码的实际运行机制。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Interactive explanations&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Please, please, please stop using passkeys for encrypting user data&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Interactive explanations&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;交互式解释&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;27th February 2026 - Link Blog&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;2026年2月27日 - 链接博客&lt;/p&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+Agentic Engineering Patterns
+&lt;/blockquote&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+智能体工程模式
+&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Please, please, please stop using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;passkeys&lt;/strong&gt; for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;encrypting&lt;/strong&gt; user data(via) Because users lose their passkeysall the time, and may not understand that their data has been &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;irreversibly&lt;/strong&gt; encrypted using them and can no longer be recovered.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;恳请诸位停止使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;passkeys&lt;/strong&gt;（通行密钥）来 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;encrypting&lt;/strong&gt;（加密）用户数据（via）。因为用户经常会丢失他们的通行密钥，而且可能并未意识到其数据已使用这些密钥被 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;irreversibly&lt;/strong&gt;（不可逆地）加密，再也无法恢复。&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+When we lose track of how code written by our agents works we take on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;cognitive debt&lt;/strong&gt;.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+当我们无法追踪由智能体（agents）编写的代码如何运作时，我们就承担了&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;认知债务（cognitive debt）&lt;/strong&gt;。
+&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Tim Cappalli&lt;/strong&gt;:&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Tim Cappalli&lt;/strong&gt;（蒂姆·卡帕利）：&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+For a lot of things this doesn't matter: if the code fetches some data from a database and outputs it as JSON the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;implementation details&lt;/strong&gt; are likely simple enough that we don't need to care. We can try out the new feature and make a very solid guess at how it works, then glance over the code to be sure.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+对于很多事情来说，这并不重要：如果代码只是从数据库获取一些数据并将其输出为JSON，那么&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;实现细节（implementation details）&lt;/strong&gt;可能简单到我们无需关心。我们可以试用新功能，对其工作原理做出相当可靠的猜测，然后快速浏览代码确认即可。
+&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;To the wider identity industry: please stop promoting and using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;passkeys&lt;/strong&gt; to encrypt user data. I'm begging you. Let them be great, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;phishing-resistant&lt;/strong&gt; authentication credentials.&lt;/blockquote&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;致整个身份认证行业：请停止推广和使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;passkeys&lt;/strong&gt;（通行密钥）来加密用户数据。我恳求你们。让通行密钥成为优秀的、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;phishing-resistant&lt;/strong&gt;（防钓鱼的）&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;authentication credentials&lt;/strong&gt;（认证凭证）吧。&lt;/blockquote&gt;&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Often though the details really do matter. If the core of our application becomes a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;black box&lt;/strong&gt; that we don't fully understand we can no longer confidently reason about it, which makes planning new features harder and eventually slows our progress in the same way that accumulated technical debt does.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+然而，通常情况下细节确实很重要。如果应用的核心变成了一个我们未能完全理解的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;黑盒（black box）&lt;/strong&gt;，我们就再也无法自信地对其进行推理，这使得规划新功能变得更加困难，并最终像累积的技术债务一样拖慢我们的进度。
+&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;To the wider identity industry: please stop promoting and using passkeys to encrypt user data. I'm begging you. Let them be great, phishing-resistant authentication credentials.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;致整个身份认证行业：请停止推广和使用通行密钥来加密用户数据。我恳求你们。让通行密钥成为优秀的、防钓鱼的认证凭证吧。&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+How do we pay down cognitive debt? By improving our understanding of how the code works.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我们如何偿还cognitive debt（认知债务）？通过增进对代码运作方式的理解。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+One of my favorite ways to do that is by building &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;interactive explanations&lt;/strong&gt;.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我最喜欢的方式之一，就是构建&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;交互式解释（interactive explanations）&lt;/strong&gt;。
+&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;Understanding word clouds&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;理解词云&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+In &lt;em&gt;An AI agent coding skeptic tries AI agent coding, in excessive detail&lt;/em&gt; &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Max Woolf&lt;/strong&gt; mentioned testing &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt;' Rust abilities with the prompt &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;Create a Rust app that can create "word cloud" data visualizations given a long input text.&lt;/code&gt;
+
+This captured my imagination: I've always wanted to know how word clouds work, so I fired off an &lt;em&gt;asynchronous research project&lt;/em&gt;—initial prompt here, code and report here— to explore the idea.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+在《An AI agent coding skeptic tries AI agent coding, in excessive detail》一文中，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Max Woolf&lt;/strong&gt;提到使用提示词&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;Create a Rust app that can create "word cloud" data visualizations given a long input text.&lt;/code&gt;来测试&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs（大语言模型）&lt;/strong&gt;的Rust能力。&lt;br/&gt;&lt;br/&gt;
+这激发了我的想象力：我一直想知道词云是如何工作的，于是我启动了一个&lt;em&gt;异步研究项目（asynchronous research project）&lt;/em&gt;——初始提示词在此，代码和报告在此——来探索这个想法。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+This worked really well: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; for web built me a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Rust CLI tool&lt;/strong&gt; that could produce images like this one:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+这效果非常好：网页版的&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt;为我构建了一个&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Rust CLI工具（Rust CLI tool）&lt;/strong&gt;，可以生成如下图像：
+&lt;/p&gt;
+
+&lt;img src="https://raw.githubusercontent.com/simonw/research/refs/heads/main/rust-wordcloud/wordcloud.png" alt="A word cloud, many words, different colors and sizes, larger words in the middle." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;img src="https://raw.githubusercontent.com/simonw/research/refs/heads/main/rust-wordcloud/wordcloud.png" alt="A word cloud, many words, different colors and sizes, larger words in the middle." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+But how does it actually work?
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+但它实际上是如何工作的？
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Claude's report said it uses "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Archimedean spiral placement&lt;/strong&gt; with per-word random angular offset for natural-looking layouts". This did not help me much!
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+Claude的报告中称它使用了"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;阿基米德螺旋放置（Archimedean spiral placement）&lt;/strong&gt;，并为每个单词添加随机角度偏移以生成自然外观的布局"。这对我帮助不大！
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+I requested a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;linear walkthrough&lt;/strong&gt; of the codebase which helped me understand the Rust code in more detail - here's &lt;a href="#" style="color:#9a9ea6;text-decoration:underline;"&gt;that walkthrough&lt;/a&gt; (and &lt;a href="#" style="color:#9a9ea6;text-decoration:underline;"&gt;the prompt&lt;/a&gt;). This helped me understand the structure of the Rust code but I still didn't have an intuitive understanding of how that "Archimedean spiral placement" part actually worked.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我请求了一份&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;线性代码走读（linear walkthrough）&lt;/strong&gt;来帮助我更详细地理解这段Rust代码——这就是&lt;a href="#" style="color:#2c2c2e;text-decoration:underline;"&gt;那份走读文档&lt;/a&gt;（以及&lt;a href="#" style="color:#2c2c2e;text-decoration:underline;"&gt;提示词&lt;/a&gt;）。这帮助我理解了Rust代码的结构，但我对"阿基米德螺旋放置"这部分的实际运作方式仍然没有直观理解。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+So I asked for an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;animated explanation&lt;/strong&gt;.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+于是我请求了一个&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;动画解释（animated explanation）&lt;/strong&gt;。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+I did this by pasting a link to that existing &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;walkthrough.md&lt;/code&gt; document into a &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; session along with the following:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我通过将现有的&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;walkthrough.md&lt;/code&gt;文档链接粘贴到&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt;会话中，并附上了以下内容：
+&lt;/p&gt;
+
+&lt;img src="https://static.simonwillison.net/static/2026/animated-word-cloud-demo.gif" alt="Words appear on the word cloud one at a time, with little boxes showing where the algorithm is attempting to place them - if those boxes overlap an existing word it tries again." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/animated-word-cloud-demo.gif" alt="Words appear on the word cloud one at a time, with little boxes showing where the algorithm is attempting to place them - if those boxes overlap an existing word it tries again." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+This was using &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Opus 4.6&lt;/strong&gt;, which turns out to have quite good taste when it comes to building explanatory animations.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+这是使用&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Opus 4.6&lt;/strong&gt;完成的，事实证明它在构建解释性动画方面具有很好的品味。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+If you watch the animation closely you can see that for each word it attempts to place it somewhere on the page by showing a box, run checks if that box intersects an existing word. If so it continues to try to find a good spot, moving outward in a spiral from the center.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+如果你仔细观察这个动画，你会发现对于每个单词，它都会尝试通过在页面上显示一个方框来放置该单词，并检查该方框是否与现有单词相交。如果是，它就会继续尝试寻找合适的位置，从中心向外以螺旋方式移动。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+I found that this animation really helped make the way the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;algorithm&lt;/strong&gt; worked click for me.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我发现这个动画确实帮助我对&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;算法（algorithm）&lt;/strong&gt;的工作原理有了直观的理解（click）。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+I have long been a fan of animations and interactive interfaces to help explain different concepts. A good &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;coding agent&lt;/strong&gt; can produce these on demand to help explain code - its own code or code written by others.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我一直以来都是动画和交互界面的爱好者，它们有助于解释不同的概念。一个优秀的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;编码智能体（coding agent）&lt;/strong&gt;可以按需生成这些材料，帮助解释代码——无论是它自己编写的代码还是他人编写的代码。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Tags: &lt;em&gt;explorables&lt;/em&gt;, &lt;em&gt;llms&lt;/em&gt;, &lt;em&gt;cognitive-debt&lt;/em&gt;, &lt;em&gt;ai&lt;/em&gt;, &lt;em&gt;generative-ai&lt;/em&gt;, &lt;em&gt;ai-assisted-programming&lt;/em&gt;, &lt;em&gt;coding-agents&lt;/em&gt;, &lt;em&gt;agentic-engineering&lt;/em&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+标签：&lt;em&gt;explorables&lt;/em&gt;（可探索内容）、&lt;em&gt;llms&lt;/em&gt;（大语言模型）、&lt;em&gt;cognitive-debt&lt;/em&gt;（认知债务）、&lt;em&gt;ai&lt;/em&gt;（人工智能）、&lt;em&gt;generative-ai&lt;/em&gt;（生成式AI）、&lt;em&gt;ai-assisted-programming&lt;/em&gt;（AI辅助编程）、&lt;em&gt;coding-agents&lt;/em&gt;（编码智能体）、&lt;em&gt;agentic-engineering&lt;/em&gt;（智能体工程）
+&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything</guid>
-      <pubDate>Fri, 27 Feb 2026 22:49:32 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything</guid>
+      <pubDate>Sat, 28 Feb 2026 23:09:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: Claude记忆导入功能的本质是一条提示词</title>
+      <link>https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #提示词 #AI记忆 #数据导出&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本文分享了一个用于完整提取Claude存储的个人数据的详细提示词，要求AI以代码块格式逐条列出用户的记忆、偏好、个人信息及对话上下文；这实际上是Anthropic官方&amp;quot;将记忆导入Claude&amp;quot;功能所使用的提示词模板。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Quoting claude.com/import-memory&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Quoting claude.com/import-memory&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;引用 claude.com/import-memory&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+I'm moving to another service and need to export my data. List every &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;memory&lt;/strong&gt; you have stored about me, as well as any context you've learned about me from past conversations. Output everything in a single &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;code block&lt;/strong&gt; so I can easily copy it. Format each entry as: [date saved, if available] - memory content. Make sure to cover all of the following — preserve my words verbatim where possible:
+&lt;ul&gt;
+&lt;li&gt;Instructions I've given you about how to respond (tone, format, style, 'always do X', 'never do Y').&lt;/li&gt;
+&lt;li&gt;Personal details: name, location, job, family, interests.&lt;/li&gt;
+&lt;li&gt;Projects, goals, and recurring topics.&lt;/li&gt;
+&lt;li&gt;Tools, languages, and frameworks I use.&lt;/li&gt;
+&lt;li&gt;Preferences and corrections I've made to your behavior.&lt;/li&gt;
+&lt;li&gt;Any other stored context not covered above.&lt;/li&gt;
+&lt;/ul&gt;
+Do not summarize, group, or omit any entries. After the code block, confirm whether that is the complete set or if any remain.
+&lt;/blockquote&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我要迁移到另一个服务，需要导出我的数据。请列出你存储的关于我的每一条 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;memory（记忆）&lt;/strong&gt;，以及你从过往对话中了解到的关于我的任何上下文。将所有内容输出在单个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;code block（代码块）&lt;/strong&gt; 中，以便我轻松复制。每条记录的格式为：[保存日期，如有] - 记忆内容。确保涵盖以下所有方面——尽可能逐字保留我的原话：
+&lt;ul&gt;
+&lt;li&gt;我给你的关于如何回应的指令（语气、格式、风格、"总是做X"、"绝不做Y"）。&lt;/li&gt;
+&lt;li&gt;个人细节：姓名、地点、工作、家庭、兴趣。&lt;/li&gt;
+&lt;li&gt;项目、目标和反复出现的话题。&lt;/li&gt;
+&lt;li&gt;我使用的工具、语言和框架。&lt;/li&gt;
+&lt;li&gt;我对你行为提出的偏好和纠正。&lt;/li&gt;
+&lt;li&gt;以上未涵盖的任何其他存储的上下文。&lt;/li&gt;
+&lt;/ul&gt;
+不要总结、分组或省略任何条目。在代码块之后，请确认这是否是完整集合，或者是否还有剩余。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+I'm moving to another service and need to export my data. List every memory you have stored about me, as well as any context you've learned about me from past conversations. Output everything in a single code block so I can easily copy it. Format each entry as: [date saved, if available] - memory content. Make sure to cover all of the following — preserve my words verbatim where possible: Instructions I've given you about how to respond (tone, format, style, 'always do X', 'never do Y'). Personal details: name, location, job, family, interests. Projects, goals, and recurring topics. Tools, languages, and frameworks I use. Preferences and corrections I've made to your behavior. Any other stored context not covered above. Do not summarize, group, or omit any entries. After the code block, confirm whether that is the complete set or if any remain.
+&lt;br/&gt;&lt;br/&gt;
+—&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;claude.com/import-memory&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;'s "import your memories to &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt;" feature is a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我要迁移到另一个服务，需要导出我的数据。请列出你存储的关于我的每一条记忆，以及你从过往对话中了解到的关于我的任何上下文。将所有内容输出在单个代码块中，以便我轻松复制。每条记录的格式为：[保存日期，如有] - 记忆内容。确保涵盖以下所有方面——尽可能逐字保留我的原话：我给你的关于如何回应的指令（语气、格式、风格、"总是做X"、"绝不做Y"）。个人细节：姓名、地点、工作、家庭、兴趣。项目、目标和反复出现的话题。我使用的工具、语言和框架。我对你行为提出的偏好和纠正。以上未涵盖的任何其他存储的上下文。不要总结、分组或省略任何条目。在代码块之后，请确认这是否是完整集合，或者是否还有剩余。
+&lt;br/&gt;&lt;br/&gt;
+——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;claude.com/import-memory&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 的"将记忆导入 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt;"功能是一个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt（提示词）&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Tags: &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;prompt-engineering&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;llm-memory&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;anthropic&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;claude&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;generative-ai&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ai&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;llms&lt;/code&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+标签：&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;prompt-engineering（提示工程）&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;llm-memory（LLM记忆）&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;anthropic&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;claude&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;generative-ai（生成式AI）&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ai&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;llms（大语言模型）&lt;/code&gt;
+&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything</guid>
+      <pubDate>Sun, 01 Mar 2026 11:21:45 +0000</pubDate>
     </item>
   </channel>
 </rss>
