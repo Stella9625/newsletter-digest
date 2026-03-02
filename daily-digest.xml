@@ -7,31 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 01 Mar 2026 22:41:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 23:09:49 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-01</title>
-      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-02</title>
+      <description>&lt;h3&gt;LLM &amp;amp; AI 工具&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Quoting claude.com/import-memory&lt;/strong&gt; | Simon Willison&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GIF optimization tool using WebAssembly and Gifsicle&lt;/strong&gt;（Simon Willison）：借助 Claude Code 将 C 语言编写的 Gifsicle 编译为 WebAssembly，构建纯浏览器端 GIF 优化工具，支持可视化预览与手动调整压缩参数。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;February sponsors-only newsletter&lt;/strong&gt;（Simon Willison）：展示 Claude Opus 4.6 在校对时精准指出作者关于鸮鹦鹉繁殖触发条件（rimu 树大规模结果事件）表述不够严谨的事实纠错能力，体现大模型在专业领域的事实核查潜力。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;披露 Anthropic 官方「记忆导入」功能的提示词模板，可完整提取 Claude 存储的用户记忆、偏好及对话上下文，以代码块格式逐条呈现。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AI 编程与工具&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;工程与系统设计&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Interactive explanations&lt;/strong&gt; | Simon Willison&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;How Coinbase scaled AI to 1,000+ engineers&lt;/strong&gt;（Claire Vo, Lenny&amp;#x27;s Newsletter）：工程高级总监 Chintan Turakhia 分享如何通过 &amp;quot;speed run&amp;quot; 快速验证和数据驱动分析，在超千名工程师中推广 AI 工具，将代码审查时间从 150 小时缩短至 15 小时，实现企业级 AI 规模化落地。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;How to Kill the Code Review&lt;/strong&gt;（Ankit Jain, Latent Space）：提出面对 AI 生成代码的爆发，应将审查重心从&amp;quot;逐行检查实现&amp;quot;转向&amp;quot;审查意图与规范定义&amp;quot;，通过多智能体竞争、确定性护栏和对抗性验证构建自动化信任机制，实现人类无需阅读代码即可发布、观察、回滚的 AI 原生开发范式。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;针对 AI 代理编程产生的「认知债务」，提出通过交互动画深入理解代码逻辑，并以词云阿基米德螺旋布局为例，展示动画如何直观呈现代码运行机制。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;产品与增长&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Redis patterns for coding&lt;/strong&gt; | Antirez&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Redis 作者发布面向 LLM 与开发者的编程模式综合文档，详尽整理命令用法、数据类型及可落地的算法实现，为实际编码提供实用参考。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;产品与设计&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;The design process is dead. Here’s what’s replacing it&lt;/strong&gt; | Lenny Rachitsky (feat. Jenny Wen, Anthropic)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Anthropic 设计负责人指出传统「发现-原型-迭代」线性流程正被「设计师-AI 实时协作」取代，并强调未来设计人才需具备审美判断、技术理解与快速适应三大核心能力。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-01</guid>
-      <pubDate>Sun, 01 Mar 2026 22:41:18 +0000</pubDate>
+&lt;li&gt;&lt;strong&gt;This week on How I AI&lt;/strong&gt;（Lenny Rachitsky, Lenny&amp;#x27;s Newsletter）：介绍企业家 Jesse Genet 部署 5 个独立运作的 OpenClaw 代理分别管理家庭事务、财务和编程项目，采用&amp;quot;渐进式信任&amp;quot;和物理隔离策略确保数据安全；同时收录 Coinbase 工程负责人关于千人团队 AI 规模化的实践分享。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI $110B mega-round, OpenAI-Pentagon red lines, Google goal-based agents&lt;/strong&gt;（TLDR）：OpenAI 宣布完成 1100 亿美元融资并与美国国防部达成设有限制性红线的合作协议；谷歌正在测试基于目标自主调整任务的新型 AI 智能体，反映 AI 技术正加速向企业应用和国防领域渗透。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-02</guid>
+      <pubDate>Mon, 02 Mar 2026 23:09:49 +0000</pubDate>
     </item>
   </channel>
 </rss>
