@@ -7,35 +7,30 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 04 Mar 2026 22:53:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 22:39:11 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-04</title>
-      <description>&lt;p&gt;&lt;strong&gt;AI/技术日报&lt;/strong&gt; · 今日精选&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-07</title>
+      <description>&lt;p&gt;&lt;strong&gt;科技日报：AI 开发者生态、职业预测与基础设施动态&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; AI 模型动态&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;轻量级模型密集发布，推理能力突破学术权威测试&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;OpenAI与Google同步升级轻量级模型&lt;/strong&gt;：OpenAI推出 GPT-5.3 Instant 优化对话响应速度，Google 发布 Gemini 3.1 Flash-Lite 主打极致成本效率，双方均在轻量高速赛道加速布局。（来源：TLDR AI, Latent Space）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Claude Opus 4.6 解决 Knuth 数周难题&lt;/strong&gt;：计算机科学泰斗 Donald Knuth 透露，Anthropic 的 Claude Opus 4.6 独立解决了他研究数周的数学开放性问题，这一突破促使他重新评估生成式 AI 的自动推理能力。（作者：Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI 推出开源维护者激励计划&lt;/strong&gt;：面向开源项目维护者提供六个月免费 ChatGPT Pro（含 Codex 及安全功能），虽未公布具体星级/下载量门槛，但要求申请者提供项目影响力证明。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claude Code 工具对比与 vibe coding 实践&lt;/strong&gt;：社区讨论汇总显示，开发者正探索将 Figma 设计系统与 AI 编程结合，并就 Claude Code 与其他 AI 编程工具进行多维度比较。（Kiyani / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;行业与商业动态&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Anthropic 收入逼近 OpenAI，Qwen 团队动荡引发开源担忧&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;产品与增长&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Anthropic 年化收入突破 190 亿美元&lt;/strong&gt;：ARR 逼近 200 亿美元大关，正在快速缩小与 OpenAI 的收入差距，重塑行业竞争格局；但该公司与五角大楼在 AI 安全准则上的冲突也为业务带来不确定性。（来源：Latent Space, TLDR AI）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;通义千问核心团队集体离职&lt;/strong&gt;：阿里巴巴 Qwen 团队技术负责人林俊旸及多位核心成员于 Qwen 3.5 系列开源模型发布之际突然离职，令业界担忧这一顶尖开源大模型团队的后续发展。（作者：Simon Willison, Latent Space）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;商业经典失效与设计系统新实践&lt;/strong&gt;：本期社区智慧盘点那些已随时代失效的商业书籍，同时探讨如何基于 Figma 设计系统实现 vibe coding，提升产品设计与开发的协同效率。（Kiyani / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;工程与系统设计&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;智能体工程反模式：AI 代码审查责任边界&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;避免将 AI 生成代码直接提交审阅&lt;/strong&gt;：开发者不应将未经自我验证的 AI 生成代码直接转交同事审查，而需先自行验证功能正确性、控制 PR 规模并提供测试证据，防止将质量保证责任转嫁给团队。（作者：Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI 工程师职业前景预测&lt;/strong&gt;：文章提出&amp;quot;AI 工程师将是最后被取代的职业&amp;quot;观点，认为软件工程呈现杰文斯悖论效应，且所有 AI 智能体本质上都是编程能力的延伸，使得工程师成为利用 AI 淘汰其他职业的最终受益者。（Latent Space）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;跨界与深度思考&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;学术权威对 AI 的态度转折&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Knuth 被迫重新评估生成式 AI&lt;/strong&gt;：计算机科学奠基人 Donald Knuth 在见证 Claude 解决其长期研究的数学猜想后，承认需重新审视对生成式 AI 的既有看法，标志着顶尖学者对 AI 推理能力认知的重要转变。（作者：Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;建筑与能源基础设施新动态&lt;/strong&gt;：加州受 Prop 13 法案影响已有 18% 房产通过继承转移；日本企业加速收购美国大型建筑商；数据中心大规模断电威胁电网稳定；中国启动 5740 亿美元电网升级计划。（Brian Potter / Construction Physics）&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-04</guid>
-      <pubDate>Wed, 04 Mar 2026 22:53:24 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-07</guid>
+      <pubDate>Sat, 07 Mar 2026 22:39:11 +0000</pubDate>
     </item>
   </channel>
 </rss>
