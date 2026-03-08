@@ -7,30 +7,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Mar 2026 22:39:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 22:50:20 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-07</title>
-      <description>&lt;p&gt;&lt;strong&gt;科技日报：AI 开发者生态、职业预测与基础设施动态&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-08</title>
+      <description>&lt;p&gt;&lt;strong&gt;AI/产品/技术日报&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;OpenAI 推出开源维护者激励计划&lt;/strong&gt;：面向开源项目维护者提供六个月免费 ChatGPT Pro（含 Codex 及安全功能），虽未公布具体星级/下载量门槛，但要求申请者提供项目影响力证明。（Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Claude Code 工具对比与 vibe coding 实践&lt;/strong&gt;：社区讨论汇总显示，开发者正探索将 Figma 设计系统与 AI 编程结合，并就 Claude Code 与其他 AI 编程工具进行多维度比较。（Kiyani / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;产品与增长&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;商业经典失效与设计系统新实践&lt;/strong&gt;：本期社区智慧盘点那些已随时代失效的商业书籍，同时探讨如何基于 Figma 设计系统实现 vibe coding，提升产品设计与开发的协同效率。（Kiyani / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;工程与系统设计&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AI 工程师职业前景预测&lt;/strong&gt;：文章提出&amp;quot;AI 工程师将是最后被取代的职业&amp;quot;观点，认为软件工程呈现杰文斯悖论效应，且所有 AI 智能体本质上都是编程能力的延伸，使得工程师成为利用 AI 淘汰其他职业的最终受益者。（Latent Space）&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h4&gt;跨界与深度思考&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;建筑与能源基础设施新动态&lt;/strong&gt;：加州受 Prop 13 法案影响已有 18% 房产通过继承转移；日本企业加速收购美国大型建筑商；数据中心大规模断电威胁电网稳定；中国启动 5740 亿美元电网升级计划。（Brian Potter / Construction Physics）&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-07</guid>
-      <pubDate>Sat, 07 Mar 2026 22:39:11 +0000</pubDate>
+&lt;p&gt;&lt;strong&gt;Quoting Joseph Weizenbaum&lt;/strong&gt; | Simon Willison (Simon Willison)&lt;/p&gt;
+&lt;p&gt;AI先驱Joseph Weizenbaum早在1976年便警示，即便是简单的计算机程序（如ELIZA）也能在短时间内诱导正常人产生强烈的妄想性思维，这一历史洞见对当前大模型时代的人机交互伦理仍具深刻警示意义。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;产品与增长&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;The most successful AI company you&amp;#x27;ve never heard of&lt;/strong&gt; | Lenny Rachitsky (Lenny&amp;#x27;s Newsletter)&lt;/p&gt;
+&lt;p&gt;Applied Intuition联合创始人Qasar Younis披露这家估值150亿美元的自动驾驶软件公司如何长期保持低调增长，并预测未来5-10年AI最大的变革将发生在采矿、农业、建筑等实体行业而非软件领域，同时分享对中国AI竞争力及创业公司早期变现策略的独到见解。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-08</guid>
+      <pubDate>Sun, 08 Mar 2026 22:50:20 +0000</pubDate>
     </item>
   </channel>
 </rss>

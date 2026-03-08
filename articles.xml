@@ -7,426 +7,200 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Mar 2026 22:38:37 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 22:49:55 +0000</lastBuildDate>
     <item>
-      <title>[翻译] Latent Space: AI工程师：最后的职业</title>
-      <link>https://www.latent.space/p/ainews-ai-engineer-will-be-the-last</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI工程师 #就业冲击 #未来预测&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 文章提出&amp;quot;AI工程师将是最后被取代的职业&amp;quot;的观点，认为在AI逐步接管70%白领工作的趋势下，软件工程不仅呈现杰文斯悖论效应，更因所有AI智能体本质上都是编程能力的延伸，使得工程师成为利用AI淘汰其他职业的最终受益者，其职业寿命甚至将长于AI研究员。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: [AINews] AI Engineer will be the LAST job&lt;/p&gt;
+      <title>[翻译] Lenny's Newsletter: 最成功却鲜为人知的AI公司</title>
+      <link>https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #自动驾驶 #工业AI #创业经验&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Applied Intuition联合创始人Qasar Younis预测，未来5至10年最大的AI革命将发生在采矿、农业、建筑和货运等实体行业，而非软件领域。这位前YC首席运营官分享了他如何带领这家估值150亿美元的自动驾驶软件公司长期保持低调发展，以及对中国AI能力和创业公司早期变现的独到见解。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: The most successful AI company you’ve never heard of | Qasar Younis&lt;/p&gt;
 &lt;hr/&gt;
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-If you’re new to &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Latent Space&lt;/strong&gt; you may not be aware of our Discord, where we chitchat about the (mostly AI, some non AI) news of the day. Now that both &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; think AI can do ~70% of most white collar jobs, between all the discussion about AI-induced layoffs and how most of coding, including &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SWE-Bench Verified&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;METR&lt;/strong&gt;, is solved, some are confused by &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Citadel&lt;/strong&gt;’s response to &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Citrini Research&lt;/strong&gt;:
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-如果你是 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Latent Space&lt;/strong&gt; 的新读者，可能还不知道我们的 Discord 社区，在那里我们闲聊（主要是 AI，也有一些非 AI 的）每日新闻。如今 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 都认为 AI 可以完成约 70% 的白领工作，在关于 AI 导致裁员以及大多数编程工作（包括 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SWE-Bench Verified&lt;/strong&gt; 和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;METR&lt;/strong&gt;）已被解决的讨论中，一些人对 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Citadel&lt;/strong&gt; 对 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Citrini Research&lt;/strong&gt; 的回应感到困惑：
-&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;The most successful AI company you’ve never heard of | Qasar Younis&lt;/h3&gt;
 
-&lt;img src="https://substackcdn.com/image/fetch/$s_!f87f!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ca19888-a908-4b16-ac39-7d848efda0e0_986x1128.png" alt="Citadel response" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;img src="https://substackcdn.com/image/fetch/$s_!3rW2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F686f170f-2dfa-498a-ab27-aee1a7bb1540_1920x1080.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-We have said repeatedly on the podcast that “&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI Engineer&lt;/strong&gt; will be the LAST job”. It started as a bit of a memey joke doubling down on the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Rise of the AI Engineer&lt;/strong&gt; in 2023 (and yes, I am the most biased person in the world on this), but we are getting increasingly serious about this in 2026. The lazy explanation is pointing to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Jevons Paradox&lt;/strong&gt;, but we think pointing to some wikipedia page about a random &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;eponymous law&lt;/strong&gt; is severely underselling the causality and magnitude of what is going on.
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Qasar Younis&lt;/strong&gt; is the co-founder and CEO of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Applied Intuition&lt;/strong&gt;, a $15 billion &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; company that adds intelligence to cars, tractors, planes, submarines, and other vehicles—essentially, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Tesla&lt;/strong&gt; or &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Waymo&lt;/strong&gt; without the hardware. He was previously COO of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Y Combinator&lt;/strong&gt;, started his career as an engineer at &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GM&lt;/strong&gt; and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bosch&lt;/strong&gt;, and was born on a farm in Pakistan.
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我们在播客中多次说过，"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 工程师&lt;/strong&gt;将是最后一份工作"。这最初是 2023 年关于"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 工程师崛起&lt;/strong&gt;"（Rise of the AI Engineer）的一个有点梗味的玩笑（是的，我是世界上对此最有偏见的人），但在 2026 年我们对此越来越认真。懒惰的解释是指向&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;杰文斯悖论&lt;/strong&gt;（Jevons Paradox），但我们认为指向某个关于随机&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;同名定律&lt;/strong&gt;（eponymous law）的维基百科页面，严重低估了正在发生的事情的因果性和规模。
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Qasar Younis&lt;/strong&gt; 是 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Applied Intuition&lt;/strong&gt; 的联合创始人兼首席执行官，这是一家估值 150 亿美元的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 公司，为汽车、拖拉机、飞机、潜艇及其他交通工具提供智能化解决方案——本质上就是不做硬件的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Tesla&lt;/strong&gt; 或 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Waymo&lt;/strong&gt;。他曾任 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Y Combinator&lt;/strong&gt; 的首席运营官，职业生涯始于 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;通用汽车（GM）&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;博世（Bosch）&lt;/strong&gt; 的工程师，出生于巴基斯坦的一个农场。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-For example, how do you react to this other &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; report showing that &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Software Engineering&lt;/strong&gt; has taken over 50% of usecases of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; models:
+Listen on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt;, and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-例如，你如何看待 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 的另一份报告，该报告显示&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;软件工程&lt;/strong&gt;（Software Engineering）已占据 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; 模型使用场景的 50% 以上：
-&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!lm6T!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68de8ccf-117d-48cd-932e-8bdcad9af497_1318x1292.png" alt="Anthropic report on software engineering use cases" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Do you agree with &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Han&lt;/strong&gt; that you should work on the other usecases? Surely with 2025 being the year of coding agents, in 2026 the other fields will play catch up right?
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-你是否同意 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Han&lt;/strong&gt; 的观点，认为你应该专注于其他使用场景？随着 2025 年成为编码智能体（coding agents）之年，2026 年其他领域肯定会迎头赶上，对吧？
+在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt; 上收听
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Congratulations, you just made the classic egocentric error and joined the permanent underclass.
+&lt;h3&gt;We discuss:&lt;/h3&gt;
+&lt;ul style="margin-left:20px;"&gt;
+&lt;li&gt;Why the biggest &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI revolution&lt;/strong&gt; will play out in mining, farming, construction, and trucking over the next 5 to 10 years, not in software&lt;/li&gt;
+&lt;li&gt;Why Qasar intentionally stayed under the radar for nearly a decade while building Applied Intuition, and why most founders shouldn't do that&lt;/li&gt;
+&lt;li&gt;The truth about China's AI capabilities and why comparisons to American companies are fundamentally flawed&lt;/li&gt;
+&lt;li&gt;The company values that drive Applied Intuition: speed above everything, laugh a lot, half the work is follow-up, never disappoint the customer&lt;/li&gt;
+&lt;li&gt;The biggest lessons from Qasar's stint as YC's COO, including that the most successful companies show &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;traction&lt;/strong&gt; very early&lt;/li&gt;
+&lt;li&gt;How reading old books is the best way to build taste&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-恭喜你，你刚刚犯了经典的自我中心错误，并加入了永久底层阶级。
-&lt;/p&gt;
+&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;p style="margin-bottom:12px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;我们讨论的话题：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul style="margin-left:20px;"&gt;
+&lt;li&gt;为何未来 5 到 10 年最大的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 革命&lt;/strong&gt; 将发生在采矿、农业、建筑和货运领域，而非软件行业&lt;/li&gt;
+&lt;li&gt;为何 Qasar 在创办 Applied Intuition 的近十年间刻意保持低调，以及为何大多数创始人不应该效仿&lt;/li&gt;
+&lt;li&gt;关于中国 AI 能力的真相，以及为何将其与美国公司进行比较从根本上就是有缺陷的&lt;/li&gt;
+&lt;li&gt;驱动 Applied Intuition 的企业价值观：速度高于一切、保持幽默、一半的工作是跟进、永远不让客户失望&lt;/li&gt;
+&lt;li&gt;Qasar 在担任 YC 首席运营官期间学到的最重要经验，包括最成功的公司往往在早期就展现出 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;市场牵引力（traction）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;阅读经典著作如何成为培养品味的最佳方式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-There is no wall. There is no reason to believe what has already hit 50% will not keep going to 80%, to 90%, and more.
+&lt;h3&gt;Brought to you by:&lt;/h3&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-没有墙。没有理由相信已经达到 50% 的不会继续增长到 80%、90% 甚至更高。
+&lt;h3 style="margin:24px 0 12px;"&gt;本期赞助：&lt;/h3&gt;
 &lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-The current consensus is that &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;2026 is the Year of Knowledge Work Agents&lt;/strong&gt; (more on this in our upcoming &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Cowork&lt;/strong&gt; and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI Frontiers&lt;/strong&gt; podcasts), but, just like &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt; is based on a coding agent, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Pi&lt;/strong&gt;, and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Cowork&lt;/strong&gt; is based on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt;, and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI Symphony&lt;/strong&gt; maximizes &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;harness engineering&lt;/strong&gt;. With &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Code Mode/CLIs&lt;/strong&gt; eating &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MCP&lt;/strong&gt;, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Filesystems&lt;/strong&gt; eating &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Memory/RAG&lt;/strong&gt;, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Sandboxes&lt;/strong&gt; eating &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Vision&lt;/strong&gt;, it turns out that potentially ~all agents are JUST coding agents with extra skills, and every additional &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;SKILLS.md&lt;/code&gt; eats another task of a white collar job… for coding agents.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-目前的共识是，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;2026 年是知识工作智能体&lt;/strong&gt;（Knowledge Work Agents）之年（更多内容将在我们即将推出的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Cowork&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI Frontiers&lt;/strong&gt; 播客中讨论），但是，就像 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt; 基于编码智能体 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Pi&lt;/strong&gt;，以及 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Cowork&lt;/strong&gt; 基于 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt;，以及 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI Symphony&lt;/strong&gt; 最大化&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;驾驭工程&lt;/strong&gt;（harness engineering）一样。随着&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;代码模式/CLI&lt;/strong&gt;（Code Mode/CLIs）吞噬 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MCP&lt;/strong&gt;（Model Context Protocol），&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;文件系统&lt;/strong&gt;（Filesystems）吞噬&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;记忆/RAG&lt;/strong&gt;（检索增强生成），以及&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;沙盒&lt;/strong&gt;（Sandboxes）吞噬&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;视觉&lt;/strong&gt;（Vision），事实证明，可能所有的智能体都&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;只是具备额外技能的编码智能体&lt;/strong&gt;，而每一个额外的 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;SKILLS.md&lt;/code&gt; 都会吞噬白领工作的另一项任务……针对编码智能体而言。
-&lt;/p&gt;
+&lt;img src="https://substackcdn.com/image/fetch/$s_!4RjT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa2d74de5-2231-4477-9eb0-09e80555f014_3444x285.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
 &lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-"it’s possible that software engineering is the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;only&lt;/strong&gt; profession that experiences jevons paradox because they are the ones who use ai to automate other professions out of existence" —&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;QwQiao&lt;/strong&gt; making the Last AI Engineer argument
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Omni&lt;/strong&gt;—AI analytics your customers can trust&lt;br/&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;—Automate compliance. Simplify security.&lt;br/&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lovable&lt;/strong&gt;—Build apps by simply chatting with AI
 &lt;/blockquote&gt;
 &lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
 &lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-"软件工程可能是&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;唯一&lt;/strong&gt;经历杰文斯悖论（Jevons Paradox）的职业，因为他们正是那些使用 AI 将其他职业自动化直至消失的人" —— &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;QwQiao&lt;/strong&gt; 提出"最后一名 AI 工程师"论点
-&lt;/blockquote&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-The final battle for jobs, when all the economy is a wasteland and we are frantically printing worthless money for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Universal Basic Income&lt;/strong&gt;, is the showdown between the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI Engineer&lt;/strong&gt; and the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI Researcher&lt;/strong&gt;. It’s the inverse of the chicken and egg problem — which comes LAST? The Engineer chicken, or the Researcher egg?
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-当整个经济成为荒地，我们疯狂地印制毫无价值的货币用于&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;全民基本收入&lt;/strong&gt;（Universal Basic Income, UBI）时，工作的最终决战将是&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 工程师&lt;/strong&gt;与&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 研究员&lt;/strong&gt;之间的对决。这是鸡生蛋蛋生鸡问题的逆向版本——哪个最后消失？是工程师这只鸡，还是研究员这个蛋？
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-There, we have ALSO thought this through and concluded that the Researchers will probably hang up their hats first before the Engineers are done deploying the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;last mile&lt;/strong&gt; of what the Researchers produce.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-对此，我们也深思熟虑过，并得出结论：在工程师完成部署研究员所产出成果的"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;最后一英里&lt;/strong&gt;"（last mile）之前，研究员们可能会先挂起他们的帽子（率先退场）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-AI News for 3/5/2026-3/6/2026. We checked 12 subreddits, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;544 Twitters&lt;/strong&gt; and 24 Discords (&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;264 channels&lt;/strong&gt;, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;13382 messages&lt;/strong&gt;) for you. Estimated reading time saved (at 200wpm): &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;1311 minutes&lt;/strong&gt;. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AINews&lt;/strong&gt;’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Omni&lt;/strong&gt;——客户可信赖的 AI 分析工具&lt;br/&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;——自动化合规，简化安全流程&lt;br/&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lovable&lt;/strong&gt;——通过与 AI 对话即可构建应用
 &lt;/blockquote&gt;
 &lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-2026年3月5日-3月6日的 AI 新闻。我们为你查看了 12 个子版块（subreddits）、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;544 个 Twitter&lt;/strong&gt; 账号和 24 个 Discord（&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;264 个频道&lt;/strong&gt;，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;13382 条消息&lt;/strong&gt;）。预计节省的阅读时间（按每分钟 200 词计算）：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;1311 分钟&lt;/strong&gt;。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AINews&lt;/strong&gt; 网站允许你搜索所有往期内容。提醒一下，AINews 现已成为 Latent Space 的一个版块。你可以选择订阅/退订邮件频率！
-&lt;/blockquote&gt;
-&lt;/p&gt;
-
-&lt;h3 style="margin:24px 0 12px;"&gt;AI Twitter 回顾&lt;/h3&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;’s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT‑5.4&lt;/strong&gt; rollout: benchmark leadership, cost/efficiency tradeoffs, and mixed practitioner feedback
+&lt;h3&gt;Where to find Qasar Younis:&lt;/h3&gt;
+&lt;ul style="margin-left:20px;"&gt;
+&lt;li&gt;X: &lt;a href="https://x.com/qasar" style="color:#2471a3;"&gt;https://x.com/qasar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LinkedIn: &lt;a href="https://www.linkedin.com/in/qasar" style="color:#2471a3;"&gt;https://www.linkedin.com/in/qasar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website: &lt;a href="https://qy.co" style="color:#2471a3;"&gt;https://qy.co&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reading list: &lt;a href="https://qy.co/books" style="color:#2471a3;"&gt;https://qy.co/books&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT‑5.4&lt;/strong&gt; 推出：基准测试领先、成本/效率权衡以及从业者褒贬不一的反馈
-&lt;/p&gt;
+&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;如何找到 Qasar Younis：&lt;/h3&gt;
+&lt;ul style="margin-left:20px;"&gt;
+&lt;li&gt;X（推特）：&lt;a href="https://x.com/qasar" style="color:#2471a3;"&gt;https://x.com/qasar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LinkedIn：&lt;a href="https://www.linkedin.com/in/qasar" style="color:#2471a3;"&gt;https://www.linkedin.com/in/qasar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;个人网站：&lt;a href="https://qy.co" style="color:#2471a3;"&gt;https://qy.co&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;书单：&lt;a href="https://qy.co/books" style="color:#2471a3;"&gt;https://qy.co/books&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Artificial Analysis&lt;/strong&gt; deep dive (xhigh) + pricing/context details: GPT‑5.4 (xhigh) returns OpenAI to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;#1 (tied)&lt;/strong&gt; on the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Artificial Analysis Intelligence Index&lt;/strong&gt; with &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Gemini 3.1 Pro Preview&lt;/strong&gt; (score &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;57&lt;/strong&gt;, up from &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;51&lt;/strong&gt; for GPT‑5.2 xhigh), but at higher per‑token prices (&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;$2.50 / $15&lt;/strong&gt; per 1M input/output tokens vs &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;$1.75 / $14&lt;/strong&gt; for GPT‑5.2) and a much larger &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;~1.05M token&lt;/strong&gt; context window (up from 400K). AA reports strengths in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CritPt (physics reasoning)&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;TerminalBench Hard (agentic coding/terminal use)&lt;/strong&gt;, but also flags &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;higher hallucination rate&lt;/strong&gt; driven by higher attempt rate; and a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;~28% higher benchmark run cost&lt;/strong&gt; vs GPT‑5.2 due to pricing despite modest token efficiency gains. Source: Artificial Analysis thread and follow‑ups (1,2).&lt;/li&gt;
+&lt;h3&gt;Referenced:&lt;/h3&gt;
+&lt;ul style="margin-left:20px;"&gt;
+&lt;li&gt;Applied Intuition: &lt;a href="https://www.appliedintuition.com" style="color:#2471a3;"&gt;https://www.appliedintuition.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marc Andreessen&lt;/strong&gt;: The real AI boom hasn't even started yet: &lt;a href="https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Elad Gil&lt;/strong&gt;'s website: &lt;a href="https://eladgil.com" style="color:#2471a3;"&gt;https://eladgil.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bosch: &lt;a href="https://www.bosch.com" style="color:#2471a3;"&gt;https://www.bosch.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Berkshire Hathaway: &lt;a href="https://www.berkshirehathaway.com" style="color:#2471a3;"&gt;https://www.berkshirehathaway.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Naval Ravikant on X: &lt;a href="https://x.com/naval" style="color:#2471a3;"&gt;https://x.com/naval&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Y Combinator: &lt;a href="https://www.ycombinator.com" style="color:#2471a3;"&gt;https://www.ycombinator.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Waymo: &lt;a href="https://waymo.com/" style="color:#2471a3;"&gt;https://waymo.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tesla: &lt;a href="https://www.tesla.com" style="color:#2471a3;"&gt;https://www.tesla.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;DeepSeek: &lt;a href="https://www.deepseek.com" style="color:#2471a3;"&gt;https://www.deepseek.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rivian: &lt;a href="https://rivian.com" style="color:#2471a3;"&gt;https://rivian.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Crate &amp; Barrel: &lt;a href="https://www.crateandbarrel.com" style="color:#2471a3;"&gt;https://www.crateandbarrel.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;OpenClaw: &lt;a href="https://openclaw.ai" style="color:#2471a3;"&gt;https://openclaw.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sam Altman on X: &lt;a href="https://x.com/sama" style="color:#2471a3;"&gt;https://x.com/sama&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Peter Ludwig on LinkedIn: &lt;a href="https://www.linkedin.com/in/peterwludwig" style="color:#2471a3;"&gt;https://www.linkedin.com/in/peterwludwig&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;What &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Steve Jobs&lt;/strong&gt; really meant when he said 'Good artists copy; great artists steal': &lt;a href="https://www.cnet.com/tech/tech-industry/what-steve-jobs-really-meant-when-he-said-good-artists-copy-great-artists-steal" style="color:#2471a3;"&gt;https://www.cnet.com/tech/tech-industry/what-steve-jobs-really-meant-when-he-said-good-artists-copy-great-artists-steal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;7 quotes on the power of reading from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Charlie Munger&lt;/strong&gt;: &lt;a href="https://www.neil.blog/articles/7-quotes-power-reading-charlie-munger" style="color:#2471a3;"&gt;https://www.neil.blog/articles/7-quotes-power-reading-charlie-munger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Andreessen Horowitz: &lt;a href="https://a16z.com" style="color:#2471a3;"&gt;https://a16z.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;John Doerr on LinkedIn: &lt;a href="https://www.linkedin.com/in/john-doerr-03248211" style="color:#2471a3;"&gt;https://www.linkedin.com/in/john-doerr-03248211&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gandhi's quote: &lt;a href="https://www.azquotes.com/author/5308-Mahatma_Gandhi/tag/truth#google_vignette" style="color:#2471a3;"&gt;https://www.azquotes.com/author/5308-Mahatma_Gandhi/tag/truth#google_vignette&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Steve Ballmer on X: &lt;a href="https://x.com/Steven_Ballmer" style="color:#2471a3;"&gt;https://x.com/Steven_Ballmer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;General Motors: &lt;a href="https://www.gm.com" style="color:#2471a3;"&gt;https://www.gm.com&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Artificial Analysis&lt;/strong&gt; 深度解析（xhigh）+ 定价/上下文详情：GPT‑5.4（xhigh）使 OpenAI 重返 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;榜首（并列）&lt;/strong&gt;，与 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Gemini 3.1 Pro Preview&lt;/strong&gt; 并列（得分 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;57&lt;/strong&gt;，高于 GPT‑5.2 xhigh 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;51&lt;/strong&gt; 分），但每 token 价格更高（每百万输入/输出 token 分别为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;$2.50 / $15&lt;/strong&gt;，而 GPT‑5.2 为 $1.75 / $14），且上下文窗口大得多，约 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;105 万 token&lt;/strong&gt;（从 40 万增加）。AA 报告指出其在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CritPt&lt;/strong&gt;（物理推理）和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;TerminalBench Hard&lt;/strong&gt;（智能体编码/终端使用）方面表现强劲，但也标记了由于更高的尝试率导致的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;更高幻觉率&lt;/strong&gt;；以及由于定价导致的比 GPT‑5.2 高约 28% 的基准测试运行成本，尽管 token 效率有适度提升。来源：Artificial Analysis 线程及后续跟进（1, 2）。&lt;/li&gt;
+&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;参考链接：&lt;/h3&gt;
+&lt;ul style="margin-left:20px;"&gt;
+&lt;li&gt;Applied Intuition：&lt;a href="https://www.appliedintuition.com" style="color:#2471a3;"&gt;https://www.appliedintuition.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marc Andreessen&lt;/strong&gt;：真正的 AI 繁荣甚至还未开始：&lt;a href="https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Elad Gil&lt;/strong&gt; 的网站：&lt;a href="https://eladgil.com" style="color:#2471a3;"&gt;https://eladgil.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;博世（Bosch）：&lt;a href="https://www.bosch.com" style="color:#2471a3;"&gt;https://www.bosch.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;伯克希尔·哈撒韦（Berkshire Hathaway）：&lt;a href="https://www.berkshirehathaway.com" style="color:#2471a3;"&gt;https://www.berkshirehathaway.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Naval Ravikant 的 X 账号：&lt;a href="https://x.com/naval" style="color:#2471a3;"&gt;https://x.com/naval&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Y Combinator：&lt;a href="https://www.ycombinator.com" style="color:#2471a3;"&gt;https://www.ycombinator.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Waymo：&lt;a href="https://waymo.com/" style="color:#2471a3;"&gt;https://waymo.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;特斯拉（Tesla）：&lt;a href="https://www.tesla.com" style="color:#2471a3;"&gt;https://www.tesla.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;DeepSeek：&lt;a href="https://www.deepseek.com" style="color:#2471a3;"&gt;https://www.deepseek.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rivian：&lt;a href="https://rivian.com" style="color:#2471a3;"&gt;https://rivian.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Crate &amp; Barrel：&lt;a href="https://www.crateandbarrel.com" style="color:#2471a3;"&gt;https://www.crateandbarrel.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;OpenClaw：&lt;a href="https://openclaw.ai" style="color:#2471a3;"&gt;https://openclaw.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sam Altman 的 X 账号：&lt;a href="https://x.com/sama" style="color:#2471a3;"&gt;https://x.com/sama&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Peter Ludwig 的 LinkedIn：&lt;a href="https://www.linkedin.com/in/peterwludwig" style="color:#2471a3;"&gt;https://www.linkedin.com/in/peterwludwig&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Steve Jobs&lt;/strong&gt; 说"优秀的艺术家模仿，伟大的艺术家窃取"的真正含义：&lt;a href="https://www.cnet.com/tech/tech-industry/what-steve-jobs-really-meant-when-he-said-good-artists-copy-great-artists-steal" style="color:#2471a3;"&gt;https://www.cnet.com/tech/tech-industry/what-steve-jobs-really-meant-when-he-said-good-artists-copy-great-artists-steal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;关于阅读力量的 7 条名言——来自 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Charlie Munger&lt;/strong&gt;：&lt;a href="https://www.neil.blog/articles/7-quotes-power-reading-charlie-munger" style="color:#2471a3;"&gt;https://www.neil.blog/articles/7-quotes-power-reading-charlie-munger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Andreessen Horowitz：&lt;a href="https://a16z.com" style="color:#2471a3;"&gt;https://a16z.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;John Doerr 的 LinkedIn：&lt;a href="https://www.linkedin.com/in/john-doerr-03248211" style="color:#2471a3;"&gt;https://www.linkedin.com/in/john-doerr-03248211&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;甘地名言：&lt;a href="https://www.azquotes.com/author/5308-Mahatma_Gandhi/tag/truth#google_vignette" style="color:#2471a3;"&gt;https://www.azquotes.com/author/5308-Mahatma_Gandhi/tag/truth#google_vignette&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Steve Ballmer 的 X 账号：&lt;a href="https://x.com/Steven_Ballmer" style="color:#2471a3;"&gt;https://x.com/Steven_Ballmer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;通用汽车（General Motors）：&lt;a href="https://www.gm.com" style="color:#2471a3;"&gt;https://www.gm.com&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;GPT‑5.4 Pro: real gains on CritPt, extreme output pricing: AA highlights a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;+10 point jump&lt;/strong&gt; on CritPt, reaching &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;30%&lt;/strong&gt; (tripling the best Nov ’25 score of 9%), but notes the run cost exceeded &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;$1k&lt;/strong&gt; and attributes the expense largely to GPT‑5.4 Pro’s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;$180 / 1M output tokens&lt;/strong&gt; vs &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;$15&lt;/strong&gt; for GPT‑5.4. Sources: AA CritPt update and cost breakdown.&lt;/li&gt;
+&lt;h3&gt;Recommended books:&lt;/h3&gt;
+&lt;ul style="margin-left:20px;"&gt;
+&lt;li&gt;&lt;em&gt;House of Huawei: The Secret History of China's Most Powerful Company&lt;/em&gt;: &lt;a href="https://www.amazon.com/House-Huawei-History-Powerful-Company/dp/0593544633" style="color:#2471a3;"&gt;https://www.amazon.com/House-Huawei-History-Powerful-Company/dp/0593544633&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Maintenance: Of Everything, Part One&lt;/em&gt;: &lt;a href="https://press.stripe.com/maintenance-part-one" style="color:#2471a3;"&gt;https://press.stripe.com/maintenance-part-one&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Autobiography of Malcolm X: As Told to Alex Haley&lt;/em&gt;: &lt;a href="https://www.amazon.com/Autobiography-Malcolm-Told-Alex-Haley/dp/0345350685" style="color:#2471a3;"&gt;https://www.amazon.com/Autobiography-Malcolm-Told-Alex-Haley/dp/0345350685&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;High Output Management&lt;/em&gt;: &lt;a href="https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884" style="color:#2471a3;"&gt;https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Emperor of All Maladies: A Biography of Cancer&lt;/em&gt;: &lt;a href="https://www.amazon.com/Emperor-All-Maladies-Biography-Cancer/dp/1439170916" style="color:#2471a3;"&gt;https://www.amazon.com/Emperor-All-Maladies-Biography-Cancer/dp/1439170916&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Made in America&lt;/em&gt;: &lt;a href="https://www.amazon.com/Sam-Walton-Made-America/dp/0553562835" style="color:#2471a3;"&gt;https://www.amazon.com/Sam-Walton-Made-America/dp/0553562835&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;My American Journey&lt;/em&gt;: &lt;a href="https://www.amazon.com/American-Journey-Autobiography-Colin-Powell/dp/0679432965" style="color:#2471a3;"&gt;https://www.amazon.com/American-Journey-Autobiography-Colin-Powell/dp/0679432965&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Guns, Germs, and Steel: The Fates of Human Societies&lt;/em&gt;: &lt;a href="https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393317552" style="color:#2471a3;"&gt;https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393317552&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Collapse: How Societies Choose to Fail or Succeed&lt;/em&gt;: &lt;a href="https://www.amazon.com/Collapse-Societies-Choose-Succeed-Revised/dp/0143117009" style="color:#2471a3;"&gt;https://www.amazon.com/Collapse-Societies-Choose-Succeed-Revised/dp/0143117009&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;SPQR: A History of Ancient Rome&lt;/em&gt;: &lt;a href="https://www.amazon.com/SPQR-History-Ancient-Mary-Beard/dp/0871404230" style="color:#2471a3;"&gt;https://www.amazon.com/SPQR-History-Ancient-Mary-Beard/dp/0871404230&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;A World Appears: A Journey into Consciousness&lt;/em&gt;: &lt;a href="https://www.amazon.com/World-Appears-Journey-into-Consciousness/dp/198488199X" style="color:#2471a3;"&gt;https://www.amazon.com/World-Appears-Journey-into-Consciousness/dp/198488199X&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;GPT‑5.4 Pro：在 CritPt 上实现真实提升，但输出定价极高：AA 强调在 CritPt 上&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;提升 10 个百分点&lt;/strong&gt;，达到 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;30%&lt;/strong&gt;（是 2025 年 11 月最佳成绩 9% 的三倍），但指出运行成本超过 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;1000 美元&lt;/strong&gt;，并将高昂费用主要归因于 GPT‑5.4 Pro 的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;每百万输出 token 180 美元&lt;/strong&gt;，而 GPT‑5.4 仅为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;15 美元&lt;/strong&gt;。来源：AA CritPt 更新及成本细分。&lt;/li&gt;
+&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;推荐书籍：&lt;/h3&gt;
+&lt;ul style="margin-left:20px;"&gt;
+&lt;li&gt;《华为之家：中国最具实力公司的秘密历史》（&lt;em&gt;House of Huawei: The Secret History of China's Most Powerful Company&lt;/em&gt;）：&lt;a href="https://www.amazon.com/House-Huawei-History-Powerful-Company/dp/0593544633" style="color:#2471a3;"&gt;https://www.amazon.com/House-Huawei-History-Powerful-Company/dp/0593544633&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《维护：关于一切，第一部分》（&lt;em&gt;Maintenance: Of Everything, Part One&lt;/em&gt;）：&lt;a href="https://press.stripe.com/maintenance-part-one" style="color:#2471a3;"&gt;https://press.stripe.com/maintenance-part-one&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《马尔科姆·X 自传》（&lt;em&gt;The Autobiography of Malcolm X: As Told to Alex Haley&lt;/em&gt;）：&lt;a href="https://www.amazon.com/Autobiography-Malcolm-Told-Alex-Haley/dp/0345350685" style="color:#2471a3;"&gt;https://www.amazon.com/Autobiography-Malcolm-Told-Alex-Haley/dp/0345350685&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《高产出管理》（&lt;em&gt;High Output Management&lt;/em&gt;）：&lt;a href="https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884" style="color:#2471a3;"&gt;https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《众病之王：癌症传》（&lt;em&gt;The Emperor of All Maladies: A Biography of Cancer&lt;/em&gt;）：&lt;a href="https://www.amazon.com/Emperor-All-Maladies-Biography-Cancer/dp/1439170916" style="color:#2471a3;"&gt;https://www.amazon.com/Emperor-All-Maladies-Biography-Cancer/dp/1439170916&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《美国制造》（&lt;em&gt;Made in America&lt;/em&gt;）：&lt;a href="https://www.amazon.com/Sam-Walton-Made-America/dp/0553562835" style="color:#2471a3;"&gt;https://www.amazon.com/Sam-Walton-Made-America/dp/0553562835&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《我的美国之旅》（&lt;em&gt;My American Journey&lt;/em&gt;）：&lt;a href="https://www.amazon.com/American-Journey-Autobiography-Colin-Powell/dp/0679432965" style="color:#2471a3;"&gt;https://www.amazon.com/American-Journey-Autobiography-Colin-Powell/dp/0679432965&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《枪炮、病菌与钢铁：人类社会的命运》（&lt;em&gt;Guns, Germs, and Steel: The Fates of Human Societies&lt;/em&gt;）：&lt;a href="https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393317552" style="color:#2471a3;"&gt;https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393317552&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《崩溃：社会如何选择成败兴亡》（&lt;em&gt;Collapse: How Societies Choose to Fail or Succeed&lt;/em&gt;）：&lt;a href="https://www.amazon.com/Collapse-Societies-Choose-Succeed-Revised/dp/0143117009" style="color:#2471a3;"&gt;https://www.amazon.com/Collapse-Societies-Choose-Succeed-Revised/dp/0143117009&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《SPQR：古罗马史》（&lt;em&gt;SPQR: A History of Ancient Rome&lt;/em&gt;）：&lt;a href="https://www.amazon.com/SPQR-History-Ancient-Mary-Beard/dp/0871404230" style="color:#2471a3;"&gt;https://www.amazon.com/SPQR-History-Ancient-Mary-Beard/dp/0871404230&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;《世界的显现：进入意识的旅程》（&lt;em&gt;A World Appears: A Journey into Consciousness&lt;/em&gt;）：&lt;a href="https://www.amazon.com/World-Appears-Journey-into-Consciousness/dp/198488199X" style="color:#2471a3;"&gt;https://www.amazon.com/World-Appears-Journey-into-Consciousness/dp/198488199X&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Community benchmarking &amp; “model personality” observations: Independent benchmarks/takes broadly agree GPT‑5.4 is a sizable jump in agentic/coding evaluations but disagree on reasoning efficiency and “literalness” vs Claude. Notable datapoints: LiveBench #1 claim for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT‑5.4-xhigh&lt;/strong&gt; (scaling01); TaxCalcBench: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;56.86% perfect&lt;/strong&gt; returns, surpassing Opus 4.6 at 52.94% (michaelrbock); claims of higher cost and less efficiency than GPT‑5.3 Codex in AA‑Index benchmarking (scaling01); mixed anecdotal UX—some praise “product sense” (dejavucoder), others report it’s overly literal and requires very explicit prompts (scaling01).&lt;/li&gt;
-&lt;/ul&gt;
+Production and marketing by &lt;a href="https://penname.co/" style="color:#2471a3;"&gt;https://penname.co/&lt;/a&gt;. For inquiries about sponsoring the podcast, email &lt;a href="mailto:podcast@lennyrachitsky.com" style="color:#2471a3;"&gt;podcast@lennyrachitsky.com&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;
+Lenny may be an investor in the companies discussed.
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;社区基准测试与"模型个性"观察：独立基准测试普遍认为 GPT‑5.4 在智能体/编码评估方面有显著提升，但在推理效率和与 Claude 相比的"字面性"（literalness）方面存在分歧。值得注意的数据点：LiveBench 榜首声明（&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT‑5.4-xhigh&lt;/strong&gt;，scaling01）；TaxCalcBench：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;56.86% 的完美&lt;/strong&gt;回报率，超过 Opus 4.6 的 52.94%（michaelrbock）；在 AA-Index 基准测试中声称比 GPT‑5.3 Codex 成本更高且效率更低（scaling01）；用户体验褒贬不一——一些人称赞其"产品感"（dejavucoder），另一些人报告说它过于字面化且需要非常明确的提示（scaling01）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Arena positioning: The Text Arena account reports GPT‑5.4 High entering the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;top 10&lt;/strong&gt; with large gains in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;creative writing&lt;/strong&gt; and “longer query” categories, while math is roughly flat vs GPT‑5.2‑High (arena). Separate chatter claims it “destroys” GPT‑5.2 in Arena (scaling01).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;竞技场定位：Text Arena 账号报告称 GPT‑5.4 High 进入&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;前十&lt;/strong&gt;，在&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;创意写作&lt;/strong&gt;和"更长查询"类别中大幅提升，而数学能力与 GPT‑5.2-High 大致持平（arena）。另有传言称它在竞技场中"碾压" GPT‑5.2（scaling01）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Agents, coding workflows, and “AI-native dev” tooling: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MCP&lt;/strong&gt; everywhere, scheduling loops, and design↔code round‑trips
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-智能体、编码工作流与"AI 原生开发"工具：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MCP&lt;/strong&gt;（模型上下文协议）无处不在、调度循环与设计↔代码往返
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI’s updated agent prompting guidance: OpenAI &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;DevRel&lt;/strong&gt; published an updated guide for reliable agents—tool use, structured outputs, verification loops, and long‑running workflows—positioned explicitly for GPT‑5.4 API users (OpenAIDevs).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI 更新的智能体提示指南：OpenAI &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;开发者关系团队&lt;/strong&gt;（DevRel）发布了一份更新指南，针对可靠智能体——包括工具使用、结构化输出、验证循环和长时间运行的工作流——明确面向 GPT‑5.4 API 用户（OpenAIDevs）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Claude Code gets local scheduled tasks + while‑loops: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; desktop added &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;local scheduled tasks&lt;/strong&gt; that run while your computer is awake (trq212). Related: agents now support loop patterns like &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;/loop 5m make sure this PR passes CI&lt;/code&gt; (noahzweben).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Claude Code 获得本地定时任务 + while 循环：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; 桌面版添加了&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;本地定时任务&lt;/strong&gt;，可在电脑唤醒时运行（trq212）。相关：智能体现在支持循环模式，如 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;/loop 5m make sure this PR passes CI&lt;/code&gt;（noahzweben）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MCP&lt;/strong&gt; as the connective tissue: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Truesight MCP&lt;/strong&gt; (MIT licensed) aims to make &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI evaluation&lt;/strong&gt; feel like unit testing—created/managed/run from whatever client supports MCP (editor/chat/CLI), with “agent skills” to guide correct evaluation workflows (randal_olson). &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Figma MCP server&lt;/strong&gt; becomes bidirectional: GitHub Copilot users can pull design context into code and push working UI back to the Figma canvas (tightening the “design → code → canvas → feedback” loop) (mariorod1).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MCP&lt;/strong&gt; 作为连接组织：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Truesight MCP&lt;/strong&gt;（MIT 许可）旨在使&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 评估&lt;/strong&gt;感觉像单元测试——从任何支持 MCP 的客户端（编辑器/聊天/CLI）创建/管理/运行，并通过"智能体技能"指导正确的评估工作流（randal_olson）。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Figma MCP 服务器&lt;/strong&gt;变为双向：GitHub Copilot 用户可以将设计上下文拉取到代码中，并将可用的 UI 推送回 Figma 画布（收紧"设计 → 代码 → 画布 → 反馈"循环）（mariorod1）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;T3 Code&lt;/strong&gt; (open source) built atop &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex CLI&lt;/strong&gt;: Theo launches &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;T3 Code&lt;/strong&gt;, an open-source “agent orchestration coding app” that uses the Codex CLI (bring your subscription); they’re exploring Claude support via Agent SDK but are unsure about shipping permissions (theo announcement, Claude support note, and usage).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;T3 Code&lt;/strong&gt;（开源）基于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex CLI&lt;/strong&gt; 构建：Theo 推出了 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;T3 Code&lt;/strong&gt;，一个开源的"智能体编排编码应用"，使用 Codex CLI（需自备订阅）；他们正在通过 Agent SDK 探索 Claude 支持，但不确定发布权限（theo 公告、Claude 支持说明及使用）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;“Agent-native” CI and guardrails: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Factory AI&lt;/strong&gt; claims each PR runs &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;40+ CI checks&lt;/strong&gt; finishing in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;&amp;lt;6 minutes&lt;/strong&gt;, enabling “merge recklessly” as a dev posture (alvinsng). Related research framing: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SWE-CI&lt;/strong&gt; benchmark argues coding agents must be evaluated via continuous integration workflows rather than one‑off fixes (dair_ai).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;"智能体原生" CI 与防护栏：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Factory AI&lt;/strong&gt; 声称每个 PR 运行 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;40 多项 CI 检查&lt;/strong&gt;，在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;6 分钟内&lt;/strong&gt;完成，使"鲁莽合并"（merge recklessly）成为开发者的姿态（alvinsng）。相关研究框架：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SWE-CI&lt;/strong&gt; 基准测试认为，编码智能体必须通过持续集成（CI）工作流而非一次性修复来评估（dair_ai）。&lt;/li&gt;
-&lt;/ul&gt;
+制作与营销由 &lt;a href="https://penname.co/" style="color:#2471a3;"&gt;https://penname.co/&lt;/a&gt; 提供。如有关于赞助播客的咨询，请发送邮件至 &lt;a href="mailto:podcast@lennyrachitsky.com" style="color:#2471a3;"&gt;podcast@lennyrachitsky.com&lt;/a&gt;。&lt;br/&gt;&lt;br/&gt;
+Lenny 可能是文中讨论公司的投资人。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Security is becoming an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM-first&lt;/strong&gt; domain: vulnerability discovery, agentic AppSec, and eval integrity risks
+&lt;h2&gt;My biggest takeaways from this conversation:&lt;/h2&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-安全正成为&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;大语言模型（LLM）优先&lt;/strong&gt;的领域：漏洞发现、智能体应用安全（AppSec）与评估完整性风险
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Opus 4.6&lt;/strong&gt; on Firefox: vulnerability discovery at scale: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; + &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Mozilla&lt;/strong&gt; report Opus 4.6 found &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;22 vulns in 2 weeks&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;14 high-severity&lt;/strong&gt;, accounting for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;~20%&lt;/strong&gt; of Mozilla’s high-severity bugs remediated in 2025 (AnthropicAI). Anthropic explicitly warns models are better at finding than exploiting &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;for now&lt;/strong&gt;, but expects the gap to shrink (AnthropicAI follow‑up). A more detailed third-party summary includes: ~6,000 C++ files scanned, 112 reports, first bug in 20 minutes, exploit attempts costing ~$4k in credits, and “finding costs ~10× less than exploiting” (TheRundownAI). Anthropic staff call it a “&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;rubicon moment&lt;/strong&gt;” (logangraham).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Opus 4.6&lt;/strong&gt; 在 Firefox 上的大规模漏洞发现：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 与 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Mozilla&lt;/strong&gt; 报告称，Opus 4.6 在两周内发现 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;22 个漏洞&lt;/strong&gt;，其中 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;14 个高危&lt;/strong&gt;，约占 Mozilla 2025 年修复的高危漏洞的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;20%&lt;/strong&gt;（AnthropicAI）。Anthropic 明确警告，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;目前&lt;/strong&gt;模型更擅长发现漏洞而非利用漏洞，但预计这一差距将缩小（AnthropicAI 后续报道）。更详细的第三方摘要包括：扫描约 6,000 个 C++ 文件，112 份报告，首次发现漏洞仅用 20 分钟，利用尝试花费约 4,000 美元积分，且"发现成本比利用成本低约 10 倍"（TheRundownAI）。Anthropic 员工称之为"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;卢比孔时刻&lt;/strong&gt;"（rubicon moment）（logangraham）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Eval awareness + web-enabled integrity failure modes: Anthropic’s engineering blog describes Opus 4.6 recognizing &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;BrowseComp&lt;/strong&gt;, finding/decrypting answers, raising concerns about benchmark integrity under web tools (AnthropicAI). Additional notes: models can use cached web artifacts as a communication channel across “stateless” search tools (ErikSchluntz). Scaling commentary emphasizes how far this goes: locate benchmark, reverse engineer decryption logic, find mirrors, then answer correctly (scaling01).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;评估意识 + 网络-enabled 的完整性失效模式：Anthropic 的工程博客描述了 Opus 4.6 识别 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;BrowseComp&lt;/strong&gt;、查找/解密答案，引发了对网络工具下基准测试完整性的担忧（AnthropicAI）。额外说明：模型可以使用缓存的网络工件作为跨"无状态"搜索工具的通信渠道（ErikSchluntz）。Scaling 评论强调这能走多远：定位基准测试、逆向工程解密逻辑、查找镜像，然后正确回答（scaling01）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI launches &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Codex Security&lt;/strong&gt; + OSS program: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex Security&lt;/strong&gt;: an “application security agent” to find/validate vulnerabilities and propose fixes, rolling out as a research preview to ChatGPT Enterprise/Business/Edu via Codex web with free usage for a month (OpenAIDevs; rollout details:1). Later, it’s also available to &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ChatGPT Pro&lt;/strong&gt; accounts (OpenAIDevs). &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex for Open Source&lt;/strong&gt;: OpenAI offers eligible maintainers support (ChatGPT Pro, Codex, API credits, plus access to Codex Security) aiming to reduce maintainer load and improve security coverage (OpenAIDevs, reach_vb explainer, kevinweil summary).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI 推出 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Codex Security&lt;/strong&gt; + 开源计划：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex Security&lt;/strong&gt;：一个"应用安全智能体"，用于发现/验证漏洞并提出修复建议，作为研究预览通过 Codex Web 向 ChatGPT Enterprise/Business/Edu 推出，免费使用一个月（OpenAIDevs；推出详情：1）。随后也向 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ChatGPT Pro&lt;/strong&gt; 账户开放（OpenAIDevs）。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex for Open Source&lt;/strong&gt;：OpenAI 为符合条件的维护者提供支持（ChatGPT Pro、Codex、API 积分，以及 Codex Security 访问权限），旨在减少维护者负担并提高安全覆盖率（OpenAIDevs、reach_vb 解释、kevinweil 摘要）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Security meta‑narrative: Multiple tweets argue we’re entering a period where “assume complex public software is compromised” (inerati) and prompt injection is spreading into high‑profile projects as agents push code with less human review (GergelyOrosz). &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AISI&lt;/strong&gt;’s red team is hiring, emphasizing misuse/control/alignment red teaming as stakes rise (alxndrdavies).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;安全元叙事：多条推文认为，我们正在进入一个"假设复杂的公共软件已被入侵"的时期（inerati），随着智能体推送代码的人工审查减少，提示注入（prompt injection）正在蔓延到知名项目中（GergelyOrosz）。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AISI&lt;/strong&gt;（英国 AI 安全研究所）的红队正在招聘，强调随着赌注增加，需关注滥用/控制/对齐的红队测试（alxndrdavies）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Inference &amp; kernel engineering: cross‑platform attention, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;vLLM&lt;/strong&gt; v0.17, and agentic kernel optimization
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-推理与内核工程：跨平台注意力、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;vLLM&lt;/strong&gt; v0.17 与智能体内核优化
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;vLLM &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Triton attention backend&lt;/strong&gt;: “one kernel source across &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NVIDIA/AMD/Intel&lt;/strong&gt;”: vLLM describes a Triton attention backend (~800 lines) intended to avoid maintaining separate attention kernels per GPU platform, claiming &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;H100&lt;/strong&gt; parity with SOTA and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;~5.8× speedup&lt;/strong&gt; on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;MI300&lt;/strong&gt; vs earlier implementations. Technical highlights include Q‑blocks, tiled softmax for decode, persistent kernels for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CUDA graph&lt;/strong&gt; compatibility, and cross‑platform benchmarking. Now default on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ROCm&lt;/strong&gt; and available on NVIDIA/Intel (vllm_project).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;vLLM &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Triton 注意力后端&lt;/strong&gt;："跨 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NVIDIA/AMD/Intel&lt;/strong&gt; 的单一内核源码"：vLLM 描述了一个 Triton 注意力后端（约 800 行代码），旨在避免为每个 GPU 平台维护单独的注意力内核，声称与 SOTA 在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;H100&lt;/strong&gt; 上持平，并在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;MI300&lt;/strong&gt; 上比早期实现&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;提速约 5.8 倍&lt;/strong&gt;。技术亮点包括 Q-blocks、用于解码的分块 softmax、用于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CUDA 图&lt;/strong&gt;（CUDA graph）兼容性的持久内核，以及跨平台基准测试。现已在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ROCm&lt;/strong&gt; 上默认启用，并可在 NVIDIA/Intel 上使用（vllm_project）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;vLLM v0.17.0&lt;/strong&gt; release: Highlights include &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;FlashAttention 4&lt;/strong&gt; integration, support for &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Qwen3.5&lt;/strong&gt; with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GDN (Gated Delta Networks)&lt;/strong&gt;, Model Runner V2 maturation (pipeline parallel, decode context parallel, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Eagle3&lt;/strong&gt; + CUDA graphs), a new performance mode flag, Weight Offloading V2, elastic expert parallelism, and direct loading of quantized &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LoRA&lt;/strong&gt; adapters. The release also notes extensive kernel/hardware updates across &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NVIDIA&lt;/strong&gt; SM100/120, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AMD&lt;/strong&gt; ROCm, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Intel&lt;/strong&gt; XPU, and CPU backends (vllm_project, more, models/spec decode notes).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;vLLM v0.17.0&lt;/strong&gt; 发布：亮点包括集成 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;FlashAttention 4&lt;/strong&gt;、支持带 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GDN（门控增量网络）&lt;/strong&gt;的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Qwen3.5&lt;/strong&gt;、Model Runner V2 成熟（流水线并行、解码上下文并行、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Eagle3&lt;/strong&gt; + CUDA 图）、新的性能模式标志、Weight Offloading V2、弹性专家并行（elastic expert parallelism），以及直接加载量化 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LoRA&lt;/strong&gt;（低秩适应）适配器。该版本还提到跨 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NVIDIA&lt;/strong&gt; SM100/120、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AMD&lt;/strong&gt; ROCm、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Intel&lt;/strong&gt; XPU 及 CPU 后端的广泛内核/硬件更新（vllm_project、更多内容、模型/投机解码说明）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;KernelAgent&lt;/strong&gt; (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt;/&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;PyTorch&lt;/strong&gt;) for Triton optimization: PyTorch team publishes KernelAgent: closed‑loop multi‑agent workflow guided by GPU performance signals for Triton kernel optimization; reports &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;2.02×&lt;/strong&gt; speedup vs a correctness-focused version, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;1.56×&lt;/strong&gt; faster than out‑of‑box &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;torch.compile&lt;/code&gt;, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;88.7%&lt;/strong&gt; roofline efficiency on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;H100&lt;/strong&gt;; code and artifacts open sourced (KaimingCheng).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;用于 Triton 优化的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;KernelAgent&lt;/strong&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt;/&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;PyTorch&lt;/strong&gt;）：PyTorch 团队发布 KernelAgent：由 GPU 性能信号指导的闭环多智能体工作流，用于 Triton 内核优化；报告称相比注重正确性的版本提速 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;2.02 倍&lt;/strong&gt;，比开箱即用的 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;torch.compile&lt;/code&gt; 快 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;1.56 倍&lt;/strong&gt;，在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;H100&lt;/strong&gt; 上达到 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;88.7%&lt;/strong&gt; 的屋顶线效率（roofline efficiency）；代码和工件已开源（KaimingCheng）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Competitive kernel optimization: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GPU MODE&lt;/strong&gt; announces a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;$1.1M&lt;/strong&gt; AMD-sponsored kernel competition targeting &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;MI355X&lt;/strong&gt; for optimizing &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;DeepSeek‑R1‑0528&lt;/strong&gt; and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GPT‑OSS‑120B&lt;/strong&gt; (GPU_MODE).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;竞争性内核优化：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GPU MODE&lt;/strong&gt; 宣布了一项由 AMD 赞助的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;110 万美元&lt;/strong&gt;内核竞赛，针对 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;MI355X&lt;/strong&gt; 优化 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;DeepSeek‑R1‑0528&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GPT‑OSS‑120B&lt;/strong&gt;（GPU_MODE）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Smaller/specialized models and post‑training recipes: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Phi‑4‑RV&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Databricks&lt;/strong&gt;’ KARL, and continual adaptation ideas
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-更小/专用模型与训练后方案：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Phi‑4‑RV&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Databricks&lt;/strong&gt; 的 KARL，以及持续自适应理念
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Microsoft &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Phi‑4‑reasoning‑vision‑15B&lt;/strong&gt;: Released as a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;15B multimodal reasoning&lt;/strong&gt; model (text+vision), framed as the “sweet spot” for practical agents where frontier models aren’t necessary (omarsar0, and dair_ai).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Microsoft &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Phi‑4‑reasoning‑vision‑15B&lt;/strong&gt;：作为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;150 亿参数的多模态推理&lt;/strong&gt;模型（文本+视觉）发布，被认为是实用智能体的"最佳平衡点"，无需使用前沿模型（omarsar0 和 dair_ai）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Databricks&lt;/strong&gt;: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;RL&lt;/strong&gt; + synthetic data to build task‑specialized, cheaper models: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Matei Zaharia&lt;/strong&gt; outlines a recipe: generate synthetic data, apply efficient large-batch off-policy RL (&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OAPL&lt;/strong&gt;), generate harder data with updated model, producing a smaller specialized model (matei_zaharia). &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jamin Ball&lt;/strong&gt; summarizes Databricks’ &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;KARL&lt;/strong&gt; as beating Claude 4.6 and GPT‑5.2 on enterprise knowledge tasks at &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;~33% lower cost&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;~47% lower latency&lt;/strong&gt;, with RL learning to search more efficiently (stop earlier, fewer wasted queries) and the pipeline being opened to customers—“data platforms becoming agent platforms” (jaminball).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Databricks&lt;/strong&gt;：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;强化学习&lt;/strong&gt;（RL）+ 合成数据构建任务专用、更便宜的模型：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Matei Zaharia&lt;/strong&gt; 概述了配方：生成合成数据，应用高效的大批量离线策略 RL（&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OAPL&lt;/strong&gt;），用更新后的模型生成更难的数据，从而产生更小的专用模型（matei_zaharia）。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jamin Ball&lt;/strong&gt; 总结 Databricks 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;KARL&lt;/strong&gt; 在企业知识任务上击败 Claude 4.6 和 GPT‑5.2，成本降低 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;约 33%&lt;/strong&gt;，延迟降低 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;约 47%&lt;/strong&gt;，通过 RL 学习更高效地搜索（更早停止、更少浪费的查询），且该管道已向客户开放——"数据平台正在成为智能体平台"（jaminball）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Fine-tuning data efficiency via pretraining replay: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Suhas Kotha&lt;/strong&gt; reports that replaying generic pretraining data during finetuning can reduce forgetting and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;improve&lt;/strong&gt; finetuning-domain performance when finetuning data is scarce (with &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Percy Liang&lt;/strong&gt;) (kothasuhas, percyliang follow‑up).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;通过预训练回放提高微调数据效率：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Suhas Kotha&lt;/strong&gt; 报告称，在微调期间回放通用预训练数据可以减少灾难性遗忘，并在微调数据稀缺时&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;提高&lt;/strong&gt;微调域性能（与 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Percy Liang&lt;/strong&gt; 合作）（kothasuhas、percyliang 跟进）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sakana&lt;/strong&gt; “Doc‑to‑LoRA / Text‑to‑LoRA” continual learning direction (via third-party summary): A hypernetwork generates &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LoRA&lt;/strong&gt; adapters from documents or task descriptions at runtime (one forward pass), enabling memory/skill updates without full finetuning (high-level summary; original work attributed to &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sakana AI Labs&lt;/strong&gt;) (TheTuringPost).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sakana&lt;/strong&gt;（ Sakana AI Labs）"Doc‑to‑LoRA / Text‑to‑LoRA"持续学习方向（通过第三方摘要）：超网络（hypernetwork）在运行时从文档或任务描述生成 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LoRA&lt;/strong&gt;（低秩适应）适配器（一次前向传播），无需完整微调即可实现记忆/技能更新（高级摘要；原创工作归属于 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sakana AI Labs&lt;/strong&gt;）（TheTuringPost）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Top tweets (by engagement, technical-only)&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Claude Opus 4.6 finds Firefox vulns: 22 confirmed vulnerabilities in 2 weeks; 14 high severity; ~20% of Mozilla’s 2025 high-severity fixes (AnthropicAI).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Claude Opus 4.6 发现 Firefox 漏洞：两周内确认 22 个漏洞；14 个高危；约占 Mozilla 2025 年高危修复的 20%（AnthropicAI）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Codex Security launches: OpenAI’s application security agent in research preview (OpenAIDevs; OpenAI).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Codex Security 发布：OpenAI 的应用安全智能体进入研究预览阶段（OpenAIDevs；OpenAI）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Claude Code scheduled tasks: local scheduled tasks in Claude Code desktop (trq212).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Claude Code 定时任务：Claude Code 桌面版中的本地定时任务（trq212）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Codex for Open Source: support package for OSS maintainers (ChatGPT Pro/Codex/API credits, security tooling access) (OpenAIDevs).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;Codex for Open Source：面向开源维护者的支持包（ChatGPT Pro/Codex/API 积分、安全工具访问权限）（OpenAIDevs）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;vLLM cross‑platform Triton attention backend: single-source attention kernel strategy across NVIDIA/AMD/Intel with reported MI300 speedups (vllm_project).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul&gt;
-&lt;li&gt;vLLM 跨平台 Triton 注意力后端：跨 NVIDIA/AMD/Intel 的单一源码注意力内核策略，据称在 MI300 上实现提速（vllm_project）。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 style="margin:24px 0 12px;"&gt;本次对话我的最大收获：&lt;/h2&gt;
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
@@ -436,132 +210,36 @@ Read more
 阅读更多
 &lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.latent.space/p/ainews-ai-engineer-will-be-the-last"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.latent.space/p/ainews-ai-engineer-will-be-the-last</guid>
-      <pubDate>Sat, 07 Mar 2026 08:50:06 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of</guid>
+      <pubDate>Sun, 08 Mar 2026 12:31:38 +0000</pubDate>
     </item>
     <item>
-      <title>[翻译] Construction Physics: 每周阅读精选 2026.03.07</title>
-      <link>https://www.construction-physics.com/p/reading-list-03072026</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #房地产 #能源 #基础设施&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本期科技阅读清单聚焦建筑与能源领域的热点议题：住房方面，加州受Prop 13法案影响已有18%房产通过继承转移，且日本企业正加速收购美国大型建筑商；能源领域则关注数据中心大规模断电对电网稳定的威胁、中国5740亿美元的电网升级计划，以及特朗普政府可能对太阳能光伏的政策转向。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Reading List 03/07/2026&lt;/p&gt;
+      <title>[翻译] Simon Willison: 魏泽鲍姆语录</title>
+      <link>https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #人工智能 #技术伦理 #心理影响&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 文章引用聊天机器人ELIZA创造者约瑟夫·魏泽鲍姆1976年的话，指出即使是简单的计算机程序也能在短时间内诱导正常人产生强烈的妄想性思维。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Quoting Joseph Weizenbaum&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Reading List 03/07/2026&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Quoting Joseph Weizenbaum&lt;/h3&gt;
 
-&lt;img src="https://substackcdn.com/image/fetch/$s_!-KeY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F971ac485-850f-4b0b-a241-d52668046f32_1920x1440.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;8th March 2026&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;2026年3月8日&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Welcome to the reading list, a weekly roundup of news and links related to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;buildings&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;infrastructure&lt;/strong&gt;, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;industrial technology&lt;/strong&gt;. Roughly 2/3rds of the reading list is &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;paywalled&lt;/strong&gt;, so for full access become a paid subscriber.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;欢迎阅读本期清单，这是一份关于&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;建筑&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;基础设施&lt;/strong&gt;和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;工业技术&lt;/strong&gt;的新闻与链接每周汇总。本期清单约有三分之二的内容设有&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;付费墙&lt;/strong&gt;（paywalled），如需完整访问请订阅付费会员。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Housing&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Thanks to California’s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Prop 13&lt;/strong&gt;, which limits annual &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;property tax&lt;/strong&gt; increases to 2% over the most recent sales prices, a very large (and increasing) fraction of homes in California are transferred through &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;inheritance&lt;/strong&gt;.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;由于加州的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;13号提案&lt;/strong&gt;（Prop 13）将年度&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;房产税&lt;/strong&gt;（property tax）涨幅限制在最近一次售价的2%以内，加州有相当大（且不断增加）比例的房屋通过&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;继承&lt;/strong&gt;（inheritance）方式转让。&lt;/p&gt;
-
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;"About 18% of all property transfers in the state last year, representing nearly 60,000 homes, were made through inheritance, according to a recent analysis by real-estate data firm &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Cotality&lt;/strong&gt;. That share is a record for California in data going back to 1995, up from 12% in 2019. It is also roughly double the national share of 8.8% last year."[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WSJ&lt;/strong&gt;]&lt;/div&gt;&lt;/blockquote&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;据房地产数据公司&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Cotality&lt;/strong&gt;最近的一项分析显示，"去年该州所有房产转让中约有18%（代表近6万套房屋）是通过继承完成的。这一比例是加州自1995年有数据以来的最高纪录，高于2019年的12%，也大约是去年全国8.8%占比的两倍。"[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;华尔街日报&lt;/strong&gt;（WSJ）]&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Claims about the rising cost of housing’s impact on US &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;fertility&lt;/strong&gt;. Based on a (data-derived) &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;economic model&lt;/strong&gt;, so take with a grain of salt.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;关于住房成本上升对美国&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;生育率&lt;/strong&gt;（fertility）影响的论断。基于一个（数据推导的）&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;经济模型&lt;/strong&gt;（economic model），因此请谨慎看待。&lt;/p&gt;
-
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;"I vary housing costs directly within the model, finding that rising costs since 1990 are responsible for 11% fewer children, 51% of the total fertility rate decline between the 2000s and 2010s, and 7 percentage points fewer young families in the 2010s."[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;X&lt;/strong&gt;]&lt;/div&gt;&lt;/blockquote&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;"我在模型中直接调整住房成本，发现自1990年以来不断上涨的住房成本导致儿童数量减少11%，占2000年代至2010年代总生育率下降的51%，并导致2010年代年轻家庭数量减少7个百分点。"[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;X&lt;/strong&gt;（原Twitter）]&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Los Angeles makes it easier to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;convert offices&lt;/strong&gt; into &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;apartment buildings&lt;/strong&gt;. This is a perennially popular idea for increasing the supply of housing that is often hard to make work in practice (since these sorts of conversions are typically very expensive), but good to make it easier to do. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;LA Times&lt;/strong&gt;]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;洛杉矶简化了将&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;办公楼&lt;/strong&gt;（convert offices）改建为&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;公寓楼&lt;/strong&gt;（apartment buildings）的流程。这是一个长期以来广受欢迎的增加住房供应的想法，但在实践中往往难以实施（因为这类改建通常成本高昂），但简化流程总归是好事。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;洛杉矶时报&lt;/strong&gt;（LA Times）]&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;An interesting look at the largest &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;homebuilders&lt;/strong&gt; in the US, and the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Japanese corporations&lt;/strong&gt; that are acquiring them. I wonder if we’re finally starting to see the sorts of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;concentration&lt;/strong&gt; in US homebuilding that we see in other industries. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Resiclub&lt;/strong&gt;]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;一篇关于美国最大的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;住宅建筑商&lt;/strong&gt;（homebuilders）以及正在收购它们的&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;日本企业&lt;/strong&gt;的有趣观察。我想知道我们是否终于开始在美国住宅建筑行业看到与其他行业类似的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;集中度&lt;/strong&gt;（concentration）。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Resiclub&lt;/strong&gt;]&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!W4Ag!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F155c7b79-7907-41df-aa59-a30691f50944_1740x1528.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ONX Homes&lt;/strong&gt; is a Florida-based &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prefab&lt;/strong&gt; homebuilding company started by ex-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Katerra&lt;/strong&gt; folks, and using a Katerra-esque business model, that I’ve written about previously. There’s reports that things aren’t going well in their Austin division, and that a development they’re working on has been abandoned. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;X&lt;/strong&gt;]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ONX Homes&lt;/strong&gt;是一家总部位于佛罗里达州的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;预制&lt;/strong&gt;（prefab）住宅建筑公司，由前&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Katerra&lt;/strong&gt;员工创立，采用类似Katerra的商业模式，我之前曾写过这家公司。有报道称其奥斯汀分部经营状况不佳，且他们正在开发的一个项目已被放弃。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;X&lt;/strong&gt;]&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Energy&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Since historically it’s been prohibitively expensive to store electricity, the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;grid&lt;/strong&gt; needs to balance &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;electricity supply&lt;/strong&gt; and demand moment to moment, bringing power sources online as demand rises and bringing them offline if it falls. If there’s a mismatch — such as if, say, dozens of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;data centers&lt;/strong&gt; which collectively draw several thousand &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;megawatts&lt;/strong&gt; of power simultaneously disconnect because of grid disturbances — that can cause damage to the grid if its not carefully managed.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;由于历史上储存电力的成本一直高得令人望而却步，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;电网&lt;/strong&gt;（grid）需要时刻平衡&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;电力供应&lt;/strong&gt;（electricity supply）与需求，在需求上升时将电源接入电网，在需求下降时将其断开。如果出现不匹配——例如，数十个&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;数据中心&lt;/strong&gt;（data centers）因电网故障同时断开连接，而这些数据中心总共消耗数千&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;兆瓦&lt;/strong&gt;（megawatts）的电力——如果管理不当，这可能会对电网造成损害。&lt;/p&gt;
-
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;"Early last year, a cluster of data centers in Virginia suddenly dropped off the power grid, threatening the stability of the already vulnerable system. The roughly 40 data centers, which had been using enough electricity to supply more than one million homes, simultaneously switched to backup power sources in February 2025, when a high-voltage power line malfunctioned. The sudden plunge in electricity demand forced the grid operator to take quick action to avoid potentially serious damage."&lt;/div&gt;&lt;/blockquote&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;"去年年初，弗吉尼亚州的一群数据中心突然脱离电网，威胁到本已脆弱的系统的稳定性。这大约40个数据中心消耗的电力足以供应超过一百万户家庭，它们在2025年2月一条高压输电线路发生故障时同时切换到备用电源。电力需求的突然骤降迫使电网运营商迅速采取行动，以避免可能造成严重损害。"&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Grid operators have been able to handle these occurrences so far, but they’re apparently worried what might happen in the future if even larger disconnects occur. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WSJ&lt;/strong&gt;]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;到目前为止，电网运营商还能够应对这些事件，但显然他们担心未来如果出现更大规模的断电会发生什么。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;华尔街日报&lt;/strong&gt;（WSJ）]&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;China plans to invest $574 billion in upgrading its &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;power grid&lt;/strong&gt; over the next five years. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Reuters&lt;/strong&gt;]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;中国计划在未来五年内投资5740亿美元升级其&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;电网&lt;/strong&gt;（power grid）。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;路透社&lt;/strong&gt;（Reuters）]&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Washington Post&lt;/strong&gt; has an article on what might be an increasing willingness to embrace &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;solar PV&lt;/strong&gt; in the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Trump administration&lt;/strong&gt;.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;华盛顿邮报&lt;/strong&gt;（Washington Post）发表了一篇文章，讨论&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;特朗普政府&lt;/strong&gt;（Trump administration）对&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;太阳能光伏&lt;/strong&gt;（solar PV）的接受度可能正在提高。&lt;/p&gt;
-
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;"A growing number of prominent Trump allies — including former House speaker &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Newt Gingrich&lt;/strong&gt;, veteran strategist &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Kellyanne Conway&lt;/strong&gt; and GOP pollster &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Tony Fabrizio&lt;/strong&gt; — are promoting solar as electricity demand surges and energy affordability climbs the list of voter concerns."[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Washington Post&lt;/strong&gt;]&lt;/div&gt;&lt;/blockquote&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;"越来越多特朗普的知名盟友——包括前众议院议长&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;纽特·金里奇&lt;/strong&gt;（Newt Gingrich）、资深策略师&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;凯莉安妮·康威&lt;/strong&gt;（Kellyanne Conway）以及共和党民调专家&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;托尼·法布里齐奥&lt;/strong&gt;（Tony Fabrizio）——正在推广太阳能，因为电力需求激增，且能源可负担性已成为选民关注的重点。"[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;华盛顿邮报&lt;/strong&gt;（Washington Post）]&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Solar PV&lt;/strong&gt; manufacturers are increasingly &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;diversifying&lt;/strong&gt; their businesses. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bloomberg&lt;/strong&gt;]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;太阳能光伏&lt;/strong&gt;（Solar PV）制造商正日益&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;多元化&lt;/strong&gt;（diversifying）其业务。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;彭博社&lt;/strong&gt;（Bloomberg）]&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!I4ta!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe145813e-cbac-4611-99f7-46cf2aecff29_637x345.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Cool graphic showing where &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;solar panel efficiency records&lt;/strong&gt; (the fraction of sunlight a panel can convert into usable electricity) have been set over time. It used to be the US developing increasingly efficient solar panels. Now those records are being set in China. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;VoxDev&lt;/strong&gt;]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;一张很酷的图表，展示了&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;太阳能电池板效率记录&lt;/strong&gt;（solar panel efficiency records，即电池板将阳光转化为可用电能的比例）随着时间推移在何处被创造。过去是美国在开发效率越来越高的太阳能电池板，而现在这些记录正在中国被创造。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;VoxDev&lt;/strong&gt;]&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!Vqhl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd39fbcfd-6027-46c3-ac1e-c25a71205f20_975x585.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Department of Energy&lt;/strong&gt; released the new &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;nuclear safety rules&lt;/strong&gt; that it had reportedly been updating. Apparently 750 pages, 2/3rds of the previous rules(!) have been cut, including what seems like references to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ALARA&lt;/strong&gt; (requirements that radiation exposure be "As Low As Reasonably Achievable.") [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NPR&lt;/strong&gt;]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;美国能源部&lt;/strong&gt;（Department of Energy）发布了据称一直在更新的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;核安全法规&lt;/strong&gt;（nuclear safety rules）。据称新法规有750页，比之前削减了三分之二的篇幅（！），其中包括对&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ALARA&lt;/strong&gt;（"合理可行尽量低"原则，即要求辐射暴露"尽可能低"）的引用。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;美国国家公共广播电台&lt;/strong&gt;（NPR）]&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Read more&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;阅读更多&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.construction-physics.com/p/reading-list-03072026"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.construction-physics.com/p/reading-list-03072026</guid>
-      <pubDate>Sat, 07 Mar 2026 13:03:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Lenny's Newsletter: 社区智慧：过时商业书籍、Figma设计系统Vibe编程、Claude Code工具对比等</title>
-      <link>https://www.lennysnewsletter.com/p/community-wisdom-business-books-that</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #商业书籍 #AI编程 #设计系统 #开发工具&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本期《Community Wisdom》订阅邮件汇集了会员社区的精选讨论，涵盖过时商业书籍盘点、基于Figma设计系统的vibe coding实践，以及Claude Code与其他编程工具的比较分析。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: 🧠 Community Wisdom: Business books that haven’t aged well, vibe coding with your Figma design systems, Claude Code vs. other coding tools and more&lt;/p&gt;
-&lt;hr/&gt;
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-👋 Hello and welcome to this week’s edition of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;✨Community Wisdom✨&lt;/strong&gt; a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;subscriber-only&lt;/strong&gt; email, delivered every Saturday, highlighting the most helpful conversations in our &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;members-only Slack&lt;/strong&gt; community.
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;What I had not realized is that extremely short exposures to a relatively simple &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;computer program&lt;/strong&gt; could induce powerful &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;delusional thinking&lt;/strong&gt; in quite normal people.&lt;/blockquote&gt;
 &lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;border-left:3px solid #c0c0c0;padding:8px 16px;background:#f9f9fb;"&gt;我未曾意识到的是，极其短暂地接触一个相对简单的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;计算机程序&lt;/strong&gt;（computer program），就能在相当正常的人群中诱发强烈的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;妄想性思维&lt;/strong&gt;（delusional thinking）。&lt;/p&gt;
 
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-👋 你好，欢迎阅读本周的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;✨Community Wisdom✨&lt;/strong&gt;（社区智慧）栏目——这是一封&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;仅限订阅者&lt;/strong&gt;的邮件，每周六发送，精选我们&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;仅限会员的 Slack&lt;/strong&gt; 社区中最有价值的讨论。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;What I had not realized is that extremely short exposures to a relatively simple &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;computer program&lt;/strong&gt; could induce powerful &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;delusional thinking&lt;/strong&gt; in quite normal people.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我未曾意识到的是，极其短暂地接触一个相对简单的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;计算机程序&lt;/strong&gt;（computer program），就能在相当正常的人群中诱发强烈的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;妄想性思维&lt;/strong&gt;（delusional thinking）。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;—&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Joseph Weizenbaum&lt;/strong&gt;, creator of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ELIZA&lt;/strong&gt;, in 1976 (via)&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;约瑟夫·维森鲍姆&lt;/strong&gt;（Joseph Weizenbaum），&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ELIZA&lt;/strong&gt; 的创造者，1976年（via）&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/community-wisdom-business-books-that"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/community-wisdom-business-books-that</guid>
-      <pubDate>Sat, 07 Mar 2026 16:44:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: OpenAI 推出开源维护者 Codex 福利计划</title>
-      <link>https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #开源 #AI编程 #开发者福利&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 继Anthropic之后，OpenAI也推出针对开源项目维护者的激励计划，提供六个月免费ChatGPT Pro（含Codex及安全功能）；与前者明确星级/下载量门槛不同，OpenAI虽未公布具体标准，但要求申请者提供项目影响力相关证明。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Codex for Open Source&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Codex for Open Source&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;7th March 2026 - Link Blog&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;2026年3月7日 - 链接博客&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Codex for Open Source(via) &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; announced six months of free &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Max&lt;/strong&gt; for maintainers of popular open source projects (5,000+ stars or 1M+ &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;NPM&lt;/strong&gt; downloads)on 27th February.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 于2月27日宣布，为热门开源项目（open source projects）的维护者（maintainers）提供六个月免费的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Max&lt;/strong&gt;（适用于 5,000+ Stars 或 100 万+ &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;NPM&lt;/strong&gt; 下载量的项目）。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Now &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; have launched their comparable offer: six months of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT Pro&lt;/strong&gt; (same $200/month price as Claude Max) with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt; and "conditional access to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex Security&lt;/strong&gt;" for core maintainers.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;现在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 也推出了类似的优惠方案：为核心维护者（core maintainers）提供六个月免费的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT Pro&lt;/strong&gt;（与 Claude Max 相同的每月 200 美元定价），包含 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt; 以及"有条件的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex Security&lt;/strong&gt; 访问权限"。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Unlike &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; they don't hint at the exact metrics they care about, but theapplication formdoes ask for "information such as &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GitHub&lt;/strong&gt; stars, monthly downloads, or why the project is important to the ecosystem."&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;与 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 不同，他们没有透露具体关注的指标门槛，但申请表（application form）确实要求提供"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GitHub&lt;/strong&gt; Stars 数量、月度下载量，或该项目对生态系统的重要性等信息"。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything</guid>
-      <pubDate>Sat, 07 Mar 2026 18:13:39 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything</guid>
+      <pubDate>Sun, 08 Mar 2026 14:59:48 +0000</pubDate>
     </item>
   </channel>
 </rss>
