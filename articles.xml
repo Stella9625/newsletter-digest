@@ -7,239 +7,794 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 08 Mar 2026 22:49:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 22:59:56 +0000</lastBuildDate>
     <item>
-      <title>[翻译] Lenny's Newsletter: 最成功却鲜为人知的AI公司</title>
-      <link>https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #自动驾驶 #工业AI #创业经验&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Applied Intuition联合创始人Qasar Younis预测，未来5至10年最大的AI革命将发生在采矿、农业、建筑和货运等实体行业，而非软件领域。这位前YC首席运营官分享了他如何带领这家估值150亿美元的自动驾驶软件公司长期保持低调发展，以及对中国AI能力和创业公司早期变现的独到见解。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: The most successful AI company you’ve never heard of | Qasar Younis&lt;/p&gt;
+      <title>[翻译] TLDR AI: Claude发现Firefox漏洞，AI市场与代码安全新进展</title>
+      <link>https://tldr.tech/ai/2026-03-09</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI安全 #Claude生态 #代码生成 #AI工具&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Claude Opus 4.6在两周内发现Firefox浏览器超百个漏洞（含14个高危），同时Anthropic推出Claude Marketplace企业应用商店，OpenAI也发布了Codex Security代码安全分析工具。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Claude finds Firefox bugs 🐛, Claude Marketplace 🤝, Codex Security 🤖&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;The most successful AI company you’ve never heard of | Qasar Younis&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;TLDR AI 2026-03-09&lt;/h3&gt;
 
-&lt;img src="https://substackcdn.com/image/fetch/$s_!3rW2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F686f170f-2dfa-498a-ab27-aee1a7bb1540_1920x1080.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Claude finds Firefox bugs 🐛, Claude Marketplace 🤝, Codex Security 🤖&lt;/h3&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Qasar Younis&lt;/strong&gt; is the co-founder and CEO of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Applied Intuition&lt;/strong&gt;, a $15 billion &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; company that adds intelligence to cars, tractors, planes, submarines, and other vehicles—essentially, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Tesla&lt;/strong&gt; or &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Waymo&lt;/strong&gt; without the hardware. He was previously COO of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Y Combinator&lt;/strong&gt;, started his career as an engineer at &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GM&lt;/strong&gt; and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bosch&lt;/strong&gt;, and was born on a farm in Pakistan.
+&lt;h4&gt;Most Product Teams Are Failing at AI Adoption. This Research Explains Why (Sponsor)&lt;/h4&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Qasar Younis&lt;/strong&gt; 是 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Applied Intuition&lt;/strong&gt; 的联合创始人兼首席执行官，这是一家估值 150 亿美元的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 公司，为汽车、拖拉机、飞机、潜艇及其他交通工具提供智能化解决方案——本质上就是不做硬件的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Tesla&lt;/strong&gt; 或 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Waymo&lt;/strong&gt;。他曾任 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Y Combinator&lt;/strong&gt; 的首席运营官，职业生涯始于 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;通用汽车（GM）&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;博世（Bosch）&lt;/strong&gt; 的工程师，出生于巴基斯坦的一个农场。
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Miro&lt;/strong&gt; 委托 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Forrester Consulting&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Harvard Business Review Analytic Services&lt;/strong&gt; 开展了这项研究。他们的联合研究调查了全球产品负责人，以找出最大的阻碍因素以及真正有效的策略。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Listen on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt;, and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt;
+Product leaders are under pressure to ship &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI-powered features&lt;/strong&gt; faster. But despite the rush, most organizations still struggle to unlock AI's full potential. So what's going wrong?
+
+Miro commissioned Forrester Consulting and Harvard Business Review Analytic Services to find out.
+
+Their joint research surveyed product leaders worldwide to pinpoint the biggest roadblocks — and the strategies that are actually working. Read it for:
+
+&lt;ul&gt;
+&lt;li&gt;New insights from global product leaders&lt;/li&gt;
+&lt;li&gt;Data on the biggest prod roadblocks&lt;/li&gt;
+&lt;li&gt;How leaders are using AI to actually boost productivity&lt;/li&gt;
+&lt;/ul&gt;
+
+Get the free ebook
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt; 上收听
+产品负责人面临着更快交付 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 驱动功能&lt;/strong&gt;（AI-powered features）的压力。但尽管赶工匆忙，大多数组织仍在努力释放 AI 的全部潜力。那么问题出在哪里？
+
+阅读本报告可获取：
+&lt;ul&gt;
+&lt;li&gt;来自全球产品负责人的新见解&lt;/li&gt;
+&lt;li&gt;关于最大产品障碍的数据&lt;/li&gt;
+&lt;li&gt;领导者如何利用 AI 真正提升生产力&lt;/li&gt;
+&lt;/ul&gt;
+
+获取免费电子书
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;h3&gt;We discuss:&lt;/h3&gt;
-&lt;ul style="margin-left:20px;"&gt;
-&lt;li&gt;Why the biggest &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI revolution&lt;/strong&gt; will play out in mining, farming, construction, and trucking over the next 5 to 10 years, not in software&lt;/li&gt;
-&lt;li&gt;Why Qasar intentionally stayed under the radar for nearly a decade while building Applied Intuition, and why most founders shouldn't do that&lt;/li&gt;
-&lt;li&gt;The truth about China's AI capabilities and why comparisons to American companies are fundamentally flawed&lt;/li&gt;
-&lt;li&gt;The company values that drive Applied Intuition: speed above everything, laugh a lot, half the work is follow-up, never disappoint the customer&lt;/li&gt;
-&lt;li&gt;The biggest lessons from Qasar's stint as YC's COO, including that the most successful companies show &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;traction&lt;/strong&gt; very early&lt;/li&gt;
-&lt;li&gt;How reading old books is the best way to build taste&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;p style="margin-bottom:12px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;我们讨论的话题：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul style="margin-left:20px;"&gt;
-&lt;li&gt;为何未来 5 到 10 年最大的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 革命&lt;/strong&gt; 将发生在采矿、农业、建筑和货运领域，而非软件行业&lt;/li&gt;
-&lt;li&gt;为何 Qasar 在创办 Applied Intuition 的近十年间刻意保持低调，以及为何大多数创始人不应该效仿&lt;/li&gt;
-&lt;li&gt;关于中国 AI 能力的真相，以及为何将其与美国公司进行比较从根本上就是有缺陷的&lt;/li&gt;
-&lt;li&gt;驱动 Applied Intuition 的企业价值观：速度高于一切、保持幽默、一半的工作是跟进、永远不让客户失望&lt;/li&gt;
-&lt;li&gt;Qasar 在担任 YC 首席运营官期间学到的最重要经验，包括最成功的公司往往在早期就展现出 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;市场牵引力（traction）&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;阅读经典著作如何成为培养品味的最佳方式&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;h3&gt;Brought to you by:&lt;/h3&gt;
+&lt;h4&gt;Meta silently launches Vibes AI editor (2 minute read)&lt;/h4&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h4&gt;Meta 悄然推出 Vibes AI 编辑器（2 分钟阅读）&lt;/h4&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Meta silently launched the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Vibes AI editor&lt;/strong&gt;, transforming it from a feature in Meta AI to a standalone creation studio similar to &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google Flow&lt;/strong&gt;. The editor supports project creation, image and video generation, timeline editing, and other production tools. While the tooling is robust, output quality needs improvement.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; 悄然推出了 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Vibes AI 编辑器&lt;/strong&gt;，将其从 Meta AI 中的一项功能转变为一个独立的创作工作室，类似于 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google Flow&lt;/strong&gt;。该编辑器支持项目创建、图像和视频生成、时间线编辑以及其他制作工具。虽然工具功能强大，但输出质量有待提升。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h4&gt;Anthropic's AI Hacked the Firefox Browser. It Found a Lot of Bugs (3 minute read)&lt;/h4&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h4&gt;Anthropic 的 AI 破解了 Firefox 浏览器，发现了大量漏洞（3 分钟阅读）&lt;/h4&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Opus 4.6&lt;/strong&gt; found more high-severity bugs in &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Firefox&lt;/strong&gt; over a two-week period than the rest of the world typically reports in two months. The model discovered more than 100 bugs in total, 14 that were tagged as high severity. The model was asked to write code to exploit the bugs, but it turns out the model is much better at finding bugs than exploiting them. The exploits that Claude wrote would have been stopped in the real world by Firefox's other security mechanisms.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Opus 4.6&lt;/strong&gt; 在两周内在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Firefox&lt;/strong&gt; 浏览器中发现的高严重性漏洞数量，超过了全球其他地区通常两个月报告的总和。该模型共发现 100 多个漏洞，其中 14 个被标记为高严重性。研究人员要求模型编写代码来利用这些漏洞，但结果表明，该模型更擅长发现漏洞而非利用漏洞。Claude 编写的攻击代码在现实世界中会被 Firefox 的其他安全机制拦截。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h4&gt;Claude Marketplace (1 minute read)&lt;/h4&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h4&gt;Claude 应用市场（1 分钟阅读）&lt;/h4&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+The &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Marketplace&lt;/strong&gt; allows organizations to use some of their existing &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; commitment to purchase Claude-powered tools. Partner purchases will count against a portion of an organization's existing Anthropic commitment. Anthropic will manage all invoicing for partner spend. The marketplace is launching with &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GitLab&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Harvey&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lovable&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Replit&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Rogo&lt;/strong&gt;, and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snowflake&lt;/strong&gt;, and Anthropic is looking for more companies to work with.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Marketplace&lt;/strong&gt;（Claude 应用市场）允许组织使用其对 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 的部分现有承诺额度购买 Claude 驱动的工具。合作伙伴的购买将计入组织现有 Anthropic 承诺额度的一部分。Anthropic 将管理合作伙伴支出的所有发票。该市场首发合作伙伴包括 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GitLab&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Harvey&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lovable&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Replit&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Rogo&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snowflake&lt;/strong&gt;，Anthropic 正在寻找更多公司合作。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h4&gt;Reasoning boosts search relevance 15-30% (9 minute read)&lt;/h4&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h4&gt;推理能力将搜索相关性提升 15-30%（9 分钟阅读）&lt;/h4&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Reasoning agents&lt;/strong&gt; work best with simple search tools. Developers should use simple, easy-to-understand, and transparent search systems like &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;grep&lt;/code&gt; or basic keyword search. Agents can sift through results, learn, and retry with what they've learned. Asking an agent to explain the intent behind a query helps the agent reason about how to best satisfy the request by forcing it to think about what the user wants.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;推理智能体&lt;/strong&gt;（Reasoning agents）与简单的搜索工具配合效果最佳。开发者应使用简单、易懂且透明的搜索系统，如 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;grep&lt;/code&gt; 或基础关键词搜索。智能体可以筛选结果、学习并根据所学内容重试。要求智能体解释查询背后的意图，有助于其通过强制思考用户需求来推理如何最好地满足请求。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h4&gt;The emerging role of SRAM-centric chips in AI inference (4 minute read)&lt;/h4&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h4&gt;SRAM 中心芯片在 AI 推理中的新兴角色（4 分钟阅读）&lt;/h4&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SRAM-centric chips&lt;/strong&gt;, like those from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Cerebras&lt;/strong&gt; and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Groq&lt;/strong&gt;, are gaining traction due to their advantages in AI inference workloads, particularly in minimizing latency and increasing throughput compared to traditional GPUs. This shift is driven by the demand for near-compute memory architectures, which offer faster data access than far-compute approaches like &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;DRAM&lt;/strong&gt;. The trade-off lies in balancing memory bandwidth and compute capacity, leading to new disaggregated hardware strategies that optimize both prefill and decode phases of AI tasks across varied hardware platforms.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SRAM 中心芯片&lt;/strong&gt;（SRAM-centric chips），如 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Cerebras&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Groq&lt;/strong&gt; 的产品，正因其在 AI 推理工作负载中的优势而获得关注，特别是在与传统 GPU 相比最小化延迟和增加吞吐量方面。这一转变是由近计算内存架构（near-compute memory architectures）的需求驱动的，后者比 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;DRAM&lt;/strong&gt; 等远计算方案提供更快的数据访问。权衡在于平衡内存带宽和计算容量，从而催生了新的分解式硬件策略，以优化跨不同硬件平台的 AI 任务的预填充（prefill）和解码（decode）阶段。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h4&gt;Your LLM Doesn't Write Correct Code. It Writes Plausible Code. (8 minute read)&lt;/h4&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h4&gt;你的 LLM 不写正确的代码，它写的是看似合理的代码（8 分钟阅读）&lt;/h4&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+A benchmarked &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM&lt;/strong&gt;-generated Rust rewrite of SQLite ran 20,171x slower on primary key lookups because the query planner never checked the &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;is_ipk&lt;/code&gt; flag, sending every WHERE clause through a full table scan instead of a B-tree search. The same author's disk cleanup daemon came in at 82,000 lines with a Bayesian scoring engine and PID controller to solve a problem that a one-line cron job already handles. The root failure is structural: LLMs optimize for plausible output matching the user's intent, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;METR's RCT&lt;/strong&gt; with 16 experienced open-source developers confirmed the problem scales, finding AI users were 19% slower while believing they were 20% faster.
+
+👨‍💻
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+一个经基准测试的、由 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM&lt;/strong&gt;（大语言模型）生成的 SQLite Rust 重写版本，在主键查找上慢了 20,171 倍，因为查询规划器从未检查 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;is_ipk&lt;/code&gt; 标志，导致每个 WHERE 子句都通过全表扫描而非 B 树搜索执行。同一位作者的磁盘清理守护进程写了 82,000 行代码，使用贝叶斯评分引擎和 PID 控制器来解决一个单行 cron 作业就能处理的问题。根本缺陷是结构性的：LLM 针对匹配用户意图的看似合理的输出进行优化，而 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;METR&lt;/strong&gt;（Model Evaluation and Threat Research）的随机对照试验（RCT）与 16 位经验丰富的开源开发人员证实了这一问题会扩大规模，发现 AI 用户实际慢了 19%，却自以为快了 20%。
+
+👨‍💻
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3&gt;Engineering &amp; Research&lt;/h3&gt;
+
+&lt;h4&gt;We Benchmarked Five MCP Server Architectures. The Accuracy Gap Was 25%. (Sponsor)&lt;/h4&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3&gt;工程与研究&lt;/h3&gt;
+
+&lt;h4&gt;我们对五种 MCP 服务器架构进行了基准测试，准确率差距达 25%（赞助商）&lt;/h4&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+378 prompts across &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CRM&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ERP&lt;/strong&gt;, project management, and data warehouse systems. Most &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MCP servers&lt;/strong&gt; returned incorrect results 15–42% of the time.
+
+hit 98.5%. The variable wasn't the model — it was the connectivity layer between prompt and data source.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CRM&lt;/strong&gt;（客户关系管理）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ERP&lt;/strong&gt;（企业资源规划）、项目管理和数据仓库系统上进行了 378 个提示词测试。大多数 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MCP 服务器&lt;/strong&gt;（Model Context Protocol）的错误率达 15-42%。
+
+达到 98.5%。变量不是模型本身，而是提示词与数据源之间的连接层。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h4&gt;Codex Security Research Preview (8 minute read)&lt;/h4&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h4&gt;Codex 安全研究预览（8 分钟阅读）&lt;/h4&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI Codex Security&lt;/strong&gt; is an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;application security agent&lt;/strong&gt; designed to analyze repositories, identify high‑impact vulnerabilities, and suggest fixes.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI Codex Security&lt;/strong&gt; 是一个&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;应用安全智能体&lt;/strong&gt;（application security agent），旨在分析代码仓库、识别高影响力漏洞并提出修复建议。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h4&gt;Karpathy's AutoResearch (GitHub Repo)&lt;/h4&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h4&gt;Karpathy 的 AutoResearch（GitHub 仓库）&lt;/h4&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Andrej Karpathy&lt;/strong&gt; open-sourced &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;autoresearch&lt;/code&gt;, a project for running AI-driven research loops on a small single-GPU &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM training&lt;/strong&gt; setup. It lets agents modify code and guidance files, run short training experiments, evaluate results, and iteratively keep improvements overnight.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Andrej Karpathy&lt;/strong&gt; 开源了 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;autoresearch&lt;/code&gt; 项目，用于在小型单 GPU &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM 训练&lt;/strong&gt;设置上运行 AI 驱动的研究循环。它允许智能体修改代码和指导文件、运行短训练实验、评估结果，并在一夜间迭代保持改进。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h4&gt;Google PM open-sources Always On Memory Agent, ditching vector databases for LLM-driven persistent memory (8 minute read)&lt;/h4&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h4&gt;Google PM 开源 Always On Memory Agent，放弃向量数据库转向 LLM 驱动的持久内存（8 分钟阅读）&lt;/h4&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+The &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Always On Memory Agent&lt;/strong&gt; is an agent system that ingests information continuously, consolidates it in the background, and then retrieves it later without relying on a conventional &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vector database&lt;/strong&gt;. It is available on the official &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google Cloud Platform&lt;/strong&gt; GitHub page under a permissive &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MIT License&lt;/strong&gt; that allows for commercial usage. Enterprise AI teams are moving beyond single-turn assistants into systems expected to remember preferences, preserve project context, and operate across longer horizons. The Always On Memory Agent offers a concrete starting point for that next layer of infrastructure.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Always On Memory Agent&lt;/strong&gt;（持续在线记忆智能体）是一个持续摄取信息、在后台整合、随后检索而不依赖传统 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;向量数据库&lt;/strong&gt;（vector database）的智能体系统。它可在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google Cloud Platform&lt;/strong&gt; 官方 GitHub 页面获取，采用允许商业用途的宽松 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MIT 许可证&lt;/strong&gt;（MIT License）。企业 AI 团队正从单轮对话助手转向能够记住偏好、保留项目上下文并在更长周期内运行的系统。Always On Memory Agent 为下一代基础设施提供了具体的起点。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3&gt;Get the most interesting AI stories and breakthroughs delivered in a free daily email.&lt;/h3&gt;
+
+Join 920,000 readers for
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3&gt;获取最有趣的 AI 故事和突破，免费每日邮件送达。&lt;/h3&gt;
+
+加入 92 万读者的行列
+&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://tldr.tech/ai/2026-03-09"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-09</guid>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Lenny's Newsletter: 掌握Midjourney：无需复杂提示词打造一致品牌视觉</title>
+      <link>https://www.lennysnewsletter.com/p/mastering-midjourney-how-to-create</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Midjourney #品牌设计 #AI绘图 #视觉风格&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; AI创意总监Jamey Gannon分享了在Midjourney中打造一致性品牌视觉的实用方法，通过情绪板、风格参考(SREF)和个性化代码等视觉策略，无需复杂提示词即可高效生成风格统一的品牌素材。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;掌握 Midjourney：如何无需复杂提示词即可创建一致且精美的品牌视觉&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jamey Gannon&lt;/strong&gt; is an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI creative director&lt;/strong&gt; who specializes in creating consistent, beautiful brand imagery using AI tools. In this episode, Jamey demonstrates her streamlined workflow for generating cohesive brand assets using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Midjourney&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Nano Banana&lt;/strong&gt;, and other AI image tools. She walks through her process of creating mood boards, using style references, developing personalization codes, and strategically iterating to achieve a consistent aesthetic. Rather than relying on complex prompts, Jamey shows how visual references and strategic shortcuts can produce better results with less effort.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jamey Gannon&lt;/strong&gt; 是一位专注于使用 AI 工具创建一致且精美品牌视觉的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 创意总监（AI creative director）&lt;/strong&gt;。在本期节目中，Jamey 展示了她使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Midjourney&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Nano Banana&lt;/strong&gt; 及其他 AI 图像工具生成统一品牌资产的精简工作流程。她详细介绍了创建情绪板（mood boards）、使用风格参考（style references）、开发个性化代码（personalization codes）以及通过策略性迭代实现一致美学风格的过程。Jamey 展示了如何通过视觉参考和策略性捷径，而非依赖复杂的提示词（prompts），用更少的精力获得更好的结果。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Listen or watch on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt;, or &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt; 或 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt; 上收听或观看&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;What you'll learn:&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;你将学到：&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul&gt;&lt;li&gt;How to create effective &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;mood boards&lt;/strong&gt; that communicate your desired aesthetic to AI image generation tools&lt;/li&gt;&lt;li&gt;Why &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;style references (SREFs)&lt;/strong&gt; often produce more consistent results than general mood boards in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Midjourney&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;A systematic approach to testing and refining your visual style&lt;/li&gt;&lt;li&gt;How to use &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;personalization codes&lt;/strong&gt; in Midjourney to develop your own unique aesthetic preferences&lt;/li&gt;&lt;li&gt;Techniques for combining image references, style references, and minimal prompting to achieve consistent brand imagery&lt;/li&gt;&lt;li&gt;A workflow for using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Nano Banana&lt;/strong&gt; to fix specific elements in Midjourney-generated images without extensive editing&lt;/li&gt;&lt;li&gt;How to package and deliver your &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;brand imagery system&lt;/strong&gt; to clients so they can continue generating consistent assets&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul&gt;&lt;li&gt;如何创建有效的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;情绪板（mood boards）&lt;/strong&gt;，向 AI 图像生成工具传达你期望的美学风格&lt;/li&gt;&lt;li&gt;为什么&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;风格参考（style references，简称 SREFs）&lt;/strong&gt;在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Midjourney&lt;/strong&gt; 中往往比通用情绪板产生更一致的结果&lt;/li&gt;&lt;li&gt;测试和优化视觉风格的系统性方法&lt;/li&gt;&lt;li&gt;如何在 Midjourney 中使用&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;个性化代码（personalization codes）&lt;/strong&gt;来培养独特的审美偏好&lt;/li&gt;&lt;li&gt;结合图像参考、风格参考和极简提示词来实现一致品牌视觉的技巧&lt;/li&gt;&lt;li&gt;使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Nano Banana&lt;/strong&gt; 修复 Midjourney 生成图像中特定元素的工作流程，无需大量编辑&lt;/li&gt;&lt;li&gt;如何打包和交付&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;品牌视觉系统（brand imagery system）&lt;/strong&gt;给客户，使其能够持续生成一致的素材&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;Brought to you by:&lt;/h3&gt;
 &lt;h3 style="margin:24px 0 12px;"&gt;本期赞助：&lt;/h3&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!TfrD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a02150d-f10d-473b-bf48-9ec088889187_1600x114.png" alt="Sponsor" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;—Automate compliance and simplify security&lt;br/&gt;&lt;br/&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lovable&lt;/strong&gt;—Build apps by simply chatting with AI&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;——自动化合规并简化安全流程&lt;br/&gt;&lt;br/&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lovable&lt;/strong&gt;——通过与 AI 对话即可构建应用&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;In this episode, we cover:&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;本期节目内容：&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul&gt;&lt;li&gt;(00:00) Introduction to &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jamey Gannon&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;(02:31) Creating mood boards as the foundation for AI image generation&lt;/li&gt;&lt;li&gt;(08:45) Using SREFs for better consistency&lt;/li&gt;&lt;li&gt;(11:15) Test prompts for evaluating style consistency&lt;/li&gt;&lt;li&gt;(12:33) The iterative process of creating and refining images&lt;/li&gt;&lt;li&gt;(24:28) Combining techniques for consistent brand imagery&lt;/li&gt;&lt;li&gt;(28:25) Scaling out your aesthetic across different subjects&lt;/li&gt;&lt;li&gt;(35:48) Using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Nano Banana&lt;/strong&gt; for targeted image refinements&lt;/li&gt;&lt;li&gt;(38:23) Creating realistic AI self-portraits for content&lt;/li&gt;&lt;li&gt;(43:04) Building a visual reference library for inspiration&lt;/li&gt;&lt;li&gt;(46:50) Troubleshooting techniques when AI isn't cooperating&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul&gt;&lt;li&gt;(00:00) &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jamey Gannon&lt;/strong&gt; 简介&lt;/li&gt;&lt;li&gt;(02:31) 创建作为 AI 图像生成基础的情绪板&lt;/li&gt;&lt;li&gt;(08:45) 使用 SREFs 实现更好的一致性&lt;/li&gt;&lt;li&gt;(11:15) 用于评估风格一致性的测试提示词&lt;/li&gt;&lt;li&gt;(12:33) 创建和优化图像的迭代过程&lt;/li&gt;&lt;li&gt;(24:28) 结合多种技巧实现一致的品牌视觉&lt;/li&gt;&lt;li&gt;(28:25) 在不同主题上扩展你的美学风格&lt;/li&gt;&lt;li&gt;(35:48) 使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Nano Banana&lt;/strong&gt; 进行针对性图像优化&lt;/li&gt;&lt;li&gt;(38:23) 为内容创作逼真的 AI 自画像&lt;/li&gt;&lt;li&gt;(43:04) 建立视觉参考库以获取灵感&lt;/li&gt;&lt;li&gt;(46:50) 当 AI 不合作时的故障排除技巧&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;Tools referenced:&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;参考工具：&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Midjourney&lt;/strong&gt;: https://www.midjourney.com/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Nano Banana&lt;/strong&gt;: https://gemini.google/overview/image-generation/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Flora&lt;/strong&gt;: https://flora.ai/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pinterest&lt;/strong&gt;: https://www.pinterest.com/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cosmos&lt;/strong&gt;: https://www.cosmos.so/&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Midjourney&lt;/strong&gt;：https://www.midjourney.com/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Nano Banana&lt;/strong&gt;（基于 Gemini 的图像生成工具）：https://gemini.google/overview/image-generation/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Flora&lt;/strong&gt;：https://flora.ai/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pinterest&lt;/strong&gt;：https://www.pinterest.com/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cosmos&lt;/strong&gt;：https://www.cosmos.so/&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;Other reference:&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;其他参考：&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;• &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Style references (SREFs)&lt;/strong&gt; in Midjourney: https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;• Midjourney 中的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;风格参考（Style references，简称 SREFs）&lt;/strong&gt;：https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;Where to find Jamey Gannon:&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;如何找到 Jamey Gannon：&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Website: https://www.brand-sprints.com/links&lt;br/&gt;LinkedIn: https://www.linkedin.com/in/jameygannon/&lt;br/&gt;X: https://x.com/jameygannon&lt;br/&gt;Instagram: https://www.instagram.com/jameygannon&lt;br/&gt;Maven Course: https://maven.com/buildmyaesthetic/the-ai-creative-director&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;网站：https://www.brand-sprints.com/links&lt;br/&gt;领英（LinkedIn）：https://www.linkedin.com/in/jameygannon/&lt;br/&gt;X（推特）：https://x.com/jameygannon&lt;br/&gt;Instagram：https://www.instagram.com/jameygannon&lt;br/&gt;Maven 课程：https://maven.com/buildmyaesthetic/the-ai-creative-director&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;Where to find Claire Vo:&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;如何找到 Claire Vo：&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ChatPRD&lt;/strong&gt;: https://www.chatprd.ai/&lt;br/&gt;Website: https://clairevo.com/&lt;br/&gt;LinkedIn: https://www.linkedin.com/in/clairevo/&lt;br/&gt;X: https://x.com/clairevo&lt;br/&gt;Production and marketing by https://penname.co/. For inquiries about sponsoring the podcast, email jordan@penname.co.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ChatPRD&lt;/strong&gt;：https://www.chatprd.ai/&lt;br/&gt;个人网站：https://clairevo.com/&lt;br/&gt;领英（LinkedIn）：https://www.linkedin.com/in/clairevo/&lt;br/&gt;X（推特）：https://x.com/clairevo&lt;br/&gt;制作和营销由 https://penname.co/ 提供。有关赞助播客的咨询，请发送邮件至 jordan@penname.co。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/mastering-midjourney-how-to-create"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/mastering-midjourney-how-to-create</guid>
+      <pubDate>Mon, 09 Mar 2026 12:03:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Lenny's Newsletter: 精通Midjourney：零复杂提示词打造一致品牌视觉</title>
+      <link>https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-mastering-midjourney</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Midjourney #品牌视觉 #AI绘画 #风格参考&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本期节目邀请资深AI创意总监Jamey Gannon，演示如何运用风格参考（SREFs）、个性化代码和编辑参考等视觉化手段，在Midjourney中无需冗长提示词即可生成统一美观的品牌图像。她分享了从灵感整理到规模化视觉系统的完整工作流，以及如何通过&amp;quot;AI路由&amp;quot;策略组合使用多款工具提升创作效率。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: 🎙️ This week on How I AI: Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;🎙️ This week on How I AI: Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts&lt;/h3&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!gWeJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F361d81ef-7faf-4d8e-8028-5d5e03432a9a_2329x551.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Every Monday, host &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claire Vo&lt;/strong&gt; shares a 30- to 45-minute episode with a new guest demoing a practical, impactful way they’ve learned to use AI in their work or life. No pontificating—just specific and actionable advice.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+每周一，主持人 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claire Vo&lt;/strong&gt; 会邀请一位新嘉宾，分享一段 30 到 45 分钟的节目，演示他们在工作或生活中学习到的实用且富有影响力的 AI 使用方法。没有空谈——只有具体且可执行的建议。
 &lt;/p&gt;
 
-&lt;img src="https://substackcdn.com/image/fetch/$s_!4RjT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa2d74de5-2231-4477-9eb0-09e80555f014_3444x285.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Mastering Midjourney&lt;/strong&gt;: How to create consistent, beautiful brand imagery without complex prompts
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;掌握 Midjourney&lt;/strong&gt;：如何在不使用复杂提示词的情况下创建一致且精美的品牌图像
+&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!cTqy!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1873322-e3d3-4320-bc8d-f8b16003e7c5_1600x114.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
 &lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Omni&lt;/strong&gt;—AI analytics your customers can trust&lt;br/&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;—Automate compliance. Simplify security.&lt;br/&gt;
+Brought to you by:&lt;br/&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;—Automate compliance and simplify security&lt;br/&gt;
 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lovable&lt;/strong&gt;—Build apps by simply chatting with AI
 &lt;/blockquote&gt;
 &lt;/div&gt;
-&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
 &lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Omni&lt;/strong&gt;——客户可信赖的 AI 分析工具&lt;br/&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;——自动化合规，简化安全流程&lt;br/&gt;
+本期节目由以下品牌赞助：&lt;br/&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;——自动化合规流程，简化安全管理&lt;br/&gt;
 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lovable&lt;/strong&gt;——通过与 AI 对话即可构建应用
 &lt;/blockquote&gt;
-&lt;/div&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;h3&gt;Where to find Qasar Younis:&lt;/h3&gt;
-&lt;ul style="margin-left:20px;"&gt;
-&lt;li&gt;X: &lt;a href="https://x.com/qasar" style="color:#2471a3;"&gt;https://x.com/qasar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;LinkedIn: &lt;a href="https://www.linkedin.com/in/qasar" style="color:#2471a3;"&gt;https://www.linkedin.com/in/qasar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Website: &lt;a href="https://qy.co" style="color:#2471a3;"&gt;https://qy.co&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reading list: &lt;a href="https://qy.co/books" style="color:#2471a3;"&gt;https://qy.co/books&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;如何找到 Qasar Younis：&lt;/h3&gt;
-&lt;ul style="margin-left:20px;"&gt;
-&lt;li&gt;X（推特）：&lt;a href="https://x.com/qasar" style="color:#2471a3;"&gt;https://x.com/qasar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;LinkedIn：&lt;a href="https://www.linkedin.com/in/qasar" style="color:#2471a3;"&gt;https://www.linkedin.com/in/qasar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;个人网站：&lt;a href="https://qy.co" style="color:#2471a3;"&gt;https://qy.co&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;书单：&lt;a href="https://qy.co/books" style="color:#2471a3;"&gt;https://qy.co/books&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;h3&gt;Referenced:&lt;/h3&gt;
-&lt;ul style="margin-left:20px;"&gt;
-&lt;li&gt;Applied Intuition: &lt;a href="https://www.appliedintuition.com" style="color:#2471a3;"&gt;https://www.appliedintuition.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marc Andreessen&lt;/strong&gt;: The real AI boom hasn't even started yet: &lt;a href="https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Elad Gil&lt;/strong&gt;'s website: &lt;a href="https://eladgil.com" style="color:#2471a3;"&gt;https://eladgil.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Bosch: &lt;a href="https://www.bosch.com" style="color:#2471a3;"&gt;https://www.bosch.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Berkshire Hathaway: &lt;a href="https://www.berkshirehathaway.com" style="color:#2471a3;"&gt;https://www.berkshirehathaway.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Naval Ravikant on X: &lt;a href="https://x.com/naval" style="color:#2471a3;"&gt;https://x.com/naval&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Y Combinator: &lt;a href="https://www.ycombinator.com" style="color:#2471a3;"&gt;https://www.ycombinator.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Waymo: &lt;a href="https://waymo.com/" style="color:#2471a3;"&gt;https://waymo.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Tesla: &lt;a href="https://www.tesla.com" style="color:#2471a3;"&gt;https://www.tesla.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;DeepSeek: &lt;a href="https://www.deepseek.com" style="color:#2471a3;"&gt;https://www.deepseek.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Rivian: &lt;a href="https://rivian.com" style="color:#2471a3;"&gt;https://rivian.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Crate &amp; Barrel: &lt;a href="https://www.crateandbarrel.com" style="color:#2471a3;"&gt;https://www.crateandbarrel.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;OpenClaw: &lt;a href="https://openclaw.ai" style="color:#2471a3;"&gt;https://openclaw.ai&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Sam Altman on X: &lt;a href="https://x.com/sama" style="color:#2471a3;"&gt;https://x.com/sama&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Peter Ludwig on LinkedIn: &lt;a href="https://www.linkedin.com/in/peterwludwig" style="color:#2471a3;"&gt;https://www.linkedin.com/in/peterwludwig&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;What &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Steve Jobs&lt;/strong&gt; really meant when he said 'Good artists copy; great artists steal': &lt;a href="https://www.cnet.com/tech/tech-industry/what-steve-jobs-really-meant-when-he-said-good-artists-copy-great-artists-steal" style="color:#2471a3;"&gt;https://www.cnet.com/tech/tech-industry/what-steve-jobs-really-meant-when-he-said-good-artists-copy-great-artists-steal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;7 quotes on the power of reading from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Charlie Munger&lt;/strong&gt;: &lt;a href="https://www.neil.blog/articles/7-quotes-power-reading-charlie-munger" style="color:#2471a3;"&gt;https://www.neil.blog/articles/7-quotes-power-reading-charlie-munger&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Andreessen Horowitz: &lt;a href="https://a16z.com" style="color:#2471a3;"&gt;https://a16z.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;John Doerr on LinkedIn: &lt;a href="https://www.linkedin.com/in/john-doerr-03248211" style="color:#2471a3;"&gt;https://www.linkedin.com/in/john-doerr-03248211&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Gandhi's quote: &lt;a href="https://www.azquotes.com/author/5308-Mahatma_Gandhi/tag/truth#google_vignette" style="color:#2471a3;"&gt;https://www.azquotes.com/author/5308-Mahatma_Gandhi/tag/truth#google_vignette&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Steve Ballmer on X: &lt;a href="https://x.com/Steven_Ballmer" style="color:#2471a3;"&gt;https://x.com/Steven_Ballmer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;General Motors: &lt;a href="https://www.gm.com" style="color:#2471a3;"&gt;https://www.gm.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;参考链接：&lt;/h3&gt;
-&lt;ul style="margin-left:20px;"&gt;
-&lt;li&gt;Applied Intuition：&lt;a href="https://www.appliedintuition.com" style="color:#2471a3;"&gt;https://www.appliedintuition.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marc Andreessen&lt;/strong&gt;：真正的 AI 繁荣甚至还未开始：&lt;a href="https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom" style="color:#2471a3;"&gt;https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Elad Gil&lt;/strong&gt; 的网站：&lt;a href="https://eladgil.com" style="color:#2471a3;"&gt;https://eladgil.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;博世（Bosch）：&lt;a href="https://www.bosch.com" style="color:#2471a3;"&gt;https://www.bosch.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;伯克希尔·哈撒韦（Berkshire Hathaway）：&lt;a href="https://www.berkshirehathaway.com" style="color:#2471a3;"&gt;https://www.berkshirehathaway.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Naval Ravikant 的 X 账号：&lt;a href="https://x.com/naval" style="color:#2471a3;"&gt;https://x.com/naval&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Y Combinator：&lt;a href="https://www.ycombinator.com" style="color:#2471a3;"&gt;https://www.ycombinator.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Waymo：&lt;a href="https://waymo.com/" style="color:#2471a3;"&gt;https://waymo.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;特斯拉（Tesla）：&lt;a href="https://www.tesla.com" style="color:#2471a3;"&gt;https://www.tesla.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;DeepSeek：&lt;a href="https://www.deepseek.com" style="color:#2471a3;"&gt;https://www.deepseek.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Rivian：&lt;a href="https://rivian.com" style="color:#2471a3;"&gt;https://rivian.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Crate &amp; Barrel：&lt;a href="https://www.crateandbarrel.com" style="color:#2471a3;"&gt;https://www.crateandbarrel.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;OpenClaw：&lt;a href="https://openclaw.ai" style="color:#2471a3;"&gt;https://openclaw.ai&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Sam Altman 的 X 账号：&lt;a href="https://x.com/sama" style="color:#2471a3;"&gt;https://x.com/sama&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Peter Ludwig 的 LinkedIn：&lt;a href="https://www.linkedin.com/in/peterwludwig" style="color:#2471a3;"&gt;https://www.linkedin.com/in/peterwludwig&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Steve Jobs&lt;/strong&gt; 说"优秀的艺术家模仿，伟大的艺术家窃取"的真正含义：&lt;a href="https://www.cnet.com/tech/tech-industry/what-steve-jobs-really-meant-when-he-said-good-artists-copy-great-artists-steal" style="color:#2471a3;"&gt;https://www.cnet.com/tech/tech-industry/what-steve-jobs-really-meant-when-he-said-good-artists-copy-great-artists-steal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;关于阅读力量的 7 条名言——来自 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Charlie Munger&lt;/strong&gt;：&lt;a href="https://www.neil.blog/articles/7-quotes-power-reading-charlie-munger" style="color:#2471a3;"&gt;https://www.neil.blog/articles/7-quotes-power-reading-charlie-munger&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Andreessen Horowitz：&lt;a href="https://a16z.com" style="color:#2471a3;"&gt;https://a16z.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;John Doerr 的 LinkedIn：&lt;a href="https://www.linkedin.com/in/john-doerr-03248211" style="color:#2471a3;"&gt;https://www.linkedin.com/in/john-doerr-03248211&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;甘地名言：&lt;a href="https://www.azquotes.com/author/5308-Mahatma_Gandhi/tag/truth#google_vignette" style="color:#2471a3;"&gt;https://www.azquotes.com/author/5308-Mahatma_Gandhi/tag/truth#google_vignette&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Steve Ballmer 的 X 账号：&lt;a href="https://x.com/Steven_Ballmer" style="color:#2471a3;"&gt;https://x.com/Steven_Ballmer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;通用汽车（General Motors）：&lt;a href="https://www.gm.com" style="color:#2471a3;"&gt;https://www.gm.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;h3&gt;Recommended books:&lt;/h3&gt;
-&lt;ul style="margin-left:20px;"&gt;
-&lt;li&gt;&lt;em&gt;House of Huawei: The Secret History of China's Most Powerful Company&lt;/em&gt;: &lt;a href="https://www.amazon.com/House-Huawei-History-Powerful-Company/dp/0593544633" style="color:#2471a3;"&gt;https://www.amazon.com/House-Huawei-History-Powerful-Company/dp/0593544633&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Maintenance: Of Everything, Part One&lt;/em&gt;: &lt;a href="https://press.stripe.com/maintenance-part-one" style="color:#2471a3;"&gt;https://press.stripe.com/maintenance-part-one&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;The Autobiography of Malcolm X: As Told to Alex Haley&lt;/em&gt;: &lt;a href="https://www.amazon.com/Autobiography-Malcolm-Told-Alex-Haley/dp/0345350685" style="color:#2471a3;"&gt;https://www.amazon.com/Autobiography-Malcolm-Told-Alex-Haley/dp/0345350685&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;High Output Management&lt;/em&gt;: &lt;a href="https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884" style="color:#2471a3;"&gt;https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;The Emperor of All Maladies: A Biography of Cancer&lt;/em&gt;: &lt;a href="https://www.amazon.com/Emperor-All-Maladies-Biography-Cancer/dp/1439170916" style="color:#2471a3;"&gt;https://www.amazon.com/Emperor-All-Maladies-Biography-Cancer/dp/1439170916&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Made in America&lt;/em&gt;: &lt;a href="https://www.amazon.com/Sam-Walton-Made-America/dp/0553562835" style="color:#2471a3;"&gt;https://www.amazon.com/Sam-Walton-Made-America/dp/0553562835&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;My American Journey&lt;/em&gt;: &lt;a href="https://www.amazon.com/American-Journey-Autobiography-Colin-Powell/dp/0679432965" style="color:#2471a3;"&gt;https://www.amazon.com/American-Journey-Autobiography-Colin-Powell/dp/0679432965&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Guns, Germs, and Steel: The Fates of Human Societies&lt;/em&gt;: &lt;a href="https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393317552" style="color:#2471a3;"&gt;https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393317552&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Collapse: How Societies Choose to Fail or Succeed&lt;/em&gt;: &lt;a href="https://www.amazon.com/Collapse-Societies-Choose-Succeed-Revised/dp/0143117009" style="color:#2471a3;"&gt;https://www.amazon.com/Collapse-Societies-Choose-Succeed-Revised/dp/0143117009&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;SPQR: A History of Ancient Rome&lt;/em&gt;: &lt;a href="https://www.amazon.com/SPQR-History-Ancient-Mary-Beard/dp/0871404230" style="color:#2471a3;"&gt;https://www.amazon.com/SPQR-History-Ancient-Mary-Beard/dp/0871404230&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;A World Appears: A Journey into Consciousness&lt;/em&gt;: &lt;a href="https://www.amazon.com/World-Appears-Journey-into-Consciousness/dp/198488199X" style="color:#2471a3;"&gt;https://www.amazon.com/World-Appears-Journey-into-Consciousness/dp/198488199X&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;推荐书籍：&lt;/h3&gt;
-&lt;ul style="margin-left:20px;"&gt;
-&lt;li&gt;《华为之家：中国最具实力公司的秘密历史》（&lt;em&gt;House of Huawei: The Secret History of China's Most Powerful Company&lt;/em&gt;）：&lt;a href="https://www.amazon.com/House-Huawei-History-Powerful-Company/dp/0593544633" style="color:#2471a3;"&gt;https://www.amazon.com/House-Huawei-History-Powerful-Company/dp/0593544633&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;《维护：关于一切，第一部分》（&lt;em&gt;Maintenance: Of Everything, Part One&lt;/em&gt;）：&lt;a href="https://press.stripe.com/maintenance-part-one" style="color:#2471a3;"&gt;https://press.stripe.com/maintenance-part-one&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;《马尔科姆·X 自传》（&lt;em&gt;The Autobiography of Malcolm X: As Told to Alex Haley&lt;/em&gt;）：&lt;a href="https://www.amazon.com/Autobiography-Malcolm-Told-Alex-Haley/dp/0345350685" style="color:#2471a3;"&gt;https://www.amazon.com/Autobiography-Malcolm-Told-Alex-Haley/dp/0345350685&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;《高产出管理》（&lt;em&gt;High Output Management&lt;/em&gt;）：&lt;a href="https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884" style="color:#2471a3;"&gt;https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;《众病之王：癌症传》（&lt;em&gt;The Emperor of All Maladies: A Biography of Cancer&lt;/em&gt;）：&lt;a href="https://www.amazon.com/Emperor-All-Maladies-Biography-Cancer/dp/1439170916" style="color:#2471a3;"&gt;https://www.amazon.com/Emperor-All-Maladies-Biography-Cancer/dp/1439170916&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;《美国制造》（&lt;em&gt;Made in America&lt;/em&gt;）：&lt;a href="https://www.amazon.com/Sam-Walton-Made-America/dp/0553562835" style="color:#2471a3;"&gt;https://www.amazon.com/Sam-Walton-Made-America/dp/0553562835&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;《我的美国之旅》（&lt;em&gt;My American Journey&lt;/em&gt;）：&lt;a href="https://www.amazon.com/American-Journey-Autobiography-Colin-Powell/dp/0679432965" style="color:#2471a3;"&gt;https://www.amazon.com/American-Journey-Autobiography-Colin-Powell/dp/0679432965&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;《枪炮、病菌与钢铁：人类社会的命运》（&lt;em&gt;Guns, Germs, and Steel: The Fates of Human Societies&lt;/em&gt;）：&lt;a href="https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393317552" style="color:#2471a3;"&gt;https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393317552&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;《崩溃：社会如何选择成败兴亡》（&lt;em&gt;Collapse: How Societies Choose to Fail or Succeed&lt;/em&gt;）：&lt;a href="https://www.amazon.com/Collapse-Societies-Choose-Succeed-Revised/dp/0143117009" style="color:#2471a3;"&gt;https://www.amazon.com/Collapse-Societies-Choose-Succeed-Revised/dp/0143117009&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;《SPQR：古罗马史》（&lt;em&gt;SPQR: A History of Ancient Rome&lt;/em&gt;）：&lt;a href="https://www.amazon.com/SPQR-History-Ancient-Mary-Beard/dp/0871404230" style="color:#2471a3;"&gt;https://www.amazon.com/SPQR-History-Ancient-Mary-Beard/dp/0871404230&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;《世界的显现：进入意识的旅程》（&lt;em&gt;A World Appears: A Journey into Consciousness&lt;/em&gt;）：&lt;a href="https://www.amazon.com/World-Appears-Journey-into-Consciousness/dp/198488199X" style="color:#2471a3;"&gt;https://www.amazon.com/World-Appears-Journey-into-Consciousness/dp/198488199X&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Production and marketing by &lt;a href="https://penname.co/" style="color:#2471a3;"&gt;https://penname.co/&lt;/a&gt;. For inquiries about sponsoring the podcast, email &lt;a href="mailto:podcast@lennyrachitsky.com" style="color:#2471a3;"&gt;podcast@lennyrachitsky.com&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;
-Lenny may be an investor in the companies discussed.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-制作与营销由 &lt;a href="https://penname.co/" style="color:#2471a3;"&gt;https://penname.co/&lt;/a&gt; 提供。如有关于赞助播客的咨询，请发送邮件至 &lt;a href="mailto:podcast@lennyrachitsky.com" style="color:#2471a3;"&gt;podcast@lennyrachitsky.com&lt;/a&gt;。&lt;br/&gt;&lt;br/&gt;
-Lenny 可能是文中讨论公司的投资人。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;h2&gt;My biggest takeaways from this conversation:&lt;/h2&gt;
+Brought to you by:
 &lt;/div&gt;
+
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;h2 style="margin:24px 0 12px;"&gt;本次对话我的最大收获：&lt;/h2&gt;
+本期节目由以下品牌赞助：
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Read more
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;—Automate compliance and simplify security&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
+
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-阅读更多
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;——自动化合规流程，简化安全管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Vanta—Automate compliance and simplify security
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+Vanta——自动化合规流程，简化安全管理
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lovable&lt;/strong&gt;—Build apps by simply chatting with AI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lovable&lt;/strong&gt;——通过与 AI 对话即可构建应用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Lovable—Build apps by simply chatting with AI
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+Lovable——通过与 AI 对话即可构建应用
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jamey Gannon&lt;/strong&gt; is an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI creative director&lt;/strong&gt; who has spent thousands of hours working inside &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Midjourney&lt;/strong&gt;. In this episode, she walks through the system she uses to generate consistent, high-quality brand imagery using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;mood boards&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;style references&lt;/strong&gt;, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;personalization codes&lt;/strong&gt;. She and Claire cover her full workflow for turning loose inspiration into a scalable visual system, how to avoid the biggest mistakes people make with AI image tools, and why a single image reference can often outperform a paragraph of prompting.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jamey Gannon&lt;/strong&gt; 是一位 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 创意总监&lt;/strong&gt;，已在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Midjourney&lt;/strong&gt; 中工作了数千小时。在本期节目中，她详细介绍了她使用的系统，通过 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;mood boards（情绪板）&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;style references（风格参考）&lt;/strong&gt; 和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;personalization codes（个性化代码）&lt;/strong&gt; 来生成一致且高质量的品牌图像。她和 Claire 一起探讨了她将零散灵感转化为可扩展视觉系统的完整 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;workflow（工作流程）&lt;/strong&gt;，如何避免人们在使用 AI 图像工具时犯的最大错误，以及为什么单个图像参考往往比一大段提示词更有效。
+&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Detailed workflow walkthroughs from this episode:&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Detailed workflow walkthroughs&lt;/strong&gt; from this episode:
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+本期的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;详细工作流程（workflow）拆解&lt;/strong&gt;：
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;How I AI: Jamey Gannon’s Workflow for Consistent Brand Imagery in Midjourney: &lt;a href="https://www.chatprd.ai/how-i-ai/consistent-brand-imagery-in-midjourney" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/consistent-brand-imagery-in-midjourney&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;How I AI：Jamey Gannon 在 Midjourney 中创建一致品牌图像的工作流程：&lt;a href="https://www.chatprd.ai/how-i-ai/consistent-brand-imagery-in-midjourney" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/consistent-brand-imagery-in-midjourney&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+How I AI: Jamey Gannon’s Workflow for Consistent Brand Imagery in Midjourney: &lt;a href="https://www.chatprd.ai/how-i-ai/consistent-brand-imagery-in-midjourney" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/consistent-brand-imagery-in-midjourney&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+How I AI：Jamey Gannon 在 Midjourney 中创建一致品牌图像的工作流程：&lt;a href="https://www.chatprd.ai/how-i-ai/consistent-brand-imagery-in-midjourney" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/consistent-brand-imagery-in-midjourney&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;How to Generate Realistic AI Self-Portraits for Content: &lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-generate-realistic-ai-self-portraits-for-content" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-generate-realistic-ai-self-portraits-for-content&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;如何为内容生成逼真的 AI 自画像：&lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-generate-realistic-ai-self-portraits-for-content" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-generate-realistic-ai-self-portraits-for-content&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+How to Generate Realistic AI Self-Portraits for Content: &lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-generate-realistic-ai-self-portraits-for-content" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-generate-realistic-ai-self-portraits-for-content&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+如何为内容生成逼真的 AI 自画像：&lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-generate-realistic-ai-self-portraits-for-content" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-generate-realistic-ai-self-portraits-for-content&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;How to Fix and Refine AI-Generated Images: &lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-fix-and-refine-ai-generated-images" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-fix-and-refine-ai-generated-images&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;如何修复和优化 AI 生成的图像：&lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-fix-and-refine-ai-generated-images" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-fix-and-refine-ai-generated-images&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+How to Fix and Refine AI-Generated Images: &lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-fix-and-refine-ai-generated-images" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-fix-and-refine-ai-generated-images&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+如何修复和优化 AI 生成的图像：&lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-fix-and-refine-ai-generated-images" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-fix-and-refine-ai-generated-images&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;How to Create a Consistent Brand Aesthetic in Midjourney: &lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-create-a-consistent-brand-aesthetic-in-midjourney" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-create-a-consistent-brand-aesthetic-in-midjourney&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;如何在 Midjourney 中创建一致的品牌美学：&lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-create-a-consistent-brand-aesthetic-in-midjourney" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-create-a-consistent-brand-aesthetic-in-midjourney&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+How to Create a Consistent Brand Aesthetic in Midjourney: &lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-create-a-consistent-brand-aesthetic-in-midjourney" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-create-a-consistent-brand-aesthetic-in-midjourney&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+如何在 Midjourney 中创建一致的品牌美学：&lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-create-a-consistent-brand-aesthetic-in-midjourney" style="color:#2471a3;"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-create-a-consistent-brand-aesthetic-in-midjourney&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Biggest takeaways:&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Biggest takeaways&lt;/strong&gt;:
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;核心要点&lt;/strong&gt;：
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Avoid prompting&lt;/strong&gt;. Jamey’s entire workflow is designed to minimize text &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompting&lt;/strong&gt;: “I try to avoid prompting at all costs in my process.” Instead of writing complex &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;JSON&lt;/code&gt; prompts or detailed descriptions, she relies on style references, image references, and personalization codes to communicate visually with AI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;避免使用提示词（Avoid prompting）&lt;/strong&gt;。Jamey 的整个工作流程旨在最小化文本 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompting（提示）&lt;/strong&gt;：“我在创作过程中尽量避免使用提示词。”她不编写复杂的 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;JSON&lt;/code&gt; 提示词或详细描述，而是依靠风格参考、图像参考和个性化代码来与 AI 进行视觉沟通。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Avoid prompting. Jamey’s entire workflow is designed to minimize text prompting: “I try to avoid prompting at all costs in my process.” Instead of writing complex JSON prompts or detailed descriptions, she relies on style references, image references, and personalization codes to communicate visually with AI.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+避免使用提示词。Jamey 的整个工作流程旨在最小化文本提示：“我在创作过程中尽量避免使用提示词。”她不编写复杂的 JSON 提示词或详细描述，而是依靠风格参考、图像参考和个性化代码来与 AI 进行视觉沟通。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Style references (SREFs)&lt;/strong&gt; often outperform &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;mood boards&lt;/strong&gt;. While mood boards are a good starting point, using SREFs as the mood board can give much better results. This is because mood boards with varied styles can cause Midjourney to “average things out,” while SREFs provide more direct style guidance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Style references（风格参考，简称 SREFs）&lt;/strong&gt; 往往比 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;mood boards（情绪板）&lt;/strong&gt; 更有效。虽然情绪板是一个很好的起点，但将 SREFs 作为情绪板使用可以获得更好的效果。这是因为包含多种风格的情绪板可能导致 Midjourney “取平均值”，而 SREFs 能提供更直接的风格指导。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Style references (SREFs) often outperform mood boards. While mood boards are a good starting point, using SREFs as the mood board can give much better results. This is because mood boards with varied styles can cause Midjourney to “average things out,” while SREFs provide more direct style guidance.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+风格参考（SREFs）往往比情绪板更有效。虽然情绪板是一个很好的起点，但将 SREFs 作为情绪板使用可以获得更好的效果。这是因为包含多种风格的情绪板可能导致 Midjourney “取平均值”，而 SREFs 能提供更直接的风格指导。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Personalization codes&lt;/strong&gt; create your unique aesthetic. By carefully rating images during the personalization process, you can create codes that consistently deliver your preferred style. Jamey recommends “only picking things that I would like if I generated it” and being mindful of potential “&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;style bleeding&lt;/strong&gt;” from consistently selecting certain elements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Personalization codes（个性化代码）&lt;/strong&gt; 能创建你独特的美学风格。通过在个性化过程中仔细为图像评分，你可以创建出能够持续输出你偏好风格的代码。Jamey 建议“只选择那些如果是我生成的我会喜欢的图像”，并注意持续选择某些元素可能导致的 “&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;style bleeding（风格渗透）&lt;/strong&gt;” 问题。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Personalization codes create your unique aesthetic. By carefully rating images during the personalization process, you can create codes that consistently deliver your preferred style. Jamey recommends “only picking things that I would like if I generated it” and being mindful of potential “style bleeding” from consistently selecting certain elements.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+个性化代码能创建你独特的美学风格。通过在个性化过程中仔细为图像评分，你可以创建出能够持续输出你偏好风格的代码。Jamey 建议“只选择那些如果是我生成的我会喜欢的图像”，并注意持续选择某些元素可能导致的 “风格渗透” 问题。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Editorial and camera references&lt;/strong&gt; are prompting shortcuts. Instead of describing complex aesthetics, simply reference known publications or camera models: “When you just say ‘&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Dazed&lt;/strong&gt; editorial,’ depending on how famous the publication is, Midjourney’s gonna know what you’re talking about.” This communicates lighting, composition, and style instantly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Editorial（杂志风）和 camera references（相机参考）&lt;/strong&gt; 是提示词的捷径。无需描述复杂的美学风格，只需引用知名的出版物或相机型号：“当你直接说 ‘&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Dazed&lt;/strong&gt; editorial（Dazed 杂志风格）’，取决于这本出版物的知名度，Midjourney 就能明白你的意思。”这能瞬间传达光线、构图和风格。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Editorial and camera references are prompting shortcuts. Instead of describing complex aesthetics, simply reference known publications or camera models: “When you just say ‘Dazed editorial,’ depending on how famous the publication is, Midjourney’s gonna know what you’re talking about.” This communicates lighting, composition, and style instantly.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+杂志风格和相机参考是提示词的捷径。无需描述复杂的美学风格，只需引用知名的出版物或相机型号：“当你直接说 ‘Dazed editorial’，取决于这本出版物的知名度，Midjourney 就能明白你的意思。”这能瞬间传达光线、构图和风格。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;When something’s not working, remove it completely&lt;/strong&gt;. Rather than trying to fix problematic elements through prompting, Jamey takes a more direct approach: “If you’re getting too much green, just boot the thing that is so obvious and overwhelming.” This might mean removing an image from your references or cropping out distracting elements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;当某些元素不起作用时，彻底移除它&lt;/strong&gt;。与其试图通过提示词来修复有问题的元素，Jamey 采取了更直接的方法：“如果生成的图像中绿色过多，直接剔除那个明显且压倒性的元素。”这可能意味着从你的参考图中移除某张图像，或裁剪掉干扰元素。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+When something’s not working, remove it completely. Rather than trying to fix problematic elements through prompting, Jamey takes a more direct approach: “If you’re getting too much green, just boot the thing that is so obvious and overwhelming.” This might mean removing an image from your references or cropping out distracting elements.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+当某些元素不起作用时，彻底移除它。与其试图通过提示词来修复有问题的元素，Jamey 采取了更直接的方法：“如果生成的图像中绿色过多，直接剔除那个明显且压倒性的元素。”这可能意味着从你的参考图中移除某张图像，或裁剪掉干扰元素。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Use AI routing&lt;/strong&gt; to get the best from each model. Jamey uses different tools for different purposes: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Midjourney&lt;/strong&gt; for initial creation, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Nano Banana&lt;/strong&gt; for editing specific elements, and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Flora&lt;/strong&gt; for packaging and delivering brand imagery to clients. Each tool has strengths that complement the others.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;使用 AI 路由（AI routing）&lt;/strong&gt; 来发挥每个模型的最佳性能。Jamey 针对不同的目的使用不同的工具：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Midjourney&lt;/strong&gt; 用于初始创作，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Nano Banana&lt;/strong&gt; 用于编辑特定元素，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Flora&lt;/strong&gt; 用于打包并向客户交付品牌图像。每个工具都有其优势，可以互补。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Use AI routing to get the best from each model. Jamey uses different tools for different purposes: Midjourney for initial creation, Nano Banana for editing specific elements, and Flora for packaging and delivering brand imagery to clients. Each tool has strengths that complement the others.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+使用 AI 路由来发挥每个模型的最佳性能。Jamey 针对不同的目的使用不同的工具：Midjourney 用于初始创作，Nano Banana 用于编辑特定元素，Flora 用于打包并向客户交付品牌图像。每个工具都有其优势，可以互补。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;See things from the AI’s perspective&lt;/strong&gt;. When troubleshooting, try to understand what the AI is “seeing” in your references: “I think where a lot of people get tripped up is trying to make AI work the way you want it to work instead of actually understanding how it works.” This perspective shift often leads to better results.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;从 AI 的视角看问题&lt;/strong&gt;。在排查故障时，试着理解 AI 在你的参考图里“看到”了什么：“我认为很多人陷入困境的地方在于，他们试图让 AI 按照自己想要的方式工作，而不是真正理解 AI 的工作原理。”这种视角的转变往往能带来更好的结果。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+See things from the AI’s perspective. When troubleshooting, try to understand what the AI is “seeing” in your references: “I think where a lot of people get tripped up is trying to make AI work the way you want it to work instead of actually understanding how it works.” This perspective shift often leads to better results.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+从 AI 的视角看问题。在排查故障时，试着理解 AI 在你的参考图里“看到”了什么：“我认为很多人陷入困境的地方在于，他们试图让 AI 按照自己想要的方式工作，而不是真正理解 AI 的工作原理。”这种视角的转变往往能带来更好的结果。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+▶️ Listen now on &lt;a href="#" style="color:#2471a3;"&gt;YouTube&lt;/a&gt; | &lt;a href="#" style="color:#2471a3;"&gt;Spotify&lt;/a&gt; | &lt;a href="#" style="color:#2471a3;"&gt;Apple Podcasts&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+▶️ 立即收听：&lt;a href="#" style="color:#2471a3;"&gt;YouTube&lt;/a&gt; | &lt;a href="#" style="color:#2471a3;"&gt;Spotify&lt;/a&gt; | &lt;a href="#" style="color:#2471a3;"&gt;Apple Podcasts&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+If you’re enjoying these episodes, reply and let me know what you’d love to learn more about: AI workflows, hiring, growth, product strategy—anything.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+如果你喜欢这些节目，请回复告诉我你想了解更多什么内容：AI 工作流程、招聘、增长、产品策略——任何话题都可以。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Catch you next week,&lt;br/&gt;
+Lenny
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+下周见，&lt;br/&gt;
+Lenny
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+P.S. Want every new episode delivered the moment it drops? Hit “Follow” on your favorite podcast app.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+P.S. 想在每期新节目发布的第一时间收到推送？请在你常用的播客应用中点击“关注（Follow）”。
 &lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of</guid>
-      <pubDate>Sun, 08 Mar 2026 12:31:38 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-mastering-midjourney"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-mastering-midjourney</guid>
+      <pubDate>Mon, 09 Mar 2026 15:03:09 +0000</pubDate>
     </item>
     <item>
-      <title>[翻译] Simon Willison: 魏泽鲍姆语录</title>
-      <link>https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #人工智能 #技术伦理 #心理影响&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 文章引用聊天机器人ELIZA创造者约瑟夫·魏泽鲍姆1976年的话，指出即使是简单的计算机程序也能在短时间内诱导正常人产生强烈的妄想性思维。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Quoting Joseph Weizenbaum&lt;/p&gt;
+      <title>[翻译] Simon Willison: 终究不是无聊的技术</title>
+      <link>https://simonwillison.net/2026/Mar/9/not-so-boring/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #大模型 #编程 #技术选型 #智能体&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 作者发现，最新的编码代理模型凭借长上下文和模式学习能力，已能够很好地掌握训练数据之外的新工具，打破了人们对其只会推荐主流技术（如Python、JavaScript）并强化&amp;quot;选择无聊技术&amp;quot;趋势的担忧。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Perhaps not Boring Technology after all&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Quoting Joseph Weizenbaum&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Perhaps not Boring Technology after all &lt;span style="color:#666;font-size:16px;font-weight:normal;"&gt;/ 或许终究并非"乏味技术"&lt;/span&gt;&lt;/h3&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;8th March 2026&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;2026年3月8日&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;A recurring concern I've seen regarding &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt; for programming is that they will push our technology choices towards the tools that are best represented in their &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;training data&lt;/strong&gt;, making it harder for new, better tools to break through the noise.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我在使用&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt;（大语言模型，Large Language Models）进行编程时注意到一个反复出现的担忧：它们会将我们的技术选择推向那些在&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;训练数据&lt;/strong&gt;（training data）中表现最佳的工具，使得新的、更好的工具更难突破重围。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;What I had not realized is that extremely short exposures to a relatively simple &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;computer program&lt;/strong&gt; could induce powerful &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;delusional thinking&lt;/strong&gt; in quite normal people.&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;border-left:3px solid #c0c0c0;padding:8px 16px;background:#f9f9fb;"&gt;我未曾意识到的是，极其短暂地接触一个相对简单的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;计算机程序&lt;/strong&gt;（computer program），就能在相当正常的人群中诱发强烈的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;妄想性思维&lt;/strong&gt;（delusional thinking）。&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;This was certainly the case a couple of years ago, when asking models for help with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Python&lt;/strong&gt; or &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;JavaScript&lt;/strong&gt; appeared to give much better results than questions about less widely used languages.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;几年前的情况确实如此，当时向模型寻求&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Python&lt;/strong&gt;或&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;JavaScript&lt;/strong&gt;方面的帮助，似乎比询问使用范围较小的语言能获得好得多的结果。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;What I had not realized is that extremely short exposures to a relatively simple &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;computer program&lt;/strong&gt; could induce powerful &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;delusional thinking&lt;/strong&gt; in quite normal people.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我未曾意识到的是，极其短暂地接触一个相对简单的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;计算机程序&lt;/strong&gt;（computer program），就能在相当正常的人群中诱发强烈的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;妄想性思维&lt;/strong&gt;（delusional thinking）。&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;With the latest models running in good &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;coding agent&lt;/strong&gt; harnesses I'm not sure this continues to hold up.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;随着最新模型在优秀的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;coding agent&lt;/strong&gt;（编程智能体/编码代理）框架中运行，我不确定这种情况是否仍然成立。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;—&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Joseph Weizenbaum&lt;/strong&gt;, creator of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ELIZA&lt;/strong&gt;, in 1976 (via)&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;约瑟夫·维森鲍姆&lt;/strong&gt;（Joseph Weizenbaum），&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ELIZA&lt;/strong&gt; 的创造者，1976年（via）&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I'm seeing excellent results with my brand new tools where I start by prompting "&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;use uvx showboat --help / rodney --help / chartroom --help&lt;/code&gt; to learn about these tools" - the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;context length&lt;/strong&gt; of these new models is long enough that they can consume quite a lot of documentation before they start working on a problem.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我在使用全新工具时看到了出色的效果，我会先提示："使用&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;uvx showboat --help / rodney --help / chartroom --help&lt;/code&gt;来了解这些工具"——这些新模型的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;context length&lt;/strong&gt;（上下文长度）足够长，使得它们能够在开始解决问题之前消化大量文档。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Drop a coding agent into any existing codebase that uses libraries and tools that are too private or too new to feature in the training data and my experience is that it works &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;just fine&lt;/strong&gt; - the agent will consult enough of the existing examples to understand patterns, then iterate and test its own output to fill in the gaps.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;将一个编程智能体投入到任何现有代码库中——即使其中使用的库和工具过于私有或太新而未曾出现在训练数据中——我的经验是，它工作得&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;相当出色&lt;/strong&gt;：智能体会查阅足够多的现有示例来理解模式，然后迭代并测试其输出以填补空白。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;This is a surprising result. I thought coding agents would prove to be the ultimate embodiment of the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Choose Boring Technology&lt;/strong&gt; approach, but in practice they don't seem to be affecting my technology choices in that way at all.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这是一个令人惊讶的结果。我曾以为编程智能体会成为&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Choose Boring Technology&lt;/strong&gt;（选择乏味技术）理念的终极体现，但在实践中，它们似乎完全没有以那种方式影响我的技术选择。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Update: A few follow-on thoughts:&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;更新：几点后续思考：&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;The issue of what technology &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt; recommend is a separate one. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;What Claude Code Actually Chooses&lt;/strong&gt; is an interesting recent study where &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Edwin Ong&lt;/strong&gt; and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Alex Vikati&lt;/strong&gt; where they proved &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; over 2,000 times and found a strong bias towards build-over-buy but also identified a preferred technical stack, with &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GitHub Actions&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Stripe&lt;/strong&gt;, and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;shadcn/ui&lt;/strong&gt; seeing a "near monopoly" in their respective categories. For the sake of this post my interest is in what happens when the human makes a technology choice that differs from those preferred by the model harness.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;• &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt;推荐何种技术是一个独立的问题。《&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;What Claude Code Actually Chooses&lt;/strong&gt;》是&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Edwin Ong&lt;/strong&gt;和&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Alex Vikati&lt;/strong&gt;最近进行的一项有趣研究，他们对&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt;进行了超过2,000次验证，发现其强烈倾向于"自建而非购买"（build-over-buy），但也识别出了一个偏好的技术栈，其中&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GitHub Actions&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Stripe&lt;/strong&gt;和&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;shadcn/ui&lt;/strong&gt;在各自类别中呈现出"近乎垄断"的地位。就本文而言，我关注的是当人类做出与模型框架偏好不同的技术选择时会发生什么。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;The &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Skills&lt;/strong&gt; mechanism that is being rapidly embraced by most coding agent tools is super-relevant here. We are already seeing projects release official skills to help agents use them - here are examples from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Remotion&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Supabase&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vercel&lt;/strong&gt;, and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Prisma&lt;/strong&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;• &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Skills&lt;/strong&gt;（技能）机制正被大多数编程智能体工具快速采用，这与本文高度相关。我们已经看到许多项目发布官方技能来帮助智能体使用它们——以下是来自&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Remotion&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Supabase&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vercel&lt;/strong&gt;和&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Prisma&lt;/strong&gt;的示例。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags: ai, generative-ai, llms, ai-assisted-programming, boring-technology, coding-agents, agentic-engineering, november-2025-inflection&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：人工智能、生成式AI、大语言模型、AI辅助编程、乏味技术、编程智能体、智能体工程、2025年11月拐点&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything</guid>
-      <pubDate>Sun, 08 Mar 2026 14:59:48 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Mar/9/not-so-boring/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/9/not-so-boring/#atom-everything</guid>
+      <pubDate>Mon, 09 Mar 2026 13:37:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: 零数据复现生产查询计划</title>
+      <link>https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #数据库 #查询优化 #统计信息&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本文介绍PostgreSQL和SQLite的新功能：通过导入体积极小的统计信息（通常不足1MB）而非海量生产数据，开发者可在开发环境中精确复现生产查询计划，便于调试和优化。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Production query plans without production data&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Production query plans without production data&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;PostgreSQL&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;query planner&lt;/strong&gt; makes use of internal &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;statistics&lt;/strong&gt; to help it decide how to best execute a query. These statistics often differ between &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;production data&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;development environments&lt;/strong&gt;, which means the query plans used in production may not be replicable in development.&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;PostgreSQL&lt;/strong&gt; 的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;查询计划器（query planner）&lt;/strong&gt;利用内部&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;统计信息（statistics）&lt;/strong&gt;来帮助决定如何最佳地执行查询。这些统计信息在&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;生产数据（production data）&lt;/strong&gt;和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;开发环境（development environments）&lt;/strong&gt;之间往往存在差异，这意味着生产环境中使用的查询计划可能无法在开发环境中复现。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;PostgreSQL&lt;/strong&gt;'s new features now let you copy those statistics down to your development environment, allowing you to simulate the plans for production workloads without needing to copy in all of that data first.&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;PostgreSQL&lt;/strong&gt; 的新特性现在允许你将这些统计信息复制到开发环境中，让你能够模拟生产工作负载的查询计划，而无需首先复制所有这些数据。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I found this illustrative example useful:&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我发现这个说明性的示例很有用：&lt;/p&gt;
+
+&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;SELECT pg_restore_attribute_stats(
+    'schemaname', 'public',
+    'relname', 'test_orders',
+    'attname', 'status',
+    'inherited', false::boolean,
+    'null_frac', 0.0::real,
+    'avg_width', 9::integer,
+    'n_distinct', 5::real,
+    'most_common_vals', '{delivered,shipped,cancelled,pending,returned}'::text,
+    'most_common_freqs', '{0.95,0.015,0.015,0.015,0.005}'::real[]
+);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;（代码示例：使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;pg_restore_attribute_stats&lt;/strong&gt; 函数恢复属性统计信息）&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;This simulates statistics for a &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;status&lt;/code&gt; column that is 95% &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;delivered&lt;/code&gt;. Based on these statistics &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;PostgreSQL&lt;/strong&gt; can decide to use an index for &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;status = 'shipped'&lt;/code&gt; but to instead perform a full table scan for &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;status = 'delivered'&lt;/code&gt;.&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这模拟了一个 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;status&lt;/code&gt; 列的统计信息，其中 95% 的值是 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;delivered&lt;/code&gt;。基于这些统计信息，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;PostgreSQL&lt;/strong&gt; 可以决定对 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;status = 'shipped'&lt;/code&gt; 使用索引，而对 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;status = 'delivered'&lt;/code&gt; 则执行&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;全表扫描（full table scan）&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;These statistics are pretty small. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Radim&lt;/strong&gt; says:&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这些统计信息非常小。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Radim&lt;/strong&gt; 表示：&lt;/p&gt;
+
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;color:#9a9ea6;font-size:14px;line-height:1.7;"&gt;Statistics dumps are tiny. A database with hundreds of tables and thousands of columns produces a statistics dump under 1MB. The production data might be hundreds of GB. The statistics that describe it fit in a text file.&lt;/blockquote&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;统计信息转储非常小。一个包含数百张表和数千列的数据库产生的统计信息转储不到 1MB。生产数据可能有数百 GB，而描述它的统计信息却能放入一个文本文件中。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Statistics dumps are tiny. A database with hundreds of tables and thousands of columns produces a statistics dump under 1MB. The production data might be hundreds of GB. The statistics that describe it fit in a text file.&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;统计信息转储非常小。一个包含数百张表和数千列的数据库产生的统计信息转储不到 1MB。生产数据可能有数百 GB，而描述它的统计信息却能放入一个文本文件中。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I posted on the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SQLite&lt;/strong&gt; user forum asking if &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SQLite&lt;/strong&gt; could offer a similar feature and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;D. Richard Hipp&lt;/strong&gt; promptly replied that it has one already:&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SQLite&lt;/strong&gt; 用户论坛上发帖询问 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SQLite&lt;/strong&gt; 是否能提供类似功能，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;D. Richard Hipp&lt;/strong&gt; 迅速回复称它已经有了：&lt;/p&gt;
+
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;color:#9a9ea6;font-size:14px;line-height:1.7;"&gt;All of the data statistics used by the query planner in &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SQLite&lt;/strong&gt; are available in the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;sqlite_stat1&lt;/strong&gt; table (or also in the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;sqlite_stat4&lt;/strong&gt; table if you happen to have compiled with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SQLITE_ENABLE_STAT4&lt;/strong&gt;).  That table is writable. You can inject whatever alternative statistics you like.This approach to controlling the query planner is mentioned in the documentation:https://sqlite.org/optoverview.html#manual_control_of_query_plans_using_sqlite_stat_tables.See alsohttps://sqlite.org/lang_analyze.html#fixed_results_of_analyze.The "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;.fullschema&lt;/strong&gt;" command in the CLI outputs both the schema and the content of the sqlite_statN tables, exactly for the reasons outlined above - so that we can reproduce query problems for testing without have to load multi-terabyte database files.&lt;/blockquote&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SQLite&lt;/strong&gt; 查询计划器使用的所有数据统计信息都可以在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;sqlite_stat1&lt;/strong&gt; 表中找到（如果你使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SQLITE_ENABLE_STAT4&lt;/strong&gt; 编译，也可以在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;sqlite_stat4&lt;/strong&gt; 表中找到）。该表是可写的。你可以注入任何你想要的替代统计信息。这种控制查询计划器的方法在文档中有提及：https://sqlite.org/optoverview.html#manual_control_of_query_plans_using_sqlite_stat_tables。另请参阅 https://sqlite.org/lang_analyze.html#fixed_results_of_analyze。CLI 中的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;.fullschema&lt;/strong&gt; 命令会输出模式（schema）和 sqlite_statN 表的内容，正是出于上述原因——这样我们就可以在测试中重现查询问题，而无需加载多 TB 的数据库文件。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;All of the data statistics used by the query planner in &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SQLite&lt;/strong&gt; are available in the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;sqlite_stat1&lt;/strong&gt; table (or also in the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;sqlite_stat4&lt;/strong&gt; table if you happen to have compiled with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SQLITE_ENABLE_STAT4&lt;/strong&gt;).  That table is writable. You can inject whatever alternative statistics you like.&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SQLite&lt;/strong&gt; 查询计划器使用的所有数据统计信息都可以在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;sqlite_stat1&lt;/strong&gt; 表中找到（如果你使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SQLITE_ENABLE_STAT4&lt;/strong&gt; 编译，也可以在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;sqlite_stat4&lt;/strong&gt; 表中找到）。该表是可写的。你可以注入任何你想要的替代统计信息。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;This approach to controlling the query planner is mentioned in the documentation:https://sqlite.org/optoverview.html#manual_control_of_query_plans_using_sqlite_stat_tables.&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这种控制查询计划器的方法在文档中有提及：https://sqlite.org/optoverview.html#manual_control_of_query_plans_using_sqlite_stat_tables。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;See alsohttps://sqlite.org/lang_analyze.html#fixed_results_of_analyze.&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;另请参阅 https://sqlite.org/lang_analyze.html#fixed_results_of_analyze。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;.fullschema&lt;/strong&gt;" command in the CLI outputs both the schema and the content of the sqlite_statN tables, exactly for the reasons outlined above - so that we can reproduce query problems for testing without have to load multi-terabyte database files.&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;CLI 中的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;.fullschema&lt;/strong&gt; 命令会输出模式（schema）和 sqlite_statN 表的内容，正是出于上述原因——这样我们就可以在测试中重现查询问题，而无需加载多 TB 的数据库文件。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Via &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lobste.rs&lt;/strong&gt;&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;来源：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lobste.rs&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags: &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;databases&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;postgresql&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;sql&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;sqlite&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;d-richard-hipp&lt;/code&gt;&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;databases&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;postgresql&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;sql&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;sqlite&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;d-richard-hipp&lt;/code&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything</guid>
+      <pubDate>Mon, 09 Mar 2026 15:05:15 +0000</pubDate>
     </item>
   </channel>
 </rss>

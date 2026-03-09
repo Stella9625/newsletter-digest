@@ -7,20 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 08 Mar 2026 22:50:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 23:00:36 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-08</title>
-      <description>&lt;p&gt;&lt;strong&gt;AI/产品/技术日报&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-09</title>
+      <description>&lt;p&gt;&lt;strong&gt;AI/技术日报&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4&gt;跨界与深度思考&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Quoting Joseph Weizenbaum&lt;/strong&gt; | Simon Willison (Simon Willison)&lt;/p&gt;
-&lt;p&gt;AI先驱Joseph Weizenbaum早在1976年便警示，即便是简单的计算机程序（如ELIZA）也能在短时间内诱导正常人产生强烈的妄想性思维，这一历史洞见对当前大模型时代的人机交互伦理仍具深刻警示意义。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;产品与增长&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;The most successful AI company you&amp;#x27;ve never heard of&lt;/strong&gt; | Lenny Rachitsky (Lenny&amp;#x27;s Newsletter)&lt;/p&gt;
-&lt;p&gt;Applied Intuition联合创始人Qasar Younis披露这家估值150亿美元的自动驾驶软件公司如何长期保持低调增长，并预测未来5-10年AI最大的变革将发生在采矿、农业、建筑等实体行业而非软件领域，同时分享对中国AI竞争力及创业公司早期变现策略的独到见解。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-08</guid>
-      <pubDate>Sun, 08 Mar 2026 22:50:20 +0000</pubDate>
+&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Claude 安全能力与生态扩展&lt;/strong&gt;：Claude Opus 4.6 在两周内发现 Firefox 浏览器超百个漏洞（含 14 个高危）；Anthropic 同步推出 Claude Marketplace 企业应用商店，OpenAI 也发布 Codex Security 代码安全分析工具。（来源：TLDR）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;编码代理打破&amp;quot;无聊技术&amp;quot;局限&lt;/strong&gt;：Simon Willison 指出，最新编码代理模型凭借长上下文和模式学习能力，已能掌握训练数据之外的新工具，打破其只会强化主流技术栈（Python/JavaScript）并固化&amp;quot;选择无聊技术&amp;quot;趋势的担忧。（来源：Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;AI 产品与设计&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Midjourney 品牌视觉系统化&lt;/strong&gt;：AI 创意总监 Jamey Gannon 分享无需复杂提示词的工作流：通过风格参考（SREFs）、个性化代码和情绪板等视觉化手段，即可规模化生成风格统一的品牌素材，实现从灵感到完整视觉系统的高效转化。（来源：Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;工程与系统设计&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;生产查询计划的无数据复现&lt;/strong&gt;：PostgreSQL 和 SQLite 推出新功能，开发者仅需导入体积极小的统计信息（通常不足 1MB），无需复制海量生产数据，即可在开发环境精确复现生产查询计划，极大简化数据库调试与优化流程。（来源：Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-09</guid>
+      <pubDate>Mon, 09 Mar 2026 23:00:36 +0000</pubDate>
     </item>
   </channel>
 </rss>
