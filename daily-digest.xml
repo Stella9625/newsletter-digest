@@ -7,26 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 09 Mar 2026 23:00:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 23:25:07 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-09</title>
-      <description>&lt;p&gt;&lt;strong&gt;AI/技术日报&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-11</title>
+      <description>&lt;p&gt;&lt;strong&gt;今日 AI 日报&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Claude 安全能力与生态扩展&lt;/strong&gt;：Claude Opus 4.6 在两周内发现 Firefox 浏览器超百个漏洞（含 14 个高危）；Anthropic 同步推出 Claude Marketplace 企业应用商店，OpenAI 也发布 Codex Security 代码安全分析工具。（来源：TLDR）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;编码代理打破&amp;quot;无聊技术&amp;quot;局限&lt;/strong&gt;：Simon Willison 指出，最新编码代理模型凭借长上下文和模式学习能力，已能掌握训练数据之外的新工具，打破其只会强化主流技术栈（Python/JavaScript）并固化&amp;quot;选择无聊技术&amp;quot;趋势的担忧。（来源：Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gemini Embedding 2 发布，Meta 收购 AI 代理社交产品&lt;/strong&gt;：Google 推出支持多模态的 Gemini Embedding 2 嵌入模型；Meta 收购 AI 代理社交网络 Moltbook；Nvidia 与 Thinking Machines Lab 达成千兆瓦级算力合作，同时消费级 AI 应用留存优势与开源生态持续分化。（TLDR AI）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Figma × Claude Code 双向实时工作流&lt;/strong&gt;：Figma 团队展示基于 MCP 协议的新范式——设计师可直接拉取生产代码协作编辑，工程师通过 Claude Code 将设计变更自动回写代码库，打破传统瀑布模式，实现设计与开发的实时闭环。（Gui Seiz &amp;amp; Alex Kern via Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;AI 产品与设计&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Midjourney 品牌视觉系统化&lt;/strong&gt;：AI 创意总监 Jamey Gannon 分享无需复杂提示词的工作流：通过风格参考（SREFs）、个性化代码和情绪板等视觉化手段，即可规模化生成风格统一的品牌素材，实现从灵感到完整视觉系统的高效转化。（来源：Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;工程与系统设计&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;生产查询计划的无数据复现&lt;/strong&gt;：PostgreSQL 和 SQLite 推出新功能，开发者仅需导入体积极小的统计信息（通常不足 1MB），无需复制海量生产数据，即可在开发环境精确复现生产查询计划，极大简化数据库调试与优化流程。（来源：Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;卡马克论过度架构&lt;/strong&gt;：Simon Willison 援引 John Carmack 观点指出，经验不足的开发者往往高估&amp;quot;为未来需求提前设计架构&amp;quot;的净收益，过早抽象和过度设计通常得不偿失，简洁务实优于 premature optimization。（Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-09</guid>
-      <pubDate>Mon, 09 Mar 2026 23:00:36 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-11</guid>
+      <pubDate>Wed, 11 Mar 2026 23:25:07 +0000</pubDate>
     </item>
   </channel>
 </rss>
