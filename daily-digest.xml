@@ -7,21 +7,39 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 11 Mar 2026 23:25:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 23:26:10 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-11</title>
-      <description>&lt;p&gt;&lt;strong&gt;今日 AI 日报&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-12</title>
+      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具与基础设施&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Gemini Embedding 2 发布，Meta 收购 AI 代理社交产品&lt;/strong&gt;：Google 推出支持多模态的 Gemini Embedding 2 嵌入模型；Meta 收购 AI 代理社交网络 Moltbook；Nvidia 与 Thinking Machines Lab 达成千兆瓦级算力合作，同时消费级 AI 应用留存优势与开源生态持续分化。（TLDR AI）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Figma × Claude Code 双向实时工作流&lt;/strong&gt;：Figma 团队展示基于 MCP 协议的新范式——设计师可直接拉取生产代码协作编辑，工程师通过 Claude Code 将设计变更自动回写代码库，打破传统瀑布模式，实现设计与开发的实时闭环。（Gui Seiz &amp;amp; Alex Kern via Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Replit Agent 4 与行业动态&lt;/strong&gt; - Latent Space / TLDR AI&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Replit发布Agent 4支持并行AI代理协作构建全栈应用，标志行业正从编程助手向全面知识工作自动化转型；同期AI编程工具Cursor寻求500亿美元估值，Meta加速自研AI芯片部署以降低算力成本并减少对外依赖。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;卡马克论过度架构&lt;/strong&gt;：Simon Willison 援引 John Carmack 观点指出，经验不足的开发者往往高估&amp;quot;为未来需求提前设计架构&amp;quot;的净收益，过早抽象和过度设计通常得不偿失，简洁务实优于 premature optimization。（Simon Willison）&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-11</guid>
-      <pubDate>Wed, 11 Mar 2026 23:25:07 +0000</pubDate>
+&lt;li&gt;&lt;strong&gt;Sorting algorithms&lt;/strong&gt; - Simon Willison&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;作者利用Claude等AI工具开发交互式排序算法可视化项目，实现包括Timsort在内的七种算法动画演示及性能对比网格，展示生成式AI在算法教学与原型开发中的实用价值。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;开源伦理与编程文化&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MALUS - Clean Room as a Service&lt;/strong&gt; - Simon Willison&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;作者推出讽刺性项目&amp;quot;MALUS&amp;quot;，宣称可利用AI以&amp;quot;清洁室&amp;quot;方式重写开源代码以规避copyleft许可义务，借此批判科技界试图用技术手段绕过开源伦理的荒谬趋势。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Coding After Coders&lt;/strong&gt; 与 &lt;strong&gt;Quoting Les Orchard&lt;/strong&gt; - Simon Willison&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;两篇文章探讨AI对编程职业的深层影响：前者指出编程可通过测试验证AI代码，使开发者较安全地驾驭该技术，但担忧失去手工编码的乐趣；后者则揭示AI正让&amp;quot;工艺派&amp;quot;与&amp;quot;务实派&amp;quot;开发者的根本分歧公开化。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;How I built a 1M+ subscriber newsletter and top 10 tech podcast&lt;/strong&gt; - Lenny Rachitsky / Lenny&amp;#x27;s Newsletter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lenny Rachitsky与妻子坦诚分享从零打造百万订阅通讯及顶级科技播客的完整路径，涵盖付费墙策略、质量迭代理念及应对创作压力的真实经验。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;工程与产业观察&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The Elusive Cost Savings of the Prefabricated Home&lt;/strong&gt; - Brian Potter / Construction Physics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;指出预制房屋虽长期被视为降本增效的解决方案，但历史实践证明其成本节约仅10-20%，且从Lustron到Katerra的多次大规模尝试均告失败，未能像汽车制造业那样彻底改变建筑行业。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-12</guid>
+      <pubDate>Thu, 12 Mar 2026 23:26:10 +0000</pubDate>
     </item>
   </channel>
 </rss>
