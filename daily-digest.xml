@@ -7,28 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 13 Mar 2026 23:27:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 23:03:15 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-13</title>
-      <description>&lt;p&gt;&lt;strong&gt;每日 AI 科技日报&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;LLM 模型与基础设施&lt;/h4&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-14</title>
+      <description>&lt;p&gt;&lt;strong&gt;每日 AI/技术日报&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;LLM &amp;amp; AI 工具&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Anthropic 全面开放百万级长上下文&lt;/strong&gt;：Claude Opus 4.6 与 Sonnet 4.6 正式支持 100 万 token 长窗口，且采用标准定价，不收取超长文本附加费（对比 OpenAI 和 Gemini 的溢价策略）。（Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;面向 Agent 时代的搜索架构&lt;/strong&gt;：Turbopuffer 创始人介绍其无共识层搜索引擎如何通过对象存储+NVMe SSD 架构将成本降低 95%，并指出混合检索（语义+关键词+正则）与高并发查询将取代传统单次检索，成为 AI Agent 连接世界知识的关键基础设施。（Latent Space）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;百万上下文窗口遇物理瓶颈，行业或进入&amp;quot;配给时代&amp;quot;&lt;/strong&gt;（Latent Space）：尽管 Anthropic 刚发布百万级上下文模型，但受限于 HBM/DRAM 内存物理短缺，过去两年上下文窗口增长几乎停滞；作者预测未来 5-10 年难以突破百万级，行业可能被迫实施&amp;quot;上下文配给&amp;quot;策略。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;智能体工程实践：从辅助问答到自主编码&lt;/strong&gt;（Simon Willison）：作者在 Pragmatic Summit 分享 Agentic Engineering 演进路径，强调通过测试驱动开发、沙盒安全和代码模板来有效管控 AI 编程代理，同时警示提示注入等新型安全风险。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;说服怀疑型 CTO 与设计师 AI 技能升级&lt;/strong&gt;（Kiyani / Lenny&amp;#x27;s Newsletter）：社区经验汇总，分享如何在技术管理层推动 AI 编程工具落地、设计师掌握 Claude 的实用路径，以及面对创始人失信危机时的职业抉择策略。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;AI 编程与工程实践&lt;/h4&gt;
+&lt;h3&gt;工程与系统设计&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AI 驱动遗留代码性能挖掘&lt;/strong&gt;：Shopify CEO 利用 AI 编码代理对 Liquid 模板引擎进行自动化微优化，在完善测试套件保障下实现 53% 解析渲染提速和 61% 内存分配减少。（Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;五天自建个性化财务工具&lt;/strong&gt;：开发者借助 Claude 针对复杂跨境财务需求，快速构建本地化会计系统，实现多货币处理、智能文档分类及 AI 异常检测全流程自动化。（Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;编程工具生态动态&lt;/strong&gt;：Claude 新增交互式图表生成功能；Cursor 正以 500 亿美元估值融资，同时遭 xAI 挖角核心人才；形式验证代码与代理商务成行业新趋势。（TLDR AI）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI 垃圾 PR 泛滥迫使开源社区收紧权限&lt;/strong&gt;（Jannis Leidel / Simon Willison）：GitHub 上低质量 AI 生成 PR 的泛滥已使 Jazzband 的开放成员与共享推送权限模式难以为继，甚至迫使 GitHub 推出&amp;quot;禁用 PR&amp;quot;功能，传统基于信任的开源协作治理机制面临失效风险。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;智能体范式与方法论&lt;/h4&gt;
+&lt;h3&gt;跨界与深度思考&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;提高 LLM 期望的&amp;quot;高回报活动&amp;quot;&lt;/strong&gt;：敢于突破当前能力边界、提出&amp;quot;适度疯狂&amp;quot;需求的用户往往获得最大收益；同时 MCP 协议、智能体工具链及多模态检索基础设施持续演进。（Latent Space）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;霍尔木兹海峡保险危机与全球供应链冲击&lt;/strong&gt;（Brian Potter / Construction Physics）：伊朗战争引发保险公司集体撤保，导致霍尔木兹海峡航运陷入瘫痪，进而触发全球石油、化肥价格飙升及供应链中断，凸显关键基础设施节点在地缘冲突下的系统性脆弱性。&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-13</guid>
-      <pubDate>Fri, 13 Mar 2026 23:27:57 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-14</guid>
+      <pubDate>Sat, 14 Mar 2026 23:03:15 +0000</pubDate>
     </item>
   </channel>
 </rss>
