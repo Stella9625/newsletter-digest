@@ -7,26 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 14 Mar 2026 23:03:15 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 22:31:52 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-14</title>
-      <description>&lt;p&gt;&lt;strong&gt;每日 AI/技术日报&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;LLM &amp;amp; AI 工具&lt;/h3&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-15</title>
+      <description>&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;百万上下文窗口遇物理瓶颈，行业或进入&amp;quot;配给时代&amp;quot;&lt;/strong&gt;（Latent Space）：尽管 Anthropic 刚发布百万级上下文模型，但受限于 HBM/DRAM 内存物理短缺，过去两年上下文窗口增长几乎停滞；作者预测未来 5-10 年难以突破百万级，行业可能被迫实施&amp;quot;上下文配给&amp;quot;策略。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;智能体工程实践：从辅助问答到自主编码&lt;/strong&gt;（Simon Willison）：作者在 Pragmatic Summit 分享 Agentic Engineering 演进路径，强调通过测试驱动开发、沙盒安全和代码模板来有效管控 AI 编程代理，同时警示提示注入等新型安全风险。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;说服怀疑型 CTO 与设计师 AI 技能升级&lt;/strong&gt;（Kiyani / Lenny&amp;#x27;s Newsletter）：社区经验汇总，分享如何在技术管理层推动 AI 编程工具落地、设计师掌握 Claude 的实用路径，以及面对创始人失信危机时的职业抉择策略。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;薪资谈判实战手册：如何优雅争取 20%-40% 涨薪&lt;/strong&gt; | Lenny Rachitsky (Lenny&amp;#x27;s Newsletter)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;工程与系统设计&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AI 垃圾 PR 泛滥迫使开源社区收紧权限&lt;/strong&gt;（Jannis Leidel / Simon Willison）：GitHub 上低质量 AI 生成 PR 的泛滥已使 Jazzband 的开放成员与共享推送权限模式难以为继，甚至迫使 GitHub 推出&amp;quot;禁用 PR&amp;quot;功能，传统基于信任的开源协作治理机制面临失效风险。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;跨界与深度思考&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;霍尔木兹海峡保险危机与全球供应链冲击&lt;/strong&gt;（Brian Potter / Construction Physics）：伊朗战争引发保险公司集体撤保，导致霍尔木兹海峡航运陷入瘫痪，进而触发全球石油、化肥价格飙升及供应链中断，凸显关键基础设施节点在地缘冲突下的系统性脆弱性。&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-14</guid>
-      <pubDate>Sat, 14 Mar 2026 23:03:15 +0000</pubDate>
+&lt;p&gt;高管谈判专家 Jacob Warwick 提出将求职视为企业销售流程，通过前置信息收集、精准时机把控与协作式沟通策略，可在不损害雇主关系的前提下显著提升薪酬包。核心在于以价值为导向而非对抗性姿态进行谈判。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-15</guid>
+      <pubDate>Sun, 15 Mar 2026 22:31:52 +0000</pubDate>
     </item>
   </channel>
 </rss>
