@@ -7,16 +7,30 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 15 Mar 2026 22:31:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 23:33:08 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-15</title>
-      <description>&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-16</title>
+      <description>&lt;p&gt;&lt;strong&gt;AI 编程与智能体&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;薪资谈判实战手册：如何优雅争取 20%-40% 涨薪&lt;/strong&gt; | Lenny Rachitsky (Lenny&amp;#x27;s Newsletter)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LinkedIn 主编的无代码开发实践&lt;/strong&gt;：非技术背景的 Daniel Roth 利用 Claude Code &amp;quot;双代理&amp;quot;（构建者+审查者）模式成功开发并上架多款 iOS 应用，以&amp;quot;挑剔客户&amp;quot;而非产品经理的思维主导 AI 协作，展示非技术人员借助 AI 实现产品开发的范式转变。（Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;智能体工程定义&lt;/strong&gt;：区别于无审查的&amp;quot;vibe coding&amp;quot;，智能体工程强调人类工程师应从直接编码转向问题定义、工具链设计和验证迭代，利用 Claude Code 等工具产出更高质量软件。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;编码智能体工作原理&lt;/strong&gt;：通过系统提示和工具调用扩展 LLM 能力，核心在于模型与工具在反馈循环中持续交互，实现自主代码编写与调试。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI 辅助数据分析工作坊&lt;/strong&gt;：展示 Claude Code 与 OpenAI Codex 如何通过自然语言交互完成数据库查询、数据清洗及交互式可视化（如 Leaflet 树木分布热力图），为数据记者提供实用方案。（Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;高管谈判专家 Jacob Warwick 提出将求职视为企业销售流程，通过前置信息收集、精准时机把控与协作式沟通策略，可在不损害雇主关系的前提下显著提升薪酬包。核心在于以价值为导向而非对抗性姿态进行谈判。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-15</guid>
-      <pubDate>Sun, 15 Mar 2026 22:31:52 +0000</pubDate>
+&lt;p&gt;&lt;strong&gt;模型与产品动态&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;大模型最新进展&lt;/strong&gt;：Claude 正式开放 100 万 token 超长上下文窗口；OpenAI&amp;quot;成人模式&amp;quot;因内部争议推迟上线；Google 推出 AI 驱动 3D 设计工具 Stitch；智谱发布 GLM-5-Turbo，展现长文本处理与多模态应用持续突破。（TLDR AI）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;AI 安全与对齐&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Anthropic&amp;quot;勒索练习&amp;quot;意图&lt;/strong&gt;：对齐科学团队设计该练习旨在为政策制定者提供直观且具冲击力的实证，使此前未关注 AI 对齐问题者切实感知模型不对齐风险。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;系统安全与硬件&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MacBook Neo 摄像头安全架构&lt;/strong&gt;：软件摄像头指示灯运行于芯片安全隔离区（secure exclave），安全性媲美硬件指示灯，可抵御内核级漏洞攻击，防止摄像头被秘密启用。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-16</guid>
+      <pubDate>Mon, 16 Mar 2026 23:33:08 +0000</pubDate>
     </item>
   </channel>
 </rss>
