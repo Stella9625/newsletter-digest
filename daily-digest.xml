@@ -7,30 +7,35 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Mar 2026 23:10:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 22:54:43 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-18</title>
-      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-19</title>
+      <description>&lt;p&gt;&lt;strong&gt;AI 技术日报&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LLM &amp;amp; 开源生态&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;OpenAI 发布轻量级模型，Cursor 优化长上下文体验&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI 收购 Astral，引发 Python 社区控制权担忧&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;OpenAI 推出 GPT-5.4 mini 与 nano 模型以提升高容量任务处理效率；Cursor 新增模型自总结上下文功能，解决长会话编程中的上下文窗口限制问题。（来源：TLDR AI）&lt;/p&gt;
+&lt;p&gt;OpenAI 宣布收购 Python 工具开发商 Astral（旗下拥有 uv、ruff、ty 等主流开源项目），工程团队将并入 Codex 部门并承诺持续维护开源生态；但社区对关键基础设施的战略控制与&amp;quot;分叉退出&amp;quot;可能性展开深层讨论。（Simon Willison）&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Harmonic 推出自主数学智能体，Mistral/微软/英伟达动态更新&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MiniMax 2.7 以 1/3 成本实现 SOTA 性能并引入自我进化机制&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Harmonic 的 Aristotle Agent 实现 24 小时无人干预的数学定理证明；Mistral 发布企业定制模型平台 Forge，微软重组 Copilot 团队，英伟达恢复对华 H200 芯片供应。（来源：TLDR AI）&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;MiniMax 发布新一代开源模型，以 GLM-5 三分之一的成本达到同等性能，首次实现模型自主参与训练迭代的&amp;quot;自我进化&amp;quot;机制。（Latent Space）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;工程与系统优化&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Snowflake Cortex AI 曝出沙盒逃逸漏洞&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于&amp;quot;LLM in a Flash&amp;quot;方案本地运行 397B Qwen 模型&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;安全研究员发现 Snowflake Cortex AI 因未防范 &lt;code&gt;cat&lt;/code&gt; 命令中的进程替换攻击而逃出沙箱并执行恶意代码。专家指出依赖命令白名单的防护机制存在固有缺陷，建议采用确定性沙箱彻底隔离 AI 代理操作环境。（来源：Simon Willison）&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;开发者通过 SSD 按需流式加载 MoE 专家权重、2-4 比特量化及减少激活专家数量，在有限内存环境下实现 397B 参数 Qwen 3.5 的 4.36 tokens/秒高效推理。（Simon Willison）&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;利用 AI 构建播客主题 RPG 游戏的实战路径&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据中心算力衡量应以 FLOPS 为核心指标&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;设计师 Ben Shih 分享了从零构建宝可梦风格游戏 LennyRPG 的六步工作流程，详述了如何利用 AI 将 300 多期播客文字记录转化为游戏数据，以及在工具选型和关键开发决策中的经验。（来源：Lenny&amp;#x27;s Newsletter）&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-18</guid>
-      <pubDate>Wed, 18 Mar 2026 23:10:21 +0000</pubDate>
+&lt;p&gt;分析指出，AI 数据中心规模应以计算能力而非投资额评估：10 万 H100 等效 GPU 算力相当于 500-1000 万部 iPhone 16，而 Meta 规划的 5 吉瓦超大型数据中心可媲美 2-4 亿部 iPhone，凸显 AI 基建的空前规模。（Brian Potter / Construction Physics）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;产品与行业动态&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;中国 AI 市场动态：小米/MiniMax 新模型、OpenClaw 普及与 Anthropic 用户调研&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本期关注小米与 MiniMax 发布高性能大模型、中国推动 OpenClaw 全民普及，以及 Anthropic 基于 8.1 万用户的 AI 需求深度调研，同时涵盖 GPT 5.4 与企业级 AI 代理应用进展。（TLDR AI）&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-19</guid>
+      <pubDate>Thu, 19 Mar 2026 22:54:43 +0000</pubDate>
     </item>
   </channel>
 </rss>
