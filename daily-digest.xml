@@ -7,35 +7,37 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Mar 2026 22:54:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 22:38:41 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-19</title>
-      <description>&lt;p&gt;&lt;strong&gt;AI 技术日报&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;LLM &amp;amp; 开源生态&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-21</title>
+      <description>&lt;p&gt;&lt;strong&gt;科技日报 | 2024年3月21日&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;🤖 LLM &amp;amp; AI 工具&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;AI 赋能 Git 工作流与复古软件考古&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;OpenAI 收购 Astral，引发 Python 社区控制权担忧&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Using Git with coding agents&lt;/strong&gt; | Simon Willison&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;OpenAI 宣布收购 Python 工具开发商 Astral（旗下拥有 uv、ruff、ty 等主流开源项目），工程团队将并入 Codex 部门并承诺持续维护开源生态；但社区对关键基础设施的战略控制与&amp;quot;分叉退出&amp;quot;可能性展开深层讨论。（Simon Willison）&lt;/p&gt;
+&lt;p&gt;编码智能体已精通Git复杂操作，开发者可借助AI轻松处理版本控制、历史重写、合并冲突及bug定位，无需记忆繁琐命令即可释放Git全部潜力。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;MiniMax 2.7 以 1/3 成本实现 SOTA 性能并引入自我进化机制&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Turbo Pascal 3.02A, deconstructed&lt;/strong&gt; | Simon Willison&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;MiniMax 发布新一代开源模型，以 GLM-5 三分之一的成本达到同等性能，首次实现模型自主参与训练迭代的&amp;quot;自我进化&amp;quot;机制。（Latent Space）&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;工程与系统优化&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;利用Claude AI对1986年Turbo Pascal二进制文件逆向解析，制作交互式可视化图表，将39KB代码划分为17个功能段（编辑器、编译器、运行时库等），并提供带详细注释的汇编代码。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;🚀 产品与增长&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;独立创始人实战指南&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;基于&amp;quot;LLM in a Flash&amp;quot;方案本地运行 397B Qwen 模型&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Community Wisdom: 战胜拖延、B2B获客与冷启动&lt;/strong&gt; | Kiyani (Lenny&amp;#x27;s Newsletter)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;开发者通过 SSD 按需流式加载 MoE 专家权重、2-4 比特量化及减少激活专家数量，在有限内存环境下实现 397B 参数 Qwen 3.5 的 4.36 tokens/秒高效推理。（Simon Willison）&lt;/p&gt;
+&lt;p&gt;精选社区经验，分享独立创始人克服拖延症、B2B潜在客户开发最佳工具，以及产品正式发布前获取首批真实用户的实战策略。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;🌍 跨界与深度思考&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;能源危机与全球房市观察&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;数据中心算力衡量应以 FLOPS 为核心指标&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reading List 03/21/26&lt;/strong&gt; | Brian Potter (Construction Physics)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;分析指出，AI 数据中心规模应以计算能力而非投资额评估：10 万 H100 等效 GPU 算力相当于 500-1000 万部 iPhone 16，而 Meta 规划的 5 吉瓦超大型数据中心可媲美 2-4 亿部 iPhone，凸显 AI 基建的空前规模。（Brian Potter / Construction Physics）&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;产品与行业动态&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;中国 AI 市场动态：小米/MiniMax 新模型、OpenClaw 普及与 Anthropic 用户调研&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;本期关注小米与 MiniMax 发布高性能大模型、中国推动 OpenClaw 全民普及，以及 Anthropic 基于 8.1 万用户的 AI 需求深度调研，同时涵盖 GPT 5.4 与企业级 AI 代理应用进展。（TLDR AI）&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-19</guid>
-      <pubDate>Thu, 19 Mar 2026 22:54:43 +0000</pubDate>
+&lt;p&gt;聚焦中东局势对全球能源供应链冲击（卡塔尔LNG设施遭袭、迪拜安全地位变化）及美国应急措施，同时梳理全球住房市场动态，包括房地产泡沫风险警示、代币化投资困境及特朗普住房监管新政。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-21</guid>
+      <pubDate>Sat, 21 Mar 2026 22:38:41 +0000</pubDate>
     </item>
   </channel>
 </rss>
