@@ -7,37 +7,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 21 Mar 2026 22:38:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 22:35:28 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-21</title>
-      <description>&lt;p&gt;&lt;strong&gt;科技日报 | 2024年3月21日&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-22</title>
+      <description>&lt;p&gt;&lt;strong&gt;科技日报&lt;/strong&gt; | 2024-01-09&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4&gt;🤖 LLM &amp;amp; AI 工具&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;AI 赋能 Git 工作流与复古软件考古&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Using Git with coding agents&lt;/strong&gt; | Simon Willison&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Profiling Hacker News users based on their comments&lt;/strong&gt; (Simon Willison)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;编码智能体已精通Git复杂操作，开发者可借助AI轻松处理版本控制、历史重写、合并冲突及bug定位，无需记忆繁琐命令即可释放Git全部潜力。&lt;/p&gt;
+&lt;p&gt;通过 Hacker News API 抓取用户历史评论，利用大语言模型生成精准用户画像。作者以自身为案例展示了该技术的高效性，同时警示了这种&amp;quot;轻度反乌托邦&amp;quot;应用可能带来的隐私风险。&lt;/p&gt;
+&lt;h4&gt;跨界与深度思考&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Turbo Pascal 3.02A, deconstructed&lt;/strong&gt; | Simon Willison&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The art of influence: The single most important skill that AI can&amp;#x27;t replace&lt;/strong&gt; (Lenny&amp;#x27;s Newsletter | Jessica Fain)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;利用Claude AI对1986年Turbo Pascal二进制文件逆向解析，制作交互式可视化图表，将39KB代码划分为17个功能段（编辑器、编译器、运行时库等），并提供带详细注释的汇编代码。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;🚀 产品与增长&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;独立创始人实战指南&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Community Wisdom: 战胜拖延、B2B获客与冷启动&lt;/strong&gt; | Kiyani (Lenny&amp;#x27;s Newsletter)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;精选社区经验，分享独立创始人克服拖延症、B2B潜在客户开发最佳工具，以及产品正式发布前获取首批真实用户的实战策略。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;🌍 跨界与深度思考&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;能源危机与全球房市观察&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Reading List 03/21/26&lt;/strong&gt; | Brian Potter (Construction Physics)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;聚焦中东局势对全球能源供应链冲击（卡塔尔LNG设施遭袭、迪拜安全地位变化）及美国应急措施，同时梳理全球住房市场动态，包括房地产泡沫风险警示、代币化投资困境及特朗普住房监管新政。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-21</guid>
-      <pubDate>Sat, 21 Mar 2026 22:38:41 +0000</pubDate>
+&lt;p&gt;Webflow 产品负责人 Jessica Fain 指出&lt;strong&gt;影响力是 AI 无法替代的核心技能&lt;/strong&gt;，并分享了推动想法落地的实战策略：以学习心态沟通、避免单一选项陷阱、把握关键会议时机建立共识。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-22</guid>
+      <pubDate>Sun, 22 Mar 2026 22:35:28 +0000</pubDate>
     </item>
   </channel>
 </rss>
