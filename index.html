@@ -292,272 +292,961 @@
 <div class="container">
   <div class="tabs">
     <button class="tab active" onclick="switchTab('digest')">每日日报</button>
-    <button class="tab" onclick="switchTab('articles')">全部文章 (2)</button>
+    <button class="tab" onclick="switchTab('articles')">全部文章 (8)</button>
   </div>
 
   <!-- 日报 Tab -->
   <div id="tab-digest" class="tab-content active">
-    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">影响力</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">职场沟通</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">领导力</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">AI</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">用户画像</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">LLM应用</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">数据挖掘</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff2d55"></div></div><span class="chart-count">1</span></div></div>
+    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">AI自动化</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">2</span></div>
+<div class="chart-row"><span class="chart-label">Starlette</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">2</span></div>
+<div class="chart-row"><span class="chart-label">Python</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">2</span></div>
+<div class="chart-row"><span class="chart-label">AI编程</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">2</span></div>
+<div class="chart-row"><span class="chart-label">LLM局限</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">软件工程</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">人的价值</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">智能代理</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
-      <h2>2026-03-22 日报</h2>
-      <p><strong>科技日报</strong> | 2024-01-09</p>
-<hr>
-<h4>LLM &amp; AI 工具</h4>
+      <h2>2026-03-23 日报</h2>
+      <p><strong>LLM &amp; AI 工具</strong></p>
 <ul>
-<li><strong>Profiling Hacker News users based on their comments</strong> (Simon Willison)</li>
+<li><strong>OpenAI 推进全自动研究助手，Cursor 转向 Kimi 2.5，马斯克投资 200 亿美元建芯片工厂</strong>；同时 MiniMax 等低成本模型挑战 Claude，行业开始反思 Token 消耗与实际效能的错配问题。（TLDR / TLDR AI）</li>
 </ul>
-<p>通过 Hacker News API 抓取用户历史评论，利用大语言模型生成精准用户画像。作者以自身为案例展示了该技术的高效性，同时警示了这种&quot;轻度反乌托邦&quot;应用可能带来的隐私风险。</p>
-<h4>跨界与深度思考</h4>
 <ul>
-<li><strong>The art of influence: The single most important skill that AI can&#x27;t replace</strong> (Lenny&#x27;s Newsletter | Jessica Fain)</li>
+<li><strong>微软 AI VP 分享&quot;微代理&quot;自动化实践</strong>：Marco Casalaina 利用 Warp 终端工具即时创建轻量级自动化脚本处理 Azure 管理、文档扫描等任务，结合 Copilot 实现邮件自动响应，展现消费级 AI 与构建级 AI 的融合。（Claire Vo &amp; Lenny Rachitsky / Lenny&#x27;s Newsletter）</li>
 </ul>
-<p>Webflow 产品负责人 Jessica Fain 指出<strong>影响力是 AI 无法替代的核心技能</strong>，并分享了推动想法落地的实战策略：以学习心态沟通、避免单一选项陷阱、把握关键会议时机建立共识。</p>
+<ul>
+<li><strong>用 Claude Skills 解决模型数据滞后</strong>：通过为 Claude 构建包含 Starlette 1.0 最新代码示例的专属技能，成功让 AI 生成兼容新版本的完整 Web 应用，为 AI 辅助编程跟进最新技术框架提供实践参考。（Simon Willison）</li>
+</ul>
+<p><strong>工程与系统设计</strong></p>
+<ul>
+<li><strong>Starlette 1.0 技能指南发布</strong>：提供使用这一轻量级 ASGI 框架构建稳健 Web 应用的实践参考，演示应用涵盖项目/任务管理、实时更新等功能，展示路由、Jinja2 模板及异步数据库操作的灵活性。（Simon Willison）</li>
+</ul>
+<ul>
+<li><strong>PC Gamer 网页臃肿审计</strong>：单篇 RSS 阅读器推荐文章体积高达 37MB，自动播放视频广告甚至可达数百 MB，揭露内容网站严重的性能退化问题。（Simon Willison）</li>
+</ul>
+<p><strong>产品迭代</strong></p>
+<ul>
+<li><strong>博客内容聚合功能升级</strong>：Simon Willison 为其&quot;beats&quot;功能新增注释能力，允许为外部链接附加简短说明以解释上下文，提升内容策展的信息价值。（Simon Willison）</li>
+</ul>
+<p><strong>深度思考：AI 局限与人的价值</strong></p>
+<ul>
+<li><strong>软件开发的核心始终是人</strong>：David Abram 指出，编码并非难点，理解系统、设计架构和做出关键决策才是；LLM 无法替代开发者，因其缺乏上下文理解且无法承担责任，而开发者的真正价值在于&quot;知道应该构建什么以及背后的原因&quot;。（Simon Willison）</li>
+</ul>
     </div>
   </div>
 
   <!-- 文章 Tab -->
   <div id="tab-articles" class="tab-content">
     <div class="article-card">
-      <div class="source">Lenny&#x27;s Newsletter</div>
+      <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">影响力的艺术：AI无法取代的关键技能</div>
+        <div class="title">艾布拉姆：机器并未夺走你的技艺</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)</div>
-      <div class="tags"><span class="tag">影响力</span><span class="tag">职场沟通</span><span class="tag">领导力</span><span class="tag">AI</span></div>
-      <div class="summary">Webflow产品负责人、前Slack高管Jessica Fain指出，**影响力是AI无法替代的最重要技能**。她剖析了高管决策的真实逻辑，并提供了推动想法落地的实用策略：以学习而非说服的心态沟通、避免只展示单一选项，以及把握会议关键时机建立共识。</div>
+      <div class="title-en">Quoting David Abram</div>
+      <div class="tags"><span class="tag">LLM局限</span><span class="tag">软件工程</span><span class="tag">人的价值</span></div>
+      <div class="summary">David Abram指出，软件开发中最困难的部分从来不是编写代码，而是理解系统、设计架构和做出关键决策；LLM无法解决这些核心问题，因为它们缺乏上下文理解且无法承担责任或做出选择，而开发者真正的价值在于知道应该构建什么以及背后的原因。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Go in to learn, not to convince.</div><div class="quote-zh">抱着学习的心态去沟通，而非一味说服。</div></div>
-<div class="quote-block"><div class="quote-en">That’s so interesting. What led you to believe that?</div><div class="quote-zh">这很有意思。是什么让你这样认为的？</div></div>
+<div class="quote-block"><div class="quote-en">The real work of software development, the part that makes someone valuable, is knowing what should exist in the first place, and why.</div><div class="quote-zh">软件开发的真正工作，让人有价值的部分，是首先知道应该存在什么，以及为什么。</div></div>
+<div class="quote-block"><div class="quote-en">And the most importantly, they don&#x27;t choose. That part is still yours.</div><div class="quote-zh">最重要的是，它们不会选择。那部分仍然属于你。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">The art of influence: The single most important skill that AI can't replace</h3>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Quoting David Abram</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">引用<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">大卫·艾布拉姆（David Abram）</strong>的观点</p>
 
-<h3 style="margin:24px 0 12px;">影响力的艺术：人工智能无法取代的单一最重要技能</h3>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+I have been doing this for years, and the hardest parts of the job were never about typing out code. I have always struggled most with understanding <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">systems</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">debugging</strong> things that made no sense, designing <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">architectures</strong> that wouldn't collapse under heavy load, and making decisions that would save months of pain later.
+</blockquote>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+我从事这行多年，这份工作最难的部分从来都不是敲代码。我始终最纠结的是理解<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">系统（systems）</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">调试（debugging）</strong>那些莫名其妙的问题、设计不会在重载下崩溃的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">架构（architectures）</strong>，以及做出能为日后省去数月痛苦的决策。
+</p>
 
-<img src="https://substackcdn.com/image/fetch/$s_!mO53!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62a49778-e4ec-4052-a4be-9f65d59f92e3_1920x1080.png" alt="Article header image" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+None of these problems can be solved <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLMs</strong> (Large Language Models). They can suggest code, help with boilerplate, sometimes can act as a sounding board. But they don't understand the system, they don't carry <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">context</strong> in their "minds", and they certianly don't know why a decision is right or wrong.
+</blockquote>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+这些问题没有一个能被<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">大语言模型（LLMs）</strong>解决。它们可以提供代码建议、帮忙处理样板代码，有时还能充当共鸣板。但它们不理解系统，它们的"思维"中不携带<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">上下文（context）</strong>，当然也不知道一个决策是对是错。
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jessica Fain</strong> is a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">product leader</strong> at <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Webflow</strong> and former <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Chief of Staff</strong> to the CPO at <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong>, where she worked alongside <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">April Underwood</strong> and many past podcast guests including <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stewart Butterfield</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Annie Pearl</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Tamar Yehoshua</strong>, and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Noah Weiss</strong>. She's spent her career learning how executives actually make decisions—and why most people completely misunderstand the process.</div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+And the most importantly, they don't <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">choose</strong>. That part is still yours. The real work of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">software development</strong>, the part that makes someone <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">valuable</strong>, is knowing what should exist in the first place, and why.
+</blockquote>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+最重要的是，它们不会做出<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">选择（choose）</strong>。那部分仍然是你的。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">软件开发（software development）</strong>真正的工作，让一个人有<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">价值（valuable）</strong>的部分，在于首先知道应该存在什么，以及为什么。
+</p>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jessica Fain</strong> 是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Webflow</strong> 的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">产品负责人（product leader）</strong>，曾任 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong> 首席产品官（CPO）的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">参谋长（Chief of Staff）</strong>。在 Slack 期间，她与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">April Underwood</strong> 以及多位往期播客嘉宾共事，包括 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stewart Butterfield</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Annie Pearl</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Tamar Yehoshua</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Noah Weiss</strong>。在她的职业生涯中，她一直在研究高管们实际上是如何做决策的——以及为什么大多数人完全误解了这个过程。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+—<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">David Abram</strong>, <em>The machine didn't take your craft. You gave it up.</em>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+——<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">大卫·艾布拉姆（David Abram）</strong>，《机器没有夺走你的手艺。是你放弃了它。》
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Listen on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">YouTube</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Spotify</strong>, and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple Podcasts</strong></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Tags: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">careers</strong>, ai-assisted-programming, generative-ai, ai, llms
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">职业发展（careers）</strong>、AI辅助编程、生成式AI、人工智能、大语言模型
+</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+    </div>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">可在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">YouTube</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Spotify</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple Podcasts</strong> 上收听</p>
+<div class="article-card">
+      <div class="source">Lenny&#x27;s Newsletter</div>
+      <div class="title-row">
+        <div class="title">微软AI副总裁如何用Warp实现全面自动化</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
+      </div>
+      <div class="title-en">🎙️ This week on How I AI: How Microsoft&#x27;s AI VP automates everything with Warp</div>
+      <div class="tags"><span class="tag">AI自动化</span><span class="tag">智能代理</span><span class="tag">效率工具</span></div>
+      <div class="summary">微软AI副总裁Marco Casalaina分享了利用Warp等工具即时创建&quot;微代理&quot;自动化工作的实践，涵盖文档扫描、视频压缩及Azure管理等场景。这种即用即走的轻量级方式打破了传统复杂工作流的限制，让用户能够专注于更高价值的活动。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">I do something else while these agents are doing whatever it is I need them to do.</div><div class="quote-zh">当这些智能体在执行我需要它们做的任何事情时，我可以去做别的事情。</div></div>
+<div class="quote-block"><div class="quote-en">unnamed agents created on the fly to do something for me</div><div class="quote-zh">即时创建的、无名的智能体，专门为我做某件事</div></div>
+</div>
+      <div class="translation"><img src="https://substackcdn.com/image/fetch/$s_!gWeJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F361d81ef-7faf-4d8e-8028-5d5e03432a9a_2329x551.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<h3 style="margin:24px 0 12px;">We discuss:</h3>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">### How <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong>'s AI VP automates everything with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco Casalaina</strong></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">### <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">微软</strong> AI 副总裁如何利用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> 自动化一切 | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco Casalaina</strong></p>
 
-<h3 style="margin:24px 0 12px;">我们讨论了：</h3>
+<img src="https://substackcdn.com/image/fetch/$s_!G4Lb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d3e328b-a17a-4acf-b36b-49acc28915f1_1600x156.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>Why great ideas often don't get buy-in</li></ul></div>
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Brought to you by:<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Rovo</strong>—AI that knows your business<br/><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Lovable</strong>—Build apps by simply chatting with AI</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">本节目由以下赞助商赞助：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Rovo</strong>——了解您业务的 AI；<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Lovable</strong>——通过简单与 AI 对话即可构建应用</p>
+</blockquote>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么伟大的想法常常无法获得支持（<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">buy-in</strong>）</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Brought to you by:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">本节目由以下赞助商赞助：</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Why great ideas often don't get buy-in</div>
+<ul style="margin:12px 0;padding-left:24px;">
+<li>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Rovo</strong>—AI that knows your business</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Rovo</strong>——了解您业务的 AI</p>
+</li>
+<li>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Lovable</strong>—Build apps by simply chatting with AI</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Lovable</strong>——通过简单与 AI 对话即可构建应用</p>
+</li>
+</ul>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么伟大的想法常常无法获得支持</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco Casalaina</strong>, VP of Core AI Products at <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong>, walks through how he uses <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft 365 Copilot</strong>, and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ChatGPT</strong> to spin up lightweight “micro-agents” on the fly that handle everything from <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> admin to document scanning to video compression.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco Casalaina</strong>，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">微软</strong>核心 AI 产品副总裁，详细介绍他如何使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft 365 Copilot</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ChatGPT</strong> 即时创建轻量级"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">微代理</strong>"（micro-agents），处理从 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> 管理到文档扫描再到视频压缩的各种任务。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>Why executive calendars are "like strobe lights" and why the first 30 seconds of a meeting matter so much</li></ul></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Listen now on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">YouTube</strong> • <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Spotify</strong> • <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple Podcasts</strong></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">立即收听：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">YouTube</strong> • <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Spotify</strong> • <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple Podcasts</strong></p>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么高管的日程安排"就像频闪灯（<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">strobe lights</strong>）"一样，以及为什么会议的前30秒如此重要</p>
+<h4 style="margin:24px 0 12px;">Biggest takeaways:</h4>
+<h4 style="margin:24px 0 12px;">核心要点：</h4>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Why executive calendars are "like strobe lights" and why the first 30 seconds of a meeting matter so much</div>
+<ul style="margin:12px 0;padding-left:24px;">
+<li>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Automation</strong> frees you to focus on higher-value activities. As <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> puts it: “I do something else while these <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agents</strong> are doing whatever it is I need them to do.” When scanning his daughter’s homework, he was able to help her with math problems instead of fighting with scanner software.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">自动化</strong>让你能够专注于更高价值的活动。正如 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> 所说："当这些<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">代理</strong>（agents）在执行我需要它们做的任何事情时，我可以去做别的事情。"在扫描女儿的作业时，他能够帮她解决数学问题，而不是与扫描软件作斗争。</p>
+</li>
+</ul>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么高管的日程安排"就像频闪灯"一样，以及为什么会议的前30秒如此重要</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Automation</strong> frees you to focus on higher-value activities. As <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> puts it: “I do something else while these <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agents</strong> are doing whatever it is I need them to do.” When scanning his daughter’s homework, he was able to help her with math problems instead of fighting with scanner software.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">自动化</strong>让你能够专注于更高价值的活动。正如 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> 所说："当这些<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">代理</strong>在执行我需要它们做的任何事情时，我可以去做别的事情。"在扫描女儿的作业时，他能够帮她解决数学问题，而不是与扫描软件作斗争。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>Why executives are usually optimizing for a global maximum while you are often optimizing locally</li></ul></div>
+<ul style="margin:12px 0;padding-left:24px;">
+<li>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hardware automation</strong> is an underappreciated <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> use case. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> demonstrates how <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> can control his scanner through <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NAPS2</strong>, a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI</strong> tool for scanners. This allows him to scan documents, flip pages, and combine PDFs without ever touching the scanner software.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">硬件自动化</strong>是一个被低估的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 应用场景。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> 演示了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> 如何通过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NAPS2</strong>（一个扫描仪的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI</strong> 工具）控制他的扫描仪。这让他无需接触扫描软件即可扫描文档、翻页和合并 PDF。</p>
+</li>
+</ul>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么高管们通常在追求<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">全局最优（global maximum）</strong>，而你往往只在进行<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">局部优化（optimizing locally）</strong></p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hardware automation</strong> is an underappreciated <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> use case. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> demonstrates how <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> can control his scanner through <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NAPS2</strong>, a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI</strong> tool for scanners. This allows him to scan documents, flip pages, and combine PDFs without ever touching the scanner software.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">硬件自动化</strong>是一个被低估的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 应用场景。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> 演示了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> 如何通过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NAPS2</strong>（一个扫描仪的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI</strong>（命令行界面）工具）控制他的扫描仪。这让他无需接触扫描软件即可扫描文档、翻页和合并 PDF。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Why executives are usually optimizing for a global maximum while you are often optimizing locally</div>
+<ul style="margin:12px 0;padding-left:24px;">
+<li>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">File manipulation</strong> is a powerful <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> capability. When <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> needed to compress a 1.7GB video file, he simply asked <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> to analyze why it was so large and re-encode it with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FFmpeg</strong>. The AI identified the issue (excessive bitrate and resolution) and compressed it to 13MB while maintaining quality.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">文件操作</strong>是一项强大的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 能力。当 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> 需要压缩一个 1.7GB 的视频文件时，他只需让 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> 分析它为何如此之大，并使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FFmpeg</strong> 重新编码。AI 识别出问题（过高的比特率和分辨率），并将其压缩至 13MB，同时保持了质量。</p>
+</li>
+</ul>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么高管们通常在追求全局最优，而你往往只在进行局部优化</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">File manipulation</strong> is a powerful <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> capability. When <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> needed to compress a 1.7GB video file, he simply asked <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> to analyze why it was so large and re-encode it with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FFmpeg</strong>. The AI identified the issue (excessive bitrate and resolution) and compressed it to 13MB while maintaining quality.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">文件操作</strong>是一项强大的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 能力。当 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> 需要压缩一个 1.7GB 的视频文件时，他只需让 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> 分析它为何如此之大，并使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FFmpeg</strong> 重新编码。AI 识别出问题（过高的比特率和分辨率），并将其压缩至 13MB，同时保持了质量。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>The best question Jessica uses when a leader says something that seems wrong: "That's so interesting. What led you to believe that?"</li></ul></div>
+<ul style="margin:12px 0;padding-left:24px;">
+<li>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Ad hoc agents</strong> are changing how we approach <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">automation</strong>. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> defines these as “unnamed agents created on the fly to do something for me.” Rather than building complex, permanent workflows, these <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">micro-agents</strong> handle specific tasks when needed and then disappear. This approach is becoming a trend across general-purpose <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> tools, blurring the line between consuming and building agents.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">临时代理</strong>（Ad hoc agents）正在改变我们处理<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">自动化</strong>的方式。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> 将其定义为"即时创建的、为我做某事的未命名代理"。与构建复杂的永久工作流不同，这些<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">微代理</strong>（micro-agents）在需要时处理特定任务，然后消失。这种方法正在成为通用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 工具中的趋势，模糊了使用代理与构建代理之间的界限。</p>
+</li>
+</ul>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">当领导说了一些看起来错误的话时，Jessica 使用的最佳提问方式："这太有意思了。是什么让您产生这个想法的？"</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Ad hoc agents</strong> are changing how we approach <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">automation</strong>. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> defines these as “unnamed agents created on the fly to do something for me.” Rather than building complex, permanent workflows, these <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">micro-agents</strong> handle specific tasks when needed and then disappear. This approach is becoming a trend across general-purpose <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> tools, blurring the line between consuming and building agents.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">临时代理</strong>正在改变我们处理<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">自动化</strong>的方式。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> 将其定义为"即时创建的、为我做某事的未命名代理"。与构建复杂的永久工作流不同，这些<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">微代理</strong>在需要时处理特定任务，然后消失。这种方法正在成为通用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 工具中的趋势，模糊了使用代理与构建代理之间的界限。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The best question Jessica uses when a leader says something that seems wrong: "That's so interesting. What led you to believe that?"</div>
+<ul style="margin:12px 0;padding-left:24px;">
+<li>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI</strong> tools with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> create better interfaces than traditional <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GUIs</strong>. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> points out that designing graphical interfaces for complex systems like <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> permissions is extremely difficult. AI with access to command-line tools can abstract away these design challenges.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">结合 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI</strong>（命令行界面）工具比传统 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GUI</strong>（图形用户界面）创造出更好的界面。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> 指出，为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> 权限等复杂系统设计图形界面极其困难。能够访问命令行工具的 AI 可以抽象掉这些设计挑战。</p>
+</li>
+</ul>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">当领导说了一些看起来错误的话时，Jessica 使用的最佳提问方式："这太有意思了。是什么让您产生这个想法的？"</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI</strong> tools with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> create better interfaces than traditional <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GUIs</strong>. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> points out that designing graphical interfaces for complex systems like <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> permissions is extremely difficult. AI with access to command-line tools can abstract away these design challenges.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">结合 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI</strong> 工具比传统 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GUI</strong> 创造出更好的界面。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco</strong> 指出，为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> 权限等复杂系统设计图形界面极其困难。能够访问命令行工具的 AI 可以抽象掉这些设计挑战。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>Why you should go in to learn, not to convince</li></ul></div>
+<h4 style="margin:24px 0 12px;">Detailed workflow walkthroughs from this episode:</h4>
+<h4 style="margin:24px 0 12px;">本集详细工作流程解析：</h4>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么你应该抱着学习的心态去，而不是去说服对方</p>
+<ul style="margin:12px 0;padding-left:24px;">
+<li>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">How <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong>’s AI VP Automates Everything with 5 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Micro-Agent</strong> Workflows: <a href="https://www.chatprd.ai/how-i-ai/microsofts-ai-vp-automates-everything-with-5-micro-agent-workflows" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/microsofts-ai-vp-automates-everything-with-5-micro-agent-workflows</a></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">微软</strong> AI 副总裁如何通过 5 个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">微代理</strong>工作流程实现自动化：<a href="https://www.chatprd.ai/how-i-ai/microsofts-ai-vp-automates-everything-with-5-micro-agent-workflows" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/microsofts-ai-vp-automates-everything-with-5-micro-agent-workflows</a></p>
+</li>
+</ul>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Why you should go in to learn, not to convince</div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">How <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong>’s AI VP Automates Everything with 5 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Micro-Agent</strong> Workflows: <a href="https://www.chatprd.ai/how-i-ai/microsofts-ai-vp-automates-everything-with-5-micro-agent-workflows" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/microsofts-ai-vp-automates-everything-with-5-micro-agent-workflows</a></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">微软</strong> AI 副总裁如何通过 5 个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">微代理</strong>工作流程实现自动化：<a href="https://www.chatprd.ai/how-i-ai/microsofts-ai-vp-automates-everything-with-5-micro-agent-workflows" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/microsofts-ai-vp-automates-everything-with-5-micro-agent-workflows</a></p>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么你应该抱着学习的心态去，而不是去说服对方</p>
+<ul style="margin:12px 0;padding-left:24px;">
+<li>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">How to Create an Automated Meeting Scheduler with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft 365 Copilot</strong>: <a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-create-an-automated-meeting-scheduler-with-microsoft-365-copilot" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/workflows/how-to-create-an-automated-meeting-scheduler-with-microsoft-365-copilot</a></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如何使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft 365 Copilot</strong> 创建自动会议调度器：<a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-create-an-automated-meeting-scheduler-with-microsoft-365-copilot" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/workflows/how-to-create-an-automated-meeting-scheduler-with-microsoft-365-copilot</a></p>
+</li>
+</ul>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>Why showing only one option is a mistake</li></ul></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">How to Create an Automated Meeting Scheduler with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft 365 Copilot</strong>: <a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-create-an-automated-meeting-scheduler-with-microsoft-365-copilot" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/workflows/how-to-create-an-automated-meeting-scheduler-with-microsoft-365-copilot</a></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如何使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft 365 Copilot</strong> 创建自动会议调度器：<a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-create-an-automated-meeting-scheduler-with-microsoft-365-copilot" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/workflows/how-to-create-an-automated-meeting-scheduler-with-microsoft-365-copilot</a></p>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么只展示一个选项是错误的</p>
+<ul style="margin:12px 0;padding-left:24px;">
+<li>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">How to Scan and Merge Two-Sided Documents into a Single PDF with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong>: <a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-scan-and-merge-two-sided-documents-into-a-single-pdf-with-ai" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/workflows/how-to-scan-and-merge-two-sided-documents-into-a-single-pdf-with-ai</a></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如何使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 扫描并合并双面文档为单个 PDF：<a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-scan-and-merge-two-sided-documents-into-a-single-pdf-with-ai" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/workflows/how-to-scan-and-merge-two-sided-documents-into-a-single-pdf-with-ai</a></p>
+</li>
+</ul>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Why showing only one option is a mistake</div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">How to Scan and Merge Two-Sided Documents into a Single PDF with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong>: <a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-scan-and-merge-two-sided-documents-into-a-single-pdf-with-ai" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/workflows/how-to-scan-and-merge-two-sided-documents-into-a-single-pdf-with-ai</a></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如何使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 扫描并合并双面文档为单个 PDF：<a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-scan-and-merge-two-sided-documents-into-a-single-pdf-with-ai" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/workflows/how-to-scan-and-merge-two-sided-documents-into-a-single-pdf-with-ai</a></p>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么只展示一个选项是错误的</p>
+<ul style="margin:12px 0;padding-left:24px;">
+<li>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">How to Automate <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> User Role Management with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> in the Terminal: <a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-automate-azure-user-role-management-with-ai-in-the-terminal" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/workflows/how-to-automate-azure-user-role-management-with-ai-in-the-terminal</a></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如何在终端中使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 自动化 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> 用户角色管理：<a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-automate-azure-user-role-management-with-ai-in-the-terminal" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/workflows/how-to-automate-azure-user-role-management-with-ai-in-the-terminal</a></p>
+</li>
+</ul>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>Why AI will make influence more important, not less</li></ul></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">How to Automate <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> User Role Management with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> in the Terminal: <a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-automate-azure-user-role-management-with-ai-in-the-terminal" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/workflows/how-to-automate-azure-user-role-management-with-ai-in-the-terminal</a></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如何在终端中使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 自动化 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> 用户角色管理：<a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-automate-azure-user-role-management-with-ai-in-the-terminal" style="color:#2471a3;text-decoration:none;">https://www.chatprd.ai/how-i-ai/workflows/how-to-automate-azure-user-role-management-with-ai-in-the-terminal</a></p>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 会让<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">影响力（influence）</strong>变得更加重要，而不是相反</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">If you’re enjoying these episodes, reply and let me know what you’d love to learn more about: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI workflows</strong>, hiring, growth, product strategy—anything.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如果你喜欢这些节目，请回复告诉我你想了解更多关于什么内容：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 工作流程</strong>、招聘、增长、产品战略——任何内容。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Why AI will make influence more important, not less</div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Catch you next week,<br/><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Lenny</strong></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">下周见，<br/><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Lenny</strong></p>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么 AI 会让影响力变得更加重要，而不是相反</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">P.S. Want every new episode delivered the moment it drops? Hit “Follow” on your favorite podcast app.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">附言：想让每一集新节目在发布时立即送达？在你最喜欢的播客应用上点击"关注"。</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-microsofts" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Lenny&#x27;s Newsletter</div>
+      <div class="title-row">
+        <div class="title">微软AI副总裁如何用Warp实现全面自动化</div>
+        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
+      </div>
+      <div class="title-en">How Microsoft’s AI VP automates everything with Warp | Marco Casalaina</div>
+      <div class="tags"><span class="tag">AI自动化</span><span class="tag">生产力</span><span class="tag">终端工具</span><span class="tag">工作流</span></div>
+      <div class="summary">微软AI副总裁Marco Casalaina分享了其借助Warp自动化处理Azure资源管理、文档扫描等行政工作的经验，并演示了如何通过Microsoft 365 Copilot和ChatGPT创建自动响应邮件与定时任务的AI工作流，展现&quot;微代理&quot;如何模糊消费与构建AI的界限，助力聚焦高价值活动。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">Rather than using Warp as a coding assistant (its primary marketed purpose), Marco leverages it to manage Azure resources, scan documents, compress videos, and more.</div><div class="quote-zh">Marco并未将Warp用作编程助手（这是其核心市场定位），而是利用它来管理Azure资源、扫描文档、压缩视频等。</div></div>
+<div class="quote-block"><div class="quote-en">the line between consuming and building AI agents is blurring</div><div class="quote-zh">使用AI代理与构建AI代理之间的界限正在日益模糊。</div></div>
+</div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">How Microsoft's AI VP automates everything with Warp | Marco Casalaina</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco Casalaina</strong>, VP of Core AI Products and AI Futurist at <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong>, demonstrates how he uses AI tools to automate administrative tasks that typically consume valuable time. Rather than using <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> as a coding assistant (its primary marketed purpose), Marco leverages it to manage <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> resources, scan documents, compress videos, and more. He shows how these "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">micro-agents</strong>" can reduce friction in everyday workflows, allowing him to focus on higher-value activities. Marco also demonstrates how <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft 365 Copilot</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ChatGPT</strong> can create triggered workflows that respond to emails or check for information on a schedule, highlighting how the line between consuming and building <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agents</strong> is blurring.
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco Casalaina</strong>，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong>（微软）核心 AI 产品副总裁兼 AI 未来学家，展示了如何利用 AI 工具自动化那些通常会消耗宝贵时间的行政任务。他没有将 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> 用作编程助手（这是其主要的市场定位），而是利用它来管理 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> 资源、扫描文档、压缩视频等。他展示了这些"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">微代理（micro-agents）</strong>"如何减少日常工作流中的摩擦，使他能够专注于更高价值的活动。Marco 还演示了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft 365 Copilot</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ChatGPT</strong> 如何创建触发式工作流来响应邮件或按计划检查信息，凸显了使用与构建 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 代理（AI agents）</strong>之间的界限正在模糊。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Listen or watch on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">YouTube</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Spotify</strong>, or <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple Podcasts</strong>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+可通过 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">YouTube</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Spotify</strong> 或 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple Podcasts</strong> 收听或观看。
+</p>
+
+<h3 style="margin:24px 0 12px;">What you'll learn:</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0 0 6px 0;padding-left:20px;">
+<li>How to use <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> to manage <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> resources and assign permissions without navigating complex web interfaces</li>
+</ul>
+<p style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:0 0 12px 0;">How to use Warp to manage Azure resources and assign permissions without navigating complex web interfaces</p>
+
+<ul style="margin:0 0 6px 0;padding-left:20px;">
+<li>Techniques for automating document scanning and processing directly from the terminal</li>
+</ul>
+<p style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:0 0 12px 0;">Techniques for automating document scanning and processing directly from the terminal</p>
+
+<ul style="margin:0 0 6px 0;padding-left:20px;">
+<li>Methods for analyzing and compressing video files using AI-generated <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FFmpeg</strong> commands</li>
+</ul>
+<p style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:0 0 12px 0;">Methods for analyzing and compressing video files using AI-generated FFmpeg commands</p>
+
+<ul style="margin:0 0 6px 0;padding-left:20px;">
+<li>How to create simple rules that dramatically improve AI performance for specialized tasks</li>
+</ul>
+<p style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:0 0 12px 0;">How to create simple rules that dramatically improve AI performance for specialized tasks</p>
+
+<ul style="margin:0 0 6px 0;padding-left:20px;">
+<li>Ways to build triggered workflows in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft 365 Copilot</strong> that automatically respond to emails</li>
+</ul>
+<p style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:0 0 12px 0;">Ways to build triggered workflows in Microsoft 365 Copilot that automatically respond to emails</p>
+
+<ul style="margin:0 0 6px 0;padding-left:20px;">
+<li>How to configure <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ChatGPT</strong> to perform scheduled tasks like checking for new content</li>
+</ul>
+<p style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:0 0 12px 0;">How to configure ChatGPT to perform scheduled tasks like checking for new content</p>
+
+<ul style="margin:0 0 6px 0;padding-left:20px;">
+<li>Strategies for creating consistent AI interactions using <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AutoHotkey</strong> shortcuts</li>
+</ul>
+<p style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:0 0 12px 0;">Strategies for creating consistent AI interactions using AutoHotkey shortcuts</p>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+• 如何使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> 管理 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> 资源并分配权限，无需浏览复杂的 Web 界面<br/><br/>
+• 直接从终端自动化文档扫描和处理的技术<br/><br/>
+• 使用 AI 生成的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FFmpeg</strong> 命令分析和压缩视频文件的方法<br/><br/>
+• 创建简单规则以显著提升 AI 在专门任务上性能的方法<br/><br/>
+• 在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft 365 Copilot</strong> 中构建触发式工作流以自动响应邮件的方法<br/><br/>
+• 配置 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ChatGPT</strong> 执行定时任务（如检查新内容）的方法<br/><br/>
+• 使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AutoHotkey</strong> 快捷键创建一致性 AI 交互的策略
+</p>
 
 <h3 style="margin:24px 0 12px;">Brought to you by:</h3>
 
-<h3 style="margin:24px 0 12px;">本期赞助：</h3>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<img src="https://substackcdn.com/image/fetch/$s_!xmhz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8b8b2994-4ad9-435b-9556-adbc3e1ded8c_1600x156.png" alt="Rovo logo" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<img src="https://substackcdn.com/image/fetch/$s_!cmai!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc05bbe65-e622-4dbc-b741-22e51e9e82d4_3444x285.png" alt="Sponsor banner" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rovo</strong>—AI that knows your business</p>
 
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"><div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Omni</strong>—AI analytics your customers can trust<br/><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Lovable</strong>—Build apps by simply chatting with AI<br/><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Vanta</strong>—Automate compliance, manage risk, and accelerate trust with AI</div></blockquote>
+<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Lovable</strong>—Build apps by simply chatting with AI</p>
+</div>
 
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"><p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Omni</strong>——让你的客户信赖的 AI 数据分析工具<br/><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Lovable</strong>——只需与 AI 对话即可构建应用<br/><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Vanta</strong>——利用 AI 实现合规自动化、管理风险并加速建立信任</p></blockquote>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rovo</strong>——了解您业务的 AI<br/>
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Lovable</strong>——通过简单的 AI 对话构建应用
+</p>
 
-<h3 style="margin:24px 0 12px;">Where to find Jessica Fain:</h3>
+<h3 style="margin:24px 0 12px;">In this episode, we cover:</h3>
 
-<h3 style="margin:24px 0 12px;">如何找到 Jessica Fain：</h3>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li>(00:00) Introduction to <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco Casalaina</strong></li>
+<li>(02:14) Why Marco chose <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> for administrative tasks</li>
+<li>(03:57) Demo: Using Warp to manage <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> resources and permissions</li>
+<li>(06:00) How <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI</strong> tools eliminate GUI friction for complex tasks</li>
+<li>(07:18) Creating rules to improve AI performance for specialized tasks</li>
+<li>(10:28) Demo: Document scanning automation</li>
+<li>(13:00) Combining odd and even pages using a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Python</strong> automation</li>
+<li>(15:04) The value of ephemeral AI solutions vs. permanent tools</li>
+<li>(17:12) Video compression using <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FFmpeg</strong> commands</li>
+<li>(20:22) The concept of "ad hoc agents" for specific tasks</li>
+<li>(22:31) Demo: Creating triggered workflows in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft 365 Copilot</strong></li>
+<li>(25:51) Demo: Setting up scheduled tasks in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ChatGPT</strong></li>
+<li>(27:17) How AI automation changes time management</li>
+<li>(29:14) Teaching AI skills to the next generation</li>
+<li>(30:30) Strategies for improving AI performance with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AutoHotkey</strong></li>
+</ul>
+</div>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>LinkedIn: <a href="https://www.linkedin.com/in/jessica-fain-79b8989" style="color:#2471a3;text-decoration:none;">https://www.linkedin.com/in/jessica-fain-79b8989</a></li></ul></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+(00:00) <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marco Casalaina</strong> 简介<br/>
+(02:14) Marco 为何选择 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong> 处理行政任务<br/>
+(03:57) 演示：使用 Warp 管理 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure</strong> 资源和权限<br/>
+(06:00) <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI（命令行界面）</strong>工具如何消除复杂任务的 GUI（图形用户界面）摩擦<br/>
+(07:18) 创建规则以提升 AI 在专门任务上的性能<br/>
+(10:28) 演示：文档扫描自动化<br/>
+(13:00) 使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Python</strong> 自动化合并奇偶页<br/>
+(15:04) 临时性 AI 解决方案与永久工具的价值对比<br/>
+(17:12) 使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FFmpeg</strong> 命令压缩视频<br/>
+(20:22) 针对特定任务的"临时代理（ad hoc agents）"概念<br/>
+(22:31) 演示：在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft 365 Copilot</strong> 中创建触发式工作流<br/>
+(25:51) 演示：在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ChatGPT</strong> 中设置定时任务<br/>
+(27:17) AI 自动化如何改变时间管理<br/>
+(29:14) 向下一代传授 AI 技能<br/>
+(30:30) 使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AutoHotkey</strong> 提升 AI 性能的策略
+</p>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• LinkedIn：<a href="https://www.linkedin.com/in/jessica-fain-79b8989" style="color:#2471a3;text-decoration:none;">https://www.linkedin.com/in/jessica-fain-79b8989</a></p>
+<h3 style="margin:24px 0 12px;">Tools referenced:</h3>
 
-<h3 style="margin:24px 0 12px;">Referenced:</h3>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong>: https://www.warp.dev/</li>
+<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft Azure</strong>: https://azure.microsoft.com/en-us</li>
+<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure CLI</strong>: https://learn.microsoft.com/en-us/cli/azure/</li>
+<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft 365 Copilot</strong>: https://www.microsoft.com/en-us/microsoft-365/copilot</li>
+<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ChatGPT</strong>: https://chat.openai.com/</li>
+</ul>
+</div>
 
-<h3 style="margin:24px 0 12px;">参考资料：</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Warp</strong>：https://www.warp.dev/<br/>
+• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft Azure</strong>（微软 Azure）：https://azure.microsoft.com/en-us<br/>
+• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Azure CLI</strong>（Azure 命令行界面）：https://learn.microsoft.com/en-us/cli/azure/<br/>
+• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Microsoft 365 Copilot</strong>：https://www.microsoft.com/en-us/microsoft-365/copilot<br/>
+• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ChatGPT</strong>：https://chat.openai.com/
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Box</strong>: <a href="https://www.box.com" style="color:#2471a3;text-decoration:none;">https://www.box.com</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong>: <a href="https://slack.com" style="color:#2471a3;text-decoration:none;">https://slack.com</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Brightwheel</strong>: <a href="https://mybrightwheel.com" style="color:#2471a3;text-decoration:none;">https://mybrightwheel.com</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Webflow</strong>: <a href="https://webflow.com" style="color:#2471a3;text-decoration:none;">https://webflow.com</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">April Underwood</strong> on LinkedIn: <a href="https://www.linkedin.com/in/aprilunderwood" style="color:#2471a3;text-decoration:none;">https://www.linkedin.com/in/aprilunderwood</a></li><li>Lessons in product leadership and AI strategy from Glean, Google, Amazon, and Slack | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Tamar Yehoshua</strong> (Product at Glean, ex-Google and Slack): <a href="https://www.lennysnewsletter.com/p/you-dont-need-to-be-a-well-run-company-to-win-tamar-yehoshua" style="color:#2471a3;text-decoration:none;">https://www.lennysnewsletter.com/p/you-dont-need-to-be-a-well-run-company-to-win-tamar-yehoshua</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Atlassian</strong>: <a href="https://www.atlassian.com" style="color:#2471a3;text-decoration:none;">https://www.atlassian.com</a></li><li>Behind the scenes of Calendly's rapid growth | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Annie Pearl</strong> (CPO): <a href="https://www.lennysnewsletter.com/p/behind-the-scenes-of-calendlys-rapid" style="color:#2471a3;text-decoration:none;">https://www.lennysnewsletter.com/p/behind-the-scenes-of-calendlys-rapid</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Calendly</strong>: <a href="https://calendly.com" style="color:#2471a3;text-decoration:none;">https://calendly.com</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Glassdoor</strong>: <a href="https://www.glassdoor.co.in/index.htm" style="color:#2471a3;text-decoration:none;">https://www.glassdoor.co.in/index.htm</a></li><li>The 10 traits of great PMs, how AI will impact your product, and Slack's product development process | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Noah Weiss</strong> (Slack, Foursquare, Google): <a href="https://www.lennysnewsletter.com/p/the-10-traits-of-great-pms-how-ai" style="color:#2471a3;text-decoration:none;">https://www.lennysnewsletter.com/p/the-10-traits-of-great-pms-how-ai</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ethan Eismann</strong> on X: <a href="https://x.com/eeismann" style="color:#2471a3;text-decoration:none;">https://x.com/eeismann</a></li><li>Slack founder: Mental models for building products people love ft. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stewart Butterfield</strong>: <a href="https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield" style="color:#2471a3;text-decoration:none;">https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ilan Frank</strong> on LinkedIn: <a href="https://www.linkedin.com/in/ilanfrank" style="color:#2471a3;text-decoration:none;">https://www.linkedin.com/in/ilanfrank</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Checkr</strong>: <a href="https://checkr.com" style="color:#2471a3;text-decoration:none;">https://checkr.com</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ali Rayl</strong> on LinkedIn: <a href="https://www.linkedin.com/in/alirayl" style="color:#2471a3;text-decoration:none;">https://www.linkedin.com/in/alirayl</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rachel Wolan</strong> on LinkedIn: <a href="https://www.linkedin.com/in/rachelwolan" style="color:#2471a3;text-decoration:none;">https://www.linkedin.com/in/rachelwolan</a></li><li>How Webflow's CPO built an AI chief of staff to manage her calendar, prep for meetings, and drive AI adoption | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rachel Wolan</strong>: <a href="https://www.lennysnewsletter.com/p/how-webflows-cpo-built-an-ai-chief" style="color:#2471a3;text-decoration:none;">https://www.lennysnewsletter.com/p/how-webflows-cpo-built-an-ai-chief</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Barbara Minto</strong>'s website: <a href="https://www.barbaraminto.com" style="color:#2471a3;text-decoration:none;">https://www.barbaraminto.com</a></li><li>How Slack invests in big little details through Customer Love Sprints: <a href="https://slack.design/articles/sweating-the-small-stuff" style="color:#2471a3;text-decoration:none;">https://slack.design/articles/sweating-the-small-stuff</a></li><li>Building product at Stripe: craft, metrics, and customer obsession | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jeff Weinstein</strong> (Product lead): <a href="https://www.lennysnewsletter.com/p/building-product-at-stripe-jeff-weinstein" style="color:#2471a3;text-decoration:none;">https://www.lennysnewsletter.com/p/building-product-at-stripe-jeff-weinstein</a></li><li>The <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Enneagram</strong> Institute: <a href="https://www.enneagraminstitute.com/type-descriptions" style="color:#2471a3;text-decoration:none;">https://www.enneagraminstitute.com/type-descriptions</a></li><li>The <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Pitt</strong> on Prime Video: <a href="https://www.amazon.com/The-Pitt-Season-1/dp/B0DNRR8QWD" style="color:#2471a3;text-decoration:none;">https://www.amazon.com/The-Pitt-Season-1/dp/B0DNRR8QWD</a></li><li>Towel warmer: <a href="https://www.amazon.com/FLYHIT-Large-Towel-Warmer-Bathroom/dp/B0CB5K34L2" style="color:#2471a3;text-decoration:none;">https://www.amazon.com/FLYHIT-Large-Towel-Warmer-Bathroom/dp/B0CB5K34L2</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Casa</strong>: <a href="https://getcasa.com" style="color:#2471a3;text-decoration:none;">https://getcasa.com</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jimi Hendrix</strong>: <a href="https://en.wikipedia.org/wiki/Jimi_Hendrix" style="color:#2471a3;text-decoration:none;">https://en.wikipedia.org/wiki/Jimi_Hendrix</a></li><li>Greek Theatre: <a href="https://en.wikipedia.org/wiki/Greek_Theatre_(Los_Angeles)" style="color:#2471a3;text-decoration:none;">https://en.wikipedia.org/wiki/Greek_Theatre_(Los_Angeles)</a></li></ul></div>
+<h3 style="margin:24px 0 12px;">Other references:</h3>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Box</strong>：<a href="https://www.box.com" style="color:#2471a3;text-decoration:none;">https://www.box.com</a><br/>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong>：<a href="https://slack.com" style="color:#2471a3;text-decoration:none;">https://slack.com</a><br/>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Brightwheel</strong>：<a href="https://mybrightwheel.com" style="color:#2471a3;text-decoration:none;">https://mybrightwheel.com</a><br/>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Webflow</strong>：<a href="https://webflow.com" style="color:#2471a3;text-decoration:none;">https://webflow.com</a><br/>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">April Underwood</strong> 的 LinkedIn：<a href="https://www.linkedin.com/in/aprilunderwood" style="color:#2471a3;text-decoration:none;">https://www.linkedin.com/in/aprilunderwood</a><br/>• 来自 Glean、Google、Amazon 和 Slack 的产品领导力与 AI 策略经验 | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Tamar Yehoshua</strong>（Glean 产品负责人，前 Google 和 Slack）：<a href="https://www.lennysnewsletter.com/p/you-dont-need-to-be-a-well-run-company-to-win-tamar-yehoshua" style="color:#2471a3;text-decoration:none;">https://www.lennysnewsletter.com/p/you-dont-need-to-be-a-well-run-company-to-win-tamar-yehoshua</a><br/>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Atlassian</strong>：<a href="https://www.atlassian.com" style="color:#2471a3;text-decoration:none;">https://www.atlassian.com</a><br/>• Calendly 快速增长的背后 | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Annie Pearl</strong>（首席产品官）：<a href="https://www.lennysnewsletter.com/p/behind-the-scenes-of-calendlys-rapid" style="color:#2471a3;text-decoration:none;">https://www.lennysnewsletter.com/p/behind-the-scenes-of-calendlys-rapid</a><br/>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Calendly</strong>：<a href="https://calendly.com" style="color:#2471a3;text-decoration:none;">https://calendly.com</a><br/>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Glassdoor</strong>：<a href="https://www.glassdoor.co.in/index.htm" style="color:#2471a3;text-decoration:none;">https://www.glassdoor.co.in/index.htm</a><br/>• 优秀产品经理的 10 个特质、AI 将如何影响你的产品，以及 Slack 的产品开发流程 | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Noah Weiss</strong>（Slack、Foursquare、Google）：<a href="https://www.lennysnewsletter.com/p/the-10-traits-of-great-pms-how-ai" style="color:#2471a3;text-decoration:none;">https://www.lennysnewsletter.com/p/the-10-traits-of-great-pms-how-ai</a><br/>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ethan Eismann</strong> 的 X：<a href="https://x.com/eeismann" style="color:#2471a3;text-decoration:none;">https://x.com/eeismann</a><br/>• Slack 创始人：打造人们喜爱产品的心智模型，嘉宾 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stewart Butterfield</strong>：<a href="https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield" style="color:#2471a3;text-decoration:none;">https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield</a><br/>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ilan Frank</strong> 的 LinkedIn：<a href="https://www.linkedin.com/in/ilanfrank" style="color:#2471a3;text-decoration:none;">https://www.linkedin.com/in/ilanfrank</a><br/>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Checkr</strong>：<a href="https://checkr.com" style="color:#2471a3;text-decoration:none;">https://checkr.com</a><br/>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ali Rayl</strong> 的 LinkedIn：<a href="https://www.linkedin.com/in/alirayl" style="color:#2471a3;text-decoration:none;">https://www.linkedin.com/in/alirayl</a><br/>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rachel Wolan</strong> 的 LinkedIn：<a href="https://www.linkedin.com/in/rachelwolan" style="color:#2471a3;text-decoration:none;">https://www.linkedin.com/in/rachelwolan</a><br/>• Webflow 的 CPO 如何打造 AI 参谋长来管理日程、准备会议并推动 AI 普及 | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rachel Wolan</strong>：<a href="https://www.lennysnewsletter.com/p/how-webflows-cpo-built-an-ai-chief" style="color:#2471a3;text-decoration:none;">https://www.lennysnewsletter.com/p/how-webflows-cpo-built-an-ai-chief</a><br/>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Barbara Minto</strong> 的网站：<a href="https://www.barbaraminto.com" style="color:#2471a3;text-decoration:none;">https://www.barbaraminto.com</a><br/>• Slack 如何通过"客户热爱冲刺（<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Customer Love Sprints</strong>）"投资于细微之处：<a href="https://slack.design/articles/sweating-the-small-stuff" style="color:#2471a3;text-decoration:none;">https://slack.design/articles/sweating-the-small-stuff</a><br/>• 在 Stripe 构建产品：工艺、指标与客户痴迷 | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jeff Weinstein</strong>（产品负责人）：<a href="https://www.lennysnewsletter.com/p/building-product-at-stripe-jeff-weinstein" style="color:#2471a3;text-decoration:none;">https://www.lennysnewsletter.com/p/building-product-at-stripe-jeff-weinstein</a><br/>• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">九型人格（Enneagram）</strong>研究所：<a href="https://www.enneagraminstitute.com/type-descriptions" style="color:#2471a3;text-decoration:none;">https://www.enneagraminstitute.com/type-descriptions</a><br/>• 《<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">匹兹堡急救室（The Pitt）</strong>》Prime Video：<a href="https://www.amazon.com/The-Pitt-Season-1/dp/B0DNRR8QWD" style="color:#2471a3;text-decoration:none;">https://www.amazon.com/The-Pitt-Season-1/dp/B0DNRR8QWD</a><br/>• 毛巾加热器：<a href="https://www.amazon.com/FLYHIT-Large-Towel-Warmer-Bathroom/dp/B0CB5K34L2" style="color:#2471a3;text-decoration:none;">https://www.amazon.com/FLYHIT-Large-Towel-Warmer-Bathroom/dp/B0CB5K34L2</a><br/>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Casa</strong>：<a href="https://getcasa.com" style="color:#2471a3;text-decoration:none;">https://getcasa.com</a><br/>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jimi Hendrix</strong>：<a href="https://en.wikipedia.org/wiki/Jimi_Hendrix" style="color:#2471a3;text-decoration:none;">https://en.wikipedia.org/wiki/Jimi_Hendrix</a><br/>• 希腊剧场（<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Greek Theatre</strong>）：<a href="https://en.wikipedia.org/wiki/Greek_Theatre_(Los_Angeles)" style="color:#2471a3;text-decoration:none;">https://en.wikipedia.org/wiki/Greek_Theatre_(Los_Angeles)</a></p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NAPS2</strong>: https://www.naps2.com/</li>
+<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyPDF2</strong>: https://pypdf2.readthedocs.io/</li>
+<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FFmpeg</strong>: https://ffmpeg.org/</li>
+</ul>
+</div>
 
-<h3 style="margin:24px 0 12px;">Recommended books:</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NAPS2</strong>（扫描软件）：https://www.naps2.com/<br/>
+• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyPDF2</strong>（Python PDF 库）：https://pypdf2.readthedocs.io/<br/>
+• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FFmpeg</strong>（多媒体处理框架）：https://ffmpeg.org/
+</p>
 
-<h3 style="margin:24px 0 12px;">推荐书籍：</h3>
+<h3 style="margin:24px 0 12px;">Where to find Marco Casalaina:</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li><em>Pachinko</em>: <a href="https://www.amazon.com/Pachinko-National-Book-Award-Finalist/dp/1455563927" style="color:#2471a3;text-decoration:none;">https://www.amazon.com/Pachinko-National-Book-Award-Finalist/dp/1455563927</a></li><li><em>Homegoing</em>: <a href="https://www.amazon.com/Homegoing-Yaa-Gyasi/dp/1101971061" style="color:#2471a3;text-decoration:none;">https://www.amazon.com/Homegoing-Yaa-Gyasi/dp/1101971061</a></li><li><em>A History of Burning</em>: <a href="https://www.amazon.com/History-Burning-Janika-Oza/dp/1538724243" style="color:#2471a3;text-decoration:none;">https://www.amazon.com/History-Burning-Janika-Oza/dp/1538724243</a></li><li><em>The Overstory</em>: <a href="https://www.amazon.com/Overstory-Novel-Richard-Powers/dp/039335668X" style="color:#2471a3;text-decoration:none;">https://www.amazon.com/Overstory-Novel-Richard-Powers/dp/039335668X</a></li></ul></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LinkedIn</strong>: https://www.linkedin.com/in/marcocasalaina/
+</div>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• 《<em>柏青哥（Pachinko）</em>》：<a href="https://www.amazon.com/Pachinko-National-Book-Award-Finalist/dp/1455563927" style="color:#2471a3;text-decoration:none;">https://www.amazon.com/Pachinko-National-Book-Award-Finalist/dp/1455563927</a><br/>• 《<em>回家（Homegoing）</em>》：<a href="https://www.amazon.com/Homegoing-Yaa-Gyasi/dp/1101971061" style="color:#2471a3;text-decoration:none;">https://www.amazon.com/Homegoing-Yaa-Gyasi/dp/1101971061</a><br/>• 《<em>燃烧的历史（A History of Burning）</em>》：<a href="https://www.amazon.com/History-Burning-Janika-Oza/dp/1538724243" style="color:#2471a3;text-decoration:none;">https://www.amazon.com/History-Burning-Janika-Oza/dp/1538724243</a><br/>• 《<em>上层林冠（The Overstory）</em>》：<a href="https://www.amazon.com/Overstory-Novel-Richard-Powers/dp/039335668X" style="color:#2471a3;text-decoration:none;">https://www.amazon.com/Overstory-Novel-Richard-Powers/dp/039335668X</a></p>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LinkedIn</strong>（领英）：https://www.linkedin.com/in/marcocasalaina/
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Production and marketing by <a href="https://penname.co/" style="color:#2471a3;text-decoration:none;">https://penname.co/</a>. For inquiries about sponsoring the podcast, email <a href="mailto:podcast@lennyrachitsky.com" style="color:#2471a3;text-decoration:none;">podcast@lennyrachitsky.com</a>.</div>
+<h3 style="margin:24px 0 12px;">Where to find Claire Vo:</h3>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">制作与营销由 <a href="https://penname.co/" style="color:#2471a3;text-decoration:none;">https://penname.co/</a> 提供。如有赞助播客的意向，请发送邮件至 <a href="mailto:podcast@lennyrachitsky.com" style="color:#2471a3;text-decoration:none;">podcast@lennyrachitsky.com</a>。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatPRD</strong>: https://www.chatprd.ai/<br/>
+Website: https://clairevo.com/<br/>
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LinkedIn</strong>: https://www.linkedin.com/in/clairevo/<br/>
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">X</strong>: https://x.com/clairevo
+</div>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Lenny</strong> may be an investor in the companies discussed.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatPRD</strong>：https://www.chatprd.ai/<br/>
+网站：https://clairevo.com/<br/>
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LinkedIn</strong>（领英）：https://www.linkedin.com/in/clairevo/<br/>
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">X</strong>（原 Twitter）：https://x.com/clairevo
+</p>
 
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Lenny</strong> 可能是文中讨论公司的投资人。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Production and marketing by https://penname.co/. For inquiries about sponsoring the podcast, email jordan@penname.co.
+</div>
 
-<h3 style="margin:24px 0 12px;">My biggest takeaways from this conversation:</h3>
-
-<h3 style="margin:24px 0 12px;">本次对话中我的最大收获：</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Read more</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">阅读更多</p></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+制作与营销由 https://penname.co/ 提供。如有赞助播客的意向，请发送邮件至 jordan@penname.co。
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://www.lennysnewsletter.com/p/how-microsofts-ai-vp-automates-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
 
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">基于 Hacker News 评论的用户画像实验</div>
+        <div class="title">Beats 新增注释功能</div>
         <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
       </div>
-      <div class="title-en">Profiling Hacker News users based on their comments</div>
-      <div class="tags"><span class="tag">用户画像</span><span class="tag">LLM应用</span><span class="tag">数据挖掘</span></div>
-      <div class="summary">本文介绍了一种通过 Hacker News API 获取用户历史评论并利用大语言模型生成精准画像的方法，作者以自身为例展示了这种&quot;轻度反乌托邦&quot;技术的高效性，同时提及其在识别恶意辩论者方面的实际应用与潜在的隐私隐忧。</div>
+      <div class="title-en">Beats now have notes</div>
+      <div class="tags"><span class="tag">博客更新</span><span class="tag">内容聚合</span><span class="tag">功能升级</span></div>
+      <div class="summary">作者为其博客的&quot;beats&quot;功能（用于聚合外部内容）新增了添加注释的能力，允许为这些条目附加简短说明以解释上下文，而不再仅仅展示链接。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Here&#x27;s a mildly dystopian prompt I&#x27;ve been experimenting with recently: &quot;Profile this user&quot;, accompanied by a copy of their last 1,000 comments on Hacker News.</div><div class="quote-zh">最近我在尝试一个略带反乌托邦色彩的提示词：&quot;为这位用户画像&quot;，附带其最近在 Hacker News 上的 1000 条评论副本。</div></div>
-<div class="quote-block"><div class="quote-en">It&#x27;s startlingly effective!</div><div class="quote-zh">效果惊人地好！</div></div>
+<div class="quote-block"><div class="quote-en">They were looking a little bit thin and were lacking any form of explanation beyond a link, so I&#x27;ve added the ability to annotate them with a &quot;note&quot; which now shows up as part of their display.</div><div class="quote-zh">这些内容看起来有些单薄，除链接外缺乏任何形式的说明，因此我添加了用&quot;注释&quot;来标注它们的功能，现在注释会作为展示的一部分呈现。</div></div>
 </div>
-      <div class="translation"><div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Here's a mildly dystopian prompt I've been experimenting with recently: "Profile this user", accompanied by a copy of their last 1,000 comments on <strong style="color:#c0392b;">Hacker News</strong>.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">最近我一直在尝试一个略带反乌托邦色彩的提示词："分析这位用户（Profile this user）"，并附上其在 <strong style="color:#c0392b;">Hacker News</strong> 上最近 1,000 条评论的副本。</p>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Beats now have notes</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Obtaining those comments is easy. The <strong style="color:#2471a3;">Algolia</strong> <strong style="color:#c0392b;">Hacker News API</strong> supports listing comments sorted by date that have a specific tag, and the author of a comment is tagged there as <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">author_username</code>. Here's a JSON feed of my (simonw) most recent comments, for example:<br/><br/>https://hn.algolia.com/api/v1/search_by_date?tags=comment,author_simonw&hitsPerPage=1000</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">获取这些评论很容易。<strong style="color:#2471a3;">Algolia</strong> 的 <strong style="color:#c0392b;">Hacker News API</strong> 支持按日期排序列出带有特定标签的评论，而评论作者在该 API 中被标记为 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">author_username</code>。例如，以下是我（<strong style="color:#2471a3;">simonw</strong>）最近评论的 JSON 数据流：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The <strong style="color:#2471a3;">Algolia</strong> API is served with open <strong style="color:#c0392b;">CORS</strong> headers, which means you can access the API from JavaScript running on any web page.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;">Algolia</strong> API 提供了开放的 <strong style="color:#c0392b;">CORS</strong>（跨域资源共享，Cross-Origin Resource Sharing）响应头，这意味着你可以从任何网页上运行的 JavaScript 访问该 API。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Last August I had <strong style="color:#2471a3;">ChatGPT</strong> build me a simple tool for hitting that API for any user which fetches their comments and gives me a mobile-friendly "copy to clipboard" button. I've since tweaked it a few times with <strong style="color:#2471a3;">Claude</strong>.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">去年八月，我让 <strong style="color:#2471a3;">ChatGPT</strong> 为我构建了一个简单工具，用于调用该 API 获取任意用户的评论，并提供一个适合移动设备的"复制到剪贴板"按钮。之后我又用 <strong style="color:#2471a3;">Claude</strong> 对其进行了几次调整。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I can then paste the whole lot into any <strong style="color:#c0392b;">LLM</strong> - these days I mostly use <strong style="color:#2471a3;">Claude Opus 4.6</strong> for this - and prompt "profile this user" to see what it can figure out.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">然后我可以将所有内容粘贴到任何 <strong style="color:#c0392b;">LLM</strong>（大语言模型，Large Language Model）中——现在我主要使用 <strong style="color:#2471a3;">Claude Opus 4.6</strong>——并提示"分析这位用户（profile this user）"，看看它能推断出什么。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">It's startlingly effective! It feels invasive to quote the profile of another user here, so I'll show you what it produces for me:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">效果惊人！在此引用其他用户的画像会让人觉得侵犯了隐私，所以我给你看看它为我生成的结果：</p>
-
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This is <strong style="color:#2471a3;">Simon Willison</strong> — a prolific, independent software developer, blogger, and one of the most visible voices in the AI-assisted coding space. Here's a profile drawn from his comments:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这是 <strong style="color:#2471a3;">Simon Willison</strong>——一位多产的独立软件开发者、博主，以及 AI 辅助编程领域最显眼的声音之一。以下是从他的评论中提炼出的画像：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;">Professional identity:</strong> Independent developer and writer. Co-creator of <strong style="color:#2471a3;">Django</strong>, creator of <strong style="color:#2471a3;">Datasette</strong> and many other open source tools. On the board of the <strong style="color:#2471a3;">Python Software Foundation</strong>. Runs a heavily-trafficked personal blog at simonwillison.net with multiple content types (entries, link blog, notes, quotations). Monetizes through <strong style="color:#2471a3;">GitHub</strong> sponsors, ethical ads, and occasional consulting — not through any AI company payroll, a point he defends frequently.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;">职业身份</strong>：独立开发者和作家。<strong style="color:#2471a3;">Django</strong> 的联合创始人，<strong style="color:#2471a3;">Datasette</strong> 及众多其他开源工具的创建者。<strong style="color:#2471a3;">Python Software Foundation</strong>（Python 软件基金会）董事会成员。运营着访问量极高的个人博客 simonwillison.net，包含多种内容类型（文章、链接博客、笔记、引语）。通过 <strong style="color:#2471a3;">GitHub</strong> 赞助、道德广告和偶尔的咨询工作获得收入——而非来自任何 AI 公司的工资单，这一点他经常为之辩护。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;">Core thesis on AI coding:</strong> He's the leading evangelist for what he calls "<strong style="color:#c0392b;">agentic engineering</strong>" — using coding agents (<strong style="color:#2471a3;">Claude Code</strong>, <strong style="color:#2471a3;">Codex CLI</strong>) as productivity multipliers for skilled developers. His central argument: <strong style="color:#c0392b;">LLMs</strong> don't replace programmers, they amplify existing expertise. He's writing a guide/book on this at simonwillison.net/guides. He insists these tools are deceptively difficult to use well, and that most people who report bad results simply haven't learned the craft yet.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;">AI 编程的核心理念</strong>：他是所谓"<strong style="color:#c0392b;">agentic engineering</strong>"（智能体工程）的主要倡导者——将编程智能体（<strong style="color:#2471a3;">Claude Code</strong>、<strong style="color:#2471a3;">Codex CLI</strong>）用作熟练开发者的生产力倍增器。他的核心论点是：<strong style="color:#c0392b;">LLMs</strong>（大语言模型）不会取代程序员，而是放大现有专长。他正在 simonwillison.net/guides 撰写相关指南/书籍。他坚称这些工具看似易用实则难以精通，大多数报告糟糕结果的人只是尚未掌握这门技艺。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;">Working style:</strong> He does most of his programming from his iPhone via <strong style="color:#2471a3;">Claude Code</strong> for web, often while riding <strong style="color:#2471a3;">BART</strong>, walking the dog, or sitting in the garden. He embraces "<strong style="color:#c0392b;">YOLO mode</strong>" (auto-approving agent actions) and frequently runs 2-3 agent sessions in parallel. He starts every session with "<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">run uv run pytest</code>" to anchor the agent in <strong style="color:#c0392b;">TDD</strong>. He's on the $200/month <strong style="color:#2471a3;">Claude Max</strong> plan.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;">工作风格</strong>：他大部分编程工作都是在 iPhone 上通过 <strong style="color:#2471a3;">Claude Code</strong> 完成的，经常在乘坐 <strong style="color:#2471a3;">BART</strong>（湾区捷运，Bay Area Rapid Transit）、遛狗或坐在花园里时进行。他 embrace "<strong style="color:#c0392b;">YOLO mode</strong>"（自动批准智能体操作），并经常并行运行 2-3 个智能体会话。他每次会话都以 "<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">run uv run pytest</code>" 开头，以 <strong style="color:#c0392b;">TDD</strong>（测试驱动开发，Test-Driven Development）锚定智能体。他订阅了每月 200 美元的 <strong style="color:#2471a3;">Claude Max</strong> 计划。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;">Key technical interests:</strong> Sandboxing and security (<strong style="color:#c0392b;">WebAssembly</strong>, <strong style="color:#c0392b;">Pyodide</strong>, sandbox-exec, <strong style="color:#2471a3;">Firecracker</strong>), <strong style="color:#c0392b;">SQLite</strong> (deeply), Python packaging and tooling (<strong style="color:#c0392b;">uv</strong>, <strong style="color:#c0392b;">PyPI</strong> distribution tricks), browser-in-a-browser experiments (v86, <strong style="color:#c0392b;">WASM</strong> Linux), and local <strong style="color:#c0392b;">LLM</strong> inference. He's been learning <strong style="color:#2471a3;">Go</strong> "by osmosis" through coding agents.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;">关键技术兴趣</strong>：沙盒与安全（<strong style="color:#c0392b;">WebAssembly</strong>、<strong style="color:#c0392b;">Pyodide</strong>、sandbox-exec、<strong style="color:#2471a3;">Firecracker</strong>）、<strong style="color:#c0392b;">SQLite</strong>（深入研究）、Python 打包与工具（<strong style="color:#c0392b;">uv</strong>、<strong style="color:#c0392b;">PyPI</strong> 分发技巧）、浏览器中的浏览器实验（v86、<strong style="color:#c0392b;">WASM</strong> Linux）以及本地 <strong style="color:#c0392b;">LLM</strong> 推理。他通过编程智能体"渗透式"地学习 <strong style="color:#2471a3;">Go</strong> 语言。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;">Security consciousness:</strong> He coined the term "<strong style="color:#c0392b;">prompt injection</strong>" and the "<strong style="color:#c0392b;">lethal trifecta</strong>" (access to private data + exposure to untrusted input + ability to take actions). He's genuinely alarmed about <strong style="color:#2471a3;">OpenClaw/Clawdbot</strong> security risks and has been predicting a headline-grabbing prompt injection attack "in the next six months" for over two years — acknowledging it keeps not happening while insisting the risk is real. He references the "<strong style="color:#c0392b;">normalization of deviance</strong>" pattern frequently.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;">安全意识</strong>：他创造了"<strong style="color:#c0392b;">prompt injection</strong>"（提示词注入）和"<strong style="color:#c0392b;">lethal trifecta</strong>"（致命三要素：访问私有数据 + 暴露于不受信任的输入 + 采取行动的能力）这两个术语。他对 <strong style="color:#2471a3;">OpenClaw/Clawdbot</strong> 的安全风险深感担忧，并在两年多来一直预测"未来六个月内"将发生引人注目的提示词注入攻击——尽管承认这事一直没发生，但仍坚持认为风险真实存在。他经常引用"<strong style="color:#c0392b;">normalization of deviance</strong>"（偏差常态化）模式。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;">Personality and debate style:</strong> Energetic, combative when challenged, but generally good-natured. He engages heavily in HN comment threads — sometimes dozens of replies in a single discussion. He's transparent about his biases and maintains a public disclosures page. He pushes back hard against what he sees as motivated reasoning from AI skeptics, but also against <strong style="color:#c0392b;">AGI</strong> hype ("I refer to that as the science fiction version of AI"). He gets visibly frustrated by <strong style="color:#c0392b;">sock-puppet</strong> accounts and bad-faith criticism. He has a self-deprecating streak ("my stupid pelican benchmark").</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;">个性与辩论风格</strong>：精力充沛，受到挑战时好争辩，但总体性情温和。他深度参与 HN 评论线程——有时在单一讨论中回复数十条。他对自己的偏见保持透明，并维护着公开披露页面。他强烈反驳他认为的来自 AI 怀疑者的动机性推理，同时也反对 <strong style="color:#c0392b;">AGI</strong>（通用人工智能，Artificial General Intelligence）炒作（"我称之为科幻版本的 AI"）。他对 <strong style="color:#c0392b;">sock-puppet</strong>（傀儡）账户和恶意批评明显感到沮丧。他有自嘲的一面（"我那愚蠢的鹈鹕基准测试"）。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;">Recurring themes across hundreds of comments:</strong><br/>- "Two things can be true at the same time" — he holds nuanced positions<br/>- Tests are for productivity, not just quality<br/>- The November 2025 model releases (<strong style="color:#2471a3;">Opus 4.5</strong>, <strong style="color:#2471a3;">GPT-5.2</strong>) were a genuine inflection point<br/>- Code review is the biggest bottleneck in agent-assisted workflows<br/>- "<strong style="color:#c0392b;">Cognitive debt</strong>" is a real and unsolved problem<br/>- The best engineering practices (tests, docs, <strong style="color:#c0392b;">CI/CD</strong>, clean code) also make agents work better<br/>- He's deliberately trying to "teach people good software engineering while tricking them into thinking the book is about AI"</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;">数百条评论中的重复主题</strong>：
-<ul style="margin:8px 0;padding-left:20px;">
-<li>"Two things can be true at the same time"（两件事可以同时为真）——他持有细致入微的立场</li>
-<li>测试是为了生产力，不只是为了质量</li>
-<li>2025 年 11 月的模型版本（<strong style="color:#2471a3;">Opus 4.5</strong>、<strong style="color:#2471a3;">GPT-5.2</strong>）是真正的拐点（inflection point）</li>
-<li>代码审查是智能体辅助工作流中最大的瓶颈</li>
-<li>"<strong style="color:#c0392b;">Cognitive debt</strong>"（认知债务）是真实存在且尚未解决的问题</li>
-<li>最佳工程实践（测试、文档、<strong style="color:#c0392b;">CI/CD</strong>（持续集成/持续部署）、整洁代码）也能让智能体工作得更好</li>
-<li>他故意试图"教人们好的软件工程，同时骗他们以为这本书是关于 AI 的"</li>
-</ul>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Last month Iadded a feature I call <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">beats</strong> to this blog, pulling in some of my other content from<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">external sources</strong>and including it on the homepage, search and various archive pages on the site.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+上个月，我为这个博客添加了一项名为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">beats</strong> 的功能，将来自<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">external sources</strong>（外部来源）的其他内容聚合进来，并展示在网站首页、搜索页面以及各类归档页面中。
 </p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;">Personal interests mentioned:</strong> Niche museums (runs niche-museums.com), New Zealand <strong style="color:#2471a3;">kākāpō</strong> parrots, cooking food from countries he's never visited, chickens in his garden. Lives in <strong style="color:#2471a3;">Half Moon Bay</strong>, CA near a major pelican roost. The pelican-on-a-bicycle SVG test is his signature <strong style="color:#c0392b;">LLM</strong> benchmark.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;">提到的个人兴趣</strong>：小众博物馆（运营 niche-museums.com）、新西兰 <strong style="color:#2471a3;">kākāpō</strong>（鸮鹦鹉）鹦鹉、烹饪从未到访过的国家的食物、花园里的鸡。住在加州 <strong style="color:#2471a3;">Half Moon Bay</strong>（半月湾），靠近一个大型鹈鹕栖息地。鹈鹕骑自行车的 SVG 测试是他标志性的 <strong style="color:#c0392b;">LLM</strong> 基准测试。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+On any given day these frequently outnumber my <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">regular posts</strong>. They were looking a little bit thin and were lacking any form of explanation beyond a link, so I've added the ability to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">annotate</strong> them with a "note" which now shows up as part of their display.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+在任何一天，这些内容数量常常超过我的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">regular posts</strong>（常规文章）。它们看起来有些单薄，除链接外缺乏任何形式的说明，因此我添加了用"note"对其进行<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">annotate</strong>（注释）的功能，这些注释现在会作为内容展示的一部分呈现。
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;">In a sentence:</strong> A deeply experienced, independently-minded developer who's genuinely excited about AI coding tools, fights hard against both uncritical hype and reflexive dismissal, and is trying to professionalize how the industry uses these tools — while also worrying loudly about the security implications almost nobody else takes seriously enough.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;">一句话总结</strong>：一位经验丰富、思想独立的开发者，对 AI 编程工具充满热情，坚决反对盲目炒作和条件反射式的否定，并试图使行业使用这些工具的方式专业化——同时大声担忧几乎没有人足够重视的安全隐患。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Here's what that looks likefor the content I published yesterday:
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+以下是我昨天发布内容的展示效果：
+</p>
+
+<img src="https://static.simonwillison.net/static/2026/beats-notes.jpg" alt="Screenshot of part of my blog homepage showing four &quot;beats&quot; entries from March 22, 2026, each tagged as RESEARCH or TOOL, with titles like &quot;PCGamer Article Performance Audit&quot; and &quot;DNS Lookup&quot;, now annotated with short descriptive notes explaining the context behind each linked item." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<img src="https://static.simonwillison.net/static/2026/beats-notes.jpg" alt="Screenshot of part of my blog homepage showing four &quot;beats&quot; entries from March 22, 2026, each tagged as RESEARCH or TOOL, with titles like &quot;PCGamer Article Performance Audit&quot; and &quot;DNS Lookup&quot;, now annotated with short descriptive notes explaining the context behind each linked item." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+I've also updated the<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/atom/everything/</code><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Atom feed</strong> to include any beats that I've attached notes to.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+我还更新了 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/atom/everything/</code> 的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Atom feed</strong>（Atom 供稿），使其包含所有附加了注释的 beats。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Tags: atom, blogging, site-upgrades
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+标签：atom、blogging、site-upgrades
+</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Simon Willison</div>
+      <div class="title-row">
+        <div class="title">Starlette 1.0 开发指南</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
+      </div>
+      <div class="title-en">Starlette 1.0 skill</div>
+      <div class="tags"><span class="tag">Starlette</span><span class="tag">Web开发</span><span class="tag">Python</span></div>
+      <div class="summary">Starlette 1.0 Skill 提供了使用这一轻量级 ASGI 框架构建稳健 Web 应用的实用指南，并通过一个包含项目、任务管理和实时更新等功能的演示应用，展示了 Starlette 在路由、Jinja2 模板渲染及异步数据库操作方面的灵活性。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">The accompanying demo showcases a task management app featuring projects, tasks, comments, and labels, illustrating Starlette&#x27;s flexibility in handling routing, templating (Jinja2), async database operations (aiosqlite), and real-time updates.</div><div class="quote-zh">配套的演示应用展示了一个包含项目、任务、评论和标签的任务管理系统，体现了 Starlette 在处理路由、模板（Jinja2）、异步数据库操作（aiosqlite）和实时更新方面的灵活性。</div></div>
+</div>
+      <div class="translation"><div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Research</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">研究</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Starlette 1.0 skill</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Starlette 1.0 技能</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">— Starlette 1.0 Skill offers a concise guide for building robust web applications with Starlette, a lightweight ASGI framework. The accompanying demo showcases a task management app featuring projects, tasks, comments, and labels, illustrating Starlette's flexibility in handling routing, templating (Jinja2), async database operations (aiosqlite), and real-time updates.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">—— Starlette 1.0 Skill 提供了一份简洁指南，用于使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Starlette</strong>（一款轻量级的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ASGI</strong>（Asynchronous Server Gateway Interface，异步服务器网关接口）框架）构建健壮的 Web 应用程序。配套的演示项目展示了一款任务管理应用，包含项目、任务、评论和标签等功能，展示了 Starlette 在处理 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">routing</strong>（路由）、templating（模板渲染，使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Jinja2</strong>）、async database operations（异步数据库操作，使用 aiosqlite）以及 real-time updates（实时更新）方面的灵活性。</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">TLDR AI</div>
+      <div class="title-row">
+        <div class="title">OpenAI自动化研究员、Cursor接入Kimi 2.5、马斯克200亿美元芯片工厂</div>
+        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
+      </div>
+      <div class="title-en">OpenAI’s automated researcher 🤖, Cursor + Kimi 2.5 💻, Musk&#x27;s $20B Terafab 🏗️</div>
+      <div class="tags"><span class="tag">AI智能体</span><span class="tag">AI编程</span><span class="tag">芯片制造</span></div>
+      <div class="summary">本期AI动态聚焦OpenAI打造全自动研究助手的战略蓝图、Cursor基于Kimi 2.5构建新模型的技术转向，以及马斯克200亿美元Terafab芯片工厂计划；同时报道了MiniMax等低成本模型挑战Claude、软件工程迈向&quot;AI工厂&quot;模式等趋势，并探讨了Token消耗与实际效能的行业反思。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">The leaderboards don&#x27;t show whether these tokenmaxxers are actually producing anything good, or whether it is all productivity theater.</div><div class="quote-zh">这些排行榜并不能说明这些&#x27;Token极客&#x27;是否真的产出了有价值的成果，或者这一切只是生产力表演。</div></div>
+<div class="quote-block"><div class="quote-en">Token spend doesn&#x27;t matter if tasks aren&#x27;t being completed.</div><div class="quote-zh">如果任务无法完成，Token花得再多也没有意义。</div></div>
+</div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">OpenAI’s automated researcher 🤖, Cursor + Kimi 2.5 💻, Musk's $20B Terafab 🏗️</h3>
+
+<h4 style="margin:24px 0 12px;">TLDR AI 2026-03-23</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>OpenAI is throwing everything into building a fully automated researcher (15 minute read)</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 已将目标锁定在构建一个全自动的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">基于智能体（agent-based）</strong>的 AI 研究器，该研究器将能够独立处理大型复杂问题。该公司表示，这一研究目标将成为其未来几年的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">北极星（North Star）</strong>。它计划在 9 月前构建一个自主 AI 实习生。该实习生将是 2028 年推出的全自动<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">多智能体（multi-agent）</strong>研究系统的前身。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>Cursor Composer 2 Built on Kimi 2.5 (4 minute read)</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+一位 X 平台用户报告称，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cursor</strong> 的新版 Composer 2 模型似乎基于<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Moonshot AI</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Kimi 2.5</strong>。Cursor 随后证实，该模型始于一个开放基础模型，并进一步通过<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">强化学习（reinforcement learning）</strong>进行了训练。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>OpenAI reportedly plans to double its workforce to 8,000 employees (1 minute read)</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 计划在年底前将其员工队伍从 4,000 人扩大到 8,000 人。新员工将涵盖多个部门，包括产品开发、工程、研究和销售。此次招聘潮将包括技术大使专员，这些员工将帮助企业更好地利用其 AI 工具。该公司目前正在与私募股权公司进行深入谈判，以在其投资组合公司中部署其工具。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>Elon Musk announces Terafab project he claims will be the 'largest chip manufacturing facility ever' (2 minute read)</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Elon Musk</strong> 宣布了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Terafab</strong>，这是由 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Tesla</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">SpaceX</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">xAI</strong> 合资的 200 亿美元项目，旨在建造世界上最大的芯片制造工厂，目标是每年产生一<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">太瓦（terawatt）</strong>的计算能力。位于德克萨斯州奥斯汀的该工厂将生产用于地面用途（如自动驾驶汽车）和太空用途的芯片，支持诸如拟议的轨道数据中心等项目。尽管马斯克雄心勃勃，但他在过去的项目（如<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hyperloop</strong> 和完全自动驾驶）上未能兑现承诺。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>We Tested MiniMax M2.7 Against Claude Opus 4.6 (7 minute read)</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">MiniMax M2.7</strong> 以仅 7% 的成本提供了 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Opus 4.6</strong>（由 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 开发）90% 的质量，在错误检测方面表现出色，但在修复方面不够彻底。它在<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">浮点计算（floating-point calculations）</strong>方面表现更好，在漏洞检测方面与 Claude 持平，尽管 Claude 提供了更全面的解决方案。MiniMax 的费率为每百万 token $0.30/$1.20，而 Claude 为 $5/$25，MiniMax 是一款具有成本效益的工具，弥合了<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">开放权重（open-weight）</strong>和前沿模型之间的差距。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>The Software Factory: Why Your Team Will Never Work the Same Again (17 minute read)</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+构建<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">软件工厂（software factory）</strong>的工具现在已经存在。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stripe</strong> 的 Minions 证明了该模型可以大规模运作。软件工程师的角色正在转向工厂操作员（factory biller）。开发人员现在可以构建自我改进的工厂，这些工厂使用<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">智能体（agents）</strong>来读取用户反馈、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">A/B 测试</strong>和生产数据，然后无需人工策划即可填充待办事项列表（backlog）。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>Token Myth (4 minute read)</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+如果任务未能完成，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Token</strong> 支出并不重要。每个任务消耗的 token 总量因模型而异。如果一家公司的模型能在更少的交互轮次中返回正确答案，那么即使其 token 收费翻倍，仍可能是更便宜的选择。企业不应将 token 支出作为<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">关键绩效指标（KPI）</strong>，而应衡量每个成功完成任务的成本。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  👨‍💻
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+👨‍💻
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>Engineering & Research</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+工程与研究
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>Your competitors are using AI to listen to customers...are you? (Sponsor)</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+你的竞争对手正在使用 AI 倾听客户……你呢？（赞助商内容）
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>MiniMax Skills (GitHub Repo)</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+该仓库包含用于 AI 编程<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">智能体（agents）</strong>的开发技能。它们可以插入任何 AI 编程工具，为前端、全栈、Android、iOS 和着色器（shader）开发提供结构化的、生产级的指导。提供了适用于 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cursor</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Codex</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenCode</strong> 的安装说明。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>Flash-MoE (GitHub Repo)</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Flash-MoE</strong> 是一个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">推理引擎（inference engine）</strong>，可以在配备 48GB RAM 的 MacBook Pro 上以每秒 4.4+ token 的速度运行 Qwen3.5-397B-A17B（一个 3970 亿参数的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">混合专家模型（Mixture-of-Experts, MoE）</strong>）。它通过自定义的 Metal 计算管道从 SSD 流式传输整个 209 GB 的模型，无需 Python 或框架。有关架构的详细信息可在仓库中找到。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>OpenHarness (GitHub Repo)</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenHarness</strong> 提供了在代码中构建非常强大的通用<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">智能体（agents）</strong>的基础模块。这些智能体可以将工作委托给其他自主运行且无需提示权限的智能体。OpenHarness 支持 AGENTS.md 规范并连接到<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">模型上下文协议（Model Context Protocol, MCP）</strong>服务器。它与 AI SDK 5 的数据流协议集成，因此开发人员可以使用它将智能体会话直接流式传输到基于 useChat 的 React UI。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>Nemotron-Cascade 2 Open Reasoning Model (36 minute read)</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Nemotron-Cascade 2</strong> 是一个 300 亿参数的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MoE（混合专家）</strong>模型，具有 30 亿激活参数，通过 Cascade RL 和多领域蒸馏（multi-domain distillation）在保持高效率的同时实现了奥林匹克级别的性能。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>OpenAI's data center pivot underscores Wall Street spending concerns ahead of IPO (10 minute read)</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 首席执行官 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Sam Altman</strong> 在 2025 年竭尽全力确保计算能力。该公司已签署了数十亿美元的基础设施协议。随着该公司为今年晚些时候潜在的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">IPO（首次公开募股）</strong>做准备，它开始缓和预期并概述更谨慎的策略。该公司开始意识到，市场不一定欣赏其过去的增长和支出方式。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>More! More! More! Tech Workers Max Out Their AI Use (10 minute read)</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">"Tokenmaxxing"</strong> 是一种新的地位游戏，痴迷于 AI 的工作者通过消耗 token 来证明他们的生产力有多高。一些公司内部设有排行榜，显示每位员工消耗了多少 token。有些开发人员每月花费数千美元，试图尽可能多地自动化他们的工作。单个全职<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">智能体（agent）</strong>每周可以消耗 7 亿个 token。这些排行榜并没有显示这些 token 最大化者是否真的产出了任何有价值的东西，或者这一切只是生产力表演（productivity theater）。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h4>Tencent's ClawBot Links WeChat And OpenClaw In AI Agent Push (5 minute read)</h4>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">腾讯（Tencent）</strong>推出了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ClawBot</strong>，将其<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">微信（WeChat）</strong>平台与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenClaw</strong> AI 智能体集成，在中国 AI 智能体市场取得进展。ClawBot 旨在增强微信上的 AI 服务，提供消费者和企业应用，并可能提高用户参与度。这一举措可能通过增加使用量、支付、广告和订阅来影响腾讯的收入流，尽管它面临来自<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">百度（Baidu）</strong>和<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">阿里巴巴（Alibaba）</strong>等竞争对手的挑战。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <h3>Get the most interesting AI stories and breakthroughs delivered in a free daily email.</h3>
+  <p>Join 920,000 readers for</p>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+通过免费的每日电子邮件获取最有趣的 AI 故事和突破。<br/>
+加入 920,000 名读者的行列，获取……
+</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://tldr.tech/ai/2026-03-23" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Simon Willison</div>
+      <div class="title-row">
+        <div class="title">用Claude技能实验Starlette 1.0</div>
+        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
+      </div>
+      <div class="title-en">Experimenting with Starlette 1.0 with Claude skills</div>
+      <div class="tags"><span class="tag">Starlette</span><span class="tag">Claude</span><span class="tag">AI编程</span><span class="tag">Python</span></div>
+      <div class="summary">本文介绍了Starlette 1.0的主要更新及其破坏性变更，并展示了如何利用Claude Skills解决大模型训练数据滞后的问题，通过构建包含最新代码示例的专属技能，成功让AI生成兼容新版本的完整任务管理Web应用，为AI辅助编程跟进最新技术框架提供了实践参考。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the foundation of FastAPI, which has attracted a huge amount of buzz that seems to have overshadowed Starlette itself.</div><div class="quote-zh">我认为Starlette可能是Python框架中使用量最大但品牌认知度相对较低的一个，因为它是FastAPI的基础，而FastAPI吸引了大量关注，似乎掩盖了Starlette本身的光芒。</div></div>
+<div class="quote-block"><div class="quote-en">The only reason I didn&#x27;t use it as the basis for my own Datasette project was that it didn&#x27;t yet promise stability, and I was determined to provide a stable API for Datasette&#x27;s own plugins... albeit I still haven&#x27;t been brave enough to ship my own 1.0 release (after 26 alphas and counting)!</div><div class="quote-zh">我没有把它作为自己Datasette项目基础的唯一原因是它当时还没承诺稳定性，而我决心为Datasette的插件提供稳定的API……尽管我自己仍然没勇气发布1.0版本（已经数到第26个alpha版本了还在犹豫）！</div></div>
+</div>
+      <div class="translation"><div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Starlette</strong> 1.0 is out! This is a really big deal. I think <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Starlette</strong> may be the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Python</strong> framework with the most usage compared to its relatively low brand recognition because <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Starlette</strong> is the foundation of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FastAPI</strong>, which has attracted a huge amount of buzz that seems to have overshadowed <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Starlette</strong> itself.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Starlette</strong> 1.0 发布了！这是一件大事。我认为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Starlette</strong> 可能是使用率最高但品牌认知度相对较低的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Python</strong> 框架，因为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Starlette</strong> 是 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FastAPI</strong> 的基础，而后者吸引了大量关注，似乎掩盖了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Starlette</strong> 本身的光芒。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Kim Christie</strong> started working on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Starlette</strong> in 2018 and it quickly became my favorite out of the new breed of Python <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ASGI</strong> frameworks. The only reason I didn't use it as the basis for my own <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Datasette</strong> project was that it didn't yet promise stability, and I was determined to provide a stable API for Datasette's own plugins... albeit I still haven't been brave enough to ship my own 1.0 release (after 26 alphas and counting)!
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Kim Christie</strong> 于 2018 年开始开发 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Starlette</strong>，它迅速成为我最喜欢的新一代 Python <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ASGI</strong> 框架。我没有将其作为我自己的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Datasette</strong> 项目基础的唯一原因是，它当时尚未承诺稳定性，而我决心为 Datasette 的插件提供稳定的 API……尽管经历了 26 个 alpha 版本（还在继续），我仍然没有勇气发布自己的 1.0 版本！
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Then in September 2025 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marcelo Trylesinski</strong> announced that <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Starlette</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Uvicorn</strong> were transferring to their <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub</strong> account, in recognition of their many years of contributions and to make it easier for them to receive sponsorship against those projects.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+随后在 2025 年 9 月，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marcelo Trylesinski</strong> 宣布 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Starlette</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Uvicorn</strong> 将迁移到他的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub</strong> 账户下，以表彰他多年来的贡献，并使他更容易为这些项目获得赞助。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+The 1.0 version has a few breaking changes compared to the 0.x series, described in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">the release notes for 1.0.0rc1</strong> that came out in February.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+与 0.x 系列相比，1.0 版本有一些<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">破坏性变更</strong>（breaking changes），这在二月发布的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">1.0.0rc1 版本发布说明</strong>中有详细描述。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+The most notable of these is a change to how code runs on startup and shutdown. Previously that was handled by <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">on_startup</code> and <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">on_shutdown</code> parameters, but the new system uses a neat <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">lifespan</strong> mechanism instead based around an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">async context manager</strong>:
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+其中最显著的变化是启动和关闭时代码运行方式的改变。以前这由 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">on_startup</code> 和 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">on_shutdown</code> 参数处理，但新系统改用了一种基于<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">异步上下文管理器</strong>（async context manager）的简洁<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">生命周期</strong>（lifespan）机制：
+</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>@contextlib.asynccontextmanager
+async def lifespan(app):
+    async with some_async_resource():
+        print("Run at startup!")
+        yield
+    print("Run on shutdown!")
+
+app = Starlette(routes=routes, lifespan=lifespan)</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+If you haven't tried <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Starlette</strong> before it feels to me like an asyncio-native cross between <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Flask</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Django</strong>, unsurprising since creator <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Kim Christie</strong> is also responsible for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Django REST Framework</strong>. Crucially, this means you can write most apps as a single Python file, Flask style.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+如果你之前没有尝试过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Starlette</strong>，它给我的感觉像是 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Flask</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Django</strong> 的原生 asyncio 结合体，这并不奇怪，因为创造者 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Kim Christie</strong> 也是 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Django REST Framework</strong> 的负责人。关键的是，这意味着你可以像 Flask 那样，将大多数应用写成单个 Python 文件。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+This makes it <em>really</em> easy for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLMs</strong> to spit out a working Starlette app from a single prompt.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+这使得<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">大语言模型</strong>（LLMs）能够通过单个提示词快速生成一个可运行的 Starlette 应用。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+There's just one problem there: if 1.0 breaks compatibility with the Starlette code that the models have been trained on, how can we have them generate code that works with 1.0?
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+但这里有一个问题：如果 1.0 版本与模型训练时使用的 Starlette 代码不兼容，我们如何让它们生成适用于 1.0 的代码？
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+I decided to see if I could get this working with a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Skill</strong>.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+我决定看看能否通过一个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">技能</strong>（Skill）来实现这一点。
+</p>
+
+<h4 style="margin:24px 0 12px;">Building a Skill with Claude</h4>
+<h4 style="margin:24px 0 12px;">使用 Claude 构建技能</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Regular <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Chat</strong> on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">claude.ai</strong> has skills, and one of those default skills is the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">skill-creator skill</strong>. This means Claude knows how to build its own skills.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Chat</strong>（在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">claude.ai</strong> 上）具有技能功能，其中一个默认技能就是<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">skill-creator 技能</strong>。这意味着 Claude 知道如何构建它自己的技能。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+So I started <a href="https://claude.ai/chat/0195f634-d46f-4018-b267-aa79c94a7a4c" style="color:#2471a3;">a chat session</a> and told it:
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+于是我开启了一次<a href="https://claude.ai/chat/0195f634-d46f-4018-b267-aa79c94a7a4c" style="color:#2471a3;">对话</a>并告诉它：
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+Clone Starlette from GitHub - it just had its 1.0 release. Build a skill markdown document for this release which includes code examples of every feature.
+</blockquote>
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+从 GitHub 克隆 Starlette——它刚刚发布了 1.0 版本。为这个版本构建一个技能 markdown 文档，包含每个功能的代码示例。
 </blockquote>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This all checks out! I ran this in <strong style="color:#2471a3;">Claude</strong> incognito mode to hopefully prevent <strong style="color:#2471a3;">Claude</strong> from guessing that I was evaluating myself and sycophantically glazing me - the tone of the response it gave here is similar to the tone I've seen against other accounts.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这些都说得通！我在 <strong style="color:#2471a3;">Claude</strong> 的隐身模式（incognito mode）下运行了这次分析，希望防止 <strong style="color:#2471a3;">Claude</strong> 猜到我在评估自己而对我阿谀奉承——它在这里给出的回应语气与我在分析其他账户时看到的语气相似。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+I didn't even tell it where to find the repo, Starlette is widely enough known that I expected it could find it on its own.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+我甚至没有告诉它仓库在哪里，Starlette 的知名度足够高，我预期它可以自己找到。
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I expect it guessed my real name due to my habit of linking to my own writing from some of my comments, which provides plenty of simonwillison.net URLs for it to associate with my public persona. I haven't seen it take a guess at a real name for any of the other profiles I've generated.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我推测它猜到了我的真实姓名，是因为我有在评论中链接到自己文章的习惯，这提供了大量 simonwillison.net 的 URL，让它能将我与我的公众形象联系起来。我在生成的其他用户画像中，还没见过它猜测真实姓名的情况。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+It ran <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">git clone https://github.com/encode/starlette.git</code> which is actually the old repository name, but <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub</strong> handles redirects automatically so this worked just fine.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+它运行了 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">git clone https://github.com/encode/starlette.git</code>，这实际上是旧的仓库名称，但 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub</strong> 会自动处理重定向，所以一切顺利。
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">It's a little creepy to be able to derive this much information about someone so easily, even when they've shared that freely in a public (and API-available) place.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">能够如此轻易地推导出关于某人的这么多信息，即便他们是在公开（且可通过 API 获取）的地方自由分享的，也让人觉得有点毛骨悚然。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+The <a href="https://gist.github.com/simonw/..." style="color:#2471a3;">resulting skill document</a> looked very thorough to me... and then I noticed a new button at the top I hadn't seen before labelled "Copy to your skills". So I clicked it:
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+生成的<a href="https://gist.github.com/simonw/..." style="color:#2471a3;">技能文档</a>在我看来非常详尽……然后我在顶部注意到一个以前没见过的新按钮，标签是"Copy to your skills"（复制到你的技能）。于是我点击了它：
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I mainly use this to check that I'm not getting embroiled in an extensive argument with someone who has a history of arguing in bad faith. Thankfully that's rarely the case - <strong style="color:#2471a3;">Hacker News</strong> continues to be a responsibly moderated online space.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我主要用这个方法来确认自己没有与一个有恶意辩论（bad faith）历史的人陷入冗长的争论。值得庆幸的是，这种情况很少发生——<strong style="color:#2471a3;">Hacker News</strong> 仍然是一个管理负责任的在线空间。</p>
+<img src="https://static.simonwillison.net/static/2026/skill-button.jpg" alt="Screenshot of the Claude.ai interface showing a conversation titled Starlette 1.0 skill document with code examples..." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: hacker-news, ai, generative-ai, llms, ai-ethics</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：hacker-news, ai, generative-ai, llms, ai-ethics</p></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+And now my regular Claude chat has access to that skill!
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+现在我的常规 Claude 对话就可以访问这个技能了！
+</p>
+
+<h4 style="margin:24px 0 12px;">A task management demo app</h4>
+<h4 style="margin:24px 0 12px;">任务管理演示应用</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+I started <a href="https://claude.ai/chat/0195f637-4d35-4b3a-84fb-7f94b0b38179" style="color:#2471a3;">a new conversation</a> and prompted:
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+我开启了<a href="https://claude.ai/chat/0195f637-4d35-4b3a-84fb-7f94b0b38179" style="color:#2471a3;">新的对话</a>并提示道：
+</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+Build a task management app with Starlette, it should have projects and tasks and comments and labels
+</blockquote>
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+用 Starlette 构建一个任务管理应用，它应该包含项目、任务、评论和标签
+</blockquote>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+And Claude did exactly that, producing a simple GitHub Issues clone using Starlette 1.0, a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong> database (via <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">aiosqlite</strong>) and a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Jinja2</strong> template.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+Claude 完全按要求完成了，使用 Starlette 1.0、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong> 数据库（通过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">aiosqlite</strong>）和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Jinja2</strong> 模板，生成了一个简单的 GitHub Issues 克隆应用。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Claude even tested the app manually like this:
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+Claude 甚至像这样手动测试了应用：
+</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>cd /home/claude/taskflow && timeout 5 python -c "
+import asyncio
+from database import init_db
+asyncio.run(init_db())
+print('DB initialized successfully')
+" 2>&1
+pip install httpx --break-system-packages -q \
+  && cd /home/claude/taskflow && \
+  python -c "
+from starlette.testclient import TestClient
+from main import app
+client = TestClient(app)
+r = client.get('/api/stats')
+print('Stats:', r.json())
+r = client.get('/api/projects')
+print('Projects:', len(r.json()), 'found')
+r = client.get('/api/tasks')
+print('Tasks:', len(r.json()), 'found')
+r = client.get('/api/labels')
+print('Labels:', len(r.json()), 'found')
+r = client.get('/api/tasks/1')
+t = r.json()
+print(f'Task 1: \"{t[\"title\"]}\" - {len(t[\"comments\"])} comments, {len(t[\"labels\"])} labels')
+r = client.post('/api/tasks', json={'title':'Test task','project_id':1,'priority':'high','label_ids':[1,2]})
+print('Created task:', r.status_code, r.json()['title'])
+r = client.post('/api/comments', json={'task_id':1,'content':'Test comment'})
+print('Created comment:', r.status_code)
+r = client.get('/')
+print('Homepage:', r.status_code, '- length:', len(r.text))
+print('\nAll tests passed!')
+"</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+For all of the buzz about <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong>, it's easy to overlook that Claude itself counts as a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">coding agent</strong> now, fully able to both write and then test the code that it is writing.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+尽管 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 备受关注，但人们很容易忽视 Claude 本身就是一个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">编程智能体</strong>（coding agent），它完全能够编写代码，然后测试它正在编写的代码。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Here's what the resulting app looked like. The code is <a href="https://github.com/simonw/llm-claude-skills/tree/main/taskflow" style="color:#2471a3;">here in my research repository</a>.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+这是最终应用的样子。代码位于<a href="https://github.com/simonw/llm-claude-skills/tree/main/taskflow" style="color:#2471a3;">我的研究仓库中</a>。
+</p>
+
+<img src="https://static.simonwillison.net/static/2026/taskflow.jpg" alt="Screenshot of a dark-themed Kanban board app called TaskFlow..." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Tags: <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">open-source</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">python</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ai</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">asgi</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">kim-christie</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">generative-ai</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llms</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ai-assisted-programming</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">claude</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">coding-agents</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">skills</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">agentic-engineering</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">starlette</code>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+标签：<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">开源</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">python</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">人工智能</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">asgi</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">kim-christie</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">生成式人工智能</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">大语言模型</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ai辅助编程</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">claude</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">编程智能体</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">技能</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">智能体工程</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">starlette</code>
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/2026/Mar/22/starlette/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Simon Willison</div>
+      <div class="title-row">
+        <div class="title">PC Gamer 文章性能审计</div>
+        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
+      </div>
+      <div class="title-en">PCGamer Article Performance Audit</div>
+      <div class="tags"><span class="tag">网页臃肿</span><span class="tag">性能审计</span><span class="tag">视频广告</span></div>
+      <div class="summary">文章揭露PC Gamer网站存在严重的网页臃肿问题：一篇推荐RSS阅读器的文章体积高达37MB，因自动播放视频广告甚至可达数百MB，极具讽刺意味。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">highlighting a truly horrifying example of web bloat that added up to 100s more MBs thanks to auto-playing video ads</div><div class="quote-zh">揭示了一个令人震惊的网页臃肿案例——由于自动播放的视频广告，累计体积高达数百MB</div></div>
+</div>
+      <div class="translation"><div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stuart Breckenridge</strong> pointed out that<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">PC Gamer</strong> Recommends <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">RSS Readers</strong> in a 37MB Article That Just Keeps Downloading, highlighting a truly horrifying example of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">web bloat</strong> that added up to 100s more MBs thanks to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">auto-playing video ads</strong>.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stuart Breckenridge</strong> 指出，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">PC Gamer</strong> 在一篇体积达 37MB 且持续下载的文章中推荐 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">RSS 阅读器</strong>，这是一个令人震惊的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">网页臃肿（web bloat）</strong> 案例——由于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">自动播放视频广告</strong>，页面额外增加了数百 MB 的数据量。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+I decided to have <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> for web use<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rodney</strong>to investigate the page -prompt here.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+我决定让 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> 的网络助手 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rodney</strong> 来调查该页面——<a href="#" style="color:#2471a3;text-decoration:underline;">提示词在此</a>。
+</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://simonwillison.net/2026/Mar/22/pcgamer-audit/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-03-22
+  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-03-23
 </div>
 
 <script>

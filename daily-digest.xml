@@ -7,23 +7,36 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 22 Mar 2026 22:35:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 23:01:13 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-22</title>
-      <description>&lt;p&gt;&lt;strong&gt;科技日报&lt;/strong&gt; | 2024-01-09&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-23</title>
+      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Profiling Hacker News users based on their comments&lt;/strong&gt; (Simon Willison)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI 推进全自动研究助手，Cursor 转向 Kimi 2.5，马斯克投资 200 亿美元建芯片工厂&lt;/strong&gt;；同时 MiniMax 等低成本模型挑战 Claude，行业开始反思 Token 消耗与实际效能的错配问题。（TLDR / TLDR AI）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;通过 Hacker News API 抓取用户历史评论，利用大语言模型生成精准用户画像。作者以自身为案例展示了该技术的高效性，同时警示了这种&amp;quot;轻度反乌托邦&amp;quot;应用可能带来的隐私风险。&lt;/p&gt;
-&lt;h4&gt;跨界与深度思考&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;The art of influence: The single most important skill that AI can&amp;#x27;t replace&lt;/strong&gt; (Lenny&amp;#x27;s Newsletter | Jessica Fain)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;微软 AI VP 分享&amp;quot;微代理&amp;quot;自动化实践&lt;/strong&gt;：Marco Casalaina 利用 Warp 终端工具即时创建轻量级自动化脚本处理 Azure 管理、文档扫描等任务，结合 Copilot 实现邮件自动响应，展现消费级 AI 与构建级 AI 的融合。（Claire Vo &amp;amp; Lenny Rachitsky / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Webflow 产品负责人 Jessica Fain 指出&lt;strong&gt;影响力是 AI 无法替代的核心技能&lt;/strong&gt;，并分享了推动想法落地的实战策略：以学习心态沟通、避免单一选项陷阱、把握关键会议时机建立共识。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-22</guid>
-      <pubDate>Sun, 22 Mar 2026 22:35:28 +0000</pubDate>
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用 Claude Skills 解决模型数据滞后&lt;/strong&gt;：通过为 Claude 构建包含 Starlette 1.0 最新代码示例的专属技能，成功让 AI 生成兼容新版本的完整 Web 应用，为 AI 辅助编程跟进最新技术框架提供实践参考。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Starlette 1.0 技能指南发布&lt;/strong&gt;：提供使用这一轻量级 ASGI 框架构建稳健 Web 应用的实践参考，演示应用涵盖项目/任务管理、实时更新等功能，展示路由、Jinja2 模板及异步数据库操作的灵活性。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PC Gamer 网页臃肿审计&lt;/strong&gt;：单篇 RSS 阅读器推荐文章体积高达 37MB，自动播放视频广告甚至可达数百 MB，揭露内容网站严重的性能退化问题。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;产品迭代&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;博客内容聚合功能升级&lt;/strong&gt;：Simon Willison 为其&amp;quot;beats&amp;quot;功能新增注释能力，允许为外部链接附加简短说明以解释上下文，提升内容策展的信息价值。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;深度思考：AI 局限与人的价值&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;软件开发的核心始终是人&lt;/strong&gt;：David Abram 指出，编码并非难点，理解系统、设计架构和做出关键决策才是；LLM 无法替代开发者，因其缺乏上下文理解且无法承担责任，而开发者的真正价值在于&amp;quot;知道应该构建什么以及背后的原因&amp;quot;。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-23</guid>
+      <pubDate>Mon, 23 Mar 2026 23:01:13 +0000</pubDate>
     </item>
   </channel>
 </rss>
