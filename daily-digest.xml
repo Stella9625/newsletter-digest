@@ -7,58 +7,29 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 24 Mar 2026 23:27:42 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 23:31:55 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-24</title>
-      <description>&lt;p&gt;&lt;strong&gt;科技日报：本地万亿参数模型突破、供应链安全升级与AI就业市场回暖&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; AI 技术前沿&lt;/h4&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-25</title>
+      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Streaming experts&lt;/strong&gt; | Simon Willison&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claude 4.6 与 Auto Mode 发布&lt;/strong&gt;：Anthropic 推出 Claude 4.6，支持百万 token 上下文和四种自动化工作模式；新增的 Auto Mode 允许 AI 在分类器监督下自动进行权限决策，但专家指出基于大模型的非确定性防护难以有效防范提示注入攻击，建议采用确定性沙盒方案。（来源：Simon Willison, TLDR AI）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;datasette-llm 0.1a1 发布&lt;/strong&gt;：新增 &lt;code&gt;register_llm_purposes()&lt;/code&gt; 钩子，支持 Datasette 插件按数据丰富、SQL 查询等场景灵活映射不同 LLM 模型。（来源：Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;流式专家技术实现突破，通过SSD动态加载权重，可在48GB-128GB内存的MacBook及iPhone上运行万亿参数混合专家模型（如Kimi K2.5），打破硬件内存限制。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI 编程与工程实践&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[AINews] Dreamer joins Meta Superintelligence Labs&lt;/strong&gt; | Latent Space&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;警惕 AI 编码的认知债务&lt;/strong&gt;：Simon Willison 批评滥用 AI 编码代理追求速度而牺牲质量的现象，警示微小错误会指数级累积成难以维护的复杂系统，主张限制 AI 代码生成量并手工编写核心架构以重建认知严谨性。（来源：Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stripe 的&amp;quot;Minions&amp;quot; AI 编程代理&lt;/strong&gt;：Stripe 工程师 Steve Kaliski 披露内部系统架构，允许开发者通过 Slack 表情符号触发任务，每周自动生成约 1,300 个 PR，依托云开发环境实现并行工作流与自主机器支付。（来源：Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Dreamer团队加盟Meta超级智能实验室，推动&amp;quot;个人超级智能&amp;quot;愿景落地；Claude桌面自动化、智能体技术栈及Meta自改进模型研究取得关键进展。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;工程与系统安全&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;安全与基础设施&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Package Managers Need to Cool Down&lt;/strong&gt; | Simon Willison&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LiteLLM 供应链攻击&lt;/strong&gt;：LiteLLM 遭遇黑客攻击，约 4.7 万名用户的账户或 API 密钥可能已泄露，建议立即轮换密钥并检查访问日志。（来源：Simon Willison, Latent Space）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;npm、pip、pnpm、Yarn等主流包管理器密集推出&amp;quot;依赖冷却&amp;quot;功能，允许设置包发布后最小使用年龄，以缓解供应链投毒攻击风险。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;产品与生态趋势&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Malicious litellm_init.pth in litellm 1.82.8&lt;/strong&gt; | Simon Willison&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;开源库Litellm遭遇供应链攻击，1.82.8版本包含窃取SSH密钥、云凭证及加密货币钱包的恶意代码，源于Trivy扫描器漏洞导致的PyPI凭证泄露，目前已被平台紧急隔离。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;产品与职业趋势&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;State of the product job market in early 2026&lt;/strong&gt; | Lenny Rachitsky&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;2026年初科技就业市场显现积极信号：产品经理职位空缺达三年峰值，AI岗位需求激增，软件工程师招聘保持强劲；但远程工作机会持续萎缩，旧金山湾区重要性进一步凸显。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;跨界与深度思考&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Why There Is No &amp;quot;AlphaFold for Materials&amp;quot;&lt;/strong&gt; | Brandon Anderson (Latent Space)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;材料科学家Heather Kulik指出，由于高质量实验数据稀缺、化学空间无限扩展及DFT计算噪音，材料科学难以复制AlphaFold成功，强调AI材料发现必须深度整合领域知识并通过实验室验证。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Quoting Christopher Mims&lt;/strong&gt; | Simon Willison&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;《华尔街日报》专栏作家Christopher Mims警告，让AI完全掌控电脑及生活的做法将在未来显得极其愚蠢，追捧者或将像炫耀NFT的Jimmy Fallon一样沦为笑柄。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Quoting Neurotica&lt;/strong&gt; | Simon Willison&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;文章引用对&amp;quot;slop&amp;quot;（AI垃圾内容）的定义——消耗人类精力多于其生产所耗的产出，指出随意分享原始AI生成内容是对他人时间价值的漠视。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;工具更新&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;datasette-files 0.1a2&lt;/strong&gt; | Simon Willison&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Datasette文件上传插件发布新版，支持批量上传、CSV/TSV数据导入及图像缩略图生成，并适配Datasette 1.0a26的列类型配置系统。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-24</guid>
-      <pubDate>Tue, 24 Mar 2026 23:27:42 +0000</pubDate>
+&lt;li&gt;&lt;strong&gt;AI 编程冲击应用商店垄断&lt;/strong&gt;：&amp;quot;Vibe coding&amp;quot; 浪潮正迫使苹果等传统应用商店的审查机制与商业模式变革，软件分发范式加速向开放网络和 API 生态转移；与此同时，AI 基础设施的安全性与工程化问题日益凸显。（来源：Latent Space, TLDR AI）&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-25</guid>
+      <pubDate>Wed, 25 Mar 2026 23:31:55 +0000</pubDate>
     </item>
   </channel>
 </rss>
