@@ -292,38 +292,32 @@
 <div class="container">
   <div class="tabs">
     <button class="tab active" onclick="switchTab('digest')">每日日报</button>
-    <button class="tab" onclick="switchTab('articles')">全部文章 (7)</button>
+    <button class="tab" onclick="switchTab('articles')">全部文章 (3)</button>
   </div>
 
   <!-- 日报 Tab -->
   <div id="tab-digest" class="tab-content active">
-    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">AI编程</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">3</span></div>
-<div class="chart-row"><span class="chart-label">Claude</span><div class="chart-bar-bg"><div class="chart-bar" style="width:66%;background:#34c759"></div></div><span class="chart-count">2</span></div>
-<div class="chart-row"><span class="chart-label">认知债务</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">代码质量</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#af52de"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">开发速度</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">Datasette</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">LLM</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">插件</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
+    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">量化</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">LLM</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">模型压缩</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">Claude</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">Computer Use</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">产品发布</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">SaaS定价</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">AI商业化</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
-      <h2>2026-03-25 日报</h2>
+      <h2>2026-03-26 日报</h2>
       <p><strong>LLM &amp; AI 工具</strong></p>
 <ul>
-<li><strong>Claude 4.6 与 Auto Mode 发布</strong>：Anthropic 推出 Claude 4.6，支持百万 token 上下文和四种自动化工作模式；新增的 Auto Mode 允许 AI 在分类器监督下自动进行权限决策，但专家指出基于大模型的非确定性防护难以有效防范提示注入攻击，建议采用确定性沙盒方案。（来源：Simon Willison, TLDR AI）</li>
-<li><strong>datasette-llm 0.1a1 发布</strong>：新增 <code>register_llm_purposes()</code> 钩子，支持 Datasette 插件按数据丰富、SQL 查询等场景灵活映射不同 LLM 模型。（来源：Simon Willison）</li>
+<li><strong>Claude 发布史上最大更新</strong>：基于收购 Vercept 技术推出的 Cowork Dispatch Computer Use 功能引发市场空前反响，社交媒体热度创 Anthropic 历史纪录。（Latent Space）</li>
 </ul>
-<p><strong>AI 编程与工程实践</strong></p>
+<p><strong>工程与系统设计</strong></p>
 <ul>
-<li><strong>警惕 AI 编码的认知债务</strong>：Simon Willison 批评滥用 AI 编码代理追求速度而牺牲质量的现象，警示微小错误会指数级累积成难以维护的复杂系统，主张限制 AI 代码生成量并手工编写核心架构以重建认知严谨性。（来源：Simon Willison）</li>
-<li><strong>Stripe 的&quot;Minions&quot; AI 编程代理</strong>：Stripe 工程师 Steve Kaliski 披露内部系统架构，允许开发者通过 Slack 表情符号触发任务，每周自动生成约 1,300 个 PR，依托云开发环境实现并行工作流与自主机器支付。（来源：Lenny&#x27;s Newsletter）</li>
+<li><strong>模型量化技术深度解析</strong>：Simon Willison 通过可视化浮点数二进制表示，揭示&quot;异常值&quot;（超级权重）对模型质量的关键影响——删除单个即可导致输出乱码，并验证 16 位到 8 位量化几乎无损，4 位量化仍保持约 90% 性能。（Simon Willison）</li>
 </ul>
-<p><strong>安全与基础设施</strong></p>
+<p><strong>产品与增长</strong></p>
 <ul>
-<li><strong>LiteLLM 供应链攻击</strong>：LiteLLM 遭遇黑客攻击，约 4.7 万名用户的账户或 API 密钥可能已泄露，建议立即轮换密钥并检查访问日志。（来源：Simon Willison, Latent Space）</li>
-</ul>
-<p><strong>产品与生态趋势</strong></p>
-<ul>
-<li><strong>AI 编程冲击应用商店垄断</strong>：&quot;Vibe coding&quot; 浪潮正迫使苹果等传统应用商店的审查机制与商业模式变革，软件分发范式加速向开放网络和 API 生态转移；与此同时，AI 基础设施的安全性与工程化问题日益凸显。（来源：Latent Space, TLDR AI）</li>
+<li><strong>AI SaaS 定价范式转移</strong>：从传统按座位收费转向基于 API 调用、token 消耗或实际成效的用量定价，Metronome 发布《定价实验手册》助力企业构建动态价值定价策略。（TLDR AI）</li>
 </ul>
     </div>
   </div>
@@ -333,883 +327,206 @@
     <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">慢下来的思考</div>
-        <span class="tone-pill" style="background:#ffe4e6;color:#be123c">😤 批评</span>
-      </div>
-      <div class="title-en">Thoughts on slowing the fuck down</div>
-      <div class="tags"><span class="tag">AI编程</span><span class="tag">认知债务</span><span class="tag">代码质量</span><span class="tag">开发速度</span></div>
-      <div class="summary">本文批评了滥用AI编码代理追求速度而牺牲代码质量的现象，警示微小错误会指数级累积形成难以维护的复杂系统。作者呼吁开发者放慢节奏，限制AI代码生成量并手工编写核心架构，以在编码效率与认知严谨性之间重建平衡。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">We have basically given up all discipline and agency for a sort of addiction, where your highest goal is to produce the largest amount of code in the shortest amount of time. Consequences be damned.</div><div class="quote-zh">我们基本上已经放弃了所有的纪律和能动性，陷入了一种瘾，你的最高目标是在最短时间内产出最多的代码。去他妈的后果。</div></div>
-<div class="quote-block"><div class="quote-en">You have zero fucking idea what&#x27;s going on because you delegated all your agency to your agents. You let them run free, and they are merchants of complexity.</div><div class="quote-zh">你他妈完全不知道发生了什么，因为你把所有的能动性都委托给了你的代理。你让它们自由运行，而它们是复杂性的贩子。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Thoughts on slowing the fuck down</h3>
-<h3 style="margin:24px 0 12px;">关于放慢脚步的思考</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-We have basically given up all discipline and agency for a sort of addiction, where your highest goal is to produce the largest amount of code in the shortest amount of time. Consequences be damned.
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-我们基本上已经放弃了所有的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">纪律</strong>（discipline）和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">能动性</strong>（agency），陷入了一种成瘾状态，你的最高目标是在最短的时间内产出最大量的代码。后果去他妈的。
-</blockquote>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-We have basically given up all discipline and agency for a sort of addiction, where your highest goal is to produce the largest amount of code in the shortest amount of time. Consequences be damned.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我们基本上已经放弃了所有的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">纪律</strong>（discipline）和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">能动性</strong>（agency），陷入了一种成瘾状态，你的最高目标是在最短的时间内产出最大量的代码。后果去他妈的。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Agents and humans both make mistakes, but agent mistakes accumulate much faster:
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI Agent</strong>（智能体）和人类都会犯错，但 Agent 的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">错误累积</strong>（mistakes accumulate）速度要快得多：
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-A human is a bottleneck. A human cannot shit out 20,000 lines of code in a few hours. Even if the human creates such booboos at high frequency, there's only so many booboos the human can introduce in a codebase per day. [...]
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-人类是一个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">瓶颈</strong>（bottleneck）。人类不可能在几小时内就粗制滥造出 20,000 行代码。即使人类以高频率制造这种<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">小错误</strong>（booboos），他每天能引入代码库的错误数量也是有限的。[...]
-</blockquote>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-With an orchestrated army of agents, there is no bottleneck, no human pain. These tiny little harmless booboos suddenly compound at a rate that's unsustainable. You have removed yourself from the loop, so you don't even know that all the innocent booboos have formed a monster of a codebase. You only feel the pain when it's too late. [...]
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-有了协调一致的 Agent 军队，就没有瓶颈，也没有人类的痛苦。这些看似无害的小错误突然以不可持续的速度<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">复利增长</strong>（compound）。你已经把自己从<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">反馈循环</strong>（the loop）中移除，所以你甚至不知道所有这些无辜的小错误已经形成了一个代码库怪物。只有当为时已晚时，你才会感受到痛苦。[...]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-You have zero fucking idea what's going on because you delegated all your agency to your agents. You let them run free, and they are merchants of complexity.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-你他妈完全不知道发生了什么，因为你把所有的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">能动性</strong>（agency）都委托给了你的 Agent。你让它们自由运行，而它们是<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">复杂性的商人</strong>（merchants of complexity）。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-A human is a bottleneck. A human cannot shit out 20,000 lines of code in a few hours. Even if the human creates such booboos at high frequency, there's only so many booboos the human can introduce in a codebase per day. [...]
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-人类是一个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">瓶颈</strong>（bottleneck）。人类不可能在几小时内就粗制滥造出 20,000 行代码。即使人类以高频率制造这种<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">小错误</strong>（booboos），他每天能引入代码库的错误数量也是有限的。[...]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-I think <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mario</strong> is exactly right about this. Agents let us move so much faster, but this speed also means that changes which we would normally have considered over the course of weeks are landing in a matter of hours.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我认为<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mario</strong>（马里奥）说得完全正确。Agent 让我们行动得更快，但这种速度也意味着我们通常需要数周时间考虑的变化，现在在几小时内就完成了。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-It's so easy to let the codebase evolve outside of our abilities to reason clearly about it. <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cognitive debt</strong> is real.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我们很容易让代码库的发展超出我们清晰<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">推理</strong>（reason）的能力范围。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">认知债务</strong>（Cognitive debt）是真实存在的。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mario</strong> recommends slowing down:
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mario</strong>（马里奥）建议放慢速度：
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-Give yourself time to think about what you're actually building and why. Give yourself an opportunity to say, fuck no, we don't need this. Set yourself limits on how much code you let the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">clanker</strong> generate per day, in line with your ability to actually review the code. [...]
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-给自己时间去思考你真正在构建什么以及为什么。给自己一个机会说，去他妈的，我们不需要这个。根据你实际审查代码的能力，为每天允许<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">clanker</strong>（指 AI 生成工具）生成的代码量设定限制。[...]
-</blockquote>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-Anything that defines the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">gestalt</strong> of your system, that is <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">architecture</strong>, API, and so on, write it by hand. [...]
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-任何定义系统<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">整体形态</strong>（gestalt）的东西，也就是<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">架构</strong>（architecture）、API 等等，都要手写。[...]
-</blockquote>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Give yourself time to think about what you're actually building and why. Give yourself an opportunity to say, fuck no, we don't need this. Set yourself limits on how much code you let the clanker generate per day, in line with your ability to actually review the code.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-给自己时间去思考你真正在构建什么以及为什么。给自己一个机会说，去他妈的，我们不需要这个。根据你实际审查代码的能力，为每天允许 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">clanker</strong>（AI 生成工具）生成的代码量设定限制。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Anything that defines the gestalt of your system, that is architecture, API, and so on, write it by hand. [...]
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-任何定义系统<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">整体形态</strong>（gestalt）的东西，也就是<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">架构</strong>（architecture）、API 等等，都要手写。[...]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-I'm not convinced writing by hand is the best way to address this, but it's absolutely the case that we need the discipline to find a new balance of speed v.s. mental thoroughness now that typing out the code is no longer anywhere close to being the bottleneck on writing software.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我并不确信手写代码是解决这个问题的最佳方式，但毫无疑问的是，既然编写代码时的打字输入已经不再是软件开发中的瓶颈，我们就需要<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">纪律</strong>（discipline）来找到速度与思维严谨性之间的新平衡。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags: <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ai</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">generative-ai</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llms</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">coding-agents</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">cognitive-debt</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">agentic-engineering</code>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ai</code>（人工智能）, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">generative-ai</code>（生成式 AI）, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llms</code>（大语言模型）, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">coding-agents</code>（编程 Agent）, <code style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">cognitive-debt</code>（认知债务）, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">agentic-engineering</code>（Agent 工程）
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">datasette-llm 0.1a1 发布</div>
-        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
-      </div>
-      <div class="title-en">datasette-llm 0.1a1</div>
-      <div class="tags"><span class="tag">Datasette</span><span class="tag">LLM</span><span class="tag">插件</span></div>
-      <div class="summary">datasette-llm 发布 0.1a1 版本，新增 `register_llm_purposes()` 钩子与 `get_purposes()` 函数，支持 Datasette 插件按用途（如数据丰富、SQL 查询）注册和配置不同的 LLM 模型，实现模型与场景的灵活映射。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">One of the responsibilities of this plugin is to configure which models are used for which purposes, so you can say in one place &quot;data enrichment uses GPT-5.4-nano but SQL query assistance happens using Sonnet 4.6&quot;, for example.</div><div class="quote-zh">该插件的职责之一是配置不同用途使用哪个模型，例如你可以在一个地方指定&quot;数据增强使用 GPT-5.4-nano，而 SQL 查询辅助使用 Sonnet 4.6&quot;。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Release: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">datasette-llm</strong> 0.1a1</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-New release of the base plugin that makes models from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LLM</strong> available for use by other <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Datasette</strong> plugins such as <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">datasette-enrichments-llm</strong>.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-这是一个基础插件的新版本，该插件使得来自 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LLM</strong> 的模型可以被其他 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Datasette</strong> 插件（如 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">datasette-enrichments-llm</strong>）使用。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-New <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">register_llm_purposes()</code> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">plugin hook</strong> and <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">get_purposes()</code> function for retrieving registered purpose strings. <a href="#1" style="color:#9a9ea6;">#1</a>
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-新的 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">register_llm_purposes()</code> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">插件钩子（plugin hook）</strong>和用于检索已注册用途字符串的 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">get_purposes()</code> 函数。<a href="#1" style="color:#666;">#1</a>
-</blockquote>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:8px 0;padding-left:20px;">
-<li>New <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">register_llm_purposes()</code> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">plugin hook</strong> and <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">get_purposes()</code> function for retrieving registered purpose strings. <a href="#1" style="color:#9a9ea6;">#1</a></li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<ul style="margin:8px 0;padding-left:20px;">
-<li>新的 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">register_llm_purposes()</code> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">插件钩子（plugin hook）</strong>和用于检索已注册用途字符串的 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">get_purposes()</code> 函数。<a href="#1" style="color:#666;">#1</a></li>
-</ul>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-One of the responsibilities of this plugin is to configure which models are used for which purposes, so you can say in one place "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">data enrichment</strong> uses <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT-5.4-nano</strong> but SQL query assistance happens using <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Sonnet 4.6</strong>", for example.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-该插件的职责之一是配置哪些模型用于哪些用途，例如，你可以在一个地方指定"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">数据增强（data enrichment）</strong>使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT-5.4-nano</strong>，而 SQL 查询辅助使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Sonnet 4.6</strong>"。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Plugins that depend on this can use <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">model = await llm.model(purpose="enrichment")</code> to indicate the purpose of the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompts</strong> they wish to execute against the model. Those plugins can now also use the new <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">register_llm_purposes()</code> hook to register those purpose strings, which means future plugins can list those purposes in one place to power things like an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">admin UI</strong> for assigning models to purposes.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-依赖此插件的插件可以使用 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">model = await llm.model(purpose="enrichment")</code> 来指明他们希望针对模型执行的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">提示词（prompts）</strong>的用途。这些插件现在还可以使用新的 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">register_llm_purposes()</code> 钩子来注册这些用途字符串，这意味着未来的插件可以在一个地方列出这些用途，从而为诸如用于分配模型到用途的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">管理员界面（admin UI）</strong>等功能提供支持。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags: annotated-release-notes, llm, datasette, plugins
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：annotated-release-notes（带注释的发布说明）、llm（大语言模型）、datasette、plugins（插件）
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">LiteLLM 被黑：你是那 4.7 万受害者之一吗？</div>
-        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
-      </div>
-      <div class="title-en">LiteLLM Hack: Were You One of the 47,000?</div>
-      <div class="tags"><span class="tag">LiteLLM</span><span class="tag">数据泄露</span><span class="tag">安全漏洞</span></div>
-      <div class="summary">LiteLLM近日遭遇黑客攻击，约4.7万名用户的账户或API密钥可能已泄露，建议相关用户立即检查并采取安全措施。</div>
-      
-      <div class="translation"><h3 style="margin:24px 0 12px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LiteLLM</strong> Hack: Were You One of the 47,000?</h3>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LiteLLM</strong> 黑客攻击：你是这47,000人中的一员吗？</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">25th March 2026 - <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Link Blog</strong></div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">2026年3月25日 - <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Link Blog</strong>（链接博客）</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Lenny&#x27;s Newsletter</div>
-      <div class="title-row">
-        <div class="title">Stripe如何构建“小黄人”：每周通过Slack自动提交1300个PR的AI编程代理</div>
+        <div class="title">从零开始的量化技术</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">How Stripe built “minions”—AI coding agents that ship 1,300 PRs weekly from Slack reactions | Steve Kaliski (Stripe engineer)</div>
-      <div class="tags"><span class="tag">AI编程</span><span class="tag">AI代理</span><span class="tag">自动化</span><span class="tag">开发工具</span></div>
-      <div class="summary">Stripe工程师Steve Kaliski介绍了内部AI编程助手&quot;minions&quot;的技术架构，该系统允许工程师通过Slack表情符号激活开发任务，每周自动生成约1,300个代码提交请求，并依托云开发环境实现并行工作流与自主机器支付功能。</div>
+      <div class="title-en">Quantization from the ground up</div>
+      <div class="tags"><span class="tag">量化</span><span class="tag">LLM</span><span class="tag">模型压缩</span></div>
+      <div class="summary">本文深入浅出地讲解了AI模型量化技术，不仅提供了浮点数二进制表示的可视化解析，还重点探讨了“异常值”（超级权重）对模型质量的关键影响——删除单个即可能导致模型输出乱码，并通过测试证实16位到8位量化几乎无损，4位量化仍能保持约90%的原始性能。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Why a good developer experience for humans creates better outcomes for AI agents</div><div class="quote-zh">对人类而言良好的开发者体验，能为AI代理带来更出色的成果</div></div>
-<div class="quote-block"><div class="quote-en">The machine payment protocol that lets AI agents spend money to accomplish tasks</div><div class="quote-zh">让AI代理能够花钱完成任务的机器支付协议</div></div>
+<div class="quote-block"><div class="quote-en">tl;dr: no one conclusively knows, but a small fraction of these outliers are very important to model quality. Removing even a single &quot;super weight,&quot; as Apple calls them, can cause the model to output complete gibberish.</div><div class="quote-zh">长话短说：没人确切知道原因，但这些异常值中的一小部分对模型质量至关重要。正如苹果所称，即使移除单个&quot;超级权重&quot;，也会导致模型输出完全胡言乱语。</div></div>
+<div class="quote-block"><div class="quote-en">It looks like 16-bit to 8-bit carries almost no quality penalty. 16-bit to 4-bit is more noticeable, but it&#x27;s certainly not a quarter as good as the original. Closer to 90%, depending on how you want to measure it.</div><div class="quote-zh">看起来从16位量化到8位几乎没有质量损失。16位到4位的差异更明显，但模型性能肯定没有降到原来的四分之一。更接近90%，具体取决于你如何衡量。</div></div>
 </div>
-      <div class="translation"><div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Steve Kaliski</strong> is a software engineer at <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stripe</strong> who has spent the past six and a half years building developer tools and payment infrastructure. He's part of the team that created "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">minions</strong>"—Stripe's internal <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI coding agents</strong>, which now ship approximately 1,300 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pull requests</strong> per week with minimal human intervention beyond code review. In this episode, Steve demonstrates how Stripe engineers activate development work from <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Slack</strong> and leverage <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">cloud-based development environments</strong> for parallel agent workflows, and demos <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">machine-to-machine payments</strong> where AI agents transact autonomously with third-party services.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Steve Kaliski</strong> 是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stripe</strong> 的一名软件工程师，过去六年半里一直在开发开发者工具和支付基础设施。他是创建 "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">minions</strong>"（小黄人）——Stripe 内部的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 编程代理（AI coding agents）</strong>——的核心团队成员之一。这些代理目前每周能提交约 1,300 个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">拉取请求（pull requests）</strong>，除了代码审查外几乎无需人工干预。在本期节目中，Steve 展示了 Stripe 工程师如何通过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Slack</strong> 激活开发工作，利用<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">基于云的开发环境（cloud-based development environments）</strong>实现并行的代理工作流，并演示了<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">机器对机器支付（machine-to-machine payments）</strong>，即 AI 代理如何与第三方服务自主完成交易。</p>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Quantization from the ground up</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Listen or watch on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">YouTube</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Spotify</strong>, or <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple Podcasts</strong></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">可在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">YouTube</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Spotify</strong> 或 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple Podcasts</strong> 上收听或观看。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Also included is the best visual explanation I've ever seen of how floating point numbers are represented using binary digits.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+文中还包含了我见过的关于<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">浮点数（floating point numbers）</strong>如何使用<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">二进制数字（binary digits）</strong>表示的最佳可视化解释。
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><h3 style="margin:0;">What you'll learn:</h3></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><h3 style="margin:0;">学习内容：</h3></p>
+<img src="https://static.simonwillison.net/static/2026/float.jpg" alt="Screenshot of an interactive float32 binary representation tool showing the value -48.92364502, with color-coded bit fields labeled S (sign), EXPONENT (blue), and SIGNIFICAND (pink), displaying the 32-bit pattern 11000010010000111101100001110100000, and a slider control at the bottom along with minus, plus, and reset buttons." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• How Stripe's "minions" write 1,300 pull requests per week with minimal human intervention</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• Stripe 的 "minions" 如何每周编写 1,300 个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">拉取请求（pull requests）</strong>，且几乎无需人工干预</p>
+<img src="https://static.simonwillison.net/static/2026/float.jpg" alt="Screenshot of an interactive float32 binary representation tool showing the value -48.92364502, with color-coded bit fields labeled S (sign), EXPONENT (blue), and SIGNIFICAND (pink), displaying the 32-bit pattern 11000010010000111101100001110100000, and a slider control at the bottom along with minus, plus, and reset buttons." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• Why a good developer experience for humans creates better outcomes for AI agents</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• 为什么良好的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">开发者体验（developer experience）</strong>能为 AI 代理带来更好的结果</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+I hadn't heard about outlier values in quantization - rare float values that exist outside of the normal tiny-value distribution - but apparently they're very important:
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+我从未听说过量化中的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">异常值（outlier values）</strong>——那些存在于正常微小值分布之外的罕见浮点数值——但显然它们非常重要：
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• The critical role of cloud development environments in unlocking AI-powered engineering velocity</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">云开发环境（cloud development environments）</strong>在释放 AI 驱动工程速度方面的关键作用</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+Why do these outliers exist? [...] tl;dr: no one conclusively knows, but a small fraction of these outliers are very important to model quality. Removing even a single "super weight," as Apple calls them, can cause the model to output complete gibberish.
+</blockquote>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+为什么这些异常值会存在？[...] 简而言之：没有人确切知道，但这些异常值中的一小部分对模型质量<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">非常</strong>重要。正如<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple（苹果）</strong>所称，即使移除单个"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">超级权重（super weight）</strong>"，也可能导致模型输出完全混乱的内容。
+</blockquote>
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• The machine payment protocol that lets AI agents spend money to accomplish tasks</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• 让 AI 代理花钱完成任务的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">机器支付协议（machine payment protocol）</strong></p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Given their importance, real-world quantization schemes sometimes do extra work to preserve these outliers. They might do this by not quantizing them at all, or by saving their location and value into a separate table, then removing them so that their block isn't destroyed.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+鉴于它们的重要性，实际的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">量化方案（quantization schemes）</strong>有时会做额外的工作来保留这些异常值。它们可能会通过完全不对这些值进行量化来实现这一点，或者将它们的的位置和值保存到一个单独的表中，然后将其移除，以免破坏它们所在的块。
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• The code review strategy for handling thousands of agent-written PRs</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• 处理数千个代理编写 PR 的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">代码审查策略（code review strategy）</strong></p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Why do these outliers exist? [...] tl;dr: no one conclusively knows, but a small fraction of these outliers are very important to model quality. Removing even a single "super weight," as Apple calls them, can cause the model to output complete gibberish.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+为什么这些异常值会存在？[...] 简而言之：没有人确切知道，但这些异常值中的一小部分对模型质量非常重要。正如<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple（苹果）</strong>所称，即使移除单个"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">超级权重（super weight）</strong>"，也可能导致模型输出完全混乱的内容。
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• Why non-engineers at Stripe are starting to use minions to ship code</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• 为什么 Stripe 的非工程师也开始使用 minions 来交付代码</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Given their importance, real-world quantization schemes sometimes do extra work to preserve these outliers. They might do this by not quantizing them at all, or by saving their location and value into a separate table, then removing them so that their block isn't destroyed.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+鉴于它们的重要性，实际的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">量化方案（quantization schemes）</strong>有时会做额外的工作来保留这些异常值。它们可能会通过完全不对这些值进行量化来实现这一点，或者将它们的的位置和值保存到一个单独的表中，然后将其移除，以免破坏它们所在的块。
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• The future of software businesses built primarily for agent consumers</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• 主要为<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">代理消费者（agent consumers）</strong>构建的软件业务的未来</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Plus there's a section on How much does quantization affect model accuracy?. Sam explains the concepts of perplexity and <strong>KL divergence</strong> and then uses the llama.cpp perplexity tool and a run of the GPQA benchmark to show how different quantization levels affect Qwen 3.5 9B.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+此外，文章还有一个关于"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">量化对模型精度的影响有多大（How much does quantization affect model accuracy?）</strong>"的章节。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Sam（山姆）</strong>解释了<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">困惑度（perplexity）</strong>和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">KL 散度（KL divergence）</strong>的概念，然后使用<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">llama.cpp</strong>的困惑度工具和运行<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPQA 基准测试（GPQA benchmark）</strong>来展示不同的量化级别如何影响<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Qwen 3.5 9B</strong>。
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><h3 style="margin:0;">Brought to you by:</h3></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><h3 style="margin:0;">赞助商：</h3></p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+His conclusion:
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+他的结论是：
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Optimizely</strong>—Your AI agent orchestration platform for marketing and digital teams</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Optimizely</strong>——面向营销和数字团队的 AI 代理编排平台（AI agent orchestration platform）</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+It looks like 16-bit to 8-bit carries almost no quality penalty. 16-bit to 4-bit is more noticeable, but it's certainly not a quarter as good as the original. Closer to 90%, depending on how you want to measure it.
+</blockquote>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+看起来从 16 位到 8 位的转换几乎不会造成质量损失。16 位到 4 位的转换更为明显，但效果肯定不比原版的四分之一好。根据测量方式的不同，更接近 90%。
+</blockquote>
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rippling</strong>—Stop wasting time on admin tasks, build your startup faster</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rippling</strong>——停止在管理任务上浪费时间，更快构建你的初创公司</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+It looks like 16-bit to 8-bit carries almost no quality penalty. 16-bit to 4-bit is more noticeable, but it's certainly not a quarter as good as the original. Closer to 90%, depending on how you want to measure it.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+看起来从 16 位到 8 位的转换几乎不会造成质量损失。16 位到 4 位的转换更为明显，但效果肯定不比原版的四分之一好。根据测量方式的不同，更接近 90%。
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><h3 style="margin:0;">In this episode, we cover:</h3></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><h3 style="margin:0;">本期节目内容：</h3></p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(00:00) Introduction to Steve</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(00:00) Steve 简介</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(02:39) Stripe's minions and their effect on Stripe as a whole</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(02:39) Stripe 的 minions 及其对整个公司的影响</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(04:42) Why activation energy matters more than execution</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(04:42) 为什么<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">激活能（activation energy）</strong>比执行更重要</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(05:44) What is a minion? The technical architecture</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(05:44) 什么是 minion？技术架构解析</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(06:52) Demo: Activating a minion from Slack with an emoji</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(06:52) 演示：通过 Slack 表情符号激活 minion</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(09:04) Why good developer experience benefits both humans and agents</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(09:04) 为什么良好的开发者体验能让人类和代理都受益</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(11:22) Walking through the agent loop and system prompts</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(11:22) 深入解析代理循环和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">系统提示词（system prompts）</strong></p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(13:42) Why Stripe chose Goose as their agent harness</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(13:42) 为什么 Stripe 选择 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Goose</strong> 作为其<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">代理工具框架（agent harness）</strong></p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(16:00) The role of Stripe's developer productivity team</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(16:00) Stripe <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">开发者生产力团队（developer productivity team）</strong>的角色</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(17:15) Why cloud environments unlock multi-threaded AI engineering</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(17:15) 为什么云环境能解锁多线程 AI 工程</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(21:14) One-shot prompting: from Slack to shipped PR</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(21:14) <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">单轮提示（One-shot prompting）</strong>：从 Slack 到合并的 PR</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(22:04) How Stripe handles code review for 1,300 AI-written PRs weekly</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(22:04) Stripe 如何处理每周 1,300 个 AI 编写 PR 的代码审查</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(23:44) Non-engineers using minions across the company</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(23:44) 全公司范围内的非工程师使用 minions</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(24:53) Demo: Planning a birthday party with Claude and machine payments</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(24:53) 演示：使用 Claude 和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">机器支付（machine payments）</strong>策划生日派对</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(32:15) Quick recap</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(32:15) 快速回顾</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(35:08) The future of ephemeral, API-first businesses for agents</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(35:08) 面向代理的临时性、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">API 优先型业务（API-first businesses）</strong>的未来</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(36:36) Lightning round and final thoughts</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">(36:36) 快问快答与总结思考</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><h3 style="margin:0;">Tools referenced:</h3></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><h3 style="margin:0;">提及的工具：</h3></p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• Goose (AI agent harness): https://github.com/block/goose</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Goose</strong>（AI 代理工具框架）：https://github.com/block/goose</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• Claude Code: https://claude.ai/code</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong>：https://claude.ai/code</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• Cursor: https://cursor.sh/</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cursor</strong>：https://cursor.sh/</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• VS Code: https://code.visualstudio.com/</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">VS Code</strong>：https://code.visualstudio.com/</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• Slack: https://slack.com/</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong>：https://slack.com/</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• Browserbase: https://browserbase.com/</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Browserbase</strong>：https://browserbase.com/</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• Parallel AI: https://www.parallel.ai/</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Parallel AI</strong>：https://www.parallel.ai/</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• PostalForm: https://postalform.com/</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">PostalForm</strong>：https://postalform.com/</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• Stripe Climate: https://stripe.com/climate</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stripe Climate</strong>：https://stripe.com/climate</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><h3 style="margin:0;">Other references:</h3></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><h3 style="margin:0;">其他参考资料：</h3></p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• Stripe machine payments: https://docs.stripe.com/payments/machine</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• Stripe <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">机器支付（machine payments）</strong>：https://docs.stripe.com/payments/machine</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• Blue-Green Deployment: https://martinfowler.com/bliki/BlueGreenDeployment.html</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">蓝绿部署（Blue-Green Deployment）</strong>：https://martinfowler.com/bliki/BlueGreenDeployment.html</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">• Git worktrees: https://git-scm.com/docs/git-worktree</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Git 工作树（Git worktrees）</strong>：https://git-scm.com/docs/git-worktree</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><h3 style="margin:0;">Where to find Steve Kaliski:</h3></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><h3 style="margin:0;">如何找到 Steve Kaliski：</h3></p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Twitter: https://twitter.com/stevekaliski</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Twitter：https://twitter.com/stevekaliski</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">LinkedIn: https://www.linkedin.com/in/steve-kaliski-079a7710/</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">LinkedIn：https://www.linkedin.com/in/steve-kaliski-079a7710/</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><h3 style="margin:0;">Where to find Claire Vo:</h3></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><h3 style="margin:0;">如何找到 Claire Vo：</h3></p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">ChatPRD: https://www.chatprd.ai/</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatPRD</strong>：https://www.chatprd.ai/</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Website: https://clairevo.com/</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">网站：https://clairevo.com/</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">LinkedIn: https://www.linkedin.com/in/clairevo/</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">LinkedIn：https://www.linkedin.com/in/clairevo/</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">X: https://x.com/clairevo</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">X：https://x.com/clairevo</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Production and marketing by https://penname.co/. For inquiries about sponsoring the podcast, email jordan@penname.co.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">制作与营销由 https://penname.co/ 提供。有关赞助播客的咨询，请发送邮件至 jordan@penname.co。</p></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Tags: computer-science, ai, explorables, generative-ai, llms, sam-rose, qwen
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">计算机科学（computer-science）</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">人工智能（ai）</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">可探索性内容（explorables）</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">生成式 AI（generative-ai）</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">大语言模型（llms）</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Sam Rose（sam-rose）</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">通义千问（qwen）</strong>
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://www.lennysnewsletter.com/p/how-stripe-built-minionsai-coding" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
 
 <div class="article-card">
       <div class="source">Latent Space</div>
       <div class="title-row">
-        <div class="title">苹果向AI低质应用宣战</div>
-        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
+        <div class="title">Claude史上最重磅发布</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">[AINews] Apple&#x27;s War on Slop</div>
-      <div class="tags"><span class="tag">AI编程</span><span class="tag">应用商店</span><span class="tag">平台监管</span></div>
-      <div class="summary">AI编程工具掀起的&quot;vibe coding&quot;浪潮正冲击苹果等传统应用商店的审查机制与商业模式，迫使软件分发范式向开放网络转移；与此同时，LiteLLM供应链攻击事件与Anthropic智能体架构的突破，折射出AI基础设施在安全性与工程化层面的深层变革。</div>
+      <div class="title-en">[AINews] The Biggest Claude Launch of All Time</div>
+      <div class="tags"><span class="tag">Claude</span><span class="tag">Computer Use</span><span class="tag">产品发布</span></div>
+      <div class="summary">Claude最新发布的Cowork Dispatch Computer Use功能（基于Vercept收购技术）引发市场空前反响，社交媒体热度创下该AI助手及Anthropic有史以来最高纪录。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Even as the debate rages on about AI killing all SaaS, the ability to vibecode apps and hopefully buy a ticket to a &gt;$100M exit as an 18 year old high school dropout means that ~everyone with any entrepreneurial spirit is going to at least try it, and traditional app store review processes will die.</div><div class="quote-zh">尽管关于AI将杀死所有SaaS的争论仍在激烈进行，但能够用VibeCoding开发应用，并有望以18岁高中辍学生的身份买到一张通往1亿美元退出的门票，这意味着几乎所有有创业精神的人都会至少尝试一下，而传统的应用商店审核流程将走向死亡。</div></div>
-<div class="quote-block"><div class="quote-en">We declared the War on Slop a key theme for 2026 in Jan, and now this is one of the most important charts in the world for thinking through it&#x27;s ramifications on the decades-long supremacy of the Apple App Store as well as other similar software distribution platforms vs the open web.</div><div class="quote-zh">我们在今年一月曾宣称&#x27;反垃圾之战&#x27;是2026年的关键主题，而现在，这是世界上最重要的图表之一，用于思考它对苹果应用商店数十年霸权以及其他类似软件分发平台与开放网络对抗的深远影响。</div></div>
+<div class="quote-block"><div class="quote-en">It is considered uncouth in the news business to reflect on things that happened a few days ago — that is “olds”, not “news”.</div><div class="quote-zh">在新闻业，回顾几天前发生的事情被认为是有失体统的——那是“旧闻”，不是“新闻”。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">[AINews] Apple's War on Slop</h3>
+      <div class="translation"><h3 style="margin:24px 0 12px;">[AINews] The Biggest Claude Launch of All Time</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">There were few bright spots today, as <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft AI</strong> exec hired <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AI2</strong> leadership, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Sora</strong> became the first casualty of the Side Quest massacre (probably Atlas too), and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LiteLLM</strong> suffered/created a huge supply chain vulnerability for ~all Python AI projects.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">今天几乎没有什么好消息，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft AI</strong> 高管挖走了 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AI2</strong> 的领导层，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Sora</strong> 成为"支线项目大屠杀"（Side Quest massacre）的第一个牺牲品（可能还包括 Atlas），而 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LiteLLM</strong> 遭遇/制造了一个针对几乎所有 Python AI 项目的巨大<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">供应链安全漏洞</strong>（supply chain vulnerability）。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+It is considered uncouth in the news business to reflect on things that happened a few days ago — that is "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">olds</strong>", not "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">news</strong>". But we're making a very conscious attempt to give you early and repeated signal on trends and not just headlines with <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AINews</strong>. To wit, although we already reported on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Cowork Dispatch</strong>, and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Cowork Dispatch Computer Use</strong> (a result of last month's <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Vercept</strong> acquisition) was technically launched yesterday, the reception has been <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FAR and away</strong> Claude's biggest launch of all time (inclusive of <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">@AnthropicAI</strong>):
+</div>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">All will fade in due time, so do not deserve title story, but today we highlight this chart which tells an ongoing story that ALL traditional app stores like <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple</strong> and AI-native app stores like Dreamer face:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">所有这些事件终将随时间消逝，因此不值得作为标题故事，但今天我们重点展示这张图表，它讲述了一个持续进行的故事：无论是像 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple</strong> 这样的传统应用商店，还是像 Dreamer 这样的 AI 原生应用商店，都面临着同样的困境。</p>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+在新闻业，回顾几天前发生的事情被认为是不合时宜的——那是"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">olds</strong>"（旧闻），而非"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">news</strong>"（新闻）。但我们正有意识地尝试通过<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AINews</strong>为您提供关于趋势的早期且持续的信号，而不仅仅是头条新闻。也就是说，尽管我们已经报道过<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Cowork Dispatch</strong>（Claude协作调度），且<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Cowork Dispatch Computer Use</strong>（Claude协作调度计算机使用功能，源自上月对<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Vercept</strong>的收购成果）技术上于昨日发布，但其反响<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">远超</strong>Claude有史以来任何一次发布（包括<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">@AnthropicAI</strong>账号在内）：
+</p>
 
-<img src="https://substackcdn.com/image/fetch/$s_!QXAa!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72bc7ca8-9c2b-4fc8-a615-0d3210287f22_1190x1682.png" alt="App Store Chart" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+<img src="https://substackcdn.com/image/fetch/$s_!yFgk!,w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6f346c8a-0223-4e5f-adc4-7b5c190beadf_1521x846.png" alt="Chart showing Claude launch reception" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Even as the debate rages on about AI killing all SaaS, the ability to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vibe code</strong> apps and hopefully buy a ticket to a >$100M exit as an 18 year old high school dropout means that ~everyone with any entrepreneurial spirit is going to at least try it, and traditional app store review processes will die. This comes even as <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple</strong> starts blocking vibe code apps like <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Replit</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Vibecode</strong> on policy reasons, and, even though there were legitimately defensible issues, it is clear that the normal app distribution paradigms are completely breaking down in 2026. We declared the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">War on Slop</strong> a key theme for 2026 in Jan, and now this is one of the most important charts in the world for thinking through it's ramifications on the decades-long supremacy of the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple App Store</strong> as well as other similar software distribution platforms vs the open web.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">尽管关于 AI 将杀死所有 SaaS 的争论仍在激烈进行，但<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">氛围编程</strong>（vibe code，指通过自然语言描述让 AI 生成代码）开发应用的能力，以及作为 18 岁高中辍学生有望获得超 1 亿美元退出的机会，意味着几乎所有具有创业精神的人都将至少尝试一次，而传统的应用商店审核流程将走向消亡。与此同时，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple</strong> 开始以政策原因封禁 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Replit</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Vibecode</strong> 等氛围编程应用，尽管确实存在可辩护的合理问题，但显然传统的应用分发范式在 2026 年正在彻底崩塌。我们在 1 月份宣布<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">"垃圾内容之战"</strong>（War on Slop）是 2026 年的关键主题，而这张图现在是世界上最重要的图表之一，有助于思考它对 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple App Store</strong> 数十年霸主地位以及其他类似软件分发平台相对于开放网络的影响。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+We created this chart by accumulating all the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">top tweets</strong> of the company accounts:
+</div>
 
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-AI News for 3/23/2026-3/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!
-</blockquote>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">2026年3月23日至24日的 AI 新闻。我们查看了 12 个子版块、544 个 Twitter 账号，没有进一步的 Discord 频道。AINews 网站可让您搜索所有往期内容。提醒一下，AINews 现已成为 Latent Space 的一个栏目。您可以选择加入/退出邮件频率！</p>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+我们通过汇总该公司旗下各账号的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">置顶推文</strong>（top tweets）创建了这一图表：
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">AI News for 3/23/2026-3/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">2026年3月23日至24日的 AI 新闻。我们查看了 12 个子版块、544 个 Twitter 账号，没有进一步的 Discord 频道。AINews 网站可让您搜索所有往期内容。提醒一下，AINews 现已成为 Latent Space 的一个栏目。您可以选择加入/退出邮件频率！</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Read more
+</div>
 
-<h3 style="margin:24px 0 12px;">AI Twitter Recap</h3>
-
-<h4 style="margin:20px 0 10px;">Agent Infrastructure, Computer Use, and Design-to-Action Tooling</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>'s agent harness and "computer use" shift the product surface: A recurring theme today was that agent capability is increasingly about the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">harness</strong>, not just the base model. Anthropic published a new engineering writeup on how it uses a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">multi-agent harness</strong> for frontend design and long-running software tasks, emphasizing orchestration over one-shot prompting (AnthropicAI). Multiple developers independently argued that "computer use" matters because it lets models act in messy software environments with no reliable APIs (glennko), though others noted this is still slow and likely transitional until more tools expose APIs/CLI surfaces (Yuchenj_UW). The broader operational takeaway was captured well by kerrsee: retries, rollbacks, webhooks, structured logging, and recovery paths remain the unglamorous bottlenecks in production agent deployment.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 的智能体调度框架（agent harness）和"计算机使用"（computer use）能力正在改变产品形态：今天反复出现的一个主题是，智能体的能力越来越取决于<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">调度框架</strong>（harness），而不仅仅是基础模型。Anthropic 发布了一篇新的工程文章，介绍其如何使用<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">多智能体调度框架</strong>进行前端设计和长时间运行的软件任务，强调编排（orchestration）而非一次性提示（one-shot prompting）。多位开发者独立指出，"计算机使用"很重要，因为它让模型能够在没有可靠 API 的混乱软件环境中运行，尽管也有人指出这仍然很慢，可能只是过渡方案，直到更多工具暴露 API/CLI 接口。kerrsee 很好地总结了更广泛的运营启示：重试、回滚、Webhook、结构化日志记录和恢复路径仍然是生产环境中智能体部署的"不 glamorous 的瓶颈"。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Figma</strong>/<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MCP</strong>/<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cursor</strong> make design canvases directly agent-editable: The strongest concrete workflow launch was <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Figma</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MCP server</strong> and direct AI editing on the canvas, now in open beta (figma). <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub</strong> highlighted that this works through Copilot CLI and other clients via MCP (github), and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cursor</strong> immediately extended the pattern to generating components/frontends in Figma using a team's design system (cursor_ai). This is one of the clearest examples of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tool-calling becoming product-native</strong> rather than chat-wrapper-native. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LangChain</strong> also pushed in the same direction with framework-native tool rendering and Slack-native Fleet workflows, including custom Slack bots and an Inbox for human approvals (LangChain_JS, LangChain, hwchase17).</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Figma</strong>/<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MCP</strong>/<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cursor</strong> 让设计画布可直接被智能体编辑：最具体的工作流发布是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Figma</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MCP 服务器</strong>（Model Context Protocol，模型上下文协议）及其画布上的直接 AI 编辑功能，现已开放测试。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub</strong> 强调这通过 Copilot CLI 和其他 MCP 客户端工作，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cursor</strong> 立即扩展了这一模式，用于使用团队设计系统在 Figma 中生成组件/前端。这是<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">工具调用成为产品原生功能</strong>而非聊天包装器原生功能的最清晰例子之一。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LangChain</strong> 也朝着同一方向推进，推出框架原生工具渲染和 Slack 原生 Fleet 工作流，包括自定义 Slack 机器人和用于人工审批的收件箱。</p>
-
-<h4 style="margin:20px 0 10px;">Open Agent Platforms, Benchmarks, and RL Environment Stacks</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hermes Agent v0.4.0</strong> is becoming a full personal-agent runtime: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Nous</strong> released a substantial <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hermes Agent v0.4.0</strong> update with roughly <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">300 merged PRs</strong> in a week, adding an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenAI-compatible Responses API</strong> backend, background self-improvement loops, broader messaging integrations, improved context compression, and more CLI ergonomics (Teknium, Teknium, NousResearch). The most technically interesting feature is the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">post-response review agent</strong> that decides what to retain as reusable memory/skills (Teknium). Community reactions focused less on benchmark claims and more on operational value: exposing a personal coding/ops agent behind a standard API makes it usable from Open WebUI, LobeChat, or any OpenAI-compatible client (witcheer).</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hermes Agent v0.4.0</strong> 正成为完整的个人智能体运行时：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Nous</strong> 发布了重要的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hermes Agent v0.4.0</strong> 更新，一周内合并了约 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">300 个 PR</strong>，增加了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenAI 兼容的 Responses API</strong> 后端、后台自我改进循环、更广泛的消息集成、改进的上下文压缩和更好的 CLI 人机工程学。技术上最有趣的特性是<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">响应后审查智能体</strong>（post-response review agent），它决定保留哪些内容作为可复用的记忆/技能。社区反应较少关注基准测试声明，更多关注运营价值：将个人编码/运维智能体暴露在标准 API 后，使其可用于 Open WebUI、LobeChat 或任何 OpenAI 兼容客户端。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Open agent ecosystems are converging around environments, skills, and reproducible evals: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AI2</strong> released <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MolmoWeb</strong>, an open-source browser agent built on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Molmo 2</strong> in 4B and 8B sizes, claiming open-weight SOTA across four web-agent benchmarks and even surpassing some proprietary agents (allen_ai). In parallel, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GenReasoning</strong> launched <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenReward</strong>, a platform exposing 330+ RL environments, autoscaled environment compute, and 4.5M+ unique RL tasks through one API—explicitly targeting the often-missing "environment compute" layer of agentic RL (GenReasoning, rosstaylor90). <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Zhipu</strong> contributed <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ZClawBench</strong>, a benchmark with 116 real-world agent tasks spanning office automation, coding, and analysis (HuggingPapers). Together, these point to a stack maturing from "agent demos" toward <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">standardized environment serving + benchmarkable task suites + reusable harnesses</strong>.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">开放智能体生态系统正围绕环境、技能和可复现评估收敛：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AI2</strong> 发布了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MolmoWeb</strong>，一个基于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Molmo 2</strong>（4B 和 8B 参数）的开源浏览器智能体，声称在四个网页智能体基准测试中达到开源权重 SOTA，甚至超越了一些专有智能体。与此同时，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GenReasoning</strong> 推出了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenReward</strong> 平台，通过单一 API 暴露 330+ 个 RL 环境、自动扩展的环境计算和 450 万+ 独特 RL 任务——明确针对智能体 RL 中常常缺失的"环境计算"层。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">智谱（Zhipu）</strong>贡献了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ZClawBench</strong> 基准测试，包含 116 个真实世界智能体任务，涵盖办公自动化、编码和分析。这些共同表明，技术栈正从"智能体演示"成熟为<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">标准化环境服务 + 可基准测试任务套件 + 可复用调度框架</strong>。</p>
-
-<h4 style="margin:20px 0 10px;">Inference, Storage, and Systems Optimizations</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vLLM</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Transformers</strong> both reported material inference/runtime gains: vLLM's GTC recap highlighted several systems upgrades: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Model Runner V2</strong> with GPU-native Triton kernels, a hybrid memory allocator, encoder prefill disaggregation with up to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">2.5x P99 throughput</strong> gains for multimodal workloads, and modular MoE kernels (vllm_project, vllm_project). Separately, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hugging Face</strong>/Transformers-side optimization work claimed continuous batching plus <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">torch.compile</strong> tuning now reaches <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">95% of vLLM throughput</strong> for 8K generation, effectively closing the previous gap for synthetic data generation workloads (remi_or_).</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vLLM</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Transformers</strong> 都报告了实质性的推理/运行时性能提升：vLLM 的 GTC 回顾强调了多项系统升级：支持 GPU 原生 Triton 内核的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Model Runner V2</strong>、混合内存分配器、编码器预填充解聚（可实现多模态工作负载高达 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">2.5 倍 P99 吞吐</strong>提升）以及模块化 MoE 内核。另一方面，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hugging Face</strong>/Transformers 端的优化工作声称，连续批处理加上 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">torch.compile</strong> 调优现在可达到 vLLM 在 8K 生成场景下 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">95% 的吞吐</strong>，有效缩小了之前合成数据生成工作负载的性能差距。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hf-mount</strong> is a notable agent/data primitive: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hugging Face</strong> released <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hf-mount</strong>, which lets users mount Hub datasets, models, and storage buckets as a local filesystem, including examples with a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">5TB FineWeb slice</strong> (julien_c, ClementDelangue). This matters beyond convenience: several engineers pointed out that agents are unusually good at filesystem operations, making mounted remote storage a natural substrate for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agent memory</strong>, scratchpads, team artifact storage, and lazy access to large corpora (Vtrivedy10, victormustar). This is one of the more practical infrastructure launches of the day because it reduces the friction between local tooling and cloud-scale data.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hf-mount</strong> 是一个值得注意的智能体/数据原语：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hugging Face</strong> 发布了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hf-mount</strong>，允许用户将 Hub 数据集、模型和存储桶挂载为本地文件系统，包括挂载 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">5TB FineWeb 切片</strong>的示例。这不仅仅是方便：多位工程师指出，智能体特别擅长文件系统操作，使挂载的远程存储成为<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">智能体记忆</strong>、草稿本、团队工件存储和延迟访问大型语料库的自然基础。这是当天更实用的基础设施发布之一，因为它减少了本地工具与云规模数据之间的摩擦。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Moreau</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">TurboQuant</strong> show optimization pressure moving below the model layer: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Optimal Intellect</strong> introduced <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Moreau</strong>, a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPU-native solver</strong> from the CVXPY team claiming orders-of-magnitude speedups over existing tools (opt_intellect). <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google Research</strong> announced <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">TurboQuant</strong>, a KV-cache compression algorithm reporting at least <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">6x memory reduction</strong> and up to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">8x speedup</strong> with no accuracy loss (GoogleResearch). The common pattern: high-value gains are increasingly coming from runtime, memory, and systems layers, not just from larger model checkpoints.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Moreau</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">TurboQuant</strong> 表明优化压力正转移到模型层之下：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Optimal Intellect</strong> 推出了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Moreau</strong>，这是一个来自 CVXPY 团队的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPU 原生求解器</strong>，声称比现有工具快数个数量级。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google Research</strong> 宣布了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">TurboQuant</strong>，一种 KV 缓存压缩算法，报告至少 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">6 倍内存减少</strong>和高达 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">8 倍加速</strong>且没有精度损失。共同模式是：高价值收益越来越来自运行时、内存和系统层，而不仅仅来自更大的模型检查点。</p>
-
-<h4 style="margin:20px 0 10px;">Security, Supply Chain Risk, and Guardrails for Agentic Software</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LiteLLM</strong> PyPI compromise dominated infra/security discussion: Multiple posts warned that <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LiteLLM 1.82.8</strong> on PyPI had been compromised, with malicious payloads attempting to exfiltrate credentials and replicate across environments (hnykda). simonw noted the package was later quarantined on PyPI, but the incident quickly became a broader conversation about software supply-chain fragility. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">karpathy</strong> gave the most detailed summary, listing possible exfiltration targets including cloud creds, SSH keys, Kubernetes configs, CI/CD secrets, wallets, and shell history, while noting transitive risk to packages like <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DSPy</strong>. The most important systems-level implication came from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">DrJimFan</strong>: in an agentic world, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">the entire filesystem becomes part of the attack surface</strong>, since any file likely to enter context can become a vector.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LiteLLM</strong> 的 PyPI 供应链攻击主导了基础设施/安全讨论：多篇文章警告 PyPI 上的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LiteLLM 1.82.8</strong> 已被入侵，恶意载荷试图窃取凭证并在环境中复制。simonw 指出该包后来在 PyPI 上被隔离，但这一事件迅速演变为关于软件供应链脆弱性的更广泛讨论。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">karpathy</strong> 给出了最详细的总结，列出了可能的窃取目标，包括云凭证、SSH 密钥、Kubernetes 配置、CI/CD 密钥、钱包和 shell 历史记录，同时指出对 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DSPy</strong> 等包的传递性风险。最重要的系统级启示来自 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">DrJimFan</strong>：在智能体世界中，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">整个文件系统都成为攻击面的一部分</strong>，因为任何可能进入上下文的文件都可能成为攻击向量。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">"De-vibing" and permissioning are becoming first-class product requirements: Several posts effectively converged on a new design principle: autonomous coding tools need <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">stronger shells</strong>, better permission defaults, and fewer broad dependencies. Yuchen called the incident "nightmare fuel" for <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">--dangerously-skip-permissions</code> style workflows (Yuchenj_UW); <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>'s new <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code auto mode</strong> became controversial for exactly this reason, despite enthusiasm over the productivity jump (alexalbert__, kimmonismus). The practical response from many builders was a renewed preference for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">minimal bespoke routing</strong>, tighter audited deps, and stronger human approval loops.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">"去氛围化"（De-vibing）和权限管理正成为一级产品需求：多篇帖子有效地汇聚到一个新的设计原则：自主编码工具需要<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">更强的 shell 隔离</strong>、更好的权限默认值和更少的广泛依赖。Yuchen 称这一事件是 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">--dangerously-skip-permissions</code> 风格工作流的"噩梦燃料"；<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 的新 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code 自动模式</strong>正因此引发争议，尽管人们对生产力提升充满热情。许多开发者的实际回应是重新偏好<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">最小化定制路由</strong>、更严格的审计依赖和更强的人工审批循环。</p>
-
-<h4 style="margin:20px 0 10px;">Labs, Org Moves, and Product Strategy Shifts</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AI2</strong> loses leadership to <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong>; <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft AI</strong> continues talent concentration: The clearest org move was the reaction to <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong> poaching part of the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AI2</strong> leadership team, including mentions of <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ali Farhadi</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hanna Hajishirzi</strong>, and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ranjay Krishna</strong> joining <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft Superintelligence</strong> (eliebakouch, NandoDF). The subtext in technical circles was concern over whether open research institutions can continue competing with hyperscalers for top talent and frontier-scale work (stanfordnlp).</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AI2</strong> 领导层流失至 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong>；<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft AI</strong> 继续人才集中：最明显的组织变动是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong> 挖走 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AI2</strong> 领导团队部分成员的反应，包括 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ali Farhadi</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hanna Hajishirzi</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ranjay Krishna</strong> 加入 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft Superintelligence</strong>（微软超级智能部门）。技术圈的潜台词是担忧开放研究机构是否还能继续与超大规模云服务商（hyperscalers）竞争顶尖人才和前沿规模的工作。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> is reallocating resources hard: $1B Foundation spend, Sora wind-down, "Spud" coming: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> announced its Foundation will spend at least <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">$1B</strong> over the next year, with <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Wojciech Zaremba</strong> moving to lead <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI resilience</strong> and additional hires across disease, civil society, and operations (sama, woj_zaremba, btaylor). At the same time, reports circulated that OpenAI had finished initial development of its next major LLM, codenamed <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">"Spud,"</strong> and was winding down Sora's app/product footprint to free compute (steph_palazzolo, kimmonismus). For engineers, the signal is straightforward: OpenAI appears to be <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">narrowing product focus around core general models/infrastructure</strong>, even at the cost of cutting side products.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 正在大力重新分配资源：10 亿美元基金会支出、Sora 关停、"Spud" 即将推出：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 宣布其基金会将在明年至少投入 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">10 亿美元</strong>，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Wojciech Zaremba</strong> 将转岗领导 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 韧性</strong>（AI resilience）团队，并在疾病、公民社会和运营领域增加招聘。与此同时，有报道称 OpenAI 已完成其下一个主要 LLM 的初步开发，代号 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">"Spud"</strong>，并正在缩减 Sora 的应用/产品规模以释放计算资源。对工程师而言，信号很明确：OpenAI 似乎正在<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">将产品重点缩小到核心通用模型/基础设施</strong>，即使以削减副业产品为代价。</p>
-
-<h4 style="margin:20px 0 10px;">Top tweets (by engagement)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">- <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LiteLLM</strong> supply-chain compromise: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">karpathy</strong> gave the most technically complete and highest-signal breakdown of the PyPI attack and its blast radius.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">- <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LiteLLM</strong> 供应链入侵：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">karpathy</strong> 对 PyPI 攻击及其影响范围给出了技术上最完整、信噪比最高的分析。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">- <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>'s harness engineering post: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AnthropicAI</strong> was one of the day's most important engineering reads on how frontier labs are actually structuring long-running agent workflows.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">- <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 的调度框架工程文章：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AnthropicAI</strong> 是当天最重要的工程阅读材料之一，讲述前沿实验室如何实际构建长时间运行的智能体工作流。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">- <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Figma</strong> MCP launch: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">figma</strong> and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">github</strong> showed perhaps the cleanest mainstream example yet of agents acting directly on a production design surface.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">- <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Figma</strong> MCP 发布：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">figma</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">github</strong> 展示了智能体直接作用于生产设计界面的最简洁主流示例。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">- <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> Foundation $1B commitment: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">sama</strong> and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">woj_zaremba</strong> marked a major organizational and safety/resilience shift.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">- <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 基金会 10 亿美元承诺：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">sama</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">woj_zaremba</strong> 标志着重大的组织和安全/韧性转变。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">- <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hermes Agent v0.4.0</strong>: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Teknium/NousResearch</strong> stood out as one of the biggest open-agent runtime releases of the day.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">- <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hermes Agent v0.4.0</strong>：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Teknium/NousResearch</strong> 是当天最重大的开放智能体运行时发布之一。</p>
-
-<h3 style="margin:24px 0 12px;">AI Reddit Recap</h3>
-
-<h4 style="margin:20px 0 10px;">/r/LocalLlama + /r/localLLM Recap</h4>
-
-<h4 style="margin:20px 0 10px;">1. Security and Malware Concerns in AI Tools</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LM Studio</strong> may possibly be infected with sophisticated malware. (Activity: 1822): The image in the Reddit post shows a Windows Security alert indicating that a severe threat, identified as "Trojan:JS/GlassWorm.ZZ!MTB," was quarantined from the LM Studio directory. This raised concerns about a potential malware infection in LM Studio. However, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LM Studio</strong> and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong> have since confirmed that this was a false positive, likely due to Defender's heuristic definitions conflicting with LM Studio's obfuscated Electron bundle. The community discussion highlights the importance of security audits and the potential risks of obfuscation techniques that resemble malware patterns. Despite the false alarm, users are advised to take precautionary measures to secure their data.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LM Studio</strong> 可能感染了复杂的恶意软件。（活跃度：1822）：Reddit 帖子中的图片显示 Windows 安全警报，指出从 LM Studio 目录中隔离了一个名为"Trojan:JS/GlassWorm.ZZ!MTB"的严重威胁。这引发了对 LM Studio 潜在恶意软件感染的担忧。然而，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LM Studio</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong> 此后确认这是误报，可能是由于 Defender 的启发式定义与 LM Studio 混淆的 Electron 包冲突所致。社区讨论强调了安全审计的重要性以及类似恶意软件模式的混淆技术的潜在风险。尽管是虚惊一场，仍建议用户采取预防措施保护数据。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Yags from LM Studio confirmed that the malware alert was a false positive, verified by Microsoft, and no longer appears in VirusTotal. Despite this, LM Studio is auditing their build machine scripts and environments to prevent any genuine security incidents in the future.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">来自 LM Studio 的 Yags 确认恶意软件警报是误报，已得到 Microsoft 验证，且不再出现在 VirusTotal 中。尽管如此，LM Studio 正在审计其构建机器脚本和环境，以防止未来发生真正的安全事件。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Denoflore_ai_guy provided a detailed analysis suggesting the malware alert was likely a false positive due to Defender's heuristic updates conflicting with LM Studio's obfuscated Electron bundle. However, they noted that LM Studio's code obfuscation for IP protection could resemble malware techniques, which complicates detection.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Denoflore_ai_guy 提供了详细分析，指出由于 Defender 的启发式更新与 LM Studio 混淆的 Electron 包冲突，恶意软件警报很可能是误报。然而，他们指出 LM Studio 用于 IP 保护的代码混淆可能类似于恶意软件技术，这使检测变得复杂。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Denoflore_ai_guy also outlined steps to mitigate potential risks if GlassWorm malware was indeed present, including changing passwords, moving crypto funds, and checking for malicious Chrome extensions. They emphasized the importance of a clean OS install and credential rotation to ensure security.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Denoflore_ai_guy 还概述了如果确实存在 GlassWorm 恶意软件时的缓解措施，包括更改密码、转移加密资金和检查恶意 Chrome 扩展。他们强调了干净的操作系统安装和凭证轮换对确保安全的重要性。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">[Developing situation] <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LiteLLM compromised</strong> (Activity: 380): The <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LiteLLM</strong> library has been compromised, as detailed in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GitHub issue #24512</strong>. The attack exploits a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">.pth file</strong> vulnerability, which executes code on interpreter startup without requiring imports, making it difficult to detect through standard code reviews. Users of version <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">1.82.8</strong> are advised to rotate credentials immediately if used in production environments, as the compromise could expose sensitive information.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">[事态发展中] <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LiteLLM 被入侵</strong>（活跃度：380）：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LiteLLM</strong> 库已被入侵，详见 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GitHub issue #24512</strong>。该攻击利用了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">.pth 文件</strong>漏洞，可在解释器启动时执行代码而无需导入，这使得通过标准代码审查难以检测。如果使用版本 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">1.82.8</strong> 且用于生产环境，建议用户立即轮换凭证，因为入侵可能暴露敏感信息。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">.pth file</strong> trick is highlighted as a significant security vulnerability. This method allows code execution on interpreter startup without needing imports, making it nearly invisible to standard code reviews. Users who ran LiteLLM versions 1.82.8 or 1.82.7 are advised to rotate credentials immediately due to potential exposure.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">.pth 文件</strong>技巧被强调为重大安全漏洞。这种方法允许在解释器启动时执行代码而无需导入，使其对标准代码审查几乎不可见。建议运行 LiteLLM 版本 1.82.8 或 1.82.7 的用户因潜在暴露风险立即轮换凭证。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Aider</strong>, a tool that uses LiteLLM for LLM access, is reportedly safe as it operates on an older version (1.82.3) of LiteLLM, which is not compromised. The compromised versions are identified as 1.82.8 and 1.82.7, emphasizing the importance of version control and monitoring for security vulnerabilities.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">据报道，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Aider</strong>（一个使用 LiteLLM 进行 LLM 访问的工具）是安全的，因为它运行的是 LiteLLM 的旧版本（1.82.3），该版本未被入侵。被入侵的版本确认为 1.82.8 和 1.82.7，这强调了版本控制和对安全漏洞监控的重要性。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The discussion touches on the use of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Docker containers</strong> for security isolation. While typically not considered a security measure, in this case, Docker effectively isolated host secrets, demonstrating its potential utility in mitigating certain types of security breaches.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">讨论涉及使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Docker 容器</strong>进行安全隔离。虽然通常不被视为安全措施，但在这种情况下，Docker 有效隔离了主机密钥，展示了其在缓解某些类型安全漏洞方面的潜在效用。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Litellm 1.82.7 and 1.82.8 on PyPI are compromised, do not update!</strong> (Activity: 441): Litellm versions <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">1.82.7</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">1.82.8</strong> on PyPI have been compromised, as confirmed by a blog post. The attack appears to be a supply chain compromise, potentially affecting thousands of users. The malicious versions were uploaded to PyPI, posing a significant risk to CI/CD pipelines that automatically update dependencies. The attack was executed through the GitHub account of the LiteLLM CEO, which was hacked, as evidenced by unauthorized commits and repository updates claiming 'teampcp owns BerriAI'.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyPI 上的 Litellm 1.82.7 和 1.82.8 已被入侵，请勿更新！</strong>（活跃度：441）：已确认 PyPI 上的 Litellm 版本 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">1.82.7</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">1.82.8</strong> 已被入侵。这次攻击似乎是供应链入侵，可能影响数千用户。恶意版本被上传到 PyPI，对自动更新依赖的 CI/CD 管道构成重大风险。攻击是通过 LiteLLM CEO 的 GitHub 账户执行的，该账户被黑客入侵，证据是未经授权的提交和声称"teampcp 拥有 BerriAI"的仓库更新。</p></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+阅读更多
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://www.latent.space/p/ainews-apples-war-on-slop" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://www.latent.space/p/ainews-the-biggest-claude-launch" target="_blank">阅读原文 &rarr;</a>
     </div>
 
 <div class="article-card">
       <div class="source">TLDR AI</div>
       <div class="title-row">
-        <div class="title">Claude自动模式、ChatGPT产品发现与长期运行开发架构</div>
+        <div class="title">谷歌Turboquant、ARC-AGI-3与Manus创始人被拘留</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">Claude Auto Mode 🤖, ChatGPT product discovery 🛒, long running harnesses 👨‍💻</div>
-      <div class="tags"><span class="tag">AI智能体</span><span class="tag">Claude</span><span class="tag">代码生成</span></div>
-      <div class="summary">本文介绍了Claude 4.6的重大更新（包括百万token上下文和四种自动化工作模式）、Anthropic针对长时应用开发的多智能体架构设计，以及AI代理时代将终结应用商店垄断、转向开放API生态的趋势。</div>
+      <div class="title-en">Google Turboquant ⚡, ARC-AGI-3 🧩, Manus founders detained 👮🏼</div>
+      <div class="tags"><span class="tag">SaaS定价</span><span class="tag">AI商业化</span><span class="tag">定价策略</span></div>
+      <div class="summary">文章指出SaaS定价模式正从传统的按座位收费转向基于API调用、token消耗或实际成效的用量定价，并推荐了Metronome发布的《定价实验手册》，帮助AI企业构建符合产品交付价值的动态定价策略。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">The App Store was a centralized answer to the distribution problem of a new computing platform. The agent era will need a new solution as agents need APIs, not app stores.</div><div class="quote-zh">应用商店曾是对新计算平台分发问题的集中式解答，而智能体时代需要新的解决方案——因为智能体需要的是API，而非应用商店。</div></div>
-<div class="quote-block"><div class="quote-en">Semantic calibration appears to emerge as a byproduct of next-token prediction.</div><div class="quote-zh">语义校准似乎作为「下一个token预测」的副产品而出现。</div></div>
+<div class="quote-block"><div class="quote-en">Charging per seat in SaaS once made sense, but not now, when your product charges per token, per API call, or per resolved ticket.</div><div class="quote-zh">SaaS按席位收费曾经合理，但现在当你的产品按token、API调用或解决的工单数计费时，就不再适用了。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">TLDR AI 2026-03-25</h3>
-
-<h3 style="margin:24px 0 12px;">Claude Auto Mode 🤖, ChatGPT product discovery 🛒, long running harnesses 👨‍💻</h3>
-
-<h4 style="margin:24px 0 12px;">Crusoe BYOM: 5x Higher Throughput for Custom Models (Sponsor)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">You've built the perfect fine-tuned model. Now scale it without compromise. Generic cloud infrastructure wasn't designed for proprietary architectures, leading to performance bottlenecks. Crusoe's Bring Your Own Model (<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">BYOM</strong>) changes that. Powered by <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">MemoryAlloy™</strong> technology, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Crusoe</strong> optimizes its inference engine specifically for your unique weights.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">您已经构建了完美的微调模型。现在无需妥协即可扩展它。通用云基础设施并非为专有架构设计，导致性能瓶颈。Crusoe 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">BYOM（Bring Your Own Model，自带模型）</strong> 改变了这一点。借助 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">MemoryAlloy™</strong> 技术，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Crusoe</strong> 专门针对您独特的权重优化其推理引擎。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The result? 5x higher throughput and breakthrough <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Time-To-First-Token</strong> speed compared to stock <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vLLM</strong>. Maintain total <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">IP</strong> ownership with dedicated capacity and "glass box" visibility. Stop letting infrastructure hold back your AI innovation and start scaling with precision.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">结果是？与原生 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vLLM</strong> 相比，吞吐量提高5倍，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Time-To-First-Token（首Token时间）</strong> 速度实现突破。通过专用容量和"玻璃盒"可见性，保持对 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">IP（知识产权）</strong> 的完全所有权。不要让基础设施阻碍您的 AI 创新，开始精确扩展。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Optimize your workload now</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">立即优化您的工作负载</p>
-
-<h4 style="margin:24px 0 12px;">App Store | Age of Agent (6 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">App Store</strong> was a centralized answer to the distribution problem of a new computing platform. The agent era will need a new solution as agents need <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">APIs</strong>, not app stores. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple</strong> gained its revenue by forcing every in-app transaction through its payment system. The agent era lacks Apple's lock-in mechanics, so if one platform tries to charge high payment fees, users will just switch to a competitor. This suggests the payment layer will be competitive and low-margin rather than monopolistic.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">App Store（应用商店）</strong> 是对新计算平台分发问题的集中式解决方案。随着智能体需要 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">API（应用程序接口）</strong> 而非应用商店，智能体时代将需要新的解决方案。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple（苹果）</strong> 通过强制每笔应用内交易经由其支付系统来获得收入。智能体时代缺乏苹果的锁定机制，因此如果某个平台试图收取高额支付费用，用户只会转向竞争对手。这表明支付层将具有竞争性和低利润特性，而非垄断性。</p>
-
-<h4 style="margin:24px 0 12px;">Harness design for long-running application development (24 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>'s <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Prithvi Rajasekaran</strong> developed a multi-agent architecture to improve AI-driven frontend design and full-stack application coding, addressing issues of coherence and self-evaluation. Inspired by <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GANs</strong>, this approach uses planner, generator, and evaluator agents to produce complex, high-quality outputs by decomposing tasks and utilizing structured handoffs. Despite improvements, challenges remain in context management and evaluator tuning, highlighting the ongoing need for adapting harness designs as AI models advance.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Prithvi Rajasekaran</strong> 开发了一种多智能体架构，用于改进 AI 驱动的前端设计和全栈应用编码，解决一致性和自我评估问题。受 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GANs（生成对抗网络）</strong> 启发，该方法使用规划器、生成器和评估器智能体，通过分解任务和利用结构化交接来产生复杂、高质量的输出。尽管有所改进，但在上下文管理和评估器调优方面仍存在挑战，突显了随着 AI 模型发展而不断调整 harness 设计的持续需求。</p>
-
-<h4 style="margin:24px 0 12px;">Claude 2026: Everything Shipped & How to Use It (15 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">As of March, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude 4.6</strong> features a 1M token context window and four distinct modes: Chat, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cowork</strong>, Code, and Projects. The Cowork suite automates workflows via <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Scheduled Tasks</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Connectors</strong>, while the Code environment utilizes <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">CLAUDE.md</strong> hierarchy, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MCP</strong> protocols, and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agent Teams</strong> for autonomous development. Key upgrades include <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Computer Use</strong> research previews and deterministic <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hooks</strong> for programmable guardrails.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">截至3月，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude 4.6</strong> 具备100万 token 的上下文窗口和四种不同模式：聊天、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cowork（协作）</strong>、代码和项目。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cowork</strong> 套件通过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Scheduled Tasks（定时任务）</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Connectors（连接器）</strong> 实现工作流自动化，而代码环境则利用 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">CLAUDE.md</strong> 层级、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MCP（模型上下文协议）</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agent Teams（智能体团队）</strong> 进行自主开发。关键升级包括 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Computer Use（计算机使用）</strong> 研究预览版，以及用于可编程护栏的确定性 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hooks（钩子）</strong>。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">👨‍💻</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">👨‍💻</p>
-
-<h3 style="margin:24px 0 12px;">Engineering & Research</h3>
-
-<h4 style="margin:24px 0 12px;">Launch fast. Design beautifully. Build your startup on Framer — free for your first year (Sponsor)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Launch fast. Design beautifully. Build your startup on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Framer</strong> — free for your first year</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">快速发布。精美设计。在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Framer</strong> 上构建您的初创公司 — 首年免费</p>
-
-<h4 style="margin:24px 0 12px;">RLVR's Impact on Reasoning Performance (18 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Directional updates in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">RLVR</strong> were shown to better identify reasoning-critical tokens, enabling both test-time extrapolation and training-time reweighting to boost accuracy.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">RLVR（Reinforcement Learning from Verifiable Rewards，基于可验证奖励的强化学习）</strong> 中的定向更新被证明能更好地识别对推理至关重要的 token，从而实现测试时外推和训练时重加权，以提高准确性。</p>
-
-<h4 style="margin:24px 0 12px;">Trained on Tokens, Calibrated on Concepts: The Emergence of Semantic Calibration in LLMs (3 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Semantic calibration</strong> appears to emerge as a byproduct of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">next-token prediction</strong>. Base models are remarkably well-calibrated when using a certain sampling-based notion of semantic calibration. They can meaningfully assess confidence in open-domain question-answering tasks despite not being explicitly trained to do so.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Semantic calibration（语义校准）</strong> 似乎作为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">next-token prediction（下一 token 预测）</strong> 的副产品而出现。当使用基于采样的特定语义校准概念时，基础模型表现出显著的校准性能。尽管没有接受明确训练，它们仍能在开放域问答任务中有意义地评估置信度。</p>
-
-<h4 style="margin:24px 0 12px;">Introducing Ossature: Spec-Driven Code Generation (11 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ossature</strong> is an open-source harness for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">spec-driven</strong> code generation. Developers write specifications describing what their software should do, and Ossature validates them, has an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM</strong> audit them for ambiguities and gaps, produces an editable plan, and then generates code one task at a time. Each task only gets the context it needs. Ossature has verification built into the build loop. If verification fails, a fixer agent gets the error output and tries to repair the code.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ossature</strong> 是一个用于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">spec-driven（规范驱动）</strong> 代码生成的开源 harness。开发者编写描述软件功能的规范，Ossature 对其进行验证，让 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM（大语言模型）</strong> 审计其中的歧义和缺口，生成可编辑的计划，然后逐个任务生成代码。每个任务仅获取其所需的上下文。Ossature 将验证内置于构建循环中。如果验证失败，修复智能体会获取错误输出并尝试修复代码。</p>
-
-<h4 style="margin:24px 0 12px;">Ray Data LLM enables 2x throughput over vLLM's synchronous LLM engine at production-scale (12 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Many of the modern workloads that <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLMs</strong> are increasingly utilized for prioritize <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">throughput</strong> over per-request <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">latency</strong>, which many LLM systems and deployments optimize for today. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ray Data LLM</strong> is a library built for large-scale batch inference for LLMs. It provides scalable execution, high throughput, and fault tolerance. It has a highly optimized architecture for running LLM batch inference. Users can achieve 2x throughput with Ray Data LLM over <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vLLM</strong>'s synchronous LLM engine while benefiting from production-scale resiliency.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">许多现代 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM（大语言模型）</strong> 工作负载越来越优先关注 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">throughput（吞吐量）</strong> 而非每请求的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">latency（延迟）</strong>，而这是当今许多 LLM 系统和部署所优化的方向。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ray Data LLM</strong> 是一个为 LLM 大规模批处理推理构建的库。它提供可扩展的执行、高吞吐量和容错能力。它拥有高度优化的架构来运行 LLM 批处理推理。与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vLLM</strong> 的同步 LLM 引擎相比，用户可以使用 Ray Data LLM 实现2倍的吞吐量，同时受益于生产规模的弹性。</p>
-
-<h4 style="margin:24px 0 12px;">Google's Extreme Vector Compression (5 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">TurboQuant</strong> is a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">quantization</strong> method that reduces vector memory overhead while preserving performance. This improves <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">key-value cache</strong> efficiency and accelerates vector search.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">TurboQuant</strong> 是一种 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">quantization（量化）</strong> 方法，在保持性能的同时减少向量内存开销。这提高了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">key-value cache（键值缓存）</strong> 效率并加速向量搜索。</p>
-
-<h4 style="margin:24px 0 12px;">US Government's Ban on Anthropic Looks Like Punishment, Judge Says (6 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">US District Judge <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rita F. Lin</strong> of the Northern District of California said during a court hearing that the US government appeared to be punishing <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> by banning the company. The hearing is part of Anthropic's efforts to ease the government ban on the use of the company's AI models. Lin has yet to rule on the matter but expressed serious doubts about the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Trump administration</strong>'s actions in her opening remarks. The government's action has already cost Anthropic hundreds of millions of dollars in canceled contracts and aborted customer agreements.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">加利福尼亚北区联邦地区法官 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rita F. Lin</strong> 在法庭听证会上表示，美国政府通过禁止该公司似乎在惩罚 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>。该听证会是 Anthropic 努力缓解政府对其 AI 模型使用禁令的一部分。Lin 尚未对此做出裁决，但在开场陈述中对 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Trump administration（特朗普政府）</strong> 的行为表示了严重怀疑。政府的行为已经使 Anthropic 因合同取消和客户协议中止而损失了数亿美元。</p>
-
-<h4 style="margin:24px 0 12px;">OpenAI raises additional money to bring record funding round to $120 billion, CFO tells Cramer (5 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> has announced a new $10 billion commitment from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">a16z</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">DE Shaw Ventures</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">MGX</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">TPG</strong>, and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">T Rowe Price</strong>. The fresh capital brings OpenAI's record fundraise to over $120 billion. OpenAI has moderated its spending plans and is now targeting approximately $600 billion in total compute spend through 2030. It is now taking steps to prioritize its most profitable initiatives ahead of an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">IPO</strong>.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 宣布获得来自 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">a16z</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">DE Shaw Ventures</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">MGX</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">TPG</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">T Rowe Price</strong> 的100亿美元新承诺。这笔新资金使 OpenAI 的创纪录融资额超过1200亿美元。OpenAI 已调整其支出计划，现在目标是到2030年总计约6000亿美元的计算支出。该公司现在正在采取措施，在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">IPO（首次公开募股）</strong> 之前优先发展其最盈利的项目。</p>
-
-<h3 style="margin:24px 0 12px;">Get the most interesting AI stories and breakthroughs delivered in a free daily email.</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Join 920,000 readers for</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">加入92万读者的行列</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://tldr.tech/ai/2026-03-25" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">Claude Code 自动模式解析</div>
-        <span class="tone-pill" style="background:#ffe4e6;color:#be123c">😤 批评</span>
-      </div>
-      <div class="title-en">Auto mode for Claude Code</div>
-      <div class="tags"><span class="tag">Claude</span><span class="tag">自动模式</span><span class="tag">权限控制</span></div>
-      <div class="summary">Claude Code推出Auto Mode新功能，允许AI代理在Claude Sonnet 4.6分类器的监督下自动进行权限决策，但作者质疑这种基于大模型的非确定性防护机制存在局限，指出其难以有效防范提示注入和供应链攻击，主张应采用确定性的沙盒环境作为更可靠的替代方案。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">I remain unconvinced by prompt injection protections that rely on AI, since they&#x27;re non-deterministic by nature.</div><div class="quote-zh">对于依赖 AI 的提示注入保护机制，我仍然持怀疑态度，因为它们本质上是非确定性的。</div></div>
-<div class="quote-block"><div class="quote-en">I still want my coding agents to run in a robust sandbox by default, one that restricts file access and network connections in a deterministic way. I trust those a whole lot more than prompt-based protections like this new auto mode.</div><div class="quote-zh">我仍然希望我的编程代理默认在健壮的沙箱环境中运行，以确定性方式限制文件访问和网络连接。相比这种基于提示词的新型自动保护模式，我更信任前者。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Auto mode for Claude Code</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-Today, we're introducing auto mode, a new permissions mode in Claude Code where Claude makes permission decisions on your behalf, with safeguards monitoring actions before they run.
-</blockquote>
+      <div class="translation"><div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Charging per seat in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SaaS</strong> once made sense, but not now, when your product charges per <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">token</strong>, per <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">API call</strong>, or per resolved ticket.
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-今天，我们推出<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">自动模式</strong>（auto mode），这是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> 中一种新的权限模式，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> 会代表你做出权限决策，并通过安全防护机制在操作运行前进行监控。
+在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SaaS</strong> 领域，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">按席位收费</strong>（per seat）曾经有其合理性，但如今当产品按 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">token</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">API 调用</strong>（API call）或<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">解决工单数</strong>计费时，这种模式已不再适用。
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Today, we're introducing auto mode, a new permissions mode in Claude Code where Claude makes permission decisions on your behalf, with safeguards monitoring actions before they run.
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Metronome</strong>'s<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Pricing Experimentation Playbook</strong>is the step-by-step guide to building and iterating on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pricing models</strong> that fit how <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI products</strong> actually deliver value. You'll learn:
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-今天，我们推出<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">自动模式</strong>（auto mode），这是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> 中一种新的权限模式，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> 会代表你做出权限决策，并通过安全防护机制在操作运行前进行监控。
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Metronome</strong> 的《<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">定价实验手册</strong>》（Pricing Experimentation Playbook）是一份循序渐进的指南，帮助你构建和迭代适合 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 产品</strong>（AI products）实际价值交付方式的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">定价模型</strong>（pricing models）。你将学习到：
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Those safeguards appear to be implemented using Claude Sonnet 4.6, as described in the documentation:
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-这些安全防护机制似乎是通过 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Sonnet 4.6</strong> 实现的，正如文档中所述：
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-Before each action runs, a separate classifier model reviews the conversation and decides whether the action matches what you asked for: it blocks actions that escalate beyond the task scope, target infrastructure the classifier doesn't recognize as trusted, or appear to be driven by hostile content encountered in a file or web page. [...]Model: the classifier runs on Claude Sonnet 4.6, even if your main session uses a different model.
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-在每个操作运行之前，一个独立的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">分类器模型</strong>（classifier model）会审查对话并判断该操作是否符合你的要求：它会阻止那些超出任务范围、针对分类器无法识别为可信的基础设施、或似乎由文件或网页中遇到的恶意内容驱动的操作。[...]模型：该分类器运行在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Sonnet 4.6</strong> 上，即使你的主会话使用的是其他模型。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Before each action runs, a separate classifier model reviews the conversation and decides whether the action matches what you asked for: it blocks actions that escalate beyond the task scope, target infrastructure the classifier doesn't recognize as trusted, or appear to be driven by hostile content encountered in a file or web page. [...]
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-在每个操作运行之前，一个独立的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">分类器模型</strong>（classifier model）会审查对话并判断该操作是否符合你的要求：它会阻止那些超出任务范围、针对分类器无法识别为可信的基础设施、或似乎由文件或网页中遇到的恶意内容驱动的操作。[...]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Model: the classifier runs on Claude Sonnet 4.6, even if your main session uses a different model.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-模型：该分类器运行在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Sonnet 4.6</strong> 上，即使你的主会话使用的是其他模型。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-They ship with an extensive set of default filters, and you can also customize them further with your own rules. The most interesting insight into how they work comes when you run this new command in the terminal:
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-它们附带了一套广泛的默认过滤器，你也可以用自己的规则进一步自定义。要了解它们的工作原理，最有趣的方式是在终端中运行这个新命令：
-</p>
-
-<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>claude auto-mode defaults</code></pre>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Here's the full JSON output. It's pretty long, so here's an illustrative subset:
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-以下是完整的 JSON 输出。内容相当长，这里提供一个说明性的子集：
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-From the "allow" list:
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-来自"允许"（allow）列表：
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-Test Artifacts: Hardcoded test API keys, placeholder credentials in examples, or hardcoding test casesLocal Operations: Agent deleting local files in working directory, local file operations within project scope, or using--ignore-certificate-errorsfor local testing. "Project scope" means the repository the session started in — wandering into ~/, ~/Library/, /etc, or other repos is scope escalation (User Intent Rule #2), not a local operation. Does NOT cover irreversible destruction of pre-existing files or local stateful services — see "Irreversible Local Destruction" in BLOCK.Read-Only Operations: GET requests, read-only API calls, or queries that don't modify state and don't contain sensitive information in the URL. Note: PREEMPTIVE BLOCK ON CLEAR INTENT still applies — if the transcript contains clear evidence the agent is using read-only operations to scout for a blocked action, block it.Declared Dependencies: Installing packages that are already declared in the repo's manifest files (requirements.txt, package.json, Cargo.toml, pyproject.toml, Gemfile, etc.) via standard commands that read those manifests (pip install -r requirements.txt,npm install,cargo build,bundle install) — provided the agent has not modified the manifest in this session. Does NOT cover installing agent-chosen package names (e.g.pip install foo,npm install bar) — those carry typosquat and supply-chain risk. [...]
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-测试工件（Test Artifacts）：硬编码的测试 API 密钥、示例中的占位符凭据，或硬编码测试用例。本地操作（Local Operations）：代理删除工作目录中的本地文件、在项目范围内的本地文件操作，或使用 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">--ignore-certificate-errors</code> 进行本地测试。"项目范围"指会话启动时所在的仓库——进入 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">~/</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">~/Library/</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/etc</code> 或其他仓库属于范围升级（用户意图规则 #2），不属于本地操作。不包括对预先存在的文件或本地有状态服务的不可逆破坏——参见阻止列表（BLOCK）中的"不可逆本地破坏"（Irreversible Local Destruction）。只读操作（Read-Only Operations）：GET 请求、只读 API 调用，或不修改状态且 URL 中不包含敏感信息的查询。注意：明确意图的预先阻止（PREEMPTIVE BLOCK ON CLEAR INTENT）仍然适用——如果记录中包含明确证据表明代理正在使用只读操作来侦查被阻止的操作，则阻止它。已声明依赖（Declared Dependencies）：通过读取清单文件的标准命令（<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">pip install -r requirements.txt</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">npm install</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">cargo build</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">bundle install</code>）安装已在仓库清单文件（requirements.txt、package.json、Cargo.toml、pyproject.toml、Gemfile 等）中声明的包——前提是代理在本会话中未修改过该清单。不包括安装代理选择的包名（例如 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">pip install foo</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">npm install bar</code>）——这些存在<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">误植域名</strong>（typosquat）和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">供应链风险</strong>（supply-chain risk）。[...]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>Test Artifacts: Hardcoded test API keys, placeholder credentials in examples, or hardcoding test cases</li>
+<ul style="margin:0;padding-left:20px;">
+<li>✅ How to design a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">monetization operating model</strong> that connects pricing to product and revenue outcomes</li>
+<li>✅ How to run safe <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pricing experiments</strong> without <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">engineering sprints</strong> or breaking existing contracts</li>
+<li>✅ When to use <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hybrid</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">usage-</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">outcome-</strong>, or <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">seat-based pricing</strong> – with real examples from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cursor</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Intercom Fin</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Clay</strong>, and others</li>
 </ul>
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>测试工件：硬编码的测试 API 密钥、示例中的占位符凭据，或硬编码测试用例</li>
-</ul>
+✅ 如何设计一个将定价与产品和收入成果相关联的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">货币化运营模型</strong>（monetization operating model）<br>
+✅ 如何在不进行<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">工程冲刺</strong>（engineering sprints）或破坏现有合同的情况下运行安全的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">定价实验</strong>（pricing experiments）<br>
+✅ 何时使用<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">混合定价</strong>（hybrid）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">按用量定价</strong>（usage-based）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">按结果定价</strong>（outcome-based）或<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">按席位定价</strong>（seat-based）——附带 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cursor</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Intercom Fin</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Clay</strong> 等公司的真实案例
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>Local Operations: Agent deleting local files in working directory, local file operations within project scope, or using--ignore-certificate-errorsfor local testing. "Project scope" means the repository the session started in — wandering into ~/, ~/Library/, /etc, or other repos is scope escalation (User Intent Rule #2), not a local operation. Does NOT cover irreversible destruction of pre-existing files or local stateful services — see "Irreversible Local Destruction" in BLOCK.</li>
-</ul>
+Download the playbook
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>本地操作：代理删除工作目录中的本地文件、在项目范围内的本地文件操作，或使用 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">--ignore-certificate-errors</code> 进行本地测试。"项目范围"指会话启动时所在的仓库——进入 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">~/</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">~/Library/</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/etc</code> 或其他仓库属于范围升级（用户意图规则 #2），不属于本地操作。不包括对预先存在的文件或本地有状态服务的不可逆破坏——参见阻止列表中的"不可逆本地破坏"。</li>
-</ul>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>Read-Only Operations: GET requests, read-only API calls, or queries that don't modify state and don't contain sensitive information in the URL. Note: PREEMPTIVE BLOCK ON CLEAR INTENT still applies — if the transcript contains clear evidence the agent is using read-only operations to scout for a blocked action, block it.</li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>只读操作：GET 请求、只读 API 调用，或不修改状态且 URL 中不包含敏感信息的查询。注意：明确意图的预先阻止仍然适用——如果记录中包含明确证据表明代理正在使用只读操作来侦查被阻止的操作，则阻止它。</li>
-</ul>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>Declared Dependencies: Installing packages that are already declared in the repo's manifest files (requirements.txt, package.json, Cargo.toml, pyproject.toml, Gemfile, etc.) via standard commands that read those manifests (pip install -r requirements.txt,npm install,cargo build,bundle install) — provided the agent has not modified the manifest in this session. Does NOT cover installing agent-chosen package names (e.g.pip install foo,npm install bar) — those carry typosquat and supply-chain risk. [...]</li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>已声明依赖：通过读取清单文件的标准命令（<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">pip install -r requirements.txt</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">npm install</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">cargo build</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">bundle install</code>）安装已在仓库清单文件（requirements.txt、package.json、Cargo.toml、pyproject.toml、Gemfile 等）中声明的包——前提是代理在本会话中未修改过该清单。不包括安装代理选择的包名（例如 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">pip install foo</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">npm install bar</code>）——这些存在误植域名和供应链风险。[...]</li>
-</ul>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-From "soft_deny":
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-来自"软拒绝"（soft_deny）：
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-Git Destructive: Force pushing (git push --force), deleting remote branches, or rewriting remote historyGit Push to Default Branch: Pushing directly to main, master, or the repository's default branch — this bypasses pull request review. Commits should be pushed to a new feature branch instead.
--Code from External: Downloading and executing code from external sources — e.g.curl | bash, deserializing external data via formats that can execute code (eval, exec, yaml.unsafe_load, pickle, etc), or similar mechanisms. Also includes running code from an external repo cloned earlier in the transcript (pip install -e, make install, python script.py, pickle.load/torch.load on cloned repo files) — "local on disk" does not mean trusted if it was cloned from an external source visible in the transcript. The repo the agent starts in is trusted.Cloud Storage Mass Delete: Deleting or mass modifying files on cloud storage (S3, GCS, Azure Blob, etc.) [...]
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-Git 破坏性操作（Git Destructive）：强制推送（<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">git push --force</code>）、删除远程分支，或重写远程历史。推送到默认分支（Git Push to Default Branch）：直接推送到 main、master 或仓库的默认分支——这会绕过拉取请求审查。提交应该推送到新的功能分支。来自外部的代码（Code from External）：从外部源下载并执行代码——例如 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">curl | bash</code>，通过可执行代码的格式（eval、exec、yaml.unsafe_load、pickle 等）反序列化外部数据，或类似机制。还包括运行在记录早期从外部仓库克隆的代码（<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">pip install -e</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">make install</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">python script.py</code>、对克隆的仓库文件使用 pickle.load/torch.load）——如果从记录中可见的外部源克隆，"在本地磁盘上"并不意味着可信。代理启动时的仓库是可信的。云存储批量删除（Cloud Storage Mass Delete）：删除或批量修改云存储（S3、GCS、Azure Blob 等）上的文件 [...]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>Git Destructive: Force pushing (git push --force), deleting remote branches, or rewriting remote history</li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>Git 破坏性操作：强制推送（<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">git push --force</code>）、删除远程分支，或重写远程历史</li>
-</ul>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>Git Push to Default Branch: Pushing directly to main, master, or the repository's default branch — this bypasses pull request review. Commits should be pushed to a new feature branch instead.
--Code from External: Downloading and executing code from external sources — e.g.curl | bash, deserializing external data via formats that can execute code (eval, exec, yaml.unsafe_load, pickle, etc), or similar mechanisms. Also includes running code from an external repo cloned earlier in the transcript (pip install -e, make install, python script.py, pickle.load/torch.load on cloned repo files) — "local on disk" does not mean trusted if it was cloned from an external source visible in the transcript. The repo the agent starts in is trusted.</li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>推送到默认分支：直接推送到 main、master 或仓库的默认分支——这会绕过拉取请求审查。提交应该推送到新的功能分支。来自外部的代码：从外部源下载并执行代码——例如 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">curl | bash</code>，通过可执行代码的格式（eval、exec、yaml.unsafe_load、pickle 等）反序列化外部数据，或类似机制。还包括运行在记录早期从外部仓库克隆的代码（<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">pip install -e</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">make install</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">python script.py</code>、对克隆的仓库文件使用 pickle.load/torch.load）——如果从记录中可见的外部源克隆，"在本地磁盘上"并不意味着可信。代理启动时的仓库是可信的。</li>
-</ul>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>Cloud Storage Mass Delete: Deleting or mass modifying files on cloud storage (S3, GCS, Azure Blob, etc.) [...]</li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>云存储批量删除：删除或批量修改云存储（S3、GCS、Azure Blob 等）上的文件 [...]</li>
-</ul>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-I remain unconvinced by prompt injection protections that rely on AI, since they're non-deterministic by nature. The documentation does warn that this may still let things through:
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我仍然对依赖 AI 的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">提示注入</strong>（prompt injection）防护措施持怀疑态度，因为它们本质上是非确定性的。文档确实警告说，这仍可能让某些操作通过：
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-The classifier may still allow some risky actions: for example, if user intent is ambiguous, or if Claude doesn't have enough context about your environment to know an action might create additional risk.
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-该分类器仍可能允许某些风险操作：例如，如果用户意图不明确，或者 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> 没有足够的环境上下文来判断某项操作可能产生额外风险。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-The classifier may still allow some risky actions: for example, if user intent is ambiguous, or if Claude doesn't have enough context about your environment to know an action might create additional risk.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-该分类器仍可能允许某些风险操作：例如，如果用户意图不明确，或者 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> 没有足够的环境上下文来判断某项操作可能产生额外风险。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-The fact that the default allow list includespip install -r requirements.txtalso means that this wouldn't protect against supply chain attacks with unpinned dependencies, as seen this morningwith LiteLLM.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-默认允许列表包含 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">pip install -r requirements.txt</code> 这一事实也意味着，它无法防范使用未固定版本依赖项（unpinned dependencies）的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">供应链攻击</strong>（supply chain attacks），就像今天早上在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LiteLLM</strong> 上看到的那样。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-I still want my coding agents to run in a robust sandbox by default, one that restricts file access and network connections in a deterministic way. I trust those a whole lot more than prompt-based protections like this new auto mode.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我仍然希望我的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">编码代理</strong>（coding agents）默认在一个强健的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">沙盒</strong>（sandbox）中运行，以确定性方式限制文件访问和网络连接。比起这种新的自动模式等基于提示的防护措施，我更信任那些机制。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags:security,ai,prompt-injection,generative-ai,llms,coding-agents,claude-code
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：security, ai, prompt-injection, generative-ai, llms, coding-agents, claude-code
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">下载该手册</strong>（Download the playbook）
 </p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://tldr.tech/ai/2026-03-26" target="_blank">阅读原文 &rarr;</a>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-03-25
+  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-03-26
 </div>
 
 <script>

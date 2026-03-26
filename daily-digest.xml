@@ -7,29 +7,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 25 Mar 2026 23:31:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 22:40:27 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-25</title>
+      <title>📰 AI/产品/技术日报 - 2026-03-26</title>
       <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Claude 4.6 与 Auto Mode 发布&lt;/strong&gt;：Anthropic 推出 Claude 4.6，支持百万 token 上下文和四种自动化工作模式；新增的 Auto Mode 允许 AI 在分类器监督下自动进行权限决策，但专家指出基于大模型的非确定性防护难以有效防范提示注入攻击，建议采用确定性沙盒方案。（来源：Simon Willison, TLDR AI）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;datasette-llm 0.1a1 发布&lt;/strong&gt;：新增 &lt;code&gt;register_llm_purposes()&lt;/code&gt; 钩子，支持 Datasette 插件按数据丰富、SQL 查询等场景灵活映射不同 LLM 模型。（来源：Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claude 发布史上最大更新&lt;/strong&gt;：基于收购 Vercept 技术推出的 Cowork Dispatch Computer Use 功能引发市场空前反响，社交媒体热度创 Anthropic 历史纪录。（Latent Space）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;AI 编程与工程实践&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;警惕 AI 编码的认知债务&lt;/strong&gt;：Simon Willison 批评滥用 AI 编码代理追求速度而牺牲质量的现象，警示微小错误会指数级累积成难以维护的复杂系统，主张限制 AI 代码生成量并手工编写核心架构以重建认知严谨性。（来源：Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stripe 的&amp;quot;Minions&amp;quot; AI 编程代理&lt;/strong&gt;：Stripe 工程师 Steve Kaliski 披露内部系统架构，允许开发者通过 Slack 表情符号触发任务，每周自动生成约 1,300 个 PR，依托云开发环境实现并行工作流与自主机器支付。（来源：Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;模型量化技术深度解析&lt;/strong&gt;：Simon Willison 通过可视化浮点数二进制表示，揭示&amp;quot;异常值&amp;quot;（超级权重）对模型质量的关键影响——删除单个即可导致输出乱码，并验证 16 位到 8 位量化几乎无损，4 位量化仍保持约 90% 性能。（Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;安全与基础设施&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;LiteLLM 供应链攻击&lt;/strong&gt;：LiteLLM 遭遇黑客攻击，约 4.7 万名用户的账户或 API 密钥可能已泄露，建议立即轮换密钥并检查访问日志。（来源：Simon Willison, Latent Space）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;产品与生态趋势&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AI 编程冲击应用商店垄断&lt;/strong&gt;：&amp;quot;Vibe coding&amp;quot; 浪潮正迫使苹果等传统应用商店的审查机制与商业模式变革，软件分发范式加速向开放网络和 API 生态转移；与此同时，AI 基础设施的安全性与工程化问题日益凸显。（来源：Latent Space, TLDR AI）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI SaaS 定价范式转移&lt;/strong&gt;：从传统按座位收费转向基于 API 调用、token 消耗或实际成效的用量定价，Metronome 发布《定价实验手册》助力企业构建动态价值定价策略。（TLDR AI）&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-25</guid>
-      <pubDate>Wed, 25 Mar 2026 23:31:55 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-26</guid>
+      <pubDate>Thu, 26 Mar 2026 22:40:27 +0000</pubDate>
     </item>
   </channel>
 </rss>
