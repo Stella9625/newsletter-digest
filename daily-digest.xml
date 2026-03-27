@@ -7,23 +7,39 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 26 Mar 2026 22:40:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 22:55:14 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-26</title>
-      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Claude 发布史上最大更新&lt;/strong&gt;：基于收购 Vercept 技术推出的 Cowork Dispatch Computer Use 功能引发市场空前反响，社交媒体热度创 Anthropic 历史纪录。（Latent Space）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;模型量化技术深度解析&lt;/strong&gt;：Simon Willison 通过可视化浮点数二进制表示，揭示&amp;quot;异常值&amp;quot;（超级权重）对模型质量的关键影响——删除单个即可导致输出乱码，并验证 16 位到 8 位量化几乎无损，4 位量化仍保持约 90% 性能。（Simon Willison）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AI SaaS 定价范式转移&lt;/strong&gt;：从传统按座位收费转向基于 API 调用、token 消耗或实际成效的用量定价，Metronome 发布《定价实验手册》助力企业构建动态价值定价策略。（TLDR AI）&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-26</guid>
-      <pubDate>Thu, 26 Mar 2026 22:40:27 +0000</pubDate>
+      <title>📰 AI/产品/技术日报 - 2026-03-27</title>
+      <description>&lt;p&gt;&lt;strong&gt;AI 日报&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Vibe coding SwiftUI apps is a lot of fun&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*Simon Willison*&lt;/p&gt;
+&lt;p&gt;作者通过纯自然语言提示，在不打开Xcode且不懂Swift的情况下，借助Claude和GPT快速开发了两款macOS菜单栏应用，展示了AI&amp;quot;氛围编程&amp;quot;在单文件SwiftUI开发中的高效潜力。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We Rewrote JSONata with AI in a Day, Saved $500K/Year&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*Simon Willison*&lt;/p&gt;
+&lt;p&gt;Reco团队利用AI辅助和现有测试套件，仅用7小时、花费400美元就将JSONata表达式语言移植为Go实现，达成每年节省50万美元运营成本的目标。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[AINews] Everything is CLI&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*Latent Space*&lt;/p&gt;
+&lt;p&gt;Stripe、Ramp、ElevenLabs等厂商密集推出CLI工具，命令行界面正取代传统API成为AI Agent直接调用后端服务的首选接口，标志着&amp;quot;Agent原生&amp;quot;基础设施范式的兴起。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Anthropic weighs October IPO, Gemini 3.1 Flash Live, Cursor real-time RL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*TLDR AI*&lt;/p&gt;
+&lt;p&gt;Anthropic或于10月IPO，估值超600亿美元；Google发布实时语音模型Gemini 3.1 Flash Live，Cursor则通过实时强化学习实现编程助手高频迭代。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;安全与合规&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;My minute-by-minute response to the LiteLLM malware attack&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*Simon Willison*&lt;/p&gt;
+&lt;p&gt;逐分钟追踪LiteLLM Python包供应链攻击，确认1.82.8版本在PyPI被植入恶意代码，警告用户安装该版本将面临系统感染风险。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quoting Richard Fontana&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*Simon Willison*&lt;/p&gt;
+&lt;p&gt;LGPLv3共同作者Richard Fontana指出，尚无依据要求chardet 7.0.0必须以LGPL发布，因无人证明早期可版权代码仍在存续，也未提出有效违规理论。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;技术史与深度思考&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;The Age of the Amplifier&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*Brian Potter / Construction Physics*&lt;/p&gt;
+&lt;p&gt;回顾贝尔实验室为实现电话&amp;quot;普遍服务&amp;quot;攻克信号放大难题的历程，详述真空管、负反馈放大器、晶体管和激光器的诞生，以及这些技术如何超越通信领域奠定现代电子学与数字时代基石。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-27</guid>
+      <pubDate>Fri, 27 Mar 2026 22:55:14 +0000</pubDate>
     </item>
   </channel>
 </rss>
