@@ -7,39 +7,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 27 Mar 2026 22:55:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 23:02:33 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-27</title>
-      <description>&lt;p&gt;&lt;strong&gt;AI 日报&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Vibe coding SwiftUI apps is a lot of fun&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;*Simon Willison*&lt;/p&gt;
-&lt;p&gt;作者通过纯自然语言提示，在不打开Xcode且不懂Swift的情况下，借助Claude和GPT快速开发了两款macOS菜单栏应用，展示了AI&amp;quot;氛围编程&amp;quot;在单文件SwiftUI开发中的高效潜力。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;We Rewrote JSONata with AI in a Day, Saved $500K/Year&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;*Simon Willison*&lt;/p&gt;
-&lt;p&gt;Reco团队利用AI辅助和现有测试套件，仅用7小时、花费400美元就将JSONata表达式语言移植为Go实现，达成每年节省50万美元运营成本的目标。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[AINews] Everything is CLI&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;*Latent Space*&lt;/p&gt;
-&lt;p&gt;Stripe、Ramp、ElevenLabs等厂商密集推出CLI工具，命令行界面正取代传统API成为AI Agent直接调用后端服务的首选接口，标志着&amp;quot;Agent原生&amp;quot;基础设施范式的兴起。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Anthropic weighs October IPO, Gemini 3.1 Flash Live, Cursor real-time RL&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;*TLDR AI*&lt;/p&gt;
-&lt;p&gt;Anthropic或于10月IPO，估值超600亿美元；Google发布实时语音模型Gemini 3.1 Flash Live，Cursor则通过实时强化学习实现编程助手高频迭代。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;安全与合规&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;My minute-by-minute response to the LiteLLM malware attack&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;*Simon Willison*&lt;/p&gt;
-&lt;p&gt;逐分钟追踪LiteLLM Python包供应链攻击，确认1.82.8版本在PyPI被植入恶意代码，警告用户安装该版本将面临系统感染风险。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Quoting Richard Fontana&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;*Simon Willison*&lt;/p&gt;
-&lt;p&gt;LGPLv3共同作者Richard Fontana指出，尚无依据要求chardet 7.0.0必须以LGPL发布，因无人证明早期可版权代码仍在存续，也未提出有效违规理论。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;技术史与深度思考&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;The Age of the Amplifier&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;*Brian Potter / Construction Physics*&lt;/p&gt;
-&lt;p&gt;回顾贝尔实验室为实现电话&amp;quot;普遍服务&amp;quot;攻克信号放大难题的历程，详述真空管、负反馈放大器、晶体管和激光器的诞生，以及这些技术如何超越通信领域奠定现代电子学与数字时代基石。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-27</guid>
-      <pubDate>Fri, 27 Mar 2026 22:55:14 +0000</pubDate>
+      <title>📰 AI/产品/技术日报 - 2026-03-28</title>
+      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;智能体编程范式转变&lt;/strong&gt;：Matt Webb 提出&amp;quot;vibing&amp;quot;（氛围编程）概念，指出 AI 智能体虽可凭海量算力暴力破解代码，但理想开发模式应建立在优秀架构设计与库封装之上，开发者正从关注代码细节转向更深层的架构思考。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI 编程实践社区经验&lt;/strong&gt;：精选讨论涵盖 Claude Code 与 Codex 协同编程的实战经验，以及应对 AI 技术迭代速度超过产品战略时的开发策略调整。（Kiyani / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI 时代产品管理策略&lt;/strong&gt;：探讨当技术迭代快于产品战略时的应对思路，以及解决项目估算持续偏差的实践方法。（Kiyani / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;工程与工具&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Datasette 生态更新&lt;/strong&gt;：datasette-showboat 发布 0.1a2 版本，新增 Markdown 文件导出功能，并支持向远程服务器增量发布更新。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;地缘政治与全球供应链&lt;/strong&gt;：分析伊朗战争导致霍尔木兹海峡关闭引发的能源与供应链连锁危机（波及塑料、制药及数据中心运营）；同步关注美国住房法案争议与马斯克&amp;quot;Terafab&amp;quot;半导体工厂计划等工业技术动态。（Brian Potter / Construction Physics）&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-28</guid>
+      <pubDate>Sat, 28 Mar 2026 23:02:33 +0000</pubDate>
     </item>
   </channel>
 </rss>
