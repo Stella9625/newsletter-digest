@@ -297,229 +297,249 @@
 
   <!-- 日报 Tab -->
   <div id="tab-digest" class="tab-content active">
-    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">AI编程</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">产品策略</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">项目管理</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">社区经验</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">智能体编程</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">氛围编程</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">软件架构</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">地缘政治</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
+    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">文本测量</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">性能优化</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">浏览器渲染</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">技术解析</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">工具原理</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">Python</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">漏洞查询</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">安全工具</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
-      <h2>2026-03-28 日报</h2>
-      <p><strong>LLM &amp; AI 工具</strong></p>
+      <h2>2026-03-29 日报</h2>
+      <p><strong>AI/技术日报</strong></p>
+<h4>LLM &amp; AI 工具</h4>
 <ul>
-<li><strong>智能体编程范式转变</strong>：Matt Webb 提出&quot;vibing&quot;（氛围编程）概念，指出 AI 智能体虽可凭海量算力暴力破解代码，但理想开发模式应建立在优秀架构设计与库封装之上，开发者正从关注代码细节转向更深层的架构思考。（Simon Willison）</li>
-<li><strong>AI 编程实践社区经验</strong>：精选讨论涵盖 Claude Code 与 Codex 协同编程的实战经验，以及应对 AI 技术迭代速度超过产品战略时的开发策略调整。（Kiyani / Lenny&#x27;s Newsletter）</li>
+<li><strong>OpenClaw 深度实践：从怀疑者到 9 代理自动化</strong> | Lenny&#x27;s Newsletter</li>
 </ul>
-<p><strong>产品与增长</strong></p>
+<p>ChatPRD 创始人 Claire Vo 详述其从误删日历的挫败到搭建 9 个 AI 代理管理业务、播客与家庭生活的完整转型路径，提供配置指南、风险防范及多代理协作机制。（作者：Lenny Rachitsky）</p>
+<h4>工程与系统设计</h4>
 <ul>
-<li><strong>AI 时代产品管理策略</strong>：探讨当技术迭代快于产品战略时的应对思路，以及解决项目估算持续偏差的实践方法。（Kiyani / Lenny&#x27;s Newsletter）</li>
+<li><strong>Pretext：高性能浏览器文本渲染方案</strong> | Simon Willison</li>
 </ul>
-<p><strong>工程与工具</strong></p>
+<p>创新性地将文本测量拆分为 <code>prepare()</code> 预缓存与 <code>layout()</code> 快速计算两个阶段，利用离屏 canvas 规避昂贵 DOM 操作，实现多行文本高度的毫秒级估算；作者另文深入解析底层实现细节。</p>
 <ul>
-<li><strong>Datasette 生态更新</strong>：datasette-showboat 发布 0.1a2 版本，新增 Markdown 文件导出功能，并支持向远程服务器增量发布更新。（Simon Willison）</li>
+<li><strong>Python Vulnerability Lookup：轻量级依赖安全扫描</strong> | Simon Willison</li>
 </ul>
-<p><strong>跨界与深度思考</strong></p>
-<ul>
-<li><strong>地缘政治与全球供应链</strong>：分析伊朗战争导致霍尔木兹海峡关闭引发的能源与供应链连锁危机（波及塑料、制药及数据中心运营）；同步关注美国住房法案争议与马斯克&quot;Terafab&quot;半导体工厂计划等工业技术动态。（Brian Potter / Construction Physics）</li>
-</ul>
+<p>基于 OSV.dev API 开发的 HTML 工具，支持通过粘贴 <code>pyproject.toml</code>、<code>requirements.txt</code> 或 GitHub 仓库地址，即时检测 Python 项目的已知 CVE 漏洞。</p>
     </div>
   </div>
 
   <!-- 文章 Tab -->
   <div id="tab-articles" class="tab-content">
     <div class="article-card">
-      <div class="source">Lenny&#x27;s Newsletter</div>
+      <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">社区智慧：AI超速与产品策略的角力、工期延误困境及技术实践</div>
+        <div class="title">Pretext：高性能文本布局测算方案</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">🧠 Community Wisdom: When AI velocity outpaces your product strategy, when your estimates keep slipping, one day in San Francisco, pairing Claude Code with Codex, and more</div>
-      <div class="tags"><span class="tag">AI编程</span><span class="tag">产品策略</span><span class="tag">项目管理</span><span class="tag">社区经验</span></div>
-      <div class="summary">本期订阅周报精选了会员社区的高价值讨论，涵盖AI技术迭代快于产品战略时的应对策略、项目估算持续偏差的解决思路，以及Claude Code与Codex协同编程的实践经验。</div>
+      <div class="title-en">Pretext</div>
+      <div class="tags"><span class="tag">文本测量</span><span class="tag">性能优化</span><span class="tag">浏览器渲染</span></div>
+      <div class="summary">Pretext通过将文本测量分离为prepare()预缓存和layout()快速计算两个阶段，利用离屏canvas避免昂贵的DOM操作，实现了高性能的多行文本高度估算，为浏览器应用带来新的文本渲染可能。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">👋 Hello and welcome to this week’s edition of ✨Community Wisdom✨ a subscriber-only email, delivered every Saturday, highlighting the most helpful conversations in our members-only Slack community.</div><div class="quote-zh">👋 你好，欢迎阅读本周的✨社区智慧✨专刊，这是一封仅面向订阅者的邮件，每周六送达，精选我们会员专属Slack社区中最有价值的讨论。</div></div>
+<div class="quote-block"><div class="quote-en">I had Claude build me this interactive artifact to help me visually understand what&#x27;s going on, based on a simplified version of Pretext itself.</div><div class="quote-zh">我让 Claude 基于 Pretext 的简化版本构建了这个交互式工具，帮助我从视觉上理解其中的运作原理。</div></div>
+<div class="quote-block"><div class="quote-en">The earlier tests rendered a full copy of the Great Gatsby in multiple browsers to confirm that the estimated measurements were correct against a large volume of text.</div><div class="quote-zh">早期的测试在多个浏览器中渲染了整本《了不起的盖茨比》，以验证针对大量文本的估算测量是否准确。</div></div>
 </div>
-      <div class="translation"><div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-🧠 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Community Wisdom</strong>: When <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI velocity</strong> outpaces your product strategy, when your estimates keep slipping, one day in San Francisco, pairing <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> with <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Codex</strong>, and more
+      <div class="translation"><h3 style="margin:24px 0 12px;">Pretext</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Pretext solves the problem of calculating the height of a paragraph of line-wrapped textwithout touching the DOM. The usual way of doing this is to render the text and measure its dimensions, but this is extremely expensive. Pretext uses an array of clever tricks to make this much, much faster, which enables all sorts of new text rendering effects in browser applications.
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-🧠 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Community Wisdom</strong>（社区智慧）：当 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 发展速度</strong>（AI velocity）超越你的产品战略，当排期不断延期，在旧金山的一天，将 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Codex</strong> 搭配使用，以及更多精彩内容
+Pretext 解决了在不触碰 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DOM</strong> 的情况下计算一段换行文本（line-wrapped text）高度的问题。通常的做法是渲染文本并测量其尺寸，但这计算成本极高。Pretext 运用一系列巧妙的技巧大幅提升速度，从而能够在<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">浏览器应用（browser applications）</strong>中实现各种全新的文本渲染效果。
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-👋 Hello and welcome to this week's edition of ✨<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Community Wisdom</strong>✨ a subscriber-only email, delivered every Saturday, highlighting the most helpful conversations inour members-only <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong> community.
+Here'sone demothat shows the kind of things this makes possible:
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-👋 你好，欢迎阅读本周的 ✨<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Community Wisdom</strong>（社区智慧）✨——这是一封仅限订阅者（subscriber-only）的邮件，每周六发送，精选我们仅限会员的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong> 社区中最有价值的讨论。
+以下是一个演示，展示了这项技术能够实现的效果：
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+The key to how this works is the way it separates calculations into a call to aprepare()function followed by multiple calls tolayout().
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+其工作原理的关键在于将计算分离为对 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">prepare()</code> 函数的调用，以及随后对 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">layout()</code> 函数的多次调用。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Theprepare()function splits the input text into segments (effectively words, but it can take things like soft hyphens and non-latin character sequences and emoji into account as well) and measures those using an off-screen canvas, then caches the results. This is comparatively expensive but only runs once.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">prepare()</code> 函数将输入文本分割为若干片段（实质上是单词，但也能处理<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">软连字符（soft hyphens）</strong>、非拉丁字符序列和表情符号等），并使用<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">离屏 canvas（off-screen canvas）</strong>进行测量，然后缓存结果。这一步骤相对昂贵，但仅执行一次。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Thelayout()function can then emulate the word-wrapping logic in browsers to figure out how many wrapped lines the text will occupy at a specified width and measure the overall height.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+随后，<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">layout()</code> 函数可以模拟浏览器中的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">自动换行（word-wrapping）</strong>逻辑，计算出文本在指定宽度下将占据多少行，并测量整体高度。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Ihad Claudebuild methis interactive artifactto help me visually understand what's going on, based on a simplified version of Pretext itself.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+我让 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> 基于 Pretext 的简化版本构建了这个交互式工具（interactive artifact），帮助我直观地理解其内部机制。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+The way this is tested is particularly impressive. The earlier testsrendered a full copy of the Great Gatsbyin multiple browsers to confirm that the estimated measurements were correct against a large volume of text. This was later joined bythe corpora/ folderusing the same technique against lengthy public domain documents in Thai, Chinese, Korean, Japanese, Arabic, and more.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+其测试方式尤为令人印象深刻。早期测试在多个浏览器中渲染了完整的《了不起的盖茨比》（<em>The Great Gatsby</em>），以验证针对大量文本的估算测量是否准确。随后，<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">corpora/</code> 文件夹也加入了测试，使用相同的技术对泰语、中文、韩语、日语、阿拉伯语等多种语言的冗长公共领域文档进行验证。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Via@_chenglou
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+via <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">@_chenglou</strong>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Tags:browsers,css,javascript,testing,react,typescript
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+标签：<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">browsers</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">css</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">javascript</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">testing</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">react</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">typescript</code>
 </p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://www.lennysnewsletter.com/p/community-wisdom-when-ai-velocity" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/2026/Mar/29/pretext/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
 
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">Matt Webb 谈架构与编程</div>
-        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
-      </div>
-      <div class="title-en">Quoting Matt Webb</div>
-      <div class="tags"><span class="tag">智能体编程</span><span class="tag">氛围编程</span><span class="tag">软件架构</span></div>
-      <div class="summary">Matt Webb指出，AI智能体虽可通过海量计算资源暴力破解编程问题，但理想的开发模式应建立在优秀架构设计与库封装之上，以实现高效、可维护的解决方案；在这种被称为“vibing”的新范式下，开发者正从关注代码细节转向更深层的架构思考。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">The thing about agentic coding is that agents grind problems into dust.</div><div class="quote-zh">代理式编程的特点在于，智能体会将问题碾为尘埃。</div></div>
-<div class="quote-block"><div class="quote-en">While I&#x27;m vibing (I call it vibing now, not coding and not vibe coding) while I&#x27;m vibing, I am looking at lines of code less than ever before, and thinking about architecture more than ever before.</div><div class="quote-zh">当我在&#x27;vibe&#x27;时（我现在称之为&#x27;vibe&#x27;，既非编程，也非vibe编程），我看代码行数比以往任何时候都少，而思考架构比以往任何时候都多。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Quoting Matt Webb</h3>
-
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-The thing about <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic coding</strong> is that agents grind problems into dust. Give an agent a problem and a <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">while</code> loop and - long term - it'll solve that problem even if it means burning a trillion tokens and re-writing down to the silicon. [...]
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Matt Webb</strong> 指出，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic coding</strong>（智能体编程）的关键在于，智能体能够将问题碾碎成尘埃。给智能体一个问题和一个 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">while</code> 循环——从长远来看——即使这意味着要消耗万亿级的 token 并一直重写到底层硅片，它也会解决这个问题。[...]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-But we want <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agents</strong> to solve coding problems quickly and in a way that is maintainable and adaptive and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">composable</strong> (benefiting from improvements elsewhere), and where every addition makes the whole stack better.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-但我们希望 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agents</strong>（AI 智能体）能够快速解决编程问题，并且以可维护、可适应和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">可组合</strong>（composable，受益于其他地方的改进）的方式，同时每一次新增功能都能让整个技术栈变得更好。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-So at the bottom is really great libraries that encapsulate hard problems, with great interfaces that make the "right" way the easy way for developers building apps with them. <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Architecture</strong>!
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-因此在底层，我们需要真正优秀的库来封装复杂难题，配以出色的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">interfaces</strong>（接口），让开发者在使用它们构建应用时，"正确"的方式就是简单的方式。这就是 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Architecture</strong>（架构）！
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-While I'm <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vibing</strong> (I call it vibing now, not coding and not vibe coding) while I'm vibing, I am looking at lines of code less than ever before, and thinking about <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">architecture</strong> more than ever before.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-当我在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vibing</strong>（我现在称之为 vibing，而非 coding 或 vibe coding）时，我比以往任何时候都更少关注代码行，而比以往任何时候都更多地思考 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">architecture</strong>（架构）。
-</p>
-</blockquote>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-—<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Matt Webb</strong>, <em>An appreciation for (technical) architecture</em>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-——<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Matt Webb</strong>，《对（技术）架构的欣赏》
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags: matt-webb, ai, llms, vibe-coding, coding-agents, ai-assisted-programming, generative-ai, agentic-engineering, definitions
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：matt-webb、人工智能、大语言模型、vibe-coding、编程智能体、AI 辅助编程、生成式 AI、智能体工程、定义
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Construction Physics</div>
-      <div class="title-row">
-        <div class="title">每周阅读清单：2026年3月28日</div>
-        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
-      </div>
-      <div class="title-en">Reading List 03/28/26</div>
-      <div class="tags"><span class="tag">地缘政治</span><span class="tag">能源危机</span><span class="tag">房地产</span><span class="tag">制造业</span></div>
-      <div class="summary">本文聚焦伊朗战争导致霍尔木兹海峡关闭引发的全球能源与供应链连锁危机（波及塑料、制药及数据中心运营），同时梳理了美国住房法案争议、加密货币抵押贷款新规及马斯克&quot;Terafab&quot;半导体工厂计划等建筑与工业技术领域的重要动态。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">What could go wrong.</div><div class="quote-zh">还能出什么岔子呢。</div></div>
-<div class="quote-block"><div class="quote-en">This is not totally surprising to me — malls in the Atlanta metro area seem crowded whenever I drive by or go in one, so I knew some must be succeeding — but it’s interesting to see that it seems to be specifically the high-end malls.</div><div class="quote-zh">这并不令我十分意外——每当我驾车经过或步入亚特兰大地区的商场时，那里总是熙熙攘攘，因此我早知道有些商场必定经营良好——但有趣的是，似乎 specifically 是高端商场才表现如此。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Reading List 03/28/26</h3>
-<h3 style="margin:24px 0 12px;">阅读清单 2026年3月28日</h3>
-
-<img src="https://substackcdn.com/image/fetch/$s_!cYc_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc09fa175-3b98-4a27-82df-5449613d454d_813x543.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Welcome to the reading list, a weekly roundup of news and links related to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">buildings, infrastructure and industrial technology</strong>. This week we look at plastic price jumps, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">crypto-backed mortgages</strong>, a proposed AI data center pause, US battery manufacturing, and more. Roughly 2/3rds of the reading list is <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">paywalled</strong>, so for full access become a paid subscriber.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">欢迎来到本周阅读清单，这是一份关于<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">建筑、基础设施和工业技术</strong>的新闻与链接的每周汇总。本周我们将关注塑料价格飙升、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">加密货币支持的抵押贷款</strong>（crypto-backed mortgages）、拟议的AI数据中心暂停建设、美国电池制造等话题。阅读清单中约有三分之二的内容设有<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">付费墙</strong>（paywalled），如需完整访问权限，请成为付费订阅者。</p>
-
-<h4 style="margin:24px 0 12px;">War in Iran</h4>
-<h4 style="margin:24px 0 12px;">伊朗战争</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The disruption to oil and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LNG</strong> supplies caused by the closure of the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Strait of Hormuz</strong> is causing some countries to burn more coal. <blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">"India is burning more coal to meet higher summer demand. South Korea has lifted caps on electricity from coal. Indonesia is prioritizing using its domestic supply. Thailand, the Philippines and Vietnam are boosting <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">coal-fired power</strong>."</blockquote> [NPR]</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">霍尔木兹海峡（<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Strait of Hormuz</strong>）关闭导致的石油和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">液化天然气</strong>（<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LNG</strong>）供应中断，正促使一些国家增加煤炭消耗。<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">"印度正在燃烧更多煤炭以满足更高的夏季需求。韩国已取消<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">煤电</strong>（coal-fired power）上限。印度尼西亚正优先使用国内供应。泰国、菲律宾和越南正在增加燃煤发电。"</blockquote> [NPR]</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">And because <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">petroleum</strong> is used to make plastic, the closure of the strait is also driving up <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">plastic prices</strong>. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Dow Chemical</strong> plans a 30 cents per pound increase in April, following a 10 centers per pound increase in March. [WSJ] Plastic prices are up nearly 40% since February. [Reuters]</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">由于<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">石油</strong>（petroleum）被用于制造塑料，海峡关闭也在推高<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">塑料价格</strong>（plastic prices）。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">陶氏化学</strong>（Dow Chemical）计划在4月份每磅涨价30美分，此前3月份已每磅涨价10美分。[WSJ] 自2月以来，塑料价格已上涨近40%。[Reuters]</p>
-
-<img src="https://substackcdn.com/image/fetch/$s_!gKpo!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb94a1bb-4e81-43c6-a4c5-cebc13dfa905_727x472.png" alt="Plastic prices chart" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Petroleum</strong> is also used in the manufacture of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pharmaceuticals</strong>, so the strait closure might affect the supply of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">generic medications</strong>. [CNBC] And last week I noted that production of helium (which is extracted as part of the natural gas drilling process) had also been disrupted, but I hadn't clocked that liquified helium is used as a coolant for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MRI</strong> machines. [X]</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">石油还用于<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">药品</strong>（pharmaceuticals）制造，因此海峡关闭可能会影响<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">仿制药</strong>（generic medications）的供应。[CNBC] 上周我提到氦气生产（作为天然气钻探过程的副产品提取）也受到了干扰，但我当时没有注意到液化氦气被用作<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">核磁共振成像</strong>（<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MRI</strong>）机器的冷却剂。[X]</p>
-
-<img src="https://substackcdn.com/image/fetch/$s_!jCHD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc72e8a68-d37f-45fd-a2cb-e3f330c22c1b_594x285.png" alt="Helium and MRI relation" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Another <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AWS</strong> data center in the mideast has apparently been damaged by an Iranian <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">drone attack</strong>. [Al Jazeera]</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">中东地区的另一座<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">AWS</strong>（Amazon Web Services）数据中心显然在伊朗<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">无人机袭击</strong>（drone attack）中受损。[Al Jazeera]</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">To try and address rising gas prices, the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">EPA</strong> is temporarily waiving regulations on the sale of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ethanol blended gas</strong> (which is restricted in certain locations at certain times of the year to reduce air pollution). [CNBC]</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为了应对汽油价格上涨，美国环境保护署（<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">EPA</strong>）暂时豁免了关于<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">乙醇混合汽油</strong>（ethanol blended gas）销售的法规（该法规在一年中的特定时间、特定地点限制销售以减少空气污染）。[CNBC]</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Iran has established a "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">safe shipping corridor</strong>" through the strait, allowing ships to pass for a $2m fee. [Lloyd's List]</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">伊朗已在该海峡建立了一条"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">安全航运走廊</strong>"（safe shipping corridor），允许船舶通过，收费200万美元。[Lloyd's List]</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The closure of the strait seems to be good for Chinese battery manufacturers though: since the start of the war their stocks have spiked. "<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">CATL</strong>'s China-traded shares have risen 19 per cent; Sungrow is up 19.4 per cent; and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">BYD</strong>, also the world's top <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">EV maker</strong>, has gained 21.9 per cent since the US-Israeli strikes were launched at the end of February."[FT]</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">然而，海峡关闭似乎对中国电池制造商有利：自战争开始以来，它们的股价飙升。"自2月底美以发动袭击以来，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">宁德时代</strong>（CATL）的中国交易股票上涨了19%；阳光电源（Sungrow）上涨了19.4%；全球最大<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">电动汽车制造商</strong>（EV maker）<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">比亚迪</strong>（BYD）上涨了21.9%。" [FT]</p>
-
-<h4 style="margin:24px 0 12px;">Housing</h4>
-<h4 style="margin:24px 0 12px;">住房</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The New York Times on the<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ROAD to Housing Act</strong>, and the provision that would prevent the construction of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">build-to-rent</strong> single family homes. <blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">"Now, with the legislation back in the House awaiting a vote, critics are urging lawmakers to drop that build-to-rent restriction, arguing it would counter the intent of the bill, making it harder, not easier, to build homes when the country desperately needs them."</blockquote>[NYT] Senator <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Elizabeth Warren</strong> is apparently unhappy about the resistance to these provisions of the bill, and is sending vaguely threatening letters to investors in multifamily apartments and manufactured homes. [Axios]</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">《纽约时报》报道了《<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">theROAD住房法案</strong>》（theROAD to Housing Act）以及其中一项将阻止建造<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">单户出租住宅</strong>（build-to-rent single family homes）的条款。<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">"现在，该法案已回到众议院等待投票，批评者敦促立法者取消这项出租限制，认为这将违背法案的初衷，在国家急需住房的时候，使建房变得更难而非更容易。"</blockquote>[NYT] 参议员<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">伊丽莎白·沃伦</strong>（Elizabeth Warren）显然对针对这些条款的抵制感到不满，正在向多户型公寓和预制房屋（manufactured homes）的投资者发出含糊其辞的警告信。[Axios]</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Another NYT article on the surprising success of some US <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">malls</strong>. Apparently malls with higher-end, luxury tenants are doing fairly well. <blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">"There are roughly 900 malls in the United States, but only a small sliver are successful. The top 100 account for 50 percent of the entire sector's value, according to Tibone, whereas the bottom 350 make up 10 percent. Revenue at <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">class A malls</strong> is growing by 5 percent each year, and financing is easy to come by."</blockquote>This is not totally surprising to me — malls in the Atlanta metro area seem crowded whenever I drive by or go in one, so I knew some must be succeeding — but it's interesting to see that it seems to be specifically the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">high-end</strong> malls. [NYT]</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">另一篇《纽约时报》文章讨论了一些美国<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">购物中心</strong>（malls）令人惊讶的成功。显然，拥有高端奢侈品牌租户的购物中心表现相当不错。<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">"美国约有900家购物中心，但只有一小部分是成功的。据Tibone称，前100家占整个行业价值的50%，而垫底的350家仅占10%。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">A级购物中心</strong>（class A malls）的收入每年增长5%，且融资很容易获得。"</blockquote>这对我来说并不完全意外——每当我驾车经过或进入亚特兰大都会区的购物中心时，它们看起来都很拥挤，所以我知道其中一些一定很成功——但有趣的是，似乎 specifically 是<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">高端</strong>（high-end）购物中心表现突出。[NYT]</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Fannie Mae</strong> will now allow mortgages backed with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">cryptocurrency</strong>.<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">"The mortgage company Better Home & Finance and the U.S. crypto exchange <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Coinbase Global</strong> unveiled a new mortgage product Thursday that allows home buyers to pledge their crypto holdings when getting a Fannie-backed mortgage, instead of selling the crypto to make a cash down payment."</blockquote>What could go wrong. [WSJ]</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">房利美</strong>（Fannie Mae）现在将允许以<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">加密货币</strong>（cryptocurrency）为抵押的抵押贷款。<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">"抵押贷款公司Better Home & Finance和美国加密货币交易所<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Coinbase Global</strong>周四推出了一款新的抵押贷款产品，允许购房者在获得房利美支持的抵押贷款时抵押其加密货币持仓，而无需出售加密货币来支付现金首付。"</blockquote>这能出什么问题呢。[WSJ]</p>
-
-<h4 style="margin:24px 0 12px;">Manufacturing</h4>
-<h4 style="margin:24px 0 12px;">制造业</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Elon Musk</strong> announces "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Terafab</strong>" <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">semiconductor fab</strong> to make chips for Tesla cars, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Optimus</strong>, and space-based data centers.<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">"We either build the Terafab or we don't have the chips," he said while on stage at an event in Austin. "We need the chips, so we're going to build the Terafab."</blockquote>[WSJ]</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">埃隆·马斯克</strong>（Elon Musk）宣布建设"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Terafab</strong>"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">半导体工厂</strong>（semiconductor fab），为特斯拉汽车、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Optimus</strong>人形机器人和太空数据中心制造芯片。<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">"我们要么建造Terafab，要么就没有芯片，"他在奥斯汀一场活动的舞台上表示。"我们需要芯片，所以我们要建造Terafab。"</blockquote>[WSJ]</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Read more</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">阅读更多</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://www.construction-physics.com/p/reading-list-032826" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">datasette-showboat 0.1a2 发布</div>
+        <div class="title">Pretext 底层机制揭秘</div>
         <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
       </div>
-      <div class="title-en">datasette-showboat 0.1a2</div>
-      <div class="tags"><span class="tag">Datasette</span><span class="tag">版本发布</span><span class="tag">Markdown</span><span class="tag">增量更新</span></div>
-      <div class="summary">datasette-showboat发布0.1a2版本，新增Markdown文件导出功能，支持向远程服务器增量发布更新。</div>
+      <div class="title-en">Pretext — Under the Hood</div>
+      <div class="tags"><span class="tag">技术解析</span><span class="tag">工具原理</span></div>
+      <div class="summary">本文深入介绍了Pretext工具的底层工作原理与技术细节，并提供了相关笔记的参考链接供进一步阅读。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">I added an option to export a Markdown file from my app that lets Showboat incrementally publish updates to a remote server.</div><div class="quote-zh">我添加了一个选项，可以从我的应用导出 Markdown 文件，让 Showboat 能够增量发布更新到远程服务器。</div></div>
+<div class="quote-block"><div class="quote-en">See my notes on Pretext here.</div><div class="quote-zh">参见我整理的 Pretext 笔记。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">datasette-showboat 0.1a2</h3>
+      <div class="translation"><div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tool:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">工具：</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Release:<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">datasette-showboat</strong> 0.1a2</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">发布：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">datasette-showboat</strong> 0.1a2</p>
+<h3 style="margin:24px 0 12px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Pretext</strong> — <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Under the Hood</strong></h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Pretext</strong> — 底层原理解析</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I added an option to export a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Markdown</strong> file from my app that lets <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Showboat</strong>incrementally publish updatesto a remote server.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我在应用中添加了一个选项，用于导出 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Markdown</strong> 文件，该功能可使 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Showboat</strong> 向远程服务器<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">增量发布更新</strong>。</p></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">See my notes on Pretext here.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">参见我关于 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Pretext</strong> 的笔记。</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Simon Willison</div>
+      <div class="title-row">
+        <div class="title">Python 漏洞查询工具</div>
+        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
+      </div>
+      <div class="title-en">Python Vulnerability Lookup</div>
+      <div class="tags"><span class="tag">Python</span><span class="tag">漏洞查询</span><span class="tag">安全工具</span></div>
+      <div class="summary">作者基于 OSV.dev 的开放 API 开发了一款 HTML 工具，支持通过粘贴 pyproject.toml、requirements.txt 文件或 GitHub 仓库地址，快速检测 Python 项目中的已知安全漏洞。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">I learned that the OSV.dev open source vulnerability database has an open CORS JSON API so I had Claude Code build this HTML tool for pasting in a pyproject.toml or requirements.txt file (or name of a GitHub repo containing those) and seeing a list of all reported vulnerabilities from that API.</div><div class="quote-zh">我得知 OSV.dev 开源漏洞数据库提供了一个开放的 CORS JSON API，于是让 Claude Code 构建了这款 HTML 工具，用于粘贴 pyproject.toml 或 requirements.txt 文件（或包含这些文件的 GitHub 仓库名称），以查看该 API 返回的所有已报告漏洞列表。</div></div>
+</div>
+      <div class="translation"><div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+I learned that the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OSV.dev</strong> open source vulnerability database has an open <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CORS JSON API</strong> so I had <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> build this <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">HTML tool</strong> for pasting in a <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">pyproject.toml</code> or <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">requirements.txt</code> file (or name of a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GitHub</strong> repo containing those) and seeing a list of all reported vulnerabilities from that API.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+我了解到 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OSV.dev</strong>（开源漏洞数据库）提供了一个开放的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CORS JSON API</strong>（跨域资源共享 JSON 接口），因此我让 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> 构建了这款 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">HTML 工具</strong>，用于粘贴 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">pyproject.toml</code>（Python 项目配置文件）或 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">requirements.txt</code>（依赖文件）的内容（或包含这些文件的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GitHub</strong> 仓库名称），从而查看该 API 返回的所有已报告漏洞列表。
+</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Lenny&#x27;s Newsletter</div>
+      <div class="title-row">
+        <div class="title">从怀疑到信仰：OpenClaw 如何改变我的生活</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
+      </div>
+      <div class="title-en">From skeptic to true believer: How OpenClaw changed my life | Claire Vo</div>
+      <div class="tags"><span class="tag">AI代理</span><span class="tag">自动化</span><span class="tag">生产力</span></div>
+      <div class="summary">ChatPRD创始人Claire Vo分享了她从OpenClaw怀疑者（曾因误删家庭日历而受挫）转变为忠实用户的历程，详细介绍了如何通过9个AI代理管理业务、播客和家庭生活，并提供了安装配置、风险防范及多代理协作的实用建议。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">Why OpenClaw feels alive even though it’s not (this AI has a heartbeat but not a brain)</div><div class="quote-zh">为什么 OpenClaw 感觉像有生命，尽管它并没有（这个 AI 有心跳，却没有大脑）</div></div>
+<div class="quote-block"><div class="quote-en">it deleted her family calendar the first time she tried it</div><div class="quote-zh">她第一次尝试时，它就删掉了她的家庭日历</div></div>
+</div>
+      <div class="translation"><img src="https://substackcdn.com/image/fetch/$s_!UrR1!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3c7a4ec6-8af7-45e1-a6e8-e23177b056ab_1920x1080.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claire Vo</strong> is the host of our sister podcast, “How I AI,” a former product executive and engineer, and founder of an AI startup called <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatPRD</strong>. Claire now runs her business, podcast, and family life with the help of nine <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenClaw</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agents</strong> running on multiple <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Mac Minis</strong> and old laptops. In this episode, Claire shares her journey from OpenClaw skeptic (it deleted her family calendar the first time she tried it) to true believer, and gives a masterclass in using <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agents</strong> in real life.</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claire Vo</strong> 是我们姊妹播客 "How I AI" 的主持人，曾任产品高管和工程师，也是 AI 初创公司 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatPRD</strong> 的创始人。Claire 现在借助运行在多台 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Mac Mini</strong> 和旧笔记本电脑上的九个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenClaw</strong> 智能体（agents）来管理她的业务、播客和家庭生活。在本期节目中，Claire 分享了她从 OpenClaw 怀疑者（第一次试用时它就删除了她的家庭日历）到忠实信徒的转变历程，并传授了在现实生活中使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 智能体</strong>的精通课程。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Listen on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">YouTube</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Spotify</strong>, and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple Podcasts</strong></div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">可在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">YouTube</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Spotify</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple Podcasts</strong> 收听。</p>
+
+<h3 style="margin:24px 0 12px;">We discuss:</h3>
+
+<h3 style="margin:24px 0 12px;">本期讨论：</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>The exact step-by-step process to install and set up <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenClaw</strong> (it’s easier than you think)</li><li>How to avoid the biggest OpenClaw mistakes (don’t install it on your main computer)</li><li>Actual use cases that have changed Claire’s life (e.g. family scheduling, inbound sales, podcast prep, and course management)</li><li>Why multiple <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">specialized agents</strong> beat one <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">general-purpose agent</strong></li><li>The security risks everyone worries about—and how to handle them</li><li>Browser limitations, memory issues, and practical workarounds</li></ul></div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><ul style="margin:4px 0 24px;padding-left:20px;"><li>安装和设置 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenClaw</strong> 的确切分步流程（比你想象的更简单）</li><li>如何避免最大的 OpenClaw 使用误区（不要把它安装在你的主电脑上）</li><li>真正改变 Claire 生活的实际用例（例如家庭日程安排、Inbound 销售、播客准备和课程管理）</li><li>为什么多个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">专业化智能体</strong>（specialized agents）优于一个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">通用型智能体</strong>（general-purpose agent）</li><li>每个人都担心的安全风险——以及如何处理它们</li><li>浏览器限制、内存问题和实用的解决方法</li></ul></p>
+
+<h3 style="margin:24px 0 12px;">Brought to you by:</h3>
+
+<h3 style="margin:24px 0 12px;">本期赞助商：</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mercury</strong>—Radically different banking<br/><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Omni</strong>—AI analytics your customers can trust<br/><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Orkes</strong>—The enterprise platform for reliable applications and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic workflows</strong></blockquote></div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mercury</strong>——与众不同的银行服务<br/><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Omni</strong>——客户可信赖的 AI 分析工具<br/><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Orkes</strong>——企业级可靠应用与<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">智能体工作流</strong>（agentic workflows）平台</blockquote></p>
+
+<h3 style="margin:24px 0 12px;">Where to find Claire Vo:</h3>
+
+<h3 style="margin:24px 0 12px;">如何找到 Claire Vo：</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>X: <a href="https://x.com/clairevo">https://x.com/clairevo</a></li><li>LinkedIn: <a href="https://www.linkedin.com/in/clairevo">https://www.linkedin.com/in/clairevo</a></li><li>Podcast: <a href="https://www.youtube.com/@howiaipodcast">https://www.youtube.com/@howiaipodcast</a></li><li>Website: <a href="https://clairevo.com">https://clairevo.com</a></li><li>ChatPRD: <a href="https://www.chatprd.ai">https://www.chatprd.ai</a></li></ul></div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><ul style="margin:4px 0 24px;padding-left:20px;"><li><strong>X</strong>：<a href="https://x.com/clairevo">https://x.com/clairevo</a></li><li><strong>LinkedIn</strong>：<a href="https://www.linkedin.com/in/clairevo">https://www.linkedin.com/in/clairevo</a></li><li><strong>播客</strong>：<a href="https://www.youtube.com/@howiaipodcast">https://www.youtube.com/@howiaipodcast</a></li><li><strong>个人网站</strong>：<a href="https://clairevo.com">https://clairevo.com</a></li><li><strong>ChatPRD</strong>：<a href="https://www.chatprd.ai">https://www.chatprd.ai</a></li></ul></p>
+
+<h3 style="margin:24px 0 12px;">Referenced:</h3>
+
+<h3 style="margin:24px 0 12px;">参考资料：</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>OpenClaw: <a href="https://openclaw.ai">https://openclaw.ai</a></li><li>Claude Cowork: <a href="https://claude.com/product/cowork">https://claude.com/product/cowork</a></li><li>Fry’s Electronics: <a href="https://en.wikipedia.org/wiki/Fry%27s_Electronics">https://en.wikipedia.org/wiki/Fry’s_Electronics</a></li><li>Peter Steinberger on LinkedIn: <a href="https://www.linkedin.com/in/steipete">https://www.linkedin.com/in/steipete</a></li><li>Telegram: <a href="https://telegram.org">https://telegram.org</a></li><li>WhatsApp: <a href="https://www.whatsapp.com">https://www.whatsapp.com</a></li><li>Fin: <a href="https://fin.ai">https://fin.ai</a></li><li>Why OpenClaw feels alive even though it’s not (this AI has a heartbeat but not a brain): <a href="https://x.com/clairevo/status/2017741569521271175">https://x.com/clairevo/status/2017741569521271175</a></li><li>5 OpenClaw agents run my home, finances, and code | Jesse Genet: <a href="https://www.youtube.com/watch?v=96Vl8s3EQhk">https://www.youtube.com/watch?v=96Vl8s3EQhk</a></li><li>Executive Playbook for AI in Engineering, Product, and Design: <a href="https://maven.com/clairevo/ai-native-epd-org">https://maven.com/clairevo/ai-native-epd-org</a></li><li>Zach Davis on LinkedIn: <a href="https://www.linkedin.com/in/zach-m-davis/">https://www.linkedin.com/in/zach-m-davis/</a></li><li>ChatGPT Atlas: <a href="https://chatgpt.com/atlas">https://chatgpt.com/atlas</a></li><li>Perplexity Comet: <a href="https://www.perplexity.ai/comet">https://www.perplexity.ai/comet</a></li><li>Browser (OpenClaw-managed): <a href="https://docs.openclaw.ai/tools/browser">https://docs.openclaw.ai/tools/browser</a></li><li>Buffer: <a href="https://buffer.com">https://buffer.com</a></li><li>Brave: <a href="https://brave.com/search/api/">https://brave.com/search/api/</a></li><li>Exa: <a href="https://exa.ai">https://exa.ai</a></li><li>Hilary Gridley on X: <a href="https://x.com/yourgirlhils">https://x.com/yourgirlhils</a></li><li>How to become a supermanager with AI: <a href="https://www.lennysnewsletter.com/p/how-to-become-a-supermanager-with">https://www.lennysnewsletter.com/p/how-to-become-a-supermanager-with</a></li><li>How custom GPTs can make you a better manager | Hilary Gridley (Head of Core Product at Whoop): <a href="https://www.youtube.com/watch?v=xDMkkOC-EhI">https://www.youtube.com/watch?v=xDMkkOC-EhI</a></li><li>How to debug a team that isn’t working: the Waterline Model: <a href="https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working">https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working</a></li><li>Jensen Huang on LinkedIn: <a href="https://www.linkedin.com/in/jenhsunhuang">https://www.linkedin.com/in/jenhsunhuang</a></li><li>How I built a 1M+ subscriber newsletter and top 10 tech podcast | Lenny Rachitsky: <a href="https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter">https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter</a></li><li>Age of Attraction on Netflix: <a href="https://www.netflix.com/title/81779095">https://www.netflix.com/title/81779095</a></li><li>Oura Ring: <a href="https://ouraring.com/">https://ouraring.com/</a></li><li>Eight Sleep: <a href="https://www.eightsleep.com">https://www.eightsleep.com</a></li><li>Hoopsalytics: <a href="https://hoopsalytics.com">https://hoopsalytics.com</a></li><li>DJI Osmo smartphone gimbal: <a href="https://www.amazon.com/DJI-Stabilizer-Tracking-Extension-Stabilization/dp/B0FJ2L67HJ?ref_=ast_sto_dp">https://www.amazon.com/DJI-Stabilizer-Tracking-Extension-Stabilization/dp/B0FJ2L67HJ</a></li><li>Silent basketball: <a href="https://www.amazon.com/Rzkipdy-Silent-Basketball-Size-27-5/dp/B0FHFSQWPP/ref=sr_1_9">https://www.amazon.com/Rzkipdy-Silent-Basketball-Size-27-5/dp/B0FHFSQWPP/ref=sr_1_9</a></li><li>Marc Andreessen: The real AI boom hasn’t even started yet: <a href="https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom">https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom</a></li></ul></div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><ul style="margin:4px 0 24px;padding-left:20px;"><li><strong>OpenClaw</strong>：<a href="https://openclaw.ai">https://openclaw.ai</a></li><li><strong>Claude Cowork</strong>：<a href="https://claude.com/product/cowork">https://claude.com/product/cowork</a></li><li><strong>Fry's Electronics</strong>（弗莱斯电子）：<a href="https://en.wikipedia.org/wiki/Fry%27s_Electronics">https://en.wikipedia.org/wiki/Fry's_Electronics</a></li><li><strong>Peter Steinberger</strong> 的 LinkedIn：<a href="https://www.linkedin.com/in/steipete">https://www.linkedin.com/in/steipete</a></li><li><strong>Telegram</strong>：<a href="https://telegram.org">https://telegram.org</a></li><li><strong>WhatsApp</strong>：<a href="https://www.whatsapp.com">https://www.whatsapp.com</a></li><li><strong>Fin</strong>：<a href="https://fin.ai">https://fin.ai</a></li><li>为什么 OpenClaw 感觉像有生命但其实没有（这个 AI 有心跳但没有大脑）：<a href="https://x.com/clairevo/status/2017741569521271175">https://x.com/clairevo/status/2017741569521271175</a></li><li>5 个 OpenClaw 智能体管理我的家、财务和代码 | Jesse Genet：<a href="https://www.youtube.com/watch?v=96Vl8s3EQhk">https://www.youtube.com/watch?v=96Vl8s3EQhk</a></li><li>工程、产品和设计领域的 AI 执行手册：<a href="https://maven.com/clairevo/ai-native-epd-org">https://maven.com/clairevo/ai-native-epd-org</a></li><li><strong>Zach Davis</strong> 的 LinkedIn：<a href="https://www.linkedin.com/in/zach-m-davis/">https://www.linkedin.com/in/zach-m-davis/</a></li><li><strong>ChatGPT Atlas</strong>：<a href="https://chatgpt.com/atlas">https://chatgpt.com/atlas</a></li><li><strong>Perplexity Comet</strong>：<a href="https://www.perplexity.ai/comet">https://www.perplexity.ai/comet</a></li><li>浏览器（OpenClaw 托管）：<a href="https://docs.openclaw.ai/tools/browser">https://docs.openclaw.ai/tools/browser</a></li><li><strong>Buffer</strong>：<a href="https://buffer.com">https://buffer.com</a></li><li><strong>Brave</strong>：<a href="https://brave.com/search/api/">https://brave.com/search/api/</a></li><li><strong>Exa</strong>：<a href="https://exa.ai">https://exa.ai</a></li><li><strong>Hilary Gridley</strong> 的 X：<a href="https://x.com/yourgirlhils">https://x.com/yourgirlhils</a></li><li>如何用 AI 成为超级管理者：<a href="https://www.lennysnewsletter.com/p/how-to-become-a-supermanager-with">https://www.lennysnewsletter.com/p/how-to-become-a-supermanager-with</a></li><li>自定义 GPT 如何让你成为更好的管理者 | Hilary Gridley（Whoop 核心产品负责人）：<a href="https://www.youtube.com/watch?v=xDMkkOC-EhI">https://www.youtube.com/watch?v=xDMkkOC-EhI</a></li><li>如何调试一个不工作的团队：Waterline 模型：<a href="https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working">https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working</a></li><li><strong>Jensen Huang</strong>（黄仁勋）的 LinkedIn：<a href="https://www.linkedin.com/in/jenhsunhuang">https://www.linkedin.com/in/jenhsunhuang</a></li><li>如何建立 100 万+订阅者的通讯和十大科技播客 | Lenny Rachitsky：<a href="https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter">https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter</a></li><li>Netflix 上的 <strong>Age of Attraction</strong>：<a href="https://www.netflix.com/title/81779095">https://www.netflix.com/title/81779095</a></li><li><strong>Oura Ring</strong>：<a href="https://ouraring.com/">https://ouraring.com/</a></li><li><strong>Eight Sleep</strong>：<a href="https://www.eightsleep.com">https://www.eightsleep.com</a></li><li><strong>Hoopsalytics</strong>：<a href="https://hoopsalytics.com">https://hoopsalytics.com</a></li><li><strong>DJI Osmo</strong> 手机云台：<a href="https://www.amazon.com/DJI-Stabilizer-Tracking-Extension-Stabilization/dp/B0FJ2L67HJ?ref_=ast_sto_dp">https://www.amazon.com/DJI-Stabilizer-Tracking-Extension-Stabilization/dp/B0FJ2L67HJ</a></li><li>静音篮球：<a href="https://www.amazon.com/Rzkipdy-Silent-Basketball-Size-27-5/dp/B0FHFSQWPP/ref=sr_1_9">https://www.amazon.com/Rzkipdy-Silent-Basketball-Size-27-5/dp/B0FHFSQWPP/ref=sr_1_9</a></li><li><strong>Marc Andreessen</strong>：真正的 AI 繁荣尚未开始：<a href="https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom">https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom</a></li></ul></p>
+
+<h3 style="margin:24px 0 12px;">Recommended books:</h3>
+
+<h3 style="margin:24px 0 12px;">推荐书籍：</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>Treasure Island: <a href="https://www.amazon.com/Treasure-Island-Robert-Louis-Stevenson/dp/1505297400">https://www.amazon.com/Treasure-Island-Robert-Louis-Stevenson/dp/1505297400</a></li><li>Alice’s Adventures in Wonderland: <a href="https://www.amazon.com/Alices-Adventures-Wonderland-Illustrated-Illustrations/dp/991673268X">https://www.amazon.com/Alices-Adventures-Wonderland-Illustrated-Illustrations/dp/991673268X</a></li><li>Charts for Babies: A Picture Book: <a href="https://www.amazon.com/Charts-Babies-Picture-Book/dp/1419785184">https://www.amazon.com/Charts-Babies-Picture-Book/dp/1419785184</a></li></ul></div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><ul style="margin:4px 0 24px;padding-left:20px;"><li>《<strong>金银岛</strong>》（Treasure Island）：<a href="https://www.amazon.com/Treasure-Island-Robert-Louis-Stevenson/dp/1505297400">https://www.amazon.com/Treasure-Island-Robert-Louis-Stevenson/dp/1505297400</a></li><li>《<strong>爱丽丝梦游仙境</strong>》（Alice's Adventures in Wonderland）：<a href="https://www.amazon.com/Alices-Adventures-Wonderland-Illustrated-Illustrations/dp/991673268X">https://www.amazon.com/Alices-Adventures-Wonderland-Illustrated-Illustrations/dp/991673268X</a></li><li>《<strong>婴儿图表：图画书</strong>》（Charts for Babies: A Picture Book）：<a href="https://www.amazon.com/Charts-Babies-Picture-Book/dp/1419785184">https://www.amazon.com/Charts-Babies-Picture-Book/dp/1419785184</a></li></ul></p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Production and marketing by <a href="https://penname.co/">https://penname.co/</a>. For inquiries about sponsoring the podcast, email <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">podcast@lennyrachitsky.com</code>.</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">制作与营销由 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Penname</strong> 负责。有关播客赞助事宜，请发送邮件至 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">podcast@lennyrachitsky.com</code>。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Lenny may be an investor in the companies discussed.</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Lenny</strong> 可能是本文讨论公司的投资者。</p>
+
+<h3 style="margin:24px 0 12px;">My biggest takeaways from this conversation:</h3>
+
+<h3 style="margin:24px 0 12px;">本期对话的最大收获：</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Read more</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">阅读更多</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo" target="_blank">阅读原文 &rarr;</a>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-03-28
+  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-03-29
 </div>
 
 <script>

@@ -7,28 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 28 Mar 2026 23:02:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 23:04:48 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-28</title>
-      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-29</title>
+      <description>&lt;p&gt;&lt;strong&gt;AI/技术日报&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;智能体编程范式转变&lt;/strong&gt;：Matt Webb 提出&amp;quot;vibing&amp;quot;（氛围编程）概念，指出 AI 智能体虽可凭海量算力暴力破解代码，但理想开发模式应建立在优秀架构设计与库封装之上，开发者正从关注代码细节转向更深层的架构思考。（Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;AI 编程实践社区经验&lt;/strong&gt;：精选讨论涵盖 Claude Code 与 Codex 协同编程的实战经验，以及应对 AI 技术迭代速度超过产品战略时的开发策略调整。（Kiyani / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenClaw 深度实践：从怀疑者到 9 代理自动化&lt;/strong&gt; | Lenny&amp;#x27;s Newsletter&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ChatPRD 创始人 Claire Vo 详述其从误删日历的挫败到搭建 9 个 AI 代理管理业务、播客与家庭生活的完整转型路径，提供配置指南、风险防范及多代理协作机制。（作者：Lenny Rachitsky）&lt;/p&gt;
+&lt;h4&gt;工程与系统设计&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AI 时代产品管理策略&lt;/strong&gt;：探讨当技术迭代快于产品战略时的应对思路，以及解决项目估算持续偏差的实践方法。（Kiyani / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pretext：高性能浏览器文本渲染方案&lt;/strong&gt; | Simon Willison&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;工程与工具&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;创新性地将文本测量拆分为 &lt;code&gt;prepare()&lt;/code&gt; 预缓存与 &lt;code&gt;layout()&lt;/code&gt; 快速计算两个阶段，利用离屏 canvas 规避昂贵 DOM 操作，实现多行文本高度的毫秒级估算；作者另文深入解析底层实现细节。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Datasette 生态更新&lt;/strong&gt;：datasette-showboat 发布 0.1a2 版本，新增 Markdown 文件导出功能，并支持向远程服务器增量发布更新。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python Vulnerability Lookup：轻量级依赖安全扫描&lt;/strong&gt; | Simon Willison&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;地缘政治与全球供应链&lt;/strong&gt;：分析伊朗战争导致霍尔木兹海峡关闭引发的能源与供应链连锁危机（波及塑料、制药及数据中心运营）；同步关注美国住房法案争议与马斯克&amp;quot;Terafab&amp;quot;半导体工厂计划等工业技术动态。（Brian Potter / Construction Physics）&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-28</guid>
-      <pubDate>Sat, 28 Mar 2026 23:02:33 +0000</pubDate>
+&lt;p&gt;基于 OSV.dev API 开发的 HTML 工具，支持通过粘贴 &lt;code&gt;pyproject.toml&lt;/code&gt;、&lt;code&gt;requirements.txt&lt;/code&gt; 或 GitHub 仓库地址，即时检测 Python 项目的已知 CVE 漏洞。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-29</guid>
+      <pubDate>Sun, 29 Mar 2026 23:04:48 +0000</pubDate>
     </item>
   </channel>
 </rss>
