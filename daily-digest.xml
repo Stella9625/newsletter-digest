@@ -7,26 +7,30 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 29 Mar 2026 23:04:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 23:32:06 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-29</title>
-      <description>&lt;p&gt;&lt;strong&gt;AI/技术日报&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-03-30</title>
+      <description>&lt;p&gt;&lt;strong&gt;AI/产品/技术日报&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
 &lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;OpenClaw 深度实践：从怀疑者到 9 代理自动化&lt;/strong&gt; | Lenny&amp;#x27;s Newsletter&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;datasette-llm 0.1a3 发布&lt;/strong&gt;（Simon Willison）：新增多场景模型配置能力，支持为不同插件限制可用LLM范围，提升工具链灵活性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mr. Chatterbox：维多利亚时代本地模型&lt;/strong&gt;（Simon Willison）：基于大英图书馆2.8万本19世纪公版书训练，提供完全本地运行的历史文本AI体验（虽性能有限但具实验价值），相关插件已同步发布。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claude Mythos 曝光&lt;/strong&gt;（TLDR）：Anthropic正在研发性能超越Opus的新模型，付费订阅量快速增长；同时xAI最后一位联合创始人离职，OpenAI分享AI评估实践经验。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;ChatPRD 创始人 Claire Vo 详述其从误删日历的挫败到搭建 9 个 AI 代理管理业务、播客与家庭生活的完整转型路径，提供配置指南、风险防范及多代理协作机制。（作者：Lenny Rachitsky）&lt;/p&gt;
+&lt;hr&gt;
 &lt;h4&gt;工程与系统设计&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Pretext：高性能浏览器文本渲染方案&lt;/strong&gt; | Simon Willison&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;本地模型与Coding Agents的整合困境&lt;/strong&gt;（Simon Willison）：Georgi Gerganov指出，从输入到输出的长链条涉及多方开发的脆弱组件（框架、聊天模板、提示词构建），导致本地模型难以与编程代理无缝配合，细微缺陷难以根除。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stripe&amp;quot;minions&amp;quot;规模化实践&lt;/strong&gt;（Lenny Rachitsky）：AI编码代理每周自动提交1300个PR，工程团队强调成功的关键在于开发者体验投资与云环境建设，而非仅依赖提示词工程。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;创新性地将文本测量拆分为 &lt;code&gt;prepare()&lt;/code&gt; 预缓存与 &lt;code&gt;layout()&lt;/code&gt; 快速计算两个阶段，利用离屏 canvas 规避昂贵 DOM 操作，实现多行文本高度的毫秒级估算；作者另文深入解析底层实现细节。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;产品与增长（AI应用创新）&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Python Vulnerability Lookup：轻量级依赖安全扫描&lt;/strong&gt; | Simon Willison&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;基于 OSV.dev API 开发的 HTML 工具，支持通过粘贴 &lt;code&gt;pyproject.toml&lt;/code&gt;、&lt;code&gt;requirements.txt&lt;/code&gt; 或 GitHub 仓库地址，即时检测 Python 项目的已知 CVE 漏洞。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-29</guid>
-      <pubDate>Sun, 29 Mar 2026 23:04:48 +0000</pubDate>
+&lt;li&gt;&lt;strong&gt;Claude Code作为个人生活操作系统&lt;/strong&gt;（Lenny&amp;#x27;s Newsletter - Lenny Rachitsky &amp;amp; Claire Vo）：创业者提出&amp;quot;反系统系统&amp;quot;（Anti-system System）理念，无需复杂配置，通过自然交互让Claude Code观察学习用户偏好，以极简方式自动化管理职业事务与日常生活。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-30</guid>
+      <pubDate>Mon, 30 Mar 2026 23:32:06 +0000</pubDate>
     </item>
   </channel>
 </rss>
