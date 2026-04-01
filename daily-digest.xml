@@ -7,30 +7,32 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 30 Mar 2026 23:32:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 23:18:39 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-03-30</title>
-      <description>&lt;p&gt;&lt;strong&gt;AI/产品/技术日报&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
+      <title>📰 AI/产品/技术日报 - 2026-04-01</title>
+      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;datasette-llm 0.1a3 发布&lt;/strong&gt;（Simon Willison）：新增多场景模型配置能力，支持为不同插件限制可用LLM范围，提升工具链灵活性。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mr. Chatterbox：维多利亚时代本地模型&lt;/strong&gt;（Simon Willison）：基于大英图书馆2.8万本19世纪公版书训练，提供完全本地运行的历史文本AI体验（虽性能有限但具实验价值），相关插件已同步发布。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Claude Mythos 曝光&lt;/strong&gt;（TLDR）：Anthropic正在研发性能超越Opus的新模型，付费订阅量快速增长；同时xAI最后一位联合创始人离职，OpenAI分享AI评估实践经验。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Datasette 生态 LLM 套件集体更新&lt;/strong&gt;（Simon Willison）：核心库 datasette-llm（0.1a5）新增链式提示与工具调用循环追踪能力，datasette-extract（0.3a0）、datasette-enrichments-llm（0.2a0）、datasette-llm-usage（0.2a0）同步升级，统一迁移至 datasette-llm 管理模型配置，分别支持数据提取、增强与使用追踪场景下的精细化模型控制（含完整提示词与响应入库功能）。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4&gt;工程与系统设计&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;本地模型与Coding Agents的整合困境&lt;/strong&gt;（Simon Willison）：Georgi Gerganov指出，从输入到输出的长链条涉及多方开发的脆弱组件（框架、聊天模板、提示词构建），导致本地模型难以与编程代理无缝配合，细微缺陷难以根除。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stripe&amp;quot;minions&amp;quot;规模化实践&lt;/strong&gt;（Lenny Rachitsky）：AI编码代理每周自动提交1300个PR，工程团队强调成功的关键在于开发者体验投资与云环境建设，而非仅依赖提示词工程。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claude Code 源码泄露揭示架构细节&lt;/strong&gt;（Latent Space）：约 50 万行源代码意外曝光，披露该 AI 编程代理采用三层内存系统、子代理并行机制等底层架构，包含大量未发布功能，为开发者社区提供罕见的技术研究样本。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4&gt;产品与增长（AI应用创新）&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Claude Code作为个人生活操作系统&lt;/strong&gt;（Lenny&amp;#x27;s Newsletter - Lenny Rachitsky &amp;amp; Claire Vo）：创业者提出&amp;quot;反系统系统&amp;quot;（Anti-system System）理念，无需复杂配置，通过自然交互让Claude Code观察学习用户偏好，以极简方式自动化管理职业事务与日常生活。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenClaw 高阶实战指南&lt;/strong&gt;（Lenny Rachitsky）：产品专家 Claire Vo 分享从怀疑者到重度用户的转变，详解如何通过 9 个专属 AI 代理管理业务与生活，涵盖工具设置、多代理协作及六个可立即落地的高效工作流。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI 编程工具 Cursor&lt;/strong&gt;（TLDR）：受 Stripe、OpenAI、NVIDIA 等采用的 Cursor 支持多模型集成与智能代码代理，提供并行开发功能以提升构建效率。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;工程与安全&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Axios npm 供应链攻击&lt;/strong&gt;（Simon Willison）：因长期有效的 npm 令牌泄露，攻击者成功发布恶意依赖。建议采用可信发布（Trusted Publishing）机制限制发布权限，并通过检查 GitHub Release 关联性识别可疑包。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI 代码质量的市场选择&lt;/strong&gt;（Simon Willison）：引用 Soohoon Choi 观点指出，经济激励而非主观意愿将决定 AI 代码质量——优质代码因降低维护成本、提升交付可靠性而在市场竞争中自然胜出，低质量&amp;quot;代码垃圾&amp;quot;（slop）终将被淘汰。&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-03-30</guid>
-      <pubDate>Mon, 30 Mar 2026 23:32:06 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-01</guid>
+      <pubDate>Wed, 01 Apr 2026 23:18:39 +0000</pubDate>
     </item>
   </channel>
 </rss>

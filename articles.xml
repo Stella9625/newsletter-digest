@@ -7,592 +7,653 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 30 Mar 2026 23:31:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 23:17:35 +0000</lastBuildDate>
     <item>
-      <title>[翻译] TLDR AI: Claude Mythos泄露、xAI联合创始人全员离职、OpenAI经验谈</title>
-      <link>https://tldr.tech/ai/2026-03-30</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #大模型 #AI行业 #技术进展&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本文披露了Anthropic正在研发性能超越Opus的Claude Mythos新模型且付费订阅量快速增长，同时报道了xAI最后一位联合创始人离职的消息，并分享了来自OpenAI关于AI评估与研发的实践经验。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Claude Mythos leaks 🤖, last xAI cofounder exits 👋, lessons from OpenAI 💡&lt;/p&gt;
+      <title>[翻译] TLDR AI: Claude Code 泄露🔓、Veo 3.1 Lite ⚡、1-bit 模型🤏</title>
+      <link>https://tldr.tech/ai/2026-04-01</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Claude #Veo #1-bit模型 #Cursor&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本文介绍了AI编程工具Cursor，该软件受Stripe、OpenAI及NVIDIA等顶级科技公司信赖，支持集成多种前沿大模型并提供智能代码代理与并行开发功能，可显著提升软件构建效率且免费开放使用。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Claude Code leak 🔓, Veo 3.1 Lite ⚡, 1-bit models 🤏&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;TLDR AI 2026-03-30&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;TLDR AI 2026-03-30&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;TLDR AI 2026-03-30&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Claude Mythos leaks 🤖, last xAI cofounder exits 👋, lessons from OpenAI 💡&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Claude Mythos leaks 🤖, last xAI cofounder exits 👋, lessons from OpenAI 💡&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Claude Mythos 模型泄露 🤖，xAI 最后一位联合创始人离职 👋，OpenAI 的经验教训 💡&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Claude Mythos (3 minute read)&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;'Mythos' is the name for a new tier of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; models that are larger and more intelligent than &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Opus&lt;/strong&gt;. The models get dramatically higher scores on tests of software coding, academic reasoning, and cybersecurity compared to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Opus 4.6&lt;/strong&gt;. Mythos is a large, compute-intensive model that is very expensive to use and serve. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; is working on making the model much more efficient before any general release.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Mythos&lt;/strong&gt; 是 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 全新级别模型的名称，比 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Opus&lt;/strong&gt; 规模更大、智能程度更高。与 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Opus 4.6&lt;/strong&gt; 相比，该模型在软件编程、学术推理和网络安全测试中获得了显著更高的分数。Mythos 是一个大型、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Compute-Intensive&lt;/strong&gt;（计算密集型）的模型，使用和部署成本极高。Anthropic 正在努力提高该模型的效率，然后才会进行任何公开发布。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Meta tests Avocado 9B, Avocado Mango Agent, and more (2 minute read)&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt;'s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Avocado&lt;/strong&gt; model has been pushed back to at least May as it still falls short of leading systems from competitors. The company appears to be running parallel experiments with multiple &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Avocado&lt;/strong&gt; variants. The model appears to be able to solve complex math problems that earlier &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Llama&lt;/strong&gt; models could not, but these problems have already been solved by other labs months earlier. Meta's AI leadership has reportedly discussed temporarily licensing &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt;'s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemini&lt;/strong&gt; technology. Some requests within Meta AI are already being routed through &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemini&lt;/strong&gt; models.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Avocado&lt;/strong&gt; 模型已被推迟到至少五月发布，因为它仍落后于竞争对手的领先系统。该公司似乎正在并行运行多个 Avocado 变体的实验。该模型似乎能够解决早期 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Llama&lt;/strong&gt; 模型无法解决的复杂数学问题，但这些问题早在数月前已被其他实验室解决。据报道，Meta 的 AI 领导层曾讨论暂时许可 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemini&lt;/strong&gt; 技术。Meta AI 中的某些请求已经通过 Gemini 模型进行路由。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Anthropic's Claude popularity with paying consumers is skyrocketing (4 minute read)&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; is more popular with customers than ever. &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; is gaining paid subscribers in record numbers. Paid subscriptions have more than doubled this year. The majority of new subscribers were in the lowest tier. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; is still gaining new paid subscribers at a rapid rate and remains the biggest consumer AI platform.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 在客户中的受欢迎程度前所未有。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; 正在以创纪录的数量获得付费订阅者。付费订阅今年已增长超过一倍。大多数新订阅者来自最低档位。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 仍在以快速速度获得新的付费订阅者，并仍然是最大的消费者 AI 平台。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Function Calling Harness: From 6.75% to 100% (32 minute read)&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AutoBe&lt;/strong&gt; is an open-source &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI Agent&lt;/strong&gt; that takes a single natural language conversation and generates a complete backend. &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;qwen3-coder-next&lt;/strong&gt; has a 6.75% function calling success rate when asked to generate API data types for a shopping mall backend. &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AutoBe&lt;/strong&gt; boosts that success rate up to over 99.8%. It uses a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Harness&lt;/strong&gt; where type schemas constrain outputs, compilers verify results, and structure feedback pinpoints compactly where and why something went wrong so the agent can correct itself. This post dissects the engineering behind &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AutoBe&lt;/strong&gt;.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AutoBe&lt;/strong&gt; 是一个开源的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI Agent&lt;/strong&gt;（AI 智能体），它接受单一的自然语言对话并生成完整的后端。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;qwen3-coder-next&lt;/strong&gt; 在被要求为商场后端生成 API 数据类型时，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Function Calling&lt;/strong&gt;（函数调用）成功率仅为 6.75%。AutoBe 将该成功率提升至超过 99.8%。它使用一种 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Harness&lt;/strong&gt;（约束框架），其中类型模式（Type Schemas）约束输出，编译器验证结果，结构化反馈精确定位出错的位置和原因，以便智能体能够自我纠正。本文剖析了 AutoBe 背后的工程原理。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;AI's capability improvements haven't come from it getting less affordable (12 minute read)&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;AI's capability improvements at the frontier have not led to increased &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Inference Costs&lt;/strong&gt; relative to human labor. Despite rising per-task inference costs, current models achieve tasks at roughly 3% of human costs without any upward trend in median cost ratios. Models can continue advancing even under strict cost constraints, enabling profitable automation with AI cost ratios remaining well below human levels.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;前沿 AI 的能力提升并未导致相对于人工劳动的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Inference Costs&lt;/strong&gt;（推理成本）增加。尽管每项任务的推理成本在上升，但当前模型完成任务的成本大约仅为人工成本的 3%，且成本比率中位数没有上升趋势。模型即使在严格的成本约束下也能继续进步，使得 AI 成本比率保持在远低于人工水平的情况下实现可盈利的自动化。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;The Capability Overhang in AI (4 minute read)&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Coding Agents&lt;/strong&gt; outperform other domains because codebases provide a self-contained environment of critical context, unlike fragmented knowledge work spread across video calls and legacy systems. Enterprise adoption remains stalled by the three hard problems of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Context Fragmentation&lt;/strong&gt;, complex access control, and a rapidly shifting architecture landscape.&lt;br/&gt;&lt;br/&gt;👨‍💻&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Coding Agents&lt;/strong&gt;（编程智能体）之所以在其他领域中表现突出，是因为代码库提供了一个包含关键上下文的自包含环境，而不像分散在视频会议和遗留系统中的碎片化知识工作。企业采用仍然受到三大难题的阻碍：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Context Fragmentation&lt;/strong&gt;（上下文碎片化）、复杂的访问控制（Access Control）以及快速变化的架构环境。&lt;br/&gt;&lt;br/&gt;👨‍💻&lt;/p&gt;
-
-&lt;h3 style="margin:24px 0 12px;"&gt;Engineering &amp; Research&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Engineering &amp; Research&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;工程与研究&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Schedule tasks on the web (5 minute read)&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; on the web users can now schedule tasks. The tasks will run on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;-managed infrastructure, so they will keep working even if users turn off their devices. Scheduled tasks are available to all &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; on the web users. Example tasks include reviewing open &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pull Requests&lt;/strong&gt; each morning, analyzing &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CI&lt;/strong&gt; failures overnight and surfacing summaries, syncing documentation after PRs merge, and running dependency audits every week.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;网页版 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; 用户现在可以安排任务。这些任务将在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 管理的基础设施上运行，因此即使用户关闭设备，它们也会继续工作。定时任务（Scheduled Tasks）对所有网页版 Claude Code 用户可用。示例任务包括每天早上审查开放的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pull Requests&lt;/strong&gt;（拉取请求）、过夜分析 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CI&lt;/strong&gt;（持续集成）故障并展示摘要、在 PR 合并后同步文档，以及每周运行依赖审计。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;What Pretext Reinforced About AI Loops (5 minute read)&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pretext&lt;/strong&gt; is a fast, accurate, comprehensive text measurement algorithm that can lay out web pages without leaning on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;DOM&lt;/strong&gt; measurement and reflow. It was created using AI agent workflows. The particular loop that was used in developing the tool (constrain -&gt; measure -&gt; isolate -&gt; classify -&gt; test -&gt; reject -&gt; keep only what survives broad pressure) made the engineering rigorous. This article analyzes the loop to see what makes it so successful.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pretext&lt;/strong&gt; 是一种快速、准确、全面的文本测量算法，它可以在不依赖 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;DOM&lt;/strong&gt;（Document Object Model，文档对象模型）测量和重排（Reflow）的情况下布局网页。它是使用 AI 智能体工作流创建的。开发该工具时使用的特定循环（约束 -&gt; 测量 -&gt; 隔离 -&gt; 分类 -&gt; 测试 -&gt; 拒绝 -&gt; 只保留经受住广泛压力的部分）使工程变得严谨。本文分析了该循环，以探究其成功的原因。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;lat.md (GitHub Repo)&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;lat.md&lt;/strong&gt; is a spec that agents keep in sync with the code base that helps them understand big ideas and key business logic. It ensures that corner cases have proper high-level tests that matter and can speed up coding by saving agents from endless &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;grepping&lt;/strong&gt;. The spec uses plain Markdown, with Wiki links connecting concepts into a navigable graph.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;lat.md&lt;/strong&gt; 是一种规范（Spec），智能体将其与代码库保持同步，帮助它们理解宏大的想法和关键业务逻辑。它确保边界情况（Corner Cases）有重要的高级测试，并且可以通过节省智能体无休止的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;grep&lt;/strong&gt;（全局正则表达式搜索）来加速编码。该规范使用纯 Markdown，使用 Wiki 链接将概念连接成可导航的图。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;xAI's Last Cofounder Leaves (3 minute read)&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;All remaining co-founders of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;xAI&lt;/strong&gt; reportedly departed, marking the complete exit of the original founding team.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;据报道，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;xAI&lt;/strong&gt; 的所有剩余联合创始人已离职，标志着原始创始团队的完全退出。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Things I learned at OpenAI (7 minute read)&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; alumni emphasize the significance of creating effective &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Evaluations&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Benchmarks&lt;/strong&gt;, noting that the best benchmarks drive collective optimization efforts. &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Post-Training&lt;/strong&gt; data design and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Model Alignment&lt;/strong&gt; are critical for unlocking new AI capabilities, particularly in subjective attributes like empathy or creativity. Fast iteration, choosing the right problems, and leveraging internal tooling are key competitive advantages in AI research.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 校友强调了创建有效 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Evaluations&lt;/strong&gt;（评估）和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Benchmarks&lt;/strong&gt;（基准测试）的重要性，指出最好的基准测试能够推动集体优化工作。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Post-Training&lt;/strong&gt;（训练后）数据设计和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Model Alignment&lt;/strong&gt;（模型对齐）对于解锁新的 AI 能力至关重要，特别是在同理心或创造力等主观属性方面。快速迭代、选择正确的问题以及利用内部工具是 AI 研究中的关键竞争优势。&lt;/p&gt;
-
-&lt;h3 style="margin:24px 0 12px;"&gt;Get the most interesting AI stories and breakthroughs delivered in a free daily email.&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Join 920,000 readers for&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;加入 920,000 名读者，获取最有趣的 AI 故事和突破，免费每日邮件送达。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://tldr.tech/ai/2026-03-30"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-30</guid>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Lenny's Newsletter: 用Claude Code打造个人生活操作系统</title>
-      <link>https://www.lennysnewsletter.com/p/how-to-turn-claude-code-into-your</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Claude Code #生产力 #个人管理 #AI自动化&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 创业者Hilary Gridley分享了如何将Claude Code打造成个人生活操作系统，提出&amp;quot;反系统系统&amp;quot;理念——无需复杂配置，而是通过AI观察自动学习偏好，以极简方式高效管理职业事务与日常生活。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: How to turn Claude Code into your personal life operating system | Hilary Gridley&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;How to turn Claude Code into your personal life operating system | Hilary Gridley&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hilary Gridley&lt;/strong&gt; is an entrepreneur, former product leader, and new mom who previously appeared on the podcast discussing &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; for managers. She returns to share how she's transformed her approach to personal productivity using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; as her primary tool for managing both professional work and life admin. Hilary demonstrates her "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;anti-system system&lt;/strong&gt;"—a philosophy that prioritizes simplicity over complex setup, allowing AI to learn preferences through observation rather than upfront configuration.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hilary Gridley&lt;/strong&gt; 是一位企业家、前产品负责人，也是新晋妈妈，她曾在节目中讨论过面向管理者的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 话题。这次她回归分享如何转变个人生产力方法，将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; 作为管理专业工作与生活事务的主要工具。Hilary 展示了她的"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;反系统系统&lt;/strong&gt;"（anti-system system）理念——一种优先选择简洁而非复杂设置的哲学，让 AI 通过观察而非预先配置来学习偏好。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Listen or watch on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt;, or &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;可在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt; 或 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt; 上收听或观看。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;What you’ll learn:&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;How to capture to-dos instantly using a simple &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;iPhone back-tap shortcut&lt;/strong&gt; that requires zero app switching&lt;/li&gt;&lt;li&gt;How to capture to-dos instantly using a simple iPhone back-tap shortcut that requires zero app switching&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如何使用简单的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;iPhone 背部轻点快捷指令&lt;/strong&gt;（iPhone back-tap shortcut）即时捕捉待办事项，无需切换任何应用。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/how-to-turn-claude-code-into-your"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/how-to-turn-claude-code-into-your</guid>
-      <pubDate>Mon, 30 Mar 2026 12:04:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Lenny's Newsletter: Stripe如何构建每周提交1300个PR的AI编程代理</title>
-      <link>https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-stripe</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI编程 #开发效能 #自动化 #工程实践&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Stripe工程师详解了其AI编码代理&amp;quot;minions&amp;quot;每周自动提交1300个PR的工程实践，指出开发者体验投资与云环境是规模化关键；同时分享了将Claude Code作为个人生活操作系统的&amp;quot;反系统&amp;quot;方法论，通过自然交互让AI观察学习以实现自动化管理。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: 🎙️ This week on How I AI: How Stripe built “minions”—AI coding agents that ship 1,300 PRs per week + How to turn Claude Code into your personal life operating system&lt;/p&gt;
-&lt;hr/&gt;
-&lt;img src="https://substackcdn.com/image/fetch/$s_!gWeJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F361d81ef-7faf-4d8e-8028-5d5e03432a9a_2329x551.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;h3 style="margin:24px 0 12px;"&gt;How Stripe built “minions”—AI coding agents that ship 1,300 PRs weekly from Slack reactions | Steve Kaliski (Stripe engineer)&lt;/h3&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Stripe 如何构建“小黄人”（minions）——每周从 Slack 表情触发生成 1,300 个 PR 的 AI 编程智能体 | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Steve Kaliski&lt;/strong&gt;（Stripe 工程师）&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Listen now on &lt;a href="#"&gt;YouTube&lt;/a&gt; • &lt;a href="#"&gt;Spotify&lt;/a&gt; • &lt;a href="#"&gt;Apple Podcasts&lt;/a&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;立即收听：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt; • &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt; • &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt;&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!IT4Y!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0ac6d031-092b-45fd-9680-c2849b190ed5_1600x114.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;Brought to you by:&lt;br/&gt;&lt;strong&gt;Optimizely&lt;/strong&gt;—Your AI agent orchestration platform for marketing and digital teams&lt;br/&gt;&lt;strong&gt;Rippling&lt;/strong&gt;—Stop wasting time on admin tasks, build your startup faster&lt;/blockquote&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;本期赞助：&lt;br/&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Optimizely&lt;/strong&gt;——面向营销和数字团队的 AI 智能体编排平台&lt;br/&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Rippling&lt;/strong&gt;——停止在行政事务上浪费时间，更快构建你的创业公司&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Brought to you by:&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;本期赞助：&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Optimizely—Your AI agent orchestration platform for marketing and digital teams&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Optimizely&lt;/strong&gt;——面向营销和数字团队的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI agent&lt;/strong&gt;（AI 智能体）编排平台&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Optimizely—Your AI agent orchestration platform for marketing and digital teams&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Optimizely——面向营销和数字团队的 AI 智能体编排平台&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Rippling—Stop wasting time on admin tasks, build your startup faster&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Rippling&lt;/strong&gt;——停止在行政事务上浪费时间，更快构建你的创业公司&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Rippling—Stop wasting time on admin tasks, build your startup faster&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Rippling——停止在行政事务上浪费时间，更快构建你的创业公司&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Steve Kaliski&lt;/strong&gt; has spent over six years building developer infrastructure at &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Stripe&lt;/strong&gt;. In this conversation with Claire, he breaks down Stripe's "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;minions&lt;/strong&gt;": &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI coding agents&lt;/strong&gt; that ship about 1,300 pull requests per week, often kicked off with nothing more than a Slack emoji. He explains why the real bottleneck in engineering isn't coding, how &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;cloud development environments&lt;/strong&gt; unlock parallel AI workflows, and what it takes to safely review thousands of AI-generated PRs. He also demos AI agents that can spend money, coordinate services, and complete tasks end-to-end without human involvement.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Steve Kaliski&lt;/strong&gt; 已在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Stripe&lt;/strong&gt; 工作六年多，负责构建开发者基础设施。在本期对话中，他向 Claire 详细解析了 Stripe 的“&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;小黄人&lt;/strong&gt;”（minions）：每周能提交约 1,300 个拉取请求（pull request）的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 编程智能体&lt;/strong&gt;（AI coding agents），通常只需一个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt; 表情即可触发。他解释了工程领域的真正瓶颈并非编写代码，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;云开发环境&lt;/strong&gt;（cloud development environments）如何解锁并行的 AI 工作流，以及如何安全地审查数千个 AI 生成的 PR。他还演示了能够自主花钱、协调服务并在无需人工干预的情况下端到端完成任务的 AI 智能体。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Biggest takeaways:&lt;/h4&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;核心要点：&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;What's good for human developers is good for AI agents (and vice versa). Stripe's years of investment in developer experience—comprehensive documentation, blessed paths for common tasks, robust &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CI/CD&lt;/strong&gt;, excellent tooling—directly translates to higher AI agent success rates. When you have clear docs on "how to add a new API field," the agent can follow those same instructions. This creates a virtuous cycle: investments in DX improve agent performance, and investments in agent infrastructure (like cloud environments) benefit human developers too.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;对人类开发者有益的东西对 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 智能体&lt;/strong&gt;（AI agents）同样有益（反之亦然）。Stripe 多年来对开发者体验（DX）的投入——全面的文档、通用任务的标准路径（blessed paths）、强大的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CI/CD&lt;/strong&gt;（持续集成/持续部署）流程、优秀的工具链——直接转化为更高的 AI 智能体成功率。当你有清晰的文档说明“如何添加新的 API 字段”时，智能体也能遵循同样的指令。这形成了一个良性循环：对 DX 的投资提升了智能体性能，而对智能体基础设施（如云环境）的投资也惠及人类开发者。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;What's good for human developers is good for AI agents (and vice versa). Stripe's years of investment in developer experience—comprehensive documentation, blessed paths for common tasks, robust CI/CD, excellent tooling—directly translates to higher AI agent success rates. When you have clear docs on "how to add a new API field," the agent can follow those same instructions. This creates a virtuous cycle: investments in DX improve agent performance, and investments in agent infrastructure (like cloud environments) benefit human developers too.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;对人类开发者有益的东西对 AI 智能体同样有益（反之亦然）。Stripe 多年来对开发者体验的投入——全面的文档、通用任务的标准路径、强大的 CI/CD 流程、优秀的工具链——直接转化为更高的 AI 智能体成功率。当你有清晰的文档说明“如何添加新的 API 字段”时，智能体也能遵循同样的指令。这形成了一个良性循环：对 DX 的投资提升了智能体性能，而对智能体基础设施（如云环境）的投资也惠及人类开发者。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Activation energy is the real bottleneck, not coding speed. Steve hasn't started work in a text editor in months. Instead, work begins in Slack threads, Google Docs, or support tickets—the natural places where ideas emerge. By allowing engineers to kick off development with a single emoji reaction, Stripe lowered the friction between "good idea" and "code in production." This is especially powerful in large organizations, where coordination costs typically kill momentum before coding even begins.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;启动能量（activation energy）才是真正的瓶颈，而非编码速度。Steve 已经数月没有在文本编辑器中开始工作了。相反，工作始于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt; 线程、Google Docs 或支持工单——这些想法自然涌现的地方。通过允许工程师用单个表情符号触发生成代码，Stripe 降低了从“好想法”到“生产环境代码”之间的摩擦。这在大型组织中尤为强大，因为协调成本通常会在编码开始之前就扼杀动力。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Activation energy is the real bottleneck, not coding speed. Steve hasn't started work in a text editor in months. Instead, work begins in Slack threads, Google Docs, or support tickets—the natural places where ideas emerge. By allowing engineers to kick off development with a single emoji reaction, Stripe lowered the friction between "good idea" and "code in production." This is especially powerful in large organizations, where coordination costs typically kill momentum before coding even begins.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;启动能量才是真正的瓶颈，而非编码速度。Steve 已经数月没有在文本编辑器中开始工作了。相反，工作始于 Slack 线程、Google Docs 或支持工单——这些想法自然涌现的地方。通过允许工程师用单个表情符号触发生成代码，Stripe 降低了从“好想法”到“生产环境代码”之间的摩擦。这在大型组织中尤为强大，因为协调成本通常会在编码开始之前就扼杀动力。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Cloud development environments are non-negotiable for multi-threaded AI work. Running multiple AI agents in parallel requires cloud-based dev environments that can spin up in seconds, run isolated workloads, and never fall asleep. This infrastructure investment—which Stripe's developer productivity team built long before AI agents—now enables engineers to run dozens of agents simultaneously without melting their MacBook Pros.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;云开发环境&lt;/strong&gt;（cloud development environments）对于多线程 AI 工作是不可或缺的。并行运行多个 AI 智能体需要能在几秒钟内启动、运行隔离工作负载且永不休眠的云开发环境。这项基础设施投资——由 Stripe 的开发者生产力团队在 AI 智能体出现之前很久就构建好了——现在使工程师能够同时运行数十个智能体，而不会让他们的 MacBook Pro 过热。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Cloud development environments are non-negotiable for multi-threaded AI work. Running multiple AI agents in parallel requires cloud-based dev environments that can spin up in seconds, run isolated workloads, and never fall asleep. This infrastructure investment—which Stripe's developer productivity team built long before AI agents—now enables engineers to run dozens of agents simultaneously without melting their MacBook Pros.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;云开发环境对于多线程 AI 工作是不可或缺的。并行运行多个 AI 智能体需要能在几秒钟内启动、运行隔离工作负载且永不休眠的云开发环境。这项基础设施投资——由 Stripe 的开发者生产力团队在 AI 智能体出现之前很久就构建好了——现在使工程师能够同时运行数十个智能体，而不会让他们的 MacBook Pro 过热。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;1,300 AI-written PRs per week requires shifting review capacity, not eliminating it. Stripe still reviews every AI-generated PR, but the review process relies heavily on automated confidence signals: comprehensive test coverage, synthetic end-to-end tests, and blue-green deployments that enable quick rollbacks. The bottleneck shifts from writing code to reviewing it—and eventually to generating enough good ideas in the first place.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;每周 1,300 个 AI 编写的 PR 需要转移审查能力，而非消除审查。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Stripe&lt;/strong&gt; 仍然审查每一个 AI 生成的 PR，但审查过程严重依赖自动化的置信度信号：全面的测试覆盖、合成端到端测试，以及支持快速回滚的蓝绿部署（blue-green deployments）。瓶颈从编写代码转移到了审查代码——最终转移到了最初产生足够多的好想法。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;1,300 AI-written PRs per week requires shifting review capacity, not eliminating it. Stripe still reviews every AI-generated PR, but the review process relies heavily on automated confidence signals: comprehensive test coverage, synthetic end-to-end tests, and blue-green deployments that enable quick rollbacks. The bottleneck shifts from writing code to reviewing it—and eventually to generating enough good ideas in the first place.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;每周 1,300 个 AI 编写的 PR 需要转移审查能力，而非消除审查。Stripe 仍然审查每一个 AI 生成的 PR，但审查过程严重依赖自动化的置信度信号：全面的测试覆盖、合成端到端测试，以及支持快速回滚的蓝绿部署。瓶颈从编写代码转移到了审查代码——最终转移到了最初产生足够多的好想法。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Machine-to-machine payments unlock ephemeral, API-first businesses. In Steve's birthday party demo, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; autonomously paid Browser Base, Parallel AI, and Postal Form for single-use services—no human signup, no subscription, no dashboard. Businesses can now optimize for agent consumers rather than human users, focusing on "hyper-useful single APIs" instead of landing pages and admin panels. The economics become transparent: tokens and dollars sit side by side, making the true cost of AI work visible.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;机器对机器支付（machine-to-machine payments）解锁了临时的、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API&lt;/strong&gt; 优先的业务模式。在 Steve 的生日派对演示中，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; 自主地为 Browser Base、Parallel AI 和 Postal Form 的单次使用服务付费——无需人工注册、无需订阅、无需管理面板。企业现在可以针对智能体消费者而非人类用户进行优化，专注于“超实用的单一 API”而非落地页和管理后台。经济成本变得透明：tokens 和美元并列显示，使 AI 工作的真实成本一目了然。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Machine-to-machine payments unlock ephemeral, API-first businesses. In Steve's birthday party demo, Claude Code autonomously paid Browser Base, Parallel AI, and Postal Form for single-use services—no human signup, no subscription, no dashboard. Businesses can now optimize for agent consumers rather than human users, focusing on "hyper-useful single APIs" instead of landing pages and admin panels. The economics become transparent: tokens and dollars sit side by side, making the true cost of AI work visible.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;机器对机器支付解锁了临时的、API 优先的业务模式。在 Steve 的生日派对演示中，Claude Code 自主地为 Browser Base、Parallel AI 和 Postal Form 的单次使用服务付费——无需人工注册、无需订阅、无需管理面板。企业现在可以针对智能体消费者而非人类用户进行优化，专注于“超实用的单一 API”而非落地页和管理后台。经济成本变得透明：tokens 和美元并列显示，使 AI 工作的真实成本一目了然。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Treat AI agents like new employees, with progressive trust. Start with limited access, expand permissions as the agent proves reliable, and maintain clear boundaries. Each minion runs in an isolated environment with specific data access—the finance agent can read bank statements but can't send messages; the scheduling agent can text but has no financial data. This physical partitioning prevents accidental data leakage and creates accountability.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;像对待新员工一样对待 AI 智能体，采用渐进式信任（progressive trust）。从有限的访问权限开始，随着智能体证明其可靠性而逐步扩展权限，并保持清晰的边界。每个小黄人在隔离的环境中运行，具有特定的数据访问权限——财务智能体可以读取银行对账单但不能发送消息；日程安排智能体可以发短信但没有财务数据访问权限。这种物理分区防止了意外的数据泄露并建立了问责制。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Treat AI agents like new employees, with progressive trust. Start with limited access, expand permissions as the agent proves reliable, and maintain clear boundaries. Each minion runs in an isolated environment with specific data access—the finance agent can read bank statements but can't send messages; the scheduling agent can text but has no financial data. This physical partitioning prevents accidental data leakage and creates accountability.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;像对待新员工一样对待 AI 智能体，采用渐进式信任。从有限的访问权限开始，随着智能体证明其可靠性而逐步扩展权限，并保持清晰的边界。每个小黄人在隔离的环境中运行，具有特定的数据访问权限——财务智能体可以读取银行对账单但不能发送消息；日程安排智能体可以发短信但没有财务数据访问权限。这种物理分区防止了意外的数据泄露并建立了问责制。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;The future of software is disposable and hyper-personalized. Steve builds custom iOS apps for his toddler—music players limited to six specific songs—despite having no iOS development experience. He describes this as "the disposability of software": when AI can build apps in hours, you can create single-purpose tools for incredibly specific use cases and throw them away when they're no longer needed.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;软件的未来是可丢弃的（disposable）和超个性化的（hyper-personalized）。Steve 为他的幼儿构建定制的 iOS 应用——仅限六首特定歌曲的音乐播放器——尽管他没有 iOS 开发经验。他将此描述为“软件的可丢弃性”：当 AI 能在几小时内构建应用时，你可以为极其特定的用例创建单一用途的工具，并在不再需要时丢弃它们。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The future of software is disposable and hyper-personalized. Steve builds custom iOS apps for his toddler—music players limited to six specific songs—despite having no iOS development experience. He describes this as "the disposability of software": when AI can build apps in hours, you can create single-purpose tools for incredibly specific use cases and throw them away when they're no longer needed.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;软件的未来是可丢弃的和超个性化的。Steve 为他的幼儿构建定制的 iOS 应用——仅限六首特定歌曲的音乐播放器——尽管他没有 iOS 开发经验。他将此描述为“软件的可丢弃性”：当 AI 能在几小时内构建应用时，你可以为极其特定的用例创建单一用途的工具，并在不再需要时丢弃它们。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Detailed workflow walkthroughs from this episode:&lt;/h4&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;本期详细的工作流程演示：&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;How Stripe's AI 'Minions' Ship 1,300 PRs Weekly from a Slack Emoji: &lt;a href="https://www.chatprd.ai/how-i-ai/stripes-ai-minions-ship-1300-prs-weekly-from-a-slack-emoji"&gt;https://www.chatprd.ai/how-i-ai/stripes-ai-minions-ship-1300-prs-weekly-from-a-slack-emoji&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Stripe 的 AI“小黄人”如何每周通过 Slack 表情符号生成 1,300 个 PR：&lt;a href="https://www.chatprd.ai/how-i-ai/stripes-ai-minions-ship-1300-prs-weekly-from-a-slack-emoji"&gt;https://www.chatprd.ai/how-i-ai/stripes-ai-minions-ship-1300-prs-weekly-from-a-slack-emoji&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;How Stripe's AI 'Minions' Ship 1,300 PRs Weekly from a Slack Emoji: https://www.chatprd.ai/how-i-ai/stripes-ai-minions-ship-1300-prs-weekly-from-a-slack-emoji&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Stripe 的 AI“小黄人”如何每周通过 Slack 表情符号生成 1,300 个 PR：https://www.chatprd.ai/how-i-ai/stripes-ai-minions-ship-1300-prs-weekly-from-a-slack-emoji&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;How to Build an Autonomous AI Agent That Pays for Services to Complete Tasks: &lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-build-an-autonomous-ai-agent-that-pays-for-services-to-complete-tasks"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-build-an-autonomous-ai-agent-that-pays-for-services-to-complete-tasks&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;如何构建能够为完成任务而付费的自主 AI 智能体：&lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-build-an-autonomous-ai-agent-that-pays-for-services-to-complete-tasks"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-build-an-autonomous-ai-agent-that-pays-for-services-to-complete-tasks&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;How to Build an Autonomous AI Agent That Pays for Services to Complete Tasks: https://www.chatprd.ai/how-i-ai/workflows/how-to-build-an-autonomous-ai-agent-that-pays-for-services-to-complete-tasks&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如何构建能够为完成任务而付费的自主 AI 智能体：https://www.chatprd.ai/how-i-ai/workflows/how-to-build-an-autonomous-ai-agent-that-pays-for-services-to-complete-tasks&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;How to Automate Code Generation from a Slack Message into a Pull Request: &lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-automate-code-generation-from-a-slack-message-into-a-pull-request"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-automate-code-generation-from-a-slack-message-into-a-pull-request&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;如何自动化将 Slack 消息转换为拉取请求的代码生成：&lt;a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-automate-code-generation-from-a-slack-message-into-a-pull-request"&gt;https://www.chatprd.ai/how-i-ai/workflows/how-to-automate-code-generation-from-a-slack-message-into-a-pull-request&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;How to Automate Code Generation from a Slack Message into a Pull Request: https://www.chatprd.ai/how-i-ai/workflows/how-to-automate-code-generation-from-a-slack-message-into-a-pull-request&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如何自动化将 Slack 消息转换为拉取请求的代码生成：https://www.chatprd.ai/how-i-ai/workflows/how-to-automate-code-generation-from-a-slack-message-into-a-pull-request&lt;/p&gt;
-
-&lt;h3 style="margin:24px 0 12px;"&gt;How to turn Claude Code into your personal life operating system | Hilary Gridley&lt;/h3&gt;
-
-&lt;h3 style="margin:24px 0 12px;"&gt;如何将 Claude Code 转变为你的个人生活操作系统 | Hilary Gridley&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Listen now on &lt;a href="#"&gt;YouTube&lt;/a&gt; • &lt;a href="#"&gt;Spotify&lt;/a&gt; • &lt;a href="#"&gt;Apple Podcasts&lt;/a&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;立即收听：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt; • &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt; • &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt;&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!ipoG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11b93328-2d56-4a55-a1e4-5f10d984af50_1600x114.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;Brought to you by:&lt;br/&gt;&lt;strong&gt;WorkOS&lt;/strong&gt;—Make your app enterprise-ready today&lt;br/&gt;&lt;strong&gt;Lovable&lt;/strong&gt;—Build apps by simply chatting with AI&lt;/blockquote&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;本期赞助：&lt;br/&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;——让你的应用即刻具备企业级能力&lt;br/&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lovable&lt;/strong&gt;——只需与 AI 对话即可构建应用&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Brought to you by:&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;本期赞助：&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;WorkOS—Make your app enterprise-ready today&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;——让你的应用即刻具备企业级能力&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;WorkOS—Make your app enterprise-ready today&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;WorkOS——让你的应用即刻具备企业级能力&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Lovable—Build apps by simply chatting with AI&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lovable&lt;/strong&gt;——只需与 AI 对话即可构建应用&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Lovable—Build apps by simply chatting with AI&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Lovable——只需与 AI 对话即可构建应用&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hilary Gridley&lt;/strong&gt; returns to the podcast to share how her approach to productivity has completely evolved since her last appearance. Now a new mom and entrepreneur, she walks Claire through how she uses &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; as a personal operating system, managing everything from daily planning to life admin without complex tools or rigid workflows. Instead of building elaborate systems, Hilary leans into what she calls the "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;anti-system system&lt;/strong&gt;": letting AI observe her behavior, learn her preferences over time, and gradually take work off her plate. Together, Claire and Hilary explore how simple inputs—like capturing tasks with a shortcut or "yapping" to Claude throughout the day—can replace traditional productivity stacks and integrations.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hilary Gridley&lt;/strong&gt; 重返播客，分享自上次亮相以来她的生产力方法如何彻底进化。如今作为一位新手妈妈和创业者，她向 Claire 详细介绍了如何使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; 作为个人操作系统，管理从日常规划到生活行政事务的一切，无需复杂的工具或僵化的工作流程。Hilary 没有构建繁琐的系统，而是采用了她所谓的“&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;反系统系统&lt;/strong&gt;”（anti-system system）：让 AI 观察她的行为，随时间学习她的偏好，并逐步接手她的工作。Claire 和 Hilary 一起探讨了简单的输入方式——比如用快捷方式捕捉任务或整天向 Claude “唠叨”（yapping）——如何取代传统的生产力工具栈和集成。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Biggest takeaways:&lt;/h4&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;核心要点：&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;The 10x impact framework: For any task, ask "If I were 10 times better at it, would it have 10 times the impact?" If no, automate it. If yes, keep it human. This applies to both work tasks and life tasks—including whether baking bread will bring you joy or feel like a chore.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;10 倍影响力框架&lt;/strong&gt;（10x impact framework）：对于任何任务，问自己“如果我在这方面提升 10 倍，它会产生 10 倍的影响力吗？”如果不会，就将其自动化；如果会，则保持人工处理。这适用于工作任务和生活任务——包括烘焙面包会给你带来快乐还是感觉像件杂务。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The 10x impact framework: For any task, ask "If I were 10 times better at it, would it have 10 times the impact?" If no, automate it. If yes, keep it human. This applies to both work tasks and life tasks—including whether baking bread will bring you joy or feel like a chore.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;10 倍影响力框架：对于任何任务，问自己“如果我在这方面提升 10 倍，它会产生 10 倍的影响力吗？”如果不会，就将其自动化；如果会，则保持人工处理。这适用于工作任务和生活任务——包括烘焙面包会给你带来快乐还是感觉像件杂务。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Complexity has to earn its keep. Hilary only connects &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;APIs&lt;/strong&gt; and builds complex integrations after testing the "janky version" of a workflow for a week. Her hit rate is only 20% on workflows she actually continues using, so starting simple saves massive time.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;复杂性必须物有所值（Complexity has to earn its keep）。Hilary 只有在测试了一周工作流程的“简陋版本”（janky version）后，才会连接 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API&lt;/strong&gt; 并构建复杂的集成。她实际持续使用的工作流程命中率只有 20%，因此从简单开始能节省大量时间。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Complexity has to earn its keep. Hilary only connects APIs and builds complex integrations after testing the "janky version" of a workflow for a week. Her hit rate is only 20% on workflows she actually continues using, so starting simple saves massive time.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;复杂性必须物有所值。Hilary 只有在测试了一周工作流程的“简陋版本”后，才会连接 API 并构建复杂的集成。她实际持续使用的工作流程命中率只有 20%，因此从简单开始能节省大量时间。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;The yappers API beats &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OAuth&lt;/strong&gt; every time. Instead of connecting all your tools in the background, just talk to Claude about what you're doing throughout the day. Hilary keeps Claude Code open in her terminal and narrates her work, letting Claude observe and take notes without complex integrations.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;“唠叨 API”（yappers API）每次都胜过 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OAuth&lt;/strong&gt;。与其在后台连接所有工具，不如整天向 Claude 讲述你在做什么。Hilary 在终端中保持 Claude Code 开启，边工作边叙述，让 Claude 观察和记录，无需复杂的集成。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The yappers API beats OAuth every time. Instead of connecting all your tools in the background, just talk to Claude about what you're doing throughout the day. Hilary keeps Claude Code open in her terminal and narrates her work, letting Claude observe and take notes without complex integrations.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;“唠叨 API”每次都胜过 OAuth。与其在后台连接所有工具，不如整天向 Claude 讲述你在做什么。Hilary 在终端中保持 Claude Code 开启，边工作边叙述，让 Claude 观察和记录，无需复杂的集成。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Let AI learn your preferences by observing, not by your defining them. Hilary never sat down to write out her ideal schedule. Claude just watches what she actually does (not what she says she'll do) and adjusts preferences automatically. Real behavior beats aspirational planning.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;让 AI 通过观察而非通过你的定义来学习你的偏好。Hilary 从未坐下来写过她理想的日程安排。Claude 只是观察她实际做什么（而不是她说她将要做什么），并自动调整偏好。真实行为胜过理想化规划。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Let AI learn your preferences by observing, not by your defining them. Hilary never sat down to write out her ideal schedule. Claude just watches what she actually does (not what she says she'll do) and adjusts preferences automatically. Real behavior beats aspirational planning.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;让 AI 通过观察而非通过你的定义来学习你的偏好。Hilary 从未坐下来写过她理想的日程安排。Claude 只是观察她实际做什么（而不是她说她将要做什么），并自动调整偏好。真实行为胜过理想化规划。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Calendar management is the ultimate to-do list. You can't say you take something seriously if you're not putting time into it. But manually adding tasks to your calendar is tedious—so let Claude do it automatically based on what you say you want to accomplish.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;日历管理是终极待办清单。如果你不为某事投入时间，你就不能说你是认真对待它的。但手动将任务添加到日历中是繁琐的——所以让 Claude 根据你说想要完成的目标自动完成这件事。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Calendar management is the ultimate to-do list. You can't say you take something seriously if you're not putting time into it. But manually adding tasks to your calendar is tedious—so let Claude do it automatically based on what you say you want to accomplish.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;日历管理是终极待办清单。如果你不为某事投入时间，你就不能说你是认真对待它的。但手动将任务添加到日历中是繁琐的——所以让 Claude 根据你说想要完成的目标自动完成这件事。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Screenshots are your friend for getting started. Don't wait for API access or permissions at work. Build a janky version with screenshots and voice dictation, prove it's valuable, and then get the permissions you need. Half-baked ideas don't deserve full access.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;截图是你入门的好朋友。不要等待工作中的 API 访问权限或批准。用截图和语音输入构建一个简陋版本，证明它有价值，然后获得你需要的权限。半生不熟的 idea 不配获得完整的访问权限。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Screenshots are your friend for getting started. Don't wait for API access or permissions at work. Build a janky version with screenshots and voice dictation, prove it's valuable, and then get the permissions you need. Half-baked ideas don't deserve full access.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;截图是你入门的好朋友。不要等待工作中的 API 访问权限或批准。用截图和语音输入构建一个简陋版本，证明它有价值，然后获得你需要的权限。半生不熟的 idea 不配获得完整的访问权限。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;You don't need coding knowledge to build Claude Code skills. Hilary just describes problems to Claude: "I keep forgetting to return things on time." Claude asks a few questions, then builds the entire workflow—including checking return policies and drop-off locations automatically.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;构建 Claude Code 技能不需要编程知识。Hilary 只是向 Claude 描述问题：“我总是忘记按时退货。”Claude 问几个问题，然后构建整个工作流程——包括自动检查退货政策和投递地点。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;You don't need coding knowledge to build Claude Code skills. Hilary just describes problems to Claude: "I keep forgetting to return things on time." Claude asks a few questions, then builds the entire workflow—including checking return policies and drop-off locations automatically.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;构建 Claude Code 技能不需要编程知识。Hilary 只是向 Claude 描述问题：“我总是忘记按时退货。”Claude 问几个问题，然后构建整个工作流程——包括自动检查退货政策和投递地点。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Test everything before integrating it into working systems. Hilary refuses to add new workflows to her daily routine until she's tested them separately for a week. If something breaks, you don't want it taking down systems that were already working.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;在将新流程集成到工作系统之前，先测试一切。Hilary 拒绝在单独测试一周之前将新工作流程添加到她的日常例行中。如果某个东西坏了，你不会希望它拖累原本正常运行的系统。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Test everything before integrating it into working systems. Hilary refuses to add new workflows to her daily routine until she's tested them separately for a week. If something breaks, you don't want it taking down systems that were already working.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;在将新流程集成到工作系统之前，先测试一切。Hilary 拒绝在单独测试一周之前将新工作流程添加到她的日常例行中。如果某个东西坏了，你不会希望它拖累原本正常运行的系统。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Build the muscle memory by doing one thing with AI every day. The biggest barrier isn't technical knowledge—it's rewiring your brain to think "the alien in my computer could help with this." Hilary went from "I'll never use the terminal" to running her life in Claude Code in about a week.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;通过每天用 AI 做一件事来建立肌肉记忆。最大的障碍不是技术知识——而是重塑你的大脑，使其想到“我电脑里的外星人可以帮上忙”。Hilary 从“我永远不会用终端”到用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; 管理她的生活，只用了大约一周时间。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Build the muscle memory by doing one thing with AI every day. The biggest barrier isn't technical knowledge—it's rewiring your brain to think "the alien in my computer could help with this." Hilary went from "I'll never use the terminal" to running her life in Claude Code in about a week.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;通过每天用 AI 做一件事来建立肌肉记忆。最大的障碍不是技术知识——而是重塑你的大脑，使其想到“我电脑里的外星人可以帮上忙”。Hilary 从“我永远不会用终端”到用 Claude Code 管理她的生活，只用了大约一周时间。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Detailed workflow walkthroughs from this episode:&lt;/h4&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;本期详细的工作流程演示：&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;How I AI: Hilary Gridley's "Anti-System" for Automating Life with Claude Code: &lt;a href="https://www.chatprd.ai/how-i-ai/gridleys-anti-system-for-automating-life-with-claude-code"&gt;https://www.chatprd.ai/how-i-ai/gridleys-anti-system-for-automating-life-with-claude-code&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;How I AI：Hilary Gridley 用 Claude Code 自动化生活的“反系统”方法：&lt;a href="https://www.chatprd.ai/how-i-ai/gridleys-anti-system-for-automating-life-with-claude-code"&gt;https://www.chatprd.ai/how-i-ai/gridleys-anti-system-for-automating-life-with-claude-code&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;How I AI: Hilary Gridley's "Anti-System" for Automating Life with Claude Code: https://www.chatprd.ai/how-i-ai/gridleys-anti-system-for-automating-life-with-claude-code&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;How I AI：Hilary Gridley 用 Claude Code 自动化生活的“反系统”方法：https://www.chatprd.ai/how-i-ai/gridleys-anti-system-for-automating-life-with-claude-code&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Create a Privacy-Protecting Demo Mode for Your Personal AI: &lt;a href="https://www.chatprd.ai/how-i-ai/workflows/create-a-privacy-protecting-demo-mode-for-your-personal-ai"&gt;https://www.chatprd.ai/how-i-ai/workflows/create-a-privacy-protecting-demo-mode-for-your-personal-ai&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;为个人 AI 创建保护隐私的演示模式：&lt;a href="https://www.chatprd.ai/how-i-ai/workflows/create-a-privacy-protecting-demo-mode-for-your-personal-ai"&gt;https://www.chatprd.ai/how-i-ai/workflows/create-a-privacy-protecting-demo-mode-for-your-personal-ai&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Create a Privacy-Protecting Demo Mode for Your Personal AI: https://www.chatprd.ai/how-i-ai/workflows/create-a-privacy-protecting-demo-mode-for-your-personal-ai&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为个人 AI 创建保护隐私的演示模式：https://www.chatprd.ai/how-i-ai/workflows/create-a-privacy-protecting-demo-mode-for-your-personal-ai&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Build Custom AI Automations by Having a Conversation with Claude: &lt;a href="https://www.chatprd.ai/how-i-ai/workflows/build-custom-ai-automations-by-having-a-conversation-with-claude"&gt;https://www.chatprd.ai/how-i-ai/workflows/build-custom-ai-automations-by-having-a-conversation-with-claude&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;通过与 Claude 对话构建自定义 AI 自动化：&lt;a href="https://www.chatprd.ai/how-i-ai/workflows/build-custom-ai-automations-by-having-a-conversation-with-claude"&gt;https://www.chatprd.ai/how-i-ai/workflows/build-custom-ai-automations-by-having-a-conversation-with-claude&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Build Custom AI Automations by Having a Conversation with Claude: https://www.chatprd.ai/how-i-ai/workflows/build-custom-ai-automations-by-having-a-conversation-with-claude&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;通过与 Claude 对话构建自定义 AI 自动化：https://www.chatprd.ai/how-i-ai/workflows/build-custom-ai-automations-by-having-a-conversation-with-claude&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;Automate Your Daily Planning with Claude Code and an iPhone Shortcut: &lt;a href="https://www.chatprd.ai/how-i-ai/workflows/automate-your-daily-planning-with-claude-code-and-an-iphone-shortcut"&gt;https://www.chatprd.ai/how-i-ai/workflows/automate-your-daily-planning-with-claude-code-and-an-iphone-shortcut&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;使用 Claude Code 和 iPhone 快捷指令自动化你的日常规划：&lt;a href="https://www.chatprd.ai/how-i-ai/workflows/automate-your-daily-planning-with-claude-code-and-an-iphone-shortcut"&gt;https://www.chatprd.ai/how-i-ai/workflows/automate-your-daily-planning-with-claude-code-and-an-iphone-shortcut&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Automate Your Daily Planning with Claude Code and an iPhone Shortcut: https://www.chatprd.ai/how-i-ai/workflows/automate-your-daily-planning-with-claude-code-and-an-iphone-shortcut&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;使用 Claude Code 和 iPhone 快捷指令自动化你的日常规划：https://www.chatprd.ai/how-i-ai/workflows/automate-your-daily-planning-with-claude-code-and-an-iphone-shortcut&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;If you're enjoying these episodes, reply and let me know what you'd love to learn more about: AI workflows, hiring, growth, product strategy—anything.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如果你喜欢这些节目，请回复告诉我你想了解更多内容：AI 工作流程、招聘、增长、产品策略——任何话题都可以。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Catch you next week,&lt;br/&gt;Lenny&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;下周见，&lt;br/&gt;Lenny&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;P.S. Want every new episode delivered the moment it drops? Hit "Follow" on your favorite podcast app.&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;P.S. 想要在每个新节目发布的那一刻就收到它吗？在你最喜欢的播客应用上点击“关注”（Follow）。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-stripe"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-stripe</guid>
-      <pubDate>Mon, 30 Mar 2026 15:03:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: 话匣子先生 v0.1 发布</title>
-      <link>https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #LLM #维多利亚 #历史文本&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; llm-mrchatterbox发布0.1版本，其对话模型&amp;quot;Mr Chatterbox&amp;quot;基于超过28,000篇维多利亚时代（1837-1899年）的英国文献训练而成。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: llm-mrchatterbox 0.1&lt;/p&gt;
-&lt;hr/&gt;
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Release&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;版本发布&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;llm-mrchatterbox&lt;/strong&gt; 0.1&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;llm-mrchatterbox&lt;/strong&gt; 0.1&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;— Chat with &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Mr Chatterbox&lt;/strong&gt;, trained on a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;corpus&lt;/strong&gt; of over 28,000 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Victorian-era&lt;/strong&gt; British texts published between 1837 and 1899&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;— 与 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Mr Chatterbox&lt;/strong&gt;（Chatterbox 先生）对话，该模型基于超过 28,000 份&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Victorian-era&lt;/strong&gt;（维多利亚时代）英国文本的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;corpus&lt;/strong&gt;（语料库）训练而成，这些文本出版于 1837 至 1899 年间。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything</guid>
-      <pubDate>Mon, 30 Mar 2026 02:20:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: Mr. Chatterbox：弱性能但纯维多利亚时代训练的本地模型</title>
-      <link>https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #语言模型 #维多利亚 #公版数据 #本地运行&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 开发者基于大英图书馆2.8万本19世纪无版权书籍训练出小型语言模型&amp;quot;Mr. Chatterbox&amp;quot;，虽因训练数据不足而表现欠佳（对话更接近马尔可夫链而非现代LLM），但为完全使用历史公共领域数据构建可本地运行的AI提供了独特尝试。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Mr. Chatterbox：一个可在本地运行的（弱弱的）维多利亚时代伦理训练模型&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Trip Venturella&lt;/strong&gt; released &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Mr. Chatterbox&lt;/strong&gt;, a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;language model&lt;/strong&gt; trained entirely on out-of-copyright text from the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;British Library&lt;/strong&gt;. Here's how he describes it:&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Trip Venturella&lt;/strong&gt; 发布了 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Mr. Chatterbox&lt;/strong&gt;，这是一个完全基于&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;大英图书馆&lt;/strong&gt;（British Library）公有领域文本训练的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;语言模型&lt;/strong&gt;（language model）。以下是他的描述：&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;Mr. Chatterbox is a language model trained entirely from scratch on a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;corpus&lt;/strong&gt; of over 28,000 Victorian-era British texts published between 1837 and 1899, drawn from a dataset made available by the British Library. The model has absolutely no training inputs from after 1899 — the vocabulary and ideas are formed exclusively from nineteenth-century literature. Mr. Chatterbox's training corpus was 28,035 books, with an estimated 2.93 billion &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;input tokens&lt;/strong&gt; after filtering. The model has roughly 340 million &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;paramaters&lt;/strong&gt;, roughly the same size as &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT-2-Medium&lt;/strong&gt;. The difference is, of course, that unlike GPT-2, Mr. Chatterbox is trained entirely on historical data.&lt;/blockquote&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;Mr. Chatterbox 是一个完全从零开始训练的语言模型，训练&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;语料库&lt;/strong&gt;（corpus）包含超过 28,000 本出版于 1837 至 1899 年间的维多利亚时代英国文本，数据来自大英图书馆开放的数据集。该模型完全没有使用 1899 年之后的任何训练输入——其词汇和概念完全形成于十九世纪文学。Mr. Chatterbox 的训练语料共 28,035 本书，经过滤后估计包含 29.3 亿个&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;输入词元&lt;/strong&gt;（input tokens）。模型拥有约 3.4 亿个&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;参数&lt;/strong&gt;（parameters），规模大致与 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT-2-Medium&lt;/strong&gt; 相当。当然，区别在于与 GPT-2 不同，Mr. Chatterbox 完全基于历史数据训练。&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Mr. Chatterbox is a language model trained entirely from scratch on a corpus of over 28,000 Victorian-era British texts published between 1837 and 1899, drawn from a dataset made available by the British Library. The model has absolutely no training inputs from after 1899 — the vocabulary and ideas are formed exclusively from nineteenth-century literature.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Mr. Chatterbox 是一个完全从零开始训练的语言模型，训练语料库包含超过 28,000 本出版于 1837 至 1899 年间的维多利亚时代英国文本，数据来自大英图书馆开放的数据集。该模型完全没有使用 1899 年之后的任何训练输入——其词汇和概念完全形成于十九世纪文学。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Mr. Chatterbox's training corpus was 28,035 books, with an estimated 2.93 billion input tokens after filtering. The model has roughly 340 million paramaters, roughly the same size as GPT-2-Medium. The difference is, of course, that unlike GPT-2, Mr. Chatterbox is trained entirely on historical data.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Mr. Chatterbox 的训练语料共 28,035 本书，经过滤后估计包含 29.3 亿个输入词元。模型拥有约 3.4 亿个参数，规模大致与 GPT-2-Medium 相当。当然，区别在于与 GPT-2 不同，Mr. Chatterbox 完全基于历史数据训练。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Given how hard it is to train a useful &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM&lt;/strong&gt; without using vast amounts of scraped, unlicensed data I've been dreaming of a model like this for a couple of years now. What would a model trained on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;out-of-copyright&lt;/strong&gt; text be like to chat with?&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;鉴于在不使用大量抓取的无授权数据的情况下训练一个有用的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;大语言模型&lt;/strong&gt;（LLM, Large Language Model）是如此困难，我多年来一直梦想着这样的模型。一个完全基于&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;公有领域&lt;/strong&gt;（out-of-copyright）文本训练的模型会是什么样的聊天体验？&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Thanks to Trip we can now find out for ourselves!&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;多亏了 Trip，我们现在可以亲自一探究竟！&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The model itself is tiny, at least by Large Language Model standards - just &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;2.05GB&lt;/strong&gt; on disk. You can try it out using Trip's &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;HuggingFace Spaces&lt;/strong&gt; demo:&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;模型本身非常小——至少按照大语言模型的标准来看——磁盘占用仅 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;2.05GB&lt;/strong&gt;。你可以通过 Trip 的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;HuggingFace Spaces&lt;/strong&gt; 演示来体验：&lt;/p&gt;
-
-&lt;img src="https://static.simonwillison.net/static/2026/chatterbox.jpg" alt="Screenshot of a Victorian-themed chatbot interface titled &amp;quot;🎩 Mr. Chatterbox (Beta)&amp;quot; with subtitle &amp;quot;The Victorian Gentleman Chatbot&amp;quot;. The conversation shows a user asking &amp;quot;How should I behave at dinner?&amp;quot; with the bot replying &amp;quot;My good fellow, one might presume that such trivialities could not engage your attention during an evening's discourse!&amp;quot; The user then asks &amp;quot;What are good topics?&amp;quot; and the bot responds &amp;quot;The most pressing subjects of our society— Indeed, a gentleman must endeavor to engage the conversation with grace and vivacity. Such pursuits serve as vital antidotes against ennui when engaged in agreeable company.&amp;quot; A text input field at the bottom reads &amp;quot;Say hello...&amp;quot; with a send button. The interface uses a dark maroon and cream color scheme." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;img src="https://static.simonwillison.net/static/2026/chatterbox.jpg" alt="Screenshot of a Victorian-themed chatbot interface titled &amp;quot;🎩 Mr. Chatterbox (Beta)&amp;quot; with subtitle &amp;quot;The Victorian Gentleman Chatbot&amp;quot;. The conversation shows a user asking &amp;quot;How should I behave at dinner?&amp;quot; with the bot replying &amp;quot;My good fellow, one might presume that such trivialities could not engage your attention during an evening's discourse!&amp;quot; The user then asks &amp;quot;What are good topics?&amp;quot; and the bot responds &amp;quot;The most pressing subjects of our society— Indeed, a gentleman must endeavor to engage the conversation with grace and vivacity. Such pursuits serve as vital antidotes against ennui when engaged in agreeable company.&amp;quot; A text input field at the bottom reads &amp;quot;Say hello...&amp;quot; with a send button. The interface uses a dark maroon and cream color scheme." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Honestly, it's pretty terrible. Talking with it feels more like chatting with a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Markov chain&lt;/strong&gt; than an LLM - the responses may have a delightfully Victorian flavor to them but it's hard to get a response that usefully answers a question.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;老实说，它相当糟糕。与其对话的感觉更像是与&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;马尔可夫链&lt;/strong&gt;（Markov chain）聊天，而非大语言模型——虽然回复可能带有令人愉悦的维多利亚时代风味，但很难得到真正有用地回答问题的回应。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;2022 Chinchilla paper&lt;/strong&gt; suggests a ratio of 20x the parameter count to training tokens. For a 340m model that would suggest around 7 billion tokens, more than twice the British Library corpus used here. The smallest &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Qwen 3.5&lt;/strong&gt; model is 600m parameters and that model family starts to get interesting at 2b - so my hunch is we would need 4x or more the training data to get something that starts to feel like a useful conversational partner.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;2022 年 Chinchilla 论文&lt;/strong&gt;建议参数数量与训练词元的比例为 1:20。对于 3.4 亿参数的模型，这意味着需要约 70 亿词元，是此处使用的大英图书馆语料库的两倍多。最小的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Qwen 3.5&lt;/strong&gt; 模型有 6 亿参数，而这个模型家族在 20 亿参数时才开始变得有趣——因此我的直觉是，我们需要四倍或更多的训练数据才能获得一个感觉上有用的对话伙伴。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;But what a fun project!&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;但这是一个多么有趣的项目啊！&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Running it locally with LLM&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I decided to see if I could run the model on my own machine using my &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM&lt;/strong&gt; framework.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我决定看看是否能使用我的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM&lt;/strong&gt; 框架在自己的机器上运行这个模型。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I got &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; to do most of the work - &lt;a href="https://claude.ai/share/6e527d11-7650-4c3d-8037-6d8e2e1c9e3e"&gt;here's the transcript&lt;/a&gt;.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我让 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; 完成了大部分工作——&lt;a href="https://claude.ai/share/6e527d11-7650-4c3d-8037-6d8e2e1c9e3e"&gt;这是对话记录&lt;/a&gt;。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Trip trained the model using &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Andrej Karpathy&lt;/strong&gt;'s &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;nanochat&lt;/code&gt;, so I cloned that project, pulled the model weights and told Claude to build a Python script to run the model. Once we had that working (which ended up needing some extra details from the &lt;a href="https://huggingface.co/spaces/tjrademaker/mr-chatterbox/blob/main/app.py"&gt;Space demo source code&lt;/a&gt;) I had Claude &lt;a href="https://llm.datasette.io/en/stable/plugins/tutorial-model.html"&gt;read the LLM plugin tutorial&lt;/a&gt; and build the rest of the plugin.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Trip 使用 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Andrej Karpathy&lt;/strong&gt; 的 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;nanochat&lt;/code&gt; 训练了该模型，因此我克隆了该项目，拉取了模型权重，并让 Claude 编写了一个 Python 脚本来运行模型。一旦运行成功（最终需要从 &lt;a href="https://huggingface.co/spaces/tjrademaker/mr-chatterbox/blob/main/app.py"&gt;Space 演示源代码&lt;/a&gt; 获取一些额外细节），我让 Claude &lt;a href="https://llm.datasette.io/en/stable/plugins/tutorial-model.html"&gt;阅读 LLM 插件教程&lt;/a&gt;并构建了插件的其余部分。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;llm-mrchatterbox&lt;/code&gt; is the result. Install the plugin like this:&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;llm-mrchatterbox&lt;/code&gt; 就是最终的成果。安装该插件的方法如下：&lt;/p&gt;
-
-&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;llm install llm-mrchatterbox&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The first time you run a prompt it will fetch the 2.05GB model file from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hugging Face&lt;/strong&gt;. Try that like this:&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;第一次运行提示时，它会从 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hugging Face&lt;/strong&gt; 获取 2.05GB 的模型文件。像这样尝试：&lt;/p&gt;
-
-&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;llm -m mrchatterbox "Good day, sir"&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Or start an ongoing chat session like this:&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;或者像这样启动一个持续的聊天会话：&lt;/p&gt;
-
-&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;llm chat -m mrchatterbox&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;If you don't have LLM installed you can still get a chat session started from scratch using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;uvx&lt;/strong&gt; like this:&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如果你还没有安装 LLM，你仍然可以使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;uvx&lt;/strong&gt; 从零开始启动一个聊天会话：&lt;/p&gt;
-
-&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;uvx --with llm-mrchatterbox llm chat -m mrchatterbox&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;When you are finished with the model you can delete the cached file using:&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;使用完模型后，你可以使用以下命令删除缓存文件：&lt;/p&gt;
-
-&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;llm mrchatterbox delete-model&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;This is the first time I've had &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; build a full LLM model plugin from scratch and it worked really well. I expect I'll be using this method again in the future.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这是我第一次让 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; 从零开始构建一个完整的 LLM 模型插件，效果非常好。我预计将来会再次使用这种方法。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I continue to hope we can get a useful model from entirely &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;public domain&lt;/strong&gt; data. The fact that Trip was able to get this far using nanochat and 2.93 billion training tokens is a promising start.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我仍然希望我们能够从完全&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;公有领域&lt;/strong&gt;（public domain）的数据中获得一个有用的模型。Trip 能够使用 nanochat 和 29.3 亿训练词元走到这一步，是一个充满希望的开始。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags: &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ai&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;andrej-karpathy&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;generative-ai&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;local-llms&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;llms&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ai-assisted-programming&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;hugging-face&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;llm&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;training-data&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;uv&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ai-ethics&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;claude-code&lt;/code&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ai&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;andrej-karpathy&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;generative-ai&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;local-llms&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;llms&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ai-assisted-programming&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;hugging-face&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;llm&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;training-data&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;uv&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ai-ethics&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;claude-code&lt;/code&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything</guid>
-      <pubDate>Mon, 30 Mar 2026 14:28:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: datasette-llm 0.1a3 发布</title>
-      <link>https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #LLM #Datasette #插件 #配置&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; datasette-llm 发布 0.1a3 版本，新增支持为不同用途配置可用 LLM 模型的功能，允许限制特定插件可使用的模型范围。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: datasette-llm 0.1a3&lt;/p&gt;
-&lt;hr/&gt;
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Release: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm&lt;/strong&gt; 0.1a3&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;发布：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm&lt;/strong&gt; 0.1a3&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Adds the ability to configure which &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt; are available for which purpose, which means you can restrict the list of models that can be used with a specific &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;plugin&lt;/strong&gt;.#3&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;新增了针对不同用途配置可用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt;（大型语言模型）的功能，这意味着你可以限制特定 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;plugin&lt;/strong&gt;（插件）能够使用的模型列表。#3&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags: llm, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette&lt;/strong&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：llm, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette&lt;/strong&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything</guid>
-      <pubDate>Mon, 30 Mar 2026 19:48:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: Gerganov 谈本地模型之困</title>
-      <link>https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #本地模型 #编程代理 #工具链&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Georgi Gerganov指出，本地模型难以与coding agents良好配合的主要症结在于，从输入到输出的漫长链条涉及多个由不同方开发的脆弱组件（包括框架、聊天模板和提示词构建等）。由于整个技术栈难以整合，用户当前得到的结果很可能在某些环节仍存在细微缺陷。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Quoting Georgi Gerganov&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Quoting Georgi Gerganov&lt;/h3&gt;
-
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;Note that the main issues that people currently unknowingly face with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;local models&lt;/strong&gt; mostly revolve around the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;harness&lt;/strong&gt; and some intricacies around &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;model chat templates&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt construction&lt;/strong&gt;. Sometimes there are even pure &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;inference bugs&lt;/strong&gt;. From typing the task in the client to the actual result, there is a long chain of components that atm are not only fragile - are also developed by different parties. So it's difficult to consolidate the entire stack and you have to keep in mind that what you are currently observing is with very high probability still broken in some subtle way along that chain.&lt;/blockquote&gt;
+Trusted by teams at &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Stripe&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;, and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NVIDIA&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt; helps you build high-quality software, faster.
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;请注意，人们当前在运行&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;本地模型&lt;/strong&gt;（local models）时无意中遇到的主要问题，大多围绕着&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;工具链&lt;/strong&gt;（harness）以及&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;模型对话模板&lt;/strong&gt;（model chat templates）和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;提示词构建&lt;/strong&gt;（prompt construction）的一些细微复杂性。有时甚至存在纯粹的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;推理错误&lt;/strong&gt;（inference bugs）。从在客户端输入任务到获得实际结果，其间存在一长串组件链条，这些组件目前（atm）不仅十分脆弱——而且由不同的团队开发。因此很难整合整个技术栈，你必须牢记：你目前观察到的结果，极大概率仍然在该链条的某个微妙环节存在问题。&lt;/blockquote&gt;
+深受 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Stripe&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NVIDIA&lt;/strong&gt; 团队信赖的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt;，助你更快构建高质量软件。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Note that the main issues that people currently unknowingly face with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;local models&lt;/strong&gt; mostly revolve around the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;harness&lt;/strong&gt; and some intricacies around &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;model chat templates&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt construction&lt;/strong&gt;. Sometimes there are even pure &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;inference bugs&lt;/strong&gt;. From typing the task in the client to the actual result, there is a long chain of components that atm are not only fragile - are also developed by different parties. So it's difficult to consolidate the entire stack and you have to keep in mind that what you are currently observing is with very high probability still broken in some subtle way along that chain.
+&lt;ul style="margin:0;padding-left:20px;"&gt;
+&lt;li&gt;Choose between every frontier model from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Gemini&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;xAI&lt;/strong&gt;, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-请注意，人们当前在运行&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;本地模型&lt;/strong&gt;（local models）时无意中遇到的主要问题，大多围绕着&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;工具链&lt;/strong&gt;（harness）以及&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;模型对话模板&lt;/strong&gt;（model chat templates）和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;提示词构建&lt;/strong&gt;（prompt construction）的一些细微复杂性。有时甚至存在纯粹的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;推理错误&lt;/strong&gt;（inference bugs）。从在客户端输入任务到获得实际结果，其间存在一长串组件链条，这些组件目前（atm）不仅十分脆弱——而且由不同的团队开发。因此很难整合整个技术栈，你必须牢记：你目前观察到的结果，极大概率仍然在该链条的某个微妙环节存在问题。
+可在来自 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Gemini&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;xAI&lt;/strong&gt; 和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt; 的各前沿模型（frontier models）中自由选择。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-—&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Georgi Gerganov&lt;/strong&gt;, explaining why it's hard to find local models that work well with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;coding agents&lt;/strong&gt;
+&lt;ul style="margin:0;padding-left:20px;"&gt;
+&lt;li&gt;Code with an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agent&lt;/strong&gt; that knows how your codebase works, no matter the scale or complexity.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Georgi Gerganov&lt;/strong&gt;，解释为何很难找到与&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;编程智能体&lt;/strong&gt;（coding agents）良好协作的本地模型
+使用了解代码库运作方式的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;智能体&lt;/strong&gt;（agent）进行编程，无论项目规模或复杂程度如何。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Tags: &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;coding-agents&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;generative-ai&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ai&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;local-llms&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;llms&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;georgi-gerganov&lt;/code&gt;
+&lt;ul style="margin:0;padding-left:20px;"&gt;
+&lt;li&gt;Run multiple &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agents&lt;/strong&gt; in parallel to build, test, and demo features without blocking on execution.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-标签：&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;coding-agents&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;generative-ai&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ai&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;local-llms&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;llms&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;georgi-gerganov&lt;/code&gt;
+并行运行多个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;智能体&lt;/strong&gt;（agents），构建、测试和演示功能，无需等待执行阻塞。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+"My favorite enterprise AI service is &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt;. Cursor is an AI coder and every one of our engineers, one hundred percent, is now assisted by AI coders and our productivity has gone up incredibly." —&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jensen Huang&lt;/strong&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+"我最喜爱的企业级 AI 服务是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt;。Cursor 是一款 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 编程助手&lt;/strong&gt;（AI coder），我们每一位工程师——百分之百——现在都在 AI 编程助手的协助下工作，我们的生产力得到了惊人的提升。"——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jensen Huang&lt;/strong&gt;（黄仁勋）
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Download &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt; and start building. It's free
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+下载 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt; 开始构建。完全免费。
 &lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything</guid>
-      <pubDate>Mon, 30 Mar 2026 21:31:02 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://tldr.tech/ai/2026-04-01"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-04-01</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Latent Space: Claude Code 源代码泄露事件</title>
+      <link>https://www.latent.space/p/ainews-the-claude-code-source-leak</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Claude Code #源码泄露 #编码代理 #AI编程&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 尽管OpenAI同日宣布完成史上最大规模融资并披露240亿美元ARR等亮眼数据，但Claude Code约50万行源代码的泄露成为当日最重磅新闻。这次泄露虽令Anthropic尴尬却极具教育意义，意外揭示了该AI编程代理的底层架构设计，包括三层内存系统、子代理并行机制及大量未发布功能，引发开发者社区广泛研究。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: [AINews] The Claude Code Source Leak&lt;/p&gt;
+&lt;hr/&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;'s Largest Fundraise in Human History closed today, growing by a few billion, but disclosing some cool numbers like $24B &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ARR&lt;/strong&gt; (growing 4x faster than &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt;/&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; in their heyday), and also had a "soft IPO" with $3B of investment from rich people and inclusion in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ETFs&lt;/strong&gt; from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ARK Invest&lt;/strong&gt;, although &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;WAU&lt;/strong&gt; growth seem to has stalled out - they STILL have not crossed the 1B WAU mark targeted for end 2025. &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt; also worryingly has not announced a new milestone for March.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;史上最大规模的融资今日落幕，金额增长数十亿美元，并披露了一些亮眼数据：年经常性收入（&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ARR&lt;/strong&gt;）达240亿美元（增速是&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt;/&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt;鼎盛时期的4倍），还通过富豪投资30亿美元实现了"软IPO"，并被纳入&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ARK Invest&lt;/strong&gt;的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ETF&lt;/strong&gt;（交易型开放式指数基金）。然而，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt;的周活跃用户（&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;WAU&lt;/strong&gt;）增长似乎已陷入停滞——至今仍未能突破原定于2025年底达成的10亿WAU目标。令人担忧的是，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt;也未能在三月公布新的里程碑进展。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+By far the biggest news of the day is the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; source leak, in itself not particularly damaging for &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;, but surely embarrassing and also somewhat educational - Christmas come early for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Coding Agent&lt;/strong&gt; nerds. You can read the many many tweets and posts covering the 500k LOC codebase, and you can browse multiple hosted forks of the source.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+当天最重大的新闻无疑是&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt;的源代码泄露事件。此事本身对&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;公司损害有限，但确实令人尴尬，同时也颇具教育意义——对&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Coding Agent&lt;/strong&gt;（编码智能体）爱好者而言可谓提前迎来圣诞。你可以阅读海量推文和帖子来了解这个50万行代码（500k LOC）的代码库，也可以浏览多个托管的源代码分叉（fork）版本。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+There are fun curiosities, such as the full verb list, or &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Capybara/Mythos v8&lt;/strong&gt;, or the /buddy April Fools feature, or Boris' confirmed WTF counter, or creating the cursed "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Codex&lt;/strong&gt;", or the dozen other unreleased features, but most serious players are commenting on a few things. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sebastian Raschka&lt;/strong&gt; probably has a good list of the top 6:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+其中包含诸多有趣的发现，例如完整的动词列表（full verb list）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Capybara/Mythos v8&lt;/strong&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;/buddy&lt;/code&gt;愚人节功能、Boris确认的WTF计数器、被诅咒的"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Codex&lt;/strong&gt;"，以及十几项其他未发布的功能。但大多数 serious players（资深从业者）都在关注以下几件事。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sebastian Raschka&lt;/strong&gt;可能列出了最值得关注的前6点：
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;Putting Repo state in Context (eg recent commits, git branch info)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;将仓库（Repo）状态纳入上下文（如最近提交、git分支信息等）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Putting Repo state in Context (eg recent commits, git branch info)
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+将仓库状态纳入上下文（如最近提交、git分支信息等）
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;Aggressive cache reuse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;激进的缓存复用（Aggressive cache reuse）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Aggressive cache reuse
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+激进的缓存复用
+&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!_MBb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff17faae4-fe57-460c-9336-d5fe8fcf134e_2420x1384.png" alt="Aggressive cache reuse" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;Custom Grep/Glob/LSP (standard in industry)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;自定义 Grep/Glob/LSP（行业标准实践）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Claude code has less than 20 tools default on (up to 60+ total): &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;AgentTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;BashTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;FileReadTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;FileEditTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;FileWriteTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;NotebookEditTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;WebFetchTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;WebSearchTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;TodoWriteTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;TaskStopTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;TaskOutputTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;AskUserQuestionTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;SkillTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;EnterPlanModeTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ExitPlanModeV2Tool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;SendMessageTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;BriefTool&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ListMcpResourcesTool&lt;/code&gt;, and &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ReadMcpResourceTool&lt;/code&gt;. more in ccunpacked
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+Claude Code默认开启的工具少于20个（总计可达60+个）：&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;AgentTool&lt;/code&gt;（代理工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;BashTool&lt;/code&gt;（Bash工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;FileReadTool&lt;/code&gt;（文件读取工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;FileEditTool&lt;/code&gt;（文件编辑工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;FileWriteTool&lt;/code&gt;（文件写入工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;NotebookEditTool&lt;/code&gt;（笔记本编辑工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;WebFetchTool&lt;/code&gt;（网页获取工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;WebSearchTool&lt;/code&gt;（网页搜索工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;TodoWriteTool&lt;/code&gt;（待办写入工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;TaskStopTool&lt;/code&gt;（任务停止工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;TaskOutputTool&lt;/code&gt;（任务输出工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;AskUserQuestionTool&lt;/code&gt;（询问用户问题工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;SkillTool&lt;/code&gt;（技能工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;EnterPlanModeTool&lt;/code&gt;（进入规划模式工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ExitPlanModeV2Tool&lt;/code&gt;（退出规划模式V2工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;SendMessageTool&lt;/code&gt;（发送消息工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;BriefTool&lt;/code&gt;（简报工具）、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ListMcpResourcesTool&lt;/code&gt;（列出MCP资源工具）和&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;ReadMcpResourceTool&lt;/code&gt;（读取MCP资源工具）。更多详情参见ccunpacked。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Custom Grep/Glob/LSP (standard in industry)
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+自定义 Grep/Glob/LSP（行业标准）
+&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!_MBb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff17faae4-fe57-460c-9336-d5fe8fcf134e_2420x1384.png" alt="Custom Grep/Glob/LSP" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;Claude code has less than 20 tools default on (up to 60+ total): AgentTool, BashTool, FileReadTool, FileEditTool, FileWriteTool, NotebookEditTool, WebFetchTool, WebSearchTool, TodoWriteTool, TaskStopTool, TaskOutputTool, AskUserQuestionTool, SkillTool, EnterPlanModeTool, ExitPlanModeV2Tool, SendMessageTool, BriefTool, ListMcpResourcesTool, and ReadMcpResourceTool. more in ccunpacked&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;Claude Code默认开启的工具少于20个（总计可达60+个）：AgentTool、BashTool、FileReadTool、FileEditTool、FileWriteTool、NotebookEditTool、WebFetchTool、WebSearchTool、TodoWriteTool、TaskStopTool、TaskOutputTool、AskUserQuestionTool、SkillTool、EnterPlanModeTool、ExitPlanModeV2Tool、SendMessageTool、BriefTool、ListMcpResourcesTool和ReadMcpResourceTool。更多详情参见ccunpacked。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Claude code has less than 20 tools default on (up to 60+ total): AgentTool, BashTool, FileReadTool, FileEditTool, FileWriteTool, NotebookEditTool, WebFetchTool, WebSearchTool, TodoWriteTool, TaskStopTool, TaskOutputTool, AskUserQuestionTool, SkillTool, EnterPlanModeTool, ExitPlanModeV2Tool, SendMessageTool, BriefTool, ListMcpResourcesTool, and ReadMcpResourceTool.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+Claude Code默认开启的工具少于20个（总计可达60+个）：AgentTool、BashTool、FileReadTool、FileEditTool、FileWriteTool、NotebookEditTool、WebFetchTool、WebSearchTool、TodoWriteTool、TaskStopTool、TaskOutputTool、AskUserQuestionTool、SkillTool、EnterPlanModeTool、ExitPlanModeV2Tool、SendMessageTool、BriefTool、ListMcpResourcesTool和ReadMcpResourceTool。
+&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!_MBb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff17faae4-fe57-460c-9336-d5fe8fcf134e_2420x1384.png" alt="Tools list" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;File read deduplication/tool result sampling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;文件读取去重/工具结果采样（File read deduplication/tool result sampling）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+File read deduplication/tool result sampling
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+文件读取去重/工具结果采样
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;Structured Session Memory (more on this)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;结构化会话记忆（Structured Session Memory，下文详述）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Structured Session Memory (more on this)
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+结构化会话记忆（下文详述）
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;Subagents&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;子代理（Subagents）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Subagents
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+子代理
+&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!ZN5N!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5c7ee5f-e03e-434b-b52a-3c0a0470e111_1444x577.png" alt="Subagents" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;Memory&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Claude Code's Memory has a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;3 layer design&lt;/strong&gt; with 1) a &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;MEMORY.md&lt;/code&gt; that is just an index to other knowledge, 2) topic files loaded on demand, and 3) full session transcripts that can be searched. There's also an "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;autoDream&lt;/strong&gt;" mode for "sleep" - merging memories, deduping, pruning, removing contradictions.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+Claude Code的记忆系统采用&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;三层架构&lt;/strong&gt;：1）&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;MEMORY.md&lt;/code&gt;仅作为其他知识索引的入口；2）按需加载的主题文件；3）可被检索的完整会话记录。此外，系统还设有"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;autoDream&lt;/strong&gt;"模式用于"睡眠"状态——合并记忆、去重、剪枝、消除矛盾。
+&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!tg7G!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F658d124b-b5d7-4075-af07-2bb850a42d32_1754x1052.png" alt="Memory system" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+A deeper analysis from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;mem0&lt;/strong&gt; finds 8 phases:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;mem0&lt;/strong&gt;的深度分析发现了8个阶段：
+&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!AToy!,w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4d57d8b-f3b3-4005-90bc-129661d8c15b_1899x2048.png" alt="8 phases analysis" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+And there are 5 kinds of Compaction:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+此外还包含5种压缩（Compaction）机制：
+&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!-ryH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0165c08d-6763-490a-9b76-5c9c957f5d06_1182x1612.png" alt="5 kinds of Compaction" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;Subagents use Prompt Caching&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+A key feature of CC: they use the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;KV cache&lt;/strong&gt; to create a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;fork-join&lt;/strong&gt; model for their subagents, meaning they contain the full context and don't have to repeat work. In other words: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Parallelism is basically free&lt;/strong&gt;.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+CC（Claude Code）的关键特性：他们利用&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;KV缓存&lt;/strong&gt;（键值缓存）为子代理创建&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;fork-join&lt;/strong&gt;（分叉-合并）模型，这意味着子代理包含完整上下文且无需重复计算。换言之：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;并行化几乎是零成本&lt;/strong&gt;的。
+&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;The 5 level Permission System&lt;/h3&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!9fhE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9d020dee-d813-4868-8df5-29454d48129a_1254x1592.png" alt="5 level Permission System" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;The 2 Types of Plan mode&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+here:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+如下：
+&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!4Ytb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59924d12-f74b-4ba8-9272-5419fbad1ecd_1451x1609.jpeg" alt="2 Types of Plan mode" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;Resilience/Retry&lt;/h3&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!5FIb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F293e920e-2e19-4e16-a04d-c52d699afe6b_1206x1228.png" alt="Resilience/Retry" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;Other Unreleased/Internal Features&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Including an employee-only gate and an employee &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;TUI&lt;/strong&gt;, but also a bunch of other stuff in development including &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ULTRAPLAN&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;KAIROS&lt;/strong&gt;:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+包括仅限员工访问的门槛和员工专用的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;TUI&lt;/strong&gt;（Terminal User Interface，终端用户界面），以及正在开发中的一系列其他功能，包括&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ULTRAPLAN&lt;/strong&gt;和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;KAIROS&lt;/strong&gt;：
+&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!cG_C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3642b10-1f7e-49a0-af0d-986b24180a1c_1600x1084.png" alt="ULTRAPLAN and KAIROS" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+And internal &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAGIC DOCS&lt;/strong&gt;:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+以及内部的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAGIC DOCS&lt;/strong&gt;（魔法文档）：
+&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!Fk1Q!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b39db63-a7b1-48a1-839d-c498202c659e_1773x1822.jpeg" alt="MAGIC DOCS" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+AI News for 3/23/2026-3/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!
+&lt;/blockquote&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+AI News 2026年3月23日-24日。我们检查了12个子版块（subreddits）、544个Twitter账号，未涉及更多Discord频道。AINews网站支持搜索所有往期内容。提醒：AINews现已成为Latent Space的一个栏目。您可以选择接收邮件的频率！
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+AI News for 3/23/2026-3/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+AI News 2026年3月23日-24日。我们检查了12个子版块、544个Twitter账号，未涉及更多Discord频道。AINews网站支持搜索所有往期内容。提醒：AINews现已成为Latent Space的一个栏目。您可以选择接收邮件的频率！
+&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;AI Twitter Recap&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Top Story: Claude Code source leak — architecture discoveries, Anthropic's response, and competitor reactions
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+头条新闻：Claude Code源代码泄露——架构发现、Anthropic的回应及竞争对手的反应
+&lt;/p&gt;
+
+&lt;h4 style="margin:20px 0 10px;"&gt;What happened&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Claude Code had substantial source artifacts exposed via shipped &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;source maps&lt;/strong&gt; / package contents, which triggered rapid public reverse-engineering, mirroring, and derivative ports. The discussion quickly shifted from "embarrassing leak" to "what does this reveal about state-of-the-art agent harness design?" Multiple observers highlighted that the leak exposed &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;orchestration logic&lt;/strong&gt; rather than model weights, including autonomous modes, memory systems, planning/review flows, and model-specific control logic. Public forks proliferated; one post claimed 32.6k stars and 44.3k forks on a fork before legal fear led to a Python conversion effort using Codex (Yuchenj_UW). Later commentary put the exposed code volume at 500k+ lines (Yuchenj_UW). Anthropic then moved to contain redistribution via &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;DMCA&lt;/strong&gt; takedowns according to several posters (dbreunig, BlancheMinerva). Separately, a Claude Code team member announced a product feature during the fallout — easier local/web GitHub credential setup via &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;/web-setup&lt;/code&gt; (catwu) — implying normal product operations continued. The leak also created a live security hazard: attackers quickly registered suspicious &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;npm packages&lt;/strong&gt; such as &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;color-diff-napi&lt;/code&gt; and &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;modifiers-napi&lt;/code&gt; to target people trying to compile the leaked code (Butanium_).
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+Claude Code的大量源代码构件通过已发布的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;source maps&lt;/strong&gt;（源映射）/包内容意外暴露，迅速引发了公开的逆向工程、镜像复制和衍生移植。讨论热度很快从"尴尬的泄露"转向"这揭示了最先进的智能体框架（agent harness）设计的哪些信息？"多位观察者指出，泄露暴露的是&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;编排逻辑&lt;/strong&gt;（orchestration logic）而非模型权重，包括自主模式、记忆系统、规划/审查流程以及模型特定的控制逻辑。公开的分叉版本激增；有帖子称某一分支在法律风险导致使用Codex转为Python版本之前，已获得3.26万星标和4.43万分叉（Yuchenj_UW）。后续评论将暴露的代码量定为50万+行（Yuchenj_UW）。据多位发帖者称（dbreunig、BlancheMinerva），Anthropic随后通过&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;DMCA&lt;/strong&gt;（数字千年版权法）下架通知来控制代码的再分发。另一方面，一名Claude Code团队成员在事件发酵期间宣布了一项产品功能——通过&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;/web-setup&lt;/code&gt;简化本地/网页端GitHub凭证设置（catwu）——暗示产品运营仍在正常进行。泄露还造成了现实的安全隐患：攻击者迅速注册了可疑的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;npm包&lt;/strong&gt;，如&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;color-diff-napi&lt;/code&gt;和&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;modifiers-napi&lt;/code&gt;，意图攻击试图编译泄露代码的用户（Butanium_）。
+&lt;/p&gt;
+
+&lt;h4 style="margin:20px 0 10px;"&gt;Facts vs. opinions&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+What is reasonably factual from the tweets:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+推文中相对属实的内容：
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Read more
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+阅读更多
+&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.latent.space/p/ainews-the-claude-code-source-leak"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.latent.space/p/ainews-the-claude-code-source-leak</guid>
+      <pubDate>Wed, 01 Apr 2026 06:24:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Lenny's Newsletter: OpenClaw高阶指南：ChatGPT后最强个人AI工具</title>
+      <link>https://www.lennysnewsletter.com/p/listen-openclaw-a-power-users-guide</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #OpenClaw #AI智能体 #自动化 #工作流&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 曾经的 OpenClaw 怀疑者 Claire Vo 分享其从质疑到重度使用的转变经历，提供这份高阶实战指南，详解如何通过 9 个专属 AI 代理管理业务与生活，并涵盖工具设置、多代理协作及六个可立即落地的高效工作流程。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Listen: OpenClaw: A power-user&amp;#x27;s guide to the most powerful personal AI tool since ChatGPT&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Listen: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt;: A power-user's guide to the most powerful personal AI tool since &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;收听：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt;：自 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; 以来最强大的个人 AI 工具高阶用户指南&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!RoZx!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F110437bd-c367-41f8-acea-2281c0674e65_3016x3016.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;If you're a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;premium subscriber&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;Add the private feed to your podcast app at &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;add.lennysreads.com&lt;/strong&gt;&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如果你是&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;付费订阅用户&lt;/strong&gt;（premium subscriber），请将私密订阅源添加到你的播客应用：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;add.lennysreads.com&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claire Vo&lt;/strong&gt; went from public &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt; skeptic to running nine dedicated &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI agents&lt;/strong&gt; that manage her businesses, write code, close sales deals, and make sure she gets to her kids' basketball games on time. In this episode, she shares her complete power-user's guide to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt;—covering everything from setup and key concepts to practical workflows and building your own team of agents.&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claire Vo&lt;/strong&gt; 从公开的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt; 怀疑论者，转变为运行九个专用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 智能体&lt;/strong&gt;（AI agents）的重度用户——这些智能体帮她管理业务、编写代码、完成销售交易，并确保她能准时参加孩子的篮球比赛。在本期节目中，她分享了完整的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt; 高阶用户指南——涵盖从设置和核心概念到实际工作流程以及构建你自己的智能体团队的所有内容。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Listen now: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt; | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple&lt;/strong&gt; | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt;&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;立即收听：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt; | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple&lt;/strong&gt; | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;In this episode, you'll learn:&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;在本期节目中，你将学到：&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;What &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt; is and why it's more autonomous and powerful than other &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI tools&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt; 是什么，以及为什么它比其他 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 工具&lt;/strong&gt;更自主、更强大&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;What &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt; is and why it's more autonomous and powerful than other &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI tools&lt;/strong&gt;&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt; 是什么，以及为什么它比其他 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 工具&lt;/strong&gt;更自主、更强大&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;How to choose the right setup: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Mac Mini&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;VPS&lt;/strong&gt;, or a hosted option&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如何选择合适的部署方案：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Mac Mini&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;VPS&lt;/strong&gt;（虚拟专用服务器）还是托管方案&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;How to choose the right setup: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Mac Mini&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;VPS&lt;/strong&gt;, or a hosted option&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如何选择合适的部署方案：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Mac Mini&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;VPS&lt;/strong&gt;（虚拟专用服务器）还是托管方案&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;Six ready-to-copy &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;workflows&lt;/strong&gt; you can start using immediately&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;六个可立即复制的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;工作流程&lt;/strong&gt;（workflows）&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Six ready-to-copy &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;workflows&lt;/strong&gt; you can start using immediately&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;六个可立即复制的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;工作流程&lt;/strong&gt;（workflows）&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;How to run multiple agents with specific roles (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claire's&lt;/strong&gt; full 9-agent setup)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如何运行具有特定角色的多个智能体（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claire&lt;/strong&gt; 的完整 9 智能体设置）&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;How to run multiple agents with specific roles (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claire's&lt;/strong&gt; full 9-agent setup)&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如何运行具有特定角色的多个智能体（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claire&lt;/strong&gt; 的完整 9 智能体设置）&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;The best tools and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;integrations&lt;/strong&gt; to connect your agents to the real world&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;将智能体与现实世界连接的最佳工具和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;集成方案&lt;/strong&gt;（integrations）&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The best tools and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;integrations&lt;/strong&gt; to connect your agents to the real world&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;将智能体与现实世界连接的最佳工具和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;集成方案&lt;/strong&gt;（integrations）&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;Key &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;security&lt;/strong&gt; considerations and how to think about risk&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;关键的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;安全&lt;/strong&gt;考量以及如何评估风险&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Key &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;security&lt;/strong&gt; considerations and how to think about risk&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;关键的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;安全&lt;/strong&gt;考量以及如何评估风险&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Prefer text?&lt;br/&gt;&lt;br/&gt;Read the full article here&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;更喜欢文字版？&lt;br/&gt;&lt;br/&gt;在此阅读完整文章&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/listen-openclaw-a-power-users-guide"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/listen-openclaw-a-power-users-guide</guid>
+      <pubDate>Wed, 01 Apr 2026 14:11:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: Axios供应链攻击：从npm拉取的恶意依赖</title>
+      <link>https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #供应链攻击 #npm安全 #前端安全&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Axios因长期有效的npm令牌泄露而遭遇供应链攻击，导致恶意依赖被发布至npm仓库。建议采用可信发布机制限制发布权限，并可通过检查是否伴随GitHub release来识别可疑的恶意包。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Supply Chain Attack on Axios Pulls Malicious Dependency from npm&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Supply Chain Attack on Axios Pulls Malicious Dependency from npm&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+It looks like the attack came from a leaked long-lived &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;npm token&lt;/strong&gt;. Axios havean open issue to adopt &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;trusted publishing&lt;/strong&gt;, which would ensure that only their &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GitHub Actions&lt;/strong&gt; workflows are able to publish to npm. The malware packages were published without an accompanying GitHub release, which strikes me as a useful heuristic for spotting potentially malicious releases - the same pattern was present for &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;LiteLLM&lt;/strong&gt; last week as well.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+此次攻击似乎源于一个泄露的长期有效的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;npm token&lt;/strong&gt;（npm 令牌）。Axios 有一个待解决的 issue 建议采用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;trusted publishing&lt;/strong&gt;（可信发布）机制，该机制可确保只有其 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GitHub Actions&lt;/strong&gt; 工作流才能向 npm 发布包。这些恶意软件包在发布时并未伴随相应的 GitHub release，这在我看来是一个识别潜在恶意发布的有用启发式方法——上周 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;LiteLLM&lt;/strong&gt; 也出现了相同的模式。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vialobste.rs&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vialobste.rs&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Tags: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;javascript&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;security&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;npm&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;supply-chain&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;javascript&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;security&lt;/strong&gt;（安全）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;npm&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;supply-chain&lt;/strong&gt;（供应链）
+&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything</guid>
+      <pubDate>Tue, 31 Mar 2026 23:28:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: 好代码的经济学逻辑</title>
+      <link>https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI编程 #代码质量 #经济激励&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 作者认为，经济力量而非主观意愿将决定AI代码质量：优质代码因维护成本低且能助开发者快速交付可靠功能，必将在市场竞争中胜出；从长远看，市场不会容忍低质量的&amp;quot;代码垃圾&amp;quot;（slop）。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Quoting Soohoon Choi&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Quoting Soohoon Choi&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+I want to argue that &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI models&lt;/strong&gt; will write good code because of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;economic incentives&lt;/strong&gt;. Good code is cheaper to generate and maintain. Competition is high between the AI models right now, and the ones that win will help developers ship reliable features fastest, which requires simple, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;maintainable code&lt;/strong&gt;. Good code will prevail, not only because we want it to (though we do!), but because economic forces demand it. Markets will not reward slop in coding, in the long-term.
+&lt;/blockquote&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我想论证的是，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI模型&lt;/strong&gt;之所以将编写出优质代码，是因为存在&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;经济激励&lt;/strong&gt;。优质代码的生成和维护成本更低。当前AI模型之间的竞争非常激烈，而胜出的模型将帮助开发者以最快的速度交付可靠的功能，这就需要简洁、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;可维护的代码&lt;/strong&gt;。优质代码终将胜出，不仅因为我们希望如此（尽管我们确实希望！），更是因为经济力量的要求。从长远来看，市场不会奖励编码中的粗制滥造（slop）。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+—&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Soohoon Choi&lt;/strong&gt;, &lt;em&gt;Slop Is Not Necessarily The Future&lt;/em&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Soohoon Choi&lt;/strong&gt;，《Slop Is Not Necessarily The Future》
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Tags: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;slop&lt;/strong&gt;, ai-assisted-programming, generative-ai, agentic-engineering, ai, llms
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;低质量代码（slop）&lt;/strong&gt;、AI辅助编程、生成式AI、智能体工程（Agentic Engineering）、AI、大语言模型（LLMs）
+&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything</guid>
+      <pubDate>Wed, 01 Apr 2026 02:07:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: datasette-llm 0.1a5 发布</title>
+      <link>https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Datasette #LLM #插件 #版本发布&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; datasette-llm 发布 0.1a5 版本，其 llm_prompt_context() 插件钩子机制现已支持跟踪链式提示及工具调用循环。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: datasette-llm 0.1a5&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;datasette-llm 0.1a5&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Release: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm&lt;/strong&gt; 0.1a5&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;发布：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm&lt;/strong&gt; 0.1a5&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;The &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm_prompt_context()&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;plugin hook&lt;/strong&gt; wrapper mechanism now tracks prompts executed within a chain as well as one-off prompts, which means it can be used to track &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;tool call loops&lt;/strong&gt;. #5&lt;/blockquote&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm_prompt_context()&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;插件钩子（plugin hook）&lt;/strong&gt;包装机制现在可以追踪链式执行中的提示词（prompts）以及一次性提示词，这意味着它可用于追踪&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;工具调用循环（tool call loops）&lt;/strong&gt;。#5&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li&gt;The &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm_prompt_context()&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;plugin hook&lt;/strong&gt; wrapper mechanism now tracks prompts executed within a chain as well as one-off prompts, which means it can be used to track &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;tool call loops&lt;/strong&gt;. #5&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;list-style:none;"&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm_prompt_context()&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;插件钩子&lt;/strong&gt;包装机制现在可以追踪链式执行中的提示词以及一次性提示词，这意味着它可用于追踪&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;工具调用循环&lt;/strong&gt;。#5&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;llm&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette&lt;/strong&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;llm&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette&lt;/strong&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything</guid>
+      <pubDate>Wed, 01 Apr 2026 03:11:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: Datasette LLM 使用插件 0.2a0 发布</title>
+      <link>https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Datasette #LLM #插件 #版本发布&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; datasette-llm-usage 0.2a0 版本剥离了配额和定价功能（现由 datasette-llm-accountant 处理），转由 datasette-llm 统一管理模型配置，并新增支持将完整提示词、响应及工具调用记录至数据库的功能，同时重新设计了简单提示页面并增加了权限要求。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: datasette-llm-usage 0.2a0&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Release: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm-usage&lt;/strong&gt; 0.2a0&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;发布：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm-usage&lt;/strong&gt; 0.2a0&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+  &lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+    Removed features relating to allowances and estimated pricing. These are now the domain of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm-accountant&lt;/strong&gt;. Now depends on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm&lt;/strong&gt; for model configuration. #3 Full prompts and responses and tool calls can now be logged to the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm_usage_prompt_log&lt;/strong&gt; table in the internal database if you set the new &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;datasette-llm-usage.log_prompts&lt;/strong&gt; plugin configuration setting. Redesigned the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;/-/llm-usage-simple-prompt&lt;/strong&gt; page, which now requires the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm-usage-simple-prompt&lt;/strong&gt; permission.
+  &lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;移除了与额度（allowances）和预估定价相关的功能。这些功能现已归属 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm-accountant&lt;/strong&gt; 管理。现在依赖 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm&lt;/strong&gt; 进行模型配置。#3 如果设置了新的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;datasette-llm-usage.log_prompts&lt;/strong&gt; 插件配置项，完整的提示词（prompts）、响应内容和工具调用（tool calls）现在可以记录到内部数据库的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm_usage_prompt_log&lt;/strong&gt; 表中。重新设计了 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;/-/llm-usage-simple-prompt&lt;/strong&gt; 页面，该页面现在需要 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm-usage-simple-prompt&lt;/strong&gt; 权限才能访问。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+  &lt;ul style="margin:8px 0;padding-left:20px;"&gt;
+    &lt;li&gt;Removed features relating to allowances and estimated pricing. These are now the domain of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm-accountant&lt;/strong&gt;.&lt;/li&gt;
+    &lt;li&gt;Now depends on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm&lt;/strong&gt; for model configuration. #3&lt;/li&gt;
+    &lt;li&gt;Full prompts and responses and tool calls can now be logged to the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm_usage_prompt_log&lt;/strong&gt; table in the internal database if you set the new &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;datasette-llm-usage.log_prompts&lt;/strong&gt; plugin configuration setting.&lt;/li&gt;
+    &lt;li&gt;Redesigned the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;/-/llm-usage-simple-prompt&lt;/strong&gt; page, which now requires the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm-usage-simple-prompt&lt;/strong&gt; permission.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+  &lt;ul style="margin:8px 0;padding-left:20px;"&gt;
+    &lt;li&gt;移除了与额度（allowances）和预估定价相关的功能。这些功能现已归属 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm-accountant&lt;/strong&gt; 管理。&lt;/li&gt;
+    &lt;li&gt;现在依赖 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm&lt;/strong&gt; 进行模型配置。#3&lt;/li&gt;
+    &lt;li&gt;如果设置了新的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;datasette-llm-usage.log_prompts&lt;/strong&gt; 插件配置项，完整的提示词、响应内容和工具调用现在可以记录到内部数据库的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm_usage_prompt_log&lt;/strong&gt; 表中。&lt;/li&gt;
+    &lt;li&gt;重新设计了 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;/-/llm-usage-simple-prompt&lt;/strong&gt; 页面，该页面现在需要 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm-usage-simple-prompt&lt;/strong&gt; 权限才能访问。&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette&lt;/strong&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette&lt;/strong&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything</guid>
+      <pubDate>Wed, 01 Apr 2026 03:24:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: datasette-enrichments-llm 0.2a0 发布</title>
+      <link>https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #LLM #Datasette #数据增强&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; datasette-enrichments-llm 插件发布 0.2a0 版本，现已改用 datasette-llm 来配置和管理模型，用户可通过新增的 enrichments 用途指定可用于数据增强的模型。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: datasette-enrichments-llm 0.2a0&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;datasette-enrichments-llm 0.2a0&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Release:&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-enrichments-llm&lt;/strong&gt; 0.2a0&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;发布：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-enrichments-llm&lt;/strong&gt; 0.2a0&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;This plugin now uses&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm&lt;/strong&gt;to configure and manage &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;models&lt;/strong&gt;. This means it's possible tospecify which &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;models&lt;/strong&gt;should be made available for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;enrichments&lt;/strong&gt;, using the new&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;enrichments&lt;/strong&gt;purpose.&lt;/blockquote&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;该插件现在使用 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm&lt;/strong&gt; 来配置和管理&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;模型（models）&lt;/strong&gt;。这意味着现在可以通过新的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;enrichments&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;用途（purpose）&lt;/strong&gt;来指定哪些模型可用于增强处理。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;This plugin now uses&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm&lt;/strong&gt;to configure and manage models. This means it's possible tospecify which models should be made available for enrichments, using the newenrichmentspurpose.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;该插件现在使用 datasette-llm 来配置和管理模型（models）。这意味着现在可以通过新的 enrichments 用途（purpose）来指定哪些模型可用于增强处理。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags:&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm&lt;/strong&gt;,&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette&lt;/strong&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette&lt;/strong&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything</guid>
+      <pubDate>Wed, 01 Apr 2026 03:28:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: datasette-extract 0.3a0 发布</title>
+      <link>https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #数据提取 #LLM #版本发布&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; datasette-extract 发布 0.3a0 版本，现已集成 datasette-llm 来统一管理模型配置，支持通过 extract 用途和 LLM 设置灵活控制提取任务可用的模型。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: datasette-extract 0.3a0&lt;/p&gt;
+&lt;hr/&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Release&lt;/strong&gt;: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-extract&lt;/strong&gt; 0.3a0
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;发布&lt;/strong&gt;：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-extract&lt;/strong&gt; 0.3a0
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul style="margin:0;padding-left:20px;"&gt;
+&lt;li&gt;Now uses &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm&lt;/strong&gt; to manage model configuration, which means you can control which models are available for extraction tasks using the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;extract&lt;/strong&gt; purpose and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM&lt;/strong&gt; model configuration. &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;#38&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+现通过 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette-llm&lt;/strong&gt; 管理模型配置，这意味着你可以使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;extract&lt;/strong&gt; 用途和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM&lt;/strong&gt; 模型配置来控制哪些模型可用于提取任务。&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;#38&lt;/code&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Tags: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;llm&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette&lt;/strong&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+标签：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;llm&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;datasette&lt;/strong&gt;
+&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything</guid>
+      <pubDate>Wed, 01 Apr 2026 03:32:16 +0000</pubDate>
     </item>
   </channel>
 </rss>
