@@ -7,32 +7,31 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 01 Apr 2026 23:18:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 22:58:33 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-04-01</title>
-      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-04-08</title>
+      <description>&lt;p&gt;&lt;strong&gt;科技日报：AI 安全模型受限发布、自动化工作流实践与创意管理&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Datasette 生态 LLM 套件集体更新&lt;/strong&gt;（Simon Willison）：核心库 datasette-llm（0.1a5）新增链式提示与工具调用循环追踪能力，datasette-extract（0.3a0）、datasette-enrichments-llm（0.2a0）、datasette-llm-usage（0.2a0）同步升级，统一迁移至 datasette-llm 管理模型配置，分别支持数据提取、增强与使用追踪场景下的精细化模型控制（含完整提示词与响应入库功能）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anthropic 发布 Claude Mythos 安全模型&lt;/strong&gt;：ARR 突破 300 亿美元的同时，推出自 GPT-2 以来首个因安全风险过高而限制公开发布的模型，通过 Project Glasswing 向 40 家合作伙伴开放，可大规模检测零日漏洞。（来源：Latent Space, TLDR AI）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GLM-5.1 与推理优化进展&lt;/strong&gt;：Z.ai 发布擅长长周期任务的 GLM-5.1 代理模型；Warp Decode 技术实现 MoE 架构推理大幅加速。（来源：TLDR AI）&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4&gt;产品与增长&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Claude Code 源码泄露揭示架构细节&lt;/strong&gt;（Latent Space）：约 50 万行源代码意外曝光，披露该 AI 编程代理采用三层内存系统、子代理并行机制等底层架构，包含大量未发布功能，为开发者社区提供罕见的技术研究样本。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anthropic 商业化里程碑&lt;/strong&gt;：公司年化经常性收入（ARR）从 3 月的 190 亿美元猛增至 300 亿美元，展现强劲的企业级 AI 需求增长。（来源：Latent Space）&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4&gt;工程与系统设计&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;OpenClaw 高阶实战指南&lt;/strong&gt;（Lenny Rachitsky）：产品专家 Claire Vo 分享从怀疑者到重度用户的转变，详解如何通过 9 个专属 AI 代理管理业务与生活，涵盖工具设置、多代理协作及六个可立即落地的高效工作流。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI 驱动的个人工作流自动化&lt;/strong&gt;：Clay 教育主管 Yash Tekriwal 分享如何利用 Perplexity Computer 等 AI 编程工具构建自定义 Slack 通知分类系统，实践&amp;quot;反待办清单&amp;quot;理念，通过每日一小时自动化投入消除重复性工作。（来源：Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4&gt;跨界与深度思考&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AI 编程工具 Cursor&lt;/strong&gt;（TLDR）：受 Stripe、OpenAI、NVIDIA 等采用的 Cursor 支持多模型集成与智能代码代理，提供并行开发功能以提升构建效率。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;工程与安全&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Axios npm 供应链攻击&lt;/strong&gt;（Simon Willison）：因长期有效的 npm 令牌泄露，攻击者成功发布恶意依赖。建议采用可信发布（Trusted Publishing）机制限制发布权限，并通过检查 GitHub Release 关联性识别可疑包。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AI 代码质量的市场选择&lt;/strong&gt;（Simon Willison）：引用 Soohoon Choi 观点指出，经济激励而非主观意愿将决定 AI 代码质量——优质代码因降低维护成本、提升交付可靠性而在市场竞争中自然胜出，低质量&amp;quot;代码垃圾&amp;quot;（slop）终将被淘汰。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI 时代职业替代的矛盾心理&lt;/strong&gt;：Giles Turnbull 指出，人们热衷于用 AI 工具尝试他人的专业工作，却对自己所在领域被 AI 渗透持抵触态度，揭示了面对技术变革时的认知偏差。（来源：Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;走出创意低谷的实践指南&lt;/strong&gt;：漫画家 Michelle Rial 分享克服创作瓶颈的 12 个步骤，强调接纳&amp;quot;尴尬&amp;quot;作品、培养立即行动心态，并将失败重新定义为未来突破的契机。（来源：Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-01</guid>
-      <pubDate>Wed, 01 Apr 2026 23:18:39 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-08</guid>
+      <pubDate>Wed, 08 Apr 2026 22:58:33 +0000</pubDate>
     </item>
   </channel>
 </rss>
