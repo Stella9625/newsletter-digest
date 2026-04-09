@@ -7,31 +7,25 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 08 Apr 2026 22:58:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 23:31:18 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-04-08</title>
-      <description>&lt;p&gt;&lt;strong&gt;科技日报：AI 安全模型受限发布、自动化工作流实践与创意管理&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
+      <title>📰 AI/产品/技术日报 - 2026-04-09</title>
+      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Anthropic 发布 Claude Mythos 安全模型&lt;/strong&gt;：ARR 突破 300 亿美元的同时，推出自 GPT-2 以来首个因安全风险过高而限制公开发布的模型，通过 Project Glasswing 向 40 家合作伙伴开放，可大规模检测零日漏洞。（来源：Latent Space, TLDR AI）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GLM-5.1 与推理优化进展&lt;/strong&gt;：Z.ai 发布擅长长周期任务的 GLM-5.1 代理模型；Warp Decode 技术实现 MoE 架构推理大幅加速。（来源：TLDR AI）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Meta 发布新一代前沿模型 Muse Spark&lt;/strong&gt;：该模型基于全新自研技术栈构建，集成 16 种工具（包括 Python 代码执行、视觉物体定位、图像生成等），支持复杂多模态任务，目前通过 meta.ai 以私有 API 形式向选定合作伙伴开放预览，Meta 暗示未来版本可能重新开源。来源：Simon Willison, Latent Space, TLDR AI&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;产品与增长&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Anthropic 商业化里程碑&lt;/strong&gt;：公司年化经常性收入（ARR）从 3 月的 190 亿美元猛增至 300 亿美元，展现强劲的企业级 AI 需求增长。（来源：Latent Space）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anthropic 推出 Managed Agents 与 Notion 集成&lt;/strong&gt;：Anthropic 发布解耦&amp;quot;大脑&amp;quot;与执行层的 Managed Agents 系统，同时 Claude 已支持直接接入 Notion 工作流。来源：TLDR AI&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;工程与系统设计&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AI 驱动的个人工作流自动化&lt;/strong&gt;：Clay 教育主管 Yash Tekriwal 分享如何利用 Perplexity Computer 等 AI 编程工具构建自定义 Slack 通知分类系统，实践&amp;quot;反待办清单&amp;quot;理念，通过每日一小时自动化投入消除重复性工作。（来源：Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub 仓库体积查询工具&lt;/strong&gt;：Simon Willison 利用 GitHub CORS 友好的 API 开发快速查询工具，可获取任意仓库大小（如 simonw/datasette 为 8.1MB），弥补官方界面不显示该数据的缺陷。来源：Simon Willison&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;跨界与深度思考&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AI 时代职业替代的矛盾心理&lt;/strong&gt;：Giles Turnbull 指出，人们热衷于用 AI 工具尝试他人的专业工作，却对自己所在领域被 AI 渗透持抵触态度，揭示了面对技术变革时的认知偏差。（来源：Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;走出创意低谷的实践指南&lt;/strong&gt;：漫画家 Michelle Rial 分享克服创作瓶颈的 12 个步骤，强调接纳&amp;quot;尴尬&amp;quot;作品、培养立即行动心态，并将失败重新定义为未来突破的契机。（来源：Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;asgi-gzip 0.3 修复 SSE 压缩问题&lt;/strong&gt;：ASGI Gzip 中间件发布新版本，修复 Server-Sent Events (SSE) 流响应被错误压缩的 Bug，补回了因 CI 中断而遗漏的 Starlette 上游修复。来源：Simon Willison&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-08</guid>
-      <pubDate>Wed, 08 Apr 2026 22:58:33 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-09</guid>
+      <pubDate>Thu, 09 Apr 2026 23:31:18 +0000</pubDate>
     </item>
   </channel>
 </rss>
