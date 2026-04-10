@@ -7,25 +7,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 09 Apr 2026 23:31:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 22:46:37 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-04-09</title>
+      <title>📰 AI/产品/技术日报 - 2026-04-10</title>
       <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Meta 发布新一代前沿模型 Muse Spark&lt;/strong&gt;：该模型基于全新自研技术栈构建，集成 16 种工具（包括 Python 代码执行、视觉物体定位、图像生成等），支持复杂多模态任务，目前通过 meta.ai 以私有 API 形式向选定合作伙伴开放预览，Meta 暗示未来版本可能重新开源。来源：Simon Willison, Latent Space, TLDR AI&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ChatGPT 语音模式能力弱于文本版本&lt;/strong&gt;：Simon Willison 指出该功能实际基于知识截止 2024 年 4 月的 GPT-4o 旧版模型，与 OpenAI 最新编程模型存在显著能力差距；Andrej Karpathy 分析称，编程任务因具备可验证的奖励机制且商业价值更高，因而获得更集中的研发优化。（Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;产品与商业化&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Anthropic 推出 Managed Agents 与 Notion 集成&lt;/strong&gt;：Anthropic 发布解耦&amp;quot;大脑&amp;quot;与执行层的 Managed Agents 系统，同时 Claude 已支持直接接入 Notion 工作流。来源：TLDR AI&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI 推出百元月费套餐，AI 助手密集更新商业化功能&lt;/strong&gt;：OpenAI 发布每月 $100 的 ChatGPT Pro 订阅以完善定价策略；Claude Cowork 企业版正式上线，提供组织级管控与扩展观察功能；Perplexity 通过与 Plaid 整合，将服务从投资组合追踪扩展为全方位个人财务中心。（TLDR AI）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub 仓库体积查询工具&lt;/strong&gt;：Simon Willison 利用 GitHub CORS 友好的 API 开发快速查询工具，可获取任意仓库大小（如 simonw/datasette 为 8.1MB），弥补官方界面不显示该数据的缺陷。来源：Simon Willison&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;asgi-gzip 0.3 修复 SSE 压缩问题&lt;/strong&gt;：ASGI Gzip 中间件发布新版本，修复 Server-Sent Events (SSE) 流响应被错误压缩的 Bug，补回了因 CI 中断而遗漏的 Starlette 上游修复。来源：Simon Willison&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;鸮鹦鹉播客片段&lt;/strong&gt;：Lenny 发布关于濒危鸟类鸮鹦鹉（kākāpō）的播客片段，节选自时长 1 小时 40 分钟的完整录音。（Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-09</guid>
-      <pubDate>Thu, 09 Apr 2026 23:31:18 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-10</guid>
+      <pubDate>Fri, 10 Apr 2026 22:46:37 +0000</pubDate>
     </item>
   </channel>
 </rss>

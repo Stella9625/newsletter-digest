@@ -7,204 +7,367 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 09 Apr 2026 23:30:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 22:46:03 +0000</lastBuildDate>
     <item>
-      <title>[翻译] TLDR AI: Meta Muse Spark、Anthropic托管代理与Claude集成Notion</title>
-      <link>https://tldr.tech/ai/2026-04-09</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI智能体 #大模型 #开发工具&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 文章报道了Meta发布具备工具使用和多智能体编排能力的多模态推理模型Muse Spark，以及Anthropic推出解耦&amp;quot;大脑&amp;quot;与执行层的Managed Agents系统；同时介绍了Google Colab AI编程辅导、Meta内部AI使用量反思等AI行业最新动态。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Meta&amp;#x27;s Muse Spark 🤖, Anthropic&amp;#x27;s Managed Agents 🧠, Claude + Notion 📝&lt;/p&gt;
+      <title>[翻译] TLDR AI: OpenAI百元新套餐、Claude企业版上线、Perplexity携手Plaid</title>
+      <link>https://tldr.tech/ai/2026-04-10</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI产品 #商业化 #智能体 #多模态&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; OpenAI推出每月100美元的ChatGPT Pro新套餐以完善定价策略，Claude Cowork企业版正式上线并提供组织管控与扩展观察功能，同时Perplexity通过与Plaid整合将服务从投资组合追踪扩展为全方位个人财务中心。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: OpenAI $100 plan 💳, Claude Cowork GA 🏢, Perplexity x Plaid 💸&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;TLDR AI 2026-04-09&lt;/h3&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;TLDR AI 2026-04-10&lt;/h3&gt;
+&lt;/div&gt;
 
-&lt;h3 style="margin:24px 0 12px;"&gt;Meta's Muse Spark 🤖, Anthropic's Managed Agents 🧠, Claude + Notion 📝&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+TLDR AI 2026-04-10
+&lt;/p&gt;
 
-&lt;h4 style="margin:24px 0 12px;"&gt;Your prompts are only as good as the detail you put in. Typing is the bottleneck. (Sponsor)&lt;/h4&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;OpenAI $100 plan 💳, Claude Cowork GA 🏢, Perplexity x Plaid 💸&lt;/h3&gt;
+&lt;/div&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Wispr Flow&lt;/strong&gt; turns your voice into clean, ready-to-paste text. Speak detailed prompts into &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt;, or any AI tool at 4x the speed of typing. Flow strips filler words, fixes grammar, and formats automatically.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Wispr Flow&lt;/strong&gt; 将你的语音转换为干净、可直接粘贴的文本。以比打字快 4 倍的速度向 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; 或任何 AI 工具口述详细的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;提示词（prompts）&lt;/strong&gt;。Flow 会自动剔除填充词、修正语法并格式化文本。&lt;/p&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+OpenAI 百元计划 💳，Claude Cowork 全面上市 🏢，Perplexity 携手 Plaid 💸
+&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li style="margin:4px 0;"&gt;More context, better outputs. Describe edge cases, explain constraints, give your AI the full picture.&lt;/li&gt;&lt;li style="margin:4px 0;"&gt;89% sent with zero edits. No cleanup between you and your AI.&lt;/li&gt;&lt;li style="margin:4px 0;"&gt;System-level. Works in every app on Mac, Windows, iPhone, and Android.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:8px 0;padding-left:24px;"&gt;&lt;li style="margin:4px 0;"&gt;更多上下文，更优质的输出。描述边界情况，解释约束条件，让你的 AI 掌握全貌。&lt;/li&gt;&lt;li style="margin:4px 0;"&gt;89% 的内容无需编辑直接发送。在你与 AI 之间无需清理整理。&lt;/li&gt;&lt;li style="margin:4px 0;"&gt;系统级集成。适用于 Mac、Windows、iPhone 和 Android 上的每个应用。&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h4&gt;Aman Sanger, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt;: “After switching to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;turbopuffer&lt;/strong&gt;, we're saving an order of magnitude in costs” (Sponsor)&lt;/h4&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Millions of users, including teams at &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vercel&lt;/strong&gt;.&lt;br/&gt;&lt;br/&gt;Try Wispr Flow Free|Get Flow&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;数百万用户正在使用，包括 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vercel&lt;/strong&gt; 的团队。&lt;br/&gt;&lt;br/&gt;免费试用 Wispr Flow | 获取 Flow&lt;/p&gt;
+&lt;p&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;turbopuffer&lt;/strong&gt; is the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vector database&lt;/strong&gt; for search. It's built on object storage with smart caching - so it's fast, cheap, and extremely scalable.&lt;/p&gt;
 
-&lt;h4 style="margin:24px 0 12px;"&gt;Introducing Learn Mode: your personal coding tutor in Google Colab (3 minute read)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Used by &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Notion&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Linear&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Cognition&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Atlassian&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Ramp&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Granola&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Legora&lt;/strong&gt;...&lt;/li&gt;
+&lt;li&gt;✅ Fast → ~20ms p90 latency on 10M documents&lt;/li&gt;
+&lt;li&gt;✅ Truly serverless → Run your first query in ~4 minutes&lt;/li&gt;
+&lt;li&gt;✅ Up to 95% cheaper than traditional &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vector/text search databases&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google Colab&lt;/strong&gt; has enhanced its &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Gemini&lt;/strong&gt; integration with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Custom Instructions&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Learn Mode&lt;/strong&gt;, enabling personalized AI assistance and coding guidance. Custom Instructions allow users to adjust Gemini's behavior to fit their workflow or project needs, and Learn Mode provides step-by-step coding support instead of complete solutions. These updates enhance user control and facilitate skill-building, sharing personalized AI settings with the Colab community.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google Colab&lt;/strong&gt; 通过&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;自定义指令（Custom Instructions）&lt;/strong&gt;和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;学习模式（Learn Mode）&lt;/strong&gt;增强了与 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Gemini&lt;/strong&gt; 的集成，实现了个性化的 AI 辅助和编程指导。自定义指令允许用户调整 Gemini 的行为以适应其工作流程或项目需求，而学习模式则提供循序渐进的编程支持，而非直接给出完整解决方案。这些更新增强了用户控制权，促进了技能培养，并允许与 Colab 社区分享个性化的 AI 设置。&lt;/p&gt;
+&lt;p&gt;TLDR readers get their first month free. &lt;a href="#"&gt;Sign up here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;h4 style="margin:24px 0 12px;"&gt;Meta introduced Muse Spark (9 minute read)&lt;/h4&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h4&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Aman Sanger&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt;："在切换到 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;turbopuffer&lt;/strong&gt; 后，我们的成本节省了一个数量级"（赞助商）&lt;/h4&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; introduced &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Muse Spark&lt;/strong&gt;, a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;multimodal reasoning model&lt;/strong&gt; with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;tool use&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;visual chain-of-thought&lt;/strong&gt;, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;multi-agent orchestration&lt;/strong&gt;, as part of its push toward personal superintelligence.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; 发布了 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Muse Spark&lt;/strong&gt;，这是一款具备&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;工具使用（tool use）&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;视觉思维链（visual chain-of-thought）&lt;/strong&gt;和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;多智能体编排（multi-agent orchestration）&lt;/strong&gt;能力的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;多模态推理模型（multimodal reasoning model）&lt;/strong&gt;，这是该公司迈向个人超级智能的重要一步。&lt;/p&gt;
+&lt;p&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;turbopuffer&lt;/strong&gt; 是专为搜索设计的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;向量数据库（vector database）&lt;/strong&gt;。它基于对象存储构建，具备智能缓存功能——因此速度快、成本低且极具可扩展性。&lt;/p&gt;
 
-&lt;h4 style="margin:24px 0 12px;"&gt;Systems Engineering: Building Agentic Software That Works (4 minute read)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ 已被 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Notion&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Linear&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Cognition&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Atlassian&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Ramp&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Granola&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Legora&lt;/strong&gt; 等公司使用……&lt;/li&gt;
+&lt;li&gt;✅ 速度快 → 1000 万文档的 P90 延迟约 20 毫秒&lt;/li&gt;
+&lt;li&gt;✅ 真正的无服务器架构 → 约 4 分钟即可运行首个查询&lt;/li&gt;
+&lt;li&gt;✅ 比传统 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;向量/文本搜索数据库&lt;/strong&gt; 便宜高达 95%&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Building reliable &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic software&lt;/strong&gt; requires treating it as a full system, not optimizing isolated components like tools or storage. This post outlines five critical layers that must be designed together to avoid cascading constraints and failures. Using a real open-source example, it shows how &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;structured data&lt;/strong&gt;, enforced permissions, and consistent interfaces enable agents to improve over time and operate safely in production.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;构建可靠的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;智能体软件（agentic software）&lt;/strong&gt;需要将其视为一个完整系统，而非孤立优化工具或存储等组件。本文概述了必须协同设计的五个关键层级，以避免级联约束和故障。通过真实的开源示例，展示了&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;结构化数据（structured data）&lt;/strong&gt;、强制权限和一致接口如何使智能体随时间改进并在生产环境中安全运行。&lt;/p&gt;
+&lt;p&gt;TLDR 读者可享受首月免费。点击此处注册。&lt;/p&gt;
+&lt;/p&gt;
 
-&lt;h4 style="margin:24px 0 12px;"&gt;Inside the AI Industry's Most Expensive Mistake (17 minute read)&lt;/h4&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; $100 Pro Plan Introduced (2 minute read)&lt;/h3&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;An internal leaderboard at &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; that ranked employees on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;token usage&lt;/strong&gt; revealed that, over a 30-day period, the company used around 60 trillion &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;tokens&lt;/strong&gt;. It is estimated that all books published amount to about 20 trillion tokens. The AI industry seems obsessed with token spend, but the metric is easily hacked, and more token use doesn't mean more value is provided.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; 内部一个根据&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;token 使用量（token usage）&lt;/strong&gt;对员工进行排名的榜单显示，在 30 天内，该公司使用了约 60 万亿个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;token（词元）&lt;/strong&gt;。据估计，所有已出版书籍的总量约为 20 万亿 token。AI 行业似乎痴迷于 token 消耗，但这一指标很容易被操纵，且更多的 token 使用并不意味着创造了更多价值。&lt;/p&gt;
+&lt;p&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; introduced a new $100/month ChatGPT Pro tier aimed at power users, expanding its pricing lineup between the $20 Plus and $200 Pro plans. The company confirmed the $200 plan still exists despite not being listed on the pricing page.&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;👨‍💻&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; 推出 100 美元 Pro 套餐（2 分钟阅读）&lt;/h3&gt;
 
+&lt;p&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 推出了新的每月 100 美元 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT Pro&lt;/strong&gt; 层级，面向重度用户，在 20 美元的 Plus 套餐和 200 美元的 Pro 套餐之间扩展了其定价阵容。该公司确认，尽管定价页面上未列出，但 200 美元的套餐仍然存在。&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Making &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Cowork&lt;/strong&gt; ready for enterprise (3 minute read)&lt;/h3&gt;
+
+&lt;p&gt;Claude Cowork is now enterprise-ready, enhancing work with organization controls like &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;role-based access&lt;/strong&gt;, group spend limits, and expanded &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;observability&lt;/strong&gt; features. Admins can manage adoption with detailed usage analytics and integrate tools like &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Zoom&lt;/strong&gt; for seamless workflows. Companies like &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Zapier&lt;/strong&gt; and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Airtree&lt;/strong&gt; have already leveraged these features for improved project management and operational efficiency.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;让 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Cowork&lt;/strong&gt; 为企业级应用做好准备（3 分钟阅读）&lt;/h3&gt;
+
+&lt;p&gt;Claude Cowork 现已具备企业级就绪能力，通过组织控制功能（如&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;基于角色的访问控制（role-based access）&lt;/strong&gt;、群组消费限额和扩展的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;可观测性（observability）&lt;/strong&gt;功能）增强工作体验。管理员可以通过详细的使用分析来管理采用情况，并集成 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Zoom&lt;/strong&gt; 等工具以实现无缝工作流。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Zapier&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Airtree&lt;/strong&gt; 等公司已经利用这些功能改进了项目管理和运营效率。&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Perplexity&lt;/strong&gt; launches Personal Finance powered by &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Plaid&lt;/strong&gt; (2 minute read)&lt;/h3&gt;
+
+&lt;p&gt;Perplexity has expanded its financial services with &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Plaid&lt;/strong&gt; integration, transitioning from &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;portfolio tracking&lt;/strong&gt; to a comprehensive finance dashboard. Users can link checking, savings, credit card, and loan accounts to analyze spending, track liabilities, and calculate net worth. Targeted at AI-savvy consumers, it combines data insights with Plaid's infrastructure, transforming from a portfolio add-on to a full personal finance hub without executing trades.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Perplexity&lt;/strong&gt; 推出由 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Plaid&lt;/strong&gt; 支持的个人金融服务（2 分钟阅读）&lt;/h3&gt;
+
+&lt;p&gt;Perplexity 通过与 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Plaid&lt;/strong&gt; 的集成扩展了其金融服务，从&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;投资组合追踪（portfolio tracking）&lt;/strong&gt;转型为综合金融仪表盘。用户可以关联支票账户、储蓄账户、信用卡和贷款账户，以分析支出、追踪负债并计算净资产。该产品面向精通 AI 的消费者，将数据洞察与 Plaid 的基础设施相结合，从一个投资组合附加功能转变为完整的个人金融中心，且无需执行实际交易。&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Alibaba&lt;/strong&gt; Claims Viral Happy Horse &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI Model&lt;/strong&gt; in Latest Breakthrough (3 minute read)&lt;/h3&gt;
+
+&lt;p&gt;The Happy Horse video AI model that sent ripples across China's AI industry this week was created by &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Alibaba&lt;/strong&gt;. The model hit the top spot on the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;text-to-video&lt;/strong&gt; leaderboard of Artificial Analysis this week. Alibaba plans to provide &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API access&lt;/strong&gt; to the model in the near future.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;阿里巴巴（Alibaba）&lt;/strong&gt;声称爆红的"欢乐马"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 模型&lt;/strong&gt;是其最新突破（3 分钟阅读）&lt;/h3&gt;
+
+&lt;p&gt;本周在中国 AI 行业引起轰动的 Happy Horse 视频 AI 模型由 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;阿里巴巴&lt;/strong&gt; 创建。该模型本周在 Artificial Analysis 的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;文本生成视频（text-to-video）&lt;/strong&gt;排行榜上位居榜首。阿里巴巴计划近期为该模型提供 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API 访问（API access）&lt;/strong&gt;。&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Agentic Infrastructure&lt;/strong&gt; on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vercel&lt;/strong&gt; (8 minute read)&lt;/h3&gt;
+
+&lt;p&gt;Vercel argued that coding agents were reshaping how software gets built and deployed, with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agent-initiated deployments&lt;/strong&gt; rising sharply and accounting for more than 30% of weekly deployments. The post framed this shift as a need for new infrastructure designed for agents to deploy software, run AI systems, and increasingly operate infrastructure autonomously.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vercel&lt;/strong&gt; 上的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;智能体基础设施（Agentic Infrastructure）&lt;/strong&gt;（8 分钟阅读）&lt;/h3&gt;
+
+&lt;p&gt;Vercel 认为，编程智能体正在重塑软件的构建和部署方式，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;智能体发起的部署（agent-initiated deployments）&lt;/strong&gt;急剧增加，占每周部署量的 30% 以上。这篇文章将这一转变描述为对新型基础设施的需求，这种基础设施专为智能体部署软件、运行 AI 系统以及日益自主地操作基础设施而设计。&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;CoreWeave&lt;/strong&gt; Takes As Much Financial Engineering As It Does Datacenter Design (4 minute read)&lt;/h3&gt;
+
+&lt;p&gt;CoreWeave's &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;revenue backlog&lt;/strong&gt; is up to $87.8 billion, with &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; represents 40.1% of that backlog. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;'s deals represent 25.5% of extended backlog. CoreWeave only has two dozen named customers, but it likely has more. The company achieved $5.13 billion in sales in 2025, up 2.7x from 2024, and posted a net loss of $1.17 billion. It recently held a private offering of $1.75 billion in notes to cover its data center expansion costs.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;CoreWeave&lt;/strong&gt; 的金融工程与其数据中心设计同等复杂（4 分钟阅读）&lt;/h3&gt;
+
+&lt;p&gt;CoreWeave 的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;收入积压订单（revenue backlog）&lt;/strong&gt;高达 878 亿美元，其中 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; 占 40.1%，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 的交易占扩展积压订单的 25.5%。CoreWeave 仅有二十几家知名客户，但很可能拥有更多客户。该公司 2025 年销售额达 51.3 亿美元，较 2024 年增长 2.7 倍，净亏损 11.7 亿美元。它最近进行了 17.5 亿美元的私募债券发行，以支付其数据中心扩张成本。&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Research-Driven Agents: What Happens When Your Agent Reads Before It Codes (16 minute read)&lt;/h3&gt;
+
+&lt;p&gt;Coding agents generate better optimizations when they read papers and study competing projects before touching code. Coding agents working from code alone generate shallow hypotheses. Adding a research phase improves results.&lt;/p&gt;
+
+&lt;p&gt;👨‍💻&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;研究驱动型智能体：当智能体在编码前先阅读会发生什么（16 分钟阅读）&lt;/h3&gt;
+
+&lt;p&gt;当编程智能体在接触代码之前先阅读论文并研究竞争项目时，它们会产生更好的优化方案。仅基于代码工作的编程智能体会产生浅层假设。增加研究阶段可以改善结果。&lt;/p&gt;
+
+&lt;p&gt;👨‍💻&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
 &lt;h3 style="margin:24px 0 12px;"&gt;Engineering &amp; Research&lt;/h3&gt;
+&lt;/div&gt;
 
-&lt;h4 style="margin:24px 0 12px;"&gt;Don't wait for tests to reveal something you could have spotted during ideation (Sponsor)&lt;/h4&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;工程与研究&lt;/h3&gt;
+&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Instead, get visual in minutes with rapid, interactive &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prototypes&lt;/strong&gt;. Bring PMs, designers, engineers, and even clients onto one shared canvas so you can test ideas together. By aligning on the right direction before design or code even starts, you'll eliminate costly rework. Get your free trial and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;validate your ideas faster&lt;/strong&gt;.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;相反，通过快速、交互式的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;原型（prototypes）&lt;/strong&gt;在几分钟内实现可视化。让产品经理、设计师、工程师甚至客户汇聚在同一个共享画布上，共同测试创意。通过在设计和编码开始之前就正确方向达成一致，你将避免代价高昂的重工。获取免费试用，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;更快地验证你的想法&lt;/strong&gt;。&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h4&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;IronClaw&lt;/strong&gt;: the secure agent harness for always-on AI (Sponsor)&lt;/h4&gt;
 
-&lt;h4 style="margin:24px 0 12px;"&gt;Turn your ideas into interactive prototypes with AI (Sponsor)&lt;/h4&gt;
+&lt;p&gt;You're one &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API key&lt;/strong&gt; away from an agent that codes, commits, and pulls from GitHub and Slack autonomously. What's stopped you is trusting it with credentials.&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;With &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Maze&lt;/strong&gt;, teams can turn rough concepts into interactive, testable experiences in minutes using AI. Bring stakeholders into a live working session, get real reactions before design or code begin, and walk out with a direction everyone has actually touched and tested.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;使用 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Maze&lt;/strong&gt;，团队可以利用 AI 在几分钟内将粗略的概念转化为可交互、可测试的体验。让利益相关者参与实时协作会议，在设计和编码开始前获得真实反馈，并带着每个人都实际接触和测试过的方向离开。&lt;/p&gt;
+&lt;p&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;IronClaw&lt;/strong&gt; isolates every tool in a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Wasm sandbox&lt;/strong&gt;. Credentials never reach the model.&lt;/p&gt;
 
-&lt;h4 style="margin:24px 0 12px;"&gt;Scaling Managed Agents: Decoupling the brain from the hands (13 minute read)&lt;/h4&gt;
+&lt;p&gt;Open-source, built in rust, deployable on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NEAR AI Cloud&lt;/strong&gt;. Verifiably yours.&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Harnesses&lt;/strong&gt; encode assumptions about what &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; can't do on its own. These assumptions need to be frequently questioned as models improve. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; built &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Managed Agents&lt;/strong&gt; as a system for 'programs as yet unthought of'. It is designed to accommodate future harnesses, sandboxes, or other components around Claude.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Harnesses（约束框架）&lt;/strong&gt;编码了关于 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; 无法独立完成的任务的假设。随着模型能力的提升，这些假设需要被频繁质疑。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 将&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;托管智能体（Managed Agents）&lt;/strong&gt;构建为一个面向"尚未被想到的应用程序"的系统。它旨在适应未来围绕 Claude 的约束框架、沙盒或其他组件。&lt;/p&gt;
+&lt;p&gt;&lt;a href="#"&gt;Try IronClaw Free →&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;h4 style="margin:24px 0 12px;"&gt;Monarch: an API to your supercomputer (11 minute read)&lt;/h4&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h4&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;IronClaw&lt;/strong&gt;：面向永不停歇 AI 的安全智能体框架（赞助商）&lt;/h4&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Monarch&lt;/strong&gt; is a distributed programming framework for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PyTorch&lt;/strong&gt; that makes running distributed training jobs on huge clusters easy. It makes clusters programmable through a simple Python API that exposes the supercomputer as a coherent, directly controllable system. Monarch is optimized for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic usage&lt;/strong&gt;, and it provides consistent infrastructure abstractions and exposed telemetry. It can turn a dev machine into a supercomputer, leveling up its agents.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Monarch&lt;/strong&gt; 是一个针对 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PyTorch&lt;/strong&gt; 的分布式编程框架，可简化在大型集群上运行分布式训练任务的过程。它通过简单的 Python API 使集群可编程，将超级计算机暴露为一个连贯、可直接控制的系统。Monarch 针对&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;智能体使用（agentic usage）&lt;/strong&gt;进行了优化，提供一致的基础设施抽象和暴露的遥测数据。它可以将开发机器转变为超级计算机，提升其智能体的能力。&lt;/p&gt;
+&lt;p&gt;只需一个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API 密钥（API key）&lt;/strong&gt;，你就能拥有一个可以自主编码、提交代码并从 GitHub 和 Slack 拉取信息的智能体。阻碍你的是对其凭证安全的信任问题。&lt;/p&gt;
 
-&lt;h4 style="margin:24px 0 12px;"&gt;Claw-Eval Benchmark for AI Agents (GitHub Repo)&lt;/h4&gt;
+&lt;p&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;IronClaw&lt;/strong&gt; 将每个工具隔离在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Wasm 沙盒（Wasm sandbox）&lt;/strong&gt;中。凭证永远不会到达模型。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claw-Eval&lt;/strong&gt; provides a human-verified benchmark for evaluating &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM agents&lt;/strong&gt; across 139 real-world tasks using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Docker sandboxes&lt;/strong&gt;, multiple services, and structured grading.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claw-Eval&lt;/strong&gt; 提供了一个经过人工验证的基准测试，用于在 139 个真实世界任务中评估 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM 智能体（LLM agents）&lt;/strong&gt;，使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Docker 沙盒（Docker sandboxes）&lt;/strong&gt;、多个服务和结构化评分。&lt;/p&gt;
+&lt;p&gt;开源，使用 Rust 构建，可部署在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NEAR AI Cloud&lt;/strong&gt; 上。真正属于你。&lt;/p&gt;
 
-&lt;h4 style="margin:24px 0 12px;"&gt;Bugbot now self-improves with learned rules (3 minute read)&lt;/h4&gt;
+&lt;p&gt;免费试用 IronClaw →&lt;/p&gt;
+&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bugbot&lt;/strong&gt;'s resolution rate now nears 80%, significantly outperforming other &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI code review&lt;/strong&gt; products. Bugbot harnesses real-time signals from past runs to self-improve by transforming feedback into learned rules. Over 110,000 repositories use this feature to generate over 44,000 learned rules, enhancing Bugbot's focus on specific issues and business context.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bugbot&lt;/strong&gt; 的解决率现已接近 80%，显著优于其他 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 代码审查（AI code review）&lt;/strong&gt;产品。Bugbot 利用过往运行的实时信号，通过将反馈转化为学习规则来实现自我改进。超过 11 万个仓库使用这一功能生成了超过 4.4 万条学习规则，增强了 Bugbot 对特定问题和业务场景的关注。&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Process Driven Image Generation (22 minute read)&lt;/h3&gt;
 
-&lt;h4 style="margin:24px 0 12px;"&gt;AI agent Poke makes setting up automations as easy as sending a text (8 minute read)&lt;/h4&gt;
+&lt;p&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; has introduced a multi-step framework for image synthesis that alternates between textual reasoning and visual updates. This enables models to iteratively plan, draft, reflect, and refine outputs.&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Poke&lt;/strong&gt;, a new &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI agent&lt;/strong&gt; accessible via text messaging apps, simplifies automation with pre-made "recipes" for tasks like scheduling and smart home control. Backed by $25 million in funding and valued at $300 million, Poke aims for widespread adoption by offering flexibility in pricing and encouraging user-generated automation recipes. Unlike complex systems like &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt;, Poke's user-friendly approach targets a broader audience without compromising on functionality.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Poke&lt;/strong&gt; 是一款可通过短信应用访问的新型 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 智能体（AI agent）&lt;/strong&gt;，它通过预制的"配方"简化了自动化设置，用于处理日程安排和智能家居控制等任务。Poke 获得了 2500 万美元融资，估值达 3 亿美元，旨在通过灵活的定价策略和鼓励用户生成自动化配方来实现广泛采用。与 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt; 等复杂系统不同，Poke 采用用户友好的方法，在不牺牲功能性的前提下瞄准更广泛的受众。&lt;/p&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;流程驱动的图像生成（22 分钟阅读）&lt;/h3&gt;
 
-&lt;h4 style="margin:24px 0 12px;"&gt;Anthropic loses appeals court bid to temporarily block Pentagon blacklisting (5 minute read)&lt;/h4&gt;
+&lt;p&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; 引入了一个多步骤图像合成框架，在文本推理和视觉更新之间交替进行。这使模型能够迭代地规划、起草、反思和优化输出。&lt;/p&gt;
+&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;A federal appeals court has blocked &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;'s request to temporarily block the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Department of War&lt;/strong&gt;'s blacklisting of the company as a lawsuit challenging the sanction plays out. Anthropic is now excluded from the Department of War's contracts, but it can continue working with other government agencies while the litigation plays out. Defense contractors will be prohibited from using &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; in their work with the agency, but they can use it for other cases.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;联邦上诉法院驳回了 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 暂时阻止&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;战争部（Department of War）&lt;/strong&gt;将该公司列入黑名单的请求，相关诉讼正在进行中。Anthropic 目前被排除在战争部的合同之外，但在诉讼期间可以继续与其他政府机构合作。国防承包商将被禁止在与该机构合作时使用 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt;，但可以在其他案例中使用。&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Multimodal Embedding&lt;/strong&gt; &amp; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Reranker Models&lt;/strong&gt; with &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sentence Transformers&lt;/strong&gt; (8 minute read)&lt;/h3&gt;
 
+&lt;p&gt;The v5.4 update of Sentence Transformers introduces &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;multimodal embedding&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;reranker models&lt;/strong&gt; that enable encoding and comparing texts, images, audio, and videos within a shared embedding space for tasks like cross-modal search and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;retrieval-augmented generation&lt;/strong&gt;. These advanced models map different modalities into a consistent embedding space and assess relevance across mixed-modality pairs, though lower cross-modal similarity scores may occur due to modality clustering. Notably, multimodal rerankers provide high-quality scoring by evaluating individual pairs for more accurate retrieval results.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;使用 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sentence Transformers&lt;/strong&gt; 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;多模态嵌入（Multimodal Embedding）&lt;/strong&gt;与&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;重排序模型（Reranker Models）&lt;/strong&gt;（8 分钟阅读）&lt;/h3&gt;
+
+&lt;p&gt;Sentence Transformers 的 v5.4 更新引入了&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;多模态嵌入&lt;/strong&gt;和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;重排序模型&lt;/strong&gt;，能够在共享嵌入空间内对文本、图像、音频和视频进行编码和比较，用于跨模态搜索和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;检索增强生成（retrieval-augmented generation, RAG）&lt;/strong&gt;等任务。这些高级模型将不同模态映射到一致的嵌入空间，并评估混合模态对之间的相关性，尽管由于模态聚类可能导致跨模态相似性分数较低。值得注意的是，多模态重排序器通过评估单个配对来提供高质量的评分，从而获得更准确的检索结果。&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; launches advisor tool for &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Platform API&lt;/strong&gt; users (1 minute read)&lt;/h3&gt;
+
+&lt;p&gt;The new advisor tool on Anthropic's Claude Platform API provides developers with the ability to use &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Opus&lt;/strong&gt; as an advisor alongside &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Sonnet&lt;/strong&gt; or &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Haiku&lt;/strong&gt; as executors. This allows agents to access advanced reasoning capabilities while maintaining operational costs at the level of the more efficient executor models. The advisor tool is now publicly available through a configuration in the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Messages API&lt;/strong&gt; request.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 为 Claude Platform API 用户推出顾问工具（1 分钟阅读）&lt;/h3&gt;
+
+&lt;p&gt;Anthropic 的 Claude Platform API 上的新顾问工具使开发者能够将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Opus&lt;/strong&gt; 用作顾问，同时将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Sonnet&lt;/strong&gt; 或 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Haiku&lt;/strong&gt; 用作执行器。这允许智能体在保持更高效执行器模型水平的运营成本的同时，访问高级推理能力。该顾问工具现已通过 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Messages API&lt;/strong&gt; 请求中的配置公开可用。&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Efficient Rollout Scaling for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Diffusion RL&lt;/strong&gt; (4 minute read)&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NVIDIA&lt;/strong&gt;'s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Sol-RL&lt;/strong&gt; introduces a two-stage framework that separates exploration and training, using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;FP4&lt;/strong&gt; rollouts to generate large candidate sets and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;BF16&lt;/strong&gt; for selective policy updates. This approach reduced compute costs while improving alignment and accelerating convergence in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;diffusion model&lt;/strong&gt; post-training.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;扩散强化学习（Diffusion RL）&lt;/strong&gt;的高效 rollout 扩展（4 分钟阅读）&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NVIDIA&lt;/strong&gt; 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Sol-RL&lt;/strong&gt; 引入了一个两阶段框架，将探索与训练分离，使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;FP4&lt;/strong&gt; rollout 生成大型候选集，并使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;BF16&lt;/strong&gt; 进行选择性策略更新。这种方法在降低计算成本的同时，提高了对齐度并加速了&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;扩散模型（diffusion model）&lt;/strong&gt;后训练的收敛速度。&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Introducing &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;KellyBench&lt;/strong&gt; (2 minute read)&lt;/h3&gt;
+
+&lt;p&gt;KellyBench evaluates sequential decision-making in sports betting by simulating the 2023-24 English Premier League season. Models like &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Opus 4.6&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT-5.4&lt;/strong&gt; struggled, with none achieving positive returns, highlighting their limitations in adapting to long-term strategies. This underscores a need for complex environments enabling agents to learn from experience under uncertainty.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;推出 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;KellyBench&lt;/strong&gt;（2 分钟阅读）&lt;/h3&gt;
+
+&lt;p&gt;KellyBench 通过模拟 2023-24 赛季英格兰足球超级联赛来评估体育博彩中的顺序决策。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Opus 4.6&lt;/strong&gt; 和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT-5.4&lt;/strong&gt; 等模型表现挣扎，没有一个实现正收益，凸显了它们在适应长期策略方面的局限性。这强调了需要复杂环境来使智能体能够在不确定性下从经验中学习。&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Dario&lt;/strong&gt; Says &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Continual Learning&lt;/strong&gt; Is Solved. Is It? (5 minute read)&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Continual learning&lt;/strong&gt; research is aimed at breaking past the feasible horizon of current techniques. If models can't learn new things while performing tasks, they will struggle when the task horizon grows very long. &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Context management&lt;/strong&gt; and other engineering improvements can push task horizons to weeks, or even months, but very long-horizon tasks remain out of reach. Human-level continual learning may be 'solved', but the revolution is not yet complete.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Dario&lt;/strong&gt;（Amodei）称&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;持续学习（Continual Learning）&lt;/strong&gt;已解决。真的吗？（5 分钟阅读）&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;持续学习&lt;/strong&gt;研究旨在突破当前技术的可行范围。如果模型无法在执行任务的同时学习新事物，当任务时间范围变得很长时，它们将难以应对。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;上下文管理（Context management）&lt;/strong&gt;和其他工程改进可以将任务时间范围延长到数周甚至数月，但超长期任务仍然遥不可及。人类水平的持续学习或许已经"解决"，但革命尚未完成。&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
 &lt;h3 style="margin:24px 0 12px;"&gt;Get the most interesting AI stories and breakthroughs delivered in a free daily email.&lt;/h3&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Join 920,000 readers for&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;加入 92 万读者的行列，获取&lt;/p&gt;
+&lt;p&gt;Join 920,000 readers for&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;通过免费每日邮件获取最有趣的 AI 故事和突破。&lt;/h3&gt;
+
+&lt;p&gt;加入 92 万读者的行列&lt;/p&gt;
+&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://tldr.tech/ai/2026-04-09"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://tldr.tech/ai/2026-04-09</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://tldr.tech/ai/2026-04-10"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-04-10</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[翻译] Latent Space: Meta发布Muse Spark：全新技术栈的首个前沿模型</title>
-      <link>https://www.latent.space/p/ainews-meta-superintelligence-labs</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Meta #大模型 #新架构&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Meta Superintelligence Labs推出其全新自研技术栈上的首个前沿模型Muse Spark，并已面向选定合作伙伴开放私有API预览，同时预告更大规模的模型正在开发中。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: [AINews] Meta Superintelligence Labs announces Muse Spark, first frontier model on their completely new stack&lt;/p&gt;
+      <title>[翻译] Simon Willison: ChatGPT语音模式其实是个弱模型</title>
+      <link>https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #语音模式 #模型能力 #产品差异&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 文章指出ChatGPT语音模式实际基于较旧的GPT-4o模型（知识截止2024年4月），与OpenAI最先进的编程模型存在显著能力差距；作者引用Andrej Karpathy的观点解释，这种差异源于编程任务拥有可验证的奖励机制且商业价值更高，因而获得更集中的研发优化。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: ChatGPT voice mode is a weaker model&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;[AI 新闻] &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta Superintelligence Labs&lt;/strong&gt; 发布 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Muse Spark&lt;/strong&gt;：基于全新技术栈的首个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;frontier model（前沿模型）&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;ChatGPT Voice Mode Is a Weaker Model&lt;br/&gt;ChatGPT 语音模式是一个较弱的模型&lt;/h3&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;It's not much, butit's good numbers:&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;虽然数据不多，但表现相当亮眼：&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!O_Oi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0027e0c1-c564-4c19-88d6-323d3ca86508_1172x1586.png" alt="Performance Chart" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Alexandr&lt;/strong&gt; also concludes:
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;"bigger models are already in developmentwith infrastructure scaling to match.private api preview open to select partners today, with pl…&lt;/blockquote&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+I think it's non-obvious to many people that the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; voice mode runs on a much older, much weaker model - it feels like the AI that you can talk to should be the smartest AI but it really isn't.
 &lt;/div&gt;
-&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Alexandr&lt;/strong&gt; 总结道：
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;bigger models（更大的模型）&lt;/strong&gt;正在开发中，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;infrastructure scaling（基础设施扩展）&lt;/strong&gt;也在同步跟进。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;private API preview（私有 API 预览版）&lt;/strong&gt;今日向精选合作伙伴开放，具体计划……"&lt;/blockquote&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我认为很多人并不清楚，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 的语音模式（voice mode）运行在一个更旧、更弱的模型上——感觉上你能与之对话的 AI 应该是最智能的 AI，但实际上并非如此。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+If you ask &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; voice mode for its knowledge cutoff date it tells you April 2024 - it's a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT-4o&lt;/strong&gt; era model.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+如果你询问 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; 语音模式的知识截止日期（knowledge cutoff date），它会告诉你是 2024 年 4 月——这是一个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT-4o&lt;/strong&gt; 时代的模型。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+This thought inspired bythis &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Andrej Karpathy&lt;/strong&gt; tweetabout the growing gap in understanding of AI capability based on the access points and domains people are using the models with:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+这一想法灵感来自 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Andrej Karpathy&lt;/strong&gt; 的一条推文，关于人们对 AI 能力理解的差距正在扩大，这种差距基于人们使用模型的接入点（access points）和领域（domains）：
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+[...] It really is simultaneously the case that &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;'s free and I think slightly orphaned (?) "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Advanced Voice Mode&lt;/strong&gt;" will fumble the dumbest questions in your Instagram's reels andat the same time, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;'s highest-tier and paid &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt; model will go off for 1 hour to coherently restructure an entire code base, or find and exploit vulnerabilities in computer systems.This part really works and has made dramatic strides because 2 properties:these domains offer explicit reward functions that are verifiable meaning they are easily amenable to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;reinforcement learning&lt;/strong&gt; training (e.g. unit tests passed yes or no, in contrast to writing, which is much harder to explicitly judge),  but alsothey are a lot more valuable in b2b settings, meaning that the biggest fraction of the team is focused on improving them.
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+[...] 事实确实如此：一方面，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 免费的、我认为略显被忽视（orphaned？）的"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;高级语音模式&lt;/strong&gt;（Advanced Voice Mode）"会在你的 Instagram 短视频连最简单的问题都回答不好；另一方面，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 最高层级、付费的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt; 模型却可以花费 1 小时时间，连贯地重构整个代码库，或发现并利用计算机系统中的漏洞。这部分功能确实有效，并取得了显著进展，原因有二：这些领域提供了可验证的明确奖励函数（reward functions），意味着它们很容易适用于&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;强化学习&lt;/strong&gt;（reinforcement learning）训练（例如单元测试是否通过，这与写作不同，后者很难被明确评判）；同时，它们在 B2B 环境中更有价值，意味着团队的大部分精力都集中在改进这些方面。
+&lt;/blockquote&gt;
 &lt;/div&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;"bigger models are already in developmentwith infrastructure scaling to match.private api preview open to select partners today, with pl…&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;bigger models&lt;/strong&gt;正在开发中，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;infrastructure scaling&lt;/strong&gt;也在同步跟进。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;private API preview&lt;/strong&gt;今日向精选合作伙伴开放，具体计划……"&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+[...] It really is simultaneously the case that &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;'s free and I think slightly orphaned (?) "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Advanced Voice Mode&lt;/strong&gt;" will fumble the dumbest questions in your Instagram's reels andat the same time, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;'s highest-tier and paid &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt; model will go off for 1 hour to coherently restructure an entire code base, or find and exploit vulnerabilities in computer systems.
+&lt;/div&gt;
+&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+[...] 事实确实如此：一方面，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 免费的、我认为略显被忽视的"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;高级语音模式&lt;/strong&gt;"会在你的 Instagram 短视频连最简单的问题都回答不好；另一方面，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 最高层级、付费的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt; 模型却可以花费 1 小时时间，连贯地重构整个代码库，或发现并利用计算机系统中的漏洞。
+&lt;/div&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Read more&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;阅读更多&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+This part really works and has made dramatic strides because 2 properties:
+&lt;/div&gt;
+&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+这部分功能确实有效，并取得了显著进展，原因有二：
+&lt;/div&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul style="margin:8px 0;padding-left:24px;"&gt;
+&lt;li&gt;these domains offer explicit &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;reward functions&lt;/strong&gt; that are verifiable meaning they are easily amenable to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;reinforcement learning&lt;/strong&gt; training (e.g. unit tests passed yes or no, in contrast to writing, which is much harder to explicitly judge),  but also&lt;/li&gt;
+&lt;li&gt;they are a lot more valuable in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;b2b&lt;/strong&gt; settings, meaning that the biggest fraction of the team is focused on improving them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;ul style="margin:8px 0;padding-left:24px;"&gt;
+&lt;li&gt;这些领域提供了可验证的明确&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;奖励函数&lt;/strong&gt;（reward functions），意味着它们很容易适用于&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;强化学习&lt;/strong&gt;（reinforcement learning）训练（例如单元测试是否通过，这与写作不同，后者很难被明确评判）；并且&lt;/li&gt;
+&lt;li&gt;它们在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;B2B&lt;/strong&gt; 环境中更有价值，意味着团队的大部分精力都集中在改进这些方面。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Tags: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;andrej-karpathy&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;openai&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;chatgpt&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;
+&lt;/div&gt;
+&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+标签：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;andrej-karpathy&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;openai&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;chatgpt&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;
+&lt;/div&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.latent.space/p/ainews-meta-superintelligence-labs"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.latent.space/p/ainews-meta-superintelligence-labs</guid>
-      <pubDate>Wed, 08 Apr 2026 23:23:36 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything</guid>
+      <pubDate>Fri, 10 Apr 2026 15:56:02 +0000</pubDate>
     </item>
     <item>
-      <title>[翻译] Simon Willison: Meta Muse Spark模型实测：meta.ai聊天工具的隐藏功能揭秘</title>
-      <link>https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Meta #Muse Spark #AI工具 #模型测试&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Meta发布了新一代AI模型Muse Spark，性能对标GPT-5.4等前沿模型，目前以私有API预览形式上线meta.ai平台。该模型集成了包括Python代码执行、视觉物体定位、图像生成在内的16种工具，支持复杂的多模态任务处理，虽然当前未开源，但Meta暗示未来版本可能重新开放模型权重。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Meta&amp;#x27;s new model is Muse Spark, and meta.ai chat has some interesting tools&lt;/p&gt;
+      <title>[翻译] Simon Willison: 鸮鹦鹉</title>
+      <link>https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #鸮鹦鹉 #播客 #动物&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Lenny发布了一段关于鸮鹦鹉（kākāpō）的播客片段，该内容节选自时长1小时40分钟的完整录音。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Kākāpō parrots&lt;/p&gt;
 &lt;hr/&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything</guid>
-      <pubDate>Wed, 08 Apr 2026 23:07:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: asgi-gzip 0.3 发布</title>
-      <link>https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #ASGI #Gzip #Python #Bug修复&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; asgi-gzip发布0.3版本，修复了Server-Sent Events (SSE) 流响应被错误压缩的问题。此次更新补上了因GitHub Actions工作流中断而遗漏的Starlette上游修复。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: asgi-gzip 0.3&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Release: asgi-gzip 0.3&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;发布：asgi-gzip 0.3&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Kākāpō parrots&lt;/h3&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-I ran into trouble deploying a new feature using&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SSE&lt;/strong&gt;(Server-Sent Events) to a production&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Datasette&lt;/strong&gt;instance, and it turned out that instance was using&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;datasette-gzip&lt;/strong&gt;which uses&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;asgi-gzip&lt;/strong&gt;which was incorrectly compressing event/text-stream responses.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我在向生产环境的&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Datasette&lt;/strong&gt;实例部署一个使用&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SSE&lt;/strong&gt;（Server-Sent Events，服务器发送事件）的新功能时遇到了麻烦，结果发现该实例使用了&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;datasette-gzip&lt;/strong&gt;，而它依赖的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;asgi-gzip&lt;/strong&gt;错误地压缩了 event/text-stream 响应。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Lennypostedanother snippet fromour 1 hour 40 minute podcast recordingand it's about kākāpō parrots!&lt;/div&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;asgi-gzip&lt;/strong&gt;was extracted from&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Starlette&lt;/strong&gt;, and has&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;a GitHub Actions scheduled workflow&lt;/strong&gt;to check Starlette for updates that need to be ported to the library... but that action had stopped running and hence had missed&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Starlette's own fix&lt;/strong&gt;for this issue.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;asgi-gzip&lt;/strong&gt;是从&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Starlette&lt;/strong&gt;中提取出来的，并且有一个&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GitHub Actions 定时工作流&lt;/strong&gt;（scheduled workflow）来检查 Starlette 的更新并将其移植到该库中……但该操作已停止运行，因此错过了&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Starlette 对此问题的修复&lt;/strong&gt;。
-&lt;/p&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lenny&lt;/strong&gt;发布了我们1小时40分钟&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;podcast recording&lt;/strong&gt;（播客录音）的另一段片段，内容是关于&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;kākāpō parrots&lt;/strong&gt;（鸮鹦鹉）的！&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-I ran the workflow and integrated the new fix, and now&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;datasette-gzip&lt;/strong&gt;and&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;asgi-gzip&lt;/strong&gt;both correctly handle&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;text/event-stream&lt;/strong&gt;in SSE responses.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我运行了该工作流并集成了新的修复，现在&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;datasette-gzip&lt;/strong&gt;和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;asgi-gzip&lt;/strong&gt;都能正确处理 SSE 响应中的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;text/event-stream&lt;/strong&gt;类型。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags:kakapo&lt;/div&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Tags:&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;gzip&lt;/code&gt;,&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;asgi&lt;/code&gt;,&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;python&lt;/code&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-标签：&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;gzip&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;asgi&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;python&lt;/code&gt;
-&lt;/p&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Tags&lt;/strong&gt;（标签）：kakapo（鸮鹦鹉）&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything</guid>
-      <pubDate>Thu, 09 Apr 2026 03:54:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: GitHub 仓库大小</title>
-      <link>https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #GitHub #仓库大小 #开发工具&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; GitHub界面虽不直接显示仓库体积，但用户可通过其CORS友好的API获取该数据，利用此工具即可快速查询指定仓库（如simonw/datasette为8.1MB）的大小。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: GitHub Repo Size&lt;/p&gt;
-&lt;hr/&gt;
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GitHub&lt;/strong&gt; doesn't tell you the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;repo&lt;/strong&gt; size in the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;UI&lt;/strong&gt;, but it's available in the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CORS-friendlyAPI&lt;/strong&gt;. Paste a repo into this tool to see the size,for example for &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;simonw/datasette&lt;/strong&gt; (8.1MB).
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GitHub&lt;/strong&gt; 不会在&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;UI&lt;/strong&gt;（User Interface，用户界面）中显示&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;repo&lt;/strong&gt;（repository，代码仓库）大小，但你可以通过 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CORS-friendly API&lt;/strong&gt;（支持跨域资源共享的 API）获取该信息。在该工具中输入仓库地址即可查看大小，例如 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;simonw/datasette&lt;/strong&gt;（8.1MB）。
-&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything</guid>
-      <pubDate>Thu, 09 Apr 2026 21:31:50 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything</guid>
+      <pubDate>Fri, 10 Apr 2026 19:07:02 +0000</pubDate>
     </item>
   </channel>
 </rss>
