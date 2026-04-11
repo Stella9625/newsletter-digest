@@ -7,23 +7,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 10 Apr 2026 22:46:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 22:53:44 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-04-10</title>
+      <title>📰 AI/产品/技术日报 - 2026-04-11</title>
       <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ChatGPT 语音模式能力弱于文本版本&lt;/strong&gt;：Simon Willison 指出该功能实际基于知识截止 2024 年 4 月的 GPT-4o 旧版模型，与 OpenAI 最新编程模型存在显著能力差距；Andrej Karpathy 分析称，编程任务因具备可验证的奖励机制且商业价值更高，因而获得更集中的研发优化。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Engineer Europe 2026 核心趋势&lt;/strong&gt;：开源模型 GLM-5.1 代码能力跻身前沿梯队，&amp;quot;Advisor 模式&amp;quot;（轻量执行器+重型顾问）成为 Agent 架构设计主流；行业焦点正从单一模型性能转向 Agent Harness 与 Skills 等可移植基础设施层构建。（Latent Space）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;产品与商业化&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;OpenAI 推出百元月费套餐，AI 助手密集更新商业化功能&lt;/strong&gt;：OpenAI 发布每月 $100 的 ChatGPT Pro 订阅以完善定价策略；Claude Cowork 企业版正式上线，提供组织级管控与扩展观察功能；Perplexity 通过与 Plaid 整合，将服务从投资组合追踪扩展为全方位个人财务中心。（TLDR AI）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQLite 3.53.0 版本更新&lt;/strong&gt;：新增对 NOT NULL 和 CHECK 约束的 ALTER TABLE 增删支持，引入 &lt;code&gt;json_array_insert()&lt;/code&gt; 函数，并显著改进 CLI 结果格式化功能。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQLite 查询格式化交互演示&lt;/strong&gt;：基于 WebAssembly 的浏览器端工具，可实时体验 SQLite 3.53.0 多种 SQL 结果表格渲染方式。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;团队工程文化洞察&lt;/strong&gt;：社区热议 &amp;quot;vibe coding&amp;quot; 作为团队协作编程新模式，探讨如何培训面试官识别真实能力信号，以及领导力务虚会常见的盲区。（Kiyani / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;鸮鹦鹉播客片段&lt;/strong&gt;：Lenny 发布关于濒危鸟类鸮鹦鹉（kākāpō）的播客片段，节选自时长 1 小时 40 分钟的完整录音。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基建与地缘政治观察&lt;/strong&gt;：追踪美伊停火后霍尔木兹海峡持续航运封锁及能源设施遭受的网络与无人机攻击；分析建筑规范缺乏成本效益分析对住房成本的推高效应，以及参议院 ROAD 法案限制机构投资新建租赁住房可能抑制美国住房供应。（Brian Potter / Construction Physics）&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-10</guid>
-      <pubDate>Fri, 10 Apr 2026 22:46:37 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-11</guid>
+      <pubDate>Sat, 11 Apr 2026 22:53:44 +0000</pubDate>
     </item>
   </channel>
 </rss>
