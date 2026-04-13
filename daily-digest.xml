@@ -7,28 +7,32 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 11 Apr 2026 22:53:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 23:29:21 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-04-11</title>
+      <title>📰 AI/产品/技术日报 - 2026-04-13</title>
       <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AI Engineer Europe 2026 核心趋势&lt;/strong&gt;：开源模型 GLM-5.1 代码能力跻身前沿梯队，&amp;quot;Advisor 模式&amp;quot;（轻量执行器+重型顾问）成为 Agent 架构设计主流；行业焦点正从单一模型性能转向 Agent Harness 与 Skills 等可移植基础设施层构建。（Latent Space）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gemma 4 本地音频转录方案&lt;/strong&gt;：Simon Willison 介绍了在 macOS 上通过 MLX 框架与 &lt;code&gt;mlx-vlm&lt;/code&gt; 库，利用 Gemma 4 E2B 多模态模型本地转录音频的方法，并提供了一条可直接运行的 &lt;code&gt;uv&lt;/code&gt; 命令及实测效果。（*Simon Willison*）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Claude Cowork 无代码自动化指南&lt;/strong&gt;：JJ Englert 发布实操指南，讲解如何通过 &amp;quot;brain&amp;quot; 文件、一键连接 Gmail/Slack 及定时任务等策略，利用 Anthropic 桌面工具 Claude Cowork 无需编程即可构建个人自动化工作流。（*JJ Englert / Lenny&amp;#x27;s Newsletter*）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;企业级 AI 助手 Viktor 规模化应用&lt;/strong&gt;：TLDR AI 报道，企业级 AI 助手 Viktor 已被超过 7,000 个团队采用，可直接在 Slack、GitHub、Stripe 等 3,000 多种业务系统中执行跨部门工作流，并通过 SOC 2 认证承诺数据不用于模型训练。（*TLDR AI*）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SQLite 3.53.0 版本更新&lt;/strong&gt;：新增对 NOT NULL 和 CHECK 约束的 ALTER TABLE 增删支持，引入 &lt;code&gt;json_array_insert()&lt;/code&gt; 函数，并显著改进 CLI 结果格式化功能。（Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SQLite 查询格式化交互演示&lt;/strong&gt;：基于 WebAssembly 的浏览器端工具，可实时体验 SQLite 3.53.0 多种 SQL 结果表格渲染方式。（Simon Willison）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;团队工程文化洞察&lt;/strong&gt;：社区热议 &amp;quot;vibe coding&amp;quot; 作为团队协作编程新模式，探讨如何培训面试官识别真实能力信号，以及领导力务虚会常见的盲区。（Kiyani / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Servo 发布可嵌入 &lt;code&gt;servo&lt;/code&gt; crate&lt;/strong&gt;：Servo 团队发布了新的可嵌入 &lt;code&gt;servo&lt;/code&gt; crate，开发者已利用其构建网页截图工具；同时研究发现该 crate 尚无法直接编译为 WebAssembly，但已实现了相关 HTML 解析器的 WASM 版本。（*Simon Willison*）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;基建与地缘政治观察&lt;/strong&gt;：追踪美伊停火后霍尔木兹海峡持续航运封锁及能源设施遭受的网络与无人机攻击；分析建筑规范缺乏成本效益分析对住房成本的推高效应，以及参议院 ROAD 法案限制机构投资新建租赁住房可能抑制美国住房供应。（Brian Potter / Construction Physics）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bryan Cantrill：LLM 缺乏“懒惰”的美德&lt;/strong&gt;：Bryan Cantrill 指出，LLMs 因没有人类因时间有限而追求简洁抽象的“懒惰”特质，倾向于不惜堆砌代码，反而使系统愈发臃肿，反衬出人类工程师对优雅抽象的珍视。（*Simon Willison*）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Steve Yegge：谷歌工程组织的 AI 采用并不领先&lt;/strong&gt;：Steve Yegge 认为谷歌工程团队的 AI 采用率呈“20% 高级用户、20% 拒绝者、60% 仅使用聊天工具”的行业典型分布，与约翰迪尔等普通企业无异；加之长达 18 个月的招聘冻结阻断了外部视角流入，使谷歌难以意识到自身工程组织已变得平庸和落后。（*Simon Willison*）&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-11</guid>
-      <pubDate>Sat, 11 Apr 2026 22:53:44 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-13</guid>
+      <pubDate>Mon, 13 Apr 2026 23:29:21 +0000</pubDate>
     </item>
   </channel>
 </rss>
