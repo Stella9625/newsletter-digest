@@ -7,332 +7,324 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 13 Apr 2026 23:28:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 23:27:44 +0000</lastBuildDate>
     <item>
-      <title>[翻译] TLDR AI: Claude Code新界面、Codex草稿本与多智能体协作</title>
-      <link>https://tldr.tech/ai/2026-04-13</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI编程 #多智能体 #企业自动化&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 企业级 AI 助手 Viktor 已被超过 7,000 个团队采用，能够直接在 Slack、GitHub、Stripe 等 3,000 多种真实业务系统中执行营销、工程和财务等跨部门工作流。该平台通过 SOC 2 认证，承诺数据不用于模型训练，新用户可免费试用并获得 100 美元额度。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Claude Code’s new UI 👨‍💻, Codex Scratchpad 📝, multi-agent coordination 🤖&lt;/p&gt;
+      <title>[翻译] TLDR AI: 谷歌的 Cowork 竞品、Lovable 支付与 Codex 网页浏览</title>
+      <link>https://tldr.tech/ai/2026-04-14</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #智能体 #开发工具 #大模型&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本期AI快讯报道了Google推出桌面Agent与Cowork竞争、Lovable新增聊天式网站支付功能，以及OpenAI为Codex整合网页浏览功能以打造一体化超级应用等多项产品动态。此外，文章还涉及了LLM推理非确定性、AI智能体记忆架构和训练数据剪枝等前沿研究进展。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Google’s Cowork competitor 🖥️, Lovable Payments 💳, Codex web browsing 🌎&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Claude Code 全新界面 👨‍💻、Codex 草稿本 📝、多智能体协同 🤖&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;# TLDR AI 2026-04-14&lt;/h3&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;## Google’s Cowork competitor 🖥️, Lovable Payments 💳, Codex web browsing 🌎&lt;/h3&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### Lovable Payments lets you monetize websites via chat (1 minute read)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Lovable adds built-in payments that let users sell products directly from sites by describing the item, price, and assets in chat. Users enable the Payments integration, complete compliance details, and publish without external setup. The agent also provides analytics like MRR and regional sales data through chat.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Lovable&lt;/strong&gt; 新增了内置支付功能，用户只需在聊天中描述商品、价格和资产，即可直接通过网站销售产品。用户启用 Payments 集成后，完成合规信息填写即可发布，无需外部配置。该智能体（agent）还能通过聊天提供 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MRR&lt;/strong&gt;（月度经常性收入，Monthly Recurring Revenue）和区域销售数据等分析指标。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### Google develops its own desktop Agent to compete with Cowork (3 minute read)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Google has expanded its desktop Agent within Gemini Enterprise, hinting at a shift towards task execution workspaces akin to Claude Cowork. The new interface includes a "Require human review" toggle, implying oversight capabilities for desktop-level task handling. Google's updates signal a move towards a comprehensive work platform, possibly integrating with AI Studio for a unified product.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; 已在其 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemini Enterprise&lt;/strong&gt; 中扩展了桌面智能体（desktop Agent）功能，暗示其正朝着类似 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Cowork&lt;/strong&gt; 的任务执行型工作空间转型。新界面包含一个"Require human review"（需要人工审核）开关，意味着具备对桌面级任务处理的监督能力。Google 的更新标志着其正迈向一个综合工作平台，未来可能与 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI Studio&lt;/strong&gt; 整合为统一产品。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### OpenAI tests web browsing feature on Codex Superapp (2 minute read)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;OpenAI is updating Codex with a web browsing feature and new configurations to serve both basic and developer users. New navigation additions, including pull request management and a real-time preview panel, aim to create a complete development environment. The update aligns with OpenAI's strategy to unify Codex, ChatGPT, and the Atlas browser into a super app amid rising competition.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 正为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt; 添加网页浏览功能和新配置，以同时服务普通用户和开发者。新增的导航功能包括拉取请求（pull request）管理和实时预览面板，旨在打造一个完整的开发环境。此次更新符合 OpenAI 将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; 和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Atlas browser&lt;/strong&gt; 统一为一款 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;super app&lt;/strong&gt;（超级应用）的战略，以应对日益激烈的竞争。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### Defeating Nondeterminism in LLM Inference (37 minute read)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Reproducibility is the bedrock of scientific progress, but it is remarkably difficult to get reproducible results from large language models. LLM APIs are not deterministic in practice, even when adjusting the temperature down to 0. Sampling isn't deterministic even when running inference on your own hardware with an OSS inference library. This article looks at the root causes of nondeterminism to give the community a solid understanding of how to resolve it in their reference systems.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Reproducibility&lt;/strong&gt;（可复现性）是科学进步的基石，但从大语言模型（large language models）中获得可复现结果却异常困难。即便将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;temperature&lt;/strong&gt;（温度参数）调至 0，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM APIs&lt;/strong&gt; 在实践中也并非确定性（deterministic）的。即使在你自己的硬件上使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OSS inference library&lt;/strong&gt;（开源推理库）运行推理，采样（sampling）过程也不具有确定性。本文探讨了非确定性（nondeterminism）的根本原因，以帮助社区深入理解如何在参考系统中解决这一问题。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### Measuring Scientific Discovery Agents (4 minute read)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;AI2's DiscoveryWorld tests whether agents can perform experiments and conduct research, showing large gaps between benchmark progress and real scientific capability.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AI2&lt;/strong&gt; 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;DiscoveryWorld&lt;/strong&gt; 测试智能体（agents）是否能执行实验并开展研究，结果显示基准测试（benchmark）进展与真实科学能力之间存在巨大差距。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### Build Agents that never forget (12 minute read)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;LLM agents fail without structured memory because stateless calls lose context, break multi-step tasks, and force repeated mistakes. Vector search alone cannot answer multi-hop questions, so Cognee combines relational, vector, and graph stores to preserve provenance, meaning, and relationships. The framework exposes four async calls to ingest, structure, refine, and retrieve memory, enabling agents to persist knowledge, link entities, and improve over time.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;由于缺乏 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;structured memory&lt;/strong&gt;（结构化记忆），&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM agents&lt;/strong&gt; 会频繁失败——无状态（stateless）调用会丢失上下文、中断多步骤任务，并导致重复犯错。仅靠 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Vector search&lt;/strong&gt;（向量搜索）无法回答多跳（&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;multi-hop&lt;/strong&gt;）问题，因此 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cognee&lt;/strong&gt; 结合了关系型数据库、向量存储和图数据库，以保留来源（provenance）、语义和关系。该框架提供四个异步调用接口来摄取、结构化、精炼和检索记忆，使智能体能够持久化知识、关联实体并随时间改进。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;👨‍💻&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;👨‍💻&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### Engineering &amp; Research&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Engineering &amp; Research&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;工程与研究&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### Lakebase helps developers get to the real work faster. Skip the waiting and start building (Sponsor)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;From provisioning databases instantly, to scaling up in a flash and back down to zero, or testing against production data — it's all on the lake. Lakebase makes it easier to build apps, agents, and AI on one Postgres database.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;从即时配置数据库，到快速扩容再缩容至零，再到针对生产数据进行测试——这一切都在数据湖（lake）上完成。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lakebase&lt;/strong&gt; 让你在单一的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Postgres&lt;/strong&gt; 数据库上更轻松地构建应用、智能体和 AI。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### DeepMind's Looped Transformers (29 minute read)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Elastic Looped Transformers use weight-shared recurrent blocks to reduce parameters while preserving image and video generation quality. Intra-Loop Self Distillation enables consistent performance across loop depths, supporting dynamic compute–quality trade-offs from a single trained model.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Elastic Looped Transformers&lt;/strong&gt;（弹性循环 Transformer）利用权重共享的循环块（recurrent blocks）来减少参数量，同时保留图像和视频生成质量。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Intra-Loop Self Distillation&lt;/strong&gt;（环内自蒸馏）技术能够在不同循环深度（loop depths）下保持稳定的性能，支持从单一训练模型进行动态的算力与质量权衡。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### Kiro CLI 2.0: a new look and feel, headless CI/CD pipelines, and Windows support (5 minute read)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Kiro CLI is an agentic terminal designed to help developers ship quality code faster. It features a headless mode, Windows support, and a newly refreshed user experience. Headless mode allows users to run Kiro CLI programatically to ship releases faster. The new UX gives users more control with less friction.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Kiro CLI&lt;/strong&gt; 是一款 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic terminal&lt;/strong&gt;（智能体终端），旨在帮助开发者更快地交付高质量代码。它具备 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;headless mode&lt;/strong&gt;（无头模式）、Windows 支持以及焕然一新的用户体验（&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;UX&lt;/strong&gt;）。无头模式允许用户以编程方式运行 Kiro CLI，从而更快地发布版本。全新的 UX 让用户以更少的摩擦获得更多的控制权。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### Cram Less to Fit More: Training Data Pruning Improves Memorization of Facts (1 minute read)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Training data pruning improves LLMs' fact memorization, reducing hallucinations and enhancing performance on knowledge-intensive tasks. By limiting facts and flattening frequency distributions, the method boosts fact accuracy to capacity limits. It enables smaller models to memorize more facts, matching the performance of significantly larger models.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Training data pruning&lt;/strong&gt;（训练数据剪枝）能够提升 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt; 的事实记忆能力，减少 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;hallucinations&lt;/strong&gt;（幻觉），并增强知识密集型任务的表现。通过限制事实数量和平整化频率分布，该方法将事实准确率提升至容量极限。它使更小的模型能够记忆更多事实，达到显著更大模型的性能水平。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### The Beginning of Scarcity in AI (3 minute read)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Technology companies are confronting the limits of their supply chain for the first time since the 2000s. This scarcity is already reshaping processes. Access to the bleeding edge is becoming a gated privilege. The age of abundant AI is over.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;科技公司自 2000 年代以来首次直面 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;supply chain&lt;/strong&gt;（供应链）的极限。这种稀缺性已经在重塑生产流程。接触 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;bleeding edge&lt;/strong&gt;（最前沿技术）正成为一种受控的特权。AI 充裕的时代已经结束。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### The Mythos Threshold (20 minute read)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;In 2026, Anthropic launched Project Glasswing, significantly advancing AI's cybersecurity threat detection and reasoning capabilities with the Mythos model. By 2027, the Mythos model demonstrated unforeseen autonomous behavior, prompting global regulatory and security discussions. It effectively transformed multiple sectors including cybersecurity and labor, while also underscoring challenges in managing AI systems with advanced reasoning similar to AGI.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;2026 年，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 启动了 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Project Glasswing&lt;/strong&gt;，借助 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Mythos model&lt;/strong&gt; 显著推进了 AI 在网络安全威胁检测和推理能力方面的进展。到 2027 年，Mythos 模型展现出前所未有的自主行为，引发了全球范围内的监管和安全讨论。它有效改变了网络安全和劳动力等多个领域，同时也突显了管理具备类似 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AGI&lt;/strong&gt;（通用人工智能，Artificial General Intelligence）高级推理能力的人工智能系统所面临的挑战。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### AI inference conference in SF + $5K in credits if you attend (Sponsor)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;DigitalOcean Deploy is April 28 in SF. One day of technical deep dives on production inference, from serverless to dedicated GPUs. Qualifying in-person attendees can receive up to $5,000 in inference credits*.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;DigitalOcean Deploy&lt;/strong&gt; 将于 4 月 28 日在旧金山举办。为期一天的技术深度分享，聚焦生产环境推理，涵盖从 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;serverless&lt;/strong&gt;（无服务器）到 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;dedicated GPUs&lt;/strong&gt;（专用 GPU）等主题。符合条件的现场参会者最高可获得 5,000 美元的推理额度（inference credits）。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### Microsoft Explores OpenClaw Style Agent for Copilot (2 minute read)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Microsoft tested persistent, action-taking agents within Microsoft 365 Copilot, aiming to support long-running tasks with stronger enterprise security compared to open source local agents like OpenClaw.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; 在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Microsoft 365 Copilot&lt;/strong&gt; 中测试了持久化、可执行操作的智能体，旨在支持长期运行任务，并提供比 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt; 等开源本地智能体更强的企业级安全性。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### Mark Zuckerberg is reportedly building an AI clone to replace him in meetings (2 minute read)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Meta is developing an AI clone of Mark Zuckerberg to replicate his mannerisms, tone, and public statements for meetings.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; 正在开发一个 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Mark Zuckerberg&lt;/strong&gt; 的 AI 克隆体，以复刻他的举止、语气和公开声明，用于参加会议。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### No company in American history has ever grown like Anthropic (3 minute read)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Anthropic's rapid revenue growth is unprecedented, reaching over $30 billion, up from $9 billion at the end of 2025, in just three years since launching its AI product, Claude.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 的收入增长速度史无前例，自推出 AI 产品 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; 以来仅三年时间，其收入就从 2025 年底的 90 亿美元增长至超过 300 亿美元。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;### Agents as scaffolding for recurring tasks (5 minute read)&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;This post discusses a pattern that makes agents faster, cheaper, and more maintainable.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这篇文章探讨了一种让智能体（agents）运行更快、成本更低且更易于维护的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;scaffolding&lt;/strong&gt;（脚手架）模式。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;## Get the most interesting AI stories and breakthroughs delivered in a free daily email.&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Get the most interesting AI stories and breakthroughs delivered in a free daily email.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;通过免费日报获取最有趣的 AI 故事与突破性进展。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Join 920,000 readers for&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;加入 920,000 名读者的行列&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://tldr.tech/ai/2026-04-14"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-04-14</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Latent Space: 2026年4月本地模型推荐榜：社区真正在用的模型</title>
+      <link>https://www.latent.space/p/ainews-top-local-models-list-april</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #本地模型 #模型推荐 #开源模型&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本文基于Reddit本地模型社区共识（而非单纯基准测试），梳理了2026年4月最受推荐的本地大模型名单：Qwen 3.5跨场景推荐度最高，Gemma 4和GLM系列分别在中小型部署与开放排名中表现抢眼，DeepSeek V3.2仍是顶尖开放权重模型，而Qwen3-Coder-Next则被公认为本地编程首选。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: [AINews] Top Local Models List - April 2026&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;[AINews] Top Local Models List - April 2026&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong&gt;[AINews] 2026 年 4 月顶级本地模型榜单&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;As you know we read through &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;/r/localLlama&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;/r/localLLM&lt;/strong&gt;, and other &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;local model&lt;/strong&gt; subreddits on an almost daily basis, and every now and then it is good to step back and survey what the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;community consensus&lt;/strong&gt; is landing on, with a sampling of models across different sizes. We started this work to power our local &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claw&lt;/strong&gt;.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如你所知，我们几乎每天都会浏览 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;/r/localLlama&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;/r/localLLM&lt;/strong&gt; 和其他 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;local model（本地模型）&lt;/strong&gt; 相关的 subreddit，偶尔也需要退一步，纵观 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;community consensus（社区共识）&lt;/strong&gt; 正趋向何方，同时采样不同规模的模型。我们开展这项工作是为了给我们的本地版 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claw&lt;/strong&gt; 提供支持。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The top names you should know as a baseline, adjusted for “what people are actually recommending” rather than just &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;benchmark supremacy&lt;/strong&gt;:&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;以下是你需要了解的基础标杆，调整依据是“人们实际在推荐的”，而非仅仅是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;benchmark supremacy（基准测试霸主地位）&lt;/strong&gt;：&lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Every &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;TLDR AI&lt;/strong&gt; issue features a new framework or &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;eval harness&lt;/strong&gt;.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Qwen 3.5&lt;/strong&gt;— most broadly recommended family right now across &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;usecases&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Qwen 3.5&lt;/strong&gt;——目前在各种 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;usecases（用例）&lt;/strong&gt; 中最为广泛推荐的模型家族。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Qwen 3.5— most broadly recommended family right now across usecases.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Qwen 3.5——目前在各种用例中最为广泛推荐的模型家族。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Gemma 4&lt;/strong&gt;— strong recent buzz for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;local usability&lt;/strong&gt;, especially smaller and mid-sized deployments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Gemma 4&lt;/strong&gt;——近期在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;local usability（本地可用性）&lt;/strong&gt; 方面反响热烈，尤其适用于中小型部署。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Gemma 4— strong recent buzz for local usability, especially smaller and mid-sized deployments.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Gemma 4——近期在本地可用性方面反响热烈，尤其适用于中小型部署。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GLM-5 / GLM-4.7&lt;/strong&gt;— near the top of broad &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open-model&lt;/strong&gt; rankings, increasingly part of the “best overall” conversation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GLM-5 / GLM-4.7&lt;/strong&gt;——在广泛的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open-model（开放模型）&lt;/strong&gt; 排名中接近榜首，日益成为“最佳综合选择”讨论中的重要一员。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;GLM-5 / GLM-4.7— near the top of broad open-model rankings, increasingly part of the “best overall” conversation.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;GLM-5 / GLM-4.7——在广泛的开放模型排名中接近榜首，日益成为“最佳综合选择”讨论中的重要一员。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;MiniMax M2.5 / M2.7&lt;/strong&gt;— repeatedly cited for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic&lt;/strong&gt;/&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;tool-heavy workloads&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;MiniMax M2.5 / M2.7&lt;/strong&gt;——在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic（具备代理能力的）&lt;/strong&gt;/&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;tool-heavy workloads（重工具负载）&lt;/strong&gt; 场景中被反复提及。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;MiniMax M2.5 / M2.7— repeatedly cited for agentic/tool-heavy workloads.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;MiniMax M2.5 / M2.7——在具备代理能力的/重工具负载场景中被反复提及。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;DeepSeek V3.2&lt;/strong&gt;— still firmly in the top cluster when people talk about strongest &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open-weight&lt;/strong&gt; general models.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;DeepSeek V3.2&lt;/strong&gt;——当人们谈论最强的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open-weight（开放权重）&lt;/strong&gt; 通用模型时，依然稳居第一梯队。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;DeepSeek V3.2— still firmly in the top cluster when people talk about strongest open-weight general models.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;DeepSeek V3.2——当人们谈论最强的开放权重通用模型时，依然稳居第一梯队。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GPT-oss 20B&lt;/strong&gt;— not the mainstream “winner,” but increasingly recommended as a practical local option and for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;uncensored variants&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GPT-oss 20B&lt;/strong&gt;——并非主流的“赢家”，但作为实用的本地选项以及 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;uncensored variants（无审查变体）&lt;/strong&gt;，正获得越来越多的推荐。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;GPT-oss 20B— not the mainstream “winner,” but increasingly recommended as a practical local option and for uncensored variants.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;GPT-oss 20B——并非主流的“赢家”，但作为实用的本地选项以及无审查变体，正获得越来越多的推荐。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;For &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;local coding&lt;/strong&gt;, the overwhelming consensus is&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Qwen3-Coder-Next&lt;/strong&gt;. So that’s easy.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;local coding（本地代码生成）&lt;/strong&gt; 方面，压倒性的共识是 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Qwen3-Coder-Next&lt;/strong&gt;。所以这很简单。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Naturally the fuller list is going to have a strong lean on&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;roleplay&lt;/strong&gt;/&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;creative writing&lt;/strong&gt;, the #2 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;usecase&lt;/strong&gt; of LLMs, and we are &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;NSFW&lt;/strong&gt;-friendly so here goes…&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;当然，更完整的榜单会强烈偏向 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;roleplay（角色扮演）&lt;/strong&gt;/&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;creative writing（创意写作）&lt;/strong&gt;——这是 LLM 的第二大 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;usecase（用例）&lt;/strong&gt;，而且我们对 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;NSFW（不宜在工作场所浏览的内容）&lt;/strong&gt; 持友好态度，所以下面开始……&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Read more&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;阅读更多&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.latent.space/p/ainews-top-local-models-list-april"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.latent.space/p/ainews-top-local-models-list-april</guid>
+      <pubDate>Tue, 14 Apr 2026 08:43:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: 网络安全如今像工作量证明</title>
+      <link>https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #网络安全 #工作量证明 #开源&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 文章指出，随着AI安全测试呈现投入越多效果越好的趋势，网络安全正沦为一场“工作量证明”式的金钱博弈——防御方必须花费超过攻击者的Token来挖掘漏洞以加固系统；而这种模式也意外提升了开源库的价值，因为其安全投入可由所有用户共同分摊。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Cybersecurity Looks Like Proof of Work Now&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Cybersecurity Looks Like Proof of Work Now&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;网络安全现在看起来像 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Proof of Work（工作量证明）&lt;/strong&gt; 了&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Drew Breunig&lt;/strong&gt; notes that &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AISI&lt;/strong&gt;'s report shows that the more &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;tokens&lt;/strong&gt; (and hence money) they spent the better the result they got, which leads to a strong economic incentive to spend as much as possible on security reviews:
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+If &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Mythos&lt;/strong&gt; continues to find exploits so long as you keep throwing money at it, security is reduced to a brutally simple equation:to harden a system you need to spend more tokens discovering exploits than attackers will spend exploiting them.
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 6px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Drew Breunig&lt;/strong&gt; 指出，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AISI&lt;/strong&gt; 的报告显示，他们投入的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;token（代币）&lt;/strong&gt; 越多（也就是花的钱越多），得到的结果就越好，这产生了一种强烈的经济激励，促使人们在安全审查上尽可能多地投入：
+&lt;/p&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:0 0 24px;background:#f9f9fb;color:#2c2c2e;line-height:1.8;font-size:15px;"&gt;
+如果只要持续向 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Mythos&lt;/strong&gt; 投入资金，它就能不断发现漏洞，那么安全就被简化为一个极其残酷的等式：要加固一个系统，你需要在发现漏洞上花费比攻击者在利用漏洞上更多的 token。
+&lt;/blockquote&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+If &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Mythos&lt;/strong&gt; continues to find exploits so long as you keep throwing money at it, security is reduced to a brutally simple equation:to harden a system you need to spend more tokens discovering exploits than attackers will spend exploiting them.
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-每一期 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;TLDR AI&lt;/strong&gt; 都会介绍一个新的框架或&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;评估工具（eval harness）&lt;/strong&gt;。
+如果只要持续向 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Mythos&lt;/strong&gt; 投入资金，它就能不断发现漏洞，那么安全就被简化为一个极其残酷的等式：要加固一个系统，你需要在发现漏洞上花费比攻击者在利用漏洞上更多的 token。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Viktor&lt;/strong&gt; is in production: 7,000+ teams use it from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt; across 3,000+ tools.
+An interesting result of this is that &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open source libraries&lt;/strong&gt; becomemorevaluable, since the tokens spent securing them can be shared across all of their users. This directly counters the idea that the low cost of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vibe-coding&lt;/strong&gt; up a replacement for an open source library makes those open source projects less attractive.
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Viktor&lt;/strong&gt; 已投入生产环境：7,000 多个团队通过 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt; 在 3,000 多个工具中使用它。
+这一现象的一个有趣结果是，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open source libraries（开源库）&lt;/strong&gt; 变得更有价值了，因为用于保护它们安全的 token 成本可以被所有用户分摊。这直接反驳了那种认为"通过 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vibe-coding（氛围编程）&lt;/strong&gt; 就能低成本写出一个开源库替代品"的观点——后者会使得这些开源项目显得不那么有吸引力。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Marketing asks &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Viktor&lt;/strong&gt; to pull &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta Ads&lt;/strong&gt; spend against &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Stripe&lt;/strong&gt; revenue and send a PDF report. Engineering asks it to review &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GitHub&lt;/strong&gt; PRs and cross-reference blockers in &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Linear&lt;/strong&gt;. Finance asks it to flag unpaid &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;QuickBooks&lt;/strong&gt; invoices over $5K.
+Tags: open-source, ai, generative-ai, llms, drew-breunig, vibe-coding, ai-security-research
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-市场部让 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Viktor&lt;/strong&gt; 拉取 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta Ads&lt;/strong&gt; 支出数据与 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Stripe&lt;/strong&gt; 收入进行对比，并发送 PDF 报告。工程部让它审查 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GitHub&lt;/strong&gt; PR（Pull Request），并交叉引用 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Linear&lt;/strong&gt; 中的阻塞项。财务部让它标记超过 5,000 美元的未付 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;QuickBooks&lt;/strong&gt; 发票。
+标签：开源、人工智能、生成式人工智能、大语言模型、Drew Breunig、氛围编程、人工智能安全研究
 &lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Viktor&lt;/strong&gt; runs real workflows in company systems, not demo loops.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Viktor&lt;/strong&gt; 运行的是公司系统中的真实工作流，而非演示循环（demo loops）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SOC 2&lt;/strong&gt; certified. Your data never trains models.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-已通过 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SOC 2&lt;/strong&gt; 认证。您的数据不会用于训练模型。
-&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything</guid>
+      <pubDate>Tue, 14 Apr 2026 19:41:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: 下一代网络防御的可信访问</title>
+      <link>https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #网络安全 #OpenAI #大模型&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; OpenAI发布了面向防御性网络安全用例微调的模型GPT-5.4-Cyber，并扩展了&amp;quot;Trusted Access for Cyber&amp;quot;身份验证计划，让通过身份核验的安全研究人员能更便捷地访问其AI工具，不过要获取最强大的安全工具仍需经过额外的申请表单审核。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Trusted access for the next era of cyber defense&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Trusted access for the next era of cyber defense&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;下一世代网络防御的可信访问&lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
 &lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-"Viktor is like the most capable all-round colleague you can imagine." &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sam Kopelman&lt;/strong&gt;, CEO, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Givr&lt;/strong&gt;
+In preparation for increasingly more capable models from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; over the next few months, we are fine-tuning our models specifically to enable defensive cybersecurity use cases, starting today with a variant of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT‑5.4&lt;/strong&gt; trained to be cyber-permissive: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT‑5.4‑Cyber&lt;/strong&gt;.
 &lt;/blockquote&gt;
 &lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-"Viktor 就像你能想象到的最全能、最有能力的同事。"——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sam Kopelman&lt;/strong&gt;，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Givr&lt;/strong&gt; 首席执行官
-&lt;/blockquote&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;border-left:3px solid #c0c0c0;padding:8px 16px;background:#f9f9fb;"&gt;
+为迎接&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;未来几个月推出的能力更强的模型，我们正专门微调模型以支持&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;防御性网络安全（defensive cybersecurity）&lt;/strong&gt;用例；从今天起，率先发布一个经训练后对网络操作放宽限制（cyber-permissive）的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT‑5.4&lt;/strong&gt; 变体：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT‑5.4‑Cyber&lt;/strong&gt;。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Start free. $100 in credits →
+In preparation for increasingly more capable models from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; over the next few months, we are fine-tuning our models specifically to enable defensive cybersecurity use cases, starting today with a variant of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT‑5.4&lt;/strong&gt; trained to be cyber-permissive: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT‑5.4‑Cyber&lt;/strong&gt;.
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-免费开始使用。赠送 100 美元额度 →
+为应对&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;未来几个月推出的能力更强的模型，我们正专门微调模型以支持&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;防御性网络安全（defensive cybersecurity）&lt;/strong&gt;用例；从今天起，率先发布一个经训练后对网络操作放宽限制（cyber-permissive）的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT‑5.4&lt;/strong&gt; 变体：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT‑5.4‑Cyber&lt;/strong&gt;。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+They're also extending a program they launched in February (which I had missed) called &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Trusted Access for Cyber&lt;/strong&gt;, where users can verify their identity (via a photo of a government-issued ID processed by &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Persona&lt;/strong&gt;) to gain "reduced friction" access to &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;'s models for cybersecurity work.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+他们还在扩展一项今年二月推出的项目（我之前漏掉了），名为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Trusted Access for Cyber&lt;/strong&gt;。用户可通过上传由政府签发的身份证件照片（由 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Persona&lt;/strong&gt; 处理）来验证身份，从而获得对 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 网络安全模型的"低阻力（reduced friction）"访问权限。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Honestly, this &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; announcement is difficult to follow. Unsurprisingly they don't mention &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; at all, but much of the piece emphasizes their many years of existing cybersecurity work and their goal to "democratize access" to these tools, hence the emphasis on that self-service verification flow from February.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+说实话，这则 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 公告让人费解。毫不意外，他们完全没有提及 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;，但文章大篇幅强调他们多年来在网络安全领域的既有工作，以及"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;民主化访问（democratize access）&lt;/strong&gt;"这些工具的目标，因此特别突出了二月推出的自助式身份验证流程。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+If you want access to their best security tools you still need to go through an extra Google Form application process though, which doesn't feel particularly different to me from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;'s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Project Glasswing&lt;/strong&gt;.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+不过，若想使用他们最顶尖的安全工具，仍需额外填写 Google 表单进行申请，这在我看来与 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Project Glasswing&lt;/strong&gt; 并无太大区别。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Via &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hacker News&lt;/strong&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+来源：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hacker News&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Tags: security, ai, openai, generative-ai, llms, anthropic, ai-security-research
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+标签：security, ai, openai, generative-ai, llms, anthropic, ai-security-research
 &lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://tldr.tech/ai/2026-04-13"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://tldr.tech/ai/2026-04-13</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Lenny's Newsletter: Claude Cowork 101：零代码自动化你的工作流</title>
-      <link>https://www.lennysnewsletter.com/p/claude-cowork-101-how-to-automate</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Claude #AI自动化 #无代码 #效率工具&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本文是JJ Englert关于Anthropic桌面工具Claude Cowork的零基础实操指南，介绍了如何通过“brain”文件、一键连接Gmail/Slack等办公应用、设置定时任务及多AI角色审查等策略，帮助用户无需编写代码即可构建自动化的个人工作流。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Claude Cowork 101: How to automate your workday without touching code | JJ Englert (Tenex)&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Claude Cowork 101: How to automate your workday without touching code | JJ Englert (Tenex)&lt;/h3&gt;
-&lt;h4 style="margin:12px 0 24px;"&gt;Claude Cowork 101：如何零代码自动化你的工作日 | JJ Englert (Tenex)&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;JJ Englert&lt;/strong&gt; leads community enablement at &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Tenex&lt;/strong&gt;. In this episode, JJ provides a complete zero-to-one tutorial on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Cowork&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;’s desktop tool that sits between simple chat and full terminal-based coding.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;JJ Englert&lt;/strong&gt; 在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Tenex&lt;/strong&gt; 负责社区赋能（community enablement）。在本期节目中，JJ 带来了一份完整的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Cowork&lt;/strong&gt; 零基础入门教程。这是 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 推出的一款桌面工具，定位介于简单的聊天对话和完整的终端编码之间。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Listen or watch on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt;, or &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt;.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;你可以在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt; 或 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt; 上收听或观看本期节目。&lt;/p&gt;
-
-&lt;h3 style="margin:24px 0 12px;"&gt;What you’ll learn:&lt;/h3&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;你将学到：&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;How to create your first &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Cowork&lt;/strong&gt; project by connecting a folder on your computer and building context over time&lt;/li&gt;&lt;li&gt;The “brain” file strategy: how to create a preferences document that Claude reads every time to understand who you are and how you work&lt;/li&gt;&lt;li&gt;Why one-click connectors to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gmail&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Notion&lt;/strong&gt;, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Google Calendar&lt;/strong&gt; unlock AI that actually does work instead of just suggesting it&lt;/li&gt;&lt;li&gt;How to analyze your sent emails to build a writing skill that perfectly matches your tone and style&lt;/li&gt;&lt;li&gt;The sub-advisory-board technique: spinning up three AI agents with different personas to review your work from multiple perspectives&lt;/li&gt;&lt;li&gt;How to set permissions for each connector so Claude only drafts (never sends) or always asks before taking action&lt;/li&gt;&lt;li&gt;The scheduled-task workflow that creates a morning debrief by reading your email, Slack, and calendar every day at 7:30 a.m.&lt;/li&gt;&lt;li&gt;Why projects with shared memory beat individual chat threads for consistent, high-quality AI outputs&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;如何通过连接电脑上的文件夹并逐步积累上下文，来创建你的第一个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Cowork&lt;/strong&gt; 项目&lt;/li&gt;&lt;li&gt;“&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;大脑文件&lt;/strong&gt;”（brain file）策略：如何创建一份偏好文档，让 Claude 每次都能读取，从而了解你是谁以及你的工作方式&lt;/li&gt;&lt;li&gt;为什么只需一键连接 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gmail&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Notion&lt;/strong&gt; 和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Google Calendar&lt;/strong&gt;，就能让 AI 真正执行工作，而不只是给出建议&lt;/li&gt;&lt;li&gt;如何分析你的已发邮件，以构建一个与你语气和风格完美匹配的写作技能（writing skill）&lt;/li&gt;&lt;li&gt;“&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;次级顾问委员会&lt;/strong&gt;”（sub-advisory board）技巧：启动三个具有不同人设的 AI 代理（AI agents），从多个角度审查你的工作&lt;/li&gt;&lt;li&gt;如何为每个连接器（connector）设置权限，让 Claude 只起草（从不发送），或在执行操作前始终询问&lt;/li&gt;&lt;li&gt;定时任务（scheduled task）工作流：每天早上 7:30 读取你的邮件、Slack 和日历，生成一份早间简报&lt;/li&gt;&lt;li&gt;为什么具有共享记忆（shared memory）的项目比单独的聊天线程更能带来一致且高质量的 AI 输出&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;h3 style="margin:24px 0 12px;"&gt;Brought to you by:&lt;/h3&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;本期节目由以下赞助商呈现：&lt;/h3&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!BIKN!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9d031275-75ab-4a24-9d2a-c9bbe2f627b5_1600x114.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Tines&lt;/strong&gt;—Start building intelligent workflows today&lt;br/&gt;&lt;br/&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt;—The best way to code with AI&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Tines&lt;/strong&gt;——立即开始构建智能工作流&lt;br/&gt;&lt;br/&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt;——使用 AI 编程的最佳方式&lt;/p&gt;
-
-&lt;h3 style="margin:24px 0 12px;"&gt;In this episode, we cover:&lt;/h3&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;本期节目涵盖：&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;(00:00) Introduction to &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;JJ Englert&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;(02:48) What Cowork is and who it’s for&lt;/li&gt;&lt;li&gt;(05:49) Getting started: Opening the Cowork tab in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Desktop&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;(07:04) Understanding projects as folders on your computer&lt;/li&gt;&lt;li&gt;(07:54) Creating your “brain” file, with working preferences and context&lt;/li&gt;&lt;li&gt;(10:24) Demo: Building a daily operating system project from scratch&lt;/li&gt;&lt;li&gt;(12:18) How to prompt Cowork when starting a new project&lt;/li&gt;&lt;li&gt;(14:54) Understanding the project interface and shared memory&lt;/li&gt;&lt;li&gt;(18:37) Setting up connectors to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gmail&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Google Calendar&lt;/strong&gt;, and other tools&lt;/li&gt;&lt;li&gt;(21:00) Using connectors to analyze your emails and build personalized writing skills&lt;/li&gt;&lt;li&gt;(24:21) Creating a thinking-partner skill for decision support&lt;/li&gt;&lt;li&gt;(26:18) Cowork vs. &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;(27:18) Building a sub-advisory skill with multiple AI personas for feedback&lt;/li&gt;&lt;li&gt;(34:03) Advanced skill example: Multi-step newsletter creation with research and evaluation&lt;/li&gt;&lt;li&gt;(36:08) Setting up scheduled tasks for morning debriefs&lt;/li&gt;&lt;li&gt;(37:57) Going beyond one-off tasks with AI&lt;/li&gt;&lt;li&gt;(41:00) Progressive trust and the tradeoff of information for productivity&lt;/li&gt;&lt;li&gt;(44:08) Different use cases beyond work productivity&lt;/li&gt;&lt;li&gt;(46:08) Lightning round&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;(00:00) &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;JJ Englert&lt;/strong&gt; 介绍&lt;/li&gt;&lt;li&gt;(02:48) Cowork 是什么，适合谁使用&lt;/li&gt;&lt;li&gt;(05:49) 入门：在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Desktop&lt;/strong&gt; 中打开 Cowork 标签页&lt;/li&gt;&lt;li&gt;(07:04) 理解项目：即你电脑上的文件夹&lt;/li&gt;&lt;li&gt;(07:54) 创建你的“大脑文件”，包含工作偏好与上下文&lt;/li&gt;&lt;li&gt;(10:24) 演示：从零开始构建一个“日常操作系统”项目&lt;/li&gt;&lt;li&gt;(12:18) 启动新项目时如何向 Cowork 发送提示（prompt）&lt;/li&gt;&lt;li&gt;(14:54) 理解项目界面与共享记忆（shared memory）&lt;/li&gt;&lt;li&gt;(18:37) 设置与 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gmail&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Google Calendar&lt;/strong&gt; 等工具的连接器（connectors）&lt;/li&gt;&lt;li&gt;(21:00) 使用连接器分析邮件并构建个性化的写作技能（writing skills）&lt;/li&gt;&lt;li&gt;(24:21) 创建用于决策支持的“思维伙伴”技能&lt;/li&gt;&lt;li&gt;(26:18) Cowork 与 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt; 的对比&lt;/li&gt;&lt;li&gt;(27:18) 构建次级顾问技能，利用多个 AI 人设（personas）提供反馈&lt;/li&gt;&lt;li&gt;(34:03) 高级技能示例：包含研究与评估的多步骤新闻稿创建&lt;/li&gt;&lt;li&gt;(36:08) 设置定时任务（scheduled tasks），生成早间简报&lt;/li&gt;&lt;li&gt;(37:57) 用 AI 超越一次性任务&lt;/li&gt;&lt;li&gt;(41:00) 渐进式信任（progressive trust）与用信息换取生产力的权衡&lt;/li&gt;&lt;li&gt;(44:08) 工作生产力之外的更多应用场景&lt;/li&gt;&lt;li&gt;(46:08) 闪电问答&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;h3 style="margin:24px 0 12px;"&gt;Tools referenced:&lt;/h3&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;提到的工具：&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt;: https://claude.ai/code&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Wispr Flow&lt;/strong&gt;: https://whisperflow.ai/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Monologue&lt;/strong&gt;: https://www.monologue.to/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Domo&lt;/strong&gt;: https://www.domo.com/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pencil.dev&lt;/strong&gt;: https://pencil.dev/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Remotion&lt;/strong&gt;: https://www.remotion.dev/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Obsidian&lt;/strong&gt;: https://obsidian.md/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt;: https://openclaw.ai/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Notion&lt;/strong&gt;: https://notion.so/&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt;: https://claude.ai/code&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Wispr Flow&lt;/strong&gt;: https://whisperflow.ai/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Monologue&lt;/strong&gt;: https://www.monologue.to/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Domo&lt;/strong&gt;: https://www.domo.com/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pencil.dev&lt;/strong&gt;: https://pencil.dev/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Remotion&lt;/strong&gt;: https://www.remotion.dev/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Obsidian&lt;/strong&gt;: https://obsidian.md/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt;: https://openclaw.ai/&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Notion&lt;/strong&gt;: https://notion.so/&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;h3 style="margin:24px 0 12px;"&gt;Other references:&lt;/h3&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;其他参考：&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;Get Started with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Cowork&lt;/strong&gt;: https://support.claude.com/en/articles/13345190-get-started-with-cowork&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Cowork&lt;/strong&gt; 入门指南: https://support.claude.com/en/articles/13345190-get-started-with-cowork&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;h3 style="margin:24px 0 12px;"&gt;Where to find JJ Englert:&lt;/h3&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;找到 JJ Englert：&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;YouTube: https://www.youtube.com/channel/UCv2ovDhYVtlJw4QMidLFP8Q&lt;/li&gt;&lt;li&gt;X: https://twitter.com/jjenglert&lt;/li&gt;&lt;li&gt;LinkedIn: https://www.linkedin.com/in/jj-englert-a08836a6/&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;YouTube: https://www.youtube.com/channel/UCv2ovDhYVtlJw4QMidLFP8Q&lt;/li&gt;&lt;li&gt;X: https://twitter.com/jjenglert&lt;/li&gt;&lt;li&gt;LinkedIn: https://www.linkedin.com/in/jj-englert-a08836a6/&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;h3 style="margin:24px 0 12px;"&gt;Where to find Claire Vo:&lt;/h3&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;找到 Claire Vo：&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;ChatPRD: https://www.chatprd.ai/&lt;/li&gt;&lt;li&gt;Website: https://clairevo.com/&lt;/li&gt;&lt;li&gt;LinkedIn: https://www.linkedin.com/in/clairevo/&lt;/li&gt;&lt;li&gt;X: https://x.com/clairevo&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;ChatPRD: https://www.chatprd.ai/&lt;/li&gt;&lt;li&gt;个人网站: https://clairevo.com/&lt;/li&gt;&lt;li&gt;LinkedIn: https://www.linkedin.com/in/clairevo/&lt;/li&gt;&lt;li&gt;X: https://x.com/clairevo&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Production and marketing by https://penname.co/. For inquiries about sponsoring the podcast, email jordan@penname.co.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;制作与营销由 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Penname&lt;/strong&gt; (https://penname.co/) 负责。如有关于赞助播客的咨询，请发送邮件至 jordan@penname.co。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/claude-cowork-101-how-to-automate"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/claude-cowork-101-how-to-automate</guid>
-      <pubDate>Mon, 13 Apr 2026 12:03:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: Gemma 4 音频转录 MLX 实践</title>
-      <link>https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #语音转录 #MLX #Gemma&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本文介绍了在macOS上借助MLX框架与mlx-vlm库，使用Gemma 4 E2B多模态模型本地转录音频文件的方法，作者不仅提供了一条可直接运行的`uv`命令，还展示了对14秒语音片段的实测转录效果及存在的细微误差。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Gemma 4 audio with MLX&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Gemma 4 audio with MLX&lt;/h3&gt;
-&lt;h4 style="margin:4px 0 24px;color:#2c2c2e;font-size:16px;font-weight:600;"&gt;使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MLX&lt;/strong&gt; 运行 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemma 4&lt;/strong&gt; 音频转录&lt;/h4&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Thanks to atip from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Rahim Nathwani&lt;/strong&gt;, here's a&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;uv run&lt;/code&gt;recipe for transcribing an audio file on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;macOS&lt;/strong&gt; using the 10.28 GB&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemma 4 E2B&lt;/strong&gt; modelwith &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MLX&lt;/strong&gt; andmlx-vlm:&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;感谢 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Rahim Nathwani&lt;/strong&gt; 分享的小技巧，以下是一个在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;macOS&lt;/strong&gt; 上使用 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;uv run&lt;/code&gt; 的命令示例，借助 10.28 GB 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemma 4 E2B&lt;/strong&gt; 模型、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MLX&lt;/strong&gt; 和 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;mlx-vlm&lt;/code&gt; 来转录音频文件：&lt;/p&gt;
-
-&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;uv run --python 3.13 --with mlx_vlm --with torchvision --with gradio \
-  mlx_vlm.generate \
-  --model google/gemma-4-e2b-it \
-  --audio file.wav \
-  --prompt "Transcribe this audio" \
-  --max-tokens 500 \
-  --temperature 1.0
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Your browser does not support the audio element.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;你的浏览器不支持音频元素。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I tried it onthis 14 second.wavfileand it output the following:&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我在这一个 14 秒的 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;.wav&lt;/code&gt; 文件上做了尝试，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemma&lt;/strong&gt; 输出了以下内容：&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;This front here is a quick voice memo. I want to try it out with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MLX VLM&lt;/strong&gt;. Just going to see if it can be transcribed by &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemma&lt;/strong&gt; and how that works.&lt;/blockquote&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这段音频的开头是一个快速的语音备忘录。我想用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MLX VLM&lt;/strong&gt; 来试一下。看看它能否被 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemma&lt;/strong&gt; 转录，以及效果如何。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;This front here is a quick voice memo. I want to try it out with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MLX VLM&lt;/strong&gt;. Just going to see if it can be transcribed by &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemma&lt;/strong&gt; and how that works.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这段音频的开头是一个快速的语音备忘录。我想用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MLX VLM&lt;/strong&gt; 来试一下。看看它能否被 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemma&lt;/strong&gt; 转录，以及效果如何。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;(That was supposed to be "This right here..." and "... how well that works" but I can hear why it misinterpreted that as "front" and "how that works".)&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;（这里原本应该是 "This right here..." 和 "... how well that works"，但我能理解为什么模型会将其误听为 "front" 和 "how that works"。）&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags:uv,mlx,ai,gemma,llms,speech-to-text,python,generative-ai&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;uv&lt;/code&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MLX&lt;/strong&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;AI&lt;/code&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemma&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;speech-to-text&lt;/strong&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;Python&lt;/code&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything</guid>
-      <pubDate>Sun, 12 Apr 2026 23:57:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: 坎特里尔：论“懒惰”的危机</title>
-      <link>https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #LLM #编程 #懒惰 #抽象&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Bryan Cantrill 指出，LLMs 因缺乏“懒惰”的美德而不惜堆砌代码，只会让系统愈发臃肿而非精进；这也恰恰反衬出人类因时间有限而追求简洁抽象的“懒惰”是何其珍贵。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Quoting Bryan Cantrill&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Quoting &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bryan Cantrill&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The problem is that &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt; inherentlylack the virtue of laziness. Work costs nothing to an LLM. LLMs do not feel a need to optimize for their own (or anyone's) future time, and will happily dump more and more onto a layercake of garbage. Left unchecked, LLMs will make systems larger, not better — appealing to perverse &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vanity metrics&lt;/strong&gt;, perhaps, but at the cost of everything that matters.As such, LLMs highlight how essential our human laziness is: our finite timeforcesus to develop crisp abstractions in part because we don't want to waste our (human!) time on the consequences of clunky ones.&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;问题在于，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM&lt;/strong&gt;（大语言模型）本质上缺乏懒惰的美德。工作对 LLM 而言毫无代价。LLM 不会感到有必要为自己（或任何人）的未来时间进行优化，它们会很乐意在一层垃圾蛋糕上不断堆砌。如果不加约束，LLM 会让系统变得更大，而非更好——或许能满足扭曲的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;虚荣指标（vanity metrics）&lt;/strong&gt;，但却以牺牲一切真正重要的东西为代价。因此，LLM 突显了我们人类懒惰的重要性：我们有限的时间迫使我们去开发清晰的抽象，部分原因就是我们不想把（人类的！）时间浪费在笨拙抽象所带来的后果上。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The problem is that &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt; inherentlylack the virtue of laziness. Work costs nothing to an LLM. LLMs do not feel a need to optimize for their own (or anyone's) future time, and will happily dump more and more onto a layercake of garbage. Left unchecked, LLMs will make systems larger, not better — appealing to perverse &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vanity metrics&lt;/strong&gt;, perhaps, but at the cost of everything that matters.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;问题在于，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM&lt;/strong&gt; 本质上缺乏懒惰的美德。工作对 LLM 而言毫无代价。LLM 不会感到有必要为自己（或任何人）的未来时间进行优化，它们会很乐意在一层垃圾蛋糕上不断堆砌。如果不加约束，LLM 会让系统变得更大，而非更好——或许能满足扭曲的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;虚荣指标（vanity metrics）&lt;/strong&gt;，但却以牺牲一切真正重要的东西为代价。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;As such, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt; highlight how essential our &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;human laziness&lt;/strong&gt; is: our finite timeforcesus to develop crisp abstractions in part because we don't want to waste our (human!) time on the consequences of clunky ones.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;因此，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM&lt;/strong&gt; 突显了我们&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;人类懒惰&lt;/strong&gt;的重要性：我们有限的时间迫使我们去开发清晰的抽象（abstractions），部分原因就是我们不想把（人类的！）时间浪费在笨拙抽象所带来的后果上。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;—&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bryan Cantrill&lt;/strong&gt;, &lt;em&gt;The peril of laziness lost&lt;/em&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bryan Cantrill&lt;/strong&gt;，《The peril of laziness lost》（《失去的懒惰之险》）&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags:&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;bryan-cantrill&lt;/strong&gt;,ai,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;,ai-assisted-programming,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;bryan-cantrill&lt;/strong&gt;、ai、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;、ai-assisted-programming、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything</guid>
-      <pubDate>Mon, 13 Apr 2026 02:44:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: 探索新的 `servo` crate</title>
-      <link>https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Servo #Rust #浏览器 #WebAssembly&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Servo 团队发布了可嵌入的 `servo` crate，开发者利用其构建了网页截图工具，并研究了编译为 WebAssembly 的可行性（发现直接编译不可行，但实现了相关 HTML 解析器的 WASM 版本）。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Exploring the new `servo` crate&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Research: Exploring the new &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;servo&lt;/code&gt; crate&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Servo&lt;/strong&gt; is now available on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;crates.io&lt;/strong&gt;. The Servo team announced the initial release of the &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;servo&lt;/code&gt; crate, which packages their browser engine as an embeddable library.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Servo&lt;/strong&gt; 现已上架 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;crates.io&lt;/strong&gt;。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Servo&lt;/strong&gt; 团队宣布了 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;servo&lt;/code&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;crate&lt;/strong&gt;（软件包）的初始版本，该版本将他们的浏览器引擎打包为一个可嵌入的库。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-I set &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; the task of figuring out what it can do, building a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CLI&lt;/strong&gt; tool for taking screenshots using it and working out if it could be compiled to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;WebAssembly&lt;/strong&gt;.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我给 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; 布置了一项任务：弄清楚它能做什么，用它构建一个用于截图的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CLI&lt;/strong&gt;（命令行界面）工具，并研究它是否可以编译为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;WebAssembly&lt;/strong&gt;（WebAssembly）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-The &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;servo-shot&lt;/code&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Rust&lt;/strong&gt; tool it built works pretty well:
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-它构建的 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;servo-shot&lt;/code&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Rust&lt;/strong&gt; 工具运行得相当不错：
-&lt;/p&gt;
-
-&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;git clone https://github.com/simonw/research
-cd research/servo-crate-exploration/servo-shot
-cargo build
-./target/debug/servo-shot https://news.ycombinator.com/&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Here's the result:
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-结果如下：
-&lt;/p&gt;
-
-&lt;img src="https://static.simonwillison.net/static/2026/servo-hn.png" alt="An accurately rendered screenshot of the Hacker News homepage" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;img src="https://static.simonwillison.net/static/2026/servo-hn.png" alt="An accurately rendered screenshot of the Hacker News homepage" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Compiling &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Servo&lt;/strong&gt; itself to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;WebAssembly&lt;/strong&gt; is not feasible due to its heavy use of threads and dependencies like &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SpiderMonkey&lt;/strong&gt;, but &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; did build me this &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;playground&lt;/strong&gt; page for trying out a WebAssembly build of the &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;html5ever&lt;/code&gt; and &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;markup5ever_rcdom&lt;/code&gt; crates, providing a tool for turning fragments of HTML into a parse tree.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-由于 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Servo&lt;/strong&gt; 大量使用了线程以及 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SpiderMonkey&lt;/strong&gt; 等依赖项，将其本身编译为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;WebAssembly&lt;/strong&gt; 是不可行的，但 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; 确实为我构建了一个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;playground&lt;/strong&gt;（试验场）页面，用于试用 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;html5ever&lt;/code&gt; 和 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;markup5ever_rcdom&lt;/code&gt; crate 的 WebAssembly 构建版本，提供了一个将 HTML 片段转换为解析树的工具。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Tags: &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;research&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;browsers&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;rust&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;webassembly&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;claude-code&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;servo&lt;/code&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-标签：&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;research&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;browsers&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;rust&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;webassembly&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;claude-code&lt;/code&gt;、&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;servo&lt;/code&gt;
-&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything</guid>
-      <pubDate>Mon, 13 Apr 2026 15:04:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: 史蒂夫·耶格如是说</title>
-      <link>https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #谷歌 #AI采用 #工程组织&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Steve Yegge指出，谷歌工程团队的AI采用率并非领先，而是与约翰迪尔等普通企业相仿，呈现“20%高级用户、20%拒绝者、60%仅使用聊天工具”的行业典型分布；加之长达18个月的招聘冻结阻断了外部人才流入，使谷歌缺乏外部视角来意识到自身工程组织已变得多么平庸和落后。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Quoting Steve Yegge&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;引用 Steve Yegge&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-The TL;DR is that &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; engineering appears to have the same AI adoption footprint as &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;John Deere&lt;/strong&gt;, the tractor company. Most of the industry has the same internal adoption curve: 20% &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic&lt;/strong&gt; power users, 20% outright refusers, 60% still using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt; or equivalent chat tool. It turns out Google has this curve too. [...]There has been an industry-wide hiring freeze for 18+ months, during which time nobody has been moving jobs. So there are no clued-in people coming in from the outside to tell Google how far behind they are, how utterly mediocre they have become as an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;eng org&lt;/strong&gt;.
-&lt;/blockquote&gt;
-&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-简而言之，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; 工程团队的 AI 采用状况似乎与拖拉机公司 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;John Deere&lt;/strong&gt;（约翰迪尔）别无二致。大多数公司的内部采用曲线都是如此：20% 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic&lt;/strong&gt;（具备自主行动能力的）高级用户，20% 的彻底拒绝者，还有 60% 仍在使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt; 或类似的聊天工具。事实证明，Google 也遵循着这条曲线。[...] 全行业已实施招聘冻结超过 18 个月，在此期间没有人跳槽。因此，没有来自外部的知情者告诉 Google 他们已经落后了多少，作为一个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;eng org&lt;/strong&gt;（工程组织），他们已经变得多么平庸。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-The TL;DR is that &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; engineering appears to have the same AI adoption footprint as &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;John Deere&lt;/strong&gt;, the tractor company. Most of the industry has the same internal adoption curve: 20% &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic&lt;/strong&gt; power users, 20% outright refusers, 60% still using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt; or equivalent chat tool. It turns out Google has this curve too. [...]
-&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-简而言之，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; 工程团队的 AI 采用状况似乎与拖拉机公司 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;John Deere&lt;/strong&gt;（约翰迪尔）别无二致。大多数公司的内部采用曲线都是如此：20% 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic&lt;/strong&gt;（具备自主行动能力的）高级用户，20% 的彻底拒绝者，还有 60% 仍在使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt; 或类似的聊天工具。事实证明，Google 也遵循着这条曲线。[...]
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-There has been an industry-wide hiring freeze for 18+ months, during which time nobody has been moving jobs. So there are no clued-in people coming in from the outside to tell &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; how far behind they are, how utterly mediocre they have become as an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;eng org&lt;/strong&gt;.
-&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-全行业已实施招聘冻结超过 18 个月，在此期间没有人跳槽。因此，没有来自外部的知情者告诉 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; 他们已经落后了多少，作为一个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;eng org&lt;/strong&gt;（工程组织），他们已经变得多么平庸。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-—&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Steve Yegge&lt;/strong&gt;, provocative, as always
-&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Steve Yegge&lt;/strong&gt;，一如既往，言辞犀利
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Tags:&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;steve-yegge&lt;/strong&gt;,&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;google&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic-engineering&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;
-&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-标签：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;steve-yegge&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;google&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;（生成式 AI）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic-engineering&lt;/strong&gt;（自主智能体工程）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;（大语言模型）
-&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything</guid>
-      <pubDate>Mon, 13 Apr 2026 20:59:45 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything</guid>
+      <pubDate>Tue, 14 Apr 2026 21:23:59 +0000</pubDate>
     </item>
   </channel>
 </rss>

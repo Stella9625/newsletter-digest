@@ -7,32 +7,25 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 13 Apr 2026 23:29:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 23:28:12 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-04-13</title>
-      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-04-14</title>
+      <description>&lt;h3&gt;每日 AI/产品/技术日报&lt;/h3&gt;
+&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Gemma 4 本地音频转录方案&lt;/strong&gt;：Simon Willison 介绍了在 macOS 上通过 MLX 框架与 &lt;code&gt;mlx-vlm&lt;/code&gt; 库，利用 Gemma 4 E2B 多模态模型本地转录音频的方法，并提供了一条可直接运行的 &lt;code&gt;uv&lt;/code&gt; 命令及实测效果。（*Simon Willison*）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI 发布防御性网络安全微调模型 GPT-5.4-Cyber&lt;/strong&gt;（Simon Willison）：新模型面向防御性网络安全场景，同时扩展 &amp;quot;Trusted Access for Cyber&amp;quot; 身份验证计划，通过核验的安全研究人员可更便捷访问 AI 工具，但获取最强安全工具仍需额外申请表单审核。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2026 年 4 月本地大模型推荐榜单出炉&lt;/strong&gt;（Latent Space）：基于 Reddit 本地模型社区共识（而非单纯基准测试），Qwen 3.5 跨场景推荐度最高，DeepSeek V3.2 保持顶尖开放权重地位，Qwen3-Coder-Next 被公认为本地编程首选，Gemma 4 和 GLM 系列在中小型部署中表现抢眼。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4&gt;产品与增长&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Claude Cowork 无代码自动化指南&lt;/strong&gt;：JJ Englert 发布实操指南，讲解如何通过 &amp;quot;brain&amp;quot; 文件、一键连接 Gmail/Slack 及定时任务等策略，利用 Anthropic 桌面工具 Claude Cowork 无需编程即可构建个人自动化工作流。（*JJ Englert / Lenny&amp;#x27;s Newsletter*）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google、Lovable 与 OpenAI 密集更新 Agent 与开发工具&lt;/strong&gt;（TLDR / TLDR AI）：Google 推出桌面 Agent 对标 Cowork，Lovable 新增聊天式网站支付功能，OpenAI 则为 Codex 整合网页浏览能力以打造一体化超级应用；研究层面还涉及 LLM 推理非确定性、智能体记忆架构与训练数据剪枝等前沿进展。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4&gt;跨界与深度思考&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;企业级 AI 助手 Viktor 规模化应用&lt;/strong&gt;：TLDR AI 报道，企业级 AI 助手 Viktor 已被超过 7,000 个团队采用，可直接在 Slack、GitHub、Stripe 等 3,000 多种业务系统中执行跨部门工作流，并通过 SOC 2 认证承诺数据不用于模型训练。（*TLDR AI*）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Servo 发布可嵌入 &lt;code&gt;servo&lt;/code&gt; crate&lt;/strong&gt;：Servo 团队发布了新的可嵌入 &lt;code&gt;servo&lt;/code&gt; crate，开发者已利用其构建网页截图工具；同时研究发现该 crate 尚无法直接编译为 WebAssembly，但已实现了相关 HTML 解析器的 WASM 版本。（*Simon Willison*）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Bryan Cantrill：LLM 缺乏“懒惰”的美德&lt;/strong&gt;：Bryan Cantrill 指出，LLMs 因没有人类因时间有限而追求简洁抽象的“懒惰”特质，倾向于不惜堆砌代码，反而使系统愈发臃肿，反衬出人类工程师对优雅抽象的珍视。（*Simon Willison*）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Steve Yegge：谷歌工程组织的 AI 采用并不领先&lt;/strong&gt;：Steve Yegge 认为谷歌工程团队的 AI 采用率呈“20% 高级用户、20% 拒绝者、60% 仅使用聊天工具”的行业典型分布，与约翰迪尔等普通企业无异；加之长达 18 个月的招聘冻结阻断了外部视角流入，使谷歌难以意识到自身工程组织已变得平庸和落后。（*Simon Willison*）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;网络安全正沦为 &amp;quot;工作量证明&amp;quot; 式的金钱博弈&lt;/strong&gt;（Simon Willison）：随着 AI 安全测试呈现投入越多效果越好的趋势，防御方必须花费超过攻击者的 Token 成本来挖掘漏洞以加固系统；这种模式意外提升了开源库的价值，因为其安全投入可由所有用户共同分摊。&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-13</guid>
-      <pubDate>Mon, 13 Apr 2026 23:29:21 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-14</guid>
+      <pubDate>Tue, 14 Apr 2026 23:28:12 +0000</pubDate>
     </item>
   </channel>
 </rss>
