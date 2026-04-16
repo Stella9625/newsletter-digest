@@ -7,25 +7,30 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 14 Apr 2026 23:28:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 23:19:44 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-04-14</title>
-      <description>&lt;h3&gt;每日 AI/产品/技术日报&lt;/h3&gt;
-&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
+      <title>📰 AI/产品/技术日报 - 2026-04-16</title>
+      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;OpenAI 发布防御性网络安全微调模型 GPT-5.4-Cyber&lt;/strong&gt;（Simon Willison）：新模型面向防御性网络安全场景，同时扩展 &amp;quot;Trusted Access for Cyber&amp;quot; 身份验证计划，通过核验的安全研究人员可更便捷访问 AI 工具，但获取最强安全工具仍需额外申请表单审核。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2026 年 4 月本地大模型推荐榜单出炉&lt;/strong&gt;（Latent Space）：基于 Reddit 本地模型社区共识（而非单纯基准测试），Qwen 3.5 跨场景推荐度最高，DeepSeek V3.2 保持顶尖开放权重地位，Qwen3-Coder-Next 被公认为本地编程首选，Gemma 4 和 GLM 系列在中小型部署中表现抢眼。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;llm-anthropic 0.25 发布&lt;/strong&gt;（Simon Willison）：新增对 Claude Opus 4.7 的支持，包含 &lt;code&gt;thinking_effort:xhigh&lt;/code&gt; 配置、&lt;code&gt;thinking_display&lt;/code&gt; 与 &lt;code&gt;thinking_adaptive&lt;/code&gt; 选项，并将默认 &lt;code&gt;max_tokens&lt;/code&gt; 提升至各模型上限。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;本地 Qwen3.6-35B-A3B 图像生成效果优于 Claude Opus 4.7&lt;/strong&gt;（Simon Willison）：通过“鹈鹕骑自行车”SVG 生成测试，作者发现笔记本本地运行的 Qwen3.6-35B-A3B 在特定图像任务上表现超越 Anthropic 旗舰模型，提示任务专用能力与模型通用实力未必挂钩。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;产品与增长&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Google、Lovable 与 OpenAI 密集更新 Agent 与开发工具&lt;/strong&gt;（TLDR / TLDR AI）：Google 推出桌面 Agent 对标 Cowork，Lovable 新增聊天式网站支付功能，OpenAI 则为 Codex 整合网页浏览能力以打造一体化超级应用；研究层面还涉及 LLM 推理非确定性、智能体记忆架构与训练数据剪枝等前沿进展。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Datasette 1.0a27 发布&lt;/strong&gt;（Simon Willison）：以现代浏览器安全头部替代 Django 式 CSRF 防护，新增 SQLite 重命名表事件（&lt;code&gt;RenameTableEvent&lt;/code&gt;），并引入 actor 参数、磁盘临时数据库及 upsert API 约束等改进。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;datasette-export-database 0.3a1 适配更新&lt;/strong&gt;（Simon Willison）：因 Datasette 1.0a27 移除 &lt;code&gt;ds_csrftoken&lt;/code&gt; cookie，该插件升级了自定义签名 URL 机制以兼容新版本。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;datasette.io 新闻预览工具&lt;/strong&gt;（Simon Willison）：利用 Claude 构建的 YAML 新闻文件自定义预览工具，可实时渲染页面效果并高亮 YAML 与 Markdown 错误，简化内容编辑工作流。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;跨界与深度思考&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;网络安全正沦为 &amp;quot;工作量证明&amp;quot; 式的金钱博弈&lt;/strong&gt;（Simon Willison）：随着 AI 安全测试呈现投入越多效果越好的趋势，防御方必须花费超过攻击者的 Token 成本来挖掘漏洞以加固系统；这种模式意外提升了开源库的价值，因为其安全投入可由所有用户共同分摊。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Gemini 3.1 Flash TTS、Humwork A2P 市场及 OpenAI Agents SDK 更新&lt;/strong&gt;（TLDR AI）：Google 发布支持 70 余种语言的表现力更强的 TTS 模型；Humwork 推出首个 AI Agent 与人类专家的 Agent-to-Person 市场；OpenAI 更新了 Agents SDK。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI 网络安全不是工作量证明&lt;/strong&gt;（Antirez）：以 OpenBSD SACK 漏洞为例，作者指出复杂漏洞的发现取决于模型本身的智能水平，而非算力或采样次数的堆砌；未来该领域的核心竞争力在于拥有更优质的模型并能快速调用。&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-14</guid>
-      <pubDate>Tue, 14 Apr 2026 23:28:12 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-16</guid>
+      <pubDate>Thu, 16 Apr 2026 23:19:44 +0000</pubDate>
     </item>
   </channel>
 </rss>
