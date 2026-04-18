@@ -7,30 +7,27 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 16 Apr 2026 23:19:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 23:05:07 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-04-16</title>
+      <title>📰 AI/产品/技术日报 - 2026-04-18</title>
       <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;llm-anthropic 0.25 发布&lt;/strong&gt;（Simon Willison）：新增对 Claude Opus 4.7 的支持，包含 &lt;code&gt;thinking_effort:xhigh&lt;/code&gt; 配置、&lt;code&gt;thinking_display&lt;/code&gt; 与 &lt;code&gt;thinking_adaptive&lt;/code&gt; 选项，并将默认 &lt;code&gt;max_tokens&lt;/code&gt; 提升至各模型上限。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;本地 Qwen3.6-35B-A3B 图像生成效果优于 Claude Opus 4.7&lt;/strong&gt;（Simon Willison）：通过“鹈鹕骑自行车”SVG 生成测试，作者发现笔记本本地运行的 Qwen3.6-35B-A3B 在特定图像任务上表现超越 Anthropic 旗舰模型，提示任务专用能力与模型通用实力未必挂钩。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Datasette 1.0a27 发布&lt;/strong&gt;（Simon Willison）：以现代浏览器安全头部替代 Django 式 CSRF 防护，新增 SQLite 重命名表事件（&lt;code&gt;RenameTableEvent&lt;/code&gt;），并引入 actor 参数、磁盘临时数据库及 upsert API 约束等改进。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;datasette-export-database 0.3a1 适配更新&lt;/strong&gt;（Simon Willison）：因 Datasette 1.0a27 移除 &lt;code&gt;ds_csrftoken&lt;/code&gt; cookie，该插件升级了自定义签名 URL 机制以兼容新版本。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;datasette.io 新闻预览工具&lt;/strong&gt;（Simon Willison）：利用 Claude 构建的 YAML 新闻文件自定义预览工具，可实时渲染页面效果并高亮 YAML 与 Markdown 错误，简化内容编辑工作流。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simon Willison&lt;/strong&gt; 分享了用极简提示词驱动 Claude Code 为博客转新闻稿工具新增 &amp;quot;beats&amp;quot; 内容类型的过程，强调为 AI 编码代理配备参考代码库与验证机制，是实现高效代理工程的关键模式。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Google Gemini 3.1 Flash TTS、Humwork A2P 市场及 OpenAI Agents SDK 更新&lt;/strong&gt;（TLDR AI）：Google 发布支持 70 余种语言的表现力更强的 TTS 模型；Humwork 推出首个 AI Agent 与人类专家的 Agent-to-Person 市场；OpenAI 更新了 Agents SDK。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kiyani&lt;/strong&gt;（Lenny&amp;#x27;s Newsletter）精选 Slack 社区高价值讨论，涵盖组织内推广 Claude Code 的经验、AI 助力中小企业销售、lennysjobs.com 关停复盘，以及副业开设 LLC 的实操建议。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Simon Willison&lt;/strong&gt; 预告 PyCon US 2026 将于 5 月 13–19 日在加州长滩举行，今年首次增设 AI 与安全专题 track，延续其二十余年以社区协作为核心的 Python 技术传统。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AI 网络安全不是工作量证明&lt;/strong&gt;（Antirez）：以 OpenBSD SACK 漏洞为例，作者指出复杂漏洞的发现取决于模型本身的智能水平，而非算力或采样次数的堆砌；未来该领域的核心竞争力在于拥有更优质的模型并能快速调用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Brian Potter&lt;/strong&gt;（Construction Physics）的阅读清单梳理了地缘政治对全球供应链的冲击（霍尔木兹海峡局势）、白宫降低住房成本的政策建议，以及机器狗焊接、无人机制造与铝冶炼产能扩张等工业新动向。&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-16</guid>
-      <pubDate>Thu, 16 Apr 2026 23:19:44 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-18</guid>
+      <pubDate>Sat, 18 Apr 2026 23:05:07 +0000</pubDate>
     </item>
   </channel>
 </rss>

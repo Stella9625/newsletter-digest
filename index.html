@@ -292,39 +292,36 @@
 <div class="container">
   <div class="tabs">
     <button class="tab active" onclick="switchTab('digest')">每日日报</button>
-    <button class="tab" onclick="switchTab('articles')">全部文章 (7)</button>
+    <button class="tab" onclick="switchTab('articles')">全部文章 (4)</button>
   </div>
 
   <!-- 日报 Tab -->
   <div id="tab-digest" class="tab-content active">
-    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">Claude</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">2</span></div>
-<div class="chart-row"><span class="chart-label">Datasette</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">2</span></div>
-<div class="chart-row"><span class="chart-label">LLM</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">版本发布</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#af52de"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">模型对比</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">本地部署</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">图像生成</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">Qwen</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
+    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">社区精选</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">AI工具</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">创业</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">销售</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">基建</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">住房</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">供应链</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">制造业</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
-      <h2>2026-04-16 日报</h2>
+      <h2>2026-04-18 日报</h2>
       <p><strong>LLM &amp; AI 工具</strong></p>
 <ul>
-<li><strong>llm-anthropic 0.25 发布</strong>（Simon Willison）：新增对 Claude Opus 4.7 的支持，包含 <code>thinking_effort:xhigh</code> 配置、<code>thinking_display</code> 与 <code>thinking_adaptive</code> 选项，并将默认 <code>max_tokens</code> 提升至各模型上限。</li>
-<li><strong>本地 Qwen3.6-35B-A3B 图像生成效果优于 Claude Opus 4.7</strong>（Simon Willison）：通过“鹈鹕骑自行车”SVG 生成测试，作者发现笔记本本地运行的 Qwen3.6-35B-A3B 在特定图像任务上表现超越 Anthropic 旗舰模型，提示任务专用能力与模型通用实力未必挂钩。</li>
-</ul>
-<p><strong>工程与系统设计</strong></p>
-<ul>
-<li><strong>Datasette 1.0a27 发布</strong>（Simon Willison）：以现代浏览器安全头部替代 Django 式 CSRF 防护，新增 SQLite 重命名表事件（<code>RenameTableEvent</code>），并引入 actor 参数、磁盘临时数据库及 upsert API 约束等改进。</li>
-<li><strong>datasette-export-database 0.3a1 适配更新</strong>（Simon Willison）：因 Datasette 1.0a27 移除 <code>ds_csrftoken</code> cookie，该插件升级了自定义签名 URL 机制以兼容新版本。</li>
-<li><strong>datasette.io 新闻预览工具</strong>（Simon Willison）：利用 Claude 构建的 YAML 新闻文件自定义预览工具，可实时渲染页面效果并高亮 YAML 与 Markdown 错误，简化内容编辑工作流。</li>
+<li><strong>Simon Willison</strong> 分享了用极简提示词驱动 Claude Code 为博客转新闻稿工具新增 &quot;beats&quot; 内容类型的过程，强调为 AI 编码代理配备参考代码库与验证机制，是实现高效代理工程的关键模式。</li>
 </ul>
 <p><strong>产品与增长</strong></p>
 <ul>
-<li><strong>Google Gemini 3.1 Flash TTS、Humwork A2P 市场及 OpenAI Agents SDK 更新</strong>（TLDR AI）：Google 发布支持 70 余种语言的表现力更强的 TTS 模型；Humwork 推出首个 AI Agent 与人类专家的 Agent-to-Person 市场；OpenAI 更新了 Agents SDK。</li>
+<li><strong>Kiyani</strong>（Lenny&#x27;s Newsletter）精选 Slack 社区高价值讨论，涵盖组织内推广 Claude Code 的经验、AI 助力中小企业销售、lennysjobs.com 关停复盘，以及副业开设 LLC 的实操建议。</li>
+</ul>
+<p><strong>工程与系统设计</strong></p>
+<ul>
+<li><strong>Simon Willison</strong> 预告 PyCon US 2026 将于 5 月 13–19 日在加州长滩举行，今年首次增设 AI 与安全专题 track，延续其二十余年以社区协作为核心的 Python 技术传统。</li>
 </ul>
 <p><strong>跨界与深度思考</strong></p>
 <ul>
-<li><strong>AI 网络安全不是工作量证明</strong>（Antirez）：以 OpenBSD SACK 漏洞为例，作者指出复杂漏洞的发现取决于模型本身的智能水平，而非算力或采样次数的堆砌；未来该领域的核心竞争力在于拥有更优质的模型并能快速调用。</li>
+<li><strong>Brian Potter</strong>（Construction Physics）的阅读清单梳理了地缘政治对全球供应链的冲击（霍尔木兹海峡局势）、白宫降低住房成本的政策建议，以及机器狗焊接、无人机制造与铝冶炼产能扩张等工业新动向。</li>
 </ul>
     </div>
   </div>
@@ -332,540 +329,412 @@
   <!-- 文章 Tab -->
   <div id="tab-articles" class="tab-content">
     <div class="article-card">
-      <div class="source">Simon Willison</div>
+      <div class="source">Lenny&#x27;s Newsletter</div>
       <div class="title-row">
-        <div class="title">llm-anthropic 0.25 发布</div>
-        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
-      </div>
-      <div class="title-en">llm-anthropic 0.25</div>
-      <div class="tags"><span class="tag">LLM</span><span class="tag">Claude</span><span class="tag">版本发布</span></div>
-      <div class="summary">llm-anthropic 0.25 正式发布，新增了对 claude-opus-4.7 模型的支持（包含 thinking_effort:xhigh 配置）以及 thinking_display 和 thinking_adaptive 选项，同时将默认 max_tokens 提升至各模型上限，并移除了对旧版结构化输出 beta 头信息的依赖。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">New model: claude-opus-4.7, which supports thinking_effort: xhigh.</div><div class="quote-zh">新模型 claude-opus-4.7 支持 thinking_effort: xhigh 参数。</div></div>
-<div class="quote-block"><div class="quote-en">thinking_display summarized output is currently only available in JSON output or JSON logs.</div><div class="quote-zh">thinking_display 的摘要输出目前仅在 JSON 输出或 JSON 日志中可用。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Release: llm-anthropic 0.25</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llm-anthropic 0.25</strong> 版本发布</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-New model: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">claude-opus-4.7</strong>, which supports <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">thinking_effort</strong>: xhigh. #66<br/>
-New <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">thinking_display</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">thinking_adaptive</strong> boolean options. thinking_display summarized output is currently only available in JSON output or JSON logs.<br/>
-Increased default max_tokens to the maximum allowed for each model.<br/>
-No longer uses obsolete structured-outputs-2025-11-13 beta header for older models.
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-新增模型 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">claude-opus-4.7</strong>，支持 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">thinking_effort</strong>（思考努力度）参数设置为 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">xhigh</code>。#66<br/>
-新增 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">thinking_display</strong>（思考展示）和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">thinking_adaptive</strong>（自适应思考）布尔选项。thinking_display 的摘要输出目前仅在 JSON 输出或 JSON 日志中可用。<br/>
-将默认的 max_tokens（最大令牌数）提升至各模型允许的上限。<br/>
-不再为旧模型使用过时的 structured-outputs-2025-11-13 beta 标头。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:8px 0;padding-left:20px;">
-<li>New model: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">claude-opus-4.7</strong>, which supports <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">thinking_effort</strong>: xhigh. #66</li>
-<li>New <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">thinking_display</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">thinking_adaptive</strong> boolean options. thinking_display summarized output is currently only available in JSON output or JSON logs.</li>
-<li>Increased default max_tokens to the maximum allowed for each model.</li>
-<li>No longer uses obsolete structured-outputs-2025-11-13 beta header for older models.</li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• 新增模型 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">claude-opus-4.7</strong>，支持 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">thinking_effort</strong>（思考努力度）参数设置为 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">xhigh</code>。#66<br/>
-• 新增 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">thinking_display</strong>（思考展示）和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">thinking_adaptive</strong>（自适应思考）布尔选项。thinking_display 的摘要输出目前仅在 JSON 输出或 JSON 日志中可用。<br/>
-• 将默认的 max_tokens（最大令牌数）提升至各模型允许的上限。<br/>
-• 不再为旧模型使用过时的 structured-outputs-2025-11-13 beta 标头。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags: llm, anthropic, claude
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llm</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">anthropic</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">claude</strong>
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">我笔记本上的Qwen3.6画了只比Claude Opus 4.7更好的鹈鹕</div>
-        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
-      </div>
-      <div class="title-en">Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7</div>
-      <div class="tags"><span class="tag">模型对比</span><span class="tag">本地部署</span><span class="tag">图像生成</span><span class="tag">Qwen</span></div>
-      <div class="summary">作者通过&quot;鹈鹕骑自行车&quot;这一趣味基准测试发现，本地运行在笔记本上的Qwen3.6-35B-A3B生成SVG插图的效果竟优于Anthropic最新的Claude Opus 4.7，这说明特定任务的图像生成质量与模型的整体实用性未必正相关。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">The pelican benchmark has always been meant as a joke - it&#x27;s mainly a statement on how obtuse and absurd the task of comparing these models is.</div><div class="quote-zh">“鹈鹕基准测试”从来就是个玩笑——它主要是在表达，比较这些模型的任务是多么晦涩和荒谬。</div></div>
-<div class="quote-block"><div class="quote-en">If the thing you need is an SVG illustration of a pelican riding a bicycle though, right now Qwen3.6-35B-A3B running on a laptop is a better bet than Opus 4.7!</div><div class="quote-zh">但如果你需要的正是一张鹈鹕骑自行车的SVG插图，那么此刻在笔记本上运行的Qwen3.6-35B-A3B比Opus 4.7更靠谱！</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我笔记本上的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.6-35B-A3B</strong> 给我画了一只比 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Opus 4.7</strong> 更好的鹈鹕</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">For anyone who has been (inadvisably) taking my <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pelican riding a bicycle benchmarks</strong> seriously as a robust way to test models, here are pelicans from this morning's two big model releases - <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.6-35B-A3B</strong> from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Alibaba</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Opus 4.7</strong> from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">对于那些（不明智地）一直把我的“<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pelican riding a bicycle benchmarks</strong>（鹈鹕骑自行车基准测试）”当作评估模型的可靠方式的人来说，以下是今早发布的两大模型所画的鹈鹕——来自 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Alibaba</strong>（阿里巴巴）的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.6-35B-A3B</strong> 和来自 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Opus 4.7</strong>。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Here's the Qwen 3.6 pelican, generated using this 20.9GB <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.6-35B-A3B-UD-Q4_K_S.gguf</strong> quantized model by <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Unsloth</strong>, running on my <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MacBook Pro M5</strong> via <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LM Studio</strong> (and the <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llm-lmstudio</code> plugin) - transcript here:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这是 Qwen 3.6 画的鹈鹕，使用 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Unsloth</strong> 发布的这个 20.9GB 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.6-35B-A3B-UD-Q4_K_S.gguf</strong> 量化模型生成，通过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LM Studio</strong>（以及 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llm-lmstudio</code> 插件）在我的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MacBook Pro M5</strong> 上本地运行——对话记录在此：</p>
-
-<img src="https://static.simonwillison.net/static/2026/Qwen3.6-35B-A3B-UD-Q4_K_S-pelican.png" alt="The bicycle frame is the correct shape. There are clouds in the sky. The pelican has a dorky looking pouch. A caption on the ground reads Pelican on a Bicycle!" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<img src="https://static.simonwillison.net/static/2026/Qwen3.6-35B-A3B-UD-Q4_K_S-pelican.png" alt="The bicycle frame is the correct shape. There are clouds in the sky. The pelican has a dorky looking pouch. A caption on the ground reads Pelican on a Bicycle!" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">And here's one I got from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>'s brand new <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Opus 4.7</strong> (transcript):</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这是我用 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 全新的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Opus 4.7</strong> 得到的（对话记录）：</p>
-
-<img src="https://static.simonwillison.net/static/2026/opus-4.7-pelican.png" alt="The bicycle frame is entirely the wrong shape. No clouds, a yellow sun. The pelican is looking behind itself, and has a less pronounced pouch than I would like." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<img src="https://static.simonwillison.net/static/2026/opus-4.7-pelican.png" alt="The bicycle frame is entirely the wrong shape. No clouds, a yellow sun. The pelican is looking behind itself, and has a less pronounced pouch than I would like." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I'm giving this one to Qwen 3.6. Opus managed to mess up the bicycle frame!</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这一轮我判给 Qwen 3.6。Opus 居然把自行车车架画错了！</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I tried Opus a second time passing <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">thinking_level: max</code>. It didn't do much better (transcript):</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我第二次尝试 Opus，传入了 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">thinking_level: max</code>。结果也没好多少（对话记录）：</p>
-
-<img src="https://static.simonwillison.net/static/2026/opus-4.7-pelican-max.png" alt="The bicycle frame is entirely the wrong shape but in a different way. Lines are more bold. Pelican looks a bit more like a pelican." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<img src="https://static.simonwillison.net/static/2026/opus-4.7-pelican-max.png" alt="The bicycle frame is entirely the wrong shape but in a different way. Lines are more bold. Pelican looks a bit more like a pelican." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<h4 style="margin:24px 0 12px;">I don't think Qwen are cheating</h4>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我认为 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Qwen</strong> 没有作弊</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">A lot of people are convinced that the labs train for my stupid benchmark. I don't think they do, but honestly this result did give me a little glint of suspicion. So I'm burning one of my secret backup tests - here's what I got from <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.6-35B-A3B</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Opus 4.7</strong> for "Generate an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SVG</strong> of a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">flamingo</strong> riding a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">unicycle</strong>":</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">很多人确信这些实验室针对我这个愚蠢的基准测试进行了训练。我不这么认为，但老实说，这个结果确实让我产生了一丝怀疑。所以我决定用掉一个秘密备用测试——以下是 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.6-35B-A3B</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Opus 4.7</strong> 在“生成一只火烈鸟骑独轮车的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SVG</strong>（可缩放矢量图形）”prompt 下的表现：</p>
-
-<img src="https://static.simonwillison.net/static/2026/qwen-flamingo.png" alt="The unicycle spokes are a too long. The pelican has sunglasses, a bowtie and appears to be smoking a cigarette. It has two heart emoji surrounding the caption Flamingo on a Unicycle. It has a lot of charisma." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<img src="https://static.simonwillison.net/static/2026/qwen-flamingo.png" alt="The unicycle spokes are a too long. The pelican has sunglasses, a bowtie and appears to be smoking a cigarette. It has two heart emoji surrounding the caption Flamingo on a Unicycle. It has a lot of charisma." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<img src="https://static.simonwillison.net/static/2026/opus-flamingo.png" alt="The unicycle has a black wheel. The flamingo is a competent if slightly dull vector illustration of a flamingo. It has no flair." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<img src="https://static.simonwillison.net/static/2026/opus-flamingo.png" alt="The unicycle has a black wheel. The flamingo is a competent if slightly dull vector illustration of a flamingo. It has no flair." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I'm giving this one to Qwen too, partly for the excellent <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;!-- Sunglasses on flamingo! --&gt;</code> SVG comment.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这一轮我也判给 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Qwen</strong>，部分原因是那条精彩的 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;!-- Sunglasses on flamingo! --&gt;</code> SVG 注释。</p>
-
-<h4 style="margin:24px 0 12px;">What can we learn from this?</h4>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我们能从中学到什么？</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The pelican benchmark has always been meant as a joke - it's mainly a statement on how obtuse and absurd the task of comparing these models is.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">鹈鹕基准测试一直都只是个玩笑——它主要是在表达，比较这些模型的任务是多么晦涩和荒谬。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The weird thing about that joke is that, for the most part, there has been a direct correlation between the quality of the pelicans produced and the general usefulness of the models. Those first pelicans from October 2024 were junk. The more recent entries have generally been much, much better - to the point that <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini 3.1 Pro</strong> produces illustrations you could actually use somewhere, provided you had a pressing need to illustrate a pelican riding a bicycle.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这个玩笑的诡异之处在于，在很大程度上，生成鹈鹕的质量与模型的总体实用性之间存在直接相关性。2024 年 10 月那些最早的鹈鹕完全是垃圾。而最近的参赛作品总体上要好得多——以至于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini 3.1 Pro</strong> 生成的插图已经真的可以在某些地方使用了，前提是你确实有紧急需求要为一幅“鹈鹕骑自行车”的插图配图。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Today, even that loose connection to utility has been broken. I have enormous respect for <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Qwen</strong>, but I very much doubt that a 21GB quantized version of their latest model is more powerful or useful than <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>'s latest proprietary release.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如今，就连这种与实用性的松散联系也被打破了。我非常尊重 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Qwen</strong>，但我严重怀疑他们最新模型的一个 21GB 量化版本会比 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 最新的专有发布版更强大或更有用。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">If the thing you need is an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SVG</strong> illustration of a pelican riding a bicycle though, right now <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.6-35B-A3B</strong> running on a laptop is a better bet than <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Opus 4.7</strong>!</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">但如果你需要的正是一幅鹈鹕骑自行车的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SVG</strong> 插图，那么现在，在笔记本上运行的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.6-35B-A3B</strong> 要比 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Opus 4.7</strong> 更靠谱！</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ai</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">generative-ai</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">local-llms</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llms</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">anthropic</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">claude</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">qwen</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">pelican-riding-a-bicycle</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llm-release</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">lm-studio</code></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ai</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">generative-ai</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">local-llms</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llms</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">anthropic</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">claude</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">qwen</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">pelican-riding-a-bicycle</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llm-release</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">lm-studio</code></p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Antirez</div>
-      <div class="title-row">
-        <div class="title">AI 网络安全不是工作量证明</div>
+        <div class="title">社区智慧：跨团队Claude Code技巧分享、lennysjobs.com关停原因、副业开设LLC、AI赋能中小企业销售等</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">AI cybersecurity is not proof of work</div>
-      <div class="tags"><span class="tag">网络安全</span><span class="tag">漏洞挖掘</span><span class="tag">模型智能</span></div>
-      <div class="summary">作者以OpenBSD SACK漏洞为例论证，AI驱动的网络安全并非“工作量证明”——发现复杂漏洞不取决于算力或采样次数的堆砌，而是受限于模型本身的智能水平；未来该领域的胜负手在于拥有更优质的模型并能更快调用它们。</div>
+      <div class="title-en">🧠 Community Wisdom: Sharing Claude Code skills across the org, Why did lennysjobs.com shut down, opening an LLC for side work, AI for SMB sales, and more</div>
+      <div class="tags"><span class="tag">社区精选</span><span class="tag">AI工具</span><span class="tag">创业</span><span class="tag">销售</span></div>
+      <div class="summary">本周六发送的&quot;Community Wisdom&quot;会员通讯精选了其Slack社区中最有价值的讨论，涵盖组织内Claude Code技能分享、lennysjobs.com关停原因、副业LLC开设以及AI助力中小企业销售等话题。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">So, cyber security of tomorrow will not be like proof of work in the sense of &quot;more GPU wins&quot;; instead, better models, and faster access to such models, will win.</div><div class="quote-zh">因此，未来的网络安全不会像工作量证明那样&quot;GPU 多者胜&quot;；相反，更好的模型，以及更快访问这些模型的能力，才会胜出。</div></div>
-<div class="quote-block"><div class="quote-en">Don&#x27;t trust who says that weak models can find the OpenBSD SACK bug. I tried it myself.</div><div class="quote-zh">别相信那些说弱模型能找到 OpenBSD SACK 漏洞的人。我自己试过。</div></div>
+<div class="quote-block"><div class="quote-en">Hello and welcome to this week’s edition of ✨Community Wisdom✨ a subscriber-only email, delivered every Saturday, highlighting the most helpful conversations in our members-only Slack community.</div><div class="quote-zh">欢迎阅读本周✨社区智慧✨特刊——这是一封仅限订阅者的邮件，每周六发送，精选我们专属Slack社区中最有价值的对话。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">AI cybersecurity is not proof of work</h3>
+      <div class="translation"><h3 style="margin:24px 0 12px;">🧠 Community Wisdom: Sharing Claude Code skills across the org, Why did lennysjobs.com shut down, opening an LLC for side work, AI for SMB sales, and more</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">🧠 社区智慧：在组织内分享 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong>（AI 编程助手）技巧、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">lennysjobs.com</strong> 为何关闭、为副业成立 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLC</strong>（有限责任公司）、面向 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SMB</strong>（中小企业）销售的 AI 应用，以及更多内容</p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-The <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">proof of work</strong> is the wrong analogy: finding <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hash collisions</strong>, while exponentially harder with N, is guaranteed to find, with enough work, some S so that H(S) satisfies N, so an asymmetry of resources used will see the side with more "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">work ability</strong>" eventually winning.
+👋 Hello and welcome to this week’s edition of ✨<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Community Wisdom</strong>✨ a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">subscriber-only</strong> email, delivered every Saturday, highlighting the most helpful conversations inour <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong> community.
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">proof of work</strong>（工作量证明）是一个错误的类比：寻找 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hash collisions</strong>（哈希碰撞）虽然随着 N 的增长呈指数级困难，但只要投入足够的计算量，就必然能找到某个 S 使得 H(S) 满足 N，因此资源使用的不对称性意味着拥有更多"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">work ability</strong>（工作能力）"的一方最终将获胜。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-But bugs are different:
-<ol style="margin:8px 0;padding-left:24px;">
-<li>Different <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLMs</strong> executions take different branches, but eventually the possible branches based on the code possible states are <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">saturated</strong>.</li>
-<li>If we imagine sampling the model for a bug in a given code M times, with M large, eventually the cap becomes not "M" (because of saturated state of the code AND the LLM sampler meaningful paths), but "I", the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">model intelligence level</strong>.</li>
-</ol>
-</div>
-<div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-但漏洞（bugs）的情况不同：
-<ol style="margin:8px 0;padding-left:24px;">
-<li>不同的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLMs</strong>（大语言模型）执行会走不同的分支，但最终基于代码可能状态的所有分支都会达到 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">saturated</strong>（饱和）。</li>
-<li>如果我们想象对模型进行 M 次采样以寻找给定代码中的漏洞，当 M 足够大时，瓶颈最终不再是"M"（因为代码状态已达饱和，且 LLM 采样器的有意义路径也已穷尽），而是"I"，即 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">model intelligence level</strong>（模型智能水平）。</li>
-</ol>
-</div>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-The <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenBSD SACK bug</strong> easily shows that: you can run an inferior model for an infinite number of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tokens</strong>, and it will never realize(*) that the lack of validation of the start window, if put together with the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">integer overflow</strong>, then put together with the fact the branch where the node should never be NULL is entered regardless, will produce the bug.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenBSD SACK bug</strong>（OpenBSD SACK 漏洞）很好地说明了这一点：你可以用一个较差的模型运行无限多的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tokens</strong>（token），但它永远不会意识到（*），如果对起始窗口缺乏验证，再叠加 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">integer overflow</strong>（整数溢出），然后再叠加"无论何种情况都会进入节点本不应为 NULL 的分支"这一事实，就会产生该漏洞。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-So, cyber security of tomorrow will not be like <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">proof of work</strong> in the sense of "more <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPU</strong> wins"; instead, better models, and faster access to such models, will win.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-因此，未来的网络安全不会像 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">proof of work</strong>（工作量证明）那样意味着"更多 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPU</strong> 获胜"；相反，更好的模型以及更快获取这些模型的能力，才是制胜关键。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-* Don't trust who says that weak models can find the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenBSD SACK bug</strong>. I tried it myself. What happens is that weak models <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hallucinate</strong> (sometimes causally hitting a real problem) that there is a lack of validation of the start of the window (which is in theory harmless because of the start < end validation) and the integer overflow problem without understanding why they, if put together, create an issue. It's just <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pattern matching</strong> of bug classes on code that looks may have a problem, totally lacking the true ability to understand the issue and write an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">exploit</strong>. Test it yourself, GPT 120B OSS is cheap and available.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-* 不要相信那些声称弱模型能发现 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenBSD SACK bug</strong>（OpenBSD SACK 漏洞）的人。我自己试过。实际情况是，弱模型会产生 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hallucinate</strong>（幻觉）（有时碰巧在因果上撞上一个真实问题），声称缺少对窗口起始位置的验证（这在理论上是无害的，因为有 start &lt; end 的验证）以及存在整数溢出问题，但它并不理解为什么这两者结合起来就会引发问题。这只不过是对可能存在问题的代码进行漏洞类别的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pattern matching</strong>（模式匹配），完全缺乏真正理解问题并编写 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">exploit</strong>（漏洞利用程序）的能力。你自己可以测试，GPT 120B OSS 既便宜又容易获取。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-BTW, this is why with this bug, the stronger the model you pick (but not enough to discover the true bug), the less likely it is it will claim there is a bug. Stronger models <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hallucinate</strong> less, so they can't see the problem in any side of the spectrum: the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hallucination</strong> side of small models, and the real understanding side of <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mythos</strong>.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-顺便说一句，这就是为什么对于这个漏洞，你选择的模型越强（但还不足以发现真正的漏洞），它就越不可能声称存在漏洞。更强的模型产生 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hallucinate</strong>（幻觉）更少，因此它们无法看到光谱中的任何问题：既看不到小模型的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hallucination</strong>（幻觉）一侧，也看不到 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mythos</strong> 真正理解的一侧。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Comments
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-评论
+👋 你好，欢迎阅读本周的✨<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Community Wisdom</strong>（社区智慧）✨。这是一封<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">仅向订阅者发送</strong>的邮件，每周六送达，精选我们仅限会员的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong>（即时通讯与协作平台）社区中最有价值的对话。
 </p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="http://antirez.com/news/163" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://www.lennysnewsletter.com/p/community-wisdom-sharing-claude-code" target="_blank">阅读原文 &rarr;</a>
     </div>
 
 <div class="article-card">
-      <div class="source">Simon Willison</div>
+      <div class="source">Construction Physics</div>
       <div class="title-row">
-        <div class="title">datasette.io 新闻预览工具</div>
-        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
+        <div class="title">每周阅读清单：2026年4月18日</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">datasette.io news preview</div>
-      <div class="tags"><span class="tag">Datasette</span><span class="tag">Claude</span><span class="tag">预览工具</span><span class="tag">开发工具</span></div>
-      <div class="summary">作者使用 Claude 为 datasette.io 的 YAML 新闻文件构建了一个自定义预览工具，可实时渲染页面效果并高亮 YAML 与 Markdown 错误，以简化内容编辑流程。</div>
+      <div class="title-en">Reading List 04/18/2026</div>
+      <div class="tags"><span class="tag">基建</span><span class="tag">住房</span><span class="tag">供应链</span><span class="tag">制造业</span></div>
+      <div class="summary">本周阅读清单汇总了建筑、基础设施与工业技术领域的热点动态，涵盖美国封锁霍尔木兹海峡引发的全球供应链震荡、白宫降低住房成本的政策建议，以及机器狗焊接系统、无人机制造和铝冶炼产能扩张等工业新动向。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">This format is a little hard to edit, so I finally had Claude build a custom preview UI to make checking for errors have slightly less friction.</div><div class="quote-zh">这种格式有点难编辑，所以我终于让 Claude 构建了一个自定义预览界面，让错误检查的摩擦稍微少一点。</div></div>
+<div class="quote-block"><div class="quote-en">Some of these figures surprise me: it’s not hard to understand why California and New York might have low homeownership rates due to the high costs of real estate, but Georgia, Texas, and North Dakota being on the low end and West Virginia being on the high end are more surprising to me.</div><div class="quote-zh">有些数据让我感到意外：不难理解加州和纽约的住房自有率为何偏低，因为房价高昂；但佐治亚、得克萨斯和北达科他也在低位，而西弗吉尼亚却在高位，这让我更感惊讶。</div></div>
+<div class="quote-block"><div class="quote-en">The utility of this isn’t amazingly obvious to me — I think most welding is probably done in repeatable locations where the dog is unnecessary, in locations that would be tricky for a dog to access, or require some kind of workholding that this doesn’t seem equipped with — but it’s cool nonetheless.</div><div class="quote-zh">在我看来，它的实用性并不明显——大多数焊接可能是在可重复的工位上完成的，机器狗纯属多余；或是在狗难以进入的场所，又或是需要某种夹具固定，而这套设备似乎并不具备——但无论如何，它很酷。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">datasette.io news preview</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">datasette.io 新闻预览</p>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Reading List 04/18/2026</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">阅读清单 2026年4月18日</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tool:<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">datasette.io</strong> news preview</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">工具：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">datasette.io</strong> 新闻预览</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">datasette.io</strong>website has a news section built from this<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">news.yaml</strong>file in the underlying<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub</strong>repository. The<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">YAML</strong>format looks like this:</div>
-<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>- date: 2026-04-15
-  body: |-
-    [Datasette 1.0a27](https://docs.datasette.io/en/latest/changelog.html#a27-2026-04-15) changes how CSRF protection works in a way that simplifies form and API integration, and introduces a new `RenameTableEvent` for when a table is renamed by a SQL query.
-- date: 2026-03-18
-  body: |-
-    ...</code></pre>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">datasette.io</strong> 网站的新闻版块由底层 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub</strong> 仓库中的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">news.yaml</strong> 文件构建而成。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">YAML</strong> 格式如下所示：第一条记录介绍了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Datasette 1.0a27</strong> 修改了 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">CSRF</code>（跨站请求伪造）保护的工作机制，简化了表单和 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">API</code> 集成，并引入了新的 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">RenameTableEvent</code>（重命名表事件）。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This format is a little hard to edit, so I finally had<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong>build a custom<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">preview UI</strong>to make checking for errors have slightly less friction.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这种格式编辑起来有点困难，所以我最终让 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> 构建了一个自定义 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">预览 UI</strong>，以减少检查错误时的阻力。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I built it using standard<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">claude.ai</strong>and<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Artifacts</strong>, taking advantage of<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong>'s ability to clone<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub</strong>repos and look at their content as part of a regular chat:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我使用标准的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">claude.ai</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Artifacts</strong> 构建了它，利用了 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> 在常规对话中克隆 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub</strong> 仓库并查看其内容的能力：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">Clone https://github.com/simonw/datasette.io and look at the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">news.yaml</strong> file and how it is rendered on the homepage. Build an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">artifact</strong> I can paste that <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">YAML</strong> into which previews what it will look like, and highlights any <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">markdown</strong> errors or YAML errors</blockquote></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">克隆 https://github.com/simonw/datasette.io，查看 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">news.yaml</strong> 文件及其在首页的渲染效果。构建一个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">artifact</strong>，让我可以把 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">YAML</strong> 粘贴进去，预览其渲染结果，并高亮显示任何 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">markdown</strong> 错误或 YAML 错误。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Clone https://github.com/simonw/datasette.io and look at the news.yaml file and how it is rendered on the homepage. Build an artifact I can paste that YAML into which previews what it will look like, and highlights any markdown errors or YAML errors</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">克隆 https://github.com/simonw/datasette.io，查看 news.yaml 文件及其在首页的渲染效果。构建一个 artifact，让我可以把 YAML 粘贴进去，预览其渲染结果，并高亮显示任何 markdown 错误或 YAML 错误。</p>
-
-<img src="https://static.simonwillison.net/static/2026/datasette-io-preview.jpg" alt="Screenshot showing two side-by-side views of a datasette.io news preview tool. The left panel shows a dark-themed YAML editor with news entries containing date and body fields in Markdown format, with a red validation error at the bottom indicating the date field has an invalid format. The right panel shows the rendered preview output with formatted headings by date (April 2026, 18th March 2026), displaying 115 news entries with linked release names, inline code snippets, and changelog descriptions. A red badge with &quot;1&quot; appears on the left panel header indicating one validation error." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<img src="https://static.simonwillison.net/static/2026/datasette-io-preview.jpg" alt="Screenshot showing two side-by-side views of a datasette.io news preview tool. The left panel shows a dark-themed YAML editor with news entries containing date and body fields in Markdown format, with a red validation error at the bottom indicating the date field has an invalid format. The right panel shows the rendered preview output with formatted headings by date (April 2026, 18th March 2026), displaying 115 news entries with linked release names, inline code snippets, and changelog descriptions. A red badge with &quot;1&quot; appears on the left panel header indicating one validation error." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags:<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vibe-coding</strong>,<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">claude</strong>,tools,<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">datasette</strong></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vibe-coding</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">claude</strong>、tools、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">datasette</strong></p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">TLDR AI</div>
-      <div class="title-row">
-        <div class="title">Gemini 3.1 Flash TTS、A2P 人机市场与 OpenAI Agents SDK 更新</div>
-        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
-      </div>
-      <div class="title-en">Gemini 3.1 Flash TTS 🎙️, Agent-to-Person marketplace 🤝, OpenAI Agents SDK 🛠️</div>
-      <div class="tags"><span class="tag">智能体</span><span class="tag">大模型</span><span class="tag">基准测试</span><span class="tag">AI研究</span></div>
-      <div class="summary">本期AI简报聚焦三大产品动态：Google发布支持70余种语言且表现力更强的Gemini 3.1 Flash TTS，Humwork推出首个连接AI智能体与人类专家的A2P市场，以及OpenAI更新Agents SDK；此外还涉及科学发现智能体评估、AI基础设施Token成本优化与扩散语言模型强化学习稳定性等研究进展。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Many teams are claiming extraordinary things about their agents. The evidence behind these claims is usually disappointing.</div><div class="quote-zh">许多团队都在为其智能体鼓吹非凡能力，但这些说法背后的证据往往令人失望。</div></div>
-<div class="quote-block"><div class="quote-en">Users have accused Anthropic of nerfing Claude Code, but there&#x27;s no evidence that Anthropic has done this. The strongest public reports still lack independent raw data.</div><div class="quote-zh">用户指责 Anthropic 暗中削弱 Claude Code，但没有证据表明 Anthropic 确实这么做了；就连最有力的公开报告也缺乏独立的原始数据。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">TLDR AI 2026-04-16</h3>
-
-<h3 style="margin:24px 0 12px;">Gemini 3.1 Flash TTS 🎙️, Agent-to-Person marketplace 🤝, OpenAI Agents SDK 🛠️</h3>
-
-<h4 style="margin:24px 0 12px;">Gemini 3.1 Flash TTS: the next generation of expressive AI speech (4 minute read)</h4>
+<img src="https://substackcdn.com/image/fetch/$s_!ddQ-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F585acee3-3518-475c-ae82-dde1cf1816a6_680x383.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Google's <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini 3.1 Flash TTS</strong> enhances text-to-speech with improved expressivity and controllability, featuring a notable <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Elo score</strong> of 1,211 on the Artificial Analysis TTS leaderboard. The model supports over 70 languages and introduces audio tags for granular control of vocal style, allowing easy manipulation via natural language commands. All generated audio is watermarked with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SynthID</strong> to ensure authentic content, preventing misinformation.
+Welcome to the reading list, a weekly roundup of news and links related to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">buildings</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">infrastructure</strong>, and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">industrial technology</strong>. This week we look at a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">quadruped welding robot</strong>, the China Shock 2.0, transformer startups, China’s mysteriously moving satellites, and more. Roughly 2/3rds of the reading list is paywalled, so for full access become a paid subscriber.
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini 3.1 Flash TTS</strong> 通过提升表现力和可控性增强了文本转语音（text-to-speech）能力，在 Artificial Analysis TTS 排行榜上取得了 1,211 的显著 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Elo 分数</strong>。该模型支持超过 70 种语言，并引入了音频标签以实现对声音风格的细粒度控制，可通过自然语言指令轻松操控。所有生成的音频均使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SynthID</strong> 进行水印标记，以确保内容真实性并防止虚假信息传播。
+欢迎阅读本周清单，这是一份与<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">建筑</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">基础设施</strong>和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">工业技术</strong>相关的新闻与链接周报。本周我们将关注一款<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">四足焊接机器人</strong>（quadruped welding robot）、"中国冲击2.0"（China Shock 2.0）、变压器初创企业（transformer startups）、中国神秘移动的卫星等内容。清单中约三分之二的内容设有付费墙，如需完整阅读，请订阅付费会员。
 </p>
 
-<h4 style="margin:24px 0 12px;">Humwork A2P marketplace connects AI agents with experts (2 minute read)</h4>
-
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Humwork</strong> launches the first <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agent-to-Person (A2P)</strong> marketplace to connect AI agents with verified human experts when AI tools encounter challenges. The platform integrates with AI-centric tools like <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> and Replit, allowing handoffs to occur in under 30 seconds with full session context shared securely. With more than 1,000 experts available globally, Humwork boasts an 87% resolution rate and is backed by <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Y Combinator</strong>'s P26 batch.
+No essay this week, but working on a more involved piece about <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">construction costs</strong> in the US and around the world that should be out next week.
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Humwork</strong> 推出了首个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agent-to-Person (A2P)</strong> 市场，在 AI 工具遇到挑战时将 AI 智能体与经过验证的人类专家连接起来。该平台与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> 和 Replit 等以 AI 为中心的工具集成，可在 30 秒内完成交接（handoffs），并安全地共享完整的会话上下文。Humwork 在全球拥有超过 1,000 名专家，解决率达到 87%，并获得了 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Y Combinator</strong> P26 批次的投资支持。
+本周不刊发长文，但正在撰写一篇关于美国及全球<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">建筑成本</strong>（construction costs）的更深入分析，预计下周发布。
 </p>
 
-<h4 style="margin:24px 0 12px;">OpenAI's Updated Agents SDK (4 minute read)</h4>
-
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> introduced updates to its <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agents SDK</strong>, adding a model-native harness for cross-file and tool workflows along with sandboxed execution for safer task handling.
+The US has blockaded the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Strait of Hormuz</strong>, preventing Iranian ships from transiting the strait. “On Monday, the United States imposed its own naval blockade, intent on ending Iran’s dominance of the waterway and cutting off its oil income by blocking all traffic to and from its ports…Since the U.S. blockade took effect, no ships linked to Iran have been spotted leaving the region, according to the vessel‑tracking company <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Kpler</strong>.” [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NYT</strong>] Negotiations between the US and Iran are apparently ongoing, but the strait seems to be closed as of this writing. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">BBC</strong>]
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 发布了其 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agents SDK</strong> 的更新，新增了用于跨文件和工具工作流的模型原生（model-native）执行框架，以及用于更安全任务处理的沙盒化执行环境。
+美国已对<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">霍尔木兹海峡</strong>（Strait of Hormuz）实施封锁，阻止伊朗船只通行。"周一，美国实施了海上封锁，旨在终结伊朗对该水道的控制，并通过阻断其港口的所有往来船只切断其石油收入……据船舶追踪公司<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Kpler</strong>称，自美国封锁生效以来，未发现任何与伊朗有关联的船只离开该地区。"[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NYT</strong>] 美伊谈判显然仍在进行，但截至本文撰写时，该海峡似乎仍处于关闭状态。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">BBC</strong>]
 </p>
 
-<h4 style="margin:24px 0 12px;">Evaluating agents for scientific discovery (7 minute read)</h4>
-
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Many teams are claiming extraordinary things about their agents. The evidence behind these claims is usually disappointing. <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ScienceWorld</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DiscoveryWorld</strong> are benchmarks developed to test whether AI agents can actually do science. ScienceWorld asks whether agents can 're-make' classic scientific discoveries at roughly an elementary school level, while DiscoveryWorld tests open-ended discovery at a college or PhD level. These benchmarks, open and freely available, help test what science agents are actually capable of.
+The strait’s closure continues to disrupt <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">supply chains</strong> around the world: Russia has imposed export controls on helium [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Reuters</strong>], airlines continue to be squeezed by the high cost of jet fuel [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">WSJ</strong>], and a Japanese bathroom manufacturer shut down production due to a lack of glue. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Nikkei Asia</strong>]
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-许多团队都在对其智能体做出非凡的宣传，但这些说法背后的证据往往令人失望。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ScienceWorld</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DiscoveryWorld</strong> 是为测试 AI 智能体是否真正能够从事科学研究而开发的基准（benchmark）。ScienceWorld 考察智能体能否在相当于小学水平的层次上“复现”经典科学发现，而 DiscoveryWorld 则在大学或博士水平上测试开放式发现能力。这些开放且免费的基准有助于测试科学智能体的实际能力。
+海峡的持续关闭正扰乱全球<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">供应链</strong>（supply chains）：俄罗斯已对氦气实施出口管制[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Reuters</strong>]，航空公司继续受航空燃油高价挤压[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">WSJ</strong>]，一家日本卫浴制造商则因缺乏胶水而停产。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Nikkei Asia</strong>]
 </p>
 
-<h4 style="margin:24px 0 12px;">Rethinking AI TCO: Why Cost per Token Is the Only Metric That Matters (6 minute read)</h4>
-
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cost per token</strong> is crucial for AI infrastructure <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">TCO</strong> assessment due to its focus on delivered intelligence, integrating hardware, software, and utilization efficiencies. Unlike traditional metrics like compute cost or FLOPS per dollar, cost per token highlights real-world performance, enabling profitable AI scaling. Evidence from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NVIDIA</strong> shows its <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Blackwell</strong> platform drastically reduces cost per token compared to Hopper, offering significant business value.
+Thanks to the war, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPS</strong> signals are being jammed across the region. One consequence? Food delivery drivers are having trouble delivering their orders. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rest of World</strong>]
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">每 token 成本（Cost per token）</strong> 对于 AI 基础设施的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">TCO（总拥有成本）</strong> 评估至关重要，因为它聚焦于实际交付的智能，并综合了硬件、软件和利用率效率。与计算成本或每美元 FLOPS 等传统指标不同，每 token 成本突显了真实世界性能，使 AI 能够盈利地扩展。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NVIDIA</strong> 的数据显示，其 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Blackwell</strong> 平台相比 Hopper 大幅降低了每 token 成本，带来了显著的商业价值。
+由于战争，该地区的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPS</strong>（全球定位系统）信号正遭到干扰。后果之一？外卖骑手难以完成订单配送。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rest of World</strong>]
 </p>
 
-<h4 style="margin:24px 0 12px;">Evaluating Agent Reasoning (28 minute read)</h4>
-
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">IBM Research</strong> uses an executable benchmark with thousands of APIs and documents to test multi-step agent reasoning and tool use, revealing consistent performance gaps and common failure modes.
+The Saudi <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">East-West oil pipeline</strong> being used to bypass the Strait of Hormuz had been damaged by an Iranian drone attack, but now appears to be back online. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Reuters</strong>]
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">IBM Research</strong> 使用一个包含数千个 API 和文档的可执行基准来测试多步智能体推理（multi-step agent reasoning）和工具使用，揭示了持续存在的性能差距和常见的失败模式。
+沙特用于绕过霍尔木兹海峡的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">东西输油管道</strong>（East-West oil pipeline）此前在伊朗无人机袭击中受损，但目前已恢复运行。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Reuters</strong>]
 </p>
 
-<h4 style="margin:24px 0 12px;">Why do dLLMs tend to collapse in RL (3 minute read)</h4>
-
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Diffusion Language Models (dLLMs)</strong> experience training collapse during <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Reinforcement Learning</strong> because their log-likelihood must be estimated using high-variance Monte Carlo sampling, which creates noisy importance ratios. These noisy ratios induce gradient spikes that push policy drift in a positive feedback loop, a problem that traditional AR methods like conditional clipping fail to solve. The newly proposed <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">StableDRL</strong> framework stabilizes the update process by combining unconditional clipping to suppress extreme values with self-normalization tied to the effective information in the batch.
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Homeownership rates</strong> by state in the US. Some of these figures surprise me: it’s not hard to understand why California and New York might have low homeownership rates due to the high costs of real estate, but Georgia, Texas, and North Dakota being on the low end and West Virginia being on the high end are more surprising to me. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">X</strong>]
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">扩散语言模型（Diffusion Language Models, dLLMs）</strong> 在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">强化学习（Reinforcement Learning, RL）</strong> 过程中会出现训练崩溃，因为其 log-likelihood 必须使用高方差的蒙特卡洛采样进行估计，这会产生带有噪声的重要性比率（importance ratios）。这些噪声比率会引发梯度尖峰，推动策略漂移形成正反馈循环，而条件裁剪（conditional clipping）等传统的自回归（AR）方法无法解决这一问题。新提出的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">StableDRL</strong> 框架通过结合无条件裁剪（抑制极端值）和与批次有效信息挂钩的自归一化（self-normalization）来稳定更新过程。
+美国各州的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">住房拥有率</strong>（Homeownership rates）。其中一些数据令我意外：加州和纽约因房地产价格高昂而拥有率低并不难理解，但佐治亚州、德克萨斯州和北达科他州处于低位，而西弗吉尼亚州处于高位，则更让我感到惊讶。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">X</strong>]
 </p>
 
-<h4 style="margin:24px 0 12px;">👨‍💻 Engineering & Research</h4>
-
-<h4 style="margin:24px 0 12px;">Run AI agents without exposing your infrastructure (Sponsor)</h4>
+<img src="https://substackcdn.com/image/fetch/$s_!8iMT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7bd41b00-743e-478d-b633-2c3ef1473053_2000x2000.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-You wouldn't let an unknown human into your infrastructure. Why let an unknown agent?
-
-runs each agent in an isolated <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Firecracker VM</strong> with built-in identity — connected to your infrastructure and inference services with no secrets and no IAM wrestling. Zero standing privileges. Fully auditable.
-
-.
+Also on the subject of home ownership, the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">White House</strong> released a report on “Rebuilding and Protecting the American Dream of Homeownership.” It looks at various causes of high housing prices in the US, and concludes with some recommendations for states and local jurisdictions to reduce housing costs:
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-你不会让身份不明的人进入你的基础设施，为什么要让身份不明的智能体进入？
-
-它在独立的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Firecracker VM</strong> 中运行每个智能体，并内置身份认证——无需管理密钥，无需纠缠 IAM，即可连接到你的基础设施和推理服务。零常驻权限（Zero standing privileges）。完全可审计。
-
-。
+同样关于住房自有的话题，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">白宫</strong>（White House）发布了一份题为《重建与保护美国住房自有之梦》（Rebuilding and Protecting the American Dream of Homeownership）的报告。报告审视了美国高房价的各类成因，并向州及地方政府提出了降低住房成本的建议：
 </p>
 
-<h4 style="margin:24px 0 12px;">Parcae: Doing more with fewer parameters using stable looped models (6 minute read)</h4>
-
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Parcae</strong> is one of the first stable architectures for looped language models. It achieves the quality of a Transformer twice the size with clean, predictable training. Parcae increases the recurrence rather than purely scaling data, creating a new medium to scale quality. The name Parcae is a homage to the three Roman fates: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Nona</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Decima</strong>, and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Morta</strong>.
+<ul style="margin:0;padding-left:20px;">
+<li>Unleashing manufacturing innovation: “...align codes with accepted standards for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">modular</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prefabricated</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">panelized</strong>, and other <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">off-site built housing</strong>.”</li>
+</ul>
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Parcae</strong> 是首批用于循环语言模型（looped language models）的稳定架构之一。它以清晰、可预测的训练方式达到了两倍于其规模的 Transformer 的质量。Parcae 通过增加循环次数而非单纯扩展数据量来扩展质量，创造了一种新的扩展媒介。Parcae 这个名字致敬了三位罗马命运女神：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">诺娜（Nona）</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">德琪玛（Decima）</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">莫尔塔（Morta）</strong>。
+释放制造业创新："……使建筑规范与<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">模块化</strong>（modular）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">预制</strong>（prefabricated）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">面板化</strong>（panelized）及其他<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">场外建造住房</strong>（off-site built housing）的公认标准保持一致。"
 </p>
 
-<h4 style="margin:24px 0 12px;">NVIDIA's Lyra 2 (32 minute read)</h4>
-
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Lyra 2.0</strong> is a framework for generating long, camera-controlled videos that maintain 3D consistency, using geometry-guided retrieval to prevent spatial forgetting and self-augmented training to reduce temporal drift.
+Unleashing manufacturing innovation: “...align codes with accepted standards for modular, prefabricated, panelized, and other off-site built housing.”
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NVIDIA</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Lyra 2.0</strong> 是一个用于生成长时长、相机控制且保持 3D 一致性的视频的框架，它利用几何引导检索（geometry-guided retrieval）防止空间遗忘，并通过自增强训练（self-augmented training）减少时间漂移。
+释放制造业创新："……使建筑规范与模块化（modular）、预制（prefabricated）、面板化（panelized）及其他场外建造住房（off-site built housing）的公认标准保持一致。"
 </p>
 
-<h4 style="margin:24px 0 12px;">Many-Tier Instruction Hierarchy in LLM Agents (1 minute read)</h4>
-
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Researchers propose a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Many-Tier Instruction Hierarchy (ManyIH)</strong> to address instruction conflicts in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM agents</strong>, surpassing traditional models with fixed privilege levels. They introduce <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ManyIH-Bench</strong>, assessing models across 12 privilege levels and 853 agent tasks, finding current models perform poorly at 40% accuracy. This highlights the need for scalable conflict resolution in complex agentic environments.
+<ul style="margin:0;padding-left:20px;">
+<li>Streamlining the stages of homebuilding: “...create a fast-track process for all housing developments that features capped timelines and permit fees, appropriate and justifiable impact fees, third-party inspections, and an expedited appeal process that ensures faster and less arbitrary dispute resolution.”</li>
+</ul>
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-研究人员提出了一种 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">多层级指令层级结构（Many-Tier Instruction Hierarchy, ManyIH）</strong>，以解决 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM 智能体</strong> 中的指令冲突问题，超越了具有固定权限级别的传统模型。他们引入了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ManyIH-Bench</strong> 基准，在 12 个权限级别和 853 个智能体任务上评估模型，发现当前模型的准确率仅为 40%，表现不佳。这突显了在复杂的智能体环境中需要可扩展的冲突解决方案。
+简化房屋建设阶段："……为所有住房开发项目建立快速通道程序，包括设定时限和许可费用的上限、合理且可证明合理性的影响费（impact fees）、第三方检查，以及确保更快速且更少随意性的纠纷解决的加速上诉程序。"
 </p>
 
-<h4 style="margin:24px 0 12px;">Jensen Huang – TPU competition, why we should sell chips to China, & Nvidia's supply chain moat (90 minute read)</h4>
-
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-This post features a transcript of an interview with <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jensen Huang</strong>. He discusses TPU competition, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Nvidia</strong>'s lock on the supply chain needed to make advanced chips, whether the US should sell AI chips to China, why Nvidia isn't a hyperscaler, how the company makes its investments, and more. Links to audio and video of the interview are available.
+Streamlining the stages of homebuilding: “...create a fast-track process for all housing developments that features capped timelines and permit fees, appropriate and justifiable impact fees, third-party inspections, and an expedited appeal process that ensures faster and less arbitrary dispute resolution.”
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-这篇文章收录了对 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jensen Huang（黄仁勋）</strong> 的采访全文。他讨论了 TPU 竞争、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Nvidia</strong> 对制造先进芯片所需供应链的垄断、美国是否应向中国出售 AI 芯片、Nvidia 为何不是超大规模云服务提供商（hyperscaler）、公司如何进行投资等话题。文章提供了采访的音频和视频链接。
+简化房屋建设阶段："……为所有住房开发项目建立快速通道程序，包括设定时限和许可费用的上限、合理且可证明合理性的影响费（impact fees）、第三方检查，以及确保更快速且更少随意性的纠纷解决的加速上诉程序。"
 </p>
 
-<h4 style="margin:24px 0 12px;">Claude probably wasn't secretly nerfed. Anthropic made the black box too dark (10 minute read)</h4>
-
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Users have accused <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> of nerfing <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong>, but there's no evidence that Anthropic has done this. The strongest public reports still lack independent raw data. However, Anthropic didn't need to nerf Claude for Claude Code to become a different product. Effort defaults, adaptive thinking, cache duration, context compaction, quota policy, and status incidents can all change the experience while the model name stays the same.
+<ul style="margin:0;padding-left:20px;">
+<li>Protecting consumer choice and private property rights:“...curtail gratuitous mandates that restrict housing supply, such as restrictions on the number of units that can be built in any given time period, costly green energy building requirements, and discriminatory labor rules.”</li>
+</ul>
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-用户指责 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 暗中削弱（nerf）了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong>，但没有证据表明 Anthropic 这样做了。即使是最有力的公开报告也仍然缺乏独立的原始数据。然而，Anthropic 并不需要削弱 Claude，Claude Code 本身也可能变成一个不同的产品。努力默认值（effort defaults）、自适应思考、缓存时长、上下文压缩（context compaction）、配额策略和状态事件都可能在模型名称不变的情况下改变用户体验。
+保护消费者选择与私有财产权："……削减限制住房供应的不必要强制规定，例如限制特定时期内可建造单元数量的规定、昂贵的绿色建筑能源要求，以及歧视性劳工规则。"
 </p>
 
-<h3 style="margin:24px 0 12px;">Get the most interesting AI stories and breakthroughs delivered in a free daily email.</h3>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Protecting consumer choice and private property rights:“...curtail gratuitous mandates that restrict housing supply, such as restrictions on the number of units that can be built in any given time period, costly green energy building requirements, and discriminatory labor rules.”
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+保护消费者选择与私有财产权："……削减限制住房供应的不必要强制规定，例如限制特定时期内可建造单元数量的规定、昂贵的绿色建筑能源要求，以及歧视性劳工规则。"
+</p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Get the most interesting AI stories and breakthroughs delivered in a free daily email.
-
-Join 920,000 readers for
+Most of these seem like reasonable ideas to me. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">White House</strong>]
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-通过免费的每日邮件，获取最有趣的 AI 故事和突破性进展。
+在我看来，这些建议大多都颇为合理。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">White House</strong>]
+</p>
 
-加入 920,000 名读者的行列
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+The <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Pentagon</strong> wants to get US auto manufacturers involved in weapons production, as the wars in Ukraine and Iran run down <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ordnance stockpiles</strong>. This was widely done during WWII, but it’s not obvious how easily today’s car manufacturers could pivot. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">WSJ</strong>]
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+随着乌克兰和伊朗战事消耗<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">弹药库存</strong>（ordnance stockpiles），<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">五角大楼</strong>（The Pentagon）希望让美国汽车制造商参与武器生产。二战期间这种做法十分普遍，但如今汽车制造商能否轻易转型尚不明确。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">WSJ</strong>]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Also on the subject of weapons manufacturing, Detroit is angling to be the epicenter of a new US drone manufacturing industry. “Thanks to ramped-up military spending on drones and their proliferation in civilian uses, the market for American-made <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">unmanned aerial systems</strong> is expected to grow to more than $50 billion by 2030, from $5 billion this year…Companies are scrambling to build a supply chain from scratch, and states are vying to be at the center of it. In July, Gov. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gretchen Whitmer</strong> of Michigan, a Democrat, issued an executive directive calling for a statewide effort to scale up “advanced air mobility” manufacturing, which includes drones and electric planes.” [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NYT</strong>]
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+同样关于武器制造的话题，底特律正力争成为美国新兴无人机制造业的中心。"得益于无人机军事开支的增加及其在民用领域的普及，美国制造的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">无人驾驶航空系统</strong>（unmanned aerial systems）市场预计将从今年的50亿美元增长到2030年的500亿美元以上……各企业正争相从零开始构建供应链，各州也在角逐成为产业中心。今年7月，密歇根州民主党州长<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">格雷琴·惠特默</strong>（Gretchen Whitmer）发布行政指令，呼吁在全州范围内大力发展包括无人机和电动飞机在内的'先进空中交通'（advanced air mobility）制造业。"[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NYT</strong>]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Tulsa, Oklahoma is building the first <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">aluminum smelter</strong> built in the US in 50 years, which would double(!) US smelting capacity. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">WSJ</strong>] Related, this <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Breakthrough Institute</strong> Piece on aluminum and China’s manufacturing prowess has an interesting graphic showing which materials require the most electricity to produce. <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Titanium</strong> requires way more electricity, and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">electric arc steel</strong> requires way less electricity, than I realized. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Breakthrough</strong>]
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+俄克拉荷马州塔尔萨（Tulsa, Oklahoma）正在建设美国50年来首座<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">铝冶炼厂</strong>（aluminum smelter），这将使美国的冶炼产能翻倍（！）。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">WSJ</strong>] 与此相关，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">突破研究所</strong>（Breakthrough Institute）一篇关于铝与中国制造业实力的文章配有一张有趣的图表，展示了生产哪些材料需要消耗最多的电力。我这才意识到，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">钛</strong>（Titanium）所需的电力远超我想象，而<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">电弧钢</strong>（electric arc steel）所需的电力则远低于我想象。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Breakthrough</strong>]
+</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!ftr8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F128a5bc9-29be-4758-8f76-0c782d99ed3f_724x485.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+When I looked at <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">welding automation</strong> a few years ago, one of the startups I highlighted trying to push automated welding forward was <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Path Robotics</strong>, which at the time was developing a system that could automatically plan out a welding path based on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">computer vision</strong> and a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CAD model</strong> it had been provided. Now the company just introduced an automated welding system mounted to a robot dog. The utility of this isn’t amazingly obvious to me — I think most welding is probably done in repeatable locations where the dog is unnecessary, in locations that would be tricky for a dog to access, or require some kind of workholding that this doesn’t seem equipped with — but it’s cool nonetheless. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">X</strong>]
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+几年前我关注<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">焊接自动化</strong>（welding automation）时，曾重点介绍过一家推动自动焊接发展的初创企业<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Path Robotics</strong>。当时该公司正在开发一套能基于<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">计算机视觉</strong>（computer vision）和提供的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CAD模型</strong>（CAD model）自动规划焊接路径的系统。如今，该公司刚推出了一款安装在机器狗上的自动焊接系统。在我看来，其实用性未必那么显而易见——我认为大多数焊接作业要么在可重复的位置进行，无需机器狗；要么在机器狗难以到达的地方；要么需要某种工装夹具，而这套系统似乎并未配备——但不管怎样，它还是很酷的。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">X</strong>]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+A cool short video clip showing manufacturing of wooden propellers using <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Blanchard-style pattern-tracing lathes</strong>. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">X</strong>]
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+一段很酷的短视频，展示了使用<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">布兰查德式仿形车床</strong>（Blanchard-style pattern-tracing lathes）制造木制螺旋桨的过程。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">X</strong>]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slate Auto</strong>, the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jeff Bezos</strong>-backed startup that wants to build a no-frills <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">EV truck</strong>, raised another $650 million, bringing its total funding to $1.4 billion. [<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">TechCrunch</strong>]
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+由<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">杰夫·贝索斯</strong>（Jeff Bezos）支持的初创企业<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slate Auto</strong>计划打造一款简约配置的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">电动皮卡</strong>（EV truck），该公司又融资6.5亿美元，使其融资总额达到14亿美元。[<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">TechCrunch</strong>]
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Read more
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+阅读更多
 </p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://tldr.tech/ai/2026-04-16" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://www.construction-physics.com/p/reading-list-04182026" target="_blank">阅读原文 &rarr;</a>
     </div>
 
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">datasette-export-database 0.3a1 发布</div>
-        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
+        <div class="title">给博客Newsletter工具新增一种内容类型</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">datasette-export-database 0.3a1</div>
-      <div class="tags"><span class="tag">插件更新</span><span class="tag">兼容性修复</span><span class="tag">安全修复</span></div>
-      <div class="summary">datasette-export-database 插件发布 0.3a1 版本，由于 Datasette 1.0a27 不再设置 ds_csrftoken cookie，该版本对之前依赖此 cookie 的自定义签名 URL 机制进行了升级适配。</div>
+      <div class="title-en">Adding a new content type to my blog-to-newsletter tool</div>
+      <div class="tags"><span class="tag">智能体</span><span class="tag">提示工程</span><span class="tag">博客工具</span></div>
+      <div class="summary">本文通过一个极简提示词的实例，展示了如何驱动 Claude Code 为博客转新闻稿工具添加新的 &quot;beats&quot; 内容类型；同时强调了为 AI 编码代理提供参考代码库与验证机制，是实现高效代理工程的关键模式。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">This plugin was using the ds_csrftoken cookie as part of a custom signed URL, which needed upgrading now that Datasette 1.0a27 no longer sets that cookie.</div><div class="quote-zh">该插件此前将 ds_csrftoken Cookie 用作自定义签名 URL 的一部分，鉴于 Datasette 1.0a27 已不再设置该 Cookie，因此需要进行升级。</div></div>
+<div class="quote-block"><div class="quote-en">Coding agents can clone code from GitHub, and the best way to explain a problem is often to have them look at relevant code.</div><div class="quote-zh">编程智能体可以从 GitHub 克隆代码，而解释问题的最佳方式往往是让它们查看相关代码。</div></div>
+<div class="quote-block"><div class="quote-en">my prompting muscle memory has python -m http.server baked in at this point!</div><div class="quote-zh">到如今，我的提示词肌肉记忆已经默认烙进了 `python -m http.server`。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">datasette-export-database 0.3a1</h3>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Adding a new content type to my blog-to-newsletter tool</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为我的博客转 Newsletter 工具添加一种新的内容类型</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This plugin was using the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ds_csrftoken</strong> cookie as part of a custom <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">signed URL</strong>, which needed upgrading now that <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Datasette 1.0a27</strong> no longer sets that <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">cookie</strong>.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">该插件此前将 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ds_csrftoken</strong> Cookie 作为自定义 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">signed URL</strong>（签名 URL）的一部分，但由于 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Datasette 1.0a27</strong> 不再设置该 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">cookie</strong>，因此需要进行升级。</p></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agentic Engineering Patterns</strong>&gt;</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">智能体工程模式（Agentic Engineering Patterns）</strong></p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Here's an example of a deceptively short <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt</strong> that got a quite a lot of work done in a single shot.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">下面这个示例展示了一个看似简短、却能一次性完成大量工作的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt（提示词）</strong>。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">First, some background. I send out a free <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Substack</strong> newsletter around once a week containing content copied-and-pasted from my blog. I'm effectively using Substack as a lightweight way to allow people to subscribe to my blog via email.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">首先，提供一些背景信息。我每周大约会向 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Substack</strong> 发送一封免费 newsletter，内容是从我的博客上复制粘贴过来的。实际上，我是把 Substack 当作一种轻量级工具，让人们可以通过邮件订阅我的博客。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I generate the newsletter with my <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">blog-to-newsletter</strong> tool — an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">HTML</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">JavaScript</strong> app that fetches my latest content from this <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Datasette</strong> instance and formats it as rich text HTML, which I can then copy to my clipboard and paste into the Substack editor. Here's a detailed explanation of how that works.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我使用自己的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">blog-to-newsletter（博客转 Newsletter）</strong> 工具来生成 newsletter —— 这是一个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">HTML</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">JavaScript</strong> 应用，它从这个 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Datasette</strong> 实例获取我的最新内容，并将其格式化为富文本 HTML，然后我就可以把它复制到剪贴板，再粘贴进 Substack 编辑器。这里有关于其工作原理的详细说明。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I recently added a new type of content to my blog to capture content that I post elsewhere, which I called "beats". These include things like releases of my open source projects, new tools that I've built, museums that I've visited (from niche-museums.com) and other external content.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我最近为博客添加了一种新的内容类型，用来汇总发布在其他地方的内容，我把它叫做 "beats（动态）"。这些内容包括我的开源项目发布、我构建的新工具、我参观过的博物馆（来自 niche-museums.com）以及其他外部内容。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I wanted to include these in the generated newsletter. Here's the prompt I ran against the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">simonw/tools</strong> repository that hosts my blog-to-newsletter tool, using <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> on the web.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我想把这些内容也包含到自动生成的 newsletter 中。下面是我针对托管 blog-to-newsletter 工具的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">simonw/tools</strong> 仓库所运行的提示词，使用的是网页版的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong>。</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>Clone simonw/simonwillisonblog from github to /tmp for reference
+
+Update blog-to-newsletter.html to include beats that have descriptions - similar to how the Atom everything feed on the blog works
+
+Run it with python -m http.server and use `uvx rodney --help` to test it - compare what shows up in the newsletter with what's on the homepage of https://simonwillison.net</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">Clone simonw/simonwillisonblog from github to /tmp for reference</blockquote></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">从 GitHub 克隆 simonw/simonwillisonblog 到 /tmp 以供参考</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Clone simonw/simonwillisonblog from github to /tmp for reference</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">从 GitHub 克隆 simonw/simonwillisonblog 到 /tmp 以供参考</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I use this pattern a lot. <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Coding agents</strong> can clone code from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub</strong>, and the best way to explain a problem is often to have them look at relevant code. By telling them to clone to <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/tmp</code> I ensure they don't accidentally end up including that reference code in their own commit later on.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我经常使用这种模式。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Coding agents（编程智能体）</strong> 可以从 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub</strong> 克隆代码，而解释问题的最佳方式往往是让它们查看相关代码。通过让它们克隆到 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/tmp</code>，我可以确保它们不会不小心在后续提交中把这份参考代码包含进去。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">simonw/simonwillisonblog</strong> repository contains the source code for my <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Django</strong>-powered <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">simonwillison.net</strong> blog. This includes the logic and database schema for my new "beats" feature.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">simonw/simonwillisonblog</strong> 仓库包含了我基于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Django</strong> 构建的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">simonwillison.net</strong> 博客的源代码，其中包括我新开发的 "beats" 功能的逻辑和数据库模式（schema）。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">Update blog-to-newsletter.html to include beats that have descriptions - similar to how the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Atom</strong> everything feed on the blog works</blockquote></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">更新 blog-to-newsletter.html，使其包含有描述的 beats —— 类似于博客上 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Atom</strong> 综合订阅源（everything feed）的工作方式</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Update blog-to-newsletter.html to include beats that have descriptions - similar to how the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Atom</strong> everything feed on the blog works</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">更新 blog-to-newsletter.html，使其包含有描述的 beats —— 类似于博客上 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Atom</strong> 综合订阅源的工作方式</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Referencing <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">blog-to-newsletter.html</code> is all I need here to tell <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> which of the 200+ HTML apps in that simonw/tools repo it should be modifying.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在这里，我只需要提到 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">blog-to-newsletter.html</code>，就能告诉 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> 应该修改 simonw/tools 仓库中 200 多个 HTML 应用里的哪一个。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Beats are automatically imported from multiple sources. Often they aren't very interesting — a dot-release bug fix for one of my smaller open source projects, for example.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Beats 会自动从多个来源导入。它们通常不太有趣 —— 例如，我某个小型开源项目的一个补丁版本（dot-release）错误修复。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">My blog includes a way for me to add additional descriptions to any beat, which provides extra commentary but also marks that beat as being more interesting than those that I haven't annotated in some way.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我的博客允许我为任意 beat 添加额外的描述，这既提供了额外的评论，也标志着该 beat 比那些我未曾以某种方式注解的 beat 更有趣。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I already use this as a distinction to decide which beats end up in my site's <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Atom feed</strong>. Telling Claude to imitate that saves me from having to describe the logic in any extra detail.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我已经利用这一区别来决定哪些 beat 会进入我网站的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Atom feed（Atom 订阅源）</strong>。告诉 Claude 去模仿这种做法，我就不必再额外详细描述其中的逻辑了。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">Run it with <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">python -m http.server</code> and use <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">uvx rodney --help</code> to test it — compare what shows up in the newsletter with what's on the homepage of https://simonwillison.net</blockquote></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">用 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">python -m http.server</code> 运行它，并使用 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">uvx rodney --help</code> 进行测试 —— 对比 newsletter 中显示的内容与 https://simonwillison.net 主页上的内容</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Run it with <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">python -m http.server</code> and use <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">uvx rodney --help</code> to test it — compare what shows up in the newsletter with what's on the homepage of https://simonwillison.net</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">用 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">python -m http.server</code> 运行它，并使用 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">uvx rodney --help</code> 进行测试 —— 对比 newsletter 中显示的内容与 https://simonwillison.net 主页上的内容</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Coding agents</strong> always work best if they have some kind of validation mechanism they can use to test their own work.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如果 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">coding agents（编程智能体）</strong> 拥有某种可用于测试其自身工作的验证机制，它们的工作效果总是最好的。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">In this case I wanted <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> to actively check that the changes it made to my tool would correctly fetch and display the latest data.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在这种情况下，我希望 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> 主动检查它对我的工具所做的更改能否正确地获取并展示最新数据。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I reminded it to use <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">python -m http.server</code> as a static server because I've had issues in the past with applications that fetch data and break when served as a file from disk instead of a localhost server. In this particular case that may not have been necessary, but my prompting muscle memory has <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">python -m http.server</code> baked in at this point!</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我提醒它使用 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">python -m http.server</code> 作为静态服务器，因为我过去曾遇到过这样的问题：某些应用从磁盘以文件形式打开时会无法正常获取数据而崩溃，而在本地服务器（localhost）上运行则没有问题。在这个特定案例中，这可能并非必需，但我的提示词肌肉记忆（prompting muscle memory）里已经根深蒂固地记住了 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">python -m http.server</code>！</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I described the <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">uvx rodney --help</code> trick in the agentic manual testing chapter. <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Rodney</strong> is browser automation software that can be installed using <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">uvx</code>, and that has <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">--help</code> output designed to teach an agent everything it needs to know in order to use the tool.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我在关于智能体手动测试（agentic manual testing）的章节中介绍过 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">uvx rodney --help</code> 这个技巧。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Rodney</strong> 是一款浏览器自动化软件，可以使用 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">uvx</code> 安装，它的 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">--help</code> 输出经过专门设计，能够教会智能体使用该工具所需的全部知识。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I figured that telling <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> to compare the results in the newsletter to the content of my blog's homepage would be enough for it to confidently verify that the new changes were working correctly, since I had recently posted content that matched the new requirements.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我认为，告诉 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> 将 newsletter 中的结果与博客主页的内容进行对比，就足以让它自信地验证新更改是否正常工作，因为我最近发布的内容正好符合新的需求。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">You can see the full session here, or if that doesn't work I have an alternative transcript showing all of the individual tool calls.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">你可以在这里查看完整的会话记录，如果链接无法打开，我还准备了一份替代性文字记录（alternative transcript），其中展示了所有单独的工具调用。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">resulting PR</strong> made exactly the right change. It added an additional <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">UNION</strong> clause to the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQL</strong> query that fetched the blog's content, filtering out draft beats and beats that have nothing in their <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">note</code> column:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这份 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">resulting PR（生成的拉取请求）</strong> 做出了完全正确的更改。它在获取博客内容的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQL</strong> 查询中添加了一个额外的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">UNION</strong> 子句，过滤掉了草稿状态的 beats 以及 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">note</code> 列中没有任何内容的 beats：</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>...union all select id, 'beat' as type, title, created, slug, 'No HTML' as html, json_object('created', date(created), 'beat_type', beat_type, 'title', title, 'url', url, 'commentary', commentary, 'note', note) as json, url as external_url from blog_beat where coalesce(note, '') != '' and is_draft = 0 union all ...</code></pre>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>const beatTypeDisplay = {
+  release: 'Release',
+  til: 'TIL',
+  til_update: 'TIL updated',
+  research: 'Research',
+  tool: 'Tool',
+  museum: 'Museum'
+};</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ai</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llms</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt-engineering</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">coding-agents</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ai-assisted-programming</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">generative-ai</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic-engineering</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">github</strong></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ai</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llms（大语言模型）</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt-engineering（提示词工程）</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">coding-agents（编程智能体）</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ai-assisted-programming（AI 辅助编程）</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">generative-ai（生成式 AI）</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic-engineering（智能体工程）</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">github</strong></p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Apr/15/datasette-export-database/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
 
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">Datasette 1.0a27 发布</div>
-        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
+        <div class="title">PyCon US 2026 长滩见：本届新增 AI 与安全专题轨道</div>
+        <span class="tone-pill" style="background:#fef3c7;color:#b45309">🎉 兴奋</span>
       </div>
-      <div class="title-en">datasette 1.0a27</div>
-      <div class="tags"><span class="tag">Datasette</span><span class="tag">发布</span><span class="tag">SQLite</span><span class="tag">API</span></div>
-      <div class="summary">Datasette 1.0a27 发布，核心变化包括以现代浏览器头部替代 Django 式 CSRF 防护，以及在 SQLite 事务中重命名表时新增 RenameTableEvent；同时还引入了 actor 参数、磁盘临时数据库选项和 upsert API 约束等多项改进。</div>
+      <div class="title-en">Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year</div>
+      <div class="tags"><span class="tag">PyCon</span><span class="tag">人工智能</span><span class="tag">安全</span></div>
+      <div class="summary">PyCon US 将于5月13日至19日在加州长滩举行，今年首次开设AI与安全专题 track。作者凭借二十余年的参会经历，推荐开发者参与这场以社区为核心、兼具技术演讲与开放协作的Python盛会。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">I covered the first of those in detail yesterday—Datasette no longer uses Django-style CSRF form tokens, instead using modern browser headers as described by Filippo Valsorda.</div><div class="quote-zh">我昨天详细阐述了第一项变更——Datasette 不再使用 Django 风格的 CSRF 表单令牌，转而采用 Filippo Valsorda 所描述的现代化浏览器标头。</div></div>
+<div class="quote-block"><div class="quote-en">Even as it&#x27;s grown to more than 2,000 attendees PyCon US has remained a heavily community-focused conference - it&#x27;s the least corporate feeling large event I&#x27;ve ever attended.</div><div class="quote-zh">尽管PyCon US已发展到两千多名参会者，它依然是一场高度聚焦社区的大会——这是我参加过的大型活动中最不具“企业味”的一个。</div></div>
+<div class="quote-block"><div class="quote-en">The talks are always great, but it&#x27;s the add-ons around the talks that really make it work for me.</div><div class="quote-zh">演讲总是很精彩，但真正让我受益匪浅的是演讲之外的那些附加环节。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Release: datasette 1.0a27</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">发布：datasette 1.0a27</p>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">诚邀您参加 2026 年在长滩举办的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyCon US</strong>——今年我们新增了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI（人工智能）</strong>和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">security（安全）</strong>专题轨道。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Two major changes in this new <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Datasette</strong> alpha. I covered the first of thosein detail yesterday- Datasette no longer uses Django-style <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CSRF</strong> form tokens, instead using modern browser headersas described by <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Filippo Valsorda</strong>.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这个新的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Datasette</strong> alpha 版本有两项重大变更。我昨天详细介绍了第一项——Datasette 不再使用 Django 风格的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CSRF</strong>（跨站请求伪造）表单令牌，而是改用 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Filippo Valsorda</strong> 所描述的现代化浏览器标头。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This year's <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyCon US</strong> is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tutorial</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sprint</strong> days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017 and the first time in California since Santa Clara in 2013.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">今年的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyCon US</strong> 将于下月 5 月 13 日至 19 日举行，其中核心会议演讲安排在 15 日（周五）至 17 日（周日），前后则分别为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tutorial（教程）</strong>和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sprint（冲刺）</strong>日。今年的举办地是加利福尼亚州长滩，这是自 2017 年俄勒冈州波特兰以来 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyCon US</strong> 首次来到美国西海岸，也是自 2013 年圣克拉拉以来首次在加州举办。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The second big change is that Datasette now fires a new <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">RenameTableEvent</strong> any time a table is renamed during a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong> transaction. This is useful because some plugins (like <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">datasette-comments</strong>) attach additional data to table records by name, so a renamed table requires them to react in appropriate ways.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">第二项重大变更是，Datasette 现在会在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong> 事务期间重命名表时触发一个新的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">RenameTableEvent</strong>。这很有用，因为某些插件（如 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">datasette-comments</strong>）会按名称将额外数据附加到表记录上，因此重命名表需要它们做出相应的反应。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">If you're based in California this is a great opportunity to catch up with the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Python community</strong>, meet a whole lot of interesting people and learn a ton of interesting things.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如果你在加州，这将是一个与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Python community（Python 社区）</strong>交流、结识众多有趣人士并学到大量有趣知识的绝佳机会。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Here are the rest of the changes in the alpha:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">以下是该 alpha 版本中的其余变更：</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">In addition to regular PyCon programming we have two new dedicated tracks at the conference this year: an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI track</strong> on Friday and a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Security track</strong> on Saturday.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">除了常规的 PyCon 议程外，今年的大会还增设了两个全新的专题轨道：周五的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI track（人工智能专题轨道）</strong>和周六的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Security track（安全专题轨道）</strong>。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-<ul style="margin:0;padding-left:20px;">
-<li>New <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">actor=</code> parameter for <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">datasette.client</code> methods, allowing internal requests to be made as a specific actor. This is particularly useful for writing automated tests. (#2688)</li>
-<li>New <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">Database(is_temp_disk=True)</code> option, used internally for the internal database. This helps resolve intermittent database locked errors caused by the internal database being in-memory as opposed to on-disk. (#2683) (#2684)</li>
-<li>The <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/&lt;database&gt;/&lt;table&gt;/-/upsert</code> API (docs) now rejects rows with <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">null</code> primary key values. (#1936)</li>
-<li>Improved example in the API explorer for the <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/-/upsert</code> endpoint (docs). (#1936)</li>
-<li>The <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/&lt;database&gt;.json</code> endpoint now includes an <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">"ok": true</code> key, for consistency with other JSON API responses.</li>
-<li><code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">call_with_supported_arguments()</code> is now documented as a supported public API. (#2678)</li>
-</ul>
-</blockquote>
-</div>
-<div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-<ul style="margin:0;padding-left:20px;">
-<li>为 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">datasette.client</code> 方法新增了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">actor=</strong> 参数，允许以特定 actor 身份发起内部请求。这对编写自动化测试特别有用。(#2688)</li>
-<li>新增了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Database(is_temp_disk=True)</strong> 选项，供内部数据库在内部使用。这有助于解决因内部数据库使用内存而非磁盘所导致的间歇性 database locked 错误。(#2683) (#2684)</li>
-<li><code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/&lt;database&gt;/&lt;table&gt;/-/upsert</code> API（文档）现在会拒绝主键值为 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">null</code> 的行。(#1936)</li>
-<li>改进了 API 浏览器中 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/-/upsert</code> 端点（文档）的示例。(#1936)</li>
-<li><code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/&lt;database&gt;.json</code> 端点现在包含 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">"ok": true</code> 键，以与其他 JSON API 响应保持一致。</li>
-<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">call_with_supported_arguments()</strong> 现在已被文档化为受支持的公共 API。(#2678)</li>
-</ul>
-</blockquote>
-</div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The AI program was put together by track chairs <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Silona Bonewald</strong> (<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">CitableAI</strong>) and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Zac Hatfield-Dodds</strong> (<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>). I'll be an in-the-room chair this year, introducing speakers and helping everything run as smoothly as possible.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">AI 专题议程由专题主席（track chairs）<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Silona Bonewald</strong>（<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">CitableAI</strong>）和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Zac Hatfield-Dodds</strong>（<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>）共同策划。我今年的角色是现场主席（in-the-room chair），负责介绍演讲嘉宾并协助各环节顺利进行。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;">
-<li>New <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">actor=</code> parameter for <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">datasette.client</code> methods, allowing internal requests to be made as a specific actor. This is particularly useful for writing automated tests. (#2688)</li>
-<li>New <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">Database(is_temp_disk=True)</code> option, used internally for the internal database. This helps resolve intermittent database locked errors caused by the internal database being in-memory as opposed to on-disk. (#2683) (#2684)</li>
-<li>The <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/&lt;database&gt;/&lt;table&gt;/-/upsert</code> API (docs) now rejects rows with <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">null</code> primary key values. (#1936)</li>
-<li>Improved example in the API explorer for the <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/-/upsert</code> endpoint (docs). (#1936)</li>
-<li>The <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/&lt;database&gt;.json</code> endpoint now includes an <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">"ok": true</code> key, for consistency with other JSON API responses.</li>
-<li><code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">call_with_supported_arguments()</code> is now documented as a supported public API. (#2678)</li>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Here's the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI track</strong> schedule in full:
+<ul style="margin:8px 0;padding-left:20px;">
+<li>11:00: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI-Assisted Contributions and Maintainer Load</strong> - Paolo Melchiorre</li>
+<li>11:45: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI-Powered Python Education : Towards Adaptive and Inclusive Learning</strong> - Sonny Mupfuni</li>
+<li>12:30: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Making African Languages Visible: A Python-Based Guide to Low-Resource Language ID</strong> - Gift Ojeabulu</li>
+<li>2:00: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Running Large Language Models on Laptops: Practical Quantization Techniques in Python</strong> - Aayush Kumar JVS</li>
+<li>2:45: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Distributing AI with Python in the Browser: Edge Inference and Flexibility Without Infrastructure</strong> - Fabio Pliger</li>
+<li>3:30: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Don't Block the Loop: Python Async Patterns for AI Agents</strong> - Aditya Mehra</li>
+<li>4:30: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">What Python Developers Need to Know About Hardware: A Practical Guide to GPU Memory, Kernel Scheduling, and Execution Models</strong> - Santosh Appachu Devanira Poovaiah</li>
+<li>5:15: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">How to Build Your First Real-Time Voice Agent in Python (Without Losing Your Mind)</strong> - Camila Hinojosa Añez, Elizabeth Fuentes</li>
 </ul>
 </div>
-<div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<ul style="margin:0;padding-left:20px;">
-<li>为 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">datasette.client</code> 方法新增了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">actor=</strong> 参数，允许以特定 actor 身份发起内部请求。这对编写自动化测试特别有用。(#2688)</li>
-<li>新增了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Database(is_temp_disk=True)</strong> 选项，供内部数据库在内部使用。这有助于解决因内部数据库使用内存而非磁盘所导致的间歇性 database locked 错误。(#2683) (#2684)</li>
-<li><code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/&lt;database&gt;/&lt;table&gt;/-/upsert</code> API（文档）现在会拒绝主键值为 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">null</code> 的行。(#1936)</li>
-<li>改进了 API 浏览器中 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/-/upsert</code> 端点（文档）的示例。(#1936)</li>
-<li><code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/&lt;database&gt;.json</code> 端点现在包含 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">"ok": true</code> 键，以与其他 JSON API 响应保持一致。</li>
-<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">call_with_supported_arguments()</strong> 现在已被文档化为受支持的公共 API。(#2678)</li>
+<p style="color:#2c2c2e;margin:4px 0 6px;line-height:1.8;font-size:15px;">以下是 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI track（人工智能专题轨道）</strong>的完整日程：</p>
+<ul style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;padding-left:20px;">
+<li>11:00：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI-Assisted Contributions and Maintainer Load（AI 辅助贡献与维护者负担）</strong>——Paolo Melchiorre</li>
+<li>11:45：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI-Powered Python Education: Towards Adaptive and Inclusive Learning（AI 驱动的 Python 教育：迈向自适应与包容式学习）</strong>——Sonny Mupfuni</li>
+<li>12:30：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Making African Languages Visible: A Python-Based Guide to Low-Resource Language ID（让非洲语言可见：基于 Python 的低资源语言识别指南）</strong>——Gift Ojeabulu</li>
+<li>14:00：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Running Large Language Models on Laptops: Practical Quantization Techniques in Python（在笔记本电脑上运行大语言模型：Python 中的实用量化技术）</strong>——Aayush Kumar JVS</li>
+<li>14:45：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Distributing AI with Python in the Browser: Edge Inference and Flexibility Without Infrastructure（在浏览器中用 Python 分发 AI：无需基础设施的边缘推理与灵活性）</strong>——Fabio Pliger</li>
+<li>15:30：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Don't Block the Loop: Python Async Patterns for AI Agents（不要阻塞事件循环：面向 AI 智能体的 Python 异步模式）</strong>——Aditya Mehra</li>
+<li>16:30：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">What Python Developers Need to Know About Hardware: A Practical Guide to GPU Memory, Kernel Scheduling, and Execution Models（Python 开发者需要了解的硬件知识：GPU 内存、内核调度与执行模型实用指南）</strong>——Santosh Appachu Devanira Poovaiah</li>
+<li>17:15：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">How to Build Your First Real-Time Voice Agent in Python (Without Losing Your Mind)（如何用 Python 构建你的第一个实时语音智能体（且不发疯））</strong>——Camila Hinojosa Añez, Elizabeth Fuentes</li>
 </ul>
-</div>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: annotated-release-notes, datasette, python</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：annotated-release-notes、datasette、python</p></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(And here's how I scraped that as a Markdown list from the schedule page using <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rodney</strong>.)</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">（此外，这里介绍了我如何使用 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rodney</strong> 从日程页面抓取并生成这份 Markdown 列表。）</p>
+
+<h4 style="margin:24px 0 12px;">You should come to PyCon US!</h4>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">你应该来参加 PyCon US！</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I've been going to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyCon</strong> for over twenty years now - I first went back in 2005. It's one of my all-time favourite conference series. Even as it's grown to more than 2,000 attendees <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyCon US</strong> has remained a heavily <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">community-focused</strong> conference - it's the least corporate feeling large event I've ever attended.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我参加 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyCon</strong> 已有二十多年——最早要追溯到 2005 年。它是我一直以来最喜欢的会议系列之一。尽管 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyCon US</strong> 已发展到超过 2,000 名与会者，但它始终是一个高度 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">community-focused（以社区为中心的）</strong>会议——也是我参加过的最具非商业化氛围的大型活动。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The talks are always great, but it's the add-ons around the talks that really make it work for me. The <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">lightning talks</strong> slots are some of the most heavily attended sessions. The <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">PyLadies</strong> auction is always deeply entertaining. The <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sprints</strong> are an incredible opportunity to contribute directly to projects that you use, coached by their maintainers.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">演讲总是很精彩，但真正让我受益匪浅的是演讲之外的附加环节。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">lightning talks（闪电演讲）</strong>时段是出席率最高的环节之一。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">PyLadies</strong> 拍卖会总是妙趣横生。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sprints（冲刺）</strong>则是一个绝佳的机会，让你能在项目维护者的指导下直接为自己使用的项目做出贡献。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">In addition to scheduled talks, the event has <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">open spaces</strong>, where anyone can reserve space for a conversation about a topic - effectively PyCon's version of an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">unconference</strong>. I plan to spend a lot of my time in the open spaces this year - I'm hoping to join or instigate sessions about both <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Datasette</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic engineering</strong>.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">除了既定演讲外，大会还设有 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">open spaces（开放空间/自由讨论区）</strong>，任何人都可以预留场地，就某一话题展开讨论——这实际上是 PyCon 版的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">unconference（非正式会议）</strong>。我今年计划在 open spaces 里度过大量时间——希望能参与或发起关于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Datasette</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic engineering（智能体工程）</strong>的讨论。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I'm on the board of the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Python Software Foundation</strong>, and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyCon US</strong> remains one of our most important responsibilities - in the past it's been a key source of funding for the organization, but it's also core to our mission to "promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers".</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Python Software Foundation（Python 软件基金会，PSF）</strong>的董事会成员，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PyCon US</strong> 仍然是我们最重要的职责之一——过去它一直是该组织的主要资金来源，但更重要的是，它与我们"促进、保护并推进 Python 编程语言，支持和推动 Python 程序员多元化、国际化社区的成长"这一核心使命息息相关。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">If you do come to Long Beach, we'd really appreciate it if you could book accommodation in the official hotel block, for reasons outlined in this post on the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">PSF</strong> blog.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如果你确实要前往长滩，我们非常感谢你能预订官方酒店客房，具体原因请参阅 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">PSF</strong> 博客上的这篇文章。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">conferences</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">open-source</strong>, pycon, python, ai, psf</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">conferences（会议）</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">open-source（开源）</strong>、pycon、python、ai、psf</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Apr/15/datasette/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-04-16
+  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-04-18
 </div>
 
 <script>
