@@ -7,27 +7,22 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 18 Apr 2026 23:05:07 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 22:58:34 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-04-18</title>
-      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-04-19</title>
+      <description>&lt;h3&gt;每日 AI/产品/技术日报&lt;/h3&gt;
+&lt;h4&gt;工程与系统设计&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Simon Willison&lt;/strong&gt; 分享了用极简提示词驱动 Claude Code 为博客转新闻稿工具新增 &amp;quot;beats&amp;quot; 内容类型的过程，强调为 AI 编码代理配备参考代码库与验证机制，是实现高效代理工程的关键模式。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Headless everything for personal AI&lt;/strong&gt; | Simon Willison（Simon Willison&amp;#x27;s Blog）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;无头化服务与 API 优先架构正成为个人 AI 更高效的交互方式，随着“API 即 UI”趋势加深，传统 SaaS 按人头计费的商业模式或被颠覆，API 本身正演变为产品的核心竞争壁垒。&lt;/p&gt;
+&lt;h4&gt;产品与增长&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Kiyani&lt;/strong&gt;（Lenny&amp;#x27;s Newsletter）精选 Slack 社区高价值讨论，涵盖组织内推广 Claude Code 的经验、AI 助力中小企业销售、lennysjobs.com 关停复盘，以及副业开设 LLC 的实操建议。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Why half of product managers are in trouble&lt;/strong&gt; | Nikhyl Singhal（Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Simon Willison&lt;/strong&gt; 预告 PyCon US 2026 将于 5 月 13–19 日在加州长滩举行，今年首次增设 AI 与安全专题 track，延续其二十余年以社区协作为核心的 Python 技术传统。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Brian Potter&lt;/strong&gt;（Construction Physics）的阅读清单梳理了地缘政治对全球供应链的冲击（霍尔木兹海峡局势）、白宫降低住房成本的政策建议，以及机器狗焊接、无人机制造与铝冶炼产能扩张等工业新动向。&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-18</guid>
-      <pubDate>Sat, 18 Apr 2026 23:05:07 +0000</pubDate>
+&lt;p&gt;前 Meta 与 Google 产品高管预警，未来两年企业将以“AI 优先”标准大规模重组团队，约半数传统产品经理面临淘汰风险；能否放下大厂光环、主动拥抱 AI 工具并找到与 AI 协作的“乐趣”，将成为职业存亡的关键分界。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-19</guid>
+      <pubDate>Sun, 19 Apr 2026 22:58:34 +0000</pubDate>
     </item>
   </channel>
 </rss>

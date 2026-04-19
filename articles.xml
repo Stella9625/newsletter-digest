@@ -7,390 +7,361 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 18 Apr 2026 23:04:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 22:58:16 +0000</lastBuildDate>
     <item>
-      <title>[翻译] Construction Physics: 每周阅读清单：2026年4月18日</title>
-      <link>https://www.construction-physics.com/p/reading-list-04182026</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #基建 #住房 #供应链 #制造业&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本周阅读清单汇总了建筑、基础设施与工业技术领域的热点动态，涵盖美国封锁霍尔木兹海峡引发的全球供应链震荡、白宫降低住房成本的政策建议，以及机器狗焊接系统、无人机制造和铝冶炼产能扩张等工业新动向。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Reading List 04/18/2026&lt;/p&gt;
+      <title>[翻译] Lenny's Newsletter: 半数产品经理的困境</title>
+      <link>https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #产品经理 #AI变革 #职业转型 #行业趋势&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 前Meta与Google产品高管Nikhyl Singhal预测，未来两年将是产品经理行业最混乱的时期，随着企业以&amp;quot;AI优先&amp;quot;标准大规模重组团队，约半数传统产品经理将面临淘汰风险。他认为，在这场变革中，简历上的大厂光环已不再重要，能否突破心理障碍、主动拥抱AI工具并找到与AI协作的&amp;quot;乐趣&amp;quot;，将决定从业者能否在新时代立足。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Reading List 04/18/2026&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;阅读清单 2026年4月18日&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)&lt;/h3&gt;
 
-&lt;img src="https://substackcdn.com/image/fetch/$s_!ddQ-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F585acee3-3518-475c-ae82-dde1cf1816a6_680x383.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;img src="https://substackcdn.com/image/fetch/$s_!3c5M!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6795e056-3212-4957-9471-926ae59ec8f2_1920x1080.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Welcome to the reading list, a weekly roundup of news and links related to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;buildings&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;infrastructure&lt;/strong&gt;, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;industrial technology&lt;/strong&gt;. This week we look at a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;quadruped welding robot&lt;/strong&gt;, the China Shock 2.0, transformer startups, China’s mysteriously moving satellites, and more. Roughly 2/3rds of the reading list is paywalled, so for full access become a paid subscriber.
+  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Nikhyl Singhal&lt;/strong&gt; is the founder of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;The Skip&lt;/strong&gt;, a community for senior product leaders; a former product exec at &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt;, and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Credit Karma&lt;/strong&gt;; and a many-time founder. He’s also one of the most honest, unfiltered voices on what’s actually happening in product management right now.
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-欢迎阅读本周清单，这是一份与&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;建筑&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;基础设施&lt;/strong&gt;和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;工业技术&lt;/strong&gt;相关的新闻与链接周报。本周我们将关注一款&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;四足焊接机器人&lt;/strong&gt;（quadruped welding robot）、"中国冲击2.0"（China Shock 2.0）、变压器初创企业（transformer startups）、中国神秘移动的卫星等内容。清单中约三分之二的内容设有付费墙，如需完整阅读，请订阅付费会员。
+  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Nikhyl Singhal&lt;/strong&gt; 是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;The Skip&lt;/strong&gt; 的创始人——这是一个面向资深产品负责人的社群；他曾在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Credit Karma&lt;/strong&gt; 担任产品高管，并且多次创业。他也是当下对 product management（产品管理）领域真实状况最坦诚、最不加掩饰的发声者之一。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-No essay this week, but working on a more involved piece about &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;construction costs&lt;/strong&gt; in the US and around the world that should be out next week.
+  Listen on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt;, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-本周不刊发长文，但正在撰写一篇关于美国及全球&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;建筑成本&lt;/strong&gt;（construction costs）的更深入分析，预计下周发布。
+  在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt; 和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt; 上收听
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-The US has blockaded the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Strait of Hormuz&lt;/strong&gt;, preventing Iranian ships from transiting the strait. “On Monday, the United States imposed its own naval blockade, intent on ending Iran’s dominance of the waterway and cutting off its oil income by blocking all traffic to and from its ports…Since the U.S. blockade took effect, no ships linked to Iran have been spotted leaving the region, according to the vessel‑tracking company &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Kpler&lt;/strong&gt;.” [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NYT&lt;/strong&gt;] Negotiations between the US and Iran are apparently ongoing, but the strait seems to be closed as of this writing. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;BBC&lt;/strong&gt;]
+  &lt;h3 style="margin:24px 0 12px;"&gt;In our in-depth conversation, we discuss:&lt;/h3&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-美国已对&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;霍尔木兹海峡&lt;/strong&gt;（Strait of Hormuz）实施封锁，阻止伊朗船只通行。"周一，美国实施了海上封锁，旨在终结伊朗对该水道的控制，并通过阻断其港口的所有往来船只切断其石油收入……据船舶追踪公司&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Kpler&lt;/strong&gt;称，自美国封锁生效以来，未发现任何与伊朗有关联的船只离开该地区。"[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NYT&lt;/strong&gt;] 美伊谈判显然仍在进行，但截至本文撰写时，该海峡似乎仍处于关闭状态。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;BBC&lt;/strong&gt;]
+  在我们深入的对话中，我们讨论了：
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-The strait’s closure continues to disrupt &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;supply chains&lt;/strong&gt; around the world: Russia has imposed export controls on helium [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Reuters&lt;/strong&gt;], airlines continue to be squeezed by the high cost of jet fuel [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WSJ&lt;/strong&gt;], and a Japanese bathroom manufacturer shut down production due to a lack of glue. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Nikkei Asia&lt;/strong&gt;]
+  &lt;ul style="margin:0;padding-left:20px;"&gt;
+    &lt;li&gt;Why the next two years will be the most chaotic period in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product management&lt;/strong&gt; history&lt;/li&gt;
+    &lt;li&gt;Why half of current &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product managers&lt;/strong&gt; are at risk, and what separates those who’ll do well&lt;/li&gt;
+    &lt;li&gt;Why you need to find your “moments of joy” with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;&lt;/li&gt;
+    &lt;li&gt;The “smiling exhaustion” he’s seeing across the product community&lt;/li&gt;
+    &lt;li&gt;The psychological barriers that prevent people from reinventing themselves&lt;/li&gt;
+    &lt;li&gt;Why your resume’s fancy logos matter less than ever, and what matters now&lt;/li&gt;
+    &lt;li&gt;His prediction that companies will shed 30,000 people and rehire 8,000—all &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI-first&lt;/strong&gt;&lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-海峡的持续关闭正扰乱全球&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;供应链&lt;/strong&gt;（supply chains）：俄罗斯已对氦气实施出口管制[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Reuters&lt;/strong&gt;]，航空公司继续受航空燃油高价挤压[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WSJ&lt;/strong&gt;]，一家日本卫浴制造商则因缺乏胶水而停产。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Nikkei Asia&lt;/strong&gt;]
+  • 为何未来两年将是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product management&lt;/strong&gt;（产品管理）史上最混乱的时期&lt;br&gt;
+  • 为何有一半的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product managers&lt;/strong&gt;（产品经理）正面临风险，以及是什么让那些将表现出色的人脱颖而出&lt;br&gt;
+  • 为何你需要找到与 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;（人工智能）相处的“喜悦时刻”（moments of joy）&lt;br&gt;
+  • 他在整个产品社群中观察到的“微笑式疲惫”（smiling exhaustion）&lt;br&gt;
+  • 阻碍人们重塑自我的心理障碍&lt;br&gt;
+  • 为何你简历上那些光鲜的 logo 标志从未像现在这样不重要，以及现在什么才重要&lt;br&gt;
+  • 他预测企业将裁掉 30,000 人，然后重新招聘 8,000 人——全部以 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI-first&lt;/strong&gt;（AI 优先）为标准
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Thanks to the war, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPS&lt;/strong&gt; signals are being jammed across the region. One consequence? Food delivery drivers are having trouble delivering their orders. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Rest of World&lt;/strong&gt;]
+  Why the next two years will be the most chaotic period in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product management&lt;/strong&gt; history
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-由于战争，该地区的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPS&lt;/strong&gt;（全球定位系统）信号正遭到干扰。后果之一？外卖骑手难以完成订单配送。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Rest of World&lt;/strong&gt;]
+  为何未来两年将是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product management&lt;/strong&gt;（产品管理）史上最混乱的时期
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-The Saudi &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;East-West oil pipeline&lt;/strong&gt; being used to bypass the Strait of Hormuz had been damaged by an Iranian drone attack, but now appears to be back online. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Reuters&lt;/strong&gt;]
+  Why half of current &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product managers&lt;/strong&gt; are at risk, and what separates those who’ll do well
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-沙特用于绕过霍尔木兹海峡的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;东西输油管道&lt;/strong&gt;（East-West oil pipeline）此前在伊朗无人机袭击中受损，但目前已恢复运行。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Reuters&lt;/strong&gt;]
+  为何有一半的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product managers&lt;/strong&gt;（产品经理）正面临风险，以及是什么让那些将表现出色的人脱颖而出
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Homeownership rates&lt;/strong&gt; by state in the US. Some of these figures surprise me: it’s not hard to understand why California and New York might have low homeownership rates due to the high costs of real estate, but Georgia, Texas, and North Dakota being on the low end and West Virginia being on the high end are more surprising to me. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;X&lt;/strong&gt;]
+  Why you need to find your “moments of joy” with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-美国各州的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;住房拥有率&lt;/strong&gt;（Homeownership rates）。其中一些数据令我意外：加州和纽约因房地产价格高昂而拥有率低并不难理解，但佐治亚州、德克萨斯州和北达科他州处于低位，而西弗吉尼亚州处于高位，则更让我感到惊讶。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;X&lt;/strong&gt;]
-&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!8iMT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7bd41b00-743e-478d-b633-2c3ef1473053_2000x2000.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Also on the subject of home ownership, the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;White House&lt;/strong&gt; released a report on “Rebuilding and Protecting the American Dream of Homeownership.” It looks at various causes of high housing prices in the US, and concludes with some recommendations for states and local jurisdictions to reduce housing costs:
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-同样关于住房自有的话题，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;白宫&lt;/strong&gt;（White House）发布了一份题为《重建与保护美国住房自有之梦》（Rebuilding and Protecting the American Dream of Homeownership）的报告。报告审视了美国高房价的各类成因，并向州及地方政府提出了降低住房成本的建议：
+  为何你需要找到与 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;（人工智能）相处的“喜悦时刻”
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul style="margin:0;padding-left:20px;"&gt;
-&lt;li&gt;Unleashing manufacturing innovation: “...align codes with accepted standards for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;modular&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prefabricated&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;panelized&lt;/strong&gt;, and other &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;off-site built housing&lt;/strong&gt;.”&lt;/li&gt;
-&lt;/ul&gt;
+  The “smiling exhaustion” he’s seeing across the product community
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-释放制造业创新："……使建筑规范与&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;模块化&lt;/strong&gt;（modular）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;预制&lt;/strong&gt;（prefabricated）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;面板化&lt;/strong&gt;（panelized）及其他&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;场外建造住房&lt;/strong&gt;（off-site built housing）的公认标准保持一致。"
+  他在整个产品社群中观察到的“微笑式疲惫”
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Unleashing manufacturing innovation: “...align codes with accepted standards for modular, prefabricated, panelized, and other off-site built housing.”
+  The psychological barriers that prevent people from reinventing themselves
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-释放制造业创新："……使建筑规范与模块化（modular）、预制（prefabricated）、面板化（panelized）及其他场外建造住房（off-site built housing）的公认标准保持一致。"
+  阻碍人们重塑自我的心理障碍
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul style="margin:0;padding-left:20px;"&gt;
-&lt;li&gt;Streamlining the stages of homebuilding: “...create a fast-track process for all housing developments that features capped timelines and permit fees, appropriate and justifiable impact fees, third-party inspections, and an expedited appeal process that ensures faster and less arbitrary dispute resolution.”&lt;/li&gt;
-&lt;/ul&gt;
+  Why your resume’s fancy logos matter less than ever, and what matters now
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-简化房屋建设阶段："……为所有住房开发项目建立快速通道程序，包括设定时限和许可费用的上限、合理且可证明合理性的影响费（impact fees）、第三方检查，以及确保更快速且更少随意性的纠纷解决的加速上诉程序。"
+  为何你简历上那些光鲜的 logo 标志从未像现在这样不重要，以及现在什么才重要
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Streamlining the stages of homebuilding: “...create a fast-track process for all housing developments that features capped timelines and permit fees, appropriate and justifiable impact fees, third-party inspections, and an expedited appeal process that ensures faster and less arbitrary dispute resolution.”
+  His prediction that companies will shed 30,000 people and rehire 8,000—all &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI-first&lt;/strong&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-简化房屋建设阶段："……为所有住房开发项目建立快速通道程序，包括设定时限和许可费用的上限、合理且可证明合理性的影响费（impact fees）、第三方检查，以及确保更快速且更少随意性的纠纷解决的加速上诉程序。"
+  他预测企业将裁掉 30,000 人，然后重新招聘 8,000 人——全部以 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI-first&lt;/strong&gt;（AI 优先）为标准
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul style="margin:0;padding-left:20px;"&gt;
-&lt;li&gt;Protecting consumer choice and private property rights:“...curtail gratuitous mandates that restrict housing supply, such as restrictions on the number of units that can be built in any given time period, costly green energy building requirements, and discriminatory labor rules.”&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;h3 style="margin:24px 0 12px;"&gt;Brought to you by:&lt;/h3&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-保护消费者选择与私有财产权："……削减限制住房供应的不必要强制规定，例如限制特定时期内可建造单元数量的规定、昂贵的绿色建筑能源要求，以及歧视性劳工规则。"
+  本期赞助：
+&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!I7vR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94c76004-8df2-4ae7-88ba-1fb5a47f0cd6_3444x285.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+  &lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+    &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;—Modern identity platform for B2B SaaS, free up to 1 million MAUs&lt;br&gt;
+    &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;—Automate compliance, manage risk, and accelerate trust with AI
+  &lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;——面向 B2B SaaS（企业级软件即服务）的现代 identity platform（身份平台），前 100 万 MAUs（月活跃用户）免费；&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;——通过 AI 实现 compliance（合规）自动化、管理风险并 accelerate trust（加速建立信任）
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Protecting consumer choice and private property rights:“...curtail gratuitous mandates that restrict housing supply, such as restrictions on the number of units that can be built in any given time period, costly green energy building requirements, and discriminatory labor rules.”
+  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;—Modern identity platform for B2B SaaS, free up to 1 million MAUs
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-保护消费者选择与私有财产权："……削减限制住房供应的不必要强制规定，例如限制特定时期内可建造单元数量的规定、昂贵的绿色建筑能源要求，以及歧视性劳工规则。"
+  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;——面向 B2B SaaS（企业级软件即服务）的现代 identity platform（身份平台），前 100 万 MAUs（月活跃用户）免费
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Most of these seem like reasonable ideas to me. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;White House&lt;/strong&gt;]
+  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;—Automate compliance, manage risk, and accelerate trust with AI
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-在我看来，这些建议大多都颇为合理。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;White House&lt;/strong&gt;]
+  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;——通过 AI 实现 compliance（合规）自动化、管理风险并 accelerate trust（加速建立信任）
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-The &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Pentagon&lt;/strong&gt; wants to get US auto manufacturers involved in weapons production, as the wars in Ukraine and Iran run down &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ordnance stockpiles&lt;/strong&gt;. This was widely done during WWII, but it’s not obvious how easily today’s car manufacturers could pivot. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WSJ&lt;/strong&gt;]
+  &lt;h3 style="margin:24px 0 12px;"&gt;Where to find Nikhyl Singhal:&lt;/h3&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-随着乌克兰和伊朗战事消耗&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;弹药库存&lt;/strong&gt;（ordnance stockpiles），&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;五角大楼&lt;/strong&gt;（The Pentagon）希望让美国汽车制造商参与武器生产。二战期间这种做法十分普遍，但如今汽车制造商能否轻易转型尚不明确。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WSJ&lt;/strong&gt;]
+  在哪里找到 Nikhyl Singhal：
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Also on the subject of weapons manufacturing, Detroit is angling to be the epicenter of a new US drone manufacturing industry. “Thanks to ramped-up military spending on drones and their proliferation in civilian uses, the market for American-made &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;unmanned aerial systems&lt;/strong&gt; is expected to grow to more than $50 billion by 2030, from $5 billion this year…Companies are scrambling to build a supply chain from scratch, and states are vying to be at the center of it. In July, Gov. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Gretchen Whitmer&lt;/strong&gt; of Michigan, a Democrat, issued an executive directive calling for a statewide effort to scale up “advanced air mobility” manufacturing, which includes drones and electric planes.” [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NYT&lt;/strong&gt;]
+  &lt;ul style="margin:0;padding-left:20px;"&gt;
+    &lt;li&gt;LinkedIn: https://www.linkedin.com/in/nikhyl&lt;/li&gt;
+    &lt;li&gt;X: https://x.com/nikhyl&lt;/li&gt;
+    &lt;li&gt;Podcast &amp; Newsletter: https://skip.show&lt;/li&gt;
+    &lt;li&gt;Skip Community: https://skip.community&lt;/li&gt;
+    &lt;li&gt;Skip Coach: https://skip.coach&lt;/li&gt;
+    &lt;li&gt;Skip.help: https://skip.help&lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-同样关于武器制造的话题，底特律正力争成为美国新兴无人机制造业的中心。"得益于无人机军事开支的增加及其在民用领域的普及，美国制造的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;无人驾驶航空系统&lt;/strong&gt;（unmanned aerial systems）市场预计将从今年的50亿美元增长到2030年的500亿美元以上……各企业正争相从零开始构建供应链，各州也在角逐成为产业中心。今年7月，密歇根州民主党州长&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;格雷琴·惠特默&lt;/strong&gt;（Gretchen Whitmer）发布行政指令，呼吁在全州范围内大力发展包括无人机和电动飞机在内的'先进空中交通'（advanced air mobility）制造业。"[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NYT&lt;/strong&gt;]
+  • LinkedIn：https://www.linkedin.com/in/nikhyl&lt;br&gt;
+  • X：https://x.com/nikhyl&lt;br&gt;
+  • 播客与通讯：https://skip.show&lt;br&gt;
+  • Skip 社群：https://skip.community&lt;br&gt;
+  • Skip 教练：https://skip.coach&lt;br&gt;
+  • Skip.help：https://skip.help
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Tulsa, Oklahoma is building the first &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;aluminum smelter&lt;/strong&gt; built in the US in 50 years, which would double(!) US smelting capacity. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WSJ&lt;/strong&gt;] Related, this &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Breakthrough Institute&lt;/strong&gt; Piece on aluminum and China’s manufacturing prowess has an interesting graphic showing which materials require the most electricity to produce. &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Titanium&lt;/strong&gt; requires way more electricity, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;electric arc steel&lt;/strong&gt; requires way less electricity, than I realized. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Breakthrough&lt;/strong&gt;]
+  &lt;h3 style="margin:24px 0 12px;"&gt;Referenced:&lt;/h3&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-俄克拉荷马州塔尔萨（Tulsa, Oklahoma）正在建设美国50年来首座&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;铝冶炼厂&lt;/strong&gt;（aluminum smelter），这将使美国的冶炼产能翻倍（！）。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WSJ&lt;/strong&gt;] 与此相关，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;突破研究所&lt;/strong&gt;（Breakthrough Institute）一篇关于铝与中国制造业实力的文章配有一张有趣的图表，展示了生产哪些材料需要消耗最多的电力。我这才意识到，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;钛&lt;/strong&gt;（Titanium）所需的电力远超我想象，而&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;电弧钢&lt;/strong&gt;（electric arc steel）所需的电力则远低于我想象。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Breakthrough&lt;/strong&gt;]
-&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!ftr8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F128a5bc9-29be-4758-8f76-0c782d99ed3f_724x485.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-When I looked at &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;welding automation&lt;/strong&gt; a few years ago, one of the startups I highlighted trying to push automated welding forward was &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Path Robotics&lt;/strong&gt;, which at the time was developing a system that could automatically plan out a welding path based on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;computer vision&lt;/strong&gt; and a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CAD model&lt;/strong&gt; it had been provided. Now the company just introduced an automated welding system mounted to a robot dog. The utility of this isn’t amazingly obvious to me — I think most welding is probably done in repeatable locations where the dog is unnecessary, in locations that would be tricky for a dog to access, or require some kind of workholding that this doesn’t seem equipped with — but it’s cool nonetheless. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;X&lt;/strong&gt;]
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-几年前我关注&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;焊接自动化&lt;/strong&gt;（welding automation）时，曾重点介绍过一家推动自动焊接发展的初创企业&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Path Robotics&lt;/strong&gt;。当时该公司正在开发一套能基于&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;计算机视觉&lt;/strong&gt;（computer vision）和提供的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CAD模型&lt;/strong&gt;（CAD model）自动规划焊接路径的系统。如今，该公司刚推出了一款安装在机器狗上的自动焊接系统。在我看来，其实用性未必那么显而易见——我认为大多数焊接作业要么在可重复的位置进行，无需机器狗；要么在机器狗难以到达的地方；要么需要某种工装夹具，而这套系统似乎并未配备——但不管怎样，它还是很酷的。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;X&lt;/strong&gt;]
+  参考内容：
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-A cool short video clip showing manufacturing of wooden propellers using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Blanchard-style pattern-tracing lathes&lt;/strong&gt;. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;X&lt;/strong&gt;]
+  &lt;ul style="margin:0;padding-left:20px;"&gt;
+    &lt;li&gt;Building a long and meaningful career | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Nikhyl Singhal&lt;/strong&gt; (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt;): https://www.lennysnewsletter.com/p/building-a-long-and-meaningful-career&lt;/li&gt;
+    &lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;COBOL&lt;/strong&gt;: https://en.wikipedia.org/wiki/COBOL&lt;/li&gt;
+    &lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;United Airlines&lt;/strong&gt;: https://www.united.com&lt;/li&gt;
+    &lt;li&gt;State of the product job market in early 2026: https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9&lt;/li&gt;
+    &lt;li&gt;Head of Growth (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;): “Claude is growing itself at this point” | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Amol Avasare&lt;/strong&gt;: https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run&lt;/li&gt;
+    &lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Demis Hassabis&lt;/strong&gt; on X: https://x.com/demishassabis&lt;/li&gt;
+    &lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sam Altman&lt;/strong&gt; on X: https://x.com/sama&lt;/li&gt;
+    &lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Dario Amodei&lt;/strong&gt; on X: https://x.com/DarioAmodei&lt;/li&gt;
+    &lt;li&gt;Cross on Prime Video: https://www.amazon.com/Cross-Season-1/dp/B0D6X7ZZHC&lt;/li&gt;
+    &lt;li&gt;Jack Ryan on Prime Video: https://www.amazon.com/Tom-Clancys-Jack-Ryan/dp/B0CNDCMN8R&lt;/li&gt;
+    &lt;li&gt;24 on Prime Video: https://www.amazon.com/24-Season-1/dp/B000HPF85A&lt;/li&gt;
+    &lt;li&gt;Claude Code: https://code.claude.com&lt;/li&gt;
+    &lt;li&gt;Codex: https://chatgpt.com/codex&lt;/li&gt;
+    &lt;li&gt;Lovable: https://lovable.dev&lt;/li&gt;
+    &lt;li&gt;Sonos: https://www.sonos.com&lt;/li&gt;
+    &lt;li&gt;“There are only four jobs” on X: https://x.com/yrechtman/status/2039012253341495462&lt;/li&gt;
+    &lt;li&gt;Paradise on Hulu: https://www.hulu.com/series/paradise-2b4b8988-50c9-4097-bf93-bc34a99a5b4f&lt;/li&gt;
+    &lt;li&gt;Lioness on Paramount+: https://www.paramountplus.com/shows/lioness&lt;/li&gt;
+    &lt;li&gt;Tesla: https://www.tesla.com&lt;/li&gt;
+    &lt;li&gt;Albert Einstein’s quote: https://www.goodreads.com/quotes/115696-genius-is-1-talent-and-99-percent-hard-work&lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-一段很酷的短视频，展示了使用&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;布兰查德式仿形车床&lt;/strong&gt;（Blanchard-style pattern-tracing lathes）制造木制螺旋桨的过程。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;X&lt;/strong&gt;]
+  • 《打造长期而有意义的职业生涯》| &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Nikhyl Singhal&lt;/strong&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt;）：https://www.lennysnewsletter.com/p/building-a-long-and-meaningful-career&lt;br&gt;
+  • &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;COBOL&lt;/strong&gt;（一种编程语言）：https://en.wikipedia.org/wiki/COBOL&lt;br&gt;
+  • &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;United Airlines&lt;/strong&gt;（美联航）：https://www.united.com&lt;br&gt;
+  • 2026 年初产品岗位市场现状：https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9&lt;br&gt;
+  • 增长负责人（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;）：“Claude 此刻正在自我增长” | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Amol Avasare&lt;/strong&gt;：https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run&lt;br&gt;
+  • &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Demis Hassabis&lt;/strong&gt; 的 X：https://x.com/demishassabis&lt;br&gt;
+  • &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sam Altman&lt;/strong&gt; 的 X：https://x.com/sama&lt;br&gt;
+  • &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Dario Amodei&lt;/strong&gt; 的 X：https://x.com/DarioAmodei&lt;br&gt;
+  • 《Cross》在 Prime Video：https://www.amazon.com/Cross-Season-1/dp/B0D6X7ZZHC&lt;br&gt;
+  • 《Jack Ryan》在 Prime Video：https://www.amazon.com/Tom-Clancys-Jack-Ryan/dp/B0CNDCMN8R&lt;br&gt;
+  • 《24》在 Prime Video：https://www.amazon.com/24-Season-1/dp/B000HPF85A&lt;br&gt;
+  • &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt;：https://code.claude.com&lt;br&gt;
+  • &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt;：https://chatgpt.com/codex&lt;br&gt;
+  • &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Lovable&lt;/strong&gt;：https://lovable.dev&lt;br&gt;
+  • &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sonos&lt;/strong&gt;：https://www.sonos.com&lt;br&gt;
+  • X 上的“世界上只有四种工作”：https://x.com/yrechtman/status/2039012253341495462&lt;br&gt;
+  • 《Paradise》在 Hulu：https://www.hulu.com/series/paradise-2b4b8988-50c9-4097-bf93-bc34a99a5b4f&lt;br&gt;
+  • 《Lioness》在 Paramount+：https://www.paramountplus.com/shows/lioness&lt;br&gt;
+  • &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Tesla&lt;/strong&gt;（特斯拉）：https://www.tesla.com&lt;br&gt;
+  • &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Albert Einstein&lt;/strong&gt;（阿尔伯特·爱因斯坦）的名言：https://www.goodreads.com/quotes/115696-genius-is-1-talent-and-99-percent-hard-work
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Slate Auto&lt;/strong&gt;, the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jeff Bezos&lt;/strong&gt;-backed startup that wants to build a no-frills &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;EV truck&lt;/strong&gt;, raised another $650 million, bringing its total funding to $1.4 billion. [&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;TechCrunch&lt;/strong&gt;]
+  &lt;h3 style="margin:24px 0 12px;"&gt;Recommended books:&lt;/h3&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-由&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;杰夫·贝索斯&lt;/strong&gt;（Jeff Bezos）支持的初创企业&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Slate Auto&lt;/strong&gt;计划打造一款简约配置的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;电动皮卡&lt;/strong&gt;（EV truck），该公司又融资6.5亿美元，使其融资总额达到14亿美元。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;TechCrunch&lt;/strong&gt;]
+  推荐书籍：
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Read more
+  &lt;ul style="margin:0;padding-left:20px;"&gt;
+    &lt;li&gt;James: https://www.amazon.com/James-Novel-Percival-Everett/dp/0385550367&lt;/li&gt;
+    &lt;li&gt;The Adventures of Huckleberry Finn: https://www.amazon.com/Adventures-Huckleberry-Finn-Unabridged-Uncensored/dp/195483943X&lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-阅读更多
+  • 《James》：https://www.amazon.com/James-Novel-Percival-Everett/dp/0385550367&lt;br&gt;
+  • 《The Adventures of Huckleberry Finn》（哈克贝利·费恩历险记）：https://www.amazon.com/Adventures-Huckleberry-Finn-Unabridged-Uncensored/dp/195483943X
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+  Production and marketing by &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;https://penname.co/&lt;/strong&gt;. For inquiries about sponsoring the podcast, email &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;podcast@lennyrachitsky.com&lt;/strong&gt;.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+  制作与推广由 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;https://penname.co/&lt;/strong&gt; 负责。如有关于赞助播客的咨询，请发送邮件至 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;podcast@lennyrachitsky.com&lt;/strong&gt;。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+  Lenny may be an investor in the companies discussed.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+  Lenny 可能是文中讨论公司的投资人。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+  &lt;h3 style="margin:24px 0 12px;"&gt;My biggest takeaways from this conversation:&lt;/h3&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+  本次对话中我的最大收获：
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+  Read more
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+  阅读更多
 &lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.construction-physics.com/p/reading-list-04182026"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.construction-physics.com/p/reading-list-04182026</guid>
-      <pubDate>Sat, 18 Apr 2026 12:00:53 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble</guid>
+      <pubDate>Sun, 19 Apr 2026 12:31:44 +0000</pubDate>
     </item>
     <item>
-      <title>[翻译] Lenny's Newsletter: 社区智慧：跨团队Claude Code技巧分享、lennysjobs.com关停原因、副业开设LLC、AI赋能中小企业销售等</title>
-      <link>https://www.lennysnewsletter.com/p/community-wisdom-sharing-claude-code</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #社区精选 #AI工具 #创业 #销售&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本周六发送的&amp;quot;Community Wisdom&amp;quot;会员通讯精选了其Slack社区中最有价值的讨论，涵盖组织内Claude Code技能分享、lennysjobs.com关停原因、副业LLC开设以及AI助力中小企业销售等话题。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: 🧠 Community Wisdom: Sharing Claude Code skills across the org, Why did lennysjobs.com shut down, opening an LLC for side work, AI for SMB sales, and more&lt;/p&gt;
+      <title>[翻译] Simon Willison: 个人AI时代的全面无头化</title>
+      <link>https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #无头服务 #个人AI #API优先&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 文章指出，无头化服务通过API为个人AI提供了比图形界面更高效、可靠的交互方式；随着Salesforce等企业推动“API即UI”战略，API正成为产品的核心竞争优势，并可能颠覆传统SaaS按人头计费的商业模式。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Headless everything for personal AI&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;🧠 Community Wisdom: Sharing Claude Code skills across the org, Why did lennysjobs.com shut down, opening an LLC for side work, AI for SMB sales, and more&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;🧠 社区智慧：在组织内分享 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt;（AI 编程助手）技巧、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;lennysjobs.com&lt;/strong&gt; 为何关闭、为副业成立 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLC&lt;/strong&gt;（有限责任公司）、面向 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SMB&lt;/strong&gt;（中小企业）销售的 AI 应用，以及更多内容&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Headless everything for personal AI&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;个人 AI 的全面&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;无头化&lt;/strong&gt;（Headless）&lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-👋 Hello and welcome to this week’s edition of ✨&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Community Wisdom&lt;/strong&gt;✨ a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;subscriber-only&lt;/strong&gt; email, delivered every Saturday, highlighting the most helpful conversations inour &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt; community.
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+Why? Because using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;personal AIs&lt;/strong&gt; is a better experience for users than using services directly (honestly); and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;headless services&lt;/strong&gt; are quicker and more dependable for the personal AIs than having them click round a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GUI&lt;/strong&gt; with a bot-controlled mouse.
+&lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-👋 你好，欢迎阅读本周的✨&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Community Wisdom&lt;/strong&gt;（社区智慧）✨。这是一封&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;仅向订阅者发送&lt;/strong&gt;的邮件，每周六送达，精选我们仅限会员的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt;（即时通讯与协作平台）社区中最有价值的对话。
+为什么？因为对用户而言，使用&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;个人 AI&lt;/strong&gt;（personal AI）比直接使用服务体验更好（说实话）；而且&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;无头服务&lt;/strong&gt;（headless services）对个人 AI 来说更快、更可靠，远胜于让它们操控机器人鼠标在&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;图形用户界面&lt;/strong&gt;（GUI）上点按。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Why? Because using personal AIs is a better experience for users than using services directly (honestly); and headless services are quicker and more dependable for the personal AIs than having them click round a GUI with a bot-controlled mouse.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+为什么？因为对用户而言，使用个人 AI（personal AI）比直接使用服务体验更好（说实话）；而且无头服务（headless services）对个人 AI 来说更快、更可靠，远胜于让它们操控机器人鼠标在图形用户界面（GUI）上点按。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Evidently&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marc Benioff&lt;/strong&gt; thinks so too:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+显然，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marc Benioff&lt;/strong&gt; 也这么认为：
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+Welcome &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Salesforce Headless 360&lt;/strong&gt;: No Browser Required! Our &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API&lt;/strong&gt; is the UI. Entire Salesforce &amp; Agentforce &amp; Slack platforms are now exposed as APIs, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MCP&lt;/strong&gt;, &amp; CLI. All &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI agents&lt;/strong&gt; can access data, workflows, and tasks directly in Slack, Voice, or anywhere else with Salesforce Headless.
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+欢迎 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Salesforce Headless 360&lt;/strong&gt;：无需浏览器！我们的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API&lt;/strong&gt; 就是 UI。整个 Salesforce、Agentforce 和 Slack 平台现在均以 API、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MCP&lt;/strong&gt; 和 CLI 的形式对外暴露。所有 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 智能体&lt;/strong&gt;（AI agents）均可通过 Salesforce Headless 直接在 Slack、Voice 或任何其他地方访问数据、工作流和任务。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Welcome Salesforce Headless 360: No Browser Required! Our API is the UI. Entire Salesforce &amp; Agentforce &amp; Slack platforms are now exposed as APIs, MCP, &amp; CLI. All AI agents can access data, workflows, and tasks directly in Slack, Voice, or anywhere else with Salesforce Headless.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+欢迎 Salesforce Headless 360：无需浏览器！我们的 API 就是 UI。整个 Salesforce、Agentforce 和 Slack 平台现在均以 API、MCP 和 CLI 的形式对外暴露。所有 AI 智能体（AI agents）均可通过 Salesforce Headless 直接在 Slack、Voice 或任何其他地方访问数据、工作流和任务。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+If this &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;feed&lt;/strong&gt; does take off it's going to play havoc with existing per-head &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SaaS&lt;/strong&gt; pricing schemes.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+如果这一&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;趋势&lt;/strong&gt;（feed）真的起飞，现有的按人头（per-head）&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SaaS&lt;/strong&gt; 定价模式将遭受严重冲击。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+I'm reminded of the early 2010s era when every online service was launching &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;APIs&lt;/strong&gt;. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Brandur Leach&lt;/strong&gt; reminisces about that time in The Second Wave of the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API-first Economy&lt;/strong&gt;, and predicts that APIs are ready to make a comeback:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+这让我想起了 2010 年代初，当时每个在线服务都在推出 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API&lt;/strong&gt;。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Brandur Leach&lt;/strong&gt; 在《&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API-first Economy&lt;/strong&gt; 的第二波浪潮》（&lt;em&gt;The Second Wave of the API-first Economy&lt;/em&gt;）中回忆了那个时代，并预测 API 即将卷土重来：
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+Suddenly, an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API&lt;/strong&gt; is no longer liability, but a major &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;saleable vector&lt;/strong&gt; to give users what they want: a way into the services they use and pay for so that an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agent&lt;/strong&gt; can carry out work on their behalf. Especially given a field of relatively undifferentiated products, in the near future the availability of an API might just be the crucial deciding factor that leads to one choice winning the field.
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+突然间，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API&lt;/strong&gt; 不再是一种负担（liability），而是一个重要的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;可销售向量&lt;/strong&gt;（saleable vector），旨在为用户提供他们想要的东西：一条通往他们使用和付费的服务的通道，以便让&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;智能体&lt;/strong&gt;（agent）代表他们完成工作。尤其是在产品同质化较为严重的领域，在不久的将来，API 的可用性很可能成为决定某一选择胜出的关键因素。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Suddenly, an API is no longer liability, but a major saleable vector to give users what they want: a way into the services they use and pay for so that an agent can carry out work on their behalf. Especially given a field of relatively undifferentiated products, in the near future the availability of an API might just be the crucial deciding factor that leads to one choice winning the field.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+突然间，API 不再是一种负担（liability），而是一个重要的可销售向量（saleable vector），旨在为用户提供他们想要的东西：一条通往他们使用和付费的服务的通道，以便让智能体（agent）代表他们完成工作。尤其是在产品同质化较为严重的领域，在不久的将来，API 的可用性很可能成为某一选择胜出的关键因素。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Tags: apis, matt-webb, salesforce, saas, ai, brandur-leach
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+标签：apis、matt-webb、salesforce、saas、ai、brandur-leach
 &lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/community-wisdom-sharing-claude-code"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/community-wisdom-sharing-claude-code</guid>
-      <pubDate>Sat, 18 Apr 2026 18:38:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: PyCon US 2026 长滩见：本届新增 AI 与安全专题轨道</title>
-      <link>https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #PyCon #人工智能 #安全&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; PyCon US 将于5月13日至19日在加州长滩举行，今年首次开设AI与安全专题 track。作者凭借二十余年的参会经历，推荐开发者参与这场以社区为核心、兼具技术演讲与开放协作的Python盛会。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;诚邀您参加 2026 年在长滩举办的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PyCon US&lt;/strong&gt;——今年我们新增了 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI（人工智能）&lt;/strong&gt;和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;security（安全）&lt;/strong&gt;专题轨道。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;This year's &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PyCon US&lt;/strong&gt; is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;tutorial&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;sprint&lt;/strong&gt; days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017 and the first time in California since Santa Clara in 2013.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;今年的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PyCon US&lt;/strong&gt; 将于下月 5 月 13 日至 19 日举行，其中核心会议演讲安排在 15 日（周五）至 17 日（周日），前后则分别为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;tutorial（教程）&lt;/strong&gt;和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;sprint（冲刺）&lt;/strong&gt;日。今年的举办地是加利福尼亚州长滩，这是自 2017 年俄勒冈州波特兰以来 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PyCon US&lt;/strong&gt; 首次来到美国西海岸，也是自 2013 年圣克拉拉以来首次在加州举办。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;If you're based in California this is a great opportunity to catch up with the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Python community&lt;/strong&gt;, meet a whole lot of interesting people and learn a ton of interesting things.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如果你在加州，这将是一个与 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Python community（Python 社区）&lt;/strong&gt;交流、结识众多有趣人士并学到大量有趣知识的绝佳机会。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;In addition to regular PyCon programming we have two new dedicated tracks at the conference this year: an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI track&lt;/strong&gt; on Friday and a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Security track&lt;/strong&gt; on Saturday.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;除了常规的 PyCon 议程外，今年的大会还增设了两个全新的专题轨道：周五的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI track（人工智能专题轨道）&lt;/strong&gt;和周六的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Security track（安全专题轨道）&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The AI program was put together by track chairs &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Silona Bonewald&lt;/strong&gt; (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;CitableAI&lt;/strong&gt;) and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Zac Hatfield-Dodds&lt;/strong&gt; (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;). I'll be an in-the-room chair this year, introducing speakers and helping everything run as smoothly as possible.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;AI 专题议程由专题主席（track chairs）&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Silona Bonewald&lt;/strong&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;CitableAI&lt;/strong&gt;）和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Zac Hatfield-Dodds&lt;/strong&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;）共同策划。我今年的角色是现场主席（in-the-room chair），负责介绍演讲嘉宾并协助各环节顺利进行。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Here's the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI track&lt;/strong&gt; schedule in full:
-&lt;ul style="margin:8px 0;padding-left:20px;"&gt;
-&lt;li&gt;11:00: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI-Assisted Contributions and Maintainer Load&lt;/strong&gt; - Paolo Melchiorre&lt;/li&gt;
-&lt;li&gt;11:45: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI-Powered Python Education : Towards Adaptive and Inclusive Learning&lt;/strong&gt; - Sonny Mupfuni&lt;/li&gt;
-&lt;li&gt;12:30: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Making African Languages Visible: A Python-Based Guide to Low-Resource Language ID&lt;/strong&gt; - Gift Ojeabulu&lt;/li&gt;
-&lt;li&gt;2:00: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Running Large Language Models on Laptops: Practical Quantization Techniques in Python&lt;/strong&gt; - Aayush Kumar JVS&lt;/li&gt;
-&lt;li&gt;2:45: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Distributing AI with Python in the Browser: Edge Inference and Flexibility Without Infrastructure&lt;/strong&gt; - Fabio Pliger&lt;/li&gt;
-&lt;li&gt;3:30: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Don't Block the Loop: Python Async Patterns for AI Agents&lt;/strong&gt; - Aditya Mehra&lt;/li&gt;
-&lt;li&gt;4:30: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;What Python Developers Need to Know About Hardware: A Practical Guide to GPU Memory, Kernel Scheduling, and Execution Models&lt;/strong&gt; - Santosh Appachu Devanira Poovaiah&lt;/li&gt;
-&lt;li&gt;5:15: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;How to Build Your First Real-Time Voice Agent in Python (Without Losing Your Mind)&lt;/strong&gt; - Camila Hinojosa Añez, Elizabeth Fuentes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 6px;line-height:1.8;font-size:15px;"&gt;以下是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI track（人工智能专题轨道）&lt;/strong&gt;的完整日程：&lt;/p&gt;
-&lt;ul style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;padding-left:20px;"&gt;
-&lt;li&gt;11:00：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI-Assisted Contributions and Maintainer Load（AI 辅助贡献与维护者负担）&lt;/strong&gt;——Paolo Melchiorre&lt;/li&gt;
-&lt;li&gt;11:45：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI-Powered Python Education: Towards Adaptive and Inclusive Learning（AI 驱动的 Python 教育：迈向自适应与包容式学习）&lt;/strong&gt;——Sonny Mupfuni&lt;/li&gt;
-&lt;li&gt;12:30：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Making African Languages Visible: A Python-Based Guide to Low-Resource Language ID（让非洲语言可见：基于 Python 的低资源语言识别指南）&lt;/strong&gt;——Gift Ojeabulu&lt;/li&gt;
-&lt;li&gt;14:00：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Running Large Language Models on Laptops: Practical Quantization Techniques in Python（在笔记本电脑上运行大语言模型：Python 中的实用量化技术）&lt;/strong&gt;——Aayush Kumar JVS&lt;/li&gt;
-&lt;li&gt;14:45：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Distributing AI with Python in the Browser: Edge Inference and Flexibility Without Infrastructure（在浏览器中用 Python 分发 AI：无需基础设施的边缘推理与灵活性）&lt;/strong&gt;——Fabio Pliger&lt;/li&gt;
-&lt;li&gt;15:30：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Don't Block the Loop: Python Async Patterns for AI Agents（不要阻塞事件循环：面向 AI 智能体的 Python 异步模式）&lt;/strong&gt;——Aditya Mehra&lt;/li&gt;
-&lt;li&gt;16:30：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;What Python Developers Need to Know About Hardware: A Practical Guide to GPU Memory, Kernel Scheduling, and Execution Models（Python 开发者需要了解的硬件知识：GPU 内存、内核调度与执行模型实用指南）&lt;/strong&gt;——Santosh Appachu Devanira Poovaiah&lt;/li&gt;
-&lt;li&gt;17:15：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;How to Build Your First Real-Time Voice Agent in Python (Without Losing Your Mind)（如何用 Python 构建你的第一个实时语音智能体（且不发疯））&lt;/strong&gt;——Camila Hinojosa Añez, Elizabeth Fuentes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;(And here's how I scraped that as a Markdown list from the schedule page using &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Rodney&lt;/strong&gt;.)&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;（此外，这里介绍了我如何使用 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Rodney&lt;/strong&gt; 从日程页面抓取并生成这份 Markdown 列表。）&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;You should come to PyCon US!&lt;/h4&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;你应该来参加 PyCon US！&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I've been going to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PyCon&lt;/strong&gt; for over twenty years now - I first went back in 2005. It's one of my all-time favourite conference series. Even as it's grown to more than 2,000 attendees &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PyCon US&lt;/strong&gt; has remained a heavily &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;community-focused&lt;/strong&gt; conference - it's the least corporate feeling large event I've ever attended.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我参加 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PyCon&lt;/strong&gt; 已有二十多年——最早要追溯到 2005 年。它是我一直以来最喜欢的会议系列之一。尽管 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PyCon US&lt;/strong&gt; 已发展到超过 2,000 名与会者，但它始终是一个高度 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;community-focused（以社区为中心的）&lt;/strong&gt;会议——也是我参加过的最具非商业化氛围的大型活动。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The talks are always great, but it's the add-ons around the talks that really make it work for me. The &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;lightning talks&lt;/strong&gt; slots are some of the most heavily attended sessions. The &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;PyLadies&lt;/strong&gt; auction is always deeply entertaining. The &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;sprints&lt;/strong&gt; are an incredible opportunity to contribute directly to projects that you use, coached by their maintainers.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;演讲总是很精彩，但真正让我受益匪浅的是演讲之外的附加环节。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;lightning talks（闪电演讲）&lt;/strong&gt;时段是出席率最高的环节之一。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;PyLadies&lt;/strong&gt; 拍卖会总是妙趣横生。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;sprints（冲刺）&lt;/strong&gt;则是一个绝佳的机会，让你能在项目维护者的指导下直接为自己使用的项目做出贡献。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;In addition to scheduled talks, the event has &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open spaces&lt;/strong&gt;, where anyone can reserve space for a conversation about a topic - effectively PyCon's version of an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;unconference&lt;/strong&gt;. I plan to spend a lot of my time in the open spaces this year - I'm hoping to join or instigate sessions about both &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Datasette&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic engineering&lt;/strong&gt;.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;除了既定演讲外，大会还设有 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open spaces（开放空间/自由讨论区）&lt;/strong&gt;，任何人都可以预留场地，就某一话题展开讨论——这实际上是 PyCon 版的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;unconference（非正式会议）&lt;/strong&gt;。我今年计划在 open spaces 里度过大量时间——希望能参与或发起关于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Datasette&lt;/strong&gt; 和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic engineering（智能体工程）&lt;/strong&gt;的讨论。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I'm on the board of the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Python Software Foundation&lt;/strong&gt;, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PyCon US&lt;/strong&gt; remains one of our most important responsibilities - in the past it's been a key source of funding for the organization, but it's also core to our mission to "promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers".&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我是 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Python Software Foundation（Python 软件基金会，PSF）&lt;/strong&gt;的董事会成员，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PyCon US&lt;/strong&gt; 仍然是我们最重要的职责之一——过去它一直是该组织的主要资金来源，但更重要的是，它与我们"促进、保护并推进 Python 编程语言，支持和推动 Python 程序员多元化、国际化社区的成长"这一核心使命息息相关。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;If you do come to Long Beach, we'd really appreciate it if you could book accommodation in the official hotel block, for reasons outlined in this post on the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;PSF&lt;/strong&gt; blog.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如果你确实要前往长滩，我们非常感谢你能预订官方酒店客房，具体原因请参阅 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;PSF&lt;/strong&gt; 博客上的这篇文章。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;conferences&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open-source&lt;/strong&gt;, pycon, python, ai, psf&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;conferences（会议）&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open-source（开源）&lt;/strong&gt;、pycon、python、ai、psf&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything</guid>
-      <pubDate>Fri, 17 Apr 2026 23:59:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: 给博客Newsletter工具新增一种内容类型</title>
-      <link>https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #智能体 #提示工程 #博客工具&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本文通过一个极简提示词的实例，展示了如何驱动 Claude Code 为博客转新闻稿工具添加新的 &amp;quot;beats&amp;quot; 内容类型；同时强调了为 AI 编码代理提供参考代码库与验证机制，是实现高效代理工程的关键模式。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Adding a new content type to my blog-to-newsletter tool&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Adding a new content type to my blog-to-newsletter tool&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为我的博客转 Newsletter 工具添加一种新的内容类型&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Agentic Engineering Patterns&lt;/strong&gt;&amp;gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;智能体工程模式（Agentic Engineering Patterns）&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Here's an example of a deceptively short &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt&lt;/strong&gt; that got a quite a lot of work done in a single shot.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;下面这个示例展示了一个看似简短、却能一次性完成大量工作的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt（提示词）&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;First, some background. I send out a free &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Substack&lt;/strong&gt; newsletter around once a week containing content copied-and-pasted from my blog. I'm effectively using Substack as a lightweight way to allow people to subscribe to my blog via email.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;首先，提供一些背景信息。我每周大约会向 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Substack&lt;/strong&gt; 发送一封免费 newsletter，内容是从我的博客上复制粘贴过来的。实际上，我是把 Substack 当作一种轻量级工具，让人们可以通过邮件订阅我的博客。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I generate the newsletter with my &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;blog-to-newsletter&lt;/strong&gt; tool — an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;HTML&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;JavaScript&lt;/strong&gt; app that fetches my latest content from this &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Datasette&lt;/strong&gt; instance and formats it as rich text HTML, which I can then copy to my clipboard and paste into the Substack editor. Here's a detailed explanation of how that works.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我使用自己的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;blog-to-newsletter（博客转 Newsletter）&lt;/strong&gt; 工具来生成 newsletter —— 这是一个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;HTML&lt;/strong&gt; 和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;JavaScript&lt;/strong&gt; 应用，它从这个 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Datasette&lt;/strong&gt; 实例获取我的最新内容，并将其格式化为富文本 HTML，然后我就可以把它复制到剪贴板，再粘贴进 Substack 编辑器。这里有关于其工作原理的详细说明。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I recently added a new type of content to my blog to capture content that I post elsewhere, which I called "beats". These include things like releases of my open source projects, new tools that I've built, museums that I've visited (from niche-museums.com) and other external content.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我最近为博客添加了一种新的内容类型，用来汇总发布在其他地方的内容，我把它叫做 "beats（动态）"。这些内容包括我的开源项目发布、我构建的新工具、我参观过的博物馆（来自 niche-museums.com）以及其他外部内容。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I wanted to include these in the generated newsletter. Here's the prompt I ran against the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;simonw/tools&lt;/strong&gt; repository that hosts my blog-to-newsletter tool, using &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; on the web.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我想把这些内容也包含到自动生成的 newsletter 中。下面是我针对托管 blog-to-newsletter 工具的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;simonw/tools&lt;/strong&gt; 仓库所运行的提示词，使用的是网页版的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;Clone simonw/simonwillisonblog from github to /tmp for reference
-
-Update blog-to-newsletter.html to include beats that have descriptions - similar to how the Atom everything feed on the blog works
-
-Run it with python -m http.server and use `uvx rodney --help` to test it - compare what shows up in the newsletter with what's on the homepage of https://simonwillison.net&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;Clone simonw/simonwillisonblog from github to /tmp for reference&lt;/blockquote&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;从 GitHub 克隆 simonw/simonwillisonblog 到 /tmp 以供参考&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Clone simonw/simonwillisonblog from github to /tmp for reference&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;从 GitHub 克隆 simonw/simonwillisonblog 到 /tmp 以供参考&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I use this pattern a lot. &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Coding agents&lt;/strong&gt; can clone code from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GitHub&lt;/strong&gt;, and the best way to explain a problem is often to have them look at relevant code. By telling them to clone to &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;/tmp&lt;/code&gt; I ensure they don't accidentally end up including that reference code in their own commit later on.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我经常使用这种模式。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Coding agents（编程智能体）&lt;/strong&gt; 可以从 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GitHub&lt;/strong&gt; 克隆代码，而解释问题的最佳方式往往是让它们查看相关代码。通过让它们克隆到 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;/tmp&lt;/code&gt;，我可以确保它们不会不小心在后续提交中把这份参考代码包含进去。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;simonw/simonwillisonblog&lt;/strong&gt; repository contains the source code for my &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Django&lt;/strong&gt;-powered &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;simonwillison.net&lt;/strong&gt; blog. This includes the logic and database schema for my new "beats" feature.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;simonw/simonwillisonblog&lt;/strong&gt; 仓库包含了我基于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Django&lt;/strong&gt; 构建的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;simonwillison.net&lt;/strong&gt; 博客的源代码，其中包括我新开发的 "beats" 功能的逻辑和数据库模式（schema）。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;Update blog-to-newsletter.html to include beats that have descriptions - similar to how the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Atom&lt;/strong&gt; everything feed on the blog works&lt;/blockquote&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;更新 blog-to-newsletter.html，使其包含有描述的 beats —— 类似于博客上 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Atom&lt;/strong&gt; 综合订阅源（everything feed）的工作方式&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Update blog-to-newsletter.html to include beats that have descriptions - similar to how the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Atom&lt;/strong&gt; everything feed on the blog works&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;更新 blog-to-newsletter.html，使其包含有描述的 beats —— 类似于博客上 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Atom&lt;/strong&gt; 综合订阅源的工作方式&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Referencing &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;blog-to-newsletter.html&lt;/code&gt; is all I need here to tell &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; which of the 200+ HTML apps in that simonw/tools repo it should be modifying.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;在这里，我只需要提到 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;blog-to-newsletter.html&lt;/code&gt;，就能告诉 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; 应该修改 simonw/tools 仓库中 200 多个 HTML 应用里的哪一个。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Beats are automatically imported from multiple sources. Often they aren't very interesting — a dot-release bug fix for one of my smaller open source projects, for example.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Beats 会自动从多个来源导入。它们通常不太有趣 —— 例如，我某个小型开源项目的一个补丁版本（dot-release）错误修复。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;My blog includes a way for me to add additional descriptions to any beat, which provides extra commentary but also marks that beat as being more interesting than those that I haven't annotated in some way.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我的博客允许我为任意 beat 添加额外的描述，这既提供了额外的评论，也标志着该 beat 比那些我未曾以某种方式注解的 beat 更有趣。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I already use this as a distinction to decide which beats end up in my site's &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Atom feed&lt;/strong&gt;. Telling Claude to imitate that saves me from having to describe the logic in any extra detail.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我已经利用这一区别来决定哪些 beat 会进入我网站的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Atom feed（Atom 订阅源）&lt;/strong&gt;。告诉 Claude 去模仿这种做法，我就不必再额外详细描述其中的逻辑了。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;Run it with &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;python -m http.server&lt;/code&gt; and use &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;uvx rodney --help&lt;/code&gt; to test it — compare what shows up in the newsletter with what's on the homepage of https://simonwillison.net&lt;/blockquote&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;用 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;python -m http.server&lt;/code&gt; 运行它，并使用 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;uvx rodney --help&lt;/code&gt; 进行测试 —— 对比 newsletter 中显示的内容与 https://simonwillison.net 主页上的内容&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Run it with &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;python -m http.server&lt;/code&gt; and use &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;uvx rodney --help&lt;/code&gt; to test it — compare what shows up in the newsletter with what's on the homepage of https://simonwillison.net&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;用 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;python -m http.server&lt;/code&gt; 运行它，并使用 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;uvx rodney --help&lt;/code&gt; 进行测试 —— 对比 newsletter 中显示的内容与 https://simonwillison.net 主页上的内容&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Coding agents&lt;/strong&gt; always work best if they have some kind of validation mechanism they can use to test their own work.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如果 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;coding agents（编程智能体）&lt;/strong&gt; 拥有某种可用于测试其自身工作的验证机制，它们的工作效果总是最好的。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;In this case I wanted &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; to actively check that the changes it made to my tool would correctly fetch and display the latest data.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;在这种情况下，我希望 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; 主动检查它对我的工具所做的更改能否正确地获取并展示最新数据。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I reminded it to use &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;python -m http.server&lt;/code&gt; as a static server because I've had issues in the past with applications that fetch data and break when served as a file from disk instead of a localhost server. In this particular case that may not have been necessary, but my prompting muscle memory has &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;python -m http.server&lt;/code&gt; baked in at this point!&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我提醒它使用 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;python -m http.server&lt;/code&gt; 作为静态服务器，因为我过去曾遇到过这样的问题：某些应用从磁盘以文件形式打开时会无法正常获取数据而崩溃，而在本地服务器（localhost）上运行则没有问题。在这个特定案例中，这可能并非必需，但我的提示词肌肉记忆（prompting muscle memory）里已经根深蒂固地记住了 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;python -m http.server&lt;/code&gt;！&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I described the &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;uvx rodney --help&lt;/code&gt; trick in the agentic manual testing chapter. &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Rodney&lt;/strong&gt; is browser automation software that can be installed using &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;uvx&lt;/code&gt;, and that has &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;--help&lt;/code&gt; output designed to teach an agent everything it needs to know in order to use the tool.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我在关于智能体手动测试（agentic manual testing）的章节中介绍过 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;uvx rodney --help&lt;/code&gt; 这个技巧。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Rodney&lt;/strong&gt; 是一款浏览器自动化软件，可以使用 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;uvx&lt;/code&gt; 安装，它的 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;--help&lt;/code&gt; 输出经过专门设计，能够教会智能体使用该工具所需的全部知识。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I figured that telling &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; to compare the results in the newsletter to the content of my blog's homepage would be enough for it to confidently verify that the new changes were working correctly, since I had recently posted content that matched the new requirements.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我认为，告诉 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; 将 newsletter 中的结果与博客主页的内容进行对比，就足以让它自信地验证新更改是否正常工作，因为我最近发布的内容正好符合新的需求。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;You can see the full session here, or if that doesn't work I have an alternative transcript showing all of the individual tool calls.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;你可以在这里查看完整的会话记录，如果链接无法打开，我还准备了一份替代性文字记录（alternative transcript），其中展示了所有单独的工具调用。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;resulting PR&lt;/strong&gt; made exactly the right change. It added an additional &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;UNION&lt;/strong&gt; clause to the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SQL&lt;/strong&gt; query that fetched the blog's content, filtering out draft beats and beats that have nothing in their &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;note&lt;/code&gt; column:&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这份 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;resulting PR（生成的拉取请求）&lt;/strong&gt; 做出了完全正确的更改。它在获取博客内容的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SQL&lt;/strong&gt; 查询中添加了一个额外的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;UNION&lt;/strong&gt; 子句，过滤掉了草稿状态的 beats 以及 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;note&lt;/code&gt; 列中没有任何内容的 beats：&lt;/p&gt;
-
-&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;...union all select id, 'beat' as type, title, created, slug, 'No HTML' as html, json_object('created', date(created), 'beat_type', beat_type, 'title', title, 'url', url, 'commentary', commentary, 'note', note) as json, url as external_url from blog_beat where coalesce(note, '') != '' and is_draft = 0 union all ...&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;const beatTypeDisplay = {
-  release: 'Release',
-  til: 'TIL',
-  til_update: 'TIL updated',
-  research: 'Research',
-  tool: 'Tool',
-  museum: 'Museum'
-};&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt-engineering&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;coding-agents&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai-assisted-programming&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic-engineering&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;github&lt;/strong&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms（大语言模型）&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt-engineering（提示词工程）&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;coding-agents（编程智能体）&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai-assisted-programming（AI 辅助编程）&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai（生成式 AI）&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic-engineering（智能体工程）&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;github&lt;/strong&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything</guid>
-      <pubDate>Sat, 18 Apr 2026 03:15:36 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything</guid>
+      <pubDate>Sun, 19 Apr 2026 21:46:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
