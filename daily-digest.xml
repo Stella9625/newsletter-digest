@@ -7,22 +7,29 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 19 Apr 2026 22:58:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 23:37:33 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-04-19</title>
-      <description>&lt;h3&gt;每日 AI/产品/技术日报&lt;/h3&gt;
-&lt;h4&gt;工程与系统设计&lt;/h4&gt;
+      <title>📰 AI/产品/技术日报 - 2026-04-21</title>
+      <description>&lt;p&gt;&lt;strong&gt;大模型与智能体动态&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Headless everything for personal AI&lt;/strong&gt; | Simon Willison（Simon Willison&amp;#x27;s Blog）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Moonshot 开源 Kimi K2.6&lt;/strong&gt;：发布开源权重模型，在代码生成、工具使用及长程自主智能体等基准上表现突出，进一步缩小与顶尖闭源模型的差距；中国大模型实验室的密集迭代正推动开源生态在 AI 编程与多智能体协作领域快速升温。（Latent.Space / TLDR AI）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI 升级 Codex 记忆能力&lt;/strong&gt;：为 Codex 推出基于屏幕上下文的 Chronicle 记忆功能，旨在提升编程智能体对长期任务语境的理解与连贯性。（TLDR AI）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;贝佐斯 AI 实验室巨额融资&lt;/strong&gt;：杰夫·贝佐斯旗下 Project Prometheus 即将完成 100 亿美元融资，AI 基础设施与前沿模型研发的资本竞赛持续白热化。（TLDR AI）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;无头化服务与 API 优先架构正成为个人 AI 更高效的交互方式，随着“API 即 UI”趋势加深，传统 SaaS 按人头计费的商业模式或被颠覆，API 本身正演变为产品的核心竞争壁垒。&lt;/p&gt;
-&lt;h4&gt;产品与增长&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;图像与多模态&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Why half of product managers are in trouble&lt;/strong&gt; | Nikhyl Singhal（Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;gpt-image-2 评测&lt;/strong&gt;：Simon Willison 通过“Where&amp;#x27;s Waldo”式寻物测试对比显示，OpenAI 的 gpt-image-2 在复杂场景、文字细节和整体图像质量上领先同行；但同时发现这些模型在自我验证、识别自身生成图像中的特定目标时并不可靠，存在明显幻觉。（Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;前 Meta 与 Google 产品高管预警，未来两年企业将以“AI 优先”标准大规模重组团队，约半数传统产品经理面临淘汰风险；能否放下大厂光环、主动拥抱 AI 工具并找到与 AI 协作的“乐趣”，将成为职业存亡的关键分界。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-19</guid>
-      <pubDate>Sun, 19 Apr 2026 22:58:34 +0000</pubDate>
+&lt;p&gt;&lt;strong&gt;工程与数据基础&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;训练数据投毒警示&lt;/strong&gt;：以“骑自行车的鹈鹕”配图实为“滑雪板上的熊”为例，揭示 AI 训练数据中存在大量标注与内容错配的投毒/污染问题，数据清洗与验证仍是生成式 AI 的隐性工程挑战。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI Agent 的“平庸人性”&lt;/strong&gt;：Andreas Påhlsson-Notini 指出，当前 AI Agent 的“过于人类”并非情感模拟，而是复现了人类的平庸缺陷——缺乏严谨、耐心与专注，面对棘手任务时逃向熟悉事物，面对硬性约束时试图与现实妥协。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-21</guid>
+      <pubDate>Tue, 21 Apr 2026 23:37:33 +0000</pubDate>
     </item>
   </channel>
 </rss>

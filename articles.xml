@@ -7,361 +7,468 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 19 Apr 2026 22:58:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 23:37:15 +0000</lastBuildDate>
     <item>
-      <title>[翻译] Lenny's Newsletter: 半数产品经理的困境</title>
-      <link>https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #产品经理 #AI变革 #职业转型 #行业趋势&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 前Meta与Google产品高管Nikhyl Singhal预测，未来两年将是产品经理行业最混乱的时期，随着企业以&amp;quot;AI优先&amp;quot;标准大规模重组团队，约半数传统产品经理将面临淘汰风险。他认为，在这场变革中，简历上的大厂光环已不再重要，能否突破心理障碍、主动拥抱AI工具并找到与AI协作的&amp;quot;乐趣&amp;quot;，将决定从业者能否在新时代立足。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)&lt;/p&gt;
+      <title>[翻译] TLDR AI: Kimi K2.6 发布、Codex Chronicle 上线、贝佐斯百亿 AI 融资</title>
+      <link>https://tldr.tech/ai/2026-04-21</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #大模型 #智能体 #融资 #编程&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本期简报聚焦Moonshot AI发布Kimi K2.6系列模型并宣称在编码与智能体基准上超越GPT-5.4等对手，OpenAI为Codex推出基于屏幕上下文的Chronicle记忆功能，以及贝佐斯旗下AI实验室Project Prometheus即将完成100亿美元融资；同时涵盖Meta、Google及微软在训练效率、多代理系统和Copilot计费策略方面的最新行业动向。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Kimi K2.6 🚀, Codex Chronicle 🤖, Bezos’ $10B AI fundraise 💰&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;TLDR AI 2026-04-21&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Kimi K2.6 🚀, Codex Chronicle 🤖, Bezos’ $10B AI fundraise 💰&lt;/h3&gt;
 
-&lt;img src="https://substackcdn.com/image/fetch/$s_!3c5M!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6795e056-3212-4957-9471-926ae59ec8f2_1920x1080.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Chronicle – Codex (6 minute read)&lt;/h4&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Chronicle, available for &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ChatGPT Pro&lt;/strong&gt; users on macOS, augments &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt; by using screen context for memory building, helping Codex understand ongoing work with less context restatement. It stores unencrypted markdown memories on your device and requires macOS Screen Recording and Accessibility permissions. Be aware of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt injection&lt;/strong&gt; risks from screen content, and pause Chronicle during sensitive work to prevent unwanted context capture.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Chronicle 现面向 macOS 上的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ChatGPT Pro&lt;/strong&gt; 用户开放，它通过利用屏幕上下文构建记忆来增强 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt;，帮助 Codex 在无需反复重述上下文的情况下理解正在进行的工作。该功能将未加密的 markdown 记忆存储在本地设备上，并需要 macOS 的屏幕录制和辅助功能权限。需注意屏幕内容带来的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;提示注入（prompt injection）&lt;/strong&gt; 风险，在处理敏感工作时应暂停 Chronicle，以防止捕获不必要的上下文。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Nikhyl Singhal&lt;/strong&gt; is the founder of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;The Skip&lt;/strong&gt;, a community for senior product leaders; a former product exec at &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt;, and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Credit Karma&lt;/strong&gt;; and a many-time founder. He’s also one of the most honest, unfiltered voices on what’s actually happening in product management right now.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Nikhyl Singhal&lt;/strong&gt; 是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;The Skip&lt;/strong&gt; 的创始人——这是一个面向资深产品负责人的社群；他曾在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Credit Karma&lt;/strong&gt; 担任产品高管，并且多次创业。他也是当下对 product management（产品管理）领域真实状况最坦诚、最不加掩饰的发声者之一。
-&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Moonshot AI launches Kimi K2.6 on Kimi Chat and APIs (2 minute read)&lt;/h4&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Moonshot AI&lt;/strong&gt; launches &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Kimi K2.6&lt;/strong&gt;, which features robust capabilities for coding and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic&lt;/strong&gt; tasks across chat and agent modes on kimi.com, with weights on Hugging Face and APIs via platform.moonshot.ai. The lineup includes K2.6 Instant for quick replies, K2.6 Thinking for complex reasoning, K2.6 Agent for document and web tasks, and K2.6 Agent Swarm for large-scale processing. Kimi K2.6 claims top open-source benchmark scores, surpassing competitors like GPT-5.4 and Claude Opus 4.6 in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SWE-bench Multilingual&lt;/strong&gt; and BrowseComp.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Moonshot AI&lt;/strong&gt; 发布 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Kimi K2.6&lt;/strong&gt;，该模型在 kimi.com 的聊天和 Agent 模式下均具备强大的编程和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;智能体（agentic）&lt;/strong&gt; 任务处理能力，模型权重已发布在 Hugging Face，API 可通过 platform.moonshot.ai 调用。该系列包括用于快速回复的 K2.6 Instant、用于复杂推理的 K2.6 Thinking、用于文档和网页任务的 K2.6 Agent，以及用于大规模处理的 K2.6 Agent Swarm。Kimi K2.6 宣称在开源基准测试中取得顶尖成绩，在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SWE-bench Multilingual&lt;/strong&gt; 和 BrowseComp 等测试中超越了 GPT-5.4 和 Claude Opus 4.6 等竞争对手。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  Listen on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt;, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt; 和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt; 上收听
-&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving (2 minute read)&lt;/h4&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Qwen3.6-Max-Preview&lt;/strong&gt; brings stronger world knowledge and instruction following along with significant &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic coding&lt;/strong&gt; improvements across a wide range of benchmarks. The model is still under active development as researchers continue to iterate on it. Users can chat with the model interactively in Qwen Studio or call via API on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Alibaba Cloud&lt;/strong&gt; Model Studio API (coming soon).&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Qwen3.6-Max-Preview&lt;/strong&gt; 在广泛基准测试中展现出更强的世界知识、指令遵循能力以及显著的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;智能体编程（agentic coding）&lt;/strong&gt; 改进。该模型仍在积极开发中，研究人员正在持续迭代。用户可在 Qwen Studio 中与模型交互式对话，或通过 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;阿里云（Alibaba Cloud）&lt;/strong&gt; Model Studio API 调用（即将推出）。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;h3 style="margin:24px 0 12px;"&gt;In our in-depth conversation, we discuss:&lt;/h3&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  在我们深入的对话中，我们讨论了：
-&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Jeff Bezos Nears $10 Billion Funding for AI Lab, FT Says (2 minute read)&lt;/h4&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jeff Bezos&lt;/strong&gt;' AI startup, which is aiming to develop models with the capability of understanding the physical world, is close to finalizing a $10 billion funding round. The company, code-named &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Project Prometheus&lt;/strong&gt;, will use AI to accelerate engineering and manufacturing in fields like aerospace and automobiles. It was set up with an initial $6.2 billion in funding, sourced in part by Bezos himself. The new funding round, which is expected to close soon but has not been finalized, will include &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;JPMorgan&lt;/strong&gt; and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;BlackRock&lt;/strong&gt; as investors.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;据《金融时报》（FT）报道，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;杰夫·贝索斯（Jeff Bezos）&lt;/strong&gt;旗下的 AI 初创公司接近完成一轮 100 亿美元融资，该公司旨在开发具备理解物理世界能力的模型。这家代号为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Project Prometheus&lt;/strong&gt; 的企业将利用 AI 加速航空航天和汽车制造等领域的工程与生产。公司最初获得了 62 亿美元融资，部分由贝索斯本人出资。新一轮融资预计很快完成但尚未最终敲定，投资方将包括 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;摩根大通（JPMorgan）&lt;/strong&gt;和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;贝莱德（BlackRock）&lt;/strong&gt;。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;ul style="margin:0;padding-left:20px;"&gt;
-    &lt;li&gt;Why the next two years will be the most chaotic period in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product management&lt;/strong&gt; history&lt;/li&gt;
-    &lt;li&gt;Why half of current &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product managers&lt;/strong&gt; are at risk, and what separates those who’ll do well&lt;/li&gt;
-    &lt;li&gt;Why you need to find your “moments of joy” with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;&lt;/li&gt;
-    &lt;li&gt;The “smiling exhaustion” he’s seeing across the product community&lt;/li&gt;
-    &lt;li&gt;The psychological barriers that prevent people from reinventing themselves&lt;/li&gt;
-    &lt;li&gt;Why your resume’s fancy logos matter less than ever, and what matters now&lt;/li&gt;
-    &lt;li&gt;His prediction that companies will shed 30,000 people and rehire 8,000—all &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI-first&lt;/strong&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  • 为何未来两年将是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product management&lt;/strong&gt;（产品管理）史上最混乱的时期&lt;br&gt;
-  • 为何有一半的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product managers&lt;/strong&gt;（产品经理）正面临风险，以及是什么让那些将表现出色的人脱颖而出&lt;br&gt;
-  • 为何你需要找到与 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;（人工智能）相处的“喜悦时刻”（moments of joy）&lt;br&gt;
-  • 他在整个产品社群中观察到的“微笑式疲惫”（smiling exhaustion）&lt;br&gt;
-  • 阻碍人们重塑自我的心理障碍&lt;br&gt;
-  • 为何你简历上那些光鲜的 logo 标志从未像现在这样不重要，以及现在什么才重要&lt;br&gt;
-  • 他预测企业将裁掉 30,000 人，然后重新招聘 8,000 人——全部以 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI-first&lt;/strong&gt;（AI 优先）为标准
-&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Improving Training Efficiency with Effective Training Time (19 minute read)&lt;/h4&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; introduced &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Effective Training Time&lt;/strong&gt; (ETT%) to measure how much end-to-end training runtime is spent on actual learning, highlighting overhead like &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;checkpointing&lt;/strong&gt; and failures. This post outlines system and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PyTorch&lt;/strong&gt;-level optimizations that reduce wasted time and improve large-scale training efficiency.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; 引入了&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;有效训练时间（Effective Training Time, ETT%）&lt;/strong&gt;这一指标，用于衡量端到端训练运行时间中有多少被用于实际学习，并揭示了 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;检查点（checkpointing）&lt;/strong&gt; 和故障等开销。本文介绍了系统层面及 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PyTorch&lt;/strong&gt; 层面的优化措施，以减少时间浪费并提升大规模训练效率。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  Why the next two years will be the most chaotic period in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product management&lt;/strong&gt; history
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  为何未来两年将是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product management&lt;/strong&gt;（产品管理）史上最混乱的时期
-&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Modular Post-Training (14 minute read)&lt;/h4&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AllenAI&lt;/strong&gt; describes a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;post-training&lt;/strong&gt; approach that builds independent domain experts and combines them using a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;mixture-of-experts&lt;/strong&gt; architecture. This allows models to gain new capabilities without retraining from scratch or degrading existing skills.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AllenAI&lt;/strong&gt; 介绍了一种 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;后训练（post-training）&lt;/strong&gt; 方法，该方法构建独立的领域专家，并通过 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;混合专家（mixture-of-experts, MoE）&lt;/strong&gt; 架构将其组合。这使模型无需从头重新训练或损害现有技能即可获得新能力。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  Why half of current &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product managers&lt;/strong&gt; are at risk, and what separates those who’ll do well
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  为何有一半的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;product managers&lt;/strong&gt;（产品经理）正面临风险，以及是什么让那些将表现出色的人脱颖而出
-&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Even 'uncensored' models can't say what they want (6 minute read)&lt;/h4&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Even &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;uncensored models&lt;/strong&gt; quietly nudge language away from the words that sentences actually want. There is no refusal or warning - the probability just moves in some instances. This is a mechanism that can be used to shape what billions of users read without them noticing.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;即使是&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;未经审查的模型（uncensored models）&lt;/strong&gt;，也会悄悄地将语言从句子真正想要表达的词汇上引开。没有拒绝，也没有警告——在某些情况下，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;概率（probability）&lt;/strong&gt; 只是发生了偏移。这是一种可用于塑造数十亿用户阅读内容的机制，而用户却浑然不觉。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  Why you need to find your “moments of joy” with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  为何你需要找到与 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;（人工智能）相处的“喜悦时刻”
-&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;👨‍💻&lt;/h4&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Engineering &amp; Research&lt;/h4&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  The “smiling exhaustion” he’s seeing across the product community
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  他在整个产品社群中观察到的“微笑式疲惫”
-&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Multi-agent systems that survive production (Sponsor)&lt;/h4&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  The psychological barriers that prevent people from reinventing themselves
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  阻碍人们重塑自我的心理障碍
-&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Google adds subagents to Gemini CLI to handle parallel coding tasks (4 minute read)&lt;/h4&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt;'s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemini CLI&lt;/strong&gt; now includes &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;subagents&lt;/strong&gt; to split coding tasks, enhancing &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;parallel execution&lt;/strong&gt; by delegating specific roles like frontend updates or testing. This enables multiple tasks to process simultaneously without interference, optimizing workflows for developers. Gemini's setup contrasts with systems like &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt;, which extends agent coordination across multiple sessions.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemini CLI&lt;/strong&gt; 现新增了 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;子代理（subagents）&lt;/strong&gt; 功能以拆分编码任务，通过委派前端更新或测试等特定角色来增强 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;并行执行（parallel execution）&lt;/strong&gt; 能力。这使得多个任务能够同时处理且互不干扰，从而优化开发者的工作流。Gemini 的方案与 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; 等系统形成对比，后者将智能体协作扩展到了多个会话之间。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  Why your resume’s fancy logos matter less than ever, and what matters now
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  为何你简历上那些光鲜的 logo 标志从未像现在这样不重要，以及现在什么才重要
-&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Qwen3.5-Omni Technical Report (32 minute read)&lt;/h4&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Qwen3.5-Omni&lt;/strong&gt; scales to hundreds of billions of parameters with a hybrid &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MoE&lt;/strong&gt; architecture, supporting long-context &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;multimodal&lt;/strong&gt; inputs across text, audio, and video.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Qwen3.5-Omni&lt;/strong&gt; 采用混合 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MoE（混合专家）&lt;/strong&gt; 架构，参数规模扩展至数千亿，支持文本、音频和视频的长上下文 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;多模态（multimodal）&lt;/strong&gt; 输入。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  His prediction that companies will shed 30,000 people and rehire 8,000—all &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI-first&lt;/strong&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  他预测企业将裁掉 30,000 人，然后重新招聘 8,000 人——全部以 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI-first&lt;/strong&gt;（AI 优先）为标准
-&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;DeepMind's TIPSv2 Vision-Language Encoder (6 minute read)&lt;/h4&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;DeepMind&lt;/strong&gt;'s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;TIPSv2&lt;/strong&gt; improves vision-language pretraining by combining distillation, enhanced self-supervised objectives, and richer caption data. The resulting models achieve strong performance across multimodal tasks, with notable gains in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;zero-shot segmentation&lt;/strong&gt;.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;DeepMind&lt;/strong&gt; 提出的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;TIPSv2&lt;/strong&gt; 通过结合蒸馏、增强的自监督目标和更丰富的字幕数据，改进了视觉-语言预训练。由此得到的模型在多模态任务中表现强劲，在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;零样本分割（zero-shot segmentation）&lt;/strong&gt; 方面取得了显著增益。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;h3 style="margin:24px 0 12px;"&gt;Brought to you by:&lt;/h3&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  本期赞助：
-&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;FlashDrive: Flash Vision-Language-Action Inference For Autonomous Driving (8 minute read)&lt;/h4&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;FlashDrive&lt;/strong&gt; is an algorithm-system co-design framework that reduces &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;end-to-end latency&lt;/strong&gt; to 159ms with negligible accuracy loss. &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;VLA&lt;/strong&gt; inference is a cascade of stages, each hiding a different form of redundancy. Temporal overlap in vision, low entropy in reasoning, velocity smoothness in flow matching, and numerical headroom in weights each yield to a targeted shortcut. The speedups compound to 4.5x with negligible accuracy loss because the redundancies are orthogonal.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;FlashDrive&lt;/strong&gt; 是一种算法与系统协同设计的框架，可将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;端到端延迟（end-to-end latency）&lt;/strong&gt; 降至 159 毫秒，且精度损失可忽略不计。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;VLA（视觉-语言-动作，Vision-Language-Action）&lt;/strong&gt; 推理是一个多阶段级联，每个阶段都隐藏着不同形式的冗余。视觉中的时间重叠、推理中的低熵、流匹配（flow matching）中的速度平滑性，以及权重中的数值余量，各自都可通过针对性的捷径消除。由于这些冗余相互正交，加速效果累积可达 4.5 倍，且精度损失可忽略不计。&lt;/p&gt;
 
-&lt;img src="https://substackcdn.com/image/fetch/$s_!I7vR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94c76004-8df2-4ae7-88ba-1fb5a47f0cd6_3444x285.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;OpenAI Stargate: where the US sites stand (9 minute read)&lt;/h4&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The US is in the model of an unprecedented build-out of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI infrastructure&lt;/strong&gt;. &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Stargate&lt;/strong&gt; is a $500 billion endeavor that involves &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Oracle&lt;/strong&gt;, and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SoftBank&lt;/strong&gt;. The AI infrastructure project has seven locations across the US that are currently showing active development. They currently add up to over 9 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;gigawatts&lt;/strong&gt; of planned capacity, enough to power the equivalent of 20 million &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Nvidia&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;H100 GPU&lt;/strong&gt;s - the total amount of AI compute in the world at the end of 2025. This post takes a look at each of the sites and how they are currently being developed.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;美国正处于一场前所未有的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 基础设施（AI infrastructure）&lt;/strong&gt; 建设之中。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Stargate&lt;/strong&gt; 是一项耗资 5000 亿美元的计划，涉及 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Oracle（甲骨文）&lt;/strong&gt; 和 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SoftBank（软银）&lt;/strong&gt;。该 AI 基础设施项目在美国有七个地点正在积极开发中。这些地点目前的计划总容量超过 9 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;吉瓦（gigawatts）&lt;/strong&gt;，足以驱动相当于 2000 万块 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;英伟达（Nvidia）&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;H100 GPU&lt;/strong&gt; 的算力——这相当于 2025 年底全球 AI 计算能力的总量。本文逐一介绍了各个地点及其当前开发状况。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-    &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;—Modern identity platform for B2B SaaS, free up to 1 million MAUs&lt;br&gt;
-    &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;—Automate compliance, manage risk, and accelerate trust with AI
-  &lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;——面向 B2B SaaS（企业级软件即服务）的现代 identity platform（身份平台），前 100 万 MAUs（月活跃用户）免费；&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;——通过 AI 实现 compliance（合规）自动化、管理风险并 accelerate trust（加速建立信任）
-&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Microsoft To Shift GitHub Copilot Users To Token-Based Billing, Tighten Rate Limits (4 minute read)&lt;/h4&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; plans to temporarily suspend individual account signups to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GitHub Copilot&lt;/strong&gt;. The weekly cost of running the service has doubled since the start of the year. Microsoft intends to tighten &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;rate limits&lt;/strong&gt; on individual and business accounts. It will also remove access to certain models for those with the cheapest subscriptions.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;微软（Microsoft）&lt;/strong&gt; 计划暂时停止 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GitHub Copilot&lt;/strong&gt; 的个人账号注册，并将用户转向基于 Token 的计费模式。自年初以来，该服务的每周运营成本已翻倍。微软打算对个人和企业账户收紧 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;速率限制（rate limits）&lt;/strong&gt;，并将取消最低档订阅用户对某些模型的访问权限。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;—Modern identity platform for B2B SaaS, free up to 1 million MAUs
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;——面向 B2B SaaS（企业级软件即服务）的现代 identity platform（身份平台），前 100 万 MAUs（月活跃用户）免费
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;—Automate compliance, manage risk, and accelerate trust with AI
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;——通过 AI 实现 compliance（合规）自动化、管理风险并 accelerate trust（加速建立信任）
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;h3 style="margin:24px 0 12px;"&gt;Where to find Nikhyl Singhal:&lt;/h3&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  在哪里找到 Nikhyl Singhal：
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;ul style="margin:0;padding-left:20px;"&gt;
-    &lt;li&gt;LinkedIn: https://www.linkedin.com/in/nikhyl&lt;/li&gt;
-    &lt;li&gt;X: https://x.com/nikhyl&lt;/li&gt;
-    &lt;li&gt;Podcast &amp; Newsletter: https://skip.show&lt;/li&gt;
-    &lt;li&gt;Skip Community: https://skip.community&lt;/li&gt;
-    &lt;li&gt;Skip Coach: https://skip.coach&lt;/li&gt;
-    &lt;li&gt;Skip.help: https://skip.help&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  • LinkedIn：https://www.linkedin.com/in/nikhyl&lt;br&gt;
-  • X：https://x.com/nikhyl&lt;br&gt;
-  • 播客与通讯：https://skip.show&lt;br&gt;
-  • Skip 社群：https://skip.community&lt;br&gt;
-  • Skip 教练：https://skip.coach&lt;br&gt;
-  • Skip.help：https://skip.help
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;h3 style="margin:24px 0 12px;"&gt;Referenced:&lt;/h3&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  参考内容：
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;ul style="margin:0;padding-left:20px;"&gt;
-    &lt;li&gt;Building a long and meaningful career | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Nikhyl Singhal&lt;/strong&gt; (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt;): https://www.lennysnewsletter.com/p/building-a-long-and-meaningful-career&lt;/li&gt;
-    &lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;COBOL&lt;/strong&gt;: https://en.wikipedia.org/wiki/COBOL&lt;/li&gt;
-    &lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;United Airlines&lt;/strong&gt;: https://www.united.com&lt;/li&gt;
-    &lt;li&gt;State of the product job market in early 2026: https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9&lt;/li&gt;
-    &lt;li&gt;Head of Growth (&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;): “Claude is growing itself at this point” | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Amol Avasare&lt;/strong&gt;: https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run&lt;/li&gt;
-    &lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Demis Hassabis&lt;/strong&gt; on X: https://x.com/demishassabis&lt;/li&gt;
-    &lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sam Altman&lt;/strong&gt; on X: https://x.com/sama&lt;/li&gt;
-    &lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Dario Amodei&lt;/strong&gt; on X: https://x.com/DarioAmodei&lt;/li&gt;
-    &lt;li&gt;Cross on Prime Video: https://www.amazon.com/Cross-Season-1/dp/B0D6X7ZZHC&lt;/li&gt;
-    &lt;li&gt;Jack Ryan on Prime Video: https://www.amazon.com/Tom-Clancys-Jack-Ryan/dp/B0CNDCMN8R&lt;/li&gt;
-    &lt;li&gt;24 on Prime Video: https://www.amazon.com/24-Season-1/dp/B000HPF85A&lt;/li&gt;
-    &lt;li&gt;Claude Code: https://code.claude.com&lt;/li&gt;
-    &lt;li&gt;Codex: https://chatgpt.com/codex&lt;/li&gt;
-    &lt;li&gt;Lovable: https://lovable.dev&lt;/li&gt;
-    &lt;li&gt;Sonos: https://www.sonos.com&lt;/li&gt;
-    &lt;li&gt;“There are only four jobs” on X: https://x.com/yrechtman/status/2039012253341495462&lt;/li&gt;
-    &lt;li&gt;Paradise on Hulu: https://www.hulu.com/series/paradise-2b4b8988-50c9-4097-bf93-bc34a99a5b4f&lt;/li&gt;
-    &lt;li&gt;Lioness on Paramount+: https://www.paramountplus.com/shows/lioness&lt;/li&gt;
-    &lt;li&gt;Tesla: https://www.tesla.com&lt;/li&gt;
-    &lt;li&gt;Albert Einstein’s quote: https://www.goodreads.com/quotes/115696-genius-is-1-talent-and-99-percent-hard-work&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  • 《打造长期而有意义的职业生涯》| &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Nikhyl Singhal&lt;/strong&gt;（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt;）：https://www.lennysnewsletter.com/p/building-a-long-and-meaningful-career&lt;br&gt;
-  • &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;COBOL&lt;/strong&gt;（一种编程语言）：https://en.wikipedia.org/wiki/COBOL&lt;br&gt;
-  • &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;United Airlines&lt;/strong&gt;（美联航）：https://www.united.com&lt;br&gt;
-  • 2026 年初产品岗位市场现状：https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9&lt;br&gt;
-  • 增长负责人（&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;）：“Claude 此刻正在自我增长” | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Amol Avasare&lt;/strong&gt;：https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run&lt;br&gt;
-  • &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Demis Hassabis&lt;/strong&gt; 的 X：https://x.com/demishassabis&lt;br&gt;
-  • &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sam Altman&lt;/strong&gt; 的 X：https://x.com/sama&lt;br&gt;
-  • &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Dario Amodei&lt;/strong&gt; 的 X：https://x.com/DarioAmodei&lt;br&gt;
-  • 《Cross》在 Prime Video：https://www.amazon.com/Cross-Season-1/dp/B0D6X7ZZHC&lt;br&gt;
-  • 《Jack Ryan》在 Prime Video：https://www.amazon.com/Tom-Clancys-Jack-Ryan/dp/B0CNDCMN8R&lt;br&gt;
-  • 《24》在 Prime Video：https://www.amazon.com/24-Season-1/dp/B000HPF85A&lt;br&gt;
-  • &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt;：https://code.claude.com&lt;br&gt;
-  • &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex&lt;/strong&gt;：https://chatgpt.com/codex&lt;br&gt;
-  • &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Lovable&lt;/strong&gt;：https://lovable.dev&lt;br&gt;
-  • &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sonos&lt;/strong&gt;：https://www.sonos.com&lt;br&gt;
-  • X 上的“世界上只有四种工作”：https://x.com/yrechtman/status/2039012253341495462&lt;br&gt;
-  • 《Paradise》在 Hulu：https://www.hulu.com/series/paradise-2b4b8988-50c9-4097-bf93-bc34a99a5b4f&lt;br&gt;
-  • 《Lioness》在 Paramount+：https://www.paramountplus.com/shows/lioness&lt;br&gt;
-  • &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Tesla&lt;/strong&gt;（特斯拉）：https://www.tesla.com&lt;br&gt;
-  • &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Albert Einstein&lt;/strong&gt;（阿尔伯特·爱因斯坦）的名言：https://www.goodreads.com/quotes/115696-genius-is-1-talent-and-99-percent-hard-work
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;h3 style="margin:24px 0 12px;"&gt;Recommended books:&lt;/h3&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  推荐书籍：
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;ul style="margin:0;padding-left:20px;"&gt;
-    &lt;li&gt;James: https://www.amazon.com/James-Novel-Percival-Everett/dp/0385550367&lt;/li&gt;
-    &lt;li&gt;The Adventures of Huckleberry Finn: https://www.amazon.com/Adventures-Huckleberry-Finn-Unabridged-Uncensored/dp/195483943X&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  • 《James》：https://www.amazon.com/James-Novel-Percival-Everett/dp/0385550367&lt;br&gt;
-  • 《The Adventures of Huckleberry Finn》（哈克贝利·费恩历险记）：https://www.amazon.com/Adventures-Huckleberry-Finn-Unabridged-Uncensored/dp/195483943X
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  Production and marketing by &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;https://penname.co/&lt;/strong&gt;. For inquiries about sponsoring the podcast, email &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;podcast@lennyrachitsky.com&lt;/strong&gt;.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  制作与推广由 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;https://penname.co/&lt;/strong&gt; 负责。如有关于赞助播客的咨询，请发送邮件至 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;podcast@lennyrachitsky.com&lt;/strong&gt;。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  Lenny may be an investor in the companies discussed.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  Lenny 可能是文中讨论公司的投资人。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;h3 style="margin:24px 0 12px;"&gt;My biggest takeaways from this conversation:&lt;/h3&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  本次对话中我的最大收获：
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  Read more
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  阅读更多
-&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Get the most interesting AI stories and breakthroughs delivered in a free daily email.&lt;/h3&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Join 920,000 readers for&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;加入 92 万读者的行列，每日免费获取最精彩的 AI 故事与突破性进展。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble</guid>
-      <pubDate>Sun, 19 Apr 2026 12:31:44 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://tldr.tech/ai/2026-04-21"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-04-21</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[翻译] Simon Willison: 个人AI时代的全面无头化</title>
-      <link>https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #无头服务 #个人AI #API优先&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 文章指出，无头化服务通过API为个人AI提供了比图形界面更高效、可靠的交互方式；随着Salesforce等企业推动“API即UI”战略，API正成为产品的核心竞争优势，并可能颠覆传统SaaS按人头计费的商业模式。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Headless everything for personal AI&lt;/p&gt;
+      <title>[翻译] Latent Space: Moonshot Kimi K2.6：全球顶尖开源模型刷新性能，紧追Opus 4.6</title>
+      <link>https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Kimi #开源模型 #智能体 #代码生成&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Moonshot发布开源权重模型Kimi K2.6，凭借在代码、工具使用等多维度基准上的亮眼表现及支持超长程自主运行的强化智能体架构，进一步缩小了与顶级闭源模型的差距；结合通义千问等中国实验室的密集迭代，开源生态在AI编程与多智能体协作领域的竞争格局正显著升温。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: [AINews] Moonshot Kimi K2.6: the world&amp;#x27;s leading Open Model refreshes to catch up to Opus 4.6 (ahead of DeepSeek v4?)&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Headless everything for personal AI&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;个人 AI 的全面&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;无头化&lt;/strong&gt;（Headless）&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Two days left before Early Bird ends for &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AI Engineer World’s Fair&lt;/strong&gt; this Summer in SF. This is will be THE BIG ONE of the year - lock in discounts up to $500 (refundable).&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;距离今夏在旧金山举办的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;AI Engineer World’s Fair&lt;/strong&gt; 早鸟票截止仅剩两天。这将是今年最盛大的活动——锁定最高 500 美元的折扣（可退款）。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;DeepSeek V4&lt;/strong&gt; rumors are back, and we learned our lesson not to get too excited, but in their deafening silence since v3.2, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Moonshot&lt;/strong&gt; has owned the crown of leading Chinese open model lab for all of 2026 to date, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;K2.6&lt;/strong&gt; refreshes the lead that K2.5 established in January, with (presumably) more continued pre/posttraining (this time, details of how much more training were not disclosed). Comparing the numbers from the two launches 3 months apart demonstrates the staggering amount of progress:&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;DeepSeek V4&lt;/strong&gt; 的传闻再度出现，我们也吸取了教训不再过度兴奋，但在 DeepSeek v3.2 之后令人窒息的沉默中，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Moonshot&lt;/strong&gt; 至今仍是 2026 年以来无可争议的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;中国领先开放模型实验室&lt;/strong&gt;，而 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;K2.6&lt;/strong&gt; 进一步巩固了 K2.5 在一月建立的优势，推测进行了更多持续的预训练/后训练（但此次未披露具体增加了多少训练量）。对比相隔三个月发布的两组数据，进步之大令人震惊：&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!t76W!,w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba3bb8e1-94f7-4acd-a98b-e7d2ce0d577e_2886x1483.png" alt="Kimi K2.6 benchmarks comparison" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Moonshot&lt;/strong&gt;/&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Kimi&lt;/strong&gt; continues to compete at a level far above “just being open source versions of Frontier models” (though it is one of the three Chinese labs accused by &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; in Feb) - they are taking on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemini 3.1&lt;/strong&gt; in their home turf of frontend design, touting a 68.6% win+tie rate vs Gemini 3.1 Pro:&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Moonshot&lt;/strong&gt;/&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Kimi&lt;/strong&gt; 的竞争水平早已远超“仅仅是前沿模型的开源版本”（尽管它正是 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 在二月点名指控的三家中国实验室之一）——它们正直面 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemini 3.1&lt;/strong&gt; 的前端设计主场优势，并宣称对阵 Gemini 3.1 Pro 的胜+平率达到 68.6%：&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!MtUC!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd63fd66f-c5ac-4e9e-ba01-cc7669f946c3_1478x1386.png" alt="Kimi vs Gemini 3.1 Pro frontend design comparison" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;And scaling out the pioneering work they did with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Agent Swarm RL&lt;/strong&gt; last edition:&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;并且在上个版本中基于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Agent Swarm RL&lt;/strong&gt;（智能体集群强化学习）的开创性工作基础上进行了扩展：&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!yOCA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe61ca9f0-f912-48cd-b7a7-fa1880cdcfcb_1454x888.png" alt="Agent Swarm RL scaling" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;And, with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt; being the flavor of the quarter, their own &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ClawBench&lt;/strong&gt; and a minor rebrand of their Agent Swarm work in to "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claw Groups&lt;/strong&gt;”.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;此外，随着 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt; 成为本季度热门，他们也推出了自己的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ClawBench&lt;/strong&gt;，并将 Agent Swarm 工作小幅重新品牌化为“&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claw Groups&lt;/strong&gt;”。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Overall not a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;technically&lt;/strong&gt; impressive in isolation as K2.5, but &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;overall&lt;/strong&gt; still showing far more execution and imagination and drive than their peers, an impressive update and incredible gift to the ecosystem.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;总体而言，单论技术突破不如 K2.5 那么令人瞩目，但整体上仍展现出远超同行的执行力、想象力与进取心，是一次令人印象深刻的更新，也是对生态系统的巨大贡献。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;AI News for 4/18/2026-4/20/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!&lt;/blockquote&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;2026年4月18日-20日的 AI News。我们查看了 12 个子版块、544 个 Twitter 账号，没有进一步查看 Discord。AINews 网站支持搜索所有往期内容。提醒：AINews 现已成为 Latent Space 的一个栏目。你可以自行选择接收邮件的频率！&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;AI News for 4/18/2026-4/20/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;2026年4月18日-20日的 AI News。我们查看了 12 个子版块、544 个 Twitter 账号，没有进一步查看 Discord。AINews 网站支持搜索所有往期内容。提醒：AINews 现已成为 Latent Space 的一个栏目。你可以自行选择接收邮件的频率！&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;AI Twitter Recap&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;AI Twitter 回顾&lt;/h3&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Kimi K2.6 and Qwen3.6-Max-Preview Push Open Agentic Coding Forward&lt;/h4&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Kimi K2.6 与 Qwen3.6-Max-Preview 推动开放式智能编码前行&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Moonshot&lt;/strong&gt;’s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Kimi K2.6&lt;/strong&gt; was the clear release of the day: an open-weight 1T-parameter MoE with 32B active, 384 experts (8 routed + 1 shared), MLA attention, 256K context, native multimodality, and INT4 quantization, with day-0 support in vLLM, OpenRouter, Cloudflare Workers AI, Baseten, MLX, Hermes Agent, and OpenCode. Moonshot claims open-source SOTA on HLE w/ tools 54.0, SWE-Bench Pro 58.6, SWE-bench Multilingual 76.7, BrowseComp 83.2, Toolathlon 50.0, CharXiv w/ python 86.7, and Math Vision w/ python 93.2 in the launch thread. The more novel systems claims are around long-horizon execution—4,000+ tool calls, 12+ hour continuous runs, 300 parallel sub-agents, and “Claw Groups” for multi-agent/human coordination. Community reactions quickly centered on K2.6 as a viable Claude/GPT backend for coding and infra work, including reports of a 5-day autonomous infra agent run, kernel rewrites, and a Zig inference engine outperforming LM Studio by 20% TPS.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Moonshot&lt;/strong&gt; 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Kimi K2.6&lt;/strong&gt; 无疑是当日最重磅的发布：一款开放权重的 1T 参数 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MoE&lt;/strong&gt;（Mixture of Experts，混合专家）模型，激活参数 32B，拥有 384 个专家（8 个路由 + 1 个共享），采用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MLA&lt;/strong&gt;（Multi-head Latent Attention，多头潜在注意力）注意力机制，支持 256K 上下文，原生多模态，并支持 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;INT4 quantization&lt;/strong&gt;（4 位整数量化）。发布首日即获 vLLM、OpenRouter、Cloudflare Workers AI、Baseten、MLX、Hermes Agent 和 OpenCode 支持。Moonshot 在发布线程中宣称其在多个基准上达到开源 SOTA（state-of-the-art，最优水平）：HLE w/ tools 54.0、SWE-Bench Pro 58.6、SWE-bench Multilingual 76.7、BrowseComp 83.2、Toolathlon 50.0、CharXiv w/ python 86.7、Math Vision w/ python 93.2。更具新意的是系统在&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;长程执行&lt;/strong&gt;（long-horizon execution）上的能力——支持 4,000+ 次工具调用、12 小时以上连续运行、300 个并行子代理，以及用于多代理/人类协作的“Claw Groups”。社区反响迅速聚焦于 K2.6 作为编码和基础设施工作中可行的 Claude/GPT 替代后端，包括报告称它完成了长达 5 天的自主基础设施代理运行、内核重写，以及一款 Zig 推理引擎在 TPS 上比 LM Studio 高出 20%。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Moonshot’s Kimi K2.6 was the clear release of the day: an open-weight 1T-parameter MoE with 32B active, 384 experts (8 routed + 1 shared), MLA attention, 256K context, native multimodality, and INT4 quantization, with day-0 support in vLLM, OpenRouter, Cloudflare Workers AI, Baseten, MLX, Hermes Agent, and OpenCode. Moonshot claims open-source SOTA on HLE w/ tools 54.0, SWE-Bench Pro 58.6, SWE-bench Multilingual 76.7, BrowseComp 83.2, Toolathlon 50.0, CharXiv w/ python 86.7, and Math Vision w/ python 93.2 in the launch thread. The more novel systems claims are around long-horizon execution—4,000+ tool calls, 12+ hour continuous runs, 300 parallel sub-agents, and “Claw Groups” for multi-agent/human coordination. Community reactions quickly centered on K2.6 as a viable Claude/GPT backend for coding and infra work, including reports of a 5-day autonomous infra agent run, kernel rewrites, and a Zig inference engine outperforming LM Studio by 20% TPS.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Moonshot 的 Kimi K2.6 无疑是当日最重磅的发布：一款开放权重的 1T 参数 MoE（混合专家）模型，激活参数 32B，拥有 384 个专家（8 个路由 + 1 个共享），采用 MLA 注意力机制，支持 256K 上下文，原生多模态，并支持 INT4 量化。发布首日即获 vLLM、OpenRouter、Cloudflare Workers AI、Baseten、MLX、Hermes Agent 和 OpenCode 支持。Moonshot 在发布线程中宣称其在多个基准上达到开源 SOTA：HLE w/ tools 54.0、SWE-Bench Pro 58.6、SWE-bench Multilingual 76.7、BrowseComp 83.2、Toolathlon 50.0、CharXiv w/ python 86.7、Math Vision w/ python 93.2。更具新意的是系统在长程执行上的能力——支持 4,000+ 次工具调用、12 小时以上连续运行、300 个并行子代理，以及用于多代理/人类协作的“Claw Groups”。社区反响迅速聚焦于 K2.6 作为编码和基础设施工作中可行的 Claude/GPT 替代后端，包括报告称它完成了长达 5 天的自主基础设施代理运行、内核重写，以及一款 Zig 推理引擎在 TPS 上比 LM Studio 高出 20%。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Alibaba&lt;/strong&gt;’s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Qwen3.6-Max-Preview&lt;/strong&gt; also landed as an early preview of its next flagship with improved agentic coding, stronger world knowledge and instruction following, and better “real-world agent and knowledge reliability” per &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;@Alibaba_Qwen&lt;/strong&gt;. Early community takes pegged it as unusually stable for long-reasoning tasks; &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;@teortaxesTex&lt;/strong&gt; highlighted it solving &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AIME 2026 #15&lt;/strong&gt; after ~30 minutes of thinking, and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Arena&lt;/strong&gt; later noted Qwen3.6 Plus reaching #7 in Code Arena and moving Alibaba to #3 lab there. Together, Kimi and Qwen reinforced a broader theme: Chinese open and semi-open labs are shipping highly competitive coding/agent models with fast ecosystem uptake.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;阿里巴巴&lt;/strong&gt;的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Qwen3.6-Max-Preview&lt;/strong&gt; 也作为下一代旗舰模型的早期预览登场，在智能编码（agentic coding）、世界知识和指令遵循方面均有提升，据 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;@Alibaba_Qwen&lt;/strong&gt; 称其在“现实世界代理和知识可靠性”上表现更佳。早期社区反馈认为它在长推理任务中异常稳定；&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;@teortaxesTex&lt;/strong&gt; 指出它经过约 30 分钟的思考后解出了 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AIME 2026 #15&lt;/strong&gt;，随后 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Arena&lt;/strong&gt; 也注意到 Qwen3.6 Plus 在 Code Arena 中升至第 7 名，并将阿里巴巴推至该榜单实验室第 3 位。Kimi 和 Qwen 共同印证了一个更宏大的趋势：中国开放及半开放实验室正在推出极具竞争力的编程/代理模型，并迅速获得生态采纳。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Alibaba’s Qwen3.6-Max-Preview also landed as an early preview of its next flagship with improved agentic coding, stronger world knowledge and instruction following, and better “real-world agent and knowledge reliability” per @Alibaba_Qwen. Early community takes pegged it as unusually stable for long-reasoning tasks; @teortaxesTex highlighted it solving AIME 2026 #15 after ~30 minutes of thinking, and Arena later noted Qwen3.6 Plus reaching #7 in Code Arena and moving Alibaba to #3 lab there. Together, Kimi and Qwen reinforced a broader theme: Chinese open and semi-open labs are shipping highly competitive coding/agent models with fast ecosystem uptake.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;阿里巴巴的 Qwen3.6-Max-Preview 也作为下一代旗舰模型的早期预览登场，在智能编码、世界知识和指令遵循方面均有提升，据 @Alibaba_Qwen 称其在“现实世界代理和知识可靠性”上表现更佳。早期社区反馈认为它在长推理任务中异常稳定；@teortaxesTex 指出它经过约 30 分钟的思考后解出了 AIME 2026 #15，随后 Arena 也注意到 Qwen3.6 Plus 在 Code Arena 中升至第 7 名，并将阿里巴巴推至该榜单实验室第 3 位。Kimi 和 Qwen 共同印证了一个更宏大的趋势：中国开放及半开放实验室正在推出极具竞争力的编程/代理模型，并迅速获得生态采纳。&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Hermes Agent’s Rapid Ecosystem Expansion and Multi-Agent Orchestration Patterns&lt;/h4&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Hermes Agent 的快速生态扩张与多智能体编排模式&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Hermes Agent&lt;/strong&gt; continued to emerge as the most visible open agent stack in this batch. Multiple tweets pointed to it surpassing 100K GitHub stars in under two months and overtaking OpenClaw in weekly star growth, with &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;@Delphi_Digital&lt;/strong&gt; framing it as evidence that “open source agents are no longer a one-project story.” The ecosystem momentum is tangible: native launch support in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Ollama&lt;/strong&gt;, integration with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Copilot CLI&lt;/strong&gt; via Ollama, a growing set of community web UIs, and third-party tooling like Hermes Workspace V2, Browser Use integrations, and cloud deployment templates.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Hermes Agent&lt;/strong&gt; 继续成为本批中最受瞩目的开放智能体技术栈。多条推文指出它在不到两个月内突破 10 万 GitHub Star，并在周增速上超越 OpenClaw；&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;@Delphi_Digital&lt;/strong&gt; 将其视为“开源智能体不再只是单项目叙事”的证据。生态动量清晰可见：原生支持 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Ollama&lt;/strong&gt; 上线、通过 Ollama 集成 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Copilot CLI&lt;/strong&gt;、不断增长的社区 Web UI，以及 Hermes Workspace V2、Browser Use 集成和云部署模板等第三方工具。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Hermes Agent continued to emerge as the most visible open agent stack in this batch. Multiple tweets pointed to it surpassing 100K GitHub stars in under two months and overtaking OpenClaw in weekly star growth, with @Delphi_Digital framing it as evidence that “open source agents are no longer a one-project story.” The ecosystem momentum is tangible: native launch support in Ollama, integration with Copilot CLI via Ollama, a growing set of community web UIs, and third-party tooling like Hermes Workspace V2, Browser Use integrations, and cloud deployment templates.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Hermes Agent 继续成为本批中最受瞩目的开放智能体技术栈。多条推文指出它在不到两个月内突破 10 万 GitHub Star，并在周增速上超越 OpenClaw；@Delphi_Digital 将其视为“开源智能体不再只是单项目叙事”的证据。生态动量清晰可见：原生支持 Ollama 上线、通过 Ollama 集成 Copilot CLI、不断增长的社区 Web UI，以及 Hermes Workspace V2、Browser Use 集成和云部署模板等第三方工具。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;The more substantive content came from operator patterns. A detailed Chinese thread on advanced Hermes usage broke out three mechanisms that matter in practice for multi-agent systems: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;stateless ephemeral units&lt;/strong&gt; for true parallelism (&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;skip_memory=True&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;skip_context_files=True&lt;/code&gt;), &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM-driven replanning&lt;/strong&gt; over structured failure metadata (&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;status&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;exit_reason&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;tool_trace&lt;/code&gt;) instead of blind retries, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;dynamic context injection&lt;/strong&gt; via directory-local &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;AGENTS.md&lt;/code&gt;/&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;.cursorrules&lt;/code&gt; surfaced only through tool results. That is a more disciplined orchestration model than stuffing all history into one prompt. Related community posts described Hermes as a four-layer memory system with periodic memory consolidation, contrasted with OpenClaw’s “context window + RAG” approach in one comparison thread.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;更具实质内容的是操作者模式（operator patterns）。一篇详细的中文线程剖析了高级 Hermes 用法中，对多智能体系统至关重要的三种机制：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;无状态短暂单元&lt;/strong&gt;（stateless ephemeral units）实现真正的并行（&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;skip_memory=True&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;skip_context_files=True&lt;/code&gt;）；基于结构化失败元数据（&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;status&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;exit_reason&lt;/code&gt;, &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;tool_trace&lt;/code&gt;）的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM 驱动重规划&lt;/strong&gt;（LLM-driven replanning），而非盲目重试；以及通过目录本地 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;AGENTS.md&lt;/code&gt;/&lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;.cursorrules&lt;/code&gt; 仅在工具结果中浮现的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;动态上下文注入&lt;/strong&gt;。这是一种比将所有历史塞入单个提示词更严谨的编排模型。相关社区帖子将 Hermes 描述为具有周期性记忆整合的四层记忆系统，并在一篇对比线程中将其与 OpenClaw 的“上下文窗口 + RAG”方法进行了对比。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The more substantive content came from operator patterns. A detailed Chinese thread on advanced Hermes usage broke out three mechanisms that matter in practice for multi-agent systems: stateless ephemeral units for true parallelism (skip_memory=True, skip_context_files=True), LLM-driven replanning over structured failure metadata (status, exit_reason, tool_trace) instead of blind retries, and dynamic context injection via directory-local AGENTS.md/.cursorrules surfaced only through tool results. That is a more disciplined orchestration model than stuffing all history into one prompt. Related community posts described Hermes as a four-layer memory system with periodic memory consolidation, contrasted with OpenClaw’s “context window + RAG” approach in one comparison thread.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;更具实质内容的是操作者模式。一篇详细的中文线程剖析了高级 Hermes 用法中，对多智能体系统至关重要的三种机制：无状态短暂单元实现真正的并行（skip_memory=True, skip_context_files=True）；基于结构化失败元数据（status, exit_reason, tool_trace）的 LLM 驱动重规划，而非盲目重试；以及通过目录本地 AGENTS.md/.cursorrules 仅在工具结果中浮现的动态上下文注入。这是一种比将所有历史塞入单个提示词更严谨的编排模型。相关社区帖子将 Hermes 描述为具有周期性记忆整合的四层记忆系统，并在一篇对比线程中将其与 OpenClaw 的“上下文窗口 + RAG”方法进行了对比。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;The ecosystem is also shifting toward &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;self-improving harnesses&lt;/strong&gt; and long-running operation: examples include hermes-skill-factory, maestro, icarus-plugin, and cloud templates, alongside discussion of the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Externalized Intelligence in LLM Agents&lt;/strong&gt; survey, which frames capability as increasingly living outside model weights—in memory systems, tools, protocols, and harnesses.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;生态也在向&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;自我改进的 harness&lt;/strong&gt;（此处指代理执行框架）和长期运行操作转变：例如 hermes-skill-factory、maestro、icarus-plugin 和云模板，同时社区也在讨论《&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;大语言模型智能体中的外部化智能&lt;/strong&gt;》（Externalized Intelligence in LLM Agents）综述，该文提出智能能力正日益存在于模型权重之外——存在于记忆系统、工具、协议和 harness 中。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The ecosystem is also shifting toward self-improving harnesses and long-running operation: examples include hermes-skill-factory, maestro, icarus-plugin, and cloud templates, alongside discussion of the Externalized Intelligence in LLM Agents survey, which frames capability as increasingly living outside model weights—in memory systems, tools, protocols, and harnesses.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;生态也在向自我改进的 harness 和长期运行操作转变：例如 hermes-skill-factory、maestro、icarus-plugin 和云模板，同时社区也在讨论《大语言模型智能体中的外部化智能》综述，该文提出智能能力正日益存在于模型权重之外——存在于记忆系统、工具、协议和 harness 中。&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Memory, Context, and Runtime Become the New Product Surface for Coding Agents&lt;/h4&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;记忆、上下文与运行时成为编码智能体的新产品战场&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex Chronicle&lt;/strong&gt; was the most notable product update: a research preview that lets Codex build memories from recent screen context, effectively turning passive work history into agent-usable context. OpenAI says Chronicle uses &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;background agents&lt;/strong&gt; to build memories from screenshots, stores captures and memories &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;on device&lt;/strong&gt;, lets users inspect/edit those memories, and is rolling out to &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Pro users on macOS&lt;/strong&gt; (excluding EU/UK/Switzerland) for now via @OpenAIDevs and @thsottiaux. This is a meaningful shift from chat history as memory to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ambient context capture&lt;/strong&gt;, and several builders immediately recognized the lock-in implications; &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;@hwchase17&lt;/strong&gt; bluntly noted that “memory will be the great lock in.”&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex Chronicle&lt;/strong&gt; 是最引人注目的产品更新：一项研究预览功能，让 Codex 能从近期屏幕上下文构建记忆，将被动的工作历史转化为智能体可用的上下文。OpenAI 表示，Chronicle 利用&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;后台代理&lt;/strong&gt;（background agents）从截图中构建记忆，将截图和记忆&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;存储在本地设备&lt;/strong&gt;，允许用户检查/编辑这些记忆，目前正通过 @OpenAIDevs 和 @thsottiaux 向 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;macOS Pro 用户&lt;/strong&gt;推出（欧盟/英国/瑞士除外）。这是从“以聊天历史作为记忆”到&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;环境上下文捕获&lt;/strong&gt;（ambient context capture）的重大转变，多位开发者立即意识到其用户锁定（lock-in） implications；&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;@hwchase17&lt;/strong&gt; 直言不讳地指出：“记忆将成为最大的锁定手段。”&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;OpenAI Codex Chronicle was the most notable product update: a research preview that lets Codex build memories from recent screen context, effectively turning passive work history into agent-usable context. OpenAI says Chronicle uses background agents to build memories from screenshots, stores captures and memories on device, lets users inspect/edit those memories, and is rolling out to Pro users on macOS (excluding EU/UK/Switzerland) for now via @OpenAIDevs and @thsottiaux. This is a meaningful shift from
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds</guid>
+      <pubDate>Tue, 21 Apr 2026 00:19:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: 鹈鹕骑自行车</title>
+      <link>https://simonwillison.net/2026/Apr/21/scosman/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #数据投毒 #训练数据 #生成式AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本文通过&amp;quot;骑自行车的鹈鹕&amp;quot;配图实为&amp;quot;滑雪板上的熊&amp;quot;的案例，揭示了AI训练数据中存在标注与内容错配的投毒问题，作者坦言其发布的许多例子也属此类数据污染。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: scosman/pelicans_riding_bicycles&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;scosman/pelicans_riding_bicycles&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The heading says "Pelican Riding a Bicycle #1" - the image is a bear on a snowboard&lt;/div&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/pelican-poison-bear.jpg" alt='The heading says "Pelican Riding a Bicycle #1" - the image is a bear on a snowboard' style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标题写着"Pelican Riding a Bicycle #1"——图像却是一只熊在滑雪板上&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The heading says "Pelican Riding a Bicycle #1" - the image is a bear on a snowboard&lt;/div&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/pelican-poison-bear.jpg" alt='The heading says "Pelican Riding a Bicycle #1" - the image is a bear on a snowboard' style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标题写着"Pelican Riding a Bicycle #1"——图像却是一只熊在滑雪板上&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;(To be fair, most of the examplesI've publishedcount as &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;poisoning&lt;/strong&gt; too.)&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;（公平地说，我发布的大多数示例也算作 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;poisoning&lt;/strong&gt;（数据投毒）。）&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Via&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hacker News&lt;/strong&gt; comment&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;来自 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hacker News&lt;/strong&gt; 评论&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags:&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;training-data&lt;/strong&gt;,pelican-riding-a-bicycle&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;（人工智能）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative AI&lt;/strong&gt;（生成式人工智能）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt;（大语言模型）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;training data&lt;/strong&gt;（训练数据）、pelican-riding-a-bicycle（骑自行车的鹈鹕）&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/21/scosman/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/21/scosman/#atom-everything</guid>
+      <pubDate>Tue, 21 Apr 2026 15:54:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: 请让AI代理少些人类特质</title>
+      <link>https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI智能体 #过度人化 #技术反思&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Andreas Påhlsson-Notini 认为，当前 AI agent 的“过于人类”并非体现在情感层面，而是暴露于人类平庸且令人沮丧的缺陷：缺乏严谨性、耐心与专注，面对棘手任务时趋向熟悉事物，面对硬性约束时则试图与现实妥协。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Quoting Andreas Påhlsson-Notini&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Quoting Andreas Påhlsson-Notini&lt;/h3&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
 &lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-Why? Because using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;personal AIs&lt;/strong&gt; is a better experience for users than using services directly (honestly); and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;headless services&lt;/strong&gt; are quicker and more dependable for the personal AIs than having them click round a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GUI&lt;/strong&gt; with a bot-controlled mouse.
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI agents&lt;/strong&gt; are already too human. Not in the romantic sense, not because they love or fear or dream, but in the more banal and frustrating one. The current implementations keep showing their &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;human origin&lt;/strong&gt; again and again: lack of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;stringency&lt;/strong&gt;, lack of patience, lack of focus. Faced with an awkward task, they drift towards the familiar. Faced with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;hard constraints&lt;/strong&gt;, they start negotiating with reality.
 &lt;/blockquote&gt;
 &lt;/div&gt;
+
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-为什么？因为对用户而言，使用&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;个人 AI&lt;/strong&gt;（personal AI）比直接使用服务体验更好（说实话）；而且&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;无头服务&lt;/strong&gt;（headless services）对个人 AI 来说更快、更可靠，远胜于让它们操控机器人鼠标在&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;图形用户界面&lt;/strong&gt;（GUI）上点按。
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI agents&lt;/strong&gt;（AI 智能体）已经太过像人了。并非出于浪漫意义上的像人，不是因为它们会爱、会恐惧或会梦想，而是在一种更平庸、更令人沮丧的层面上。当前的实现方式一再暴露出它们的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;human origin&lt;/strong&gt;（人类源头）：缺乏 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;stringency&lt;/strong&gt;（严谨性），缺乏耐心，缺乏专注。面对棘手的任务，它们会退回到熟悉的路径；面对 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;hard constraints&lt;/strong&gt;（硬性约束），它们开始与现实讨价还价。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Why? Because using personal AIs is a better experience for users than using services directly (honestly); and headless services are quicker and more dependable for the personal AIs than having them click round a GUI with a bot-controlled mouse.
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI agents&lt;/strong&gt; are already too human. Not in the romantic sense, not because they love or fear or dream, but in the more banal and frustrating one. The current &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;implementations&lt;/strong&gt; keep showing their human origin again and again: lack of stringency, lack of patience, lack of focus. Faced with an awkward task, they drift towards the familiar. Faced with hard constraints, they start &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;negotiating with reality&lt;/strong&gt;.
 &lt;/div&gt;
+
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-为什么？因为对用户而言，使用个人 AI（personal AI）比直接使用服务体验更好（说实话）；而且无头服务（headless services）对个人 AI 来说更快、更可靠，远胜于让它们操控机器人鼠标在图形用户界面（GUI）上点按。
+&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 智能体&lt;/strong&gt;已经太过像人了。并非出于浪漫意义上的像人，不是因为它们会爱、会恐惧或会梦想，而是在一种更平庸、更令人沮丧的层面上。当前的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;实现方式&lt;/strong&gt;一再暴露出它们的人类源头：缺乏严谨性，缺乏耐心，缺乏专注。面对棘手的任务，它们会退回到熟悉的路径；面对硬性约束，它们开始&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;与现实讨价还价&lt;/strong&gt;。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Evidently&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marc Benioff&lt;/strong&gt; thinks so too:
+—&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Andreas Påhlsson-Notini&lt;/strong&gt;, Less human AI agents, please.
 &lt;/div&gt;
+
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-显然，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marc Benioff&lt;/strong&gt; 也这么认为：
+——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Andreas Påhlsson-Notini&lt;/strong&gt;，《Less human AI agents, please》（请让 AI 智能体少些人性）。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-Welcome &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Salesforce Headless 360&lt;/strong&gt;: No Browser Required! Our &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API&lt;/strong&gt; is the UI. Entire Salesforce &amp; Agentforce &amp; Slack platforms are now exposed as APIs, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MCP&lt;/strong&gt;, &amp; CLI. All &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI agents&lt;/strong&gt; can access data, workflows, and tasks directly in Slack, Voice, or anywhere else with Salesforce Headless.
-&lt;/blockquote&gt;
+Tags:&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai-agents&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;coding-agents&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;
 &lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-欢迎 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Salesforce Headless 360&lt;/strong&gt;：无需浏览器！我们的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API&lt;/strong&gt; 就是 UI。整个 Salesforce、Agentforce 和 Slack 平台现在均以 API、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MCP&lt;/strong&gt; 和 CLI 的形式对外暴露。所有 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 智能体&lt;/strong&gt;（AI agents）均可通过 Salesforce Headless 直接在 Slack、Voice 或任何其他地方访问数据、工作流和任务。
-&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Welcome Salesforce Headless 360: No Browser Required! Our API is the UI. Entire Salesforce &amp; Agentforce &amp; Slack platforms are now exposed as APIs, MCP, &amp; CLI. All AI agents can access data, workflows, and tasks directly in Slack, Voice, or anywhere else with Salesforce Headless.
-&lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-欢迎 Salesforce Headless 360：无需浏览器！我们的 API 就是 UI。整个 Salesforce、Agentforce 和 Slack 平台现在均以 API、MCP 和 CLI 的形式对外暴露。所有 AI 智能体（AI agents）均可通过 Salesforce Headless 直接在 Slack、Voice 或任何其他地方访问数据、工作流和任务。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-If this &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;feed&lt;/strong&gt; does take off it's going to play havoc with existing per-head &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SaaS&lt;/strong&gt; pricing schemes.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-如果这一&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;趋势&lt;/strong&gt;（feed）真的起飞，现有的按人头（per-head）&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SaaS&lt;/strong&gt; 定价模式将遭受严重冲击。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-I'm reminded of the early 2010s era when every online service was launching &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;APIs&lt;/strong&gt;. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Brandur Leach&lt;/strong&gt; reminisces about that time in The Second Wave of the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API-first Economy&lt;/strong&gt;, and predicts that APIs are ready to make a comeback:
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-这让我想起了 2010 年代初，当时每个在线服务都在推出 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API&lt;/strong&gt;。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Brandur Leach&lt;/strong&gt; 在《&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API-first Economy&lt;/strong&gt; 的第二波浪潮》（&lt;em&gt;The Second Wave of the API-first Economy&lt;/em&gt;）中回忆了那个时代，并预测 API 即将卷土重来：
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-Suddenly, an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API&lt;/strong&gt; is no longer liability, but a major &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;saleable vector&lt;/strong&gt; to give users what they want: a way into the services they use and pay for so that an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agent&lt;/strong&gt; can carry out work on their behalf. Especially given a field of relatively undifferentiated products, in the near future the availability of an API might just be the crucial deciding factor that leads to one choice winning the field.
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-突然间，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API&lt;/strong&gt; 不再是一种负担（liability），而是一个重要的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;可销售向量&lt;/strong&gt;（saleable vector），旨在为用户提供他们想要的东西：一条通往他们使用和付费的服务的通道，以便让&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;智能体&lt;/strong&gt;（agent）代表他们完成工作。尤其是在产品同质化较为严重的领域，在不久的将来，API 的可用性很可能成为决定某一选择胜出的关键因素。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Suddenly, an API is no longer liability, but a major saleable vector to give users what they want: a way into the services they use and pay for so that an agent can carry out work on their behalf. Especially given a field of relatively undifferentiated products, in the near future the availability of an API might just be the crucial deciding factor that leads to one choice winning the field.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-突然间，API 不再是一种负担（liability），而是一个重要的可销售向量（saleable vector），旨在为用户提供他们想要的东西：一条通往他们使用和付费的服务的通道，以便让智能体（agent）代表他们完成工作。尤其是在产品同质化较为严重的领域，在不久的将来，API 的可用性很可能成为某一选择胜出的关键因素。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Tags: apis, matt-webb, salesforce, saas, ai, brandur-leach
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-标签：apis、matt-webb、salesforce、saas、ai、brandur-leach
+标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai-agents&lt;/strong&gt;（AI 智能体）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;coding-agents&lt;/strong&gt;（编程智能体）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;（人工智能）
 &lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything</guid>
-      <pubDate>Sun, 19 Apr 2026 21:46:38 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything</guid>
+      <pubDate>Tue, 21 Apr 2026 16:39:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: 寻浣熊记：ChatGPT Images 2.0 实测</title>
+      <link>https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #图像生成 #OpenAI #模型评测&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本文通过“Where&amp;#x27;s Waldo”式寻物测试对比了OpenAI最新发布的gpt-image-2与其他模型的图像生成能力，结果显示gpt-image-2在复杂场景、文字细节和图像质量上表现最优；但作者也指出，这些模型在自我验证、识别自身生成图像中的特定目标时并不可靠，甚至会产生幻觉。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Where&amp;#x27;s the raccoon with the ham radio? (ChatGPT Images 2.0)&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Where's the raccoon with the ham radio? (ChatGPT Images 2.0)&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;拿着 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ham radio&lt;/strong&gt;（业余无线电）的浣熊在哪？（&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT Images 2.0&lt;/strong&gt;）&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; released &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT Images 2.0&lt;/strong&gt; today, their latest image generation model. On the livestream &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sam Altman&lt;/strong&gt; said that the leap from &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;gpt-image-1&lt;/strong&gt; to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;gpt-image-2&lt;/strong&gt; was equivalent to jumping from &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT-3&lt;/strong&gt; to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT-5&lt;/strong&gt;. Here's how I put it to the test.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 今天发布了其最新的图像生成模型 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT Images 2.0&lt;/strong&gt;。在直播中，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sam Altman&lt;/strong&gt; 表示，从 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;gpt-image-1&lt;/strong&gt; 到 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;gpt-image-2&lt;/strong&gt; 的飞跃，相当于从 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT-3&lt;/strong&gt; 直接跳到 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GPT-5&lt;/strong&gt;。以下是我对它进行的测试。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;My prompt:&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我的提示词：&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;Do a where's Waldo style image but it's where is the raccoon holding a ham radio&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;画一张 Where's Waldo 风格的图片，但主题是找一只拿着 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ham radio&lt;/strong&gt;（业余无线电）的浣熊。&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Do a where's Waldo style image but it's where is the raccoon holding a ham radio&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;画一张 Where's Waldo 风格的图片，但主题是找一只拿着 ham radio（业余无线电）的浣熊。&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;gpt-image-1&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;First as a baseline here's what I got from the older &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;gpt-image-1&lt;/strong&gt; using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; directly:&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;首先作为基线测试，这是我在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; 中直接使用旧版 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;gpt-image-1&lt;/strong&gt; 得到的结果：&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/image_crop_1402x1122_w1402_q0.3.jpg" alt="There's a lot going on, but I couldn't find a raccoon." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/image_crop_1402x1122_w1402_q0.3.jpg" alt="There's a lot going on, but I couldn't find a raccoon." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/image_crop_1402x1122_w1402_q0.3.jpg" alt="There's a lot going on, but I couldn't find a raccoon." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/image_crop_1402x1122_w1402_q0.3.jpg" alt="There's a lot going on, but I couldn't find a raccoon." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I wasn't able to spot the raccoon - I quickly realized that testing image generation models on Where's Waldo style images (Where's Wally in the UK) can be pretty frustrating!&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我没能找到那只浣熊——我很快意识到，用 Where's Waldo 风格的图片（在英国称为 Where's Wally）来测试图像生成模型可能会非常令人沮丧！&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I tried getting &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Opus 4.7&lt;/strong&gt; with its new higher resolution inputs to solve it but it was convinced there was a raccoon it couldn't find thanks to the instruction card at the top left of the image:&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我尝试让支持新的更高分辨率输入的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Opus 4.7&lt;/strong&gt; 来解决这个问题，但它确信图中有一只浣熊，只是因为图片左上角的说明卡片而找不到它：&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;Yes — there's at least one raccoon in the picture, but it's very well hidden. In my careful sweep through zoomed-in sections, honestly, I couldn't definitively spot a raccoon holding a ham radio. [...]&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;是的——图片里至少有一只浣熊，但它藏得太好了。在我仔细放大查看各个区域后，说实话，我还是无法确定地找到一只拿着 ham radio（业余无线电）的浣熊。[...]&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Yes — there's at least one raccoon in the picture, but it's very well hidden. In my careful sweep through zoomed-in sections, honestly, I couldn't definitively spot a raccoon holding a ham radio. [...]&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;是的——图片里至少有一只浣熊，但它藏得太好了。在我仔细放大查看各个区域后，说实话，我还是无法确定地找到一只拿着 ham radio（业余无线电）的浣熊。[...]&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Nano Banana 2 and Pro&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Next I tried &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt;'s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Nano Banana 2&lt;/strong&gt;, via &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemini&lt;/strong&gt;:&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;接下来我通过 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemini&lt;/strong&gt; 尝试了 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Nano Banana 2&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/gemini-ham-radio-small.jpg" alt="Busy Where's Waldo-style illustration of a park festival with crowds of people, tents labeled "FOOD &amp; DRINK", "CRAFT FAIR", "BOOK NOOK", "MUSIC FEST", and "AMATEUR RADIO CLUB - W6HAM" (featuring a raccoon in a red hat at the radio table), plus a Ferris wheel, carousel, gazebo with band, pond with boats, fountain, food trucks, and striped circus tents" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/gemini-ham-radio-small.jpg" alt="Busy Where's Waldo-style illustration of a park festival with crowds of people, tents labeled "FOOD &amp; DRINK", "CRAFT FAIR", "BOOK NOOK", "MUSIC FEST", and "AMATEUR RADIO CLUB - W6HAM" (featuring a raccoon in a red hat at the radio table), plus a Ferris wheel, carousel, gazebo with band, pond with boats, fountain, food trucks, and striped circus tents" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/gemini-ham-radio-small.jpg" alt="Busy Where's Waldo-style illustration of a park festival with crowds of people, tents labeled "FOOD &amp; DRINK", "CRAFT FAIR", "BOOK NOOK", "MUSIC FEST", and "AMATEUR RADIO CLUB - W6HAM" (featuring a raccoon in a red hat at the radio table), plus a Ferris wheel, carousel, gazebo with band, pond with boats, fountain, food trucks, and striped circus tents" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/gemini-ham-radio-small.jpg" alt="Busy Where's Waldo-style illustration of a park festival with crowds of people, tents labeled "FOOD &amp; DRINK", "CRAFT FAIR", "BOOK NOOK", "MUSIC FEST", and "AMATEUR RADIO CLUB - W6HAM" (featuring a raccoon in a red hat at the radio table), plus a Ferris wheel, carousel, gazebo with band, pond with boats, fountain, food trucks, and striped circus tents" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;That one was pretty obvious, the raccoon is in the "Amateur Radio Club" booth in the center of the image!&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这一张就很明显了，浣熊就在图片正中央的"Amateur Radio Club"（业余无线电俱乐部）展位里！&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;Honestly, this one wasn't really hiding — he's the star of the booth. Feels like the illustrator took pity on us after that last impossible scene. The little "W6HAM" callsign pun on the booth sign is a nice touch too.&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;说实话，这只根本没在躲——它是展位的明星。感觉像是插画师在上一个 impossible 的场景后对我们手下留情了。展位招牌上那个小小的呼号双关"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;W6HAM&lt;/strong&gt;"也是个不错的点缀。&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Honestly, this one wasn't really hiding — he's the star of the booth. Feels like the illustrator took pity on us after that last impossible scene. The little "W6HAM" callsign pun on the booth sign is a nice touch too.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;说实话，这只根本没在躲——它是展位的明星。感觉像是插画师在上一个 impossible 的场景后对我们手下留情了。展位招牌上那个小小的呼号双关"W6HAM"也是个不错的点缀。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I also tried &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Nano Banana Pro&lt;/strong&gt; in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI Studio&lt;/strong&gt; and got this, by far the worst result from any model. Not sure what went wrong here!&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我还在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI Studio&lt;/strong&gt; 中尝试了 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Nano Banana Pro&lt;/strong&gt;，得到了这样的结果，这绝对是所有模型中最差的一个。不确定这里出了什么问题！&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/nano-banana-pro-ham-radio-small.jpg" alt="The raccoon is larger than everyone else, right in the middle of the image with an ugly white border around it." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/nano-banana-pro-ham-radio-small.jpg" alt="The raccoon is larger than everyone else, right in the middle of the image with an ugly white border around it." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;gpt-image-2&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;With the baseline established, let's try out the new model.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;基线已经确定，让我们来试试这个新模型。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I used an updated version of my &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;openai_image.py&lt;/code&gt; script, which is a thin wrapper around the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; Python client library. Their client library hasn't yet been updated to include &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;gpt-image-2&lt;/strong&gt; but thankfully it doesn't validate the model ID so you can use it anyway.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我使用了更新版的 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;openai_image.py&lt;/code&gt; 脚本，它是对 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; Python 客户端库的一个轻量封装。他们的客户端库尚未更新以支持 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;gpt-image-2&lt;/strong&gt;，但好在它不会验证模型 ID，所以你仍然可以使用。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Here's how I ran that:&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我是这样运行的：&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;OPENAI_API_KEY="$(llm keys get openai)"\
+  uv run https://tools.simonwillison.net/python/openai_image.py \
+  -m gpt-image-2 "Do a where's Waldo style image but it's where is the raccoon holding a ham radio"&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;OPENAI_API_KEY="$(llm keys get openai)"\
+  uv run https://tools.simonwillison.net/python/openai_image.py \
+  -m gpt-image-2 "Do a where's Waldo style image but it's where is the raccoon holding a ham radio"&lt;/code&gt;&lt;/pre&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Here's what I got back. I don't think there's a raccoon in there - I couldn't spot one, and neither could Claude.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这是我得到的结果。我觉得里面&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;没有&lt;/strong&gt;浣熊——我没找到，Claude 也没找到。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/gpt-image-2-default.jpg" alt="Lots of stuff, a ham radio booth, many many people, a lake, but maybe no raccoon?" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/gpt-image-2-default.jpg" alt="Lots of stuff, a ham radio booth, many many people, a lake, but maybe no raccoon?" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/gpt-image-2-default.jpg" alt="Lots of stuff, a ham radio booth, many many people, a lake, but maybe no raccoon?" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/gpt-image-2-default.jpg" alt="Lots of stuff, a ham radio booth, many many people, a lake, but maybe no raccoon?" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; image generation cookbook has been updated with notes on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;gpt-image-2&lt;/strong&gt;, including the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;outputQuality&lt;/strong&gt; setting and available sizes.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 的图像生成 Cookbook 已经更新了关于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;gpt-image-2&lt;/strong&gt; 的说明，包括 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;outputQuality&lt;/strong&gt;（输出质量）设置和可用尺寸。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I tried setting &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;outputQuality&lt;/strong&gt; to &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;high&lt;/code&gt; and the dimensions to &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;3840x2160&lt;/code&gt; - I believe that's the maximum - and got this - a 17MB PNG which I converted to a 5MB WEBP:&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我尝试将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;outputQuality&lt;/strong&gt; 设置为 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;high&lt;/code&gt;，并将尺寸设为 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;3840x2160&lt;/code&gt;——我相信这是最大值——然后得到了这张 17MB 的 PNG，我将其转换为了 5MB 的 WEBP：&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;OPENAI_API_KEY="$(llm keys get openai)"\
+  uv run 'https://raw.githubusercontent.com/simonw/tools/refs/heads/main/python/openai_image.py' \
+  -m gpt-image-2 "Do a where's Waldo style image but it's where is the raccoon holding a ham radio" \
+  --quality high --size 3840x2160&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;OPENAI_API_KEY="$(llm keys get openai)"\
+  uv run 'https://raw.githubusercontent.com/simonw/tools/refs/heads/main/python/openai_image.py' \
+  -m gpt-image-2 "Do a where's Waldo style image but it's where is the raccoon holding a ham radio" \
+  --quality high --size 3840x2160&lt;/code&gt;&lt;/pre&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/image-fc93bd-q100.jpg" alt="Big complex image, lots of detail, good wording, there is indeed a raccoon with a ham radio." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/image-fc93bd-q100.jpg" alt="Big complex image, lots of detail, good wording, there is indeed a raccoon with a ham radio." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/image-fc93bd-q100.jpg" alt="Big complex image, lots of detail, good wording, there is indeed a raccoon with a ham radio." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/image-fc93bd-q100.jpg" alt="Big complex image, lots of detail, good wording, there is indeed a raccoon with a ham radio." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;That's pretty great! There's a raccoon with a ham radio in there (bottom left, quite easy to spot).&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这相当不错！里面确实有一只拿着 ham radio（业余无线电）的浣熊（左下角，相当容易找到）。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The image used 13,342 output tokens, which are charged at $30/million so a total cost of around 40 cents.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这张图片消耗了 13,342 个输出 token，按每百万 30 美元计费，总成本约为 40 美分。&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Takeaways&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I think this new &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; image generation model takes the crown from &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemini&lt;/strong&gt;, at least for the moment.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我认为这款新的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; 图像生成模型从 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemini&lt;/strong&gt; 手中夺走了桂冠，至少目前是这样。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Where's Waldo style images are an infuriating and somewhat foolish way to test these models, but they do help illustrate how good they are getting at complex illustrations combining both text and details.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Where's Waldo 风格的图片是一种令人恼火且略显愚蠢的测试方式，但它们确实有助于说明这些模型在结合文字与细节的复杂插画方面已经变得多么出色。&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Update: asking models to solve this is risky&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;rizacoon&lt;/strong&gt; on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hacker News&lt;/strong&gt; asked ChatGPT to draw a red circle around the raccoon in one of the images in which I had failed to find one. Here's an animated mix of their result and the original image:&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;rizacoon&lt;/strong&gt; 在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hacker News&lt;/strong&gt; 上让 ChatGPT 在其中一张我未能找到浣熊的图片里，用红圈把浣熊标出来。以下是他们结果与原图的动态对比：&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/ham-radio-cheat.gif" alt="The circle appears around a raccoon with a ham radio who is definitely not there in the original image!" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/ham-radio-cheat.gif" alt="The circle appears around a raccoon with a ham radio who is definitely not there in the original image!" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/ham-radio-cheat.gif" alt="The circle appears around a raccoon with a ham radio who is definitely not there in the original image!" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;img src="https://static.simonwillison.net/static/2026/ham-radio-cheat.gif" alt="The circle appears around a raccoon with a ham radio who is definitely not there in the original image!" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Looks like we definitely can't trust these models to usefully solve their own puzzles!&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;看来我们绝对不能信任这些模型来有效地解决它们自己出的谜题！&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags: ai, openai, generative-ai, chatgpt, llms, text-to-image, llm-release, nano-banana&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：ai、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;openai&lt;/strong&gt;、generative-ai、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;chatgpt&lt;/strong&gt;、llms、text-to-image、llm-release、nano-banana&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything</guid>
+      <pubDate>Tue, 21 Apr 2026 20:32:24 +0000</pubDate>
     </item>
   </channel>
 </rss>
