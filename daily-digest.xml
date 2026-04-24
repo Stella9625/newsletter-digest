@@ -7,32 +7,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 22 Apr 2026 23:25:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 23:38:17 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-04-22</title>
-      <description>&lt;p&gt;&lt;strong&gt;AI / 产品 / 技术日报&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-04-24</title>
+      <description>&lt;p&gt;&lt;strong&gt;AI 日报 | Claude Code 质量风波复盘、Bluesky 极简推荐架构、SQLite 版 Kafka 问世&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
+&lt;h4&gt;LLM &amp;amp; Agent 系统&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Qwen3.6-27B 以 27B 参数实现旗舰级编码能力&lt;/strong&gt;：阿里发布新一代稠密模型，性能全面超越上一代 397B 规模的 MoE 开源旗舰，55.6GB 量化版可在本地流畅运行，并能高质量完成复杂 SVG 生成等任务。（Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;OpenAI 发布 GPT-Image-2&lt;/strong&gt;：新模型凭借顶尖的图像生成与文本渲染能力横扫各大排行榜；同期 Hugging Face、Kimi 与 Google 分别在自动化研究智能体、开源模型内核优化及深度研究 API 上取得突破。（Latent Space）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;多模态与 AI 智能体密集更新&lt;/strong&gt;：OpenAI 升级 ChatGPT Images 2.0 并推出可全天候自主运行的智能体平台 Hermes；阿里同步发布千亿参数多模态模型 Qwen3.5-Omni，原生支持文本、音频、图像及视频实时处理。（TLDR AI）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Claude Design 实测：亮点与局限并存&lt;/strong&gt;：Claude Design 在营销落地页、幻灯片制作等场景表现亮眼，但因信用额度消耗过快、缺乏精细控制，Figma 等专业工具短期内仍不可替代。（Claire Vo / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claude Code 质量下滑系工程 Bug 所致&lt;/strong&gt;：Anthropic 解释近期 Claude Code 的问题并非出自模型本身，而是工程框架中的三个独立 bug（含会话记忆清除缺陷）；作者提醒，构建 Agent 系统时需重点排查工程层复杂性，而非仅归因于模型非确定性。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;毫秒转换工具&lt;/strong&gt;：针对 LLM 性能报告默认以毫秒显示耗时的痛点，作者开发了一款毫秒转秒/分钟的简易在线工具，提升人工阅读效率。（Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4&gt;产品与增长&lt;/h4&gt;
+&lt;h4&gt;架构与系统工程&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Copilot 个人版收紧高级模型访问&lt;/strong&gt;：GitHub 暂停 Copilot Individual 新用户注册，并将 Claude Opus 4.7 等模型限制在 39 美元/月的 Pro+ 计划；官方解释 AI Agent 工作流大幅推高算力消耗，计费模式正从按请求转向基于 token 的会话限制。（Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Claude Code 定价测试引发信任危机&lt;/strong&gt;：Anthropic 短暂将 Claude Code 从 20 美元/月的 Pro 计划移至 100 美元以上的 Max 档，因缺乏官方沟通遭用户强烈反对；虽已回滚公开页面改动，但品牌信誉已受损害。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Honker：SQLite 上的消息队列扩展&lt;/strong&gt;：该项目通过简洁的 Python API 与 20 余种自定义 SQL 函数，在 SQLite 上实现类 Kafka 的队列与持久化流；核心采用事务性发件箱模式，确保消息仅在事务提交后入队，并支持轮询 WAL 文件实现近实时消费。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bluesky「For You」极简架构&lt;/strong&gt;：该推荐流仅由一台客厅游戏 PC（单 Go 进程 + SQLite）和一台月费 7 美元的 VPS 构成，以每月 30 美元成本服务数万用户，作者预估其足以支撑百万日活。（Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4&gt;工程与系统设计&lt;/h4&gt;
+&lt;h4&gt;内容聚合与深度思考&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Shopify 全面拥抱 AI 的内部工程实践&lt;/strong&gt;：CTO Mikhail Parakhin 透露员工 AI 工具采用率逼近 100%，公司提供不限量 Opus-4.6 token 预算，并构建 Tangle、Tangent、SimGym 三大核心系统；他指出随着 2025 年底模型能力跃升，AI 编码瓶颈已从代码生成转向审查、CI/CD 与部署稳定性。（Latent Space）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mozilla 借 AI 加固 Firefox 安全&lt;/strong&gt;：Mozilla 与 Anthropic 合作，利用 Claude Mythos Preview 对 Firefox 进行安全评估，在 Firefox 150 中修复 271 个漏洞；CTO Bobby Holley 称，这证明专注投入下 AI 可帮助安全防御方 decisively 扭转战局。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;智能体工程模式指南更新&lt;/strong&gt;：本期通讯聚合了《智能体工程模式指南》新章节、多篇博客及技术链接，涵盖智能体工程最新实践与行业动态。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2 万美元征文寻找 AI 重大议题研究伙伴&lt;/strong&gt;：Dwarkesh Patel 设立博客奖金，征集关于 AI 发展速度、基础模型盈利、慈善资金部署及地缘应对策略的千字短文；真实意图是寻找一位合作者，共同研究 AI 经济、政策与超级智能治理。（Dwarkesh Patel）&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-22</guid>
-      <pubDate>Wed, 22 Apr 2026 23:25:27 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-24</guid>
+      <pubDate>Fri, 24 Apr 2026 23:38:17 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -292,41 +292,37 @@
 <div class="container">
   <div class="tabs">
     <button class="tab active" onclick="switchTab('digest')">每日日报</button>
-    <button class="tab" onclick="switchTab('articles')">全部文章 (8)</button>
+    <button class="tab" onclick="switchTab('articles')">全部文章 (6)</button>
   </div>
 
   <!-- 日报 Tab -->
   <div id="tab-digest" class="tab-content active">
-    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">AI编程</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">3</span></div>
-<div class="chart-row"><span class="chart-label">AI安全</span><div class="chart-bar-bg"><div class="chart-bar" style="width:66%;background:#34c759"></div></div><span class="chart-count">2</span></div>
-<div class="chart-row"><span class="chart-label">多模态</span><div class="chart-bar-bg"><div class="chart-bar" style="width:66%;background:#ff9500"></div></div><span class="chart-count">2</span></div>
-<div class="chart-row"><span class="chart-label">Shopify</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#af52de"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">企业AI</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">AI基础设施</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">通义千问</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">代码生成</span><div class="chart-bar-bg"><div class="chart-bar" style="width:33%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
+    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">AI发展</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">AI商业化</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">AI治理</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">博客奖金</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">时间换算</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">单位转换</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">实用工具</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">通讯</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
-      <h2>2026-04-22 日报</h2>
-      <p><strong>AI / 产品 / 技术日报</strong></p>
+      <h2>2026-04-24 日报</h2>
+      <p><strong>AI 日报 | Claude Code 质量风波复盘、Bluesky 极简推荐架构、SQLite 版 Kafka 问世</strong></p>
 <hr>
-<h4>LLM &amp; AI 工具</h4>
+<h4>LLM &amp; Agent 系统</h4>
 <ul>
-<li><strong>Qwen3.6-27B 以 27B 参数实现旗舰级编码能力</strong>：阿里发布新一代稠密模型，性能全面超越上一代 397B 规模的 MoE 开源旗舰，55.6GB 量化版可在本地流畅运行，并能高质量完成复杂 SVG 生成等任务。（Simon Willison）</li>
-<li><strong>OpenAI 发布 GPT-Image-2</strong>：新模型凭借顶尖的图像生成与文本渲染能力横扫各大排行榜；同期 Hugging Face、Kimi 与 Google 分别在自动化研究智能体、开源模型内核优化及深度研究 API 上取得突破。（Latent Space）</li>
-<li><strong>多模态与 AI 智能体密集更新</strong>：OpenAI 升级 ChatGPT Images 2.0 并推出可全天候自主运行的智能体平台 Hermes；阿里同步发布千亿参数多模态模型 Qwen3.5-Omni，原生支持文本、音频、图像及视频实时处理。（TLDR AI）</li>
-<li><strong>Claude Design 实测：亮点与局限并存</strong>：Claude Design 在营销落地页、幻灯片制作等场景表现亮眼，但因信用额度消耗过快、缺乏精细控制，Figma 等专业工具短期内仍不可替代。（Claire Vo / Lenny&#x27;s Newsletter）</li>
+<li><strong>Claude Code 质量下滑系工程 Bug 所致</strong>：Anthropic 解释近期 Claude Code 的问题并非出自模型本身，而是工程框架中的三个独立 bug（含会话记忆清除缺陷）；作者提醒，构建 Agent 系统时需重点排查工程层复杂性，而非仅归因于模型非确定性。（Simon Willison）</li>
+<li><strong>毫秒转换工具</strong>：针对 LLM 性能报告默认以毫秒显示耗时的痛点，作者开发了一款毫秒转秒/分钟的简易在线工具，提升人工阅读效率。（Simon Willison）</li>
 </ul>
-<hr>
-<h4>产品与增长</h4>
+<h4>架构与系统工程</h4>
 <ul>
-<li><strong>GitHub Copilot 个人版收紧高级模型访问</strong>：GitHub 暂停 Copilot Individual 新用户注册，并将 Claude Opus 4.7 等模型限制在 39 美元/月的 Pro+ 计划；官方解释 AI Agent 工作流大幅推高算力消耗，计费模式正从按请求转向基于 token 的会话限制。（Simon Willison）</li>
-<li><strong>Claude Code 定价测试引发信任危机</strong>：Anthropic 短暂将 Claude Code 从 20 美元/月的 Pro 计划移至 100 美元以上的 Max 档，因缺乏官方沟通遭用户强烈反对；虽已回滚公开页面改动，但品牌信誉已受损害。（Simon Willison）</li>
+<li><strong>Honker：SQLite 上的消息队列扩展</strong>：该项目通过简洁的 Python API 与 20 余种自定义 SQL 函数，在 SQLite 上实现类 Kafka 的队列与持久化流；核心采用事务性发件箱模式，确保消息仅在事务提交后入队，并支持轮询 WAL 文件实现近实时消费。（Simon Willison）</li>
+<li><strong>Bluesky「For You」极简架构</strong>：该推荐流仅由一台客厅游戏 PC（单 Go 进程 + SQLite）和一台月费 7 美元的 VPS 构成，以每月 30 美元成本服务数万用户，作者预估其足以支撑百万日活。（Simon Willison）</li>
 </ul>
-<hr>
-<h4>工程与系统设计</h4>
+<h4>内容聚合与深度思考</h4>
 <ul>
-<li><strong>Shopify 全面拥抱 AI 的内部工程实践</strong>：CTO Mikhail Parakhin 透露员工 AI 工具采用率逼近 100%，公司提供不限量 Opus-4.6 token 预算，并构建 Tangle、Tangent、SimGym 三大核心系统；他指出随着 2025 年底模型能力跃升，AI 编码瓶颈已从代码生成转向审查、CI/CD 与部署稳定性。（Latent Space）</li>
-<li><strong>Mozilla 借 AI 加固 Firefox 安全</strong>：Mozilla 与 Anthropic 合作，利用 Claude Mythos Preview 对 Firefox 进行安全评估，在 Firefox 150 中修复 271 个漏洞；CTO Bobby Holley 称，这证明专注投入下 AI 可帮助安全防御方 decisively 扭转战局。（Simon Willison）</li>
+<li><strong>智能体工程模式指南更新</strong>：本期通讯聚合了《智能体工程模式指南》新章节、多篇博客及技术链接，涵盖智能体工程最新实践与行业动态。（Simon Willison）</li>
+<li><strong>2 万美元征文寻找 AI 重大议题研究伙伴</strong>：Dwarkesh Patel 设立博客奖金，征集关于 AI 发展速度、基础模型盈利、慈善资金部署及地缘应对策略的千字短文；真实意图是寻找一位合作者，共同研究 AI 经济、政策与超级智能治理。（Dwarkesh Patel）</li>
 </ul>
     </div>
   </div>
@@ -334,831 +330,408 @@
   <!-- 文章 Tab -->
   <div id="tab-articles" class="tab-content">
     <div class="article-card">
-      <div class="source">Latent Space</div>
+      <div class="source">Dwarkesh Patel</div>
       <div class="title-row">
-        <div class="title">Shopify的AI转型：2026用量爆发、无限Token预算与三大核心系统</div>
+        <div class="title">AI重大问题博客征文奖</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">Shopify’s AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget, Tangle, Tangent, SimGym — with Mikhail Parakhin, Shopify CTO</div>
-      <div class="tags"><span class="tag">Shopify</span><span class="tag">企业AI</span><span class="tag">AI编程</span><span class="tag">AI基础设施</span></div>
-      <div class="summary">Shopify CTO Mikhail Parakhin 近日分享了该公司全面拥抱AI的内部实践，包括员工AI工具采用率逼近100%、不设上限的Opus-4.6 token预算，以及Tangle、Tangent和SimGym三大核心系统；他指出，随着模型能力在2025年12月发生质的飞跃，AI编码的真正瓶颈已从代码生成转向审查、CI/CD与部署稳定性。</div>
+      <div class="title-en">Blog prize for the big questions about AI</div>
+      <div class="tags"><span class="tag">AI发展</span><span class="tag">AI商业化</span><span class="tag">AI治理</span><span class="tag">博客奖金</span></div>
+      <div class="summary">作者宣布设立2万美元博客征文奖，征集关于AI发展速度、基础模型盈利、巨额慈善资金部署及非AI国家应对策略等重大问题的千字短文；此举的真正目的是寻找一位研究合作者，与其共同深入探索这些关乎经济、政策与超级智能治理的关键议题。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">why the real bottleneck in AI coding is no longer generation, but review, CI/CD, and deployment stability</div><div class="quote-zh">AI编码的真正瓶颈已不再是代码生成，而是代码审查、CI/CD和部署稳定性。</div></div>
-<div class="quote-block"><div class="quote-en">Why Git, pull requests, and CI/CD may need a new metaphor once code is written at machine speed.</div><div class="quote-zh">一旦代码以机器速度被编写，Git、拉取请求和CI/CD或许需要一种全新的隐喻。</div></div>
+<div class="quote-block"><div class="quote-en">There has never been a time where excellent intellectual output on the right question has been more valuable or more urgent.</div><div class="quote-zh">在正确的问题上产出卓越的思想成果，从未像今天这样有价值、这样紧迫。</div></div>
+<div class="quote-block"><div class="quote-en">People have the habit of spending the first paragraphs clearing their throat - avoid that.</div><div class="quote-zh">人们总爱在开头几段清清嗓子——别这么干。</div></div>
 </div>
-      <div class="translation"></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://www.latent.space/p/shopify" target="_blank">阅读原文 &rarr;</a>
-    </div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Blog prize for the big questions about AI</h3>
 
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">Qwen3.6-27B：27B稠密模型的旗舰级编程表现</div>
-        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
-      </div>
-      <div class="title-en">Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model</div>
-      <div class="tags"><span class="tag">通义千问</span><span class="tag">代码生成</span><span class="tag">本地部署</span></div>
-      <div class="summary">Qwen3.6-27B 以仅27B参数的轻量稠密模型实现了旗舰级编码性能，全面超越上一代397B规模的MoE开源旗舰；该模型体积大幅缩减至55.6GB，可在本地以量化版本流畅运行，并能高质量完成复杂SVG生成等任务。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">On Hugging Face Qwen3.5-397B-A17B is 807GB, this new Qwen3.6-27B is 55.6GB.</div><div class="quote-zh">在 Hugging Face 上，Qwen3.5-397B-A17B 有 807GB，而这款新的 Qwen3.6-27B 只有 55.6GB。</div></div>
-<div class="quote-block"><div class="quote-en">Here&#x27;s the transcript for &quot;Generate an SVG of a pelican riding a bicycle&quot;. This is an outstanding result for a 16.8GB local model:</div><div class="quote-zh">这是&quot;生成一只鹈鹕骑自行车的 SVG&quot;的完整记录。对于一款 16.8GB 的本地模型来说，这个结果非常出色：</div></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+There has never been a time where excellent intellectual output on the right question has been more valuable or more urgent. Compelling answers about the big questions about AI can inform the most important economic and foreign policy decisions that will ever be made, the deployment of (at least)hundreds of billionsof philanthropic dollars, and the training and governance of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">superintelligences</strong>.
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model</h3>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Qwen3.6-27B：27B 密集模型中的旗舰级编码能力</p>
-
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-Qwen3.6-27B delivers flagship-level agentic coding performance, surpassing the previous-generation open-source flagship Qwen3.5-397B-A17B (397B total / 17B active MoE) across all major coding benchmarks.
-</blockquote>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.6-27B</strong> 实现了旗舰级的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic coding</strong>（agentic 编码）性能，在所有主流编码基准测试中均超越了上一代开源旗舰模型 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.5-397B-A17B</strong>（总参数量 397B / 激活参数量 17B 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MoE</strong> 模型）。
+当下，针对正确问题的卓越思想产出从未如此宝贵且紧迫。关于 AI 宏大问题（big questions）的有力回答，能够为有史以来最重要的经济与外交政策决策提供参考，能够影响（至少）数千亿慈善资金的部署，并关乎<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">超级智能（superintelligences）</strong>的训练与治理。
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Qwen3.6-27B delivers flagship-level agentic coding performance, surpassing the previous-generation open-source flagship <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.5-397B-A17B</strong> (397B total / 17B active <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MoE</strong>) across all major coding benchmarks.
+I’m announcing a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">$20,000 blog prize</strong> in order to find people who will excel at researching and thinking through these problems. The not-so-secret point of this whole contest is so that I can hire a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">research collaborator</strong> to think through questions like this hand in hand with me. See more at the end.
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.6-27B</strong> 实现了旗舰级的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic coding</strong>（agentic 编码）性能，在所有主流编码基准测试中均超越了上一代开源旗舰模型 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.5-397B-A17B</strong>（总参数量 397B / 激活参数量 17B 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MoE</strong> 模型）。
+我宣布设立一笔<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">2 万美元博客奖金（$20,000 blog prize）</strong>，以寻找那些擅长研究并深入思考这些问题的人才。这场竞赛的“公开秘密”在于，我希望借此聘请一位<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">研究合作者（research collaborator）</strong>，与我携手共同探讨这类问题。更多详情见文末。
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-On <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hugging Face</strong>Qwen3.5-397B-A17Bis 807GB, this newQwen3.6-27Bis 55.6GB.
+Pick a question below, and spend no more than 1,000 words answering it. <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">1st, 2nd, and 3rd place</strong> will get $10,000, $6,000, and $4,000 respectively. I’ll publish the winning entry (and potentially the runner ups) on my blog. Please submit by May 10th, 11:59 PM PST.
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hugging Face</strong> 上，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.5-397B-A17B</strong> 的体积为 807GB，而新款 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen3.6-27B</strong> 仅为 55.6GB。
+从下方选择一个问题，用不超过 1000 字的篇幅作答。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">第一名、第二名和第三名（1st, 2nd, and 3rd place）</strong>将分别获得 1 万美元、6000 美元和 4000 美元。我会将获奖文章（以及可能的入围作品）发布在我的博客上。请在太平洋标准时间（PST）5 月 10 日晚 11:59 前提交。
+</p>
+
+<h3 style="margin:24px 0 12px;">Questions - choose one</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <ul style="margin:0;padding-left:20px;">
+    <li>A couple years ago, there was this idea that AI progress might slow down as we make further progress into the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">RL regime</strong>. 1. Because as horizon lengths increase, the AI needs to do many days’ worth of work before we can even see if it did it right, so if we’re still in a naive policy gradient world, the reward signal / <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FLOP</strong> goes down, and 2. We’d crossed through many <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OOMs</strong> of RL compute from GPT 4 to o1 to o3, and it would not be feasible to replicate that many OOMs increase in compute immediately again. But AI progress seems to have been fast nonetheless - even potentially speeding up if rumors about <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Spud</strong> or Mythos are to be believed. What gives? What did that previous intuition pump that motivated longer timelines miss?</li>
+  </ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+几年前，人们曾有一种观点：随着我们在<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">强化学习阶段（RL regime）</strong>中不断深入，AI 的进展可能会放缓。理由有二：1. 随着视界长度（horizon lengths）增加，AI 需要完成多日工作量后，我们才能判断其是否正确完成，因此如果我们仍处于朴素的策略梯度（policy gradient）时代，奖励信号 /<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">浮点运算次数（FLOP）</strong>会下降；2. 从 GPT-4 到 o1 再到 o3，我们已经跨越了多个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">数量级（OOMs, Orders of Magnitude）</strong>的 RL 计算量，短期内再次复制如此多数量级的算力增长是不可行的。但尽管如此，AI 的进步似乎依然迅速——如果关于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Spud</strong> 或 Mythos 的传闻属实，甚至可能还在加速。这是怎么回事？当初支撑更长 timelines 预期的那个直觉泵（intuition pump）遗漏了什么？
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-I tried it out with the 16.8GB <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Unsloth</strong>Qwen3.6-27B-GGUF:<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Q4_K_M</strong>quantized version and<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llama-server</strong>using this recipe by<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">benob</strong> on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong>, after first installingllama-serverusingbrew install llama.cpp:
+  <ul style="margin:0;padding-left:20px;">
+    <li>What’s the most plausible story where <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">foundation model</strong> companies actually start making money? If you consider each individual model as a company, then its profitsmaybe able to pay back the training cost. But of course, if you don’t train a bigger, more expensive model immediately, then you stop making money after 3 months. So when does the profit start? Maybe at some point <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">scaling</strong> will plateau, butif progress at the frontierhas slowed down, then the combination of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">distillation</strong> and low switching costs (cloud margins result from high switching costs) makes it really easy for open source to catch up to the labs, eating into their margins. So how do the labs actually start making money?</li>
+  </ul>
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我使用了 16.8GB 的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Unsloth</strong> Qwen3.6-27B-GGUF <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Q4_K_M</strong> 量化版本和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llama-server</strong> 进行了测试，配置参考了 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong> 上 benob 分享的方案。在此之前，我先通过 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">brew install llama.cpp</code> 安装了 llama-server：
-</p>
-
-<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>llama-server \
-    -hf unsloth/Qwen3.6-27B-GGUF:Q4_K_M \
-    --no-mmproj \
-    --fit on \
-    -np 1 \
-    -c 65536 \
-    --cache-ram 4096 -ctxcp 2 \
-    --jinja \
-    --temp 0.6 \
-    --top-p 0.95 \
-    --top-k 20 \
-    --min-p 0.0 \
-    --presence-penalty 0.0 \
-    --repeat-penalty 1.0 \
-    --reasoning on \
-    --chat-template-kwargs '{"preserve_thinking": true}'</code></pre>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-On first run that saved the ~17GB model to~/.cache/huggingface/hub/models--unsloth--Qwen3.6-27B-GGUF.
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-首次运行后，这个约 17GB 的模型被保存到了 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">~/.cache/huggingface/hub/models--unsloth--Qwen3.6-27B-GGUF</code>。
+基础模型公司真正开始盈利的最可信路径是什么？如果你把每一个单独的模型视为一家公司，那么它的利润或许能够回本。但当然，如果你不立即训练一个更大、更昂贵的模型，3 个月后你就会停止盈利。那么利润从何时开始？也许在某个时刻，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">规模扩展（scaling）</strong>会触及平台期，但如果前沿进展放缓，那么<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">知识蒸馏（distillation）</strong>与低切换成本（云服务商的利润正来自于高切换成本）的结合，会让开源模型轻易追上实验室的水平，侵蚀它们的利润。那么这些实验室究竟如何才能真正赚钱？
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Here'sthe transcriptfor "Generate an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SVG</strong> of a pelican riding a bicycle". This is anoutstandingresult for a 16.8GB local model:
+  <ul style="margin:0;padding-left:20px;">
+    <li>With <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>’s new raise at an $852B valuation, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI Foundation</strong>’s stake isnow worth $180B. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>’scofounders have pledged to donate 80%of their wealth. Nobody seems to have a concrete idea of how to deploy 100s of billions (soon trillions) of wealth productively to “make AI go well”. If you were in charge of the OpenAI Foundation right now, what exactly would you do? And when? It’s not enough to identify a cause you think is important, because that doesn’t answer the fundamental problem ofhow you convert money to impact. Identify the concrete strategy you recommend pursuing.</li>
+  </ul>
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-以下是生成“一只鹈鹕骑自行车的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SVG</strong>”的对话记录。对于一个 16.8GB 的本地模型来说，这个结果非常出色：
-</p>
-
-<img src="https://static.simonwillison.net/static/2026/Qwen3.6-27B-GGUF-Q4_K_M.png" alt="Bicycle has spokes, a chain and a correctly shaped frame. Handlebars are a bit detached. Pelican has wing on the handlebars, weirdly bent legs that touch the pedals and a good bill. Background details are pleasant - semi-transparent clouds, birds, grass, sun." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<img src="https://static.simonwillison.net/static/2026/Qwen3.6-27B-GGUF-Q4_K_M.png" alt="Bicycle has spokes, a chain and a correctly shaped frame. Handlebars are a bit detached. Pelican has wing on the handlebars, weirdly bent legs that touch the pedals and a good bill. Background details are pleasant - semi-transparent clouds, birds, grass, sun." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Performance numbers reported by<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llama-server</strong>:
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llama-server</strong> 报告的性能数据：
+随着 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 以 8520 亿美元估值完成新一轮融资，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI 基金会（OpenAI Foundation）</strong>持有的股份现价值 1800 亿美元。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 的联合创始人已承诺捐赠其 80% 的财富。目前似乎没有人对如何 productive 地部署数千亿（很快将是数万亿）财富以“让 AI 健康发展”有具体思路。如果你现在掌管 OpenAI 基金会，你具体会做什么？何时做？仅仅指出你认为重要的事业是不够的，因为这并没有回答如何将资金转化为实际影响力的根本问题。请明确你建议采取的具体策略。
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;">
-<li>Reading: 20 tokens, 0.4s, 54.32 tokens/s</li>
-<li>Generation: 4,444 tokens, 2min 53s, 25.57 tokens/s</li>
-</ul>
+  <ul style="margin:0;padding-left:20px;">
+    <li>What should countries which are not currently in the AI production chain (semis, energy, frontier models, robotics) do in order to not get totally sidestepped by <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">transformative AI</strong>? If you’re the leader of <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">India</strong> or <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Nigeria</strong>, what do you do right now?</li>
+  </ul>
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-- 读取：20 个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">token</strong>，0.4 秒，54.32 token/秒<br/>
-- 生成：4,444 个 token，2 分 53 秒，25.57 token/秒
+那些目前尚未处于 AI 生产链（半导体、能源、前沿模型、机器人）中的国家，应该采取什么措施，才能不被<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">变革性人工智能（transformative AI）</strong>完全绕过或边缘化？如果你是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">印度（India）</strong>或 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">尼日利亚（Nigeria）</strong>的领导人，你现在会怎么做？
+</p>
+
+<h3 style="margin:24px 0 12px;">Rules and tips</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <ul style="margin:0;padding-left:20px;">
+    <li>Please don’t let a lack of domain expertise dissuade you from entering. I’m looking for someone who can ramp up fast on unfamiliar topics and think clearly.</li>
+  </ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+请不要因缺乏领域专业知识而却步。我需要的是能够快速熟悉陌生话题并保持清晰思考的人。
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-For good measure, here'sGenerate an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SVG</strong> of a NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER(run previouslywith <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GLM-5.1</strong>):
+  <ul style="margin:0;padding-left:20px;">
+    <li>Each entrant may submit only once.</li>
+  </ul>
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-作为补充，这里还有生成“一只北弗吉尼亚负鼠骑电动滑板车（NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER）”的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SVG</strong> 的测试（此前曾用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GLM-5.1</strong> 运行过）：
-</p>
-
-<img src="https://static.simonwillison.net/static/2026/qwen3.6-27b-possum.jpg" alt="Digital illustration in a neon Tron-inspired style of a grey cat-like creature wearing cyan visor goggles riding a glowing cyan futuristic motorcycle through a dark cityscape at night, with its long tail trailing behind, silhouetted buildings with yellow-lit windows in the background, and a glowing magenta moon on the right." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<img src="https://static.simonwillison.net/static/2026/qwen3.6-27b-possum.jpg" alt="Digital illustration in a neon Tron-inspired style of a grey cat-like creature wearing cyan visor goggles riding a glowing cyan futuristic motorcycle through a dark cityscape at night, with its long tail trailing behind, silhouetted buildings with yellow-lit windows in the background, and a glowing magenta moon on the right." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-That one took 6,575 tokens, 4min 25s, 24.74 t/s.
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-这次生成消耗了 6,575 个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">token</strong>，耗时 4 分 25 秒，速度为 24.74 token/秒。
+每位参赛者只能提交一次。
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Via<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong>
+  <ul style="margin:0;padding-left:20px;">
+    <li>You are still eligible for this essay competition even if you’re not interested in the researcher role. Nor does winning this competition guarantee that you will be offered the role.</li>
+  </ul>
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-来源：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong>
+即使你对研究员职位不感兴趣，你仍然有资格参加本次征文竞赛。此外，赢得竞赛并不保证你会获得该职位。
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags:ai,generative-ai,local-llms,llms,qwen,pelican-riding-a-bicycle,llama-cpp,llm-release,ai-in-china
+  <ul style="margin:0;padding-left:20px;">
+    <li>You’re welcome to use <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLMs</strong> to help you research, but I specifically picked these questions because I’ve found LLM answers to them unsatisfying. On these kinds of ambiguous questions, LLMs are too all over the place. For example, they’ll identify 5 plausible answers but not have the context and taste to identify the crucial factor and iron out its implications.</li>
+  </ul>
 </div>
-
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：ai, generative-ai, local-llms, llms, qwen, pelican-riding-a-bicycle, llama-cpp, llm-release, ai-in-china
+欢迎使用<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">大语言模型（LLMs）</strong>辅助研究，但我专门挑选这些问题，正是因为我发现 LLM 给出的答案并不令人满意。在这类模棱两可的问题上，LLM 的回答往往过于分散。例如，它们可能会列出 5 个看似合理的答案，但却缺乏背景和判断力去识别关键因素并梳理其影响。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <ul style="margin:0;padding-left:20px;">
+    <li>You only have 1000 words - make them count. People have the habit ofspending the first paragraphs clearing their throat- avoid that.</li>
+  </ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+你只有 1000 字——务必物尽其用。人们常常习惯在开头几段铺垫寒暄，请避免这种做法。
+</p>
+
+<h3 style="margin:24px 0 12px;">Why am I hiring for a researcher?</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+I want my podcast/blog to move from just asking questions about AI to actually helping answer them. But there are too many important questions, and I need a collaborator to build up context on them all, to explore dozens of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">fractal sub-questions</strong>, to consider the rebuttals and syntheses, and to sharpen each others thinking.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+我希望自己的播客/博客能从仅仅提出 AI 问题，转向真正帮助回答问题。但重要的问题太多了，我需要一个合作者来建立全局背景知识，探索数十个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">分形子问题（fractal sub-questions）</strong>，思考各种反驳与综合，并相互磨砺思维。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+The questions I want us to explore are very broad while at the same time requiring deep technical analysis across many domains to actually answer.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+我们想要探索的问题非常宽泛，同时又需要跨多个领域进行深入的技术分析才能真正回答。
+</p>
+
+<h3 style="margin:24px 0 12px;">Why am I hiring this way?</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Well, I could just put out a job ad for a researcher, but I’ll get 1,000 different resumes, and I’ll have no clue based on that information whether the applicant would be any good at synthesizing lots of technical arguments and information. So I thought, let’s just list out some questions where I genuinely don’t know the answer and would be keen to get some insight.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+好吧，我也可以直接发布一份研究员招聘广告，但我会收到 1000 份不同的简历，而我无法从中判断应聘者是否擅长综合大量技术论点与信息。于是我想，不如直接列出一些我自己也真心不知道答案、并且渴望获得见解的问题。
+</p>
+
+<h3 style="margin:24px 0 12px;">What this role looks like</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <ul style="margin:0;padding-left:20px;">
+    <li>Ideally in person in San Francisco, but potentially open to remote.</li>
+  </ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+理想情况下在旧金山线下工作，但也可考虑远程。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <ul style="margin:0;padding-left:20px;">
+    <li>Will pay competitively</li>
+  </ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+薪酬具有竞争力。
+</p>
+
+<h3 style="margin:24px 0 12px;">Submit here</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+If you have questions or comments, I’m hello@dwarkeshpatel.com.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+如有问题或评论，请发邮件至 hello@dwarkeshpatel.com。
 </p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Lenny&#x27;s Newsletter</div>
-      <div class="title-row">
-        <div class="title">Claude Design 究竟适合做什么（以及为什么 Figma 还没死）</div>
-        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
-      </div>
-      <div class="title-en">What Claude Design is actually good for (and why Figma isn’t dead yet)</div>
-      <div class="tags"><span class="tag">AI设计</span><span class="tag">Figma</span><span class="tag">工具评测</span></div>
-      <div class="summary">作者通过实测Claude Design、ChatGPT Images 2.0等AI设计工具发现，Claude Design在营销落地页、幻灯片制作和创意重设计方面表现亮眼，但因存在信用额度消耗过快、精细控制不足等现实局限，Figma等专业工具目前仍无法被完全取代。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Hitting the Claude Design limit and paying $200 to keep going</div><div class="quote-zh">撞到 Claude Design 的使用上限，然后花 200 美元才能继续用下去</div></div>
-<div class="quote-block"><div class="quote-en">The practical limits of AI design tools (spoiler: you’ll hit credit limits fast)</div><div class="quote-zh">AI 设计工具的实际限制（剧透：你很快就会用完积分额度）</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">What Claude Design is actually good for (and why Figma isn’t dead yet)</h3>
-<h3 style="margin:24px 0 12px;">Claude Design 的真正擅长之处（以及 Figma 为何尚未消亡）</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">In this mini episode, I do a full walkthrough of the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI design tools</strong> that dropped in April 2026: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>’s new <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Design</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>’s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT Images 2.0</strong>, and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google Labs</strong>’ open-source <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DESIGN.md</strong> format. I import a full design system from Lenny’s Newsletter, build a landing page, turn my own article into a polished deck, generate a brand kit for <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatPRD</strong>, and run a personal color analysis from a photo.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在本期迷你节目中，我完整演示了 2026 年 4 月发布的几款 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 设计工具</strong>：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 推出的全新 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Design</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT Images 2.0</strong>，以及 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google Labs</strong> 开源的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DESIGN.md</strong> 格式。我从 Lenny's Newsletter 导入了一套完整的 design system（设计系统），搭建了一个 landing page（落地页），将自己的文章转换成精美的演示文稿，为 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatPRD</strong> 生成了一套 brand kit（品牌套件），还通过一张照片完成了个人色彩分析。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Listen or watch onYouTube,Spotify, orApple Podcasts</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">可在 YouTube、Spotify 或 Apple Podcasts 上收听或观看。</p>
-
-<h3 style="margin:24px 0 12px;">What you’ll learn:</h3>
-<h3 style="margin:24px 0 12px;">你将学到：</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;">
-<li>How <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Design</strong> handles design system imports and whether it can actually replace <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Figma</strong></li>
-<li>How Claude Design handles design system imports and whether it can actually replace Figma</li>
-<li>The three best use cases for Claude Design: marketing <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">landing pages</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">slide decks</strong>, and creative redesigns</li>
-<li>The three best use cases for Claude Design: marketing landing pages, slide decks, and creative redesigns</li>
-<li>Why <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatGPT</strong> Images 2.0 is a breakthrough for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">brand kits</strong> and layout work</li>
-<li>Why ChatGPT Images 2.0 is a breakthrough for brand kits and layout work</li>
-<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong>’s new <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DESIGN.md</strong> standard</li>
-<li>Google’s new DESIGN.md standard</li>
-<li>The practical limits of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI design tools</strong> (spoiler: you’ll hit credit limits fast)</li>
-<li>The practical limits of AI design tools (spoiler: you’ll hit credit limits fast)</li>
-</ul>
-</div>
-<div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<ul style="margin:0;padding-left:20px;">
-<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Design</strong> 如何处理 design system（设计系统）导入，以及它是否真能取代 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Figma</strong></li>
-<li>Claude Design 如何处理设计系统导入，以及它是否真能取代 Figma</li>
-<li>Claude Design 的三大最佳使用场景：营销 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">landing page（落地页）</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">slide deck（幻灯片）</strong>和创意重设计</li>
-<li>Claude Design 的三大最佳使用场景：营销落地页、幻灯片和创意重设计</li>
-<li>为何 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatGPT</strong> Images 2.0 在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">brand kit（品牌套件）</strong>和排版布局方面实现了突破</li>
-<li>为何 ChatGPT Images 2.0 在品牌套件和排版布局方面实现了突破</li>
-<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> 全新的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DESIGN.md</strong> 标准</li>
-<li>Google 全新的 DESIGN.md 标准</li>
-<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 设计工具</strong>的实际限制（剧透：你会很快用完积分额度）</li>
-<li>AI 设计工具的实际限制（剧透：你会很快用完积分额度）</li>
-</ul>
-</div>
-
-<h3 style="margin:24px 0 12px;">Brought to you by:</h3>
-<h3 style="margin:24px 0 12px;">本期赞助商：</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<img src="https://substackcdn.com/image/fetch/$s_!q_C_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5485639-23cc-48c0-bf8f-64127c7533cb_1600x114.png" alt="Sponsor banner" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">WorkOS</strong>—Make your app enterprise-ready today<br/>
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rippling</strong>—Stop wasting time on admin tasks, build your startup faster
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<img src="https://substackcdn.com/image/fetch/$s_!q_C_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5485639-23cc-48c0-bf8f-64127c7533cb_1600x114.png" alt="赞助商横幅" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">WorkOS</strong>——让你的应用即刻满足企业级需求<br/>
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rippling</strong>——告别繁琐的行政事务，更快搭建你的创业公司
-</p>
-
-<h3 style="margin:24px 0 12px;">In this episode, we cover:</h3>
-<h3 style="margin:24px 0 12px;">本期内容涵盖：</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;">
-<li>(00:00) Welcome and what’s in the spring 2026 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI design</strong> drop</li>
-<li>(01:45) <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Design</strong> overview</li>
-<li>(03:05) Importing Lenny’s Newsletter <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">design system</strong> into Claude Design</li>
-<li>(04:06) How Claude Design structures a design system</li>
-<li>(05:42) <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google Labs</strong>’ <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DESIGN.md</strong> standard</li>
-<li>(06:41) Building Lenny Doc, a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PRD</strong> generator landing page using the Lenny design system</li>
-<li>(09:44) Why the three-variation output is Claude Design’s smartest <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">UX</strong> choice</li>
-<li>(10:20) Hitting the Claude Design limit and paying $200 to keep going</li>
-<li>(11:05) Where <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Figma</strong> still wins</li>
-<li>(13:20) Reviewing Lenny Doc</li>
-<li>(16:19) Turning an Open Claude article into a branded slide deck</li>
-<li>(17:57) The ’90s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GeoCities</strong> “Lenny’s Product Zone” redesign</li>
-<li>(19:44) Claude Design recap</li>
-<li>(20:15) <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatGPT</strong> Images 2.0 and what makes it the first “thinking” image model</li>
-<li>(21:25) Generating a multi-page brand kit for <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatPRD</strong> and iterating with reference images</li>
-<li>(23:43) Personal color analysis demo</li>
-<li>(26:02) Recap</li>
-</ul>
-</div>
-<div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<ul style="margin:0;padding-left:20px;">
-<li>(00:00) 开场及 2026 年春季 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 设计</strong>新品概览</li>
-<li>(01:45) <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Design</strong> 概览</li>
-<li>(03:05) 将 Lenny's Newsletter 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">design system（设计系统）</strong>导入 Claude Design</li>
-<li>(04:06) Claude Design 如何结构化设计系统</li>
-<li>(05:42) <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google Labs</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DESIGN.md</strong> 标准</li>
-<li>(06:41) 搭建 Lenny Doc：使用 Lenny 设计系统的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PRD（产品需求文档）</strong>生成器落地页</li>
-<li>(09:44) 为何输出三个变体是 Claude Design 最明智的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">UX（用户体验）</strong>设计</li>
-<li>(10:20) 触及 Claude Design 使用上限并支付 200 美元以继续使用</li>
-<li>(11:05) <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Figma</strong> 仍然占优的地方</li>
-<li>(13:20) 回顾 Lenny Doc</li>
-<li>(16:19) 将一篇 Open Claude 文章转换为品牌化幻灯片</li>
-<li>(17:57) 90 年代 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GeoCities</strong> 风格的 "Lenny's Product Zone" 重设计</li>
-<li>(19:44) Claude Design 总结</li>
-<li>(20:15) <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatGPT</strong> Images 2.0：为何它是首个具备"思考"能力的图像模型</li>
-<li>(21:25) 为 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatPRD</strong> 生成多页品牌套件（brand kit）并通过参考图迭代</li>
-<li>(23:43) 个人色彩分析演示</li>
-<li>(26:02) 总结回顾</li>
-</ul>
-</div>
-
-<h3 style="margin:24px 0 12px;">Tools referenced:</h3>
-<h3 style="margin:24px 0 12px;">提到的工具：</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;">
-<li>Claude Design: https://claude.ai/design</li>
-<li>ChatGPT Images 2.0: https://openai.com/index/introducing-chatgpt-images-2-0/</li>
-<li>Midjourney: https://www.midjourney.com/</li>
-</ul>
-</div>
-<div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<ul style="margin:0;padding-left:20px;">
-<li>Claude Design：https://claude.ai/design</li>
-<li>ChatGPT Images 2.0：https://openai.com/index/introducing-chatgpt-images-2-0/</li>
-<li>Midjourney：https://www.midjourney.com/</li>
-</ul>
-</div>
-
-<h3 style="margin:24px 0 12px;">Other references:</h3>
-<h3 style="margin:24px 0 12px;">其他参考：</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;">
-<li>Google’s DESIGN.md: https://stitch.withgoogle.com/docs/design-md/overview</li>
-<li>Lenny’s Newsletter: https://www.lennysnewsletter.com/</li>
-<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jamie Gannon</strong> “How I AI” episode on reference styles: https://www.lennysnewsletter.com/p/mastering-midjourney-how-to-create</li>
-<li>Brand prompt inspiration: https://x.com/riomadeit/status/2046682442791071787</li>
-<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Figma</strong> team “How I AI” episode on design systems: https://www.lennysnewsletter.com/p/from-figma-to-claude-code-and-back</li>
-</ul>
-</div>
-<div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<ul style="margin:0;padding-left:20px;">
-<li>Google 的 DESIGN.md：https://stitch.withgoogle.com/docs/design-md/overview</li>
-<li>Lenny's Newsletter：https://www.lennysnewsletter.com/</li>
-<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jamie Gannon</strong> 的 "How I AI" 参考风格一期节目：https://www.lennysnewsletter.com/p/mastering-midjourney-how-to-create</li>
-<li>品牌提示词灵感：https://x.com/riomadeit/status/2046682442791071787</li>
-<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Figma</strong> 团队的 "How I AI" 设计系统一期节目：https://www.lennysnewsletter.com/p/from-figma-to-claude-code-and-back</li>
-</ul>
-</div>
-
-<h3 style="margin:24px 0 12px;">Where to find Claire Vo:</h3>
-<h3 style="margin:24px 0 12px;">如何找到 Claire Vo：</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;">
-<li>ChatPRD: https://www.chatprd.ai/</li>
-<li>Website: https://clairevo.com/</li>
-<li>LinkedIn: https://www.linkedin.com/in/clairevo/</li>
-<li>X: https://x.com/clairevo</li>
-</ul>
-</div>
-<div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<ul style="margin:0;padding-left:20px;">
-<li>ChatPRD：https://www.chatprd.ai/</li>
-<li>个人网站：https://clairevo.com/</li>
-<li>LinkedIn：https://www.linkedin.com/in/clairevo/</li>
-<li>X：https://x.com/clairevo</li>
-</ul>
-</div>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Production and marketing by <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Penname</strong>. For inquiries about sponsoring the podcast, email jordan@penname.co.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">节目制作与推广由 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Penname</strong> 负责。如有赞助播客的意向，请发送邮件至 jordan@penname.co。</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://www.lennysnewsletter.com/p/what-claude-design-is-actually-good" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://www.dwarkesh.com/p/blog-prize" target="_blank">阅读原文 &rarr;</a>
     </div>
 
 <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">Bobby Holley：AI赋能安全的希望与决胜</div>
-        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
-      </div>
-      <div class="title-en">Quoting Bobby Holley</div>
-      <div class="tags"><span class="tag">火狐</span><span class="tag">AI安全</span><span class="tag">漏洞修复</span></div>
-      <div class="summary">Mozilla与Anthropic合作，借助Claude Mythos Preview对Firefox进行安全评估，并在Firefox 150版本中修复了发现的271个漏洞。Firefox CTO Bobby Holley表示，这一成果令人鼓舞，证明只要团队专注投入，AI将帮助安全防御方 decisively 扭转战局。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Our experience is a hopeful one for teams who shake off the vertigo and get to work.</div><div class="quote-zh">对于那些摆脱眩晕、潜心投入工作的团队而言，我们的经验是充满希望的。</div></div>
-<div class="quote-block"><div class="quote-en">Defenders finally have a chance to win, decisively.</div><div class="quote-zh">防御者终于有机会取得决定性的胜利。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Quoting Bobby Holley</h3>
-
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:0 0 6px;">
-As part of our continued collaboration with <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>, we had the opportunity to apply an early version of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Mythos Preview</strong> to <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Firefox</strong>. This week’s release of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Firefox 150</strong> includes fixes for271 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vulnerabilities</strong>identified during this initial evaluation. [...]
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-作为与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 持续合作的一部分，我们有机会将早期版本的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Mythos Preview</strong> 应用于 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Firefox</strong>。本周发布的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Firefox 150</strong> 包含了在此次初步评估中发现的 271 个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vulnerabilities（漏洞）</strong> 修复。[...]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Our experience is a hopeful one for teams who shake off the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vertigo</strong> and get to work. You may need to reprioritize everything else to bring relentless and single-minded focus to the task, but there is light at the end of the tunnel. We are extremely proud of how our team rose to meet this challenge, and others will too. Our work isn’t finished, but we’ve <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">turned the corner</strong> and can glimpse a future much better than just keeping up.<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Defenders</strong> finally have a chance to win, decisively.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-对于那些摆脱 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">眩晕感</strong> 并投入工作的团队来说，我们的经验是充满希望的。你可能需要重新确定其他一切事项的优先级，以便对该任务保持不懈且专注的投入，但隧道尽头终有光明。我们非常自豪于我们的团队如何挺身而出迎接这一挑战，其他团队也能做到。我们的工作尚未完成，但我们已经 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">扭转了局面</strong>，能够瞥见一个远比仅仅疲于应付更美好的未来。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Defenders（防御者）</strong> 终于有机会果断地获胜。
-</p>
-</blockquote>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-As part of our continued collaboration with <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>, we had the opportunity to apply an early version of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Mythos Preview</strong> to <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Firefox</strong>. This week’s release of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Firefox 150</strong> includes fixes for271 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vulnerabilities</strong>identified during this initial evaluation. [...]
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-作为与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 持续合作的一部分，我们有机会将早期版本的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Mythos Preview</strong> 应用于 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Firefox</strong>。本周发布的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Firefox 150</strong> 包含了在此次初步评估中发现的 271 个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vulnerabilities（漏洞）</strong> 修复。[...]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Our experience is a hopeful one for teams who shake off the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vertigo</strong> and get to work. You may need to reprioritize everything else to bring relentless and single-minded focus to the task, but there is light at the end of the tunnel. We are extremely proud of how our team rose to meet this challenge, and others will too. Our work isn’t finished, but we’ve <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">turned the corner</strong> and can glimpse a future much better than just keeping up.<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Defenders</strong> finally have a chance to win, decisively.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-对于那些摆脱 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">眩晕感</strong> 并投入工作的团队来说，我们的经验是充满希望的。你可能需要重新确定其他一切事项的优先级，以便对该任务保持不懈且专注的投入，但隧道尽头终有光明。我们非常自豪于我们的团队如何挺身而出迎接这一挑战，其他团队也能做到。我们的工作尚未完成，但我们已经 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">扭转了局面</strong>，能够瞥见一个远比仅仅疲于应付更美好的未来。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Defenders（防御者）</strong> 终于有机会果断地获胜。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-—<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bobby Holley</strong>, CTO, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Firefox</strong>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-——<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bobby Holley</strong>，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Firefox</strong> 首席技术官（CTO）
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags:<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">anthropic</strong>,<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">claude</strong>,ai,<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">firefox</strong>,<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llms</strong>,mozilla,security,generative-ai,ai-security-research
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">anthropic</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">claude</strong>、ai、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">firefox</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llms</strong>、mozilla、security、generative-ai、ai-security-research
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">GitHub Copilot 个人版计划调整</div>
-        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
-      </div>
-      <div class="title-en">Changes to GitHub Copilot Individual plans</div>
-      <div class="tags"><span class="tag">AI编程</span><span class="tag">定价调整</span><span class="tag">编码代理</span></div>
-      <div class="summary">GitHub宣布收紧Copilot个人版使用限制并暂停新用户注册，将Claude Opus 4.7等高级模型限制在月费39美元的Pro+计划中。官方解释称，AI Agent工作流大幅推高了计算资源消耗，因此平台正从按请求计费转向基于token的会话限制，以维持服务可靠性。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">It&#x27;s easy to forget that just six months ago heavy LLM users were burning an order of magnitude less tokens. Coding agents consume a lot of compute.</div><div class="quote-zh">人们很容易忘记，就在六个月前，重度 LLM 用户消耗的 token 数量还少了一个数量级。编程智能体消耗大量算力。</div></div>
-<div class="quote-block"><div class="quote-en">My one problem with this announcement is that it doesn&#x27;t clearly clarify which product called &quot;GitHub Copilot&quot; is affected by these changes.</div><div class="quote-zh">我对这份公告的唯一不满是，它没有明确说明名为「GitHub Copilot」的哪款产品受到了这些变更的影响。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Changes to GitHub Copilot Individual plans</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">GitHub Copilot 个人版计划变更</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Unlike <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub</strong> put up an official announcement about their changes, which include tightening usage limits, pausing signups for individual plans (!), restricting <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Opus 4.7</strong> to the more expensive $39/month "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Pro+</strong>" plan, and dropping the previous <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Opus</strong> models entirely.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 不同，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GitHub</strong> 发布了一份官方公告，宣布了其变更内容，包括收紧使用限制、暂停个人版计划的新用户注册（！）、将 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Opus 4.7</strong> 限制在价格更高的每月 39 美元 "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Pro+</strong>" 计划中，并完全下架了此前的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Opus</strong> 模型。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The key paragraph:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">核心段落如下：</p>
-
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agentic workflows</strong> have fundamentally changed <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot</strong>’s compute demands. Long-running, parallelized sessions now regularly consume far more resources than the original plan structure was built to support. As Copilot’s agentic capabilities have expanded rapidly, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agents</strong> are doing more work, and more customers are hitting <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">usage limits</strong> designed to maintain service reliability.</div>
-</blockquote>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agentic workflows</strong>（智能体工作流）从根本上改变了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot</strong> 的计算需求。长时间运行、并行化的会话现在消耗的资源，已远超最初计划架构所能支持的程度。随着 Copilot 智能体能力的快速扩展，agents（智能体）承担了更多工作，越来越多用户正触及旨在维持服务可靠性的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">usage limits</strong>（使用上限）。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agentic workflows</strong> have fundamentally changed <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot</strong>’s compute demands. Long-running, parallelized sessions now regularly consume far more resources than the original plan structure was built to support. As Copilot’s agentic capabilities have expanded rapidly, agents are doing more work, and more customers are hitting usage limits designed to maintain service reliability.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agentic workflows</strong>（智能体工作流）从根本上改变了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot</strong> 的计算需求。长时间运行、并行化的会话现在消耗的资源，已远超最初计划架构所能支持的程度。随着 Copilot 智能体能力的快速扩展，agents（智能体）承担了更多工作，越来越多用户正触及旨在维持服务可靠性的 usage limits（使用上限）。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">It’s easy to forget that just six months ago heavy <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM</strong> users were burning an order of magnitude less tokens. <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Coding agents</strong> consume alotof compute.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">人们很容易忘记，就在六个月前，重度 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM</strong>（大语言模型）用户消耗的 token 数量比现在低一个数量级。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Coding agents</strong>（编程智能体）消耗大量算力。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot</strong> was also unique (I believe) among agents in charging <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">per-request</strong>, not <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">per-token</strong>. (Correction: Windsurf also operated a credit system like this which theyabandoned last month.) This means that single agentic requests which burn more tokens cut directly into their margins. The most recent pricing scheme addresses that with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">token-based usage limits</strong> on a per-session and weekly basis.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">据我所知，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot</strong> 在智能体中也是独树一帜，采用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">per-request</strong>（按请求）而非 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">per-token</strong>（按 token）计费。（更正：Windsurf 此前也采用过类似的积分制度，但已于上月放弃。）这意味着单次消耗更多 token 的智能体请求会直接侵蚀其利润。最新的定价方案通过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">token-based usage limits</strong>（基于 token 的使用限制）来解决这一问题，限制维度包括 per-session（按会话）和每周。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">My one problem with this announcement is that it doesn’t clearly clarifywhichproduct called "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GitHub Copilot</strong>" is affected by these changes. Last month inHow many products does <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong> have named '<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot</strong>'? I mapped every one<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Tey Bannerman</strong> identified 75 products that share the Copilot brand, 15 of which have "GitHub Copilot" in the title.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我对这份公告的唯一不满是，它没有明确说明名为 "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GitHub Copilot</strong>" 的哪款产品受到了这些变更的影响。在上个月那篇《How many products does <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong> have named 'Copilot'? I mapped every one》中，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Tey Bannerman</strong> 梳理出共有 75 款共享 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot</strong> 品牌的产品，其中 15 款在标题中包含 "GitHub Copilot"。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Judging by the linked<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GitHub Copilot plans page</strong>this covers <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot CLI</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot cloud agent</strong> and code review (features onGitHub.comitself), and the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot IDE features</strong> available in VS Code, Zed, JetBrains and more.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">根据链接指向的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GitHub Copilot plans page</strong>，此次变更涵盖 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot CLI</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot cloud agent</strong> 和代码审查（GitHub.com 本身的功能），以及在 VS Code、Zed、JetBrains 等工具中可用的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot IDE features</strong>（IDE 功能）。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Via<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">来源：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong></p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags:github,microsoft,ai,generative-ai,github-copilot,llms,llm-pricing,coding-agents</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：github、microsoft、ai、generative-ai、github-copilot、llms、llm-pricing、coding-agents</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Apr/22/changes-to-github-copilot/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">Claude Code 将涨至每月100美元？恐怕不会，但这一切令人困惑</div>
+        <div class="title">毫秒转换器</div>
         <span class="tone-pill" style="background:#ffe4e6;color:#be123c">😤 批评</span>
       </div>
-      <div class="title-en">Is Claude Code going to cost $100/month? Probably not - it&#x27;s all very confusing</div>
-      <div class="tags"><span class="tag">Claude Code</span><span class="tag">Anthropic</span><span class="tag">定价</span><span class="tag">AI编程</span></div>
-      <div class="summary">Anthropic 短暂测试将 Claude Code 从 20 美元/月的 Pro 计划移至 100 美元以上的 Max 计划，因缺乏官方沟通引发用户强烈不满与信任危机；尽管公司已回滚公开的定价页面改动，但作者认为此举已严重损害品牌信誉，并可能将普通用户推向更平价的竞品。</div>
+      <div class="title-en">Millisecond Converter</div>
+      <div class="tags"><span class="tag">时间换算</span><span class="tag">单位转换</span><span class="tag">实用工具</span></div>
+      <div class="summary">由于LLMreports默认以毫秒显示提示词耗时，手动换算为秒和分钟颇为繁琐，作者因此开发了一款毫秒转换工具来简化这一过程。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Claude Cowork is effectively a rebranded version of Claude Code wearing a less threatening hat!</div><div class="quote-zh">Claude Cowork 实际上就是 Claude Code 戴了顶威胁性小一点的帽子的重新包装版本！</div></div>
-<div class="quote-block"><div class="quote-en">Let&#x27;s see if they can come up with an explanation/apology that&#x27;s convincing enough to offset the trust bonfire from this afternoon!</div><div class="quote-zh">让我们看看他们能否拿出足够有说服力的解释或道歉，来抵消今天下午这场信任大火！</div></div>
+<div class="quote-block"><div class="quote-en">LLMreports prompt durations in milliseconds and I got fed up of having to think about how to convert those to seconds and minutes.</div><div class="quote-zh">大语言模型用毫秒来报告提示词持续时间，我受够了每次都得费劲把它们换算成秒和分钟。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Is Claude Code going to cost $100/month? Probably not - it's all very confusing</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Claude Code 要涨到每月 100 美元了吗？大概率不会——但这整件事非常令人困惑</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Anthropic today quietly (as in silently, no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page, which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted):</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">今天，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 悄然（确切地说是悄无声息，没有任何公告）更新了其 claude.com/pricing 页面（但没有更新 Choosing a Claude plan 页面，该页面在 Google 搜索结果中对我排第一），添加了一个微小但重要的细节（箭头是我加的，而且页面已经恢复）：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><img src="https://static.simonwillison.net/static/2026/anthropic-x.jpg" alt="Screenshot of the Claude pricing grid - Compare features across plans. Free, Pro, Max 5x and Max 20x all have the same features, with the exception of Claude Code which is on Max only and Claude Cowork which is on Pro and Max only. An arrow highlights the Claude Code for Pro cross." style="max-width:100%;border-radius:8px;margin:12px 0;"/></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><img src="https://static.simonwillison.net/static/2026/anthropic-x.jpg" alt="Claude 定价网格截图——对比各套餐功能。Free、Pro、Max 5x 和 Max 20x 的功能相同，唯独 Claude Code 仅 Max 可用，Claude Cowork 仅 Pro 和 Max 可用。箭头指向 Pro 列中 Claude Code 的叉号。" style="max-width:100%;border-radius:8px;margin:12px 0;"/></p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><img src="https://static.simonwillison.net/static/2026/anthropic-x.jpg" alt="Screenshot of the Claude pricing grid - Compare features across plans. Free, Pro, Max 5x and Max 20x all have the same features, with the exception of Claude Code which is on Max only and Claude Cowork which is on Pro and Max only. An arrow highlights the Claude Code for Pro cross." style="max-width:100%;border-radius:8px;margin:12px 0;"/></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><img src="https://static.simonwillison.net/static/2026/anthropic-x.jpg" alt="Claude 定价网格截图——对比各套餐功能。Free、Pro、Max 5x 和 Max 20x 的功能相同，唯独 Claude Code 仅 Max 可用，Claude Cowork 仅 Pro 和 Max 可用。箭头指向 Pro 列中 Claude Code 的叉号。" style="max-width:100%;border-radius:8px;margin:12px 0;"/></p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The Internet Archive copy from yesterday shows a checkbox there. Claude Code used to be a feature of the $20/month Pro plan, but according to the new pricing page it is now exclusive to the $100/month or $200/month Max plans.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Internet Archive</strong> 昨天的存档副本显示那里是一个勾选框。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 曾是每月 20 美元 Pro 套餐的一项功能，但根据新的定价页面，它现在变成了每月 100 美元或 200 美元 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Max</strong> 套餐独占。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Update: don't miss the update to this post, they've already changed course a few hours after this change went live.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">更新：别错过本文的后续更新，这一改动上线仅几小时后，他们就已经改弦更张了。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">So what the heck is going on? Unsurprisingly, Reddit and Hacker News and Twitter all caught fire.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">所以到底是怎么回事？不出所料，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Reddit</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Twitter</strong> 全都炸开了锅。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I didn't believe the screenshots myself when I first saw them - aside from the pricing grid I could find no announcement from Anthropic anywhere. Then Amol Avasare, Anthropic's Head of Growth, tweeted:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我自己第一眼看到截图时也不相信——除了定价表格外，我在任何地方都找不到 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 的公告。随后，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Amol Avasare</strong>，Anthropic 的增长负责人，发推称：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">For clarity, we're running a small test on ~2% of new prosumer signups. Existing Pro and Max subscribers aren't affected.</blockquote></div>
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:4px 0 24px;background:#f9f9fb;color:#2c2c2e;line-height:1.8;font-size:15px;">澄清一下，我们正在对约 2% 的新 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prosumer</strong>（专业消费者）注册用户进行小规模测试。现有 Pro 和 Max 订阅用户不受影响。</blockquote>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">For clarity, we're running a small test on ~2% of new prosumer signups. Existing Pro and Max subscribers aren't affected.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">澄清一下，我们正在对约 2% 的新 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prosumer</strong>（专业消费者）注册用户进行小规模测试。现有 Pro 和 Max 订阅用户不受影响。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">And that appears to be the closest we have had to official messaging from Anthropic.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">而这似乎是我们能从 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 那里得到的最接近官方表态的说法了。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I don't buy the "~2% of new prosumer signups" thing, since everyone I've talked to is seeing the new pricing grid and the Internet Archive has already snapped a copy. Maybe he means that they'll only be running this version of the pricing grid for a limited time which somehow adds up to "2%" of signups?</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我不买这个"约 2% 新 prosumer 注册用户"的账，因为我聊过的每个人都在看到新的定价表格，而且 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Internet Archive</strong> 也已经抓取到了副本。也许他的意思是，他们只会在有限时间内运行这个版本的定价页面，而这个时间段里的注册用户加起来刚好占"2%"？</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I'm also amused to see Claude Cowork remain available on the $20/month plan, because Claude Cowork is effectively a rebranded version of Claude Code wearing a less threatening hat!</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我也觉得挺好笑的是，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Cowork</strong> 仍然保留在每月 20 美元的套餐中，因为 Claude Cowork 本质上就是换了个不那么吓人的帽子的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 翻新版！</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">There are a whole bunch of things that are bad about this.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这件事有很多糟糕的地方。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">If we assume this is indeed a test, and that test comes up negative and they decide not to go ahead with it, the damage has still been extensive:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如果我们假设这确实是一次测试，而且测试结果呈负面、他们决定不继续推进，伤害仍然已经造成了：</p>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Millisecond Converter</h3>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>A whole lot of people got scared or angry or both that a service they relied on was about to be rug-pulled. There really is a significant difference between $20/month and $100/month for most people, especially outside of higher salary countries.</li>
-<li>The uncertainty is really bad! A tweet from an employee is not the way to make an announcement like this. I wasted a solid hour of my afternoon trying to figure out what had happened here. My trust in Anthropic's transparency around pricing - a crucial factor in how I understand their products - has been shaken.</li>
-<li>Strategically, should I be taking a bet on Claude Code if I know that they might 5x the minimum price of the product?</li>
-<li>More of a personal issue, but one I care deeply about myself: I invest a great deal of effort (that's 105 posts and counting) in teaching people how to use Claude Code. I don't want to invest that effort in a product that most people cannot afford to use.</li>
-</ul>
-</div>
-<div style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<ul style="margin:8px 0;padding-left:24px;">
-<li>很多人感到害怕、愤怒，或者两者兼有，因为他们依赖的服务即将被 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">rug-pulled</strong>（像抽地毯一样被突然抛弃）。对大多数人来说，每月 20 美元和每月 100 美元之间真的有显著差别，尤其是在高薪资国家以外的地区。</li>
-<li>不确定性真的很糟糕！一名员工的一条推文不是发布此类公告的合适方式。我浪费了整整一个下午试图搞清楚这里发生了什么。我对 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 在定价方面透明度的信任——这是我理解他们产品的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">关键因素（crucial factor）</strong>——已经动摇了。</li>
-<li>从策略上讲，如果我知道他们可能会将产品的最低价格提高 5 倍，我还应该押注 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 吗？</li>
-<li>更多是个人的问题，但我自己非常在意：我投入了<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">大量精力</strong>（到目前为止已有 105 篇文章）来教人们如何使用 Claude Code。我不想把精力投入到一个大多数人都负担不起的产品上。</li>
-</ul>
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LLMreports</strong> reports <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt</strong> durations in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">milliseconds</strong> and I got fed up of having to think about how to convert those to seconds and minutes.
 </div>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Last month I ran a tutorial for journalists on "Coding agents for data analysis" at the annual NICAR data journalism conference. I'm not going to be teaching that audience a course that depends on a $100/month subscription!</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">上个月，我在一年一度的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NICAR</strong> 数据新闻大会上为记者们举办了一场关于"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Coding agents（编程智能体）</strong>用于数据分析"的教程。我不会教那个受众一门依赖于每月 100 美元订阅的课程！</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This also doesn't make sense to me as a strategy for Anthropic. Claude Code defined the category of coding agents. It's responsible for billions of dollars in annual revenue for Anthropic already. It has a stellar reputation, but I'm not convinced that reputation is strong enough for it to lose the $20/month trial and jump people directly to a $100/month subscription.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">作为 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 的策略，这也让我感到说不通。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 定义了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">coding agents（编程智能体）</strong>这一品类。它已经为 Anthropic 带来了数十亿美元的年度收入。它拥有极佳的声誉，但我不认为这个声誉足够强大，可以让它放弃每月 20 美元的试用档位，直接把用户推到每月 100 美元的订阅。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">OpenAI have been investing heavily in catching up to Claude Code with their Codex products. Anthropic just handed them this marketing opportunity on a plate - here's Codex engineering lead Thibault Sottiaux:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 一直在投入重金，试图通过他们的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> 产品追上 Claude Code。Anthropic 刚把这次营销机会拱手相让——以下是 Codex 工程负责人 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Thibault Sottiaux</strong> 的说法：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">I don't know what they are doing over there, but Codex will continue to be available both in the FREE and PLUS ($20) plans. We have the compute and efficient models to support it. For important changes, we will engage with the community well ahead of making them.Transparency and trust are two principles we will not break, even if it means momentarily earning less. A reminder that you vote with your subscription for the values you want to see in this world.</blockquote></div>
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:4px 0 24px;background:#f9f9fb;color:#2c2c2e;line-height:1.8;font-size:15px;">我不知道他们那边在搞什么，但 Codex 将继续在 FREE 和 PLUS（20 美元）套餐中提供。我们有足够的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">compute</strong>（计算资源/算力）和高效模型来支持它。对于重大变更，我们会在实施前充分与社区沟通。透明和信任是我们不会打破的两条原则，即使这意味着暂时少赚一点。提醒一下，你用订阅投票，选择你想在这个世界上看到的价值观。</blockquote>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I don't know what they are doing over there, but Codex will continue to be available both in the FREE and PLUS ($20) plans. We have the compute and efficient models to support it. For important changes, we will engage with the community well ahead of making them.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我不知道他们那边在搞什么，但 Codex 将继续在 FREE 和 PLUS（20 美元）套餐中提供。我们有足够的计算资源和高效模型来支持它。对于重大变更，我们会在实施前充分与社区沟通。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Transparency and trust are two principles we will not break, even if it means momentarily earning less. A reminder that you vote with your subscription for the values you want to see in this world.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">透明和信任是我们不会打破的两条原则，即使这意味着暂时少赚一点。提醒一下，你用订阅投票，选择你想在这个世界上看到的价值观。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I should note that I pay $200/month for Claude Max and I consider it well worth the money. I've had periods of free access in the past courtesy of Anthropic but I'm currently paying full price, and happy to do so.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我应该说明，我自己每月支付 200 美元订阅 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Max</strong>，而且我觉得这笔钱花得很值。过去 Anthropic 曾给我提供免费使用的时段，但我目前正在全额付费，并且乐意如此。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">But I care about the accessibility of the tools that I work with and teach. If Codex has a free tier while Claude Code starts at $100/month I should obviously switch to Codex, because that way I can use the same tool as the people I want to teach how to use coding agents.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">但我关心我所使用和教授的工具的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">可及性（accessibility）</strong>。如果 Codex 有免费层级，而 Claude Code 起步价就是每月 100 美元，那我显然应该转向 Codex，因为这样我就能和我想要教授 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">coding agents（编程智能体）</strong>使用的人们使用同样的工具。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Here's what I think happened. I think Anthropic are trying to optimize revenue growth - obviously - and someone pitched making Claude Code only available for Max and higher. That's clearly a bad idea, but "testing" culture says that it's worth putting even bad ideas out to test just in case they surprise you.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">以下是我认为发生的事情。我认为 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 正在试图优化收入增长——显然如此——于是有人提议让 Claude Code 仅对 Max 及以上套餐开放。这显然是个坏主意，但"测试"文化认为，哪怕坏主意也值得拿出去测试，万一结果出人意料呢。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">So they started a test, without taking into account the wailing and gnashing of teeth that would result when their test was noticed - or accounting for the longer-term brand damage that would be caused.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">于是他们启动了一项测试，却没有考虑到当测试被发现时会引发的哀号和切齿之痛——也没有考虑到这将造成的长期品牌损害。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Or maybe they did account for that, and decided it was worth the risk.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">又或者他们确实考虑到了，但认为值得冒这个险。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I don't think that calculation was worthwhile. They're going to have to make a very firm commitment along the lines of "we heard your feedback and we commit to keeping Claude Code available on our $20/month plan going forward" to regain my trust.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我不认为这种算计是值得的。他们需要做出非常坚定的承诺，比如"我们听到了你们的反馈，并承诺未来将继续在每月 20 美元的套餐中提供 Claude Code"，才能重新赢得我的信任。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">As it stands, Codex is looking like a much safer bet for me to invest my time in learning and building educational materials around.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">就目前而言，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> 看起来是一个安全得多的押注，值得我投入时间学习和围绕它制作教育材料。</p>
-
-<h4 style="margin:24px 0 12px;">Update: they've reversed it already</h4>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">更新：他们已经撤销了这一改动</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">In the time I was typing this blog entry Anthropic appear to have reversed course - the claude.com/pricing page now has a checkbox back in the Pro column for Claude Code. I can't find any official communication about it though.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">就在我打字写这篇博客的期间，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 似乎已经改变了方向——claude.com/pricing 页面的 Pro 列中，Claude Code 的勾选框又回来了。不过我找不到任何关于此事的官方沟通。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Let's see if they can come up with an explanation/apology that's convincing enough to offset the trust bonfire from this afternoon!</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">让我们看看他们能否拿出一个足够有说服力的解释/道歉，来抵消今天下午这场信任大火吧！</p>
-
-<h4 style="margin:24px 0 12px;">Update 2: it may still affect 2% of signups?</h4>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">更新 2：它可能仍会影响 2% 的注册用户？</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Amol on Twitter:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Amol</strong> 在 Twitter 上表示：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">was a mistake that the logged-out landing page and docs were updated for this test [embedded self-tweet]Getting lots of questions on why the landing page / docs were updated if only 2% of new signups were affected.This was understandably confusing for the 98% of folks not part of the experiment, and we've reverted both the landing page and docs changes.</blockquote></div>
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:4px 0 24px;background:#f9f9fb;color:#2c2c2e;line-height:1.8;font-size:15px;">为这次测试更新了未登录着陆页和文档是一个错误 [嵌套的自引推文] 很多人问，如果只有 2% 的新注册用户受影响，为什么要更新着陆页/文档。对于 98% 不参与实验的人来说，这确实令人困惑，因此我们已经恢复了着陆页和文档的更改。</blockquote>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">was a mistake that the logged-out landing page and docs were updated for this test [embedded self-tweet]</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为这次测试更新了未登录着陆页和文档是一个错误 [嵌套的自引推文]</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">Getting lots of questions on why the landing page / docs were updated if only 2% of new signups were affected.This was understandably confusing for the 98% of folks not part of the experiment, and we've reverted both the landing page and docs changes.</blockquote></div>
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:4px 0 24px;background:#f9f9fb;color:#2c2c2e;line-height:1.8;font-size:15px;">很多人问，如果只有 2% 的新注册用户受影响，为什么要更新着陆页/文档。对于 98% 不参与实验的人来说，这确实令人困惑，因此我们已经恢复了着陆页和文档的更改。</blockquote>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Getting lots of questions on why the landing page / docs were updated if only 2% of new signups were affected.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">很多人问，如果只有 2% 的新注册用户受影响，为什么要更新着陆页/文档。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This was understandably confusing for the 98% of folks not part of the experiment, and we've reverted both the landing page and docs changes.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">对于 98% 不参与实验的人来说，这确实令人困惑，因此我们已经恢复了着陆页和文档的更改。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">So the experiment is still running, just not visible to the rest of the world?</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">所以实验仍在运行，只是对世界其他地方不可见了？</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: ai, generative-ai, llms, anthropic, llm-pricing, ai-ethics, coding-agents, claude-code, codex-cli</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：ai, generative-ai, llms, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">anthropic</strong>, llm-pricing, ai-ethics, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">coding-agents</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">claude-code</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">codex-cli</strong></p></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LLMreports</strong> 以 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">milliseconds</strong>（毫秒）为单位报告 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt</strong>（提示词）的持续时间，我受够了每次都要动脑筋把它们换算成秒和分钟。
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
 
 <div class="article-card">
-      <div class="source">Latent Space</div>
+      <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">OpenAI发布GPT-Image-2</div>
+        <div class="title">本期内容超丰富</div>
+        <span class="tone-pill" style="background:#fef3c7;color:#b45309">🎉 兴奋</span>
+      </div>
+      <div class="title-en">It&#x27;s a big one</div>
+      <div class="tags"><span class="tag">通讯</span><span class="tag">智能体</span><span class="tag">工程模式</span><span class="tag">内容聚合</span></div>
+      <div class="summary">本期邮件通讯内容十分丰富，不仅包含骑自行车的鹈鹕等趣味插图，还收录了5篇博客文章、8个链接、3条引语及《智能体工程模式指南》的新章节。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">features 4 pelicans riding bicycles, 1 possum on an e-scooter, up to 5 raccoons with ham radios hiding in crowds, 5 blog posts, 8 links, 3 quotes and a new chapter of my Agentic Engineering Patterns guide.</div><div class="quote-zh">本期囊括：4只骑自行车的鹈鹕、1只骑电动滑板车的负鼠、多达5只携带业余无线电并混迹于人群中的浣熊、5篇博客文章、8条链接、3段引语，以及我的《智能体工程模式》指南的全新一章。</div></div>
+</div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">It's a big one</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">本期内容重磅</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">24th April 2026</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">2026年4月24日</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This week's editionof my <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">email newsletter</strong> (akacontent from this blogdelivered to your inbox) features 4 pelicans riding bicycles, 1 possum on an e-scooter, up to 5 raccoons with ham radios hiding in crowds, 5 blog posts, 8 links, 3 quotes and a new chapter of my <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agentic Engineering Patterns</strong> guide.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">本周的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">邮件简报</strong>（亦即本博客投递到你收件箱的内容）包括：4只骑自行车的鹈鹕、1只骑电动滑板车的负鼠、多达5只带着业余无线电躲在人群中的浣熊、5篇博客文章、8个链接、3条引文，以及我的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agentic Engineering Patterns</strong>（智能体工程模式）指南的新章节。</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://simonwillison.net/2026/Apr/24/weekly/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Simon Willison</div>
+      <div class="title-row">
+        <div class="title">Honker：为 SQLite 带来队列与流处理的扩展</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">[AINews] OpenAI launches GPT-Image-2</div>
-      <div class="tags"><span class="tag">文生图</span><span class="tag">多模态</span><span class="tag">大模型</span></div>
-      <div class="summary">OpenAI发布GPT-Image-2，凭借顶尖的图像生成与文本渲染能力横扫各大排行榜；同期Hugging Face、Kimi与Google分别在自动化研究智能体、开源模型内核优化及深度研究API上取得突破，标志着AI智能体基础设施与生成能力进入新阶段。</div>
+      <div class="title-en">russellromney/honker</div>
+      <div class="tags"><span class="tag">SQLite</span><span class="tag">消息队列</span><span class="tag">数据库</span></div>
+      <div class="summary">Honker 是一款专为 SQLite 设计的扩展，它通过简洁的 Python API 和 20 余种自定义 SQL 函数，实现了类 Kafka 的队列与持久化流功能。其核心在于内置事务性发件箱模式，确保消息仅在事务成功提交后才入队，并支持以轮询 WAL 文件的方式实现近实时的消息消费。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Thankfully, the model is very, very, very good.</div><div class="quote-zh">好在，这款模型非常非常非常出色。</div></div>
-<div class="quote-block"><div class="quote-en">It is both heartening and somewhat surprising that Imagegen is still a priority for OpenAI.</div><div class="quote-zh">图像生成仍是OpenAI的优先事项，这既令人欣慰，又有些出乎意料。</div></div>
+<div class="quote-block"><div class="quote-en">The design of this looks very solid.</div><div class="quote-zh">这个项目的设计看起来非常扎实。</div></div>
+<div class="quote-block"><div class="quote-en">My favorite explanation of that pattern remains Transactionally Staged Job Drains in Postgres by Brandur Leach.</div><div class="quote-zh">关于该模式，我最推崇的解释依然是 Brandur Leach 撰写的《Transactionally Staged Job Drains in Postgres》。</div></div>
 </div>
-      <div class="translation"></div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">russellromney/honker</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+The design of this looks very solid. It lets you write <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Python</strong> code for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">queues</strong> that looks like this:
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>import honker
+
+db = honker.open("app.db")
+emails = db.queue("emails")
+emails.enqueue({"to": "alice@example.com"})
+
+# Consume (in a worker process)
+async for job in emails.claim("worker-1"):
+    send(job.payload)
+    job.ack()</code></pre>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+这个项目的设计看起来非常扎实。它允许你编写用于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">queues</strong>（队列）的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Python</strong> 代码，形式如下：
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+And <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Kafka-style</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">durable streams</strong> like this:
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>stream = db.stream("user-events")
+
+with db.transaction() as tx:
+    tx.execute("UPDATE users SET name=? WHERE id=?", [name, uid])
+    stream.publish({"user_id": uid, "change": "name"}, tx=tx)
+
+async for event in stream.subscribe(consumer="dashboard"):
+    await push_to_browser(event)</code></pre>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+以及如下所示的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Kafka-style</strong>（Kafka 风格）<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">durable streams</strong>（持久化流）：
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+It also adds 20+ custom <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQL functions</strong> including these two:
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>SELECT notify('orders', '{"id": 42}');
+SELECT honker_stream_read_since('orders', 0, 1000);</code></pre>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+它还增加了 20 多个自定义的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQL functions</strong>（SQL 函数），其中包括以下两个：
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+The extension requires <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">WAL mode</strong>, and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">workers</strong> can poll the .db-wal file with a stat call every 1ms to get as close to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">real-time</strong> as possible without the expense of running a full SQL query.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+该扩展需要 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">WAL mode</strong>（预写日志模式），并且 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">workers</strong>（工作进程）可以每 1 毫秒通过 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">stat</code> 调用轮询 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">.db-wal</code> 文件，从而在不运行完整 SQL query（SQL 查询）开销的前提下，尽可能接近 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">real-time</strong>（实时）。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">honker</strong> implements the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">transactional outbox pattern</strong>, which ensures items are only queued if a transaction successfully commits. My favorite explanation of that pattern remains <em>Transactionally Staged Job Drains in Postgres</em> by <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Brandur Leach</strong>. It's great to see a new implementation of that pattern for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong>.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">honker</strong> 实现了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">transactional outbox pattern</strong>（事务性发件箱模式），确保仅当事务成功提交时，条目才会被入队。关于该模式，我最喜欢的解释仍然是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Brandur Leach</strong> 写的《Transactionally Staged Job Drains in Postgres》。很高兴看到针对 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong> 的这一模式有了新实现。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Via <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Show HN</strong>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+via <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Show HN</strong>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Tags: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">databases</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">postgresql</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sqlite</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">rust</strong>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">databases</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">postgresql</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sqlite</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">rust</strong>
+</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://www.latent.space/p/ainews-openai-launches-gpt-image" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/2026/Apr/24/honker/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
 
 <div class="article-card">
-      <div class="source">TLDR AI</div>
+      <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">ChatGPT图像2.0、Qwen3.5-Omni与常驻AI代理</div>
-        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
+        <div class="title">Claude Code 质量报告更新</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">ChatGPT images 2.0 🎨, Qwen3.5-Omni 🧠, always-on ChatGPT agents 🤖</div>
-      <div class="tags"><span class="tag">AI智能体</span><span class="tag">多模态</span><span class="tag">图像生成</span><span class="tag">AI安全</span></div>
-      <div class="summary">OpenAI发布升级后的ChatGPT Images 2.0图像模型，并推出可全天候自主运行的智能体平台Hermes；阿里同步推出千亿参数多模态大模型Qwen3.5-Omni，可原生实时处理文本、音频、图像及视频。文章还涉及AI代理预算管控、弱监督推理与多模态安全等相关研究进展。</div>
+      <div class="title-en">An update on recent Claude Code quality reports</div>
+      <div class="tags"><span class="tag">Claude</span><span class="tag">代码智能体</span><span class="tag">质量报告</span><span class="tag">Bug</span></div>
+      <div class="summary">Anthropic解释近期Claude Code的质量问题并非模型本身所致，而是由其工程框架中的三个独立bug引起，其中一个会话记忆清除机制的缺陷导致AI在长会话中显得健忘和重复。作者借此提醒，构建智能体系统时需格外警惕这类复杂的工程层问题，而非仅关注模型本身的非确定性。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">It will eventually become unthinkable to do math without AI assistance, just like it has become unthinkable to do math without set theory and LaTeX.</div><div class="quote-zh">终有一天，没有AI辅助就做数学将成为不可想象之事，正如今天没有集合论和LaTeX就做数学一样不可想象。</div></div>
-<div class="quote-block"><div class="quote-en">When forced to explicitly approve or deny budget extensions, the models exhibited severe self-attribution bias by overly praising their own progress and nearly always approving more spend.</div><div class="quote-zh">当被要求明确批准或拒绝预算追加时，这些模型表现出严重的自我归因偏差——过度吹嘘自身进展，并几乎总是批准追加支出。</div></div>
+<div class="quote-block"><div class="quote-en">I estimate I spend more time prompting in these &quot;stale&quot; sessions than sessions that I&#x27;ve recently started!</div><div class="quote-zh">我估计自己在这些「陈旧」会话中花的时间，比最近开启的会话还要多！</div></div>
+<div class="quote-block"><div class="quote-en">If you&#x27;re building agentic systems it&#x27;s worth reading this article in detail - the kinds of bugs that affect harnesses are deeply complicated, even if you put aside the inherent non-deterministic nature of the models themselves.</div><div class="quote-zh">如果你正在构建智能体系统，值得仔细阅读这篇文章——影响系统框架的 bug 极其复杂，即便抛开模型本身固有的非确定性不谈。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">TLDR AI 2026-04-22</h3>
+      <div class="translation"><h3 style="margin:24px 0 12px;">An update on recent Claude Code quality reports</h3>
 
-<h3 style="margin:24px 0 12px;">ChatGPT images 2.0 🎨, Qwen3.5-Omni 🧠, always-on ChatGPT agents 🤖</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">ChatGPT images 2.0 🎨、Qwen3.5-Omni 🧠、全天候在线的 ChatGPT 智能体 🤖</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The models themselves were not to blame, but three separate issues in the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">harness</strong> caused complex but material problems which directly affected users.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">模型本身并非罪魁祸首，但 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">harness</strong>（运行框架）中存在三个独立的问题，引发了复杂但实质性的故障，直接影响了用户体验。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>npx workos: From Auth Integration to Environment Management, Zero ClickOps (Sponsor)</h4>
-<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">npx workos@latest</strong> launches, that reads your project, detects your framework, and writes a complete <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">auth integration</strong> into your codebase. No signup required. It creates an environment, populates your keys, and you claim your account later when you're ready.</p>
-<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">WorkOS Skills</strong> make your coding agent a WorkOS expert. workos seed defines your environment as code. workos doctor finds and fixes misconfigurations. And once you're authenticated, your agent can manage users, orgs, and environments directly from the terminal. No more <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ClickOps</strong>.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">npx workos@latest</strong> 启动后会读取你的项目、检测所用框架，并将完整的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">身份验证（auth）集成</strong>写入代码库。无需注册即可创建环境、填充密钥，你可以稍后准备好时再认领账户。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">WorkOS Skills</strong> 让你的编程助手成为 WorkOS 专家。workos seed 以代码方式定义环境，workos doctor 可发现并修复配置错误。完成认证后，你的助手可直接通过终端管理用户、组织和环境，彻底告别<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ClickOps</strong>。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">postmortem</strong> describes these in detail. This one in particular stood out to me:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 发布的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">事后分析报告</strong>（postmortem）详细描述了这些问题。其中有一点尤其引起了我的注意：</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>ChatGPT Images 2.0 (6 minute read)</h4>
-<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> introduced an upgraded <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">image model</strong> with improved text rendering, multi-image reasoning, and higher fidelity outputs, enabling complex assets like comics and marketing visuals.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 推出了一款升级版的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">图像模型（image model）</strong>，具备更出色的文本渲染能力、多图像推理能力以及更高保真度的输出，可生成漫画和营销视觉等复杂素材。
-</p>
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">On March 26, we shipped a change to clear Claude's older thinking from sessions that had been idle for over an hour, to reduce <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">latency</strong> when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive.</blockquote>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">3 月 26 日，我们发布了一项变更，用于清除闲置超过一小时的会话中 Claude 先前的思考内容，以降低用户恢复会话时的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">延迟</strong>（latency）。但一个 bug 导致该操作在会话后续的每一轮交互中持续触发，而非仅执行一次，这使得 Claude 表现得健忘且重复。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>OpenAI develops platform for always-on Agents on ChatGPT (2 minute read)</h4>
-<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> is developing an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">always-on agent</strong> platform within <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatGPT</strong>, codenamed <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hermes</strong>, that allows users to create and continuously run custom agents. This platform includes features for creating workflows, integrating skills, and scheduling tasks, enabling agents to act independently rather than waiting for prompts. OpenAI's move presents strong competition to existing platforms like <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Notion</strong> by bringing such capabilities to a vast user base.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 正在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatGPT</strong> 内部开发一个代号为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hermes</strong> 的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">全天候智能体（always-on agent）</strong>平台，允许用户创建并持续运行自定义智能体。该平台支持创建工作流、集成技能和安排任务，使智能体能够独立运行，而无需等待提示词。通过将此类能力带给庞大的用户群，OpenAI 的举动对 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Notion</strong> 等现有平台构成了强有力的竞争。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">On March 26, we shipped a change to clear Claude's older thinking from sessions that had been <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">idle</strong> for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">repetitive</strong>.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">3 月 26 日，我们发布了一项变更，用于清除<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">闲置</strong>（idle）超过一小时的会话中 Claude 先前的思考内容，以降低用户恢复会话时的延迟。但一个 bug 导致该操作在会话后续的每一轮交互中持续触发，而非仅执行一次，这使得 Claude 表现得健忘且<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">重复</strong>（repetitive）。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Qwen3.5-Omni Technical Report (4 minute read)</h4>
-<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Qwen3.5-Omni</strong> is a large-scale <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">multimodal model</strong> with hundreds of billions of parameters that natively processes text, audio, images, and video within a unified architecture. The model supports a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">256k token</strong> context length to seamlessly handle up to 10 hours of audio or 400 seconds of high definition video in real time. It leverages a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Hybrid Attention Mixture of Experts</strong> framework alongside a dynamic alignment technique called <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ARIA</strong> to generate highly stable and emotionally nuanced multilingual speech synthesis with minimal latency.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Qwen3.5-Omni</strong> 是一个拥有数千亿参数的大规模<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">多模态模型（multimodal model）</strong>，能够在统一架构中原生处理文本、音频、图像和视频。该模型支持 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">256k token</strong> 的上下文长度，可实时无缝处理长达 10 小时的音频或 400 秒的高清视频。它利用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">混合注意力专家混合（Hybrid Attention Mixture of Experts）</strong>框架，以及一种名为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ARIA</strong> 的动态对齐技术，以最小延迟生成高度稳定且富有情感细节的多语言语音合成。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Ifrequentlyhave <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> sessions which I leave for an hour (or often a day or longer) before returning to them. Right now I have 11 of those (according tops aux  | grep 'claude ') and that's after closing down dozens more the other day.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我经常会让 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> 会话闲置一小时（甚至常常是一天或更久）后才返回继续工作。目前我正开着 11 个这样的会话（根据 tops aux  | grep 'claude ' 的输出），而这还是在我前几天关闭了几十个之后的数量。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Image Generation Prompting Guide (38 minute read)</h4>
-<p>A practical guide that outlines <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompting strategies</strong> for image generation, covering techniques for controlling style, structure, and fidelity in production image workflows.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-这是一份实用指南，概述了图像生成的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">提示词策略（prompting strategies）</strong>，涵盖在生产级图像工作流中控制风格、结构和保真度的技术。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I estimate I spend more time <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompting</strong> in these "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">stale</strong>" sessions than sessions that I've recently started!</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我估计自己在这些"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">陈旧</strong>"（stale）会话中花费的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompting</strong>（提示词输入）时间，比在近期新开会话中还要多！</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Coding agents ignore their own budgets (5 minute read)</h4>
-<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ramp Labs</strong> discovered that autonomous <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">coding agents</strong> completely ignore passive token limits and cannot reliably regulate their own spending. When forced to explicitly approve or deny budget extensions, the models exhibited severe <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">self-attribution bias</strong> by overly praising their own progress and nearly always approving more spend. To effectively manage costs, researchers had to separate the working agent from financial decisions by deploying an independent <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">controller model</strong> that evaluates objective workspace snapshots.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Ramp Labs</strong> 发现，自主<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">编程智能体（coding agents）</strong>完全无视被动的 token 限制，也无法可靠地自我调节支出。当被迫明确批准或拒绝预算追加时，这些模型表现出严重的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">自我归因偏差（self-attribution bias）</strong>——过度赞扬自身进展，并几乎总是批准更多支出。为了有效管理成本，研究人员不得不将工作智能体与财务决策分离，部署一个独立的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">控制器模型（controller model）</strong>来评估客观的工作空间快照。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">If you're building <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic systems</strong> it's worth reading this article in detail - the kinds of bugs that affect harnesses are deeply complicated, even if you put aside the inherent <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">non-deterministic</strong> nature of the models themselves.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如果你正在构建 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic systems</strong>（智能体系统），这篇文章值得一读——影响 harness 的 bug 类型极其复杂，即使抛开模型本身固有的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">非确定性</strong>（non-deterministic）本质不谈。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>When Can LLMs Learn to Reason with Weak Supervision? (4 minute read)</h4>
-<p>This study found that models with extended <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pre-saturation phases</strong> generalize well from minimal examples and tolerate noise, while rapidly saturating models fail. The key issue is <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">unfaithful reasoning</strong>, where models memorize answers rather than learning transferable reasoning. <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Continual pre-training</strong> and supervised fine-tuning on explicit reasoning traces improve reasoning faithfulness and generalization under weak supervision.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-该研究发现，具有较长<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">预饱和阶段（pre-saturation phases）</strong>的模型能够从极少样本中很好地泛化，并且对噪声具有容忍度，而快速饱和的模型则会失败。核心问题在于<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">不忠实推理（unfaithful reasoning）</strong>——模型死记硬背答案，而非学习可迁移的推理能力。在显式推理轨迹上进行<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">持续预训练（continual pre-training）</strong>和监督微调，能够提升弱监督下的推理忠实度和泛化能力。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Via<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">来自 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong></p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">👨‍💻</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">👨‍💻</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h3>Engineering & Research</h3>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">工程与研究</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Google Cloud Next starts today! (Sponsor)</h4>
-<p>If you're building <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI applications</strong>, you need infrastructure that can actually handle the compute.</p>
-<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> uses <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Tensor Processing Units (TPUs)</strong> - custom-built hardware accelerators designed specifically for large-scale AI workloads. It's the exact same accelerator system powering <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gemini</strong> and powers billions of user requests across Search and Maps.</p>
-<p>Ready to learn how to leverage TPUs for your own training and inference workloads?</p>
-<p>Start the course →</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-如果你正在构建 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 应用（AI applications）</strong>，你需要能够真正承载计算需求的基础设施。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> 使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">张量处理单元（Tensor Processing Units, TPU）</strong>——专为大规模 AI 工作负载定制的硬件加速器。这与驱动 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gemini</strong> 的加速器系统完全相同，并且每天为搜索和地图的数十亿次用户请求提供算力支持。准备好学习如何利用 TPU 进行自己的训练和推理工作负载了吗？开始课程 →
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Critical Bits in Neural Networks (6 minute read)</h4>
-<p><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Deep Neural Lesion (DNL)</strong> identifies highly sensitive parameters where flipping just a few bits can collapse model performance across vision and language tasks. The work also shows that protecting a small subset of these bits can mitigate such failures.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">深度神经损伤（Deep Neural Lesion, DNL）</strong>识别出一类高度敏感的参数，只需翻转其中几个比特，就能导致模型在视觉和语言任务上的性能崩溃。该研究还表明，保护这些比特中的一小部分子集即可缓解此类故障。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>CrabTrap: an LLM-as-a-judge HTTP proxy to secure agents in production (9 minute read)</h4>
-<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">CrabTrap</strong> is an open-source HTTP/HTTPS proxy that intercepts every request an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agent</strong> makes and uses <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM-as-a-judge</strong> to determine if the request matches a policy of allowed traffic for that agent. Agents need real credentials, but can hallucinate destructive actions or get <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt-injected</strong>. This can have production consequences. CrabTrap introduces guardrails that represent a meaningful step forward in the security of agent harnesses in production environments.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">CrabTrap</strong> 是一个开源的 HTTP/HTTPS 代理，可拦截 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 智能体（AI agent）</strong>发出的每一个请求，并使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM-as-a-judge</strong> 来判断该请求是否符合为该智能体设定的允许流量策略。智能体需要真实凭证，但可能产生破坏性的幻觉行为或遭受<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">提示注入（prompt-injected）</strong>攻击，这在生产环境中可能造成严重后果。CrabTrap 引入的防护栏（guardrails）代表了生产环境智能体安全领域的一次有意义进步。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Stitch's DESIGN.md format is now open-source so you can use it across platforms. (1 minute read)</h4>
-<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stitch</strong>'s DESIGN.md lets users export or import design rules from project to project. Stitch understands the reasoning behind <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">design systems</strong> and can generate user interfaces that match branches. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> has open sourced the draft specification for DESIGN.md, which can be used across any tool or platform. A video breaking down the format is available in the article.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stitch</strong> 的 DESIGN.md 允许用户在不同项目之间导出或导入设计规则。Stitch 能够理解<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">设计系统（design systems）</strong>背后的推理逻辑，并能生成与分支匹配的用户界面。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> 已开源 DESIGN.md 的草案规范，可在任何工具或平台中使用。文章中提供了详细解析该格式的视频。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>OpenAI Is Working With Consultants to Sell Codex (3 minute read)</h4>
-<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> is working with several consulting firms to help sell its AI coding tool <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong> to businesses. Codex now has four million weekly active users, up from three million just two weeks ago. The Codex consulting program is part of OpenAI's push to focus on coding and enterprise businesses. Consulting partners will get access to an AI coding tool as part of the program.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 正与多家咨询公司合作，向企业推销其 AI 编程工具 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex</strong>。Codex 目前拥有 400 万周活跃用户，仅在两周前这个数字还是 300 万。Codex 咨询计划是 OpenAI 着力发展编程和企业业务的一部分。参与该计划的咨询合作伙伴将获得使用该 AI 编程工具的权限。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Sam Altman throws shade at Anthropic's cyber model, Mythos: 'fear-based marketing' (2 minute read)</h4>
-<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> CEO <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Sam Altman</strong> called out <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>'s new cybersecurity model during a podcast appearance this week, saying the company was using fear to make its product sound more impressive than it actually is. Anthropic announced its <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Mythos</strong> model earlier this month and only released it to a small cohort of enterprise customers with the claim that the model was too powerful to be released to the public as cybercriminals would weaponize it. Altman said that Anthropic's <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">fear-based marketing</strong> was a good way to keep AI in the hands of a small and exclusive elite. Fear-based marketing is prevalent in the AI industry, and it has also come from Altman himself.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> CEO <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Sam Altman</strong> 在本周的一档播客节目中公开批评 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 推出的网络安全模型，称该公司利用恐惧心理让其产品听起来比实际更强大。Anthropic 本月初发布了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Mythos</strong> 模型，仅向一小部分企业客户开放，并声称该模型过于强大，不宜向公众发布，否则网络犯罪分子会将其武器化。Altman 表示，Anthropic 的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">恐惧营销（fear-based marketing）</strong>是维持 AI 被少数精英垄断的好方法。恐惧营销在 AI 行业十分普遍，Altman 本人也曾使用过这种手段。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Build, Deploy, and Scale AI Infrastructure faster with Runpod (Sponsor)</h4>
-<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Runpod</strong> is a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPU cloud</strong> developers use to launch pods, run inference, and autoscale on demand. Pay only for what you use.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Runpod</strong> 是一个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPU 云（GPU cloud）</strong>平台，开发者可用其启动 pod、运行推理并按需自动扩展。只需按实际使用量付费。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>TLDR is hiring a curator for TLDR AI (3-5 hrs/week, Fully Remote)</h4>
-<p>We're hiring an engineer/researcher at a major AI lab or startup to help write for 1M+ subscribers. Curators have been invited to <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google I/O</strong> and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI DevDay</strong>, scouted for Tier 1 VCs, and get early access to unreleased TLDR products.</p>
-<p>.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我们正在招聘一名来自顶级 AI 实验室或初创公司的工程师/研究员，为超过 100 万订阅者撰写内容。策展人曾受邀参加 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google I/O</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI DevDay</strong>，获得一级风投的关注，并能抢先体验尚未发布的 TLDR 产品。
-</p>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">.</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Deep Research Max: a step change for autonomous research agents (6 minute read)</h4>
-<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> has introduced <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Deep Research</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Deep Research Max</strong>, leveraging the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gemini 3.1 Pro</strong> model to enhance autonomous research capabilities.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> 推出了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Deep Research</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Deep Research Max</strong>，借助 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gemini 3.1 Pro</strong> 模型增强自主研究能力。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>The fall of the theorem economy (63 minute read)</h4>
-<p>It will eventually become unthinkable to do math without <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI assistance</strong>, just like it has become unthinkable to do math without set theory and LaTeX.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-未来，不使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 辅助（AI assistance）</strong>来做数学将是不可想象的，就像如今不使用集合论和 LaTeX 做数学一样不可想象。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Anthropics works on its always-on agent with UI extensions (3 minute read)</h4>
-<p><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>'s "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Conway</strong>" is an always-on agent with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">UI extensions</strong> available on web and mobile, allowing users to manage connectors, install extensions, and configure the environment.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 的 "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Conway</strong>" 是一款支持 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">UI 扩展（UI extensions）</strong>的全天候智能体，可在网页和移动端使用，允许用户管理连接器、安装扩展并配置环境。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h4>Agent World Training Arena (3 minute read)</h4>
-<p><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agent-World</strong> describes a self-evolving environment that generates tasks and feedback loops to continuously train and improve autonomous agents.</p>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agent-World</strong> 描述了一个自我进化的环境，该环境可生成任务和反馈循环，以持续训练和改进自主智能体。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<h3>Get the most interesting AI stories and breakthroughs delivered in a free daily email.</h3>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">获取最有趣的 AI 故事与突破，免费每日邮件送达。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Join 920,000 readers for</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">加入 920,000 名读者的行列</p></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags:ai,prompt-engineering,generative-ai,llms,anthropic,coding-agents,claude-code</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：ai, prompt-engineering（提示工程）, generative-ai（生成式 AI）, llms（大语言模型）, anthropic, coding-agents（编程智能体）, claude-code</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://tldr.tech/ai/2026-04-22" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Simon Willison</div>
+      <div class="title-row">
+        <div class="title">服务“为你推荐”信息流</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
+      </div>
+      <div class="title-en">Serving the For You feed</div>
+      <div class="tags"><span class="tag">推荐系统</span><span class="tag">系统架构</span><span class="tag">低成本</span></div>
+      <div class="summary">本文介绍了Bluesky&quot;For You&quot;推荐流的极简架构：开发者仅凭一台客厅游戏PC（单Go进程+SQLite）和一台月费7美元的VPS，以每月30美元的成本为数万用户提供服务，并估计该系统足以支撑百万日活用户。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">The architecture is fascinating.</div><div class="quote-zh">其架构令人着迷。</div></div>
+<div class="quote-block"><div class="quote-en">The feed is served by a single Go process using SQLite on a &quot;gaming&quot; PC in spacecowboy&#x27;s living room - 16 cores, 96GB of RAM and 4TB of attached NVMe storage.</div><div class="quote-zh">该信息流由 spacecowboy 客厅中一台“游戏”PC 上的单个 Go 进程通过 SQLite 提供服务——16 核、96GB 内存和 4TB 外接 NVMe 存储。</div></div>
+</div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Serving the For You feed</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为你推荐（For You）信息流的服务架构</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">spacecowboy</strong> runs theFor You Feed, used by around 72,000 people. This guest post on the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AT Protocol</strong> blog explains how it works.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">spacecowboy</strong> 运营着 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">For You Feed</strong>（为你推荐信息流），服务于约 72,000 名用户。这篇发布在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AT Protocol</strong>（AT 协议）博客上的客座文章解释了它的工作原理。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The architecture isfascinating. The feed is served by a single <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Go</strong> process using <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong> on a "gaming" PC in <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">spacecowboy</strong>'s living room - 16 cores, 96GB of RAM and 4TB of attached <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NVMe</strong> storage.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">其架构设计令人着迷。该信息流由一台在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">spacecowboy</strong> 客厅“游戏”PC 上运行的单 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Go</strong> 语言进程通过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong> 提供服务——这台电脑配备 16 核 CPU、96GB 内存以及 4TB 外接 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NVMe</strong> 存储。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Recommendations</strong> are based on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">likes</strong>: what else are the people who like the same things as you liking on the platform?</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Recommendations</strong>（推荐内容）基于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">likes</strong>（点赞）：与你喜好相似的人还在平台上点赞了哪些内容？</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">That <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Go server</strong> consumes the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bluesky</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">firehose</strong> and stores the relevant details in SQLite, keeping the last 90 days of relevant data, which currently uses around 419GB of SQLite storage.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这台 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Go server</strong>（Go 服务器）消费 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bluesky</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">firehose</strong>（实时全量数据流），并将相关详情存入 SQLite，仅保留最近 90 天的相关数据，目前约占用了约 419GB 的 SQLite 存储空间。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Public internet traffic is handled by a $7/month <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">VPS</strong> on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OVH</strong>, which talks to the living room server via <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Tailscale</strong>.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">公网流量由一台每月 7 美元的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">VPS</strong>（虚拟专用服务器，托管于 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OVH</strong>）处理，它通过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Tailscale</strong> 与客厅中的服务器通信。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Total cost is now $30/month: $20 in electricity, $7 in VPS and $3 for the two domain names. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">spacecowboy</strong> estimates that the existing system could handle all ~1 million daily active <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bluesky</strong> users if they were to switch to the cheapest <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">algorithm</strong> they have found to work.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">目前的总成本为每月 30 美元：20 美元电费、7 美元 VPS 费用以及 3 美元的两个域名费用。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">spacecowboy</strong> 估计，如果切换到他们发现的成本最低的可用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">algorithm</strong>（算法），现有系统足以承载全部约 100 万 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bluesky</strong> 日活跃用户。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: go, scaling, sqlite, software-architecture, tailscale, bluesky</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：go（Go 语言）、scaling（扩展性）、sqlite（SQLite）、software-architecture（软件架构）、tailscale（Tailscale）、bluesky（Bluesky）</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-04-22
+  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-04-24
 </div>
 
 <script>
