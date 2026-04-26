@@ -7,377 +7,114 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 24 Apr 2026 23:37:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 22:52:57 +0000</lastBuildDate>
     <item>
-      <title>[翻译] Dwarkesh Patel: AI重大问题博客征文奖</title>
-      <link>https://www.dwarkesh.com/p/blog-prize</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI发展 #AI商业化 #AI治理 #博客奖金&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 作者宣布设立2万美元博客征文奖，征集关于AI发展速度、基础模型盈利、巨额慈善资金部署及非AI国家应对策略等重大问题的千字短文；此举的真正目的是寻找一位研究合作者，与其共同深入探索这些关乎经济、政策与超级智能治理的关键议题。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Blog prize for the big questions about AI&lt;/p&gt;
+      <title>[翻译] Lenny's Newsletter: Snapchat CEO：为何分发已成最重要的护城河</title>
+      <link>https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #分销护城河 #消费产品 #AI变革 #竞争壁垒&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Snapchat CEO Evan Spiegel在访谈中提出，分销能力已成为消费科技领域最重要的护城河，纯粹的软件业务已难以构建持久优势；他还探讨了AI如何重塑设计工作，并认为人类对AI的接受度将是未来比技术本身更大的发展瓶颈。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Blog prize for the big questions about AI&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snapchat&lt;/strong&gt; CEO：为什么分发已成为最重要的护城河 | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan Spiegel&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-There has never been a time where excellent intellectual output on the right question has been more valuable or more urgent. Compelling answers about the big questions about AI can inform the most important economic and foreign policy decisions that will ever be made, the deployment of (at least)hundreds of billionsof philanthropic dollars, and the training and governance of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;superintelligences&lt;/strong&gt;.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-当下，针对正确问题的卓越思想产出从未如此宝贵且紧迫。关于 AI 宏大问题（big questions）的有力回答，能够为有史以来最重要的经济与外交政策决策提供参考，能够影响（至少）数千亿慈善资金的部署，并关乎&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;超级智能（superintelligences）&lt;/strong&gt;的训练与治理。
-&lt;/p&gt;
+&lt;img src="https://substackcdn.com/image/fetch/$s_!TICc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc757a11-a9bd-4126-ad1c-37027e901d1f_1920x1080.png" alt="Cover image" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-I’m announcing a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;$20,000 blog prize&lt;/strong&gt; in order to find people who will excel at researching and thinking through these problems. The not-so-secret point of this whole contest is so that I can hire a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;research collaborator&lt;/strong&gt; to think through questions like this hand in hand with me. See more at the end.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我宣布设立一笔&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;2 万美元博客奖金（$20,000 blog prize）&lt;/strong&gt;，以寻找那些擅长研究并深入思考这些问题的人才。这场竞赛的“公开秘密”在于，我希望借此聘请一位&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;研究合作者（research collaborator）&lt;/strong&gt;，与我携手共同探讨这类问题。更多详情见文末。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan Spiegel&lt;/strong&gt;, the co-founder and CEO of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt;, is one of the very few people in the world who has successfully built and scaled a lasting consumer social product. &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Snapchat&lt;/strong&gt; has nearly 1 billion &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAUs&lt;/strong&gt;, and Evan and his team invented some of the most important consumer products and features, including &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Stories&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AR glasses&lt;/strong&gt;, swipe-based navigation, the camera as the primary UX, and a lot more.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan Spiegel&lt;/strong&gt;（埃文·斯皮格尔）是 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt; 的联合创始人兼 CEO，也是全球极少数成功打造并规模化长期消费者社交产品的人物之一。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Snapchat&lt;/strong&gt; 目前拥有近 10 亿 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAUs&lt;/strong&gt;（月活跃用户），Evan 和他的团队发明了诸多最重要的消费级产品和功能，包括 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Stories&lt;/strong&gt;（故事）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AR glasses&lt;/strong&gt;（AR 眼镜）、滑动式导航、以相机为核心的用户体验（UX）等等。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Pick a question below, and spend no more than 1,000 words answering it. &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;1st, 2nd, and 3rd place&lt;/strong&gt; will get $10,000, $6,000, and $4,000 respectively. I’ll publish the winning entry (and potentially the runner ups) on my blog. Please submit by May 10th, 11:59 PM PST.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-从下方选择一个问题，用不超过 1000 字的篇幅作答。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;第一名、第二名和第三名（1st, 2nd, and 3rd place）&lt;/strong&gt;将分别获得 1 万美元、6000 美元和 4000 美元。我会将获奖文章（以及可能的入围作品）发布在我的博客上。请在太平洋标准时间（PST）5 月 10 日晚 11:59 前提交。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Listen onYouTube,Spotify, andApple Podcasts&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;在 YouTube、Spotify 和 Apple Podcasts 上收听&lt;/p&gt;
 
-&lt;h3 style="margin:24px 0 12px;"&gt;Questions - choose one&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;In our in-depth conversation, we discuss:&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;在我们的深度对话中，我们探讨了以下内容：&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;ul style="margin:0;padding-left:20px;"&gt;
-    &lt;li&gt;A couple years ago, there was this idea that AI progress might slow down as we make further progress into the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;RL regime&lt;/strong&gt;. 1. Because as horizon lengths increase, the AI needs to do many days’ worth of work before we can even see if it did it right, so if we’re still in a naive policy gradient world, the reward signal / &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;FLOP&lt;/strong&gt; goes down, and 2. We’d crossed through many &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OOMs&lt;/strong&gt; of RL compute from GPT 4 to o1 to o3, and it would not be feasible to replicate that many OOMs increase in compute immediately again. But AI progress seems to have been fast nonetheless - even potentially speeding up if rumors about &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Spud&lt;/strong&gt; or Mythos are to be believed. What gives? What did that previous intuition pump that motivated longer timelines miss?&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-几年前，人们曾有一种观点：随着我们在&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;强化学习阶段（RL regime）&lt;/strong&gt;中不断深入，AI 的进展可能会放缓。理由有二：1. 随着视界长度（horizon lengths）增加，AI 需要完成多日工作量后，我们才能判断其是否正确完成，因此如果我们仍处于朴素的策略梯度（policy gradient）时代，奖励信号 /&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;浮点运算次数（FLOP）&lt;/strong&gt;会下降；2. 从 GPT-4 到 o1 再到 o3，我们已经跨越了多个&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;数量级（OOMs, Orders of Magnitude）&lt;/strong&gt;的 RL 计算量，短期内再次复制如此多数量级的算力增长是不可行的。但尽管如此，AI 的进步似乎依然迅速——如果关于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Spud&lt;/strong&gt; 或 Mythos 的传闻属实，甚至可能还在加速。这是怎么回事？当初支撑更长 timelines 预期的那个直觉泵（intuition pump）遗漏了什么？
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;Why &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;distribution&lt;/strong&gt; is now the biggest challenge for creating a consumer technology business&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为什么 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;distribution&lt;/strong&gt;（分发）如今已成为打造消费级科技企业的最大挑战&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;ul style="margin:0;padding-left:20px;"&gt;
-    &lt;li&gt;What’s the most plausible story where &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;foundation model&lt;/strong&gt; companies actually start making money? If you consider each individual model as a company, then its profitsmaybe able to pay back the training cost. But of course, if you don’t train a bigger, more expensive model immediately, then you stop making money after 3 months. So when does the profit start? Maybe at some point &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;scaling&lt;/strong&gt; will plateau, butif progress at the frontierhas slowed down, then the combination of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;distillation&lt;/strong&gt; and low switching costs (cloud margins result from high switching costs) makes it really easy for open source to catch up to the labs, eating into their margins. So how do the labs actually start making money?&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-基础模型公司真正开始盈利的最可信路径是什么？如果你把每一个单独的模型视为一家公司，那么它的利润或许能够回本。但当然，如果你不立即训练一个更大、更昂贵的模型，3 个月后你就会停止盈利。那么利润从何时开始？也许在某个时刻，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;规模扩展（scaling）&lt;/strong&gt;会触及平台期，但如果前沿进展放缓，那么&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;知识蒸馏（distillation）&lt;/strong&gt;与低切换成本（云服务商的利润正来自于高切换成本）的结合，会让开源模型轻易追上实验室的水平，侵蚀它们的利润。那么这些实验室究竟如何才能真正赚钱？
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Why &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;distribution&lt;/strong&gt; is now the biggest challenge for creating a consumer technology business&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为什么 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;distribution&lt;/strong&gt;（分发）如今已成为打造消费级科技企业的最大挑战&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;ul style="margin:0;padding-left:20px;"&gt;
-    &lt;li&gt;With &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;’s new raise at an $852B valuation, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI Foundation&lt;/strong&gt;’s stake isnow worth $180B. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;’scofounders have pledged to donate 80%of their wealth. Nobody seems to have a concrete idea of how to deploy 100s of billions (soon trillions) of wealth productively to “make AI go well”. If you were in charge of the OpenAI Foundation right now, what exactly would you do? And when? It’s not enough to identify a cause you think is important, because that doesn’t answer the fundamental problem ofhow you convert money to impact. Identify the concrete strategy you recommend pursuing.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-随着 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 以 8520 亿美元估值完成新一轮融资，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI 基金会（OpenAI Foundation）&lt;/strong&gt;持有的股份现价值 1800 亿美元。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 的联合创始人已承诺捐赠其 80% 的财富。目前似乎没有人对如何 productive 地部署数千亿（很快将是数万亿）财富以“让 AI 健康发展”有具体思路。如果你现在掌管 OpenAI 基金会，你具体会做什么？何时做？仅仅指出你认为重要的事业是不够的，因为这并没有回答如何将资金转化为实际影响力的根本问题。请明确你建议采取的具体策略。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;How &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt; innovates at scale with a 9-to-12-person design team: no titles, no hierarchy, hundreds of ideas reviewed weekly with the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;CEO&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Snap 如何通过一支仅 9 到 12 人的设计团队实现规模化创新：没有职级、没有层级，每周与 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;CEO&lt;/strong&gt; 共同审阅数百个创意&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;ul style="margin:0;padding-left:20px;"&gt;
-    &lt;li&gt;What should countries which are not currently in the AI production chain (semis, energy, frontier models, robotics) do in order to not get totally sidestepped by &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;transformative AI&lt;/strong&gt;? If you’re the leader of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;India&lt;/strong&gt; or &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Nigeria&lt;/strong&gt;, what do you do right now?&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-那些目前尚未处于 AI 生产链（半导体、能源、前沿模型、机器人）中的国家，应该采取什么措施，才能不被&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;变革性人工智能（transformative AI）&lt;/strong&gt;完全绕过或边缘化？如果你是 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;印度（India）&lt;/strong&gt;或 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;尼日利亚（Nigeria）&lt;/strong&gt;的领导人，你现在会怎么做？
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;How &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt; innovates at scale with a 9-to-12-person design team: no titles, no hierarchy, hundreds of ideas reviewed weekly with the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;CEO&lt;/strong&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Snap 如何通过一支仅 9 到 12 人的设计团队实现规模化创新：没有职级、没有层级，每周与 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;CEO&lt;/strong&gt; 共同审阅数百个创意&lt;/p&gt;
 
-&lt;h3 style="margin:24px 0 12px;"&gt;Rules and tips&lt;/h3&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;Why a pure &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;software business&lt;/strong&gt; is no longer a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;moat&lt;/strong&gt;, and what actually creates durable competitive advantages today&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为什么纯粹的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;software business&lt;/strong&gt;（软件业务）不再构成 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;moat&lt;/strong&gt;（护城河），以及当今真正能够创造持久竞争优势的因素是什么&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;ul style="margin:0;padding-left:20px;"&gt;
-    &lt;li&gt;Please don’t let a lack of domain expertise dissuade you from entering. I’m looking for someone who can ramp up fast on unfamiliar topics and think clearly.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-请不要因缺乏领域专业知识而却步。我需要的是能够快速熟悉陌生话题并保持清晰思考的人。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Why a pure &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;software business&lt;/strong&gt; is no longer a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;moat&lt;/strong&gt;, and what actually creates durable competitive advantages today&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为什么纯粹的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;software business&lt;/strong&gt;（软件业务）不再构成 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;moat&lt;/strong&gt;（护城河），以及当今真正能够创造持久竞争优势的因素是什么&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;ul style="margin:0;padding-left:20px;"&gt;
-    &lt;li&gt;Each entrant may submit only once.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-每位参赛者只能提交一次。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;How &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; is changing the way designers work and why they’re now &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;shipping code&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 如何改变设计师的工作方式，以及为什么他们现在开始 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;shipping code&lt;/strong&gt;（交付代码）&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;ul style="margin:0;padding-left:20px;"&gt;
-    &lt;li&gt;You are still eligible for this essay competition even if you’re not interested in the researcher role. Nor does winning this competition guarantee that you will be offered the role.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-即使你对研究员职位不感兴趣，你仍然有资格参加本次征文竞赛。此外，赢得竞赛并不保证你会获得该职位。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;How &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; is changing the way designers work and why they’re now &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;shipping code&lt;/strong&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 如何改变设计师的工作方式，以及为什么他们现在开始 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;shipping code&lt;/strong&gt;（交付代码）&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;ul style="margin:0;padding-left:20px;"&gt;
-    &lt;li&gt;You’re welcome to use &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt; to help you research, but I specifically picked these questions because I’ve found LLM answers to them unsatisfying. On these kinds of ambiguous questions, LLMs are too all over the place. For example, they’ll identify 5 plausible answers but not have the context and taste to identify the crucial factor and iron out its implications.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-欢迎使用&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;大语言模型（LLMs）&lt;/strong&gt;辅助研究，但我专门挑选这些问题，正是因为我发现 LLM 给出的答案并不令人满意。在这类模棱两可的问题上，LLM 的回答往往过于分散。例如，它们可能会列出 5 个看似合理的答案，但却缺乏背景和判断力去识别关键因素并梳理其影响。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;Why every major &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt; feature was copied and how that forced the company to work differently&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为什么 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt; 的每一项重大功能都被抄袭，以及这如何迫使公司以不同的方式运作&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;ul style="margin:0;padding-left:20px;"&gt;
-    &lt;li&gt;You only have 1000 words - make them count. People have the habit ofspending the first paragraphs clearing their throat- avoid that.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-你只有 1000 字——务必物尽其用。人们常常习惯在开头几段铺垫寒暄，请避免这种做法。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Why every major &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt; feature was copied and how that forced the company to work differently&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为什么 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt; 的每一项重大功能都被抄袭，以及这如何迫使公司以不同的方式运作&lt;/p&gt;
 
-&lt;h3 style="margin:24px 0 12px;"&gt;Why am I hiring for a researcher?&lt;/h3&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan&lt;/strong&gt;’s prediction that humanity’s comfort with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; will be a bigger bottleneck than the technology itself&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan&lt;/strong&gt; 预测，人类对 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 的接受程度将成为比技术本身更大的瓶颈&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-I want my podcast/blog to move from just asking questions about AI to actually helping answer them. But there are too many important questions, and I need a collaborator to build up context on them all, to explore dozens of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;fractal sub-questions&lt;/strong&gt;, to consider the rebuttals and syntheses, and to sharpen each others thinking.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我希望自己的播客/博客能从仅仅提出 AI 问题，转向真正帮助回答问题。但重要的问题太多了，我需要一个合作者来建立全局背景知识，探索数十个&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;分形子问题（fractal sub-questions）&lt;/strong&gt;，思考各种反驳与综合，并相互磨砺思维。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan&lt;/strong&gt;’s prediction that humanity’s comfort with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; will be a bigger bottleneck than the technology itself&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan&lt;/strong&gt; 预测，人类对 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 的接受程度将成为比技术本身更大的瓶颈&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-The questions I want us to explore are very broad while at the same time requiring deep technical analysis across many domains to actually answer.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我们想要探索的问题非常宽泛，同时又需要跨多个领域进行深入的技术分析才能真正回答。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;This year’s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;crucible moment&lt;/strong&gt; for &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Snap 今年的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;crucible moment&lt;/strong&gt;（关键时刻/严峻考验）&lt;/p&gt;
 
-&lt;h3 style="margin:24px 0 12px;"&gt;Why am I hiring this way?&lt;/h3&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;This year’s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;crucible moment&lt;/strong&gt; for &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Snap 今年的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;crucible moment&lt;/strong&gt;（关键时刻/严峻考验）&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Well, I could just put out a job ad for a researcher, but I’ll get 1,000 different resumes, and I’ll have no clue based on that information whether the applicant would be any good at synthesizing lots of technical arguments and information. So I thought, let’s just list out some questions where I genuinely don’t know the answer and would be keen to get some insight.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-好吧，我也可以直接发布一份研究员招聘广告，但我会收到 1000 份不同的简历，而我无法从中判断应聘者是否擅长综合大量技术论点与信息。于是我想，不如直接列出一些我自己也真心不知道答案、并且渴望获得见解的问题。
-&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Brought to you by:&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;本期节目由以下赞助商呈现：&lt;/p&gt;
 
-&lt;h3 style="margin:24px 0 12px;"&gt;What this role looks like&lt;/h3&gt;
+&lt;img src="https://substackcdn.com/image/fetch/$s_!I7vR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94c76004-8df2-4ae7-88ba-1fb5a47f0cd6_3444x285.png" alt="Sponsor banner" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;ul style="margin:0;padding-left:20px;"&gt;
-    &lt;li&gt;Ideally in person in San Francisco, but potentially open to remote.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-理想情况下在旧金山线下工作，但也可考虑远程。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;&lt;a href="https://www.workos.com" style="color:inherit;text-decoration:underline;"&gt;WorkOS&lt;/a&gt;—Modern identity platform for B2B SaaS, free up to 1 million MAUsVanta—Automate compliance, manage risk, and accelerate trust with AI&lt;/blockquote&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;——面向 B2B SaaS 的现代身份平台，免费支持高达 100 万 MAU；Vanta——自动化合规、管理风险，并借助 AI 加速建立信任&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;ul style="margin:0;padding-left:20px;"&gt;
-    &lt;li&gt;Will pay competitively&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-薪酬具有竞争力。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;a href="https://www.workos.com" style="color:inherit;text-decoration:underline;"&gt;WorkOS&lt;/a&gt;—Modern identity platform for B2B SaaS, free up to 1 million MAUs&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;——面向 B2B SaaS 的现代身份平台，免费支持高达 100 万 MAU&lt;/p&gt;
 
-&lt;h3 style="margin:24px 0 12px;"&gt;Submit here&lt;/h3&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;a href="https://www.vanta.com" style="color:inherit;text-decoration:underline;"&gt;Vanta&lt;/a&gt;—Automate compliance, manage risk, and accelerate trust with AI&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;——自动化合规、管理风险，并借助 AI 加速建立信任&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-If you have questions or comments, I’m hello@dwarkeshpatel.com.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-如有问题或评论，请发邮件至 hello@dwarkeshpatel.com。
-&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Where to find Evan Spiegel:&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如何找到 Evan Spiegel：&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;X: &lt;a href="https://x.com/evanspiegel" style="color:inherit;text-decoration:underline;"&gt;https://x.com/evanspiegel&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Snapchat: &lt;a href="https://www.snapchat.com/@evan" style="color:inherit;text-decoration:underline;"&gt;https://www.snapchat.com/@evan&lt;/a&gt;&lt;/li&gt;&lt;li&gt;LinkedIn: &lt;a href="https://www.linkedin.com/in/evan-spiegel" style="color:inherit;text-decoration:underline;"&gt;https://www.linkedin.com/in/evan-spiegel&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Website: &lt;a href="https://www.spiegelfamilyfund.com" style="color:inherit;text-decoration:underline;"&gt;https://www.spiegelfamilyfund.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;• X：https://x.com/evanspiegel&lt;br&gt;• Snapchat：https://www.snapchat.com/@evan&lt;br&gt;• LinkedIn：https://www.linkedin.com/in/evan-spiegel&lt;br&gt;• 个人网站：https://www.spiegelfamilyfund.com&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;Referenced:&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;参考链接：&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;Snapchat: &lt;a href="https://www.snapchat.com" style="color:inherit;text-decoration:underline;"&gt;https://www.snapchat.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;TikTok: &lt;a href="https://www.tiktok.com" style="color:inherit;text-decoration:underline;"&gt;https://www.tiktok.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Threads: &lt;a href="https://www.threads.com" style="color:inherit;text-decoration:underline;"&gt;https://www.threads.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Snapchat+: &lt;a href="https://www.snapchat.com/plus" style="color:inherit;text-decoration:underline;"&gt;https://www.snapchat.com/plus&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Instagram Plus: &lt;a href="https://help.instagram.com/26266751476298047" style="color:inherit;text-decoration:underline;"&gt;https://help.instagram.com/26266751476298047&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Pixy: &lt;a href="https://www.pixy.com" style="color:inherit;text-decoration:underline;"&gt;https://www.pixy.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Specs: &lt;a href="https://newsroom.snap.com/introducing-specs-inc" style="color:inherit;text-decoration:underline;"&gt;https://newsroom.snap.com/introducing-specs-inc&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bobby Murphy&lt;/strong&gt;: &lt;a href="https://en.wikipedia.org/wiki/Bobby_Murphy" style="color:inherit;text-decoration:underline;"&gt;https://en.wikipedia.org/wiki/Bobby_Murphy&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Hard truths about building in the AI era | Keith Rabois (Khosla Ventures): &lt;a href="https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era" style="color:inherit;text-decoration:underline;"&gt;https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marc Andreessen&lt;/strong&gt;: The real AI boom hasn’t even started yet: &lt;a href="https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom" style="color:inherit;text-decoration:underline;"&gt;https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom&lt;/a&gt;&lt;/li&gt;&lt;li&gt;The design process is dead. Here’s what’s replacing it. | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jenny Wen&lt;/strong&gt; (head of design at Claude): &lt;a href="https://www.lennysnewsletter.com/p/the-design-process-is-dead" style="color:inherit;text-decoration:underline;"&gt;https://www.lennysnewsletter.com/p/the-design-process-is-dead&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Claude Cowork: &lt;a href="https://www.anthropic.com/product/claude-cowork" style="color:inherit;text-decoration:underline;"&gt;https://www.anthropic.com/product/claude-cowork&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Figma: &lt;a href="https://www.figma.com" style="color:inherit;text-decoration:underline;"&gt;https://www.figma.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Bill Clinton on X: &lt;a href="https://x.com/BillClinton" style="color:inherit;text-decoration:underline;"&gt;https://x.com/BillClinton&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Superhuman’s secret to success: Ignoring most customer feedback, manually onboarding every new user, obsessing over every detail, and positioning around a single attribute: speed | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Rahul Vohra&lt;/strong&gt; (CEO): &lt;a href="https://www.lennysnewsletter.com/p/superhumans-secret-to-success-rahul-vohra" style="color:inherit;text-decoration:underline;"&gt;https://www.lennysnewsletter.com/p/superhumans-secret-to-success-rahul-vohra&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Bobcat tractors: &lt;a href="https://www.bobcat.com/na/en/equipment/tractors" style="color:inherit;text-decoration:underline;"&gt;https://www.bobcat.com/na/en/equipment/tractors&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Palmer Luckey&lt;/strong&gt;’s blog: &lt;a href="https://palmerluckey.com" style="color:inherit;text-decoration:underline;"&gt;https://palmerluckey.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;ModRetro: &lt;a href="https://modretro.com" style="color:inherit;text-decoration:underline;"&gt;https://modretro.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Glean: &lt;a href="https://www.glean.com" style="color:inherit;text-decoration:underline;"&gt;https://www.glean.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marty Supreme&lt;/strong&gt;on Prime Video: &lt;a href="https://www.primevideo.com/detail/Marty-Supreme/0GU3TFPDR9FE2C6L7AAWAA3QXD" style="color:inherit;text-decoration:underline;"&gt;https://www.primevideo.com/detail/Marty-Supreme/0GU3TFPDR9FE2C6L7AAWAA3QXD&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Pokemon: &lt;a href="https://www.pokemon.com" style="color:inherit;text-decoration:underline;"&gt;https://www.pokemon.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Puking rainbow lens: &lt;a href="https://www.snapchat.com/lens/349f631e78cc4b3dbd8c9656a69dbdd0" style="color:inherit;text-decoration:underline;"&gt;https://www.snapchat.com/lens/349f631e78cc4b3dbd8c9656a69dbdd0&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Face swap: &lt;a href="https://www.snapchat.com/explore/face-swap" style="color:inherit;text-decoration:underline;"&gt;https://www.snapchat.com/explore/face-swap&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;• Snapchat：https://www.snapchat.com&lt;br&gt;• TikTok：https://www.tiktok.com&lt;br&gt;• Threads：https://www.threads.com&lt;br&gt;• Snapchat+：https://www.snapchat.com/plus&lt;br&gt;• Instagram Plus：https://help.instagram.com/26266751476298047&lt;br&gt;• Pixy：https://www.pixy.com&lt;br&gt;• Specs：https://newsroom.snap.com/introducing-specs-inc&lt;br&gt;• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bobby Murphy&lt;/strong&gt;（鲍比·墨菲）：https://en.wikipedia.org/wiki/Bobby_Murphy&lt;br&gt;• AI 时代创业的残酷真相 | Keith Rabois (Khosla Ventures)：https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era&lt;br&gt;• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marc Andreessen&lt;/strong&gt;（马克·安德森）：真正的 AI 繁荣甚至尚未开始：https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom&lt;br&gt;• 设计流程已死。以下是取而代之的东西。 | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jenny Wen&lt;/strong&gt;（Claude 设计负责人）：https://www.lennysnewsletter.com/p/the-design-process-is-dead&lt;br&gt;• Claude Cowork：https://www.anthropic.com/product/claude-cowork&lt;br&gt;• Figma：https://www.figma.com&lt;br&gt;• Bill Clinton on X：https://x.com/BillClinton&lt;br&gt;• Superhuman 成功的秘诀：忽视大多数客户反馈、手动引导每位新用户、痴迷于每一个细节，并围绕单一属性——速度——进行定位 | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Rahul Vohra&lt;/strong&gt;（CEO）：https://www.lennysnewsletter.com/p/superhumans-secret-to-success-rahul-vohra&lt;br&gt;• Bobcat 拖拉机：https://www.bobcat.com/na/en/equipment/tractors&lt;br&gt;• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Palmer Luckey&lt;/strong&gt;（帕尔默·拉基）的博客：https://palmerluckey.com&lt;br&gt;• ModRetro：https://modretro.com&lt;br&gt;• Glean：https://www.glean.com&lt;br&gt;• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marty Supreme&lt;/strong&gt; on Prime Video：https://www.primevideo.com/detail/Marty-Supreme/0GU3TFPDR9FE2C6L7AAWAA3QXD&lt;br&gt;• Pokemon：https://www.pokemon.com&lt;br&gt;• 呕吐彩虹镜头（Puking rainbow lens）：https://www.snapchat.com/lens/349f631e78cc4b3dbd8c9656a69dbdd0&lt;br&gt;• 换脸（Face swap）：https://www.snapchat.com/explore/face-swap&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;Recommended books:&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;推荐书目：&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;&lt;a href="https://www.amazon.com/Loonshots-Nurture-Diseases-Transform-Industries/dp/1250185963" style="color:inherit;text-decoration:underline;"&gt;Loonshots: How to Nurture the Crazy Ideas That Win Wars, Cure Diseases, and Transform Industries&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555" style="color:inherit;text-decoration:underline;"&gt;Thinking, Fast and Slow&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.amazon.com/Apple-First-Years-David-Pogue/dp/1982134593" style="color:inherit;text-decoration:underline;"&gt;Apple: The First 50 Years&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.amazon.com/dp/B09CS8FRRD" style="color:inherit;text-decoration:underline;"&gt;The End of the World Is Just the Beginning: Mapping the Collapse of Globalization―Irreverent Predictions from a Geopolitical Strategist&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;• &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Loonshots&lt;/strong&gt;：如何培育那些赢得战争、治愈疾病并改变行业的疯狂想法&lt;br&gt;• &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Thinking, Fast and Slow&lt;/strong&gt;（思考，快与慢）&lt;br&gt;• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple&lt;/strong&gt;：最初的 50 年&lt;br&gt;• The End of the World Is Just the Beginning：描绘全球化的崩溃——来自一位地缘政治策略师的颠覆性预测&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Production and marketing by &lt;a href="https://penname.co/" style="color:inherit;text-decoration:underline;"&gt;https://penname.co/&lt;/a&gt;. For inquiries about sponsoring the podcast, email &lt;a href="mailto:podcast@lennyrachitsky.com" style="color:inherit;text-decoration:underline;"&gt;podcast@lennyrachitsky.com&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;Lenny may be an investor in the companies discussed.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;节目制作与推广由 https://penname.co/ 负责。如有赞助播客的意向，请发送邮件至 podcast@lennyrachitsky.com。&lt;br/&gt;&lt;br/&gt;Lenny 可能是文中讨论公司的投资人。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;My biggest takeaways from this conversation:&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我对这次对话的最大收获：&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Read more&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;阅读更多&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.dwarkesh.com/p/blog-prize"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.dwarkesh.com/p/blog-prize</guid>
-      <pubDate>Fri, 24 Apr 2026 16:37:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: 服务“为你推荐”信息流</title>
-      <link>https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #推荐系统 #系统架构 #低成本&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本文介绍了Bluesky&amp;quot;For You&amp;quot;推荐流的极简架构：开发者仅凭一台客厅游戏PC（单Go进程+SQLite）和一台月费7美元的VPS，以每月30美元的成本为数万用户提供服务，并估计该系统足以支撑百万日活用户。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Serving the For You feed&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Serving the For You feed&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为你推荐（For You）信息流的服务架构&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;spacecowboy&lt;/strong&gt; runs theFor You Feed, used by around 72,000 people. This guest post on the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AT Protocol&lt;/strong&gt; blog explains how it works.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;spacecowboy&lt;/strong&gt; 运营着 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;For You Feed&lt;/strong&gt;（为你推荐信息流），服务于约 72,000 名用户。这篇发布在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AT Protocol&lt;/strong&gt;（AT 协议）博客上的客座文章解释了它的工作原理。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The architecture isfascinating. The feed is served by a single &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Go&lt;/strong&gt; process using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SQLite&lt;/strong&gt; on a "gaming" PC in &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;spacecowboy&lt;/strong&gt;'s living room - 16 cores, 96GB of RAM and 4TB of attached &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;NVMe&lt;/strong&gt; storage.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;其架构设计令人着迷。该信息流由一台在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;spacecowboy&lt;/strong&gt; 客厅“游戏”PC 上运行的单 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Go&lt;/strong&gt; 语言进程通过 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SQLite&lt;/strong&gt; 提供服务——这台电脑配备 16 核 CPU、96GB 内存以及 4TB 外接 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;NVMe&lt;/strong&gt; 存储。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Recommendations&lt;/strong&gt; are based on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;likes&lt;/strong&gt;: what else are the people who like the same things as you liking on the platform?&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Recommendations&lt;/strong&gt;（推荐内容）基于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;likes&lt;/strong&gt;（点赞）：与你喜好相似的人还在平台上点赞了哪些内容？&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;That &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Go server&lt;/strong&gt; consumes the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bluesky&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;firehose&lt;/strong&gt; and stores the relevant details in SQLite, keeping the last 90 days of relevant data, which currently uses around 419GB of SQLite storage.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这台 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Go server&lt;/strong&gt;（Go 服务器）消费 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bluesky&lt;/strong&gt; 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;firehose&lt;/strong&gt;（实时全量数据流），并将相关详情存入 SQLite，仅保留最近 90 天的相关数据，目前约占用了约 419GB 的 SQLite 存储空间。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Public internet traffic is handled by a $7/month &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;VPS&lt;/strong&gt; on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OVH&lt;/strong&gt;, which talks to the living room server via &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Tailscale&lt;/strong&gt;.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;公网流量由一台每月 7 美元的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;VPS&lt;/strong&gt;（虚拟专用服务器，托管于 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OVH&lt;/strong&gt;）处理，它通过 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Tailscale&lt;/strong&gt; 与客厅中的服务器通信。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Total cost is now $30/month: $20 in electricity, $7 in VPS and $3 for the two domain names. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;spacecowboy&lt;/strong&gt; estimates that the existing system could handle all ~1 million daily active &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bluesky&lt;/strong&gt; users if they were to switch to the cheapest &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;algorithm&lt;/strong&gt; they have found to work.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;目前的总成本为每月 30 美元：20 美元电费、7 美元 VPS 费用以及 3 美元的两个域名费用。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;spacecowboy&lt;/strong&gt; 估计，如果切换到他们发现的成本最低的可用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;algorithm&lt;/strong&gt;（算法），现有系统足以承载全部约 100 万 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bluesky&lt;/strong&gt; 日活跃用户。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags: go, scaling, sqlite, software-architecture, tailscale, bluesky&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：go（Go 语言）、scaling（扩展性）、sqlite（SQLite）、software-architecture（软件架构）、tailscale（Tailscale）、bluesky（Bluesky）&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything</guid>
-      <pubDate>Fri, 24 Apr 2026 01:08:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: Claude Code 质量报告更新</title>
-      <link>https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Claude #代码智能体 #质量报告 #Bug&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Anthropic解释近期Claude Code的质量问题并非模型本身所致，而是由其工程框架中的三个独立bug引起，其中一个会话记忆清除机制的缺陷导致AI在长会话中显得健忘和重复。作者借此提醒，构建智能体系统时需格外警惕这类复杂的工程层问题，而非仅关注模型本身的非确定性。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: An update on recent Claude Code quality reports&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;An update on recent Claude Code quality reports&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The models themselves were not to blame, but three separate issues in the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;harness&lt;/strong&gt; caused complex but material problems which directly affected users.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;模型本身并非罪魁祸首，但 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;harness&lt;/strong&gt;（运行框架）中存在三个独立的问题，引发了复杂但实质性的故障，直接影响了用户体验。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;'s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;postmortem&lt;/strong&gt; describes these in detail. This one in particular stood out to me:&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 发布的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;事后分析报告&lt;/strong&gt;（postmortem）详细描述了这些问题。其中有一点尤其引起了我的注意：&lt;/p&gt;
-
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;On March 26, we shipped a change to clear Claude's older thinking from sessions that had been idle for over an hour, to reduce &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;latency&lt;/strong&gt; when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive.&lt;/blockquote&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;3 月 26 日，我们发布了一项变更，用于清除闲置超过一小时的会话中 Claude 先前的思考内容，以降低用户恢复会话时的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;延迟&lt;/strong&gt;（latency）。但一个 bug 导致该操作在会话后续的每一轮交互中持续触发，而非仅执行一次，这使得 Claude 表现得健忘且重复。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;On March 26, we shipped a change to clear Claude's older thinking from sessions that had been &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;idle&lt;/strong&gt; for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;repetitive&lt;/strong&gt;.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;3 月 26 日，我们发布了一项变更，用于清除&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;闲置&lt;/strong&gt;（idle）超过一小时的会话中 Claude 先前的思考内容，以降低用户恢复会话时的延迟。但一个 bug 导致该操作在会话后续的每一轮交互中持续触发，而非仅执行一次，这使得 Claude 表现得健忘且&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;重复&lt;/strong&gt;（repetitive）。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Ifrequentlyhave &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; sessions which I leave for an hour (or often a day or longer) before returning to them. Right now I have 11 of those (according tops aux  | grep 'claude ') and that's after closing down dozens more the other day.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我经常会让 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; 会话闲置一小时（甚至常常是一天或更久）后才返回继续工作。目前我正开着 11 个这样的会话（根据 tops aux  | grep 'claude ' 的输出），而这还是在我前几天关闭了几十个之后的数量。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I estimate I spend more time &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompting&lt;/strong&gt; in these "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;stale&lt;/strong&gt;" sessions than sessions that I've recently started!&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我估计自己在这些"&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;陈旧&lt;/strong&gt;"（stale）会话中花费的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompting&lt;/strong&gt;（提示词输入）时间，比在近期新开会话中还要多！&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;If you're building &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic systems&lt;/strong&gt; it's worth reading this article in detail - the kinds of bugs that affect harnesses are deeply complicated, even if you put aside the inherent &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;non-deterministic&lt;/strong&gt; nature of the models themselves.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如果你正在构建 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic systems&lt;/strong&gt;（智能体系统），这篇文章值得一读——影响 harness 的 bug 类型极其复杂，即使抛开模型本身固有的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;非确定性&lt;/strong&gt;（non-deterministic）本质不谈。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Via&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hacker News&lt;/strong&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;来自 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hacker News&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags:ai,prompt-engineering,generative-ai,llms,anthropic,coding-agents,claude-code&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：ai, prompt-engineering（提示工程）, generative-ai（生成式 AI）, llms（大语言模型）, anthropic, coding-agents（编程智能体）, claude-code&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything</guid>
-      <pubDate>Fri, 24 Apr 2026 01:31:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: Honker：为 SQLite 带来队列与流处理的扩展</title>
-      <link>https://simonwillison.net/2026/Apr/24/honker/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #SQLite #消息队列 #数据库&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Honker 是一款专为 SQLite 设计的扩展，它通过简洁的 Python API 和 20 余种自定义 SQL 函数，实现了类 Kafka 的队列与持久化流功能。其核心在于内置事务性发件箱模式，确保消息仅在事务成功提交后才入队，并支持以轮询 WAL 文件的方式实现近实时的消息消费。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: russellromney/honker&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;russellromney/honker&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-The design of this looks very solid. It lets you write &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Python&lt;/strong&gt; code for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;queues&lt;/strong&gt; that looks like this:
-&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;import honker
-
-db = honker.open("app.db")
-emails = db.queue("emails")
-emails.enqueue({"to": "alice@example.com"})
-
-# Consume (in a worker process)
-async for job in emails.claim("worker-1"):
-    send(job.payload)
-    job.ack()&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-这个项目的设计看起来非常扎实。它允许你编写用于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;queues&lt;/strong&gt;（队列）的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Python&lt;/strong&gt; 代码，形式如下：
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-And &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Kafka-style&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;durable streams&lt;/strong&gt; like this:
-&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;stream = db.stream("user-events")
-
-with db.transaction() as tx:
-    tx.execute("UPDATE users SET name=? WHERE id=?", [name, uid])
-    stream.publish({"user_id": uid, "change": "name"}, tx=tx)
-
-async for event in stream.subscribe(consumer="dashboard"):
-    await push_to_browser(event)&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-以及如下所示的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Kafka-style&lt;/strong&gt;（Kafka 风格）&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;durable streams&lt;/strong&gt;（持久化流）：
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-It also adds 20+ custom &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SQL functions&lt;/strong&gt; including these two:
-&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;SELECT notify('orders', '{"id": 42}');
-SELECT honker_stream_read_since('orders', 0, 1000);&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-它还增加了 20 多个自定义的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SQL functions&lt;/strong&gt;（SQL 函数），其中包括以下两个：
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-The extension requires &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;WAL mode&lt;/strong&gt;, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;workers&lt;/strong&gt; can poll the .db-wal file with a stat call every 1ms to get as close to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;real-time&lt;/strong&gt; as possible without the expense of running a full SQL query.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-该扩展需要 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;WAL mode&lt;/strong&gt;（预写日志模式），并且 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;workers&lt;/strong&gt;（工作进程）可以每 1 毫秒通过 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;stat&lt;/code&gt; 调用轮询 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;.db-wal&lt;/code&gt; 文件，从而在不运行完整 SQL query（SQL 查询）开销的前提下，尽可能接近 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;real-time&lt;/strong&gt;（实时）。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;honker&lt;/strong&gt; implements the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;transactional outbox pattern&lt;/strong&gt;, which ensures items are only queued if a transaction successfully commits. My favorite explanation of that pattern remains &lt;em&gt;Transactionally Staged Job Drains in Postgres&lt;/em&gt; by &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Brandur Leach&lt;/strong&gt;. It's great to see a new implementation of that pattern for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SQLite&lt;/strong&gt;.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;honker&lt;/strong&gt; 实现了 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;transactional outbox pattern&lt;/strong&gt;（事务性发件箱模式），确保仅当事务成功提交时，条目才会被入队。关于该模式，我最喜欢的解释仍然是 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Brandur Leach&lt;/strong&gt; 写的《Transactionally Staged Job Drains in Postgres》。很高兴看到针对 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SQLite&lt;/strong&gt; 的这一模式有了新实现。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Via &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Show HN&lt;/strong&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-via &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Show HN&lt;/strong&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Tags: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;databases&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;postgresql&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;sqlite&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;rust&lt;/strong&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;databases&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;postgresql&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;sqlite&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;rust&lt;/strong&gt;
-&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/24/honker/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/24/honker/#atom-everything</guid>
-      <pubDate>Fri, 24 Apr 2026 01:50:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: 本期内容超丰富</title>
-      <link>https://simonwillison.net/2026/Apr/24/weekly/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #通讯 #智能体 #工程模式 #内容聚合&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本期邮件通讯内容十分丰富，不仅包含骑自行车的鹈鹕等趣味插图，还收录了5篇博客文章、8个链接、3条引语及《智能体工程模式指南》的新章节。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: It&amp;#x27;s a big one&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;It's a big one&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;本期内容重磅&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;24th April 2026&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;2026年4月24日&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;This week's editionof my &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;email newsletter&lt;/strong&gt; (akacontent from this blogdelivered to your inbox) features 4 pelicans riding bicycles, 1 possum on an e-scooter, up to 5 raccoons with ham radios hiding in crowds, 5 blog posts, 8 links, 3 quotes and a new chapter of my &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Agentic Engineering Patterns&lt;/strong&gt; guide.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;本周的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;邮件简报&lt;/strong&gt;（亦即本博客投递到你收件箱的内容）包括：4只骑自行车的鹈鹕、1只骑电动滑板车的负鼠、多达5只带着业余无线电躲在人群中的浣熊、5篇博客文章、8个链接、3条引文，以及我的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Agentic Engineering Patterns&lt;/strong&gt;（智能体工程模式）指南的新章节。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/24/weekly/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/24/weekly/#atom-everything</guid>
-      <pubDate>Fri, 24 Apr 2026 04:09:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: 毫秒转换器</title>
-      <link>https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #时间换算 #单位转换 #实用工具&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 由于LLMreports默认以毫秒显示提示词耗时，手动换算为秒和分钟颇为繁琐，作者因此开发了一款毫秒转换工具来简化这一过程。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Millisecond Converter&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Millisecond Converter&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;LLMreports&lt;/strong&gt; reports &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt&lt;/strong&gt; durations in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;milliseconds&lt;/strong&gt; and I got fed up of having to think about how to convert those to seconds and minutes.
-&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;LLMreports&lt;/strong&gt; 以 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;milliseconds&lt;/strong&gt;（毫秒）为单位报告 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt&lt;/strong&gt;（提示词）的持续时间，我受够了每次都要动脑筋把它们换算成秒和分钟。
-&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything</guid>
-      <pubDate>Fri, 24 Apr 2026 04:23:11 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is</guid>
+      <pubDate>Sun, 26 Apr 2026 12:31:49 +0000</pubDate>
     </item>
   </channel>
 </rss>

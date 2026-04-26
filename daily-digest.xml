@@ -7,28 +7,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 24 Apr 2026 23:38:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 22:53:08 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-04-24</title>
-      <description>&lt;p&gt;&lt;strong&gt;AI 日报 | Claude Code 质量风波复盘、Bluesky 极简推荐架构、SQLite 版 Kafka 问世&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-04-26</title>
+      <description>&lt;p&gt;&lt;strong&gt;每日 AI/产品/技术日报&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; Agent 系统&lt;/h4&gt;
+&lt;h4&gt;产品与增长&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Claude Code 质量下滑系工程 Bug 所致&lt;/strong&gt;：Anthropic 解释近期 Claude Code 的问题并非出自模型本身，而是工程框架中的三个独立 bug（含会话记忆清除缺陷）；作者提醒，构建 Agent 系统时需重点排查工程层复杂性，而非仅归因于模型非确定性。（Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;毫秒转换工具&lt;/strong&gt;：针对 LLM 性能报告默认以毫秒显示耗时的痛点，作者开发了一款毫秒转秒/分钟的简易在线工具，提升人工阅读效率。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Snapchat CEO: Why distribution has become the most important moat&lt;/strong&gt; | *Lenny Rachitsky, Lenny&amp;#x27;s Newsletter*&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;架构与系统工程&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Honker：SQLite 上的消息队列扩展&lt;/strong&gt;：该项目通过简洁的 Python API 与 20 余种自定义 SQL 函数，在 SQLite 上实现类 Kafka 的队列与持久化流；核心采用事务性发件箱模式，确保消息仅在事务提交后入队，并支持轮询 WAL 文件实现近实时消费。（Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bluesky「For You」极简架构&lt;/strong&gt;：该推荐流仅由一台客厅游戏 PC（单 Go 进程 + SQLite）和一台月费 7 美元的 VPS 构成，以每月 30 美元成本服务数万用户，作者预估其足以支撑百万日活。（Simon Willison）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;内容聚合与深度思考&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;智能体工程模式指南更新&lt;/strong&gt;：本期通讯聚合了《智能体工程模式指南》新章节、多篇博客及技术链接，涵盖智能体工程最新实践与行业动态。（Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2 万美元征文寻找 AI 重大议题研究伙伴&lt;/strong&gt;：Dwarkesh Patel 设立博客奖金，征集关于 AI 发展速度、基础模型盈利、慈善资金部署及地缘应对策略的千字短文；真实意图是寻找一位合作者，共同研究 AI 经济、政策与超级智能治理。（Dwarkesh Patel）&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-24</guid>
-      <pubDate>Fri, 24 Apr 2026 23:38:17 +0000</pubDate>
+&lt;p&gt;Evan Spiegel 提出，分销能力已取代纯粹软件优势成为消费科技领域最核心的护城河；他还探讨了 AI 对设计工作的重塑，并认为人类对 AI 的接受度可能成为未来比技术本身更大的发展瓶颈。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-26</guid>
+      <pubDate>Sun, 26 Apr 2026 22:53:08 +0000</pubDate>
     </item>
   </channel>
 </rss>

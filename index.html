@@ -292,446 +292,146 @@
 <div class="container">
   <div class="tabs">
     <button class="tab active" onclick="switchTab('digest')">每日日报</button>
-    <button class="tab" onclick="switchTab('articles')">全部文章 (6)</button>
+    <button class="tab" onclick="switchTab('articles')">全部文章 (1)</button>
   </div>
 
   <!-- 日报 Tab -->
   <div id="tab-digest" class="tab-content active">
-    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">AI发展</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">AI商业化</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">AI治理</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">博客奖金</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">时间换算</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">单位转换</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">实用工具</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">通讯</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
+    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">分销护城河</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">消费产品</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">AI变革</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">竞争壁垒</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
-      <h2>2026-04-24 日报</h2>
-      <p><strong>AI 日报 | Claude Code 质量风波复盘、Bluesky 极简推荐架构、SQLite 版 Kafka 问世</strong></p>
+      <h2>2026-04-26 日报</h2>
+      <p><strong>每日 AI/产品/技术日报</strong></p>
 <hr>
-<h4>LLM &amp; Agent 系统</h4>
+<h4>产品与增长</h4>
 <ul>
-<li><strong>Claude Code 质量下滑系工程 Bug 所致</strong>：Anthropic 解释近期 Claude Code 的问题并非出自模型本身，而是工程框架中的三个独立 bug（含会话记忆清除缺陷）；作者提醒，构建 Agent 系统时需重点排查工程层复杂性，而非仅归因于模型非确定性。（Simon Willison）</li>
-<li><strong>毫秒转换工具</strong>：针对 LLM 性能报告默认以毫秒显示耗时的痛点，作者开发了一款毫秒转秒/分钟的简易在线工具，提升人工阅读效率。（Simon Willison）</li>
+<li><strong>Snapchat CEO: Why distribution has become the most important moat</strong> | *Lenny Rachitsky, Lenny&#x27;s Newsletter*</li>
 </ul>
-<h4>架构与系统工程</h4>
-<ul>
-<li><strong>Honker：SQLite 上的消息队列扩展</strong>：该项目通过简洁的 Python API 与 20 余种自定义 SQL 函数，在 SQLite 上实现类 Kafka 的队列与持久化流；核心采用事务性发件箱模式，确保消息仅在事务提交后入队，并支持轮询 WAL 文件实现近实时消费。（Simon Willison）</li>
-<li><strong>Bluesky「For You」极简架构</strong>：该推荐流仅由一台客厅游戏 PC（单 Go 进程 + SQLite）和一台月费 7 美元的 VPS 构成，以每月 30 美元成本服务数万用户，作者预估其足以支撑百万日活。（Simon Willison）</li>
-</ul>
-<h4>内容聚合与深度思考</h4>
-<ul>
-<li><strong>智能体工程模式指南更新</strong>：本期通讯聚合了《智能体工程模式指南》新章节、多篇博客及技术链接，涵盖智能体工程最新实践与行业动态。（Simon Willison）</li>
-<li><strong>2 万美元征文寻找 AI 重大议题研究伙伴</strong>：Dwarkesh Patel 设立博客奖金，征集关于 AI 发展速度、基础模型盈利、慈善资金部署及地缘应对策略的千字短文；真实意图是寻找一位合作者，共同研究 AI 经济、政策与超级智能治理。（Dwarkesh Patel）</li>
-</ul>
+<p>Evan Spiegel 提出，分销能力已取代纯粹软件优势成为消费科技领域最核心的护城河；他还探讨了 AI 对设计工作的重塑，并认为人类对 AI 的接受度可能成为未来比技术本身更大的发展瓶颈。</p>
     </div>
   </div>
 
   <!-- 文章 Tab -->
   <div id="tab-articles" class="tab-content">
     <div class="article-card">
-      <div class="source">Dwarkesh Patel</div>
+      <div class="source">Lenny&#x27;s Newsletter</div>
       <div class="title-row">
-        <div class="title">AI重大问题博客征文奖</div>
+        <div class="title">Snapchat CEO：为何分发已成最重要的护城河</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">Blog prize for the big questions about AI</div>
-      <div class="tags"><span class="tag">AI发展</span><span class="tag">AI商业化</span><span class="tag">AI治理</span><span class="tag">博客奖金</span></div>
-      <div class="summary">作者宣布设立2万美元博客征文奖，征集关于AI发展速度、基础模型盈利、巨额慈善资金部署及非AI国家应对策略等重大问题的千字短文；此举的真正目的是寻找一位研究合作者，与其共同深入探索这些关乎经济、政策与超级智能治理的关键议题。</div>
+      <div class="title-en">Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel</div>
+      <div class="tags"><span class="tag">分销护城河</span><span class="tag">消费产品</span><span class="tag">AI变革</span><span class="tag">竞争壁垒</span></div>
+      <div class="summary">Snapchat CEO Evan Spiegel在访谈中提出，分销能力已成为消费科技领域最重要的护城河，纯粹的软件业务已难以构建持久优势；他还探讨了AI如何重塑设计工作，并认为人类对AI的接受度将是未来比技术本身更大的发展瓶颈。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">There has never been a time where excellent intellectual output on the right question has been more valuable or more urgent.</div><div class="quote-zh">在正确的问题上产出卓越的思想成果，从未像今天这样有价值、这样紧迫。</div></div>
-<div class="quote-block"><div class="quote-en">People have the habit of spending the first paragraphs clearing their throat - avoid that.</div><div class="quote-zh">人们总爱在开头几段清清嗓子——别这么干。</div></div>
+<div class="quote-block"><div class="quote-en">Why a pure software business is no longer a moat, and what actually creates durable competitive advantages today</div><div class="quote-zh">纯软件业务已不再是一道护城河，真正创造持久竞争优势的另有其物</div></div>
+<div class="quote-block"><div class="quote-en">Evan’s prediction that humanity’s comfort with AI will be a bigger bottleneck than the technology itself</div><div class="quote-zh">Evan 预判，人类对 AI 的接受舒适度将成为比技术本身更大的瓶颈</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Blog prize for the big questions about AI</h3>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Snapchat</strong> CEO：为什么分发已成为最重要的护城河 | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Evan Spiegel</strong></p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-There has never been a time where excellent intellectual output on the right question has been more valuable or more urgent. Compelling answers about the big questions about AI can inform the most important economic and foreign policy decisions that will ever be made, the deployment of (at least)hundreds of billionsof philanthropic dollars, and the training and governance of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">superintelligences</strong>.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-当下，针对正确问题的卓越思想产出从未如此宝贵且紧迫。关于 AI 宏大问题（big questions）的有力回答，能够为有史以来最重要的经济与外交政策决策提供参考，能够影响（至少）数千亿慈善资金的部署，并关乎<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">超级智能（superintelligences）</strong>的训练与治理。
-</p>
+<img src="https://substackcdn.com/image/fetch/$s_!TICc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc757a11-a9bd-4126-ad1c-37027e901d1f_1920x1080.png" alt="Cover image" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-I’m announcing a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">$20,000 blog prize</strong> in order to find people who will excel at researching and thinking through these problems. The not-so-secret point of this whole contest is so that I can hire a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">research collaborator</strong> to think through questions like this hand in hand with me. See more at the end.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我宣布设立一笔<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">2 万美元博客奖金（$20,000 blog prize）</strong>，以寻找那些擅长研究并深入思考这些问题的人才。这场竞赛的“公开秘密”在于，我希望借此聘请一位<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">研究合作者（research collaborator）</strong>，与我携手共同探讨这类问题。更多详情见文末。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Evan Spiegel</strong>, the co-founder and CEO of <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Snap</strong>, is one of the very few people in the world who has successfully built and scaled a lasting consumer social product. <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Snapchat</strong> has nearly 1 billion <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MAUs</strong>, and Evan and his team invented some of the most important consumer products and features, including <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Stories</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AR glasses</strong>, swipe-based navigation, the camera as the primary UX, and a lot more.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Evan Spiegel</strong>（埃文·斯皮格尔）是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Snap</strong> 的联合创始人兼 CEO，也是全球极少数成功打造并规模化长期消费者社交产品的人物之一。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Snapchat</strong> 目前拥有近 10 亿 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MAUs</strong>（月活跃用户），Evan 和他的团队发明了诸多最重要的消费级产品和功能，包括 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Stories</strong>（故事）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AR glasses</strong>（AR 眼镜）、滑动式导航、以相机为核心的用户体验（UX）等等。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Pick a question below, and spend no more than 1,000 words answering it. <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">1st, 2nd, and 3rd place</strong> will get $10,000, $6,000, and $4,000 respectively. I’ll publish the winning entry (and potentially the runner ups) on my blog. Please submit by May 10th, 11:59 PM PST.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-从下方选择一个问题，用不超过 1000 字的篇幅作答。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">第一名、第二名和第三名（1st, 2nd, and 3rd place）</strong>将分别获得 1 万美元、6000 美元和 4000 美元。我会将获奖文章（以及可能的入围作品）发布在我的博客上。请在太平洋标准时间（PST）5 月 10 日晚 11:59 前提交。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Listen onYouTube,Spotify, andApple Podcasts</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在 YouTube、Spotify 和 Apple Podcasts 上收听</p>
 
-<h3 style="margin:24px 0 12px;">Questions - choose one</h3>
+<h3 style="margin:24px 0 12px;">In our in-depth conversation, we discuss:</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在我们的深度对话中，我们探讨了以下内容：</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-  <ul style="margin:0;padding-left:20px;">
-    <li>A couple years ago, there was this idea that AI progress might slow down as we make further progress into the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">RL regime</strong>. 1. Because as horizon lengths increase, the AI needs to do many days’ worth of work before we can even see if it did it right, so if we’re still in a naive policy gradient world, the reward signal / <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">FLOP</strong> goes down, and 2. We’d crossed through many <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OOMs</strong> of RL compute from GPT 4 to o1 to o3, and it would not be feasible to replicate that many OOMs increase in compute immediately again. But AI progress seems to have been fast nonetheless - even potentially speeding up if rumors about <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Spud</strong> or Mythos are to be believed. What gives? What did that previous intuition pump that motivated longer timelines miss?</li>
-  </ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-几年前，人们曾有一种观点：随着我们在<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">强化学习阶段（RL regime）</strong>中不断深入，AI 的进展可能会放缓。理由有二：1. 随着视界长度（horizon lengths）增加，AI 需要完成多日工作量后，我们才能判断其是否正确完成，因此如果我们仍处于朴素的策略梯度（policy gradient）时代，奖励信号 /<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">浮点运算次数（FLOP）</strong>会下降；2. 从 GPT-4 到 o1 再到 o3，我们已经跨越了多个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">数量级（OOMs, Orders of Magnitude）</strong>的 RL 计算量，短期内再次复制如此多数量级的算力增长是不可行的。但尽管如此，AI 的进步似乎依然迅速——如果关于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Spud</strong> 或 Mythos 的传闻属实，甚至可能还在加速。这是怎么回事？当初支撑更长 timelines 预期的那个直觉泵（intuition pump）遗漏了什么？
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>Why <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">distribution</strong> is now the biggest challenge for creating a consumer technology business</li></ul></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">distribution</strong>（分发）如今已成为打造消费级科技企业的最大挑战</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-  <ul style="margin:0;padding-left:20px;">
-    <li>What’s the most plausible story where <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">foundation model</strong> companies actually start making money? If you consider each individual model as a company, then its profitsmaybe able to pay back the training cost. But of course, if you don’t train a bigger, more expensive model immediately, then you stop making money after 3 months. So when does the profit start? Maybe at some point <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">scaling</strong> will plateau, butif progress at the frontierhas slowed down, then the combination of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">distillation</strong> and low switching costs (cloud margins result from high switching costs) makes it really easy for open source to catch up to the labs, eating into their margins. So how do the labs actually start making money?</li>
-  </ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-基础模型公司真正开始盈利的最可信路径是什么？如果你把每一个单独的模型视为一家公司，那么它的利润或许能够回本。但当然，如果你不立即训练一个更大、更昂贵的模型，3 个月后你就会停止盈利。那么利润从何时开始？也许在某个时刻，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">规模扩展（scaling）</strong>会触及平台期，但如果前沿进展放缓，那么<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">知识蒸馏（distillation）</strong>与低切换成本（云服务商的利润正来自于高切换成本）的结合，会让开源模型轻易追上实验室的水平，侵蚀它们的利润。那么这些实验室究竟如何才能真正赚钱？
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Why <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">distribution</strong> is now the biggest challenge for creating a consumer technology business</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">distribution</strong>（分发）如今已成为打造消费级科技企业的最大挑战</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-  <ul style="margin:0;padding-left:20px;">
-    <li>With <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>’s new raise at an $852B valuation, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI Foundation</strong>’s stake isnow worth $180B. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>’scofounders have pledged to donate 80%of their wealth. Nobody seems to have a concrete idea of how to deploy 100s of billions (soon trillions) of wealth productively to “make AI go well”. If you were in charge of the OpenAI Foundation right now, what exactly would you do? And when? It’s not enough to identify a cause you think is important, because that doesn’t answer the fundamental problem ofhow you convert money to impact. Identify the concrete strategy you recommend pursuing.</li>
-  </ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-随着 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 以 8520 亿美元估值完成新一轮融资，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI 基金会（OpenAI Foundation）</strong>持有的股份现价值 1800 亿美元。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 的联合创始人已承诺捐赠其 80% 的财富。目前似乎没有人对如何 productive 地部署数千亿（很快将是数万亿）财富以“让 AI 健康发展”有具体思路。如果你现在掌管 OpenAI 基金会，你具体会做什么？何时做？仅仅指出你认为重要的事业是不够的，因为这并没有回答如何将资金转化为实际影响力的根本问题。请明确你建议采取的具体策略。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>How <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Snap</strong> innovates at scale with a 9-to-12-person design team: no titles, no hierarchy, hundreds of ideas reviewed weekly with the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">CEO</strong></li></ul></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Snap 如何通过一支仅 9 到 12 人的设计团队实现规模化创新：没有职级、没有层级，每周与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">CEO</strong> 共同审阅数百个创意</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-  <ul style="margin:0;padding-left:20px;">
-    <li>What should countries which are not currently in the AI production chain (semis, energy, frontier models, robotics) do in order to not get totally sidestepped by <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">transformative AI</strong>? If you’re the leader of <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">India</strong> or <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Nigeria</strong>, what do you do right now?</li>
-  </ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-那些目前尚未处于 AI 生产链（半导体、能源、前沿模型、机器人）中的国家，应该采取什么措施，才能不被<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">变革性人工智能（transformative AI）</strong>完全绕过或边缘化？如果你是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">印度（India）</strong>或 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">尼日利亚（Nigeria）</strong>的领导人，你现在会怎么做？
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">How <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Snap</strong> innovates at scale with a 9-to-12-person design team: no titles, no hierarchy, hundreds of ideas reviewed weekly with the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">CEO</strong></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Snap 如何通过一支仅 9 到 12 人的设计团队实现规模化创新：没有职级、没有层级，每周与 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">CEO</strong> 共同审阅数百个创意</p>
 
-<h3 style="margin:24px 0 12px;">Rules and tips</h3>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>Why a pure <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">software business</strong> is no longer a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">moat</strong>, and what actually creates durable competitive advantages today</li></ul></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么纯粹的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">software business</strong>（软件业务）不再构成 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">moat</strong>（护城河），以及当今真正能够创造持久竞争优势的因素是什么</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-  <ul style="margin:0;padding-left:20px;">
-    <li>Please don’t let a lack of domain expertise dissuade you from entering. I’m looking for someone who can ramp up fast on unfamiliar topics and think clearly.</li>
-  </ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-请不要因缺乏领域专业知识而却步。我需要的是能够快速熟悉陌生话题并保持清晰思考的人。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Why a pure <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">software business</strong> is no longer a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">moat</strong>, and what actually creates durable competitive advantages today</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么纯粹的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">software business</strong>（软件业务）不再构成 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">moat</strong>（护城河），以及当今真正能够创造持久竞争优势的因素是什么</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-  <ul style="margin:0;padding-left:20px;">
-    <li>Each entrant may submit only once.</li>
-  </ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-每位参赛者只能提交一次。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>How <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> is changing the way designers work and why they’re now <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">shipping code</strong></li></ul></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 如何改变设计师的工作方式，以及为什么他们现在开始 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">shipping code</strong>（交付代码）</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-  <ul style="margin:0;padding-left:20px;">
-    <li>You are still eligible for this essay competition even if you’re not interested in the researcher role. Nor does winning this competition guarantee that you will be offered the role.</li>
-  </ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-即使你对研究员职位不感兴趣，你仍然有资格参加本次征文竞赛。此外，赢得竞赛并不保证你会获得该职位。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">How <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> is changing the way designers work and why they’re now <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">shipping code</strong></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 如何改变设计师的工作方式，以及为什么他们现在开始 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">shipping code</strong>（交付代码）</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-  <ul style="margin:0;padding-left:20px;">
-    <li>You’re welcome to use <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLMs</strong> to help you research, but I specifically picked these questions because I’ve found LLM answers to them unsatisfying. On these kinds of ambiguous questions, LLMs are too all over the place. For example, they’ll identify 5 plausible answers but not have the context and taste to identify the crucial factor and iron out its implications.</li>
-  </ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-欢迎使用<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">大语言模型（LLMs）</strong>辅助研究，但我专门挑选这些问题，正是因为我发现 LLM 给出的答案并不令人满意。在这类模棱两可的问题上，LLM 的回答往往过于分散。例如，它们可能会列出 5 个看似合理的答案，但却缺乏背景和判断力去识别关键因素并梳理其影响。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>Why every major <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Snap</strong> feature was copied and how that forced the company to work differently</li></ul></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Snap</strong> 的每一项重大功能都被抄袭，以及这如何迫使公司以不同的方式运作</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-  <ul style="margin:0;padding-left:20px;">
-    <li>You only have 1000 words - make them count. People have the habit ofspending the first paragraphs clearing their throat- avoid that.</li>
-  </ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-你只有 1000 字——务必物尽其用。人们常常习惯在开头几段铺垫寒暄，请避免这种做法。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Why every major <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Snap</strong> feature was copied and how that forced the company to work differently</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为什么 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Snap</strong> 的每一项重大功能都被抄袭，以及这如何迫使公司以不同的方式运作</p>
 
-<h3 style="margin:24px 0 12px;">Why am I hiring for a researcher?</h3>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Evan</strong>’s prediction that humanity’s comfort with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> will be a bigger bottleneck than the technology itself</li></ul></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Evan</strong> 预测，人类对 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 的接受程度将成为比技术本身更大的瓶颈</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-I want my podcast/blog to move from just asking questions about AI to actually helping answer them. But there are too many important questions, and I need a collaborator to build up context on them all, to explore dozens of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">fractal sub-questions</strong>, to consider the rebuttals and syntheses, and to sharpen each others thinking.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我希望自己的播客/博客能从仅仅提出 AI 问题，转向真正帮助回答问题。但重要的问题太多了，我需要一个合作者来建立全局背景知识，探索数十个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">分形子问题（fractal sub-questions）</strong>，思考各种反驳与综合，并相互磨砺思维。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Evan</strong>’s prediction that humanity’s comfort with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> will be a bigger bottleneck than the technology itself</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Evan</strong> 预测，人类对 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 的接受程度将成为比技术本身更大的瓶颈</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-The questions I want us to explore are very broad while at the same time requiring deep technical analysis across many domains to actually answer.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我们想要探索的问题非常宽泛，同时又需要跨多个领域进行深入的技术分析才能真正回答。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>This year’s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">crucible moment</strong> for <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Snap</strong></li></ul></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Snap 今年的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">crucible moment</strong>（关键时刻/严峻考验）</p>
 
-<h3 style="margin:24px 0 12px;">Why am I hiring this way?</h3>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This year’s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">crucible moment</strong> for <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Snap</strong></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Snap 今年的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">crucible moment</strong>（关键时刻/严峻考验）</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Well, I could just put out a job ad for a researcher, but I’ll get 1,000 different resumes, and I’ll have no clue based on that information whether the applicant would be any good at synthesizing lots of technical arguments and information. So I thought, let’s just list out some questions where I genuinely don’t know the answer and would be keen to get some insight.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-好吧，我也可以直接发布一份研究员招聘广告，但我会收到 1000 份不同的简历，而我无法从中判断应聘者是否擅长综合大量技术论点与信息。于是我想，不如直接列出一些我自己也真心不知道答案、并且渴望获得见解的问题。
-</p>
+<h3 style="margin:24px 0 12px;">Brought to you by:</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">本期节目由以下赞助商呈现：</p>
 
-<h3 style="margin:24px 0 12px;">What this role looks like</h3>
+<img src="https://substackcdn.com/image/fetch/$s_!I7vR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94c76004-8df2-4ae7-88ba-1fb5a47f0cd6_3444x285.png" alt="Sponsor banner" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-  <ul style="margin:0;padding-left:20px;">
-    <li>Ideally in person in San Francisco, but potentially open to remote.</li>
-  </ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-理想情况下在旧金山线下工作，但也可考虑远程。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"><a href="https://www.workos.com" style="color:inherit;text-decoration:underline;">WorkOS</a>—Modern identity platform for B2B SaaS, free up to 1 million MAUsVanta—Automate compliance, manage risk, and accelerate trust with AI</blockquote></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">WorkOS</strong>——面向 B2B SaaS 的现代身份平台，免费支持高达 100 万 MAU；Vanta——自动化合规、管理风险，并借助 AI 加速建立信任</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-  <ul style="margin:0;padding-left:20px;">
-    <li>Will pay competitively</li>
-  </ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-薪酬具有竞争力。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><a href="https://www.workos.com" style="color:inherit;text-decoration:underline;">WorkOS</a>—Modern identity platform for B2B SaaS, free up to 1 million MAUs</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">WorkOS</strong>——面向 B2B SaaS 的现代身份平台，免费支持高达 100 万 MAU</p>
 
-<h3 style="margin:24px 0 12px;">Submit here</h3>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><a href="https://www.vanta.com" style="color:inherit;text-decoration:underline;">Vanta</a>—Automate compliance, manage risk, and accelerate trust with AI</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Vanta</strong>——自动化合规、管理风险，并借助 AI 加速建立信任</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-If you have questions or comments, I’m hello@dwarkeshpatel.com.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-如有问题或评论，请发邮件至 hello@dwarkeshpatel.com。
-</p></div>
+<h3 style="margin:24px 0 12px;">Where to find Evan Spiegel:</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如何找到 Evan Spiegel：</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>X: <a href="https://x.com/evanspiegel" style="color:inherit;text-decoration:underline;">https://x.com/evanspiegel</a></li><li>Snapchat: <a href="https://www.snapchat.com/@evan" style="color:inherit;text-decoration:underline;">https://www.snapchat.com/@evan</a></li><li>LinkedIn: <a href="https://www.linkedin.com/in/evan-spiegel" style="color:inherit;text-decoration:underline;">https://www.linkedin.com/in/evan-spiegel</a></li><li>Website: <a href="https://www.spiegelfamilyfund.com" style="color:inherit;text-decoration:underline;">https://www.spiegelfamilyfund.com</a></li></ul></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• X：https://x.com/evanspiegel<br>• Snapchat：https://www.snapchat.com/@evan<br>• LinkedIn：https://www.linkedin.com/in/evan-spiegel<br>• 个人网站：https://www.spiegelfamilyfund.com</p>
+
+<h3 style="margin:24px 0 12px;">Referenced:</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">参考链接：</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li>Snapchat: <a href="https://www.snapchat.com" style="color:inherit;text-decoration:underline;">https://www.snapchat.com</a></li><li>TikTok: <a href="https://www.tiktok.com" style="color:inherit;text-decoration:underline;">https://www.tiktok.com</a></li><li>Threads: <a href="https://www.threads.com" style="color:inherit;text-decoration:underline;">https://www.threads.com</a></li><li>Snapchat+: <a href="https://www.snapchat.com/plus" style="color:inherit;text-decoration:underline;">https://www.snapchat.com/plus</a></li><li>Instagram Plus: <a href="https://help.instagram.com/26266751476298047" style="color:inherit;text-decoration:underline;">https://help.instagram.com/26266751476298047</a></li><li>Pixy: <a href="https://www.pixy.com" style="color:inherit;text-decoration:underline;">https://www.pixy.com</a></li><li>Specs: <a href="https://newsroom.snap.com/introducing-specs-inc" style="color:inherit;text-decoration:underline;">https://newsroom.snap.com/introducing-specs-inc</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bobby Murphy</strong>: <a href="https://en.wikipedia.org/wiki/Bobby_Murphy" style="color:inherit;text-decoration:underline;">https://en.wikipedia.org/wiki/Bobby_Murphy</a></li><li>Hard truths about building in the AI era | Keith Rabois (Khosla Ventures): <a href="https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era" style="color:inherit;text-decoration:underline;">https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marc Andreessen</strong>: The real AI boom hasn’t even started yet: <a href="https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom" style="color:inherit;text-decoration:underline;">https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom</a></li><li>The design process is dead. Here’s what’s replacing it. | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jenny Wen</strong> (head of design at Claude): <a href="https://www.lennysnewsletter.com/p/the-design-process-is-dead" style="color:inherit;text-decoration:underline;">https://www.lennysnewsletter.com/p/the-design-process-is-dead</a></li><li>Claude Cowork: <a href="https://www.anthropic.com/product/claude-cowork" style="color:inherit;text-decoration:underline;">https://www.anthropic.com/product/claude-cowork</a></li><li>Figma: <a href="https://www.figma.com" style="color:inherit;text-decoration:underline;">https://www.figma.com</a></li><li>Bill Clinton on X: <a href="https://x.com/BillClinton" style="color:inherit;text-decoration:underline;">https://x.com/BillClinton</a></li><li>Superhuman’s secret to success: Ignoring most customer feedback, manually onboarding every new user, obsessing over every detail, and positioning around a single attribute: speed | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rahul Vohra</strong> (CEO): <a href="https://www.lennysnewsletter.com/p/superhumans-secret-to-success-rahul-vohra" style="color:inherit;text-decoration:underline;">https://www.lennysnewsletter.com/p/superhumans-secret-to-success-rahul-vohra</a></li><li>Bobcat tractors: <a href="https://www.bobcat.com/na/en/equipment/tractors" style="color:inherit;text-decoration:underline;">https://www.bobcat.com/na/en/equipment/tractors</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Palmer Luckey</strong>’s blog: <a href="https://palmerluckey.com" style="color:inherit;text-decoration:underline;">https://palmerluckey.com</a></li><li>ModRetro: <a href="https://modretro.com" style="color:inherit;text-decoration:underline;">https://modretro.com</a></li><li>Glean: <a href="https://www.glean.com" style="color:inherit;text-decoration:underline;">https://www.glean.com</a></li><li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marty Supreme</strong>on Prime Video: <a href="https://www.primevideo.com/detail/Marty-Supreme/0GU3TFPDR9FE2C6L7AAWAA3QXD" style="color:inherit;text-decoration:underline;">https://www.primevideo.com/detail/Marty-Supreme/0GU3TFPDR9FE2C6L7AAWAA3QXD</a></li><li>Pokemon: <a href="https://www.pokemon.com" style="color:inherit;text-decoration:underline;">https://www.pokemon.com</a></li><li>Puking rainbow lens: <a href="https://www.snapchat.com/lens/349f631e78cc4b3dbd8c9656a69dbdd0" style="color:inherit;text-decoration:underline;">https://www.snapchat.com/lens/349f631e78cc4b3dbd8c9656a69dbdd0</a></li><li>Face swap: <a href="https://www.snapchat.com/explore/face-swap" style="color:inherit;text-decoration:underline;">https://www.snapchat.com/explore/face-swap</a></li></ul></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• Snapchat：https://www.snapchat.com<br>• TikTok：https://www.tiktok.com<br>• Threads：https://www.threads.com<br>• Snapchat+：https://www.snapchat.com/plus<br>• Instagram Plus：https://help.instagram.com/26266751476298047<br>• Pixy：https://www.pixy.com<br>• Specs：https://newsroom.snap.com/introducing-specs-inc<br>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bobby Murphy</strong>（鲍比·墨菲）：https://en.wikipedia.org/wiki/Bobby_Murphy<br>• AI 时代创业的残酷真相 | Keith Rabois (Khosla Ventures)：https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era<br>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marc Andreessen</strong>（马克·安德森）：真正的 AI 繁荣甚至尚未开始：https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom<br>• 设计流程已死。以下是取而代之的东西。 | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jenny Wen</strong>（Claude 设计负责人）：https://www.lennysnewsletter.com/p/the-design-process-is-dead<br>• Claude Cowork：https://www.anthropic.com/product/claude-cowork<br>• Figma：https://www.figma.com<br>• Bill Clinton on X：https://x.com/BillClinton<br>• Superhuman 成功的秘诀：忽视大多数客户反馈、手动引导每位新用户、痴迷于每一个细节，并围绕单一属性——速度——进行定位 | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Rahul Vohra</strong>（CEO）：https://www.lennysnewsletter.com/p/superhumans-secret-to-success-rahul-vohra<br>• Bobcat 拖拉机：https://www.bobcat.com/na/en/equipment/tractors<br>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Palmer Luckey</strong>（帕尔默·拉基）的博客：https://palmerluckey.com<br>• ModRetro：https://modretro.com<br>• Glean：https://www.glean.com<br>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Marty Supreme</strong> on Prime Video：https://www.primevideo.com/detail/Marty-Supreme/0GU3TFPDR9FE2C6L7AAWAA3QXD<br>• Pokemon：https://www.pokemon.com<br>• 呕吐彩虹镜头（Puking rainbow lens）：https://www.snapchat.com/lens/349f631e78cc4b3dbd8c9656a69dbdd0<br>• 换脸（Face swap）：https://www.snapchat.com/explore/face-swap</p>
+
+<h3 style="margin:24px 0 12px;">Recommended books:</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">推荐书目：</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="margin:0;padding-left:20px;"><li><a href="https://www.amazon.com/Loonshots-Nurture-Diseases-Transform-Industries/dp/1250185963" style="color:inherit;text-decoration:underline;">Loonshots: How to Nurture the Crazy Ideas That Win Wars, Cure Diseases, and Transform Industries</a></li><li><a href="https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555" style="color:inherit;text-decoration:underline;">Thinking, Fast and Slow</a></li><li><a href="https://www.amazon.com/Apple-First-Years-David-Pogue/dp/1982134593" style="color:inherit;text-decoration:underline;">Apple: The First 50 Years</a></li><li><a href="https://www.amazon.com/dp/B09CS8FRRD" style="color:inherit;text-decoration:underline;">The End of the World Is Just the Beginning: Mapping the Collapse of Globalization―Irreverent Predictions from a Geopolitical Strategist</a></li></ul></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Loonshots</strong>：如何培育那些赢得战争、治愈疾病并改变行业的疯狂想法<br>• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Thinking, Fast and Slow</strong>（思考，快与慢）<br>• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple</strong>：最初的 50 年<br>• The End of the World Is Just the Beginning：描绘全球化的崩溃——来自一位地缘政治策略师的颠覆性预测</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Production and marketing by <a href="https://penname.co/" style="color:inherit;text-decoration:underline;">https://penname.co/</a>. For inquiries about sponsoring the podcast, email <a href="mailto:podcast@lennyrachitsky.com" style="color:inherit;text-decoration:underline;">podcast@lennyrachitsky.com</a>.<br/><br/>Lenny may be an investor in the companies discussed.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">节目制作与推广由 https://penname.co/ 负责。如有赞助播客的意向，请发送邮件至 podcast@lennyrachitsky.com。<br/><br/>Lenny 可能是文中讨论公司的投资人。</p>
+
+<h3 style="margin:24px 0 12px;">My biggest takeaways from this conversation:</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我对这次对话的最大收获：</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Read more</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">阅读更多</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://www.dwarkesh.com/p/blog-prize" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">毫秒转换器</div>
-        <span class="tone-pill" style="background:#ffe4e6;color:#be123c">😤 批评</span>
-      </div>
-      <div class="title-en">Millisecond Converter</div>
-      <div class="tags"><span class="tag">时间换算</span><span class="tag">单位转换</span><span class="tag">实用工具</span></div>
-      <div class="summary">由于LLMreports默认以毫秒显示提示词耗时，手动换算为秒和分钟颇为繁琐，作者因此开发了一款毫秒转换工具来简化这一过程。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">LLMreports prompt durations in milliseconds and I got fed up of having to think about how to convert those to seconds and minutes.</div><div class="quote-zh">大语言模型用毫秒来报告提示词持续时间，我受够了每次都得费劲把它们换算成秒和分钟。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Millisecond Converter</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LLMreports</strong> reports <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt</strong> durations in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">milliseconds</strong> and I got fed up of having to think about how to convert those to seconds and minutes.
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LLMreports</strong> 以 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">milliseconds</strong>（毫秒）为单位报告 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt</strong>（提示词）的持续时间，我受够了每次都要动脑筋把它们换算成秒和分钟。
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">本期内容超丰富</div>
-        <span class="tone-pill" style="background:#fef3c7;color:#b45309">🎉 兴奋</span>
-      </div>
-      <div class="title-en">It&#x27;s a big one</div>
-      <div class="tags"><span class="tag">通讯</span><span class="tag">智能体</span><span class="tag">工程模式</span><span class="tag">内容聚合</span></div>
-      <div class="summary">本期邮件通讯内容十分丰富，不仅包含骑自行车的鹈鹕等趣味插图，还收录了5篇博客文章、8个链接、3条引语及《智能体工程模式指南》的新章节。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">features 4 pelicans riding bicycles, 1 possum on an e-scooter, up to 5 raccoons with ham radios hiding in crowds, 5 blog posts, 8 links, 3 quotes and a new chapter of my Agentic Engineering Patterns guide.</div><div class="quote-zh">本期囊括：4只骑自行车的鹈鹕、1只骑电动滑板车的负鼠、多达5只携带业余无线电并混迹于人群中的浣熊、5篇博客文章、8条链接、3段引语，以及我的《智能体工程模式》指南的全新一章。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">It's a big one</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">本期内容重磅</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">24th April 2026</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">2026年4月24日</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This week's editionof my <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">email newsletter</strong> (akacontent from this blogdelivered to your inbox) features 4 pelicans riding bicycles, 1 possum on an e-scooter, up to 5 raccoons with ham radios hiding in crowds, 5 blog posts, 8 links, 3 quotes and a new chapter of my <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agentic Engineering Patterns</strong> guide.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">本周的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">邮件简报</strong>（亦即本博客投递到你收件箱的内容）包括：4只骑自行车的鹈鹕、1只骑电动滑板车的负鼠、多达5只带着业余无线电躲在人群中的浣熊、5篇博客文章、8个链接、3条引文，以及我的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agentic Engineering Patterns</strong>（智能体工程模式）指南的新章节。</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Apr/24/weekly/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">Honker：为 SQLite 带来队列与流处理的扩展</div>
-        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
-      </div>
-      <div class="title-en">russellromney/honker</div>
-      <div class="tags"><span class="tag">SQLite</span><span class="tag">消息队列</span><span class="tag">数据库</span></div>
-      <div class="summary">Honker 是一款专为 SQLite 设计的扩展，它通过简洁的 Python API 和 20 余种自定义 SQL 函数，实现了类 Kafka 的队列与持久化流功能。其核心在于内置事务性发件箱模式，确保消息仅在事务成功提交后才入队，并支持以轮询 WAL 文件的方式实现近实时的消息消费。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">The design of this looks very solid.</div><div class="quote-zh">这个项目的设计看起来非常扎实。</div></div>
-<div class="quote-block"><div class="quote-en">My favorite explanation of that pattern remains Transactionally Staged Job Drains in Postgres by Brandur Leach.</div><div class="quote-zh">关于该模式，我最推崇的解释依然是 Brandur Leach 撰写的《Transactionally Staged Job Drains in Postgres》。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">russellromney/honker</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-The design of this looks very solid. It lets you write <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Python</strong> code for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">queues</strong> that looks like this:
-<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>import honker
-
-db = honker.open("app.db")
-emails = db.queue("emails")
-emails.enqueue({"to": "alice@example.com"})
-
-# Consume (in a worker process)
-async for job in emails.claim("worker-1"):
-    send(job.payload)
-    job.ack()</code></pre>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-这个项目的设计看起来非常扎实。它允许你编写用于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">queues</strong>（队列）的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Python</strong> 代码，形式如下：
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-And <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Kafka-style</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">durable streams</strong> like this:
-<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>stream = db.stream("user-events")
-
-with db.transaction() as tx:
-    tx.execute("UPDATE users SET name=? WHERE id=?", [name, uid])
-    stream.publish({"user_id": uid, "change": "name"}, tx=tx)
-
-async for event in stream.subscribe(consumer="dashboard"):
-    await push_to_browser(event)</code></pre>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-以及如下所示的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Kafka-style</strong>（Kafka 风格）<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">durable streams</strong>（持久化流）：
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-It also adds 20+ custom <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQL functions</strong> including these two:
-<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>SELECT notify('orders', '{"id": 42}');
-SELECT honker_stream_read_since('orders', 0, 1000);</code></pre>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-它还增加了 20 多个自定义的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQL functions</strong>（SQL 函数），其中包括以下两个：
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-The extension requires <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">WAL mode</strong>, and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">workers</strong> can poll the .db-wal file with a stat call every 1ms to get as close to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">real-time</strong> as possible without the expense of running a full SQL query.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-该扩展需要 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">WAL mode</strong>（预写日志模式），并且 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">workers</strong>（工作进程）可以每 1 毫秒通过 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">stat</code> 调用轮询 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">.db-wal</code> 文件，从而在不运行完整 SQL query（SQL 查询）开销的前提下，尽可能接近 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">real-time</strong>（实时）。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">honker</strong> implements the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">transactional outbox pattern</strong>, which ensures items are only queued if a transaction successfully commits. My favorite explanation of that pattern remains <em>Transactionally Staged Job Drains in Postgres</em> by <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Brandur Leach</strong>. It's great to see a new implementation of that pattern for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong>.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">honker</strong> 实现了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">transactional outbox pattern</strong>（事务性发件箱模式），确保仅当事务成功提交时，条目才会被入队。关于该模式，我最喜欢的解释仍然是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Brandur Leach</strong> 写的《Transactionally Staged Job Drains in Postgres》。很高兴看到针对 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong> 的这一模式有了新实现。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Via <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Show HN</strong>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-via <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Show HN</strong>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">databases</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">postgresql</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sqlite</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">rust</strong>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">databases</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">postgresql</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sqlite</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">rust</strong>
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Apr/24/honker/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">Claude Code 质量报告更新</div>
-        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
-      </div>
-      <div class="title-en">An update on recent Claude Code quality reports</div>
-      <div class="tags"><span class="tag">Claude</span><span class="tag">代码智能体</span><span class="tag">质量报告</span><span class="tag">Bug</span></div>
-      <div class="summary">Anthropic解释近期Claude Code的质量问题并非模型本身所致，而是由其工程框架中的三个独立bug引起，其中一个会话记忆清除机制的缺陷导致AI在长会话中显得健忘和重复。作者借此提醒，构建智能体系统时需格外警惕这类复杂的工程层问题，而非仅关注模型本身的非确定性。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">I estimate I spend more time prompting in these &quot;stale&quot; sessions than sessions that I&#x27;ve recently started!</div><div class="quote-zh">我估计自己在这些「陈旧」会话中花的时间，比最近开启的会话还要多！</div></div>
-<div class="quote-block"><div class="quote-en">If you&#x27;re building agentic systems it&#x27;s worth reading this article in detail - the kinds of bugs that affect harnesses are deeply complicated, even if you put aside the inherent non-deterministic nature of the models themselves.</div><div class="quote-zh">如果你正在构建智能体系统，值得仔细阅读这篇文章——影响系统框架的 bug 极其复杂，即便抛开模型本身固有的非确定性不谈。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">An update on recent Claude Code quality reports</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The models themselves were not to blame, but three separate issues in the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">harness</strong> caused complex but material problems which directly affected users.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">模型本身并非罪魁祸首，但 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">harness</strong>（运行框架）中存在三个独立的问题，引发了复杂但实质性的故障，直接影响了用户体验。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">postmortem</strong> describes these in detail. This one in particular stood out to me:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 发布的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">事后分析报告</strong>（postmortem）详细描述了这些问题。其中有一点尤其引起了我的注意：</p>
-
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">On March 26, we shipped a change to clear Claude's older thinking from sessions that had been idle for over an hour, to reduce <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">latency</strong> when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive.</blockquote>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">3 月 26 日，我们发布了一项变更，用于清除闲置超过一小时的会话中 Claude 先前的思考内容，以降低用户恢复会话时的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">延迟</strong>（latency）。但一个 bug 导致该操作在会话后续的每一轮交互中持续触发，而非仅执行一次，这使得 Claude 表现得健忘且重复。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">On March 26, we shipped a change to clear Claude's older thinking from sessions that had been <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">idle</strong> for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">repetitive</strong>.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">3 月 26 日，我们发布了一项变更，用于清除<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">闲置</strong>（idle）超过一小时的会话中 Claude 先前的思考内容，以降低用户恢复会话时的延迟。但一个 bug 导致该操作在会话后续的每一轮交互中持续触发，而非仅执行一次，这使得 Claude 表现得健忘且<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">重复</strong>（repetitive）。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Ifrequentlyhave <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> sessions which I leave for an hour (or often a day or longer) before returning to them. Right now I have 11 of those (according tops aux  | grep 'claude ') and that's after closing down dozens more the other day.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我经常会让 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> 会话闲置一小时（甚至常常是一天或更久）后才返回继续工作。目前我正开着 11 个这样的会话（根据 tops aux  | grep 'claude ' 的输出），而这还是在我前几天关闭了几十个之后的数量。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I estimate I spend more time <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompting</strong> in these "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">stale</strong>" sessions than sessions that I've recently started!</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我估计自己在这些"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">陈旧</strong>"（stale）会话中花费的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompting</strong>（提示词输入）时间，比在近期新开会话中还要多！</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">If you're building <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic systems</strong> it's worth reading this article in detail - the kinds of bugs that affect harnesses are deeply complicated, even if you put aside the inherent <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">non-deterministic</strong> nature of the models themselves.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如果你正在构建 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic systems</strong>（智能体系统），这篇文章值得一读——影响 harness 的 bug 类型极其复杂，即使抛开模型本身固有的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">非确定性</strong>（non-deterministic）本质不谈。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Via<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">来自 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong></p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags:ai,prompt-engineering,generative-ai,llms,anthropic,coding-agents,claude-code</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：ai, prompt-engineering（提示工程）, generative-ai（生成式 AI）, llms（大语言模型）, anthropic, coding-agents（编程智能体）, claude-code</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">服务“为你推荐”信息流</div>
-        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
-      </div>
-      <div class="title-en">Serving the For You feed</div>
-      <div class="tags"><span class="tag">推荐系统</span><span class="tag">系统架构</span><span class="tag">低成本</span></div>
-      <div class="summary">本文介绍了Bluesky&quot;For You&quot;推荐流的极简架构：开发者仅凭一台客厅游戏PC（单Go进程+SQLite）和一台月费7美元的VPS，以每月30美元的成本为数万用户提供服务，并估计该系统足以支撑百万日活用户。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">The architecture is fascinating.</div><div class="quote-zh">其架构令人着迷。</div></div>
-<div class="quote-block"><div class="quote-en">The feed is served by a single Go process using SQLite on a &quot;gaming&quot; PC in spacecowboy&#x27;s living room - 16 cores, 96GB of RAM and 4TB of attached NVMe storage.</div><div class="quote-zh">该信息流由 spacecowboy 客厅中一台“游戏”PC 上的单个 Go 进程通过 SQLite 提供服务——16 核、96GB 内存和 4TB 外接 NVMe 存储。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Serving the For You feed</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">为你推荐（For You）信息流的服务架构</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">spacecowboy</strong> runs theFor You Feed, used by around 72,000 people. This guest post on the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AT Protocol</strong> blog explains how it works.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">spacecowboy</strong> 运营着 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">For You Feed</strong>（为你推荐信息流），服务于约 72,000 名用户。这篇发布在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AT Protocol</strong>（AT 协议）博客上的客座文章解释了它的工作原理。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The architecture isfascinating. The feed is served by a single <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Go</strong> process using <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong> on a "gaming" PC in <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">spacecowboy</strong>'s living room - 16 cores, 96GB of RAM and 4TB of attached <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NVMe</strong> storage.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">其架构设计令人着迷。该信息流由一台在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">spacecowboy</strong> 客厅“游戏”PC 上运行的单 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Go</strong> 语言进程通过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong> 提供服务——这台电脑配备 16 核 CPU、96GB 内存以及 4TB 外接 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NVMe</strong> 存储。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Recommendations</strong> are based on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">likes</strong>: what else are the people who like the same things as you liking on the platform?</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Recommendations</strong>（推荐内容）基于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">likes</strong>（点赞）：与你喜好相似的人还在平台上点赞了哪些内容？</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">That <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Go server</strong> consumes the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bluesky</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">firehose</strong> and stores the relevant details in SQLite, keeping the last 90 days of relevant data, which currently uses around 419GB of SQLite storage.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这台 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Go server</strong>（Go 服务器）消费 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bluesky</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">firehose</strong>（实时全量数据流），并将相关详情存入 SQLite，仅保留最近 90 天的相关数据，目前约占用了约 419GB 的 SQLite 存储空间。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Public internet traffic is handled by a $7/month <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">VPS</strong> on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OVH</strong>, which talks to the living room server via <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Tailscale</strong>.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">公网流量由一台每月 7 美元的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">VPS</strong>（虚拟专用服务器，托管于 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OVH</strong>）处理，它通过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Tailscale</strong> 与客厅中的服务器通信。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Total cost is now $30/month: $20 in electricity, $7 in VPS and $3 for the two domain names. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">spacecowboy</strong> estimates that the existing system could handle all ~1 million daily active <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bluesky</strong> users if they were to switch to the cheapest <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">algorithm</strong> they have found to work.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">目前的总成本为每月 30 美元：20 美元电费、7 美元 VPS 费用以及 3 美元的两个域名费用。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">spacecowboy</strong> 估计，如果切换到他们发现的成本最低的可用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">algorithm</strong>（算法），现有系统足以承载全部约 100 万 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Bluesky</strong> 日活跃用户。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: go, scaling, sqlite, software-architecture, tailscale, bluesky</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：go（Go 语言）、scaling（扩展性）、sqlite（SQLite）、software-architecture（软件架构）、tailscale（Tailscale）、bluesky（Bluesky）</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is" target="_blank">阅读原文 &rarr;</a>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-04-24
+  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-04-26
 </div>
 
 <script>
