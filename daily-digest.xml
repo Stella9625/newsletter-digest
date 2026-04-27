@@ -7,18 +7,32 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 26 Apr 2026 22:53:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 23:46:33 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-04-26</title>
-      <description>&lt;p&gt;&lt;strong&gt;每日 AI/产品/技术日报&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;产品与增长&lt;/h4&gt;
+      <title>📰 AI/产品/技术日报 - 2026-04-27</title>
+      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Snapchat CEO: Why distribution has become the most important moat&lt;/strong&gt; | *Lenny Rachitsky, Lenny&amp;#x27;s Newsletter*&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Meet 实时语音翻译登陆移动端&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Evan Spiegel 提出，分销能力已取代纯粹软件优势成为消费科技领域最核心的护城河；他还探讨了 AI 对设计工作的重塑，并认为人类对 AI 的接受度可能成为未来比技术本身更大的发展瓶颈。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-26</guid>
-      <pubDate>Sun, 26 Apr 2026 22:53:08 +0000</pubDate>
+&lt;p&gt;Google Meet 的实时语音翻译功能正陆续登陆移动设备，支持英语、西班牙语等六种语言互译，并能以近似原声的语音播报译文；不过该功能仍处于早期测试阶段，存在兼容性与稳定性问题。（Simon Willison / Simon Willison）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Claude 企业版代理新增跨会话记忆&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Anthropic 为企业版 Claude 代理推出跨会话记忆功能，使智能体能够在多次对话间保持上下文连续性，提升企业场景的自动化能力。（TLDR / TLDR AI）&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;从 6.90 美元邮件到 300 万美元 API：非编码者的产品路径&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;创业者 Jason Levin 回顾了 Memelord 从月费 6.90 美元的邮件简报起步，借助 Bubble 无代码平台做到 10 万美元年收入，再融资 300 万美元转型为 API 优先的 AI 表情包平台的历程；文章还分享了其在“无 UX”产品设计、AI 智能体及 vibe-coding 方面的实践。（Claire Vo / Lenny&amp;#x27;s Newsletter）&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;400 亿美元押注与 AI 实体店的落地困境&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;谷歌计划向 Anthropic 投资高达 400 亿美元以支持其 AI 算力扩张；与此同时，旧金山首家 AI 运营实体店的持续亏损实验，揭示了当前智能体技术在现实商业落地中的严峻挑战与距离。（TLDR / TLDR AI）&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-27</guid>
+      <pubDate>Mon, 27 Apr 2026 23:46:33 +0000</pubDate>
     </item>
   </channel>
 </rss>

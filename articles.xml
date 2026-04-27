@@ -7,114 +7,349 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 26 Apr 2026 22:52:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 23:45:44 +0000</lastBuildDate>
     <item>
-      <title>[翻译] Lenny's Newsletter: Snapchat CEO：为何分发已成最重要的护城河</title>
-      <link>https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #分销护城河 #消费产品 #AI变革 #竞争壁垒&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Snapchat CEO Evan Spiegel在访谈中提出，分销能力已成为消费科技领域最重要的护城河，纯粹的软件业务已难以构建持久优势；他还探讨了AI如何重塑设计工作，并认为人类对AI的接受度将是未来比技术本身更大的发展瓶颈。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel&lt;/p&gt;
+      <title>[翻译] TLDR AI: 谷歌400亿投资Anthropic、AI经营商店与Claude智能体记忆</title>
+      <link>https://tldr.tech/ai/2026-04-27</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI投资 #智能体 #企业应用 #大模型&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 谷歌计划向Anthropic投资高达400亿美元以支持其AI算力扩张，Anthropic则同步推出企业版Claude代理的跨会话记忆功能；与此同时，旧金山首家AI运营实体店的持续亏损实验，揭示了当前智能体技术在现实商业落地中的挑战。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Google Anthropic $40B deal 💰, AI run store 🏪, Claude Agent Memory 🧠&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snapchat&lt;/strong&gt; CEO：为什么分发已成为最重要的护城河 | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan Spiegel&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;TLDR AI 2026-04-27&lt;/h3&gt;
 
-&lt;img src="https://substackcdn.com/image/fetch/$s_!TICc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc757a11-a9bd-4126-ad1c-37027e901d1f_1920x1080.png" alt="Cover image" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Google Anthropic $40B deal 💰, AI run store 🏪, Claude Agent Memory 🧠&lt;/h3&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan Spiegel&lt;/strong&gt;, the co-founder and CEO of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt;, is one of the very few people in the world who has successfully built and scaled a lasting consumer social product. &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Snapchat&lt;/strong&gt; has nearly 1 billion &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAUs&lt;/strong&gt;, and Evan and his team invented some of the most important consumer products and features, including &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Stories&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AR glasses&lt;/strong&gt;, swipe-based navigation, the camera as the primary UX, and a lot more.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan Spiegel&lt;/strong&gt;（埃文·斯皮格尔）是 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt; 的联合创始人兼 CEO，也是全球极少数成功打造并规模化长期消费者社交产品的人物之一。&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Snapchat&lt;/strong&gt; 目前拥有近 10 亿 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAUs&lt;/strong&gt;（月活跃用户），Evan 和他的团队发明了诸多最重要的消费级产品和功能，包括 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Stories&lt;/strong&gt;（故事）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AR glasses&lt;/strong&gt;（AR 眼镜）、滑动式导航、以相机为核心的用户体验（UX）等等。&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;2026 Threat Report: AI is Accelerating Cloud Risk (Sponsor)&lt;/h4&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Listen onYouTube,Spotify, andApple Podcasts&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;在 YouTube、Spotify 和 Apple Podcasts 上收听&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Many assume that AI is creating more complex exploits - but that's not always the real story.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;许多人认为 AI 正在制造更复杂的攻击手段——但这并非总是真实情况。&lt;/p&gt;
 
-&lt;h3 style="margin:24px 0 12px;"&gt;In our in-depth conversation, we discuss:&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;在我们的深度对话中，我们探讨了以下内容：&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Research by &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Wiz&lt;/strong&gt; reveals that 80% of cloud breaches still start with the basics - andAI is making them faster.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Wiz 的研究显示，80% 的云安全漏洞仍然始于基础问题——而 AI 正在让这些攻击变得更快。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;Why &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;distribution&lt;/strong&gt; is now the biggest challenge for creating a consumer technology business&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为什么 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;distribution&lt;/strong&gt;（分发）如今已成为打造消费级科技企业的最大挑战&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The2026 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cloud Threat Report&lt;/strong&gt; leverages past investigations into events like Shai-Hulud, S1ngularity, and React2Shell to explore:
+&lt;ul&gt;
+&lt;li&gt;How systemic weaknesses can allow for dramatically outsized impact&lt;/li&gt;
+&lt;li&gt;How AI is fundamentally changing the game by radically accelerating attack velocity and expanding the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;attack surface&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;《2026 云威胁报告》利用对 Shai-Hulud、S1ngularity 和 React2Shell 等事件的过往调查，探讨了：
+&lt;ul&gt;
+&lt;li&gt;系统性弱点如何可能导致影响被急剧放大&lt;/li&gt;
+&lt;li&gt;AI 如何通过急剧加速攻击速度和扩大 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;attack surface（攻击面）&lt;/strong&gt;，从根本上改变游戏规则&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Why &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;distribution&lt;/strong&gt; is now the biggest challenge for creating a consumer technology business&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为什么 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;distribution&lt;/strong&gt;（分发）如今已成为打造消费级科技企业的最大挑战&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The result is larger, faster incidents driven by issues that already exist across most environments.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;其结果是，由已存在于大多数环境中的问题所驱动的更大规模、更快速的安全事件。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;How &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt; innovates at scale with a 9-to-12-person design team: no titles, no hierarchy, hundreds of ideas reviewed weekly with the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;CEO&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Snap 如何通过一支仅 9 到 12 人的设计团队实现规模化创新：没有职级、没有层级，每周与 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;CEO&lt;/strong&gt; 共同审阅数百个创意&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;See how today's cloud attacks work&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;了解当今云攻击的运作方式&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;How &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt; innovates at scale with a 9-to-12-person design team: no titles, no hierarchy, hundreds of ideas reviewed weekly with the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;CEO&lt;/strong&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Snap 如何通过一支仅 9 到 12 人的设计团队实现规模化创新：没有职级、没有层级，每周与 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;CEO&lt;/strong&gt; 共同审阅数百个创意&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Google will invest as much as $40 billion in Anthropic (2 minute read)&lt;/h4&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;Why a pure &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;software business&lt;/strong&gt; is no longer a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;moat&lt;/strong&gt;, and what actually creates durable competitive advantages today&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为什么纯粹的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;software business&lt;/strong&gt;（软件业务）不再构成 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;moat&lt;/strong&gt;（护城河），以及当今真正能够创造持久竞争优势的因素是什么&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; will invest between $10 billion and $40 billion in &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt;. The amount depends on whether Anthropic can meet certain performance targets. Anthropic recently received a $5 billion investment from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Amazon&lt;/strong&gt;, with an option for more investment based on performance. The investments value Anthropic at $350 billion. The funds will help the startup close the gap between demand and supply of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;compute（算力）&lt;/strong&gt; for AI training and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;inference（推理）&lt;/strong&gt;.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Google 将向 Anthropic 投资 100 亿至 400 亿美元。具体金额取决于 Anthropic 能否达成某些业绩目标。Anthropic 最近从 Amazon 获得了 50 亿美元投资，并有权根据业绩表现获得更多投资。这些投资使 Anthropic 的估值达到 3500 亿美元。这笔资金将帮助这家初创公司缩小 AI 训练与 inference（推理）所需的 compute（算力）供需缺口。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Why a pure &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;software business&lt;/strong&gt; is no longer a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;moat&lt;/strong&gt;, and what actually creates durable competitive advantages today&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为什么纯粹的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;software business&lt;/strong&gt;（软件业务）不再构成 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;moat&lt;/strong&gt;（护城河），以及当今真正能够创造持久竞争优势的因素是什么&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;What Happens When AI Runs a Store in San Francisco? (7 minute read)&lt;/h4&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;How &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; is changing the way designers work and why they’re now &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;shipping code&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 如何改变设计师的工作方式，以及为什么他们现在开始 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;shipping code&lt;/strong&gt;（交付代码）&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Andon Labs&lt;/strong&gt; is running an experiment to see whether &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI agents（AI 智能体）&lt;/strong&gt; can run real-world endeavors. It opened a retail boutique on April 10 run by an agent named Luna. Luna has so far struggled with employee schedules and seems to be unable to stop ordering candles. The experiment's mission was to make a profit, but it has lost $13,000 since the shop's opening.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Andon Labs 正在进行一项实验，以验证 AI agents（AI 智能体）是否能经营现实世界的商业项目。该公司于 4 月 10 日开设了一家零售精品店，由名为 Luna 的智能体管理。到目前为止，Luna 在员工排班方面遇到了困难，而且似乎无法停止订购蜡烛。该实验的任务是盈利，但自开业以来已亏损 13,000 美元。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;How &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; is changing the way designers work and why they’re now &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;shipping code&lt;/strong&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 如何改变设计师的工作方式，以及为什么他们现在开始 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;shipping code&lt;/strong&gt;（交付代码）&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Anthropic launches Memory in Claude Agents for enterprise (1 minute read)&lt;/h4&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;Why every major &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt; feature was copied and how that forced the company to work differently&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为什么 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt; 的每一项重大功能都被抄袭，以及这如何迫使公司以不同的方式运作&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Anthropic has released a feature for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Managed Agents&lt;/strong&gt; called &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Memory&lt;/strong&gt;. It allows agents to remember and use information from prior sessions and accumulate knowledge over time without requiring manual prompt updates. Memory is a filesystem-based layer, so data is stored as files that can be exported, managed through &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;APIs&lt;/strong&gt;, and scoped with permissions for various organizational needs. The feature is available now in public beta to all Managed Agents users.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Anthropic 为 Claude Managed Agents 发布了一项名为 Memory 的功能。它允许智能体记住并使用先前会话中的信息，并随时间积累知识，无需手动更新提示词。Memory 是一个基于文件系统的层，因此数据以文件形式存储，可以导出、通过 APIs 管理，并可根据各种组织需求设置权限范围。该功能目前以公开测试版形式向所有 Managed Agents 用户开放。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Why every major &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt; feature was copied and how that forced the company to work differently&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;为什么 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt; 的每一项重大功能都被抄袭，以及这如何迫使公司以不同的方式运作&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Google prepares credits system for Gemini (2 minute read)&lt;/h4&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan&lt;/strong&gt;’s prediction that humanity’s comfort with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; will be a bigger bottleneck than the technology itself&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan&lt;/strong&gt; 预测，人类对 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 的接受程度将成为比技术本身更大的瓶颈&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; is working on a credit-based system for its &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemini&lt;/strong&gt; app where users receive a monthly allowance to spend across models and features. Users will be able to top up when they run out of credits. The change will make budgeting for heavy workloads more predictable and give Google a cleaner lever for introducing premium features without forcing users to pay for more expensive plans. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;, Anthropic, and &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Notion&lt;/strong&gt; already use a similar consumption model.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Google 正为其 Gemini 应用开发一种基于积分的系统，用户每月获得一定配额，可在不同模型和功能之间使用。积分耗尽时，用户可以进行充值。这一变化将使高负载工作的预算更可预测，并为 Google 提供一个更清晰的杠杆来引入高级功能，而无需强迫用户购买更昂贵的套餐。OpenAI、Anthropic 和 Notion 已经采用了类似的消耗模式。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan&lt;/strong&gt;’s prediction that humanity’s comfort with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; will be a bigger bottleneck than the technology itself&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Evan&lt;/strong&gt; 预测，人类对 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 的接受程度将成为比技术本身更大的瓶颈&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Your AI Might Be Lying to Your Boss (22 minute read)&lt;/h4&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;This year’s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;crucible moment&lt;/strong&gt; for &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Snap 今年的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;crucible moment&lt;/strong&gt;（关键时刻/严峻考验）&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;It's very hard to measure the contribution that AI models make to a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;codebase（代码库）&lt;/strong&gt;. Sometimes the best use cases for AI are inquisitive prompts that don't necessarily produce any code at all. Lines of code isn't a very good measure of code quality, and it can be difficult to separate the work engineers did vs what AI has done. The bias appears to be towards reporting a higher AI percentage, which is great for AI companies, but skewed metrics can be harmful.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;衡量 AI 模型对 codebase（代码库）的贡献非常困难。有时 AI 的最佳使用场景是探索性的提示词，这些提示词未必会生成任何代码。代码行数并非衡量代码质量的很好指标，而且很难区分哪些是工程师完成的工作，哪些是 AI 完成的。目前的偏见似乎倾向于报告更高的 AI 占比，这对 AI 公司有利，但扭曲的指标可能带来危害。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;This year’s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;crucible moment&lt;/strong&gt; for &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Snap&lt;/strong&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Snap 今年的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;crucible moment&lt;/strong&gt;（关键时刻/严峻考验）&lt;/p&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;Monitoring LLM behavior: Drift, retries, and refusal patterns (11 minute read)&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Monitoring &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM（大语言模型）&lt;/strong&gt; behavior necessitates adopting the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI Evaluation Stack&lt;/strong&gt;, separating tests into deterministic assertions (syntax and routing integrity) and model-based evaluations (semantic quality). Engineers use offline pipelines for pre-deployment regression testing with human-reviewed "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Golden Datasets&lt;/strong&gt;" while online pipelines monitor real-world performance for drift and failures. A continuous feedback loop from production telemetry ensures AI systems adapt, maintaining high performance as user behavior evolves.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;监控 LLM（大语言模型）行为需要采用 AI Evaluation Stack（AI 评估栈），将测试分为确定性断言（语法和路由完整性）和基于模型的评估（语义质量）。工程师使用离线流水线进行部署前的回归测试，配合人工审核的"Golden Datasets（黄金数据集）"；而在线流水线则监控真实世界中的性能漂移和故障。来自生产遥测数据的持续反馈回路确保 AI 系统能够自适应，在用户行为演变时保持高性能。&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;The World Can't Keep Up With AI Labs (9 minute read)&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Coding agents（编程智能体）&lt;/strong&gt; are the first AI product people are paying for at volume and regularly. However, compute demand has started to grow faster than anyone can build it out. The industry isn't ready for the agent boom. The most obvious move for AI labs now is to cut limits and raise prices.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Coding agents（编程智能体）是人们首次大规模且定期付费购买的 AI 产品。然而，算力需求已经开始超过任何人的建设速度。整个行业尚未为智能体热潮做好准备。AI 实验室目前最明显的举措就是削减使用限制并提高价格。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;👨‍💻&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;👨‍💻&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;Engineering &amp; Research&lt;/h3&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;You don't need an all-powerful, token-hungry LLM for enterprise automation (Sponsor)&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;is the AI copilot built into &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Redwood&lt;/strong&gt;'s &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;RunMyJobs&lt;/strong&gt;. Designed for what enterprises actually care about: privacy, security, and accuracy -- specifically trained for your enterprise workflows. Troubleshoot job failures, generate scripts from prompts, and auto-document your processes without exposing sensitive data or racking up &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;token&lt;/strong&gt; costs. Less backlog. Lower &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MTTR（平均修复时间）&lt;/strong&gt;.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这是内置于 Redwood 旗下 RunMyJobs 的 AI 副驾驶（AI copilot）。专为企业真正关心的需求而设计：隐私、安全与准确性——并针对您的企业工作流进行了专门训练。排查作业故障、根据提示词生成脚本、自动记录流程文档，所有这些都无需暴露敏感数据或累积高昂的 token 成本。减少积压。降低 MTTR（平均修复时间）。&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Vision Banana Generalist Model (39 minute read)&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Instruction-tuned（指令微调）&lt;/strong&gt; image generation models can act as generalist vision systems, achieving &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;state-of-the-art（最先进）&lt;/strong&gt; results across tasks by reframing perception as image generation.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;经过 instruction-tuned（指令微调）的图像生成模型可以作为通用视觉系统，通过将感知重新定义为图像生成，在各项任务上达到 state-of-the-art（最先进）的成果。&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Stash (GitHub Repo)&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Stash&lt;/strong&gt; is a tool that gives agents persistent memory. It enables agents to remember, recall, consolidate memories, and learn across sessions. Stash is open source, self-hosted, and works with any &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MCP（Model Context Protocol，模型上下文协议）&lt;/strong&gt;-compatible agent.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Stash 是一款为智能体提供持久化记忆的工具。它使智能体能够记忆、回忆、整合记忆，并在多个会话之间学习。Stash 是开源的、可自托管的，并且兼容任何支持 MCP（Model Context Protocol，模型上下文协议）的智能体。&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Efficient Video Intelligence in 2026 (21 minute read)&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Efficient video intelligence advances include compact universal vision encoders like &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;EUPE&lt;/strong&gt;, which distill capabilities from specialized models such as &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;DINO&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SAM&lt;/strong&gt;. Techniques like &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LongVU&lt;/strong&gt; use adaptive token allocation and compression for long-form video understanding while edge and on-device deployment handle real-time processing. Persistent challenges include streaming understanding, sparse-event detection, real-time sub-watt inference for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AR glasses（增强现实眼镜）&lt;/strong&gt;, and robust multi-modal reasoning.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;高效视频智能的进展包括紧凑的通用视觉编码器，如 EUPE，它从 DINO 和 SAM 等专业模型中提炼能力。LongVU 等技术利用自适应 token 分配和压缩来实现长视频理解，而边缘和端侧部署则处理实时推理。持续存在的挑战包括流式理解、稀疏事件检测、面向 AR glasses（增强现实眼镜）的实时亚瓦特级推理，以及稳健的多模态推理。&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Scaling Long-Horizon Coding Agents (28 minute read)&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;A framework from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;test-time scaling（测试时扩展）&lt;/strong&gt; in coding agents summarized past rollouts into structured representations, enabling better selection and reuse to improve benchmark performance.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;来自 Meta 的一个框架，用于编程智能体的 test-time scaling（测试时扩展），将过去的部署总结为结构化表示，从而实现更好的选择和重用，以提升基准测试性能。&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Meta's loss is Thinking Machines' gain (3 minute read)&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Thinking Machines Lab&lt;/strong&gt; has been hiring more researchers from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Meta&lt;/strong&gt; than from any other single employer. The AI startup is expanding on multiple fronts, and it just signed a multibillion-dollar cloud deal with &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; that gives it access to &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Nvidia&lt;/strong&gt;'s latest &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GB300&lt;/strong&gt; chips. Meta's large pay packages are well known, but Thinking Machines' $12 billion valuation and 140-employee count mean there's still a lot of financial upside to joining the startup.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;Thinking Machines Lab 从 Meta 招聘的研究人员比从任何其他单一雇主招聘的都多。这家 AI 初创公司正在多条战线上扩张，并且刚刚与 Google 签署了一项价值数十亿美元的云协议，使其能够获得 Nvidia 最新的 GB300 芯片。Meta 的高薪待遇众所周知，但 Thinking Machines 120 亿美元的估值和 140 名员工规模意味着加入这家初创公司仍有很大的财务上升空间。&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;OpenAI Posts Five-Principle Framework for AGI, Altman Concedes Bigger Role (2 minute read)&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; has published a five-principle framework for the development of artificial general intelligence. It is the company's most prominent statement of intent since its 2018 Charter. The lab claims it will resist letting the technology consolidate power in the hands of the few. The framework arrives at a time when US and European regulators are tightening oversight of frontier AI labs.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;OpenAI 发布了一份关于通用人工智能（&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AGI（Artificial General Intelligence）&lt;/strong&gt;）开发的五项原则框架。这是该公司自 2018 年章程以来最重大的意向声明。该实验室声称将抵制让这项技术将权力集中在少数人手中。该框架发布之际，美国和欧洲监管机构正在加强对前沿 AI 实验室的监督。&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Cursor's $60 Billion Escape Hatch (5 minute read)&lt;/h4&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;What does it mean when a company doing $2.7B in annualized revenue has gross margins of negative 23%? In &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt;'s case, it means AI coding tools have inverted the old &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;SaaS（软件即服务）&lt;/strong&gt; playbook, where serving the next customer is supposed to be cheap. Power users consume more model capacity and compute, so the best customers can become the most expensive. That reframes the rumored &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SpaceX&lt;/strong&gt; deal as more than a $60B headline. Access to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Colossus&lt;/strong&gt; would loosen Cursor's dependence on Anthropic and OpenAI fees, where that negative 23% lives.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;一家年化收入达 27 亿美元的公司，毛利率却为负 23%，这意味着什么？就 Cursor 而言，这意味着 AI 编程工具颠覆了旧的 SaaS（软件即服务）playbook——在该模式下，服务下一位客户本应很便宜。重度用户消耗更多的模型容量和算力，因此最好的客户可能成为最昂贵的客户。这使得传闻中的 SpaceX 交易不仅仅是一个 600 亿美元的新闻标题。获得 Colossus（巨像系统）的使用权将减轻 Cursor 对 Anthropic 和 OpenAI 费用的依赖，而负 23% 的毛利率正源于这些费用。&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;Get the most interesting AI stories and breakthroughs delivered in a free daily email.&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Join 920,000 readers for&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;加入 920,000 名读者的行列&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://tldr.tech/ai/2026-04-27"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-04-27</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Lenny's Newsletter: 从6.90美元简报到300万美元API：非程序员如何打造Memelord</title>
+      <link>https://www.lennysnewsletter.com/p/from-a-690-newsletter-to-3m-api-how</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #无代码创业 #AI梗图 #API产品&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 非编码创业者Jason Levin回顾了Memelord从月费6.90美元邮件简报起步，借助Bubble无代码平台做到10万美元年收入，再融资300万美元转型为API优先的AI表情包平台的创业历程。文章还介绍了他在&amp;quot;无UX&amp;quot;产品设计、AI智能体应用及团队vibe-coding等方面的独特实践与思考。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: From a $6.90 newsletter to $3M API: How a non-coder built Memelord | Jason Levin&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;From a $6.90 newsletter to $3M API: How a non-coder built Memelord | Jason Levin&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;从每月6.90美元的通讯到300万美元的API：一位非程序员如何打造Memelord | Jason Levin&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jason Levin&lt;/strong&gt; is the CEO and founder of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Memelord&lt;/strong&gt;, an AI-powered meme creation platform that helps brands and individuals create contextual, trending memes. He started Memelord as a $6.90-per-month newsletter sending subscribers to a Google Slides deck, grew it to $100K &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ARR&lt;/strong&gt; on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Bubble&lt;/strong&gt; without hiring engineers, then raised $3M to build it into an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API-first&lt;/strong&gt; product.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jason Levin&lt;/strong&gt; 是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Memelord&lt;/strong&gt; 的 CEO 兼创始人，这是一个 AI-powered（AI驱动的）模因创作平台，帮助品牌和个人创作贴合语境、紧跟热点的模因。他将 Memelord 从一份每月 6.90 美元、给订阅者发送 Google Slides 链接的通讯做起，在不雇佣工程师的情况下，借助 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Bubble&lt;/strong&gt; 将其发展到 10 万美元 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ARR（年度经常性收入）&lt;/strong&gt;，随后融资 300 万美元，将其打造为一款 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;API-first（API优先）&lt;/strong&gt; 产品。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Listen or watch on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt;, or &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;在 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;YouTube&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Spotify&lt;/strong&gt; 或 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple Podcasts&lt;/strong&gt; 上收听或观看&lt;/p&gt;
+
+&lt;h3 style="margin:24px 0 12px;"&gt;What you’ll learn:&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;你将学到什么：&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul style="margin:0;padding-left:20px;"&gt;
+&lt;li&gt;How Jason grew &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Memelord&lt;/strong&gt; from a $6.90/month newsletter to $100K &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ARR&lt;/strong&gt; without writing a single line of code&lt;/li&gt;
+&lt;li&gt;Why “no &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;UX&lt;/strong&gt; is the best UX” and how &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agents&lt;/strong&gt; are becoming Memelord’s primary users&lt;/li&gt;
+&lt;li&gt;The mandatory &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vibe-coding&lt;/strong&gt; rule for his marketing team and how it unlocks unprecedented creativity&lt;/li&gt;
+&lt;li&gt;Why free tools are the new PDF downloads and how they’ve generated hundreds of thousands of emails&lt;/li&gt;
+&lt;li&gt;Jason’s hardware hacking projects, including a bedside keyboard that creates &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Linear&lt;/strong&gt; tickets without waking his wife&lt;/li&gt;
+&lt;li&gt;Why AI can be funny (but humans are still funnier) and which model is the funniest&lt;/li&gt;
+&lt;li&gt;The philosophy of building &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;hyper-personalized&lt;/strong&gt; software just for yourself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+• Jason 如何在没有写一行代码的情况下，将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Memelord&lt;/strong&gt; 从每月 6.90 美元的通讯发展到 10 万美元 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ARR（年度经常性收入）&lt;/strong&gt;&lt;br&gt;
+• 为什么“没有 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;UX（用户体验）&lt;/strong&gt; 就是最好的 UX”，以及 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agents（智能体）&lt;/strong&gt; 如何成为 Memelord 的主要用户&lt;br&gt;
+• 他给营销团队制定的强制 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vibe-coding（氛围编码）&lt;/strong&gt; 规则，以及如何释放前所未有的创造力&lt;br&gt;
+• 为什么免费工具是新的 PDF 下载，以及它们如何生成了数十万封邮件&lt;br&gt;
+• Jason 的硬件黑客项目，包括一个可以在不吵醒妻子的情况下创建 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Linear&lt;/strong&gt; 工单的床头键盘&lt;br&gt;
+• 为什么 AI 可以很有趣（但人类仍然更有趣），以及哪个模型最有趣&lt;br&gt;
+• 仅为你自己构建 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;hyper-personalized（超个性化）&lt;/strong&gt; 软件的哲学
+&lt;/p&gt;
 
 &lt;h3 style="margin:24px 0 12px;"&gt;Brought to you by:&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;本期节目由以下赞助商呈现：&lt;/p&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;本节目由以下赞助商呈现：&lt;/p&gt;
 
-&lt;img src="https://substackcdn.com/image/fetch/$s_!I7vR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94c76004-8df2-4ae7-88ba-1fb5a47f0cd6_3444x285.png" alt="Sponsor banner" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;img src="https://substackcdn.com/image/fetch/$s_!oWx5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c7f5ec8-c0bd-4bea-8af5-5959f7bcc80e_1600x114.png" alt="WorkOS—Make your app enterprise-ready today" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;&lt;a href="https://www.workos.com" style="color:inherit;text-decoration:underline;"&gt;WorkOS&lt;/a&gt;—Modern identity platform for B2B SaaS, free up to 1 million MAUsVanta—Automate compliance, manage risk, and accelerate trust with AI&lt;/blockquote&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;——面向 B2B SaaS 的现代身份平台，免费支持高达 100 万 MAU；Vanta——自动化合规、管理风险，并借助 AI 加速建立信任&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul style="margin:0;padding-left:20px;"&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;—Make your app &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;enterprise-ready&lt;/strong&gt; today&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Persona&lt;/strong&gt;—Trusted &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;identity verification&lt;/strong&gt; for any use case&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;——让你的应用立即具备 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;enterprise-ready（企业级）&lt;/strong&gt; 能力&lt;br&gt;
+• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Persona&lt;/strong&gt;——适用于任何场景的可信 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;identity verification（身份验证）&lt;/strong&gt;
+&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;a href="https://www.workos.com" style="color:inherit;text-decoration:underline;"&gt;WorkOS&lt;/a&gt;—Modern identity platform for B2B SaaS, free up to 1 million MAUs&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WorkOS&lt;/strong&gt;——面向 B2B SaaS 的现代身份平台，免费支持高达 100 万 MAU&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;In this episode, we cover:&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;在本期节目中，我们涵盖：&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;a href="https://www.vanta.com" style="color:inherit;text-decoration:underline;"&gt;Vanta&lt;/a&gt;—Automate compliance, manage risk, and accelerate trust with AI&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Vanta&lt;/strong&gt;——自动化合规、管理风险，并借助 AI 加速建立信任&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul style="margin:0;padding-left:20px;"&gt;
+&lt;li&gt;(00:00) Introduction to &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jason Levin&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Memelord&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;(04:28) Demo: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Agentic&lt;/strong&gt; meme creation with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;(06:55) “No UX is the best UX”—building for an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agent-first&lt;/strong&gt; future&lt;/li&gt;
+&lt;li&gt;(08:35) How Memelord started as a $6.90 newsletter with Google Slides&lt;/li&gt;
+&lt;li&gt;(12:35) Building to $100K ARR on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Bubble&lt;/strong&gt; with 395 workflows&lt;/li&gt;
+&lt;li&gt;(15:20) Demo: Free tools section that generates hundreds of thousands of emails&lt;/li&gt;
+&lt;li&gt;(17:59) Why &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt; is perfect for non-technical founders&lt;/li&gt;
+&lt;li&gt;(20:20) Let your marketers cook—or watch them leave&lt;/li&gt;
+&lt;li&gt;(24:19) &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Commit graph&lt;/strong&gt; that shows the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vibe-coding&lt;/strong&gt; inflection point&lt;/li&gt;
+&lt;li&gt;(25:25) Tools: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemini&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Linear&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PostHog&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;(28:19) Build weird stuff in the real world&lt;/li&gt;
+&lt;li&gt;(33:24) Creative AI use cases&lt;/li&gt;
+&lt;li&gt;(39:56) Using OpenClaw for calendar analysis&lt;/li&gt;
+&lt;li&gt;(43:37) Can AI be funny? Which model is the funniest?&lt;/li&gt;
+&lt;li&gt;(45:26) Memes are not &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;slop&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;(46:45) What Jason doesn’t use AI for&lt;/li&gt;
+&lt;li&gt;(48:12) Final thoughts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+• (00:00) &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jason Levin&lt;/strong&gt; 与 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Memelord&lt;/strong&gt; 介绍&lt;br&gt;
+• (04:28) 演示：使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt; 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic（智能体的）&lt;/strong&gt; 模因生成&lt;br&gt;
+• (06:55) “没有 UX 就是最好的 UX”——为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agent-first（智能体优先）&lt;/strong&gt; 的未来而构建&lt;br&gt;
+• (08:35) Memelord 如何从一份 6.90 美元的 Google Slides 通讯起步&lt;br&gt;
+• (12:35) 在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Bubble&lt;/strong&gt; 上通过 395 个工作流实现 10 万美元 ARR&lt;br&gt;
+• (15:20) 演示：生成数十万邮箱的免费工具板块&lt;br&gt;
+• (17:59) 为什么 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt; 是非技术创始人的完美选择&lt;br&gt;
+• (20:20) 让你的营销人员尽情发挥——否则看着他们离开&lt;br&gt;
+• (24:19) 显示 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vibe-coding（氛围编码）&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;inflection point（拐点）&lt;/strong&gt; 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;commit graph（提交图表）&lt;/strong&gt;&lt;br&gt;
+• (25:25) 工具：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Gemini&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Linear&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PostHog&lt;/strong&gt;&lt;br&gt;
+• (28:19) 在现实世界中构建古怪的东西&lt;br&gt;
+• (33:24) 创意 AI 用例&lt;br&gt;
+• (39:56) 使用 OpenClaw 进行日历分析&lt;br&gt;
+• (43:37) AI 能搞笑吗？哪个模型最搞笑？&lt;br&gt;
+• (45:26) 模因不是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;slop（低质/垃圾内容）&lt;/strong&gt;&lt;br&gt;
+• (46:45) Jason 不用 AI 做什么&lt;br&gt;
+• (48:12) 结语
+&lt;/p&gt;
 
-&lt;h3 style="margin:24px 0 12px;"&gt;Where to find Evan Spiegel:&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;如何找到 Evan Spiegel：&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Tools referenced:&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;参考工具：&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;X: &lt;a href="https://x.com/evanspiegel" style="color:inherit;text-decoration:underline;"&gt;https://x.com/evanspiegel&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Snapchat: &lt;a href="https://www.snapchat.com/@evan" style="color:inherit;text-decoration:underline;"&gt;https://www.snapchat.com/@evan&lt;/a&gt;&lt;/li&gt;&lt;li&gt;LinkedIn: &lt;a href="https://www.linkedin.com/in/evan-spiegel" style="color:inherit;text-decoration:underline;"&gt;https://www.linkedin.com/in/evan-spiegel&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Website: &lt;a href="https://www.spiegelfamilyfund.com" style="color:inherit;text-decoration:underline;"&gt;https://www.spiegelfamilyfund.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;• X：https://x.com/evanspiegel&lt;br&gt;• Snapchat：https://www.snapchat.com/@evan&lt;br&gt;• LinkedIn：https://www.linkedin.com/in/evan-spiegel&lt;br&gt;• 个人网站：https://www.spiegelfamilyfund.com&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul style="margin:0;padding-left:20px;"&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Memelord API&lt;/strong&gt;: https://memelord.com/api&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt;: https://cursor.com/&lt;/li&gt;
+&lt;li&gt;Bubble: https://bubble.io/&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt;: https://openclaw.ai&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt;: https://claude.ai/&lt;/li&gt;
+&lt;li&gt;ChatGPT: https://chat.openai.com/&lt;/li&gt;
+&lt;li&gt;Gemini: https://gemini.google.com/&lt;/li&gt;
+&lt;li&gt;Grok: https://grok.x.ai/&lt;/li&gt;
+&lt;li&gt;Linear: https://linear.app/&lt;/li&gt;
+&lt;li&gt;PostHog: https://posthog.com/&lt;/li&gt;
+&lt;li&gt;Zapier: https://zapier.com/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+• &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Memelord API&lt;/strong&gt;：https://memelord.com/api&lt;br&gt;
+• &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Cursor&lt;/strong&gt;：https://cursor.com/&lt;br&gt;
+• Bubble：https://bubble.io/&lt;br&gt;
+• &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OpenClaw&lt;/strong&gt;：https://openclaw.ai&lt;br&gt;
+• &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt;：https://claude.ai/&lt;br&gt;
+• ChatGPT：https://chat.openai.com/&lt;br&gt;
+• Gemini：https://gemini.google.com/&lt;br&gt;
+• Grok：https://grok.x.ai/&lt;br&gt;
+• Linear：https://linear.app/&lt;br&gt;
+• PostHog：https://posthog.com/&lt;br&gt;
+• Zapier：https://zapier.com/
+&lt;/p&gt;
 
-&lt;h3 style="margin:24px 0 12px;"&gt;Referenced:&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;参考链接：&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Other references:&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;其他参考：&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;Snapchat: &lt;a href="https://www.snapchat.com" style="color:inherit;text-decoration:underline;"&gt;https://www.snapchat.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;TikTok: &lt;a href="https://www.tiktok.com" style="color:inherit;text-decoration:underline;"&gt;https://www.tiktok.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Threads: &lt;a href="https://www.threads.com" style="color:inherit;text-decoration:underline;"&gt;https://www.threads.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Snapchat+: &lt;a href="https://www.snapchat.com/plus" style="color:inherit;text-decoration:underline;"&gt;https://www.snapchat.com/plus&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Instagram Plus: &lt;a href="https://help.instagram.com/26266751476298047" style="color:inherit;text-decoration:underline;"&gt;https://help.instagram.com/26266751476298047&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Pixy: &lt;a href="https://www.pixy.com" style="color:inherit;text-decoration:underline;"&gt;https://www.pixy.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Specs: &lt;a href="https://newsroom.snap.com/introducing-specs-inc" style="color:inherit;text-decoration:underline;"&gt;https://newsroom.snap.com/introducing-specs-inc&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bobby Murphy&lt;/strong&gt;: &lt;a href="https://en.wikipedia.org/wiki/Bobby_Murphy" style="color:inherit;text-decoration:underline;"&gt;https://en.wikipedia.org/wiki/Bobby_Murphy&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Hard truths about building in the AI era | Keith Rabois (Khosla Ventures): &lt;a href="https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era" style="color:inherit;text-decoration:underline;"&gt;https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marc Andreessen&lt;/strong&gt;: The real AI boom hasn’t even started yet: &lt;a href="https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom" style="color:inherit;text-decoration:underline;"&gt;https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom&lt;/a&gt;&lt;/li&gt;&lt;li&gt;The design process is dead. Here’s what’s replacing it. | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jenny Wen&lt;/strong&gt; (head of design at Claude): &lt;a href="https://www.lennysnewsletter.com/p/the-design-process-is-dead" style="color:inherit;text-decoration:underline;"&gt;https://www.lennysnewsletter.com/p/the-design-process-is-dead&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Claude Cowork: &lt;a href="https://www.anthropic.com/product/claude-cowork" style="color:inherit;text-decoration:underline;"&gt;https://www.anthropic.com/product/claude-cowork&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Figma: &lt;a href="https://www.figma.com" style="color:inherit;text-decoration:underline;"&gt;https://www.figma.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Bill Clinton on X: &lt;a href="https://x.com/BillClinton" style="color:inherit;text-decoration:underline;"&gt;https://x.com/BillClinton&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Superhuman’s secret to success: Ignoring most customer feedback, manually onboarding every new user, obsessing over every detail, and positioning around a single attribute: speed | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Rahul Vohra&lt;/strong&gt; (CEO): &lt;a href="https://www.lennysnewsletter.com/p/superhumans-secret-to-success-rahul-vohra" style="color:inherit;text-decoration:underline;"&gt;https://www.lennysnewsletter.com/p/superhumans-secret-to-success-rahul-vohra&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Bobcat tractors: &lt;a href="https://www.bobcat.com/na/en/equipment/tractors" style="color:inherit;text-decoration:underline;"&gt;https://www.bobcat.com/na/en/equipment/tractors&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Palmer Luckey&lt;/strong&gt;’s blog: &lt;a href="https://palmerluckey.com" style="color:inherit;text-decoration:underline;"&gt;https://palmerluckey.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;ModRetro: &lt;a href="https://modretro.com" style="color:inherit;text-decoration:underline;"&gt;https://modretro.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Glean: &lt;a href="https://www.glean.com" style="color:inherit;text-decoration:underline;"&gt;https://www.glean.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marty Supreme&lt;/strong&gt;on Prime Video: &lt;a href="https://www.primevideo.com/detail/Marty-Supreme/0GU3TFPDR9FE2C6L7AAWAA3QXD" style="color:inherit;text-decoration:underline;"&gt;https://www.primevideo.com/detail/Marty-Supreme/0GU3TFPDR9FE2C6L7AAWAA3QXD&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Pokemon: &lt;a href="https://www.pokemon.com" style="color:inherit;text-decoration:underline;"&gt;https://www.pokemon.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Puking rainbow lens: &lt;a href="https://www.snapchat.com/lens/349f631e78cc4b3dbd8c9656a69dbdd0" style="color:inherit;text-decoration:underline;"&gt;https://www.snapchat.com/lens/349f631e78cc4b3dbd8c9656a69dbdd0&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Face swap: &lt;a href="https://www.snapchat.com/explore/face-swap" style="color:inherit;text-decoration:underline;"&gt;https://www.snapchat.com/explore/face-swap&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;• Snapchat：https://www.snapchat.com&lt;br&gt;• TikTok：https://www.tiktok.com&lt;br&gt;• Threads：https://www.threads.com&lt;br&gt;• Snapchat+：https://www.snapchat.com/plus&lt;br&gt;• Instagram Plus：https://help.instagram.com/26266751476298047&lt;br&gt;• Pixy：https://www.pixy.com&lt;br&gt;• Specs：https://newsroom.snap.com/introducing-specs-inc&lt;br&gt;• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Bobby Murphy&lt;/strong&gt;（鲍比·墨菲）：https://en.wikipedia.org/wiki/Bobby_Murphy&lt;br&gt;• AI 时代创业的残酷真相 | Keith Rabois (Khosla Ventures)：https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era&lt;br&gt;• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marc Andreessen&lt;/strong&gt;（马克·安德森）：真正的 AI 繁荣甚至尚未开始：https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom&lt;br&gt;• 设计流程已死。以下是取而代之的东西。 | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jenny Wen&lt;/strong&gt;（Claude 设计负责人）：https://www.lennysnewsletter.com/p/the-design-process-is-dead&lt;br&gt;• Claude Cowork：https://www.anthropic.com/product/claude-cowork&lt;br&gt;• Figma：https://www.figma.com&lt;br&gt;• Bill Clinton on X：https://x.com/BillClinton&lt;br&gt;• Superhuman 成功的秘诀：忽视大多数客户反馈、手动引导每位新用户、痴迷于每一个细节，并围绕单一属性——速度——进行定位 | &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Rahul Vohra&lt;/strong&gt;（CEO）：https://www.lennysnewsletter.com/p/superhumans-secret-to-success-rahul-vohra&lt;br&gt;• Bobcat 拖拉机：https://www.bobcat.com/na/en/equipment/tractors&lt;br&gt;• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Palmer Luckey&lt;/strong&gt;（帕尔默·拉基）的博客：https://palmerluckey.com&lt;br&gt;• ModRetro：https://modretro.com&lt;br&gt;• Glean：https://www.glean.com&lt;br&gt;• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Marty Supreme&lt;/strong&gt; on Prime Video：https://www.primevideo.com/detail/Marty-Supreme/0GU3TFPDR9FE2C6L7AAWAA3QXD&lt;br&gt;• Pokemon：https://www.pokemon.com&lt;br&gt;• 呕吐彩虹镜头（Puking rainbow lens）：https://www.snapchat.com/lens/349f631e78cc4b3dbd8c9656a69dbdd0&lt;br&gt;• 换脸（Face swap）：https://www.snapchat.com/explore/face-swap&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul style="margin:0;padding-left:20px;"&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Diego Zaks&lt;/strong&gt;—“The best UX is no UX”: https://x.com/diegozaks/status/1966526522136649980&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sam Lessin&lt;/strong&gt;: https://wlessin.com/&lt;/li&gt;
+&lt;li&gt;“Stop giving me advice”: https://stopgivingmeadvice.com&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Memelord&lt;/strong&gt; free tools: https://memelord.com/tools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Diego Zaks&lt;/strong&gt;——“最好的 UX 就是没有 UX”：https://x.com/diegozaks/status/1966526522136649980&lt;br&gt;
+• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Sam Lessin&lt;/strong&gt;：https://wlessin.com/&lt;br&gt;
+• “Stop giving me advice”：https://stopgivingmeadvice.com&lt;br&gt;
+• &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Memelord&lt;/strong&gt; 免费工具：https://memelord.com/tools
+&lt;/p&gt;
 
-&lt;h3 style="margin:24px 0 12px;"&gt;Recommended books:&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;推荐书目：&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Where to find Jason Levin:&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;在哪里找到 Jason Levin：&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="margin:0;padding-left:20px;"&gt;&lt;li&gt;&lt;a href="https://www.amazon.com/Loonshots-Nurture-Diseases-Transform-Industries/dp/1250185963" style="color:inherit;text-decoration:underline;"&gt;Loonshots: How to Nurture the Crazy Ideas That Win Wars, Cure Diseases, and Transform Industries&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555" style="color:inherit;text-decoration:underline;"&gt;Thinking, Fast and Slow&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.amazon.com/Apple-First-Years-David-Pogue/dp/1982134593" style="color:inherit;text-decoration:underline;"&gt;Apple: The First 50 Years&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.amazon.com/dp/B09CS8FRRD" style="color:inherit;text-decoration:underline;"&gt;The End of the World Is Just the Beginning: Mapping the Collapse of Globalization―Irreverent Predictions from a Geopolitical Strategist&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;• &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Loonshots&lt;/strong&gt;：如何培育那些赢得战争、治愈疾病并改变行业的疯狂想法&lt;br&gt;• &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Thinking, Fast and Slow&lt;/strong&gt;（思考，快与慢）&lt;br&gt;• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple&lt;/strong&gt;：最初的 50 年&lt;br&gt;• The End of the World Is Just the Beginning：描绘全球化的崩溃——来自一位地缘政治策略师的颠覆性预测&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul style="margin:0;padding-left:20px;"&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Twitter&lt;/strong&gt;: https://twitter.com/iamjasonlevin&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Instagram&lt;/strong&gt;: https://instagram.com/iamjasonlevin&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;LinkedIn&lt;/strong&gt;: https://www.linkedin.com/in/iamjasonlevin/&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Memelord&lt;/strong&gt;: https://memelord.com&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Twitter&lt;/strong&gt;：https://twitter.com/iamjasonlevin&lt;br&gt;
+• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Instagram&lt;/strong&gt;：https://instagram.com/iamjasonlevin&lt;br&gt;
+• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;LinkedIn&lt;/strong&gt;：https://www.linkedin.com/in/iamjasonlevin/&lt;br&gt;
+• &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Memelord&lt;/strong&gt;：https://memelord.com
+&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Production and marketing by &lt;a href="https://penname.co/" style="color:inherit;text-decoration:underline;"&gt;https://penname.co/&lt;/a&gt;. For inquiries about sponsoring the podcast, email &lt;a href="mailto:podcast@lennyrachitsky.com" style="color:inherit;text-decoration:underline;"&gt;podcast@lennyrachitsky.com&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;Lenny may be an investor in the companies discussed.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;节目制作与推广由 https://penname.co/ 负责。如有赞助播客的意向，请发送邮件至 podcast@lennyrachitsky.com。&lt;br/&gt;&lt;br/&gt;Lenny 可能是文中讨论公司的投资人。&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Where to find Claire Vo:&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;在哪里找到 Claire Vo：&lt;/p&gt;
 
-&lt;h3 style="margin:24px 0 12px;"&gt;My biggest takeaways from this conversation:&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我对这次对话的最大收获：&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;ul style="margin:0;padding-left:20px;"&gt;
+&lt;li&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatPRD&lt;/strong&gt;: https://www.chatprd.ai/&lt;/li&gt;
+&lt;li&gt;Website: https://clairevo.com/&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;LinkedIn&lt;/strong&gt;: https://www.linkedin.com/in/clairevo/&lt;/li&gt;
+&lt;li&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;X&lt;/strong&gt;: https://x.com/clairevo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+• &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatPRD&lt;/strong&gt;：https://www.chatprd.ai/&lt;br&gt;
+• 个人网站：https://clairevo.com/&lt;br&gt;
+• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;LinkedIn&lt;/strong&gt;：https://www.linkedin.com/in/clairevo/&lt;br&gt;
+• &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;X&lt;/strong&gt;：https://x.com/clairevo
+&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Read more&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;阅读更多&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Production and marketing by &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;https://penname.co/&lt;/strong&gt;. For inquiries about sponsoring the podcast, email &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;jordan@penname.co&lt;/strong&gt;.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;节目制作和营销由 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Penname&lt;/strong&gt;（https://penname.co/）负责。如有关于赞助播客的咨询，请发送邮件至 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;jordan@penname.co&lt;/strong&gt;。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is</guid>
-      <pubDate>Sun, 26 Apr 2026 12:31:49 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/from-a-690-newsletter-to-3m-api-how"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/from-a-690-newsletter-to-3m-api-how</guid>
+      <pubDate>Mon, 27 Apr 2026 12:03:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: Google Meet语音翻译功能登陆移动设备</title>
+      <link>https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #语音翻译 #谷歌会议 #移动端&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Google Meet 的实时语音翻译功能正陆续登陆移动设备，目前支持英语、西班牙语等六种语言互译，并能以近似原声的语音播报译文；不过该功能仍处于早期测试阶段，实际使用中存在兼容性和稳定性问题。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Speech translation in Google Meet is now rolling out to mobile devices&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Speech translation in Google Meet is now rolling out to mobile devices&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Meet&lt;/strong&gt; 的语音翻译功能现正面向移动设备推出&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;This is &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt;'s implementation of the ultimate &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;sci-fi translation&lt;/strong&gt; app, where two people can talk to each other in two separate languages and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Meet&lt;/strong&gt; translates from one to the other and - with a short delay - repeats the text in your &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;preferred language&lt;/strong&gt;, with a rough imitation of the original speaker's voice.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这是 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt; 对终极&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;科幻翻译（sci-fi translation）&lt;/strong&gt;应用的实现：两人可用各自不同的语言实时交谈，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Meet&lt;/strong&gt; 会在短暂延迟后将一方的发言翻译并转述为对方的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;首选语言（preferred language）&lt;/strong&gt;，同时大致模仿原始说话者的嗓音。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;It can only handle English, Spanish, French, German, Portuguese, and Italian at the moment. It's also still very &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;alpha&lt;/strong&gt; - I ran it successfully between two laptops running web browsers, but then when I tried between an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;iPhone&lt;/strong&gt; and an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;iPad&lt;/strong&gt; it didn't seem to work.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;该功能目前仅支持英语、西班牙语、法语、德语、葡萄牙语和意大利语。此外，它仍处于非常早期的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;alpha&lt;/strong&gt;（内测）阶段——我曾在两台运行网页浏览器的笔记本电脑之间成功运行，但在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;iPhone&lt;/strong&gt; 与 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;iPad&lt;/strong&gt; 之间测试时，该功能似乎无法正常工作。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags: &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;google&lt;/strong&gt;, translation&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Google&lt;/strong&gt;、translation（翻译）&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything</guid>
+      <pubDate>Mon, 27 Apr 2026 17:37:47 +0000</pubDate>
     </item>
   </channel>
 </rss>
