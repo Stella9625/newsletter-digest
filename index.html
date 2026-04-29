@@ -292,42 +292,22 @@
 <div class="container">
   <div class="tabs">
     <button class="tab active" onclick="switchTab('digest')">每日日报</button>
-    <button class="tab" onclick="switchTab('articles')">全部文章 (3)</button>
+    <button class="tab" onclick="switchTab('articles')">全部文章 (1)</button>
   </div>
 
   <!-- 日报 Tab -->
   <div id="tab-digest" class="tab-content active">
-    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">语音翻译</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">谷歌会议</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">移动端</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">无代码创业</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">AI梗图</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">API产品</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">AI投资</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">智能体</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
+    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">LLM</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">多模态</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">消息序列</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">流式输出</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
-      <h2>2026-04-27 日报</h2>
-      <p><strong>LLM &amp; AI 工具</strong></p>
+      <h2>2026-04-29 日报</h2>
+      <p><strong>AI/产品/技术日报</strong></p>
+<h3>LLM &amp; AI 工具</h3>
 <ul>
-<li><strong>Google Meet 实时语音翻译登陆移动端</strong></li>
+<li><strong>LLM 0.32a0 发布重大向后兼容重构</strong>（Simon Willison）：该 alpha 版本将模型输入统一抽象为消息序列，响应重构为由文本、工具调用、推理等多类型片段组成的流，以更好地适配现代大模型在多模态交互、复杂工具链及推理能力方面的新需求。</li>
 </ul>
-<p>Google Meet 的实时语音翻译功能正陆续登陆移动设备，支持英语、西班牙语等六种语言互译，并能以近似原声的语音播报译文；不过该功能仍处于早期测试阶段，存在兼容性与稳定性问题。（Simon Willison / Simon Willison）</p>
-<ul>
-<li><strong>Claude 企业版代理新增跨会话记忆</strong></li>
-</ul>
-<p>Anthropic 为企业版 Claude 代理推出跨会话记忆功能，使智能体能够在多次对话间保持上下文连续性，提升企业场景的自动化能力。（TLDR / TLDR AI）</p>
-<hr>
-<p><strong>产品与增长</strong></p>
-<ul>
-<li><strong>从 6.90 美元邮件到 300 万美元 API：非编码者的产品路径</strong></li>
-</ul>
-<p>创业者 Jason Levin 回顾了 Memelord 从月费 6.90 美元的邮件简报起步，借助 Bubble 无代码平台做到 10 万美元年收入，再融资 300 万美元转型为 API 优先的 AI 表情包平台的历程；文章还分享了其在“无 UX”产品设计、AI 智能体及 vibe-coding 方面的实践。（Claire Vo / Lenny&#x27;s Newsletter）</p>
-<hr>
-<p><strong>跨界与深度思考</strong></p>
-<ul>
-<li><strong>400 亿美元押注与 AI 实体店的落地困境</strong></li>
-</ul>
-<p>谷歌计划向 Anthropic 投资高达 400 亿美元以支持其 AI 算力扩张；与此同时，旧金山首家 AI 运营实体店的持续亏损实验，揭示了当前智能体技术在现实商业落地中的严峻挑战与距离。（TLDR / TLDR AI）</p>
     </div>
   </div>
 
@@ -336,365 +316,255 @@
     <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">Google Meet语音翻译功能登陆移动设备</div>
+        <div class="title">LLM 0.32a0：重大向后兼容重构</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">Speech translation in Google Meet is now rolling out to mobile devices</div>
-      <div class="tags"><span class="tag">语音翻译</span><span class="tag">谷歌会议</span><span class="tag">移动端</span></div>
-      <div class="summary">Google Meet 的实时语音翻译功能正陆续登陆移动设备，目前支持英语、西班牙语等六种语言互译，并能以近似原声的语音播报译文；不过该功能仍处于早期测试阶段，实际使用中存在兼容性和稳定性问题。</div>
+      <div class="title-en">LLM 0.32a0  is a major backwards-compatible refactor</div>
+      <div class="tags"><span class="tag">LLM</span><span class="tag">多模态</span><span class="tag">消息序列</span><span class="tag">流式输出</span></div>
+      <div class="summary">LLM 0.32a0 alpha版本对Python库进行了重大向后兼容重构，将模型输入抽象为消息序列，并将响应重构为由文本、工具调用、推理等多种类型片段组成的流。这一改动旨在让工具更好地适配现代大模型在多模态交互、复杂工具链及推理能力等方面的新需求。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">This is Google&#x27;s implementation of the ultimate sci-fi translation app, where two people can talk to each other in two separate languages and Meet translates from one to the other and - with a short delay - repeats the text in your preferred language, with a rough imitation of the original speaker&#x27;s voice.</div><div class="quote-zh">这是谷歌对终极科幻翻译应用的实现——两个人可以用两种不同的语言彼此交谈，Meet会在两者之间翻译，并在短暂延迟后，以对原说话者声音的粗略模仿，用你偏好的语言复述出文本。</div></div>
-<div class="quote-block"><div class="quote-en">It&#x27;s also still very alpha - I ran it successfully between two laptops running web browsers, but then when I tried between an iPhone and an iPad it didn&#x27;t seem to work.</div><div class="quote-zh">它也仍然非常初级——我在两台运行网页浏览器的笔记本电脑之间成功运行过，但随后在iPhone和iPad之间尝试时，它似乎无法工作。</div></div>
+<div class="quote-block"><div class="quote-en">This made sense when I started working on the library back in April 2023. A lot has changed since then!</div><div class="quote-zh">2023年4月我开始做这个库时，这样设计是合理的。但自那以后，世界已经变了很多！</div></div>
+<div class="quote-block"><div class="quote-en">The original abstraction - of text input that returns text output - was no longer able to represent everything I needed it to.</div><div class="quote-zh">最初的抽象——文本输入、文本输出——已经无法承载我需要它表达的一切了。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Speech translation in Google Meet is now rolling out to mobile devices</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Meet</strong> 的语音翻译功能现正面向移动设备推出</p>
+      <div class="translation"><h3 style="margin:24px 0 12px;">LLM 0.32a0 is a major backwards-compatible refactor</h3>
+<h3 style="margin:24px 0 12px;">LLM 0.32a0 是一次重大的向后兼容重构</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This is <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong>'s implementation of the ultimate <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sci-fi translation</strong> app, where two people can talk to each other in two separate languages and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Meet</strong> translates from one to the other and - with a short delay - repeats the text in your <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">preferred language</strong>, with a rough imitation of the original speaker's voice.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> 对终极<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">科幻翻译（sci-fi translation）</strong>应用的实现：两人可用各自不同的语言实时交谈，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Meet</strong> 会在短暂延迟后将一方的发言翻译并转述为对方的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">首选语言（preferred language）</strong>，同时大致模仿原始说话者的嗓音。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I just released <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM 0.32a0</strong>, an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">alpha release</strong> of my <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM</strong> Python library and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI tool</strong> for accessing LLMs, with some consequential changes that I've been working towards for quite a while.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我刚刚发布了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM 0.32a0</strong>，这是我的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM</strong> Python 库和用于访问 LLM 的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">命令行工具（CLI tool）</strong>的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">alpha 版本</strong>，其中包含一些我酝酿已久的重大变更。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">It can only handle English, Spanish, French, German, Portuguese, and Italian at the moment. It's also still very <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">alpha</strong> - I ran it successfully between two laptops running web browsers, but then when I tried between an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">iPhone</strong> and an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">iPad</strong> it didn't seem to work.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">该功能目前仅支持英语、西班牙语、法语、德语、葡萄牙语和意大利语。此外，它仍处于非常早期的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">alpha</strong>（内测）阶段——我曾在两台运行网页浏览器的笔记本电脑之间成功运行，但在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">iPhone</strong> 与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">iPad</strong> 之间测试时，该功能似乎无法正常工作。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Previous versions of LLM modeled the world in terms of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompts</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">responses</strong>. Send the model a text prompt, get back a text response.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">早期版本的 LLM 将世界建模为<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">提示词（prompt）</strong>和<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">响应（response）</strong>的二元关系：向模型发送文本提示词，获得文本响应。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">google</strong>, translation</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong>、translation（翻译）</p></div>
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>import llm
+model = llm.get_model("gpt-5.5")
+response = model.prompt("Capital of France?")
+print(response.text())</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This made sense when I started working on the library back in April 2023. A lot has changed since then!</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">当我在 2023 年 4 月开始开发这个库时，这种设计是合理的。但此后一切都变了！</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">LLM provides an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">abstraction</strong> over thousands of different models via its <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">plugin system</strong>. The original abstraction - of text input that returns text output - was no longer able to represent everything I needed it to.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">LLM 通过其<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">插件系统（plugin system）</strong>为数千种不同的模型提供<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">抽象（abstraction）</strong>。但最初的抽象——文本输入返回文本输出——已经无法涵盖我需要它表示的所有内容了。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Over time LLM itself has grown <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">attachments</strong> to handle image, audio, and video input, then <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">schemas</strong> for outputting structured JSON, then <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tools</strong> for executing tool calls. Meanwhile LLMs kept evolving, adding <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reasoning support</strong> and the ability to return images and all kinds of other interesting capabilities.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">随着时间的推移，LLM 本身逐步扩展了<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">附件（attachments）</strong>以处理图像、音频和视频输入，然后是用于输出结构化 JSON 的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">模式（schemas）</strong>，再然后是用于执行工具调用的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">工具（tools）</strong>。与此同时，LLM 本身也在不断进化，增加了<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">推理支持（reasoning support）</strong>以及返回图像和各种其他有趣功能的能力。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">LLM needs to evolve to better handle the diversity of input and output types that can be processed by today's <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">frontier models</strong>.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">LLM 需要进一步演进，以更好地处理当今<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">前沿模型（frontier models）</strong>所能处理的多样化输入和输出类型。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The 0.32a0 alpha has two key changes: model inputs can be represented as a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sequence of messages</strong>, and model responses can be composed of a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">stream</strong> of differently typed parts.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">0.32a0 alpha 版本带来了两项关键变更：模型输入可以被表示为<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">消息序列（sequence of messages）</strong>，而模型响应可以由一个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">流（stream）</strong>中不同类型的片段组成。</p>
+
+<h4 style="margin:24px 0 12px;">Prompts as a sequence of messages</h4>
+<h4 style="margin:24px 0 12px;">将提示词作为消息序列</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">LLMs accept input as text, but ever since <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatGPT</strong> demonstrated the value of a two-way <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">conversational interface</strong>, the most common way to prompt them has been to treat that input as a sequence of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">conversational turns</strong>.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">LLM 接受文本输入，但自从 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatGPT</strong> 展示了双向<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">对话界面（conversational interface）</strong>的价值以来，最常见的提示方式是将输入视为一系列<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">对话轮次（conversational turns）</strong>。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The first turn might look like this:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">第一轮对话可能是这样的：</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>user: Capital of France?
+assistant:</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">(The model then gets to fill out the reply from the assistant.)</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">（然后模型会补全 assistant 的回复。）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">But each subsequent turn needs to replay the entire conversation up to that point, as a sort of screenplay:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">但每一个后续轮次都需要将截至该点的整个对话重新播放一遍，就像剧本一样：</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>user: Capital of France?
+assistant: Paris
+user: Germany?
+assistant:</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Most of the JSON APIs from the major vendors follow this pattern. Here's what the above looks like using the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">chat completions API</strong>, which has been widely imitated by other providers:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">大多数主要厂商提供的 JSON API 都遵循这一模式。以下是使用 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">聊天补全 API（chat completions API）</strong>的效果，该 API 已被其他提供商广泛模仿：</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>curl https://api.openai.com/v1/chat/completions \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"model": "gpt-5.5", "messages": [{"role": "user", "content": "Capital of France?"}, {"role": "assistant", "content": "Paris"}, {"role": "user", "content": "Germany?"}]}'</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Prior to 0.32, LLM modeled these as conversations:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在 0.32 版本之前，LLM 将这些建模为对话（conversation）：</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>model = llm.get_model("gpt-5.5")
+conversation = model.conversation()
+r1 = conversation.prompt("Capital of France?")
+print(r1.text())  # Outputs "Paris"
+r2 = conversation.prompt("Germany?")
+print(r2.text())  # Outputs "Berlin"</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This worked if you were building a conversation with the model from scratch, but it didn't provide a way to feed in a previous conversation from the start. This made tasks like building an emulation of the OpenAI chat completions API much harder than they should have been.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如果你从零开始与模型构建对话，这种方式是可行的，但它没有提供一种从一开始就能注入历史对话的方法。这使得构建 OpenAI 聊天补全 API 模拟器等任务变得比应有的难度更大。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The llm <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI</strong> tool worked around this through a custom mechanism for persisting and inflating conversations using <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong>, but that never became a stable part of the LLM API - and there are many places you might want to use the Python library without committing to SQLite as the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">storage layer</strong>.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">llm <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI</strong> 工具通过一个自定义机制绕过了这一问题，即使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong> 持久化和恢复（inflating）对话，但这从未成为 LLM API 的稳定组成部分——而且在很多场景下，你可能希望使用该 Python 库，却不想把 SQLite 作为<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">存储层（storage layer）</strong>。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The new alpha now supports this:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">新的 alpha 版本现在支持这样做：</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>import llm
+from llm import user, assistant
+model = llm.get_model("gpt-5.5")
+response = model.prompt(messages=[
+    user("Capital of France?"),
+    assistant("Paris"),
+    user("Germany?"),
+])
+print(response.text())</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llm.user()</code> and <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llm.assistant()</code> functions are new <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">builder functions</strong> designed to be used within that <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">messages=[]</code> array.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llm.user()</code> 和 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llm.assistant()</code> 函数是新增的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">构建器函数（builder functions）</strong>，专用于在 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">messages=[]</code> 数组内部使用。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The previous <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">prompt=</code> option still works, but LLM upgrades it to a single-item messages array behind the scenes.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">之前的 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">prompt=</code> 参数仍然可用，但 LLM 会在后台将其升级为单条消息的数组。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">You can also now <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reply</strong> to a response, as an alternative to building a conversation:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">你现在也可以直接对某个响应进行<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">回复（reply）</strong>，作为构建对话的替代方式：</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>response2 = response.reply("How about Hungary?")
+print(response2)  # Default __str__() calls .text()</code></pre>
+
+<h4 style="margin:24px 0 12px;">Streaming parts</h4>
+<h4 style="margin:24px 0 12px;">流式片段</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The other major new interface in the alpha concerns <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">streaming</strong> results back from a prompt.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">alpha 版本中的另一项重大新接口涉及从提示词<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">流式（streaming）</strong>返回结果。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Previously, LLM supported streaming like this:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">此前，LLM 支持的流式处理方式如下：</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>response = model.prompt("Generate an SVG of a pelican riding a bicycle")
+for chunk in response:
+    print(chunk, end="")</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Or this async variant:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">或者是这个异步变体：</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>import asyncio
+import llm
+model = llm.get_async_model("gpt-5.5")
+response = model.prompt("Generate an SVG of a pelican riding a bicycle")
+async def run():
+    async for chunk in response:
+        print(chunk, end="", flush=True)
+asyncio.run(run())</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Many of today's models return mixed types of content. A prompt run against <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> might return <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reasoning output</strong>, then text, then a JSON request for a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tool call</strong>, then more text content.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如今许多模型会返回混合类型的内容。向 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude</strong> 发送提示词可能会得到<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">推理输出（reasoning output）</strong>，然后是文本，接着是一个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">工具调用（tool call）</strong>的 JSON 请求，再然后是更多文本内容。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Some models can even execute tools on the server-side, for example <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">code interpreter</strong> tool or <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>'s web search. This means the results from the model can combine text, tool calls, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tool outputs</strong> and other formats.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">某些模型甚至可以在服务端执行工具，例如 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">代码解释器（code interpreter）</strong>或 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 的网页搜索。这意味着模型的结果可以混合文本、工具调用、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">工具输出（tool outputs）</strong>和其他格式。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Multi-modal output models</strong> are starting to emerge too, which can return images or even <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">snippets of audio</strong> intermixed into that streaming response.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">多模态输出模型（Multi-modal output models）</strong>也开始涌现，它们可以在流式响应中返回图像，甚至混入<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">音频片段（snippets of audio）</strong>。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The new LLM alpha models these as a stream of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">typed message parts</strong>. Here's what that looks like as a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Python API</strong> consumer:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">新的 LLM alpha 版本将这些建模为<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">类型化消息片段流（stream of typed message parts）</strong>。以下是 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Python API</strong> 使用者的视角：</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>import asyncio
+import llm
+model = llm.get_model("gpt-5.5")
+prompt = "invent 3 cool dogs, first talk about your motivations"
+def describe_dog(name: str, bio: str) -> str:
+    """Record the name and biography of a hypothetical dog."""
+    return f"{name}: {bio}"
+def sync_example():
+    response = model.prompt(
+        prompt,
+        tools=[describe_dog],
+    )
+    for event in response.stream_events():
+        if event.type == "text":
+            print(event.chunk, end="", flush=True)
+        elif event.type == "tool_call_name":
+            print(f"\nTool call: {event.chunk}(", end="", flush=True)
+        elif event.type == "tool_call_args":
+            print(event.chunk, end="", flush=True)
+async def async_example():
+    model = llm.get_async_model("gpt-5.5")
+    response = model.prompt(
+        prompt,
+        tools=[describe_dog],
+    )
+    async for event in response.astream_events():
+        if event.type == "text":
+            print(event.chunk, end="", flush=True)
+        elif event.type == "tool_call_name":
+            print(f"\nTool call: {event.chunk}(", end="", flush=True)
+        elif event.type == "tool_call_args":
+            print(event.chunk, end="", flush=True)
+sync_example()
+asyncio.run(async_example())</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Sample output (from just the first sync example):</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">示例输出（仅来自第一个同步示例）：</p>
+
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">My motivation: create three memorable dogs with distinct “cool” styles—one cinematic, one adventurous, and one charmingly chaotic—so each feels like they could star in their own story.Tool call: describe_dog({"name": "Nova Jetpaw", "bio": "A sleek silver-gray whippet who wears tiny aviator goggles and loves sprinting along moonlit beaches. Nova is fearless, elegant, and rumored to outrun drones just for fun."}Tool call: describe_dog({"name": "Mochi Thunderbark", "bio": "A fluffy corgi with a dramatic black-and-gold bandana and the confidence of a rock star. Mochi is short, loud, loyal, and leads a neighborhood 'security patrol' made entirely of squirrels."}Tool call: describe_dog({"name": "Atlas Snowfang", "bio": "A massive white husky with ice-blue eyes and a backpack full of trail snacks. Atlas is calm, heroic, and always knows the way home—even during blizzards, fog, or confusing camping trips."}</blockquote>
+<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">My motivation: create three memorable dogs with distinct “cool” styles—one cinematic, one adventurous, and one charmingly chaotic—so each feels like they could star in their own story.Tool call: describe_dog({"name": "Nova Jetpaw", "bio": "A sleek silver-gray whippet who wears tiny aviator goggles and loves sprinting along moonlit beaches. Nova is fearless, elegant, and rumored to outrun drones just for fun."}Tool call: describe_dog({"name": "Mochi Thunderbark", "bio": "A fluffy corgi with a dramatic black-and-gold bandana and the confidence of a rock star. Mochi is short, loud, loyal, and leads a neighborhood 'security patrol' made entirely of squirrels."}Tool call: describe_dog({"name": "Atlas Snowfang", "bio": "A massive white husky with ice-blue eyes and a backpack full of trail snacks. Atlas is calm, heroic, and always knows the way home—even during blizzards, fog, or confusing camping trips."}</blockquote>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">At the end of the response you can call <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">response.<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">execute_tool_calls</strong>()</code> to actually run the functions that were requested, or send a <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">response.<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reply()</strong></code> to have those tools called and their return values sent back to the model:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在响应结束时，你可以调用 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">response.<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">execute_tool_calls()</strong></code> 来实际执行被请求的工具函数，或者发送一个 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">response.<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reply()</strong></code> 来让这些工具被调用并将其返回值回传给模型：</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>print(response.reply("Tell me about the dogs"))</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This new mechanism for streaming different <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">token types</strong> means the CLI tool can now display "thinking" text in a different color from the text in the final response. The thinking text goes to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">stderr</strong> so it won't affect results that are piped into other tools.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这种用于流式传输不同<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">token 类型（token types）</strong>的新机制意味着 CLI 工具现在可以将"思考"文本与最终响应文本以不同颜色显示。思考文本会被输出到 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">stderr</strong>，因此不会影响被管道传输给其他工具的结果。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This example uses <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Sonnet 4.6</strong> (with an updated streaming event version of the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llm-anthropic</strong> plugin) as <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>'s models return their reasoning text as part of the response:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">本示例使用了 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Sonnet 4.6</strong>（配合更新了流式事件版本的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llm-anthropic</strong> 插件），因为 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 的模型会将其推理文本作为响应的一部分返回：</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>llm -m claude-sonnet-4.6 'Think about 3 cool dogs then describe them' \
+  -o thinking_display 1</code></pre>
+
+<img src="https://static.simonwillison.net/static/2026/claude-thinking-llm.gif" alt="Animated demo. Starts with ~/dev/scratch/llm-anthropic % uv run llm -m claude-sonnet-4.6 'Think about 3 cool dogs then describe them' -o thinking_display 1 - the text then streams in grey: The user wants me to think about 3 cool dogs and then describe them. Let me come up with 3 interesting, cool dogs and describe them. Then switches to regular color text for the output that describes the dogs." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<img src="https://static.simonwillison.net/static/2026/claude-thinking-llm.gif" alt="Animated demo. Starts with ~/dev/scratch/llm-anthropic % uv run llm -m claude-sonnet-4.6 'Think about 3 cool dogs then describe them' -o thinking_display 1 - the text then streams in grey: The user wants me to think about 3 cool dogs and then describe them. Let me come up with 3 interesting, cool dogs and describe them. Then switches to regular color text for the output that describes the dogs." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">You can suppress the output of reasoning tokens using the new <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">-R/--no-reasoning</strong> flag. Surprisingly that ended up being the only <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI-facing</strong> change in this release.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">你可以使用新增的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">-R/--no-reasoning</strong> 标志来抑制推理 token 的输出。令人惊讶的是，这最终成为本次发布中唯一面向 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI</strong> 的变更。</p>
+
+<h4 style="margin:24px 0 12px;">A mechanism for serializing and deserializing responses</h4>
+<h4 style="margin:24px 0 12px;">响应序列化与反序列化机制</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">As mentioned earlier, LLM has quite inflexible code at the moment for persisting conversations to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong>. I've added a new mechanism in 0.32a0 that should provide <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Python API</strong> users a way to roll their own alternative:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">如前所述，LLM 目前用于将对话持久化到 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite</strong> 的代码相当僵化。我在 0.32a0 中新增了一种机制，为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Python API</strong> 用户提供了一种自行实现替代方案的途径：</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>serializable = response.to_dict()
+# serializable is a JSON-style dictionary
+# store it anywhere you like, then inflate it:
+response = Response.from_dict(serializable)</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The dictionary this returns is actually a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">TypedDict</strong> defined in the new <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llm/serialization.py</code> module.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">返回的字典实际上是一个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">TypedDict</strong>，定义在新增的 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llm/serialization.py</code> 模块中。</p>
+
+<h4 style="margin:24px 0 12px;">What's next?</h4>
+<h4 style="margin:24px 0 12px;">下一步计划？</h4>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I'm releasing this as an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">alpha</strong> so I can upgrade various <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">plugins</strong> and exercise the new design in real world environments for a few days. I expect the stable 0.32 release will be very similar to this alpha, unless alpha testing reveals some design flaw in the way I've put this all together.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我将此版本作为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">alpha</strong> 发布，以便升级各类<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">插件（plugins）</strong>，并在真实环境中检验新设计几天。我预计稳定的 0.32 版本会与这个 alpha 非常相似，除非 alpha 测试揭示出我这套设计方案存在某些缺陷。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">There's one remaining large task: I'd like to redesign the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite logging system</strong> to better capture the more <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">finely grained</strong> details that are returned by this new abstraction.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">还有一个 remaining 的大型任务：我希望重新设计 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SQLite 日志系统（SQLite logging system）</strong>，以更好地捕获这种新抽象返回的更<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">细粒度（finely grained）</strong>的细节。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Ideally I'd like to model this as a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">graph</strong>, to best support situations like an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenAI-style chat completions API</strong> where the same conversations are constantly extended and then repeated with every prompt. I want to be able to store those without duplicating them in the database.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">理想情况下，我希望将其建模为<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">图（graph）</strong>，以最佳支持类似 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenAI 风格聊天补全 API（OpenAI-style chat completions API）</strong>的场景——在这种场景中，相同的对话被不断扩展，然后随着每一次提示词重复发送。我希望能够在数据库中存储这些内容而不产生重复。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I'm undecided as to whether that should be a feature in 0.32 or I should hold it for 0.33.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我尚未决定这是应该作为 0.32 的功能，还是留到 0.33 版本。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: projects, python, ai, annotated-release-notes, generative-ai, llms, llm</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：projects, python, ai, annotated-release-notes, generative-ai, llms, llm</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Lenny&#x27;s Newsletter</div>
-      <div class="title-row">
-        <div class="title">从6.90美元简报到300万美元API：非程序员如何打造Memelord</div>
-        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
-      </div>
-      <div class="title-en">From a $6.90 newsletter to $3M API: How a non-coder built Memelord | Jason Levin</div>
-      <div class="tags"><span class="tag">无代码创业</span><span class="tag">AI梗图</span><span class="tag">API产品</span></div>
-      <div class="summary">非编码创业者Jason Levin回顾了Memelord从月费6.90美元邮件简报起步，借助Bubble无代码平台做到10万美元年收入，再融资300万美元转型为API优先的AI表情包平台的创业历程。文章还介绍了他在&quot;无UX&quot;产品设计、AI智能体应用及团队vibe-coding等方面的独特实践与思考。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">No UX is the best UX</div><div class="quote-zh">最好的用户体验，就是没有用户体验</div></div>
-<div class="quote-block"><div class="quote-en">Memes are not slop</div><div class="quote-zh">梗图不是垃圾内容</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">From a $6.90 newsletter to $3M API: How a non-coder built Memelord | Jason Levin</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">从每月6.90美元的通讯到300万美元的API：一位非程序员如何打造Memelord | Jason Levin</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jason Levin</strong> is the CEO and founder of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Memelord</strong>, an AI-powered meme creation platform that helps brands and individuals create contextual, trending memes. He started Memelord as a $6.90-per-month newsletter sending subscribers to a Google Slides deck, grew it to $100K <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ARR</strong> on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Bubble</strong> without hiring engineers, then raised $3M to build it into an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">API-first</strong> product.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jason Levin</strong> 是 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Memelord</strong> 的 CEO 兼创始人，这是一个 AI-powered（AI驱动的）模因创作平台，帮助品牌和个人创作贴合语境、紧跟热点的模因。他将 Memelord 从一份每月 6.90 美元、给订阅者发送 Google Slides 链接的通讯做起，在不雇佣工程师的情况下，借助 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Bubble</strong> 将其发展到 10 万美元 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ARR（年度经常性收入）</strong>，随后融资 300 万美元，将其打造为一款 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">API-first（API优先）</strong> 产品。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Listen or watch on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">YouTube</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Spotify</strong>, or <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple Podcasts</strong></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">YouTube</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Spotify</strong> 或 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple Podcasts</strong> 上收听或观看</p>
-
-<h3 style="margin:24px 0 12px;">What you’ll learn:</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">你将学到什么：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;">
-<li>How Jason grew <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Memelord</strong> from a $6.90/month newsletter to $100K <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ARR</strong> without writing a single line of code</li>
-<li>Why “no <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">UX</strong> is the best UX” and how <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agents</strong> are becoming Memelord’s primary users</li>
-<li>The mandatory <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vibe-coding</strong> rule for his marketing team and how it unlocks unprecedented creativity</li>
-<li>Why free tools are the new PDF downloads and how they’ve generated hundreds of thousands of emails</li>
-<li>Jason’s hardware hacking projects, including a bedside keyboard that creates <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Linear</strong> tickets without waking his wife</li>
-<li>Why AI can be funny (but humans are still funnier) and which model is the funniest</li>
-<li>The philosophy of building <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hyper-personalized</strong> software just for yourself</li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• Jason 如何在没有写一行代码的情况下，将 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Memelord</strong> 从每月 6.90 美元的通讯发展到 10 万美元 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ARR（年度经常性收入）</strong><br>
-• 为什么“没有 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">UX（用户体验）</strong> 就是最好的 UX”，以及 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agents（智能体）</strong> 如何成为 Memelord 的主要用户<br>
-• 他给营销团队制定的强制 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vibe-coding（氛围编码）</strong> 规则，以及如何释放前所未有的创造力<br>
-• 为什么免费工具是新的 PDF 下载，以及它们如何生成了数十万封邮件<br>
-• Jason 的硬件黑客项目，包括一个可以在不吵醒妻子的情况下创建 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Linear</strong> 工单的床头键盘<br>
-• 为什么 AI 可以很有趣（但人类仍然更有趣），以及哪个模型最有趣<br>
-• 仅为你自己构建 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hyper-personalized（超个性化）</strong> 软件的哲学
-</p>
-
-<h3 style="margin:24px 0 12px;">Brought to you by:</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">本节目由以下赞助商呈现：</p>
-
-<img src="https://substackcdn.com/image/fetch/$s_!oWx5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c7f5ec8-c0bd-4bea-8af5-5959f7bcc80e_1600x114.png" alt="WorkOS—Make your app enterprise-ready today" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;">
-<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">WorkOS</strong>—Make your app <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">enterprise-ready</strong> today</li>
-<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Persona</strong>—Trusted <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">identity verification</strong> for any use case</li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">WorkOS</strong>——让你的应用立即具备 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">enterprise-ready（企业级）</strong> 能力<br>
-• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Persona</strong>——适用于任何场景的可信 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">identity verification（身份验证）</strong>
-</p>
-
-<h3 style="margin:24px 0 12px;">In this episode, we cover:</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在本期节目中，我们涵盖：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;">
-<li>(00:00) Introduction to <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jason Levin</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Memelord</strong></li>
-<li>(04:28) Demo: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agentic</strong> meme creation with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenClaw</strong></li>
-<li>(06:55) “No UX is the best UX”—building for an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agent-first</strong> future</li>
-<li>(08:35) How Memelord started as a $6.90 newsletter with Google Slides</li>
-<li>(12:35) Building to $100K ARR on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Bubble</strong> with 395 workflows</li>
-<li>(15:20) Demo: Free tools section that generates hundreds of thousands of emails</li>
-<li>(17:59) Why <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cursor</strong> is perfect for non-technical founders</li>
-<li>(20:20) Let your marketers cook—or watch them leave</li>
-<li>(24:19) <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Commit graph</strong> that shows the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vibe-coding</strong> inflection point</li>
-<li>(25:25) Tools: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Linear</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PostHog</strong></li>
-<li>(28:19) Build weird stuff in the real world</li>
-<li>(33:24) Creative AI use cases</li>
-<li>(39:56) Using OpenClaw for calendar analysis</li>
-<li>(43:37) Can AI be funny? Which model is the funniest?</li>
-<li>(45:26) Memes are not <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">slop</strong></li>
-<li>(46:45) What Jason doesn’t use AI for</li>
-<li>(48:12) Final thoughts</li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• (00:00) <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jason Levin</strong> 与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Memelord</strong> 介绍<br>
-• (04:28) 演示：使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenClaw</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic（智能体的）</strong> 模因生成<br>
-• (06:55) “没有 UX 就是最好的 UX”——为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agent-first（智能体优先）</strong> 的未来而构建<br>
-• (08:35) Memelord 如何从一份 6.90 美元的 Google Slides 通讯起步<br>
-• (12:35) 在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Bubble</strong> 上通过 395 个工作流实现 10 万美元 ARR<br>
-• (15:20) 演示：生成数十万邮箱的免费工具板块<br>
-• (17:59) 为什么 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cursor</strong> 是非技术创始人的完美选择<br>
-• (20:20) 让你的营销人员尽情发挥——否则看着他们离开<br>
-• (24:19) 显示 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vibe-coding（氛围编码）</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">inflection point（拐点）</strong> 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">commit graph（提交图表）</strong><br>
-• (25:25) 工具：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Linear</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PostHog</strong><br>
-• (28:19) 在现实世界中构建古怪的东西<br>
-• (33:24) 创意 AI 用例<br>
-• (39:56) 使用 OpenClaw 进行日历分析<br>
-• (43:37) AI 能搞笑吗？哪个模型最搞笑？<br>
-• (45:26) 模因不是 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">slop（低质/垃圾内容）</strong><br>
-• (46:45) Jason 不用 AI 做什么<br>
-• (48:12) 结语
-</p>
-
-<h3 style="margin:24px 0 12px;">Tools referenced:</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">参考工具：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;">
-<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Memelord API</strong>: https://memelord.com/api</li>
-<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cursor</strong>: https://cursor.com/</li>
-<li>Bubble: https://bubble.io/</li>
-<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenClaw</strong>: https://openclaw.ai</li>
-<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude</strong>: https://claude.ai/</li>
-<li>ChatGPT: https://chat.openai.com/</li>
-<li>Gemini: https://gemini.google.com/</li>
-<li>Grok: https://grok.x.ai/</li>
-<li>Linear: https://linear.app/</li>
-<li>PostHog: https://posthog.com/</li>
-<li>Zapier: https://zapier.com/</li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Memelord API</strong>：https://memelord.com/api<br>
-• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cursor</strong>：https://cursor.com/<br>
-• Bubble：https://bubble.io/<br>
-• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OpenClaw</strong>：https://openclaw.ai<br>
-• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude</strong>：https://claude.ai/<br>
-• ChatGPT：https://chat.openai.com/<br>
-• Gemini：https://gemini.google.com/<br>
-• Grok：https://grok.x.ai/<br>
-• Linear：https://linear.app/<br>
-• PostHog：https://posthog.com/<br>
-• Zapier：https://zapier.com/
-</p>
-
-<h3 style="margin:24px 0 12px;">Other references:</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">其他参考：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;">
-<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Diego Zaks</strong>—“The best UX is no UX”: https://x.com/diegozaks/status/1966526522136649980</li>
-<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Sam Lessin</strong>: https://wlessin.com/</li>
-<li>“Stop giving me advice”: https://stopgivingmeadvice.com</li>
-<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Memelord</strong> free tools: https://memelord.com/tools</li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Diego Zaks</strong>——“最好的 UX 就是没有 UX”：https://x.com/diegozaks/status/1966526522136649980<br>
-• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Sam Lessin</strong>：https://wlessin.com/<br>
-• “Stop giving me advice”：https://stopgivingmeadvice.com<br>
-• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Memelord</strong> 免费工具：https://memelord.com/tools
-</p>
-
-<h3 style="margin:24px 0 12px;">Where to find Jason Levin:</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在哪里找到 Jason Levin：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;">
-<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Twitter</strong>: https://twitter.com/iamjasonlevin</li>
-<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Instagram</strong>: https://instagram.com/iamjasonlevin</li>
-<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LinkedIn</strong>: https://www.linkedin.com/in/iamjasonlevin/</li>
-<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Memelord</strong>: https://memelord.com</li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Twitter</strong>：https://twitter.com/iamjasonlevin<br>
-• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Instagram</strong>：https://instagram.com/iamjasonlevin<br>
-• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LinkedIn</strong>：https://www.linkedin.com/in/iamjasonlevin/<br>
-• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Memelord</strong>：https://memelord.com
-</p>
-
-<h3 style="margin:24px 0 12px;">Where to find Claire Vo:</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在哪里找到 Claire Vo：</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;">
-<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ChatPRD</strong>: https://www.chatprd.ai/</li>
-<li>Website: https://clairevo.com/</li>
-<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LinkedIn</strong>: https://www.linkedin.com/in/clairevo/</li>
-<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">X</strong>: https://x.com/clairevo</li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ChatPRD</strong>：https://www.chatprd.ai/<br>
-• 个人网站：https://clairevo.com/<br>
-• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">LinkedIn</strong>：https://www.linkedin.com/in/clairevo/<br>
-• <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">X</strong>：https://x.com/clairevo
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Production and marketing by <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">https://penname.co/</strong>. For inquiries about sponsoring the podcast, email <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">jordan@penname.co</strong>.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">节目制作和营销由 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Penname</strong>（https://penname.co/）负责。如有关于赞助播客的咨询，请发送邮件至 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">jordan@penname.co</strong>。</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://www.lennysnewsletter.com/p/from-a-690-newsletter-to-3m-api-how" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">TLDR AI</div>
-      <div class="title-row">
-        <div class="title">谷歌400亿投资Anthropic、AI经营商店与Claude智能体记忆</div>
-        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
-      </div>
-      <div class="title-en">Google Anthropic $40B deal 💰, AI run store 🏪, Claude Agent Memory 🧠</div>
-      <div class="tags"><span class="tag">AI投资</span><span class="tag">智能体</span><span class="tag">企业应用</span><span class="tag">大模型</span></div>
-      <div class="summary">谷歌计划向Anthropic投资高达400亿美元以支持其AI算力扩张，Anthropic则同步推出企业版Claude代理的跨会话记忆功能；与此同时，旧金山首家AI运营实体店的持续亏损实验，揭示了当前智能体技术在现实商业落地中的挑战。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Luna has so far struggled with employee schedules and seems to be unable to stop ordering candles.</div><div class="quote-zh">Luna至今在员工排班上焦头烂额，而且似乎根本停不下来订购蜡烛。</div></div>
-<div class="quote-block"><div class="quote-en">Power users consume more model capacity and compute, so the best customers can become the most expensive.</div><div class="quote-zh">重度用户消耗更多的模型容量和算力，因此最优质的客户反而可能成为最昂贵的客户。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">TLDR AI 2026-04-27</h3>
-
-<h3 style="margin:24px 0 12px;">Google Anthropic $40B deal 💰, AI run store 🏪, Claude Agent Memory 🧠</h3>
-
-<h4 style="margin:24px 0 12px;">2026 Threat Report: AI is Accelerating Cloud Risk (Sponsor)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Many assume that AI is creating more complex exploits - but that's not always the real story.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">许多人认为 AI 正在制造更复杂的攻击手段——但这并非总是真实情况。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Research by <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Wiz</strong> reveals that 80% of cloud breaches still start with the basics - andAI is making them faster.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Wiz 的研究显示，80% 的云安全漏洞仍然始于基础问题——而 AI 正在让这些攻击变得更快。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The2026 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cloud Threat Report</strong> leverages past investigations into events like Shai-Hulud, S1ngularity, and React2Shell to explore:
-<ul>
-<li>How systemic weaknesses can allow for dramatically outsized impact</li>
-<li>How AI is fundamentally changing the game by radically accelerating attack velocity and expanding the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">attack surface</strong></li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">《2026 云威胁报告》利用对 Shai-Hulud、S1ngularity 和 React2Shell 等事件的过往调查，探讨了：
-<ul>
-<li>系统性弱点如何可能导致影响被急剧放大</li>
-<li>AI 如何通过急剧加速攻击速度和扩大 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">attack surface（攻击面）</strong>，从根本上改变游戏规则</li>
-</ul>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The result is larger, faster incidents driven by issues that already exist across most environments.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">其结果是，由已存在于大多数环境中的问题所驱动的更大规模、更快速的安全事件。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">See how today's cloud attacks work</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">了解当今云攻击的运作方式</p>
-
-<h4 style="margin:24px 0 12px;">Google will invest as much as $40 billion in Anthropic (2 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> will invest between $10 billion and $40 billion in <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>. The amount depends on whether Anthropic can meet certain performance targets. Anthropic recently received a $5 billion investment from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Amazon</strong>, with an option for more investment based on performance. The investments value Anthropic at $350 billion. The funds will help the startup close the gap between demand and supply of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">compute（算力）</strong> for AI training and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">inference（推理）</strong>.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Google 将向 Anthropic 投资 100 亿至 400 亿美元。具体金额取决于 Anthropic 能否达成某些业绩目标。Anthropic 最近从 Amazon 获得了 50 亿美元投资，并有权根据业绩表现获得更多投资。这些投资使 Anthropic 的估值达到 3500 亿美元。这笔资金将帮助这家初创公司缩小 AI 训练与 inference（推理）所需的 compute（算力）供需缺口。</p>
-
-<h4 style="margin:24px 0 12px;">What Happens When AI Runs a Store in San Francisco? (7 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Andon Labs</strong> is running an experiment to see whether <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agents（AI 智能体）</strong> can run real-world endeavors. It opened a retail boutique on April 10 run by an agent named Luna. Luna has so far struggled with employee schedules and seems to be unable to stop ordering candles. The experiment's mission was to make a profit, but it has lost $13,000 since the shop's opening.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Andon Labs 正在进行一项实验，以验证 AI agents（AI 智能体）是否能经营现实世界的商业项目。该公司于 4 月 10 日开设了一家零售精品店，由名为 Luna 的智能体管理。到目前为止，Luna 在员工排班方面遇到了困难，而且似乎无法停止订购蜡烛。该实验的任务是盈利，但自开业以来已亏损 13,000 美元。</p>
-
-<h4 style="margin:24px 0 12px;">Anthropic launches Memory in Claude Agents for enterprise (1 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Anthropic has released a feature for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Managed Agents</strong> called <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Memory</strong>. It allows agents to remember and use information from prior sessions and accumulate knowledge over time without requiring manual prompt updates. Memory is a filesystem-based layer, so data is stored as files that can be exported, managed through <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">APIs</strong>, and scoped with permissions for various organizational needs. The feature is available now in public beta to all Managed Agents users.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Anthropic 为 Claude Managed Agents 发布了一项名为 Memory 的功能。它允许智能体记住并使用先前会话中的信息，并随时间积累知识，无需手动更新提示词。Memory 是一个基于文件系统的层，因此数据以文件形式存储，可以导出、通过 APIs 管理，并可根据各种组织需求设置权限范围。该功能目前以公开测试版形式向所有 Managed Agents 用户开放。</p>
-
-<h4 style="margin:24px 0 12px;">Google prepares credits system for Gemini (2 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> is working on a credit-based system for its <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini</strong> app where users receive a monthly allowance to spend across models and features. Users will be able to top up when they run out of credits. The change will make budgeting for heavy workloads more predictable and give Google a cleaner lever for introducing premium features without forcing users to pay for more expensive plans. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong>, Anthropic, and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Notion</strong> already use a similar consumption model.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Google 正为其 Gemini 应用开发一种基于积分的系统，用户每月获得一定配额，可在不同模型和功能之间使用。积分耗尽时，用户可以进行充值。这一变化将使高负载工作的预算更可预测，并为 Google 提供一个更清晰的杠杆来引入高级功能，而无需强迫用户购买更昂贵的套餐。OpenAI、Anthropic 和 Notion 已经采用了类似的消耗模式。</p>
-
-<h4 style="margin:24px 0 12px;">Your AI Might Be Lying to Your Boss (22 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">It's very hard to measure the contribution that AI models make to a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">codebase（代码库）</strong>. Sometimes the best use cases for AI are inquisitive prompts that don't necessarily produce any code at all. Lines of code isn't a very good measure of code quality, and it can be difficult to separate the work engineers did vs what AI has done. The bias appears to be towards reporting a higher AI percentage, which is great for AI companies, but skewed metrics can be harmful.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">衡量 AI 模型对 codebase（代码库）的贡献非常困难。有时 AI 的最佳使用场景是探索性的提示词，这些提示词未必会生成任何代码。代码行数并非衡量代码质量的很好指标，而且很难区分哪些是工程师完成的工作，哪些是 AI 完成的。目前的偏见似乎倾向于报告更高的 AI 占比，这对 AI 公司有利，但扭曲的指标可能带来危害。</p>
-
-<h4 style="margin:24px 0 12px;">Monitoring LLM behavior: Drift, retries, and refusal patterns (11 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Monitoring <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM（大语言模型）</strong> behavior necessitates adopting the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI Evaluation Stack</strong>, separating tests into deterministic assertions (syntax and routing integrity) and model-based evaluations (semantic quality). Engineers use offline pipelines for pre-deployment regression testing with human-reviewed "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Golden Datasets</strong>" while online pipelines monitor real-world performance for drift and failures. A continuous feedback loop from production telemetry ensures AI systems adapt, maintaining high performance as user behavior evolves.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">监控 LLM（大语言模型）行为需要采用 AI Evaluation Stack（AI 评估栈），将测试分为确定性断言（语法和路由完整性）和基于模型的评估（语义质量）。工程师使用离线流水线进行部署前的回归测试，配合人工审核的"Golden Datasets（黄金数据集）"；而在线流水线则监控真实世界中的性能漂移和故障。来自生产遥测数据的持续反馈回路确保 AI 系统能够自适应，在用户行为演变时保持高性能。</p>
-
-<h4 style="margin:24px 0 12px;">The World Can't Keep Up With AI Labs (9 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Coding agents（编程智能体）</strong> are the first AI product people are paying for at volume and regularly. However, compute demand has started to grow faster than anyone can build it out. The industry isn't ready for the agent boom. The most obvious move for AI labs now is to cut limits and raise prices.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Coding agents（编程智能体）是人们首次大规模且定期付费购买的 AI 产品。然而，算力需求已经开始超过任何人的建设速度。整个行业尚未为智能体热潮做好准备。AI 实验室目前最明显的举措就是削减使用限制并提高价格。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">👨‍💻</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">👨‍💻</p>
-
-<h3 style="margin:24px 0 12px;">Engineering & Research</h3>
-
-<h4 style="margin:24px 0 12px;">You don't need an all-powerful, token-hungry LLM for enterprise automation (Sponsor)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">is the AI copilot built into <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Redwood</strong>'s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">RunMyJobs</strong>. Designed for what enterprises actually care about: privacy, security, and accuracy -- specifically trained for your enterprise workflows. Troubleshoot job failures, generate scripts from prompts, and auto-document your processes without exposing sensitive data or racking up <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">token</strong> costs. Less backlog. Lower <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MTTR（平均修复时间）</strong>.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这是内置于 Redwood 旗下 RunMyJobs 的 AI 副驾驶（AI copilot）。专为企业真正关心的需求而设计：隐私、安全与准确性——并针对您的企业工作流进行了专门训练。排查作业故障、根据提示词生成脚本、自动记录流程文档，所有这些都无需暴露敏感数据或累积高昂的 token 成本。减少积压。降低 MTTR（平均修复时间）。</p>
-
-<h4 style="margin:24px 0 12px;">Vision Banana Generalist Model (39 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Instruction-tuned（指令微调）</strong> image generation models can act as generalist vision systems, achieving <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">state-of-the-art（最先进）</strong> results across tasks by reframing perception as image generation.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">经过 instruction-tuned（指令微调）的图像生成模型可以作为通用视觉系统，通过将感知重新定义为图像生成，在各项任务上达到 state-of-the-art（最先进）的成果。</p>
-
-<h4 style="margin:24px 0 12px;">Stash (GitHub Repo)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Stash</strong> is a tool that gives agents persistent memory. It enables agents to remember, recall, consolidate memories, and learn across sessions. Stash is open source, self-hosted, and works with any <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MCP（Model Context Protocol，模型上下文协议）</strong>-compatible agent.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Stash 是一款为智能体提供持久化记忆的工具。它使智能体能够记忆、回忆、整合记忆，并在多个会话之间学习。Stash 是开源的、可自托管的，并且兼容任何支持 MCP（Model Context Protocol，模型上下文协议）的智能体。</p>
-
-<h4 style="margin:24px 0 12px;">Efficient Video Intelligence in 2026 (21 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Efficient video intelligence advances include compact universal vision encoders like <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">EUPE</strong>, which distill capabilities from specialized models such as <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">DINO</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SAM</strong>. Techniques like <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LongVU</strong> use adaptive token allocation and compression for long-form video understanding while edge and on-device deployment handle real-time processing. Persistent challenges include streaming understanding, sparse-event detection, real-time sub-watt inference for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AR glasses（增强现实眼镜）</strong>, and robust multi-modal reasoning.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">高效视频智能的进展包括紧凑的通用视觉编码器，如 EUPE，它从 DINO 和 SAM 等专业模型中提炼能力。LongVU 等技术利用自适应 token 分配和压缩来实现长视频理解，而边缘和端侧部署则处理实时推理。持续存在的挑战包括流式理解、稀疏事件检测、面向 AR glasses（增强现实眼镜）的实时亚瓦特级推理，以及稳健的多模态推理。</p>
-
-<h4 style="margin:24px 0 12px;">Scaling Long-Horizon Coding Agents (28 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">A framework from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Meta</strong> for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">test-time scaling（测试时扩展）</strong> in coding agents summarized past rollouts into structured representations, enabling better selection and reuse to improve benchmark performance.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">来自 Meta 的一个框架，用于编程智能体的 test-time scaling（测试时扩展），将过去的部署总结为结构化表示，从而实现更好的选择和重用，以提升基准测试性能。</p>
-
-<h4 style="margin:24px 0 12px;">Meta's loss is Thinking Machines' gain (3 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Thinking Machines Lab</strong> has been hiring more researchers from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Meta</strong> than from any other single employer. The AI startup is expanding on multiple fronts, and it just signed a multibillion-dollar cloud deal with <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> that gives it access to <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Nvidia</strong>'s latest <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GB300</strong> chips. Meta's large pay packages are well known, but Thinking Machines' $12 billion valuation and 140-employee count mean there's still a lot of financial upside to joining the startup.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Thinking Machines Lab 从 Meta 招聘的研究人员比从任何其他单一雇主招聘的都多。这家 AI 初创公司正在多条战线上扩张，并且刚刚与 Google 签署了一项价值数十亿美元的云协议，使其能够获得 Nvidia 最新的 GB300 芯片。Meta 的高薪待遇众所周知，但 Thinking Machines 120 亿美元的估值和 140 名员工规模意味着加入这家初创公司仍有很大的财务上升空间。</p>
-
-<h4 style="margin:24px 0 12px;">OpenAI Posts Five-Principle Framework for AGI, Altman Concedes Bigger Role (2 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> has published a five-principle framework for the development of artificial general intelligence. It is the company's most prominent statement of intent since its 2018 Charter. The lab claims it will resist letting the technology consolidate power in the hands of the few. The framework arrives at a time when US and European regulators are tightening oversight of frontier AI labs.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">OpenAI 发布了一份关于通用人工智能（<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AGI（Artificial General Intelligence）</strong>）开发的五项原则框架。这是该公司自 2018 年章程以来最重大的意向声明。该实验室声称将抵制让这项技术将权力集中在少数人手中。该框架发布之际，美国和欧洲监管机构正在加强对前沿 AI 实验室的监督。</p>
-
-<h4 style="margin:24px 0 12px;">Cursor's $60 Billion Escape Hatch (5 minute read)</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">What does it mean when a company doing $2.7B in annualized revenue has gross margins of negative 23%? In <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cursor</strong>'s case, it means AI coding tools have inverted the old <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SaaS（软件即服务）</strong> playbook, where serving the next customer is supposed to be cheap. Power users consume more model capacity and compute, so the best customers can become the most expensive. That reframes the rumored <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">SpaceX</strong> deal as more than a $60B headline. Access to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Colossus</strong> would loosen Cursor's dependence on Anthropic and OpenAI fees, where that negative 23% lives.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">一家年化收入达 27 亿美元的公司，毛利率却为负 23%，这意味着什么？就 Cursor 而言，这意味着 AI 编程工具颠覆了旧的 SaaS（软件即服务）playbook——在该模式下，服务下一位客户本应很便宜。重度用户消耗更多的模型容量和算力，因此最好的客户可能成为最昂贵的客户。这使得传闻中的 SpaceX 交易不仅仅是一个 600 亿美元的新闻标题。获得 Colossus（巨像系统）的使用权将减轻 Cursor 对 Anthropic 和 OpenAI 费用的依赖，而负 23% 的毛利率正源于这些费用。</p>
-
-<h3 style="margin:24px 0 12px;">Get the most interesting AI stories and breakthroughs delivered in a free daily email.</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Join 920,000 readers for</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">加入 920,000 名读者的行列</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://tldr.tech/ai/2026-04-27" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/2026/Apr/29/llm/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-04-27
+  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-04-29
 </div>
 
 <script>
