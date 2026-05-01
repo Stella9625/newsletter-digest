@@ -7,16 +7,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 29 Apr 2026 23:44:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 23:30:04 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-04-29</title>
-      <description>&lt;p&gt;&lt;strong&gt;AI/产品/技术日报&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;LLM &amp;amp; AI 工具&lt;/h3&gt;
+      <title>📰 AI/产品/技术日报 - 2026-05-01</title>
+      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;LLM 0.32a0 发布重大向后兼容重构&lt;/strong&gt;（Simon Willison）：该 alpha 版本将模型输入统一抽象为消息序列，响应重构为由文本、工具调用、推理等多类型片段组成的流，以更好地适配现代大模型在多模态交互、复杂工具链及推理能力方面的新需求。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Codex CLI 0.128.0 adds /goal&lt;/strong&gt;（Simon Willison）：新版本引入 &lt;code&gt;/goal&lt;/code&gt; 指令，用户设定目标后代理由可自动循环执行编码任务，直至目标完成或 token 预算耗尽，核心机制为每轮对话自动注入 goals 提示词。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Our evaluation of OpenAI&amp;#x27;s GPT-5.5 cyber capabilities&lt;/strong&gt;（Simon Willison）：文章评估了 GPT-5.5 的网络安全能力，分析其在网络攻防场景下的表现及潜在风险。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;iNaturalist Sightings&lt;/strong&gt;（Simon Willison）：作者分享露营期间仅凭手机使用 Claude Code 开发的野外观察聚合工具，涵盖 Python CLI 数据抓取、Git scraping 存储及前端可视化，支持多账户记录的时空聚类与浏览。&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-04-29</guid>
-      <pubDate>Wed, 29 Apr 2026 23:44:02 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-01</guid>
+      <pubDate>Fri, 01 May 2026 23:30:04 +0000</pubDate>
     </item>
   </channel>
 </rss>
