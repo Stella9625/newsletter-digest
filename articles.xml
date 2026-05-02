@@ -7,120 +7,139 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 01 May 2026 23:29:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 23:21:19 +0000</lastBuildDate>
     <item>
-      <title>[翻译] Simon Willison: OpenAI GPT-5.5 网络能力评估</title>
-      <link>https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #网络安全 #能力评估 #大模型&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本文对OpenAI GPT-5.5的网络能力进行了评估，分析了该模型在网络安全领域的表现与潜在影响。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Our evaluation of OpenAI&amp;#x27;s GPT-5.5 cyber capabilities&lt;/p&gt;
+      <title>[翻译] Construction Physics: 5月2日阅读清单</title>
+      <link>https://www.construction-physics.com/p/reading-list-05022026</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #建筑住房 #基础设施 #工业技术 #供应链&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 这是一篇关于建筑、基础设施与工业技术的每周阅读汇总，核心内容涵盖伊朗战争引发的全球供应链冲击（如PCB和能源）、美国住房立法对“建后出租”市场的寒蝉效应，以及机器人制造规模化、数据中心扩张与国防工业等多个制造业热点议题。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Reading List 05/02/2026&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Our evaluation of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;'s &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GPT-5.5&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;cyber capabilities&lt;/strong&gt;&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我们对 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GPT-5.5&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;网络能力（cyber capabilities）&lt;/strong&gt;的评估&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Reading List 05/02/2026&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;阅读清单 2026年5月2日&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;30th April 2026 - &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Link Blog&lt;/strong&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;2026年4月30日 - &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Link Blog&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://substackcdn.com/image/fetch/$s_!m80u!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4d7f5799-28de-484b-89b8-028c26b1c697_545x410.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Welcome to the reading list, a weekly roundup of news and links related to buildings, infrastructure, and industrial technology. This week we look at chilling effects in the build-to-rent sector, how fast could robot manufacturing scale up, PJM’s new interconnection queue, the backlash against battery storage, and more. Roughly 2/3rds of the reading list is paywalled, so for full access become a paid subscriber.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;欢迎来到本期阅读清单，这是与&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;建筑、基础设施和工业技术&lt;/strong&gt;相关的每周新闻与链接汇总。本周我们将探讨&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;建房出租（build-to-rent）&lt;/strong&gt;领域的寒蝉效应、机器人制造能以多快速度扩大规模、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;PJM&lt;/strong&gt;的新&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;并网队列（interconnection queue）&lt;/strong&gt;、对&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;电池储能（battery storage）&lt;/strong&gt;的反对声浪，以及更多话题。阅读清单中约有三分之二的内容设有付费墙，如需完整访问，请成为付费订阅者。&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;War in Iran&lt;/h4&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;伊朗战争&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The latest war-related supply chain disruption? Printed circuit boards. “Iran struck Saudi Arabia’s Jubail petrochemical complex in early April, ​forcing a halt in production of high-purity polyphenylene ether (PPE) resin — a critical base material used to ⁠manufacture PCB laminates…In April alone, PCB prices surged as much as 40% from March, Goldman Sachs ​analysts said in a recent note.” [Reuters]&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;最新与战争相关的供应链中断是什么？&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;印刷电路板（Printed Circuit Boards, PCB）&lt;/strong&gt;。“伊朗于四月初袭击了沙特阿拉伯的朱拜勒石化综合体，迫使高纯度&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;聚苯醚（Polyphenylene Ether, PPE）&lt;/strong&gt;树脂停产——这是用于制造&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PCB层压板（PCB laminates）&lt;/strong&gt;的关键基础材料……仅在四月，PCB价格较三月飙升多达40%，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;高盛（Goldman Sachs）&lt;/strong&gt;分析师在最近一份报告中表示。”[路透社]&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Thanks to high jet fuel prices, India’s airlines are apparently “on the verge of closing down.” [SCMP] And the biggest US airlines collectively spent $1.2 billion more on jet fuel in the first quarter of 2026 compared to 2025. [Sherwood]&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;由于&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;航空燃油（jet fuel）&lt;/strong&gt;价格高企，印度航空公司据称“正处于倒闭边缘”。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;SCMP&lt;/strong&gt;] 而美国最大的几家航空公司在2026年第一季度的航空燃油支出合计比2025年同期多出12亿美元。[Sherwood]&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Shipping isn’t the only sort of Strait of Hormuz traffic that the war has the potential to disrupt. The strait also carries a large number of undersea cables that could possibly be damaged if damaged ships drag their anchors across them. ““In a situation of active military operations, the risk of unintentional damage increases, and the longer this conflict lasts, the higher the likelihood of unintentional damage,” Kotkin said. A similar incident occurred in 2024, when a commercial vessel attacked by Iran-aligned Houthis drifted in the Red Sea and severed cables with its anchor.” [Reuters]&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;航运并非这场战争可能干扰的唯一&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;霍尔木兹海峡（Strait of Hormuz）&lt;/strong&gt;交通类型。该海峡还承载大量&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;海底电缆（undersea cables）&lt;/strong&gt;，如果受损船只拖曳锚链从其上方经过，这些电缆可能会遭到破坏。““在积极军事行动的情况下，意外损坏的风险会增加，而且冲突持续的时间越长，意外损坏的可能性就越高，”&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Kotkin&lt;/strong&gt;表示。2024年曾发生过类似事件，当时一艘遭到伊朗支持的胡塞武装袭击的商船在红海漂流，并用其锚链切断了电缆。”[路透社]&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Housing&lt;/h4&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;住房&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;One problem with ill-considered legislation is that negative consequences can sometimes be caused by the mere possibility that it passes. So if you have a housing bill with a provision that wouldmake it much more difficult to build homes for rent(by requiring institutional owners to divest those homes after seven years), even the mere threat of it passing is enough to slow down rental housing construction. “Developer TerraLane Communities was about to start construction on two new housing communities in Arizona and Texas, projects that would create around 300 new single-family homes to rent out. But before any shovels got in the ground, the Senate passed a bill that severely restricts the build-to-rent business. Uncertain about the industry’s legislative future, investors demanded that TerraLane pause the project. The firm had five other potential build-to-rent deals that it is no longer pursuing.” [WSJ]&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;考虑不周的立法所带来的一个问题是，负面后果有时仅仅源于其可能通过的不确定性。因此，如果一项住房法案包含一项条款，将使建造出租房屋变得困难得多（要求机构所有者在七年后剥离这些房屋），那么即使只是该法案可能通过的威胁，也足以减缓租赁住房的建设。“开发商&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;TerraLane Communities&lt;/strong&gt;即将在亚利桑那州和德克萨斯州开始建设两个新住宅社区，这些项目将建造约300套新的独户住宅用于出租。但在破土动工之前，参议院通过了一项严重限制&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;建房出租（build-to-rent）&lt;/strong&gt;业务的法案。由于对该行业的立法前景感到不确定，投资者要求TerraLane暂停项目。该公司另有五项潜在的建房出租交易，也不再继续推进。”[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;WSJ&lt;/strong&gt;]&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;When is the best time to buy and sell a home? The graphic below tracks the conventional wisdom – better to buy in the summer when there’s more listings, and sell in the winter when there’s fewer — but it’s interesting to see the data. [Substack]&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;什么时候是买卖房屋的最佳时机？下图追踪了传统观点——最好在夏季购买，因为房源更多；在冬季出售，因为房源更少——但看看数据会很有趣。[Substack]&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!Cz4j!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0dd28f0-17c4-4eda-8b01-58f36b8a2c8a_1992x2048.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;We previously looked at UK building standards which, if complied with, effectively require houses to have extremely small windows so they can be cleaned by an elderly woman without stretching. The Wall Street Journal takes a closer look at this requirement. [WSJ]&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我们此前曾关注过&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;英国建筑标准（UK building standards）&lt;/strong&gt;，如果严格执行，这些标准实际上要求房屋安装极小的窗户，以便老年女性无需伸展身体就能清洁窗户。《&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;华尔街日报（The Wall Street Journal）&lt;/strong&gt;》对这一要求进行了更深入的探讨。[WSJ]&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Americans who are importing their homebuilding materials from China. [CNN]&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;从中国进口&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;住宅建筑材料（homebuilding materials）&lt;/strong&gt;的美国人。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;CNN&lt;/strong&gt;]&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;So far this year Idaho has passed six bills to make it easier to build housing. [Sightline]&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;今年到目前为止，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;爱达荷州（Idaho）&lt;/strong&gt;已通过了六项法案，以简化住房建设流程。[Sightline]&lt;/p&gt;
+
+&lt;h4 style="margin:24px 0 12px;"&gt;Manufacturing&lt;/h4&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;制造业&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The data center buildout continues to put pressure on every related area of the supply chain for them. To meet the rising demand for AI chips, ASML is ramping up production of EUV machines. [WSJ]&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;数据中心（Data center）&lt;/strong&gt;建设持续对其供应链的每一个相关环节施加压力。为满足对&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI芯片&lt;/strong&gt;不断增长的需求，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;ASML&lt;/strong&gt;正在加大&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;EUV光刻机（EUV machines）&lt;/strong&gt;的生产。[WSJ]&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!KJoe!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd458813a-137c-4164-ac0d-e1bb714d8a65_639x507.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;China is no longer the sole producer of a critical mineral, samarium, used to make military-grade magnets. [WSJ]&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;中国不再是用于制造军用级磁体的关键矿物&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;钐（samarium）&lt;/strong&gt;的唯一生产国。[WSJ]&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;AI-analysis nonprofit Epoch AI asks how quickly robot manufacturing could scale up. “Historical demand shocks such as WWII mobilization, or the production of drones following the war in Ukraine have accelerated production growth rates by 1.4–2.2x in the most comparable cases. This would imply doubling times of roughly 5–8 months for quadrupeds and 10–16 months for mature form factors. It’s unclear whether these cases are optimistic or pessimistic for robotics.” [Epoch]&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;人工智能分析非营利组织&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Epoch AI&lt;/strong&gt;探讨了机器人制造能以多快速度扩大规模。“在最可比的情况下，历史性的需求冲击——如二战动员，或乌克兰战争后的无人机生产——已将生产增长率加快了1.4至2.2倍。这意味着&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;四足机器人（quadrupeds）&lt;/strong&gt;的产量翻倍时间约为5至8个月，而&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;成熟形态机器人（mature form factors）&lt;/strong&gt;则为10至16个月。目前尚不清楚这些案例对机器人行业而言是乐观还是悲观的。”[Epoch]&lt;/p&gt;
+
+&lt;img src="https://substackcdn.com/image/fetch/$s_!3JxT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84db690c-aa04-4a88-a41f-f8c8f51508c4_2048x1632.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The US’s recent…unreliability with regards to its foreign allies has apparently inspired European countries to take defense production more seriously. Germany has ramped up ammunition manufacturing, and is now producing more ammunition than the US. [Newsweek]&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;美国近期在对待外国盟友方面的……不可靠性显然激励了欧洲国家更认真地对待国防生产。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;德国（Germany）&lt;/strong&gt;已加快弹药制造步伐，目前的弹药产量甚至超过了美国。[Newsweek]&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;On the other hand, the US is apparently seriously considering using foreign shipyards for naval ship design and component manufacturing. [USNI News]&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;另一方面，美国据称正认真考虑利用外国造船厂进行海军舰艇设计和&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;零部件制造（component manufacturing）&lt;/strong&gt;。[&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;USNI News&lt;/strong&gt;]&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Read more&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;阅读更多&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything</guid>
-      <pubDate>Thu, 30 Apr 2026 23:03:24 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://www.construction-physics.com/p/reading-list-05022026"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.construction-physics.com/p/reading-list-05022026</guid>
+      <pubDate>Sat, 02 May 2026 12:01:30 +0000</pubDate>
     </item>
     <item>
-      <title>[翻译] Simon Willison: Codex CLI 0.128.0 新增 /goal 指令</title>
-      <link>https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Codex #AI编程 #目标循环 #CLI&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Codex CLI 0.128.0版本新增/goal指令，支持用户设定目标后让编码代理自动循环执行任务，直至目标达成或配置的token预算耗尽。该功能主要通过在每轮对话结束时自动注入特定的goals提示词文件来实现。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Codex CLI 0.128.0 adds /goal&lt;/p&gt;
+      <title>[翻译] Lenny's Newsletter: 社区智慧：Claude Code技巧、向上管理与职场转型经验</title>
+      <link>https://www.lennysnewsletter.com/p/community-wisdom-claude-code-tips</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #职场经验 #社群智慧 #AI工具&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本周社区精选汇集了会员 Slack 中的热门讨论，涵盖 ADHD 用户使用 Claude Code 的实用技巧、向上管理资源及大厂转创业公司的经验，并关注了企业员工对长期充当“AI 布道者”的倦怠反思。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: 🧠 Community Wisdom: Claude Code tips for ADHD users, resources for managing up, going from corporate to startup, tiring of being your company’s AI evangelist, and more&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Codex CLI 0.128.0 adds /goal&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;30th April 2026 - Link Blog&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;2026年4月30日 - 链接博客&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex CLI&lt;/strong&gt; 0.128.0 adds &lt;code&gt;/goal&lt;/code&gt; (via) The latest version of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt;'s Codex CLI coding agent adds their own version of the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Ralph loop&lt;/strong&gt;: you can now set a &lt;code&gt;/goal&lt;/code&gt; and Codex will keep on looping until it evaluates that the goal has been completed... or the configured &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;token budget&lt;/strong&gt; has been exhausted.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex CLI&lt;/strong&gt; 0.128.0 新增了 &lt;code&gt;/goal&lt;/code&gt; 命令（来源）。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;OpenAI&lt;/strong&gt; 最新版本的 Codex CLI coding agent（编码智能体）加入了其自有的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Ralph loop（拉尔夫循环）&lt;/strong&gt; 实现：你现在可以设置一个 &lt;code&gt;/goal&lt;/code&gt;，Codex 将持续循环执行，直到它评估认为目标已完成……或者配置的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;token budget（令牌预算）&lt;/strong&gt; 耗尽为止。&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;It looks like the feature is mainly implemented through the &lt;code&gt;goals/continuation.md&lt;/code&gt; and &lt;code&gt;goals/budget_limit.md&lt;/code&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompts&lt;/strong&gt;, which are automatically injected at the end of a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;turn&lt;/strong&gt;.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;该功能似乎主要通过 &lt;code&gt;goals/continuation.md&lt;/code&gt; 和 &lt;code&gt;goals/budget_limit.md&lt;/code&gt; 这两个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt（提示词）&lt;/strong&gt; 来实现，它们会在每一轮 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;turn（对话轮次）&lt;/strong&gt; 结束时自动注入。&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+👋 Hello and welcome to this week’s edition of ✨&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Community Wisdom&lt;/strong&gt;✨ a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;subscriber-only&lt;/strong&gt; email, delivered every Saturday, highlighting the most helpful conversations inour members-only &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt; community.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+👋 大家好，欢迎阅读本周的 ✨&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Community Wisdom&lt;/strong&gt;✨ 专刊——这是一封仅向&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;订阅者&lt;/strong&gt;发送的电子邮件，每周六送达，精选我们仅限会员的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt; 社区中最有帮助的讨论。
+&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything</guid>
-      <pubDate>Thu, 30 Apr 2026 23:23:17 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/community-wisdom-claude-code-tips"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/community-wisdom-claude-code-tips</guid>
+      <pubDate>Sat, 02 May 2026 18:02:57 +0000</pubDate>
     </item>
     <item>
-      <title>[翻译] Simon Willison: iNaturalist 观察记录</title>
-      <link>https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #自然观察 #AI编程 #工具开发&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 作者分享了在露营期间如何完全通过手机使用 Claude Code，快速构建了一套聚合 iNaturalist 观察记录的工具。该工具链涵盖 Python CLI 数据抓取、Git scraping 存储及前端网页展示，支持将两个账户的野外观察记录按时空聚合并可视化浏览。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: iNaturalist Sightings&lt;/p&gt;
+      <title>[翻译] Simon Willison: 观察记录</title>
+      <link>https://simonwillison.net/2026/May/2/sightings/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI编程 #野生动物 #博客&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 作者通过手机上的 Claude Code 为 mybeats 系统开发了&amp;quot;Sightings&amp;quot;功能，将十余年 iNaturalist 野生动物观测记录回溯导入个人网站，并与其他聚合内容一同展示在主页、归档页及搜索结果中。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Sightings&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;iNaturalist&lt;/strong&gt; Sightings&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;iNaturalist&lt;/strong&gt; 观察记录&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Sightings&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;观察记录&lt;/p&gt;
 
-&lt;h4 style="margin:24px 0 12px;"&gt;Tool: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;iNaturalist&lt;/strong&gt; Sightings&lt;/h4&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;工具：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;iNaturalist&lt;/strong&gt; 观察记录&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-I wanted to see my &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;iNaturalist&lt;/strong&gt; observations - across two separate accounts - grouped by when they occurred. I'm camping this weekend so I built this entirely on my phone using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; for web.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我想查看自己在两个不同账号上的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;iNaturalist&lt;/strong&gt; 观察记录，并按发生时间进行分组。这个周末我在露营，因此完全通过手机，使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; for web 构建了这个工具。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;/elsewhere/sightings/&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;/elsewhere/sightings/&lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-I started by building an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;inaturalist-clumper&lt;/strong&gt; Python &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CLI&lt;/strong&gt; for fetching and "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;clumping&lt;/strong&gt;" observations - by default clumps use observations within 2 hours and 5km of each other.
+&lt;img src="https://static.simonwillison.net/static/2026/beats-sightings.jpeg" alt="Screenshot of a &amp;quot;Sightings&amp;quot; webpage with a search bar and RSS icon, showing &amp;quot;Filters: Sorted by date&amp;quot; and &amp;quot;208 results page 1 / 7 next » last »»&amp;quot;. First entry: SIGHTING 7:51 PM — Acorn Woodpecker, with two photos labeled &amp;quot;Acorn Woodpecker&amp;quot; of black and white woodpeckers with red caps on tree branches, dated 2nd May 2026. Second entry: SIGHTING 10:08 AM – 11:17 AM — Acorn Woodpecker, Western Fence Lizard, Osprey, with three photos labeled &amp;quot;Acorn Woodpecker&amp;quot; (bird on bare branches against blue sky), &amp;quot;Wester...&amp;quot; (lizard on tree bark), and &amp;quot;Osprey&amp;quot; (nest on a utility pole), dated 1st May 2026. Third entry: SIGHTING 11:11 AM — White-crowned Sparrow, with a photo labeled &amp;quot;White-crowned Sparrow&amp;quot; of a sparrow with black and white striped head singing with open beak, dated 30th Apr 2026." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
 &lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我首先构建了一个名为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;inaturalist-clumper&lt;/strong&gt; 的 Python &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CLI（命令行界面）&lt;/strong&gt;工具，用于获取并将观察记录进行“&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;clumping（聚类）&lt;/strong&gt;”——默认情况下，聚类会将彼此在 2 小时和 5 公里范围内的观察归为一组。
-&lt;/p&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;“观察记录”网页截图：页面顶部有搜索栏和 RSS 图标，显示“Filters: Sorted by date”（筛选：按日期排序）及“208 results page 1 / 7 next » last »»”（208 条结果 第 1 / 7 页 下一页 » 末页 »»）。第一条记录：晚上 7:51 的观察记录——橡树啄木鸟（Acorn Woodpecker），配有两张标注为“Acorn Woodpecker”的照片，照片中黑白相间、头顶红冠的啄木鸟栖息在树枝上，日期为 2026 年 5 月 2 日。第二条记录：上午 10:08 至 11:17 的观察记录——橡树啄木鸟、西部栅栏蜥蜴（Western Fence Lizard）、鹗（Osprey），配有三张分别标注为“Acorn Woodpecker”（一只鸟站在光秃树枝上，背景是蓝天）、“Wester...”（树皮上的蜥蜴）和“Osprey”（电线杆上的鸟巢）的照片，日期为 2026 年 5 月 1 日。第三条记录：上午 11:11 的观察记录——白冠带鹀（White-crowned Sparrow），配有一张标注为“White-crowned Sparrow”的照片，画面中一只头部有黑白条纹的麻雀正张嘴鸣唱，日期为 2026 年 4 月 30 日。&lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Then I setup &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;simonw&lt;/strong&gt;/inaturalist-clumps as a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Git scraping&lt;/strong&gt; repository to run that tool and record the result to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;clumps.json&lt;/strong&gt;.
+&lt;img src="https://static.simonwillison.net/static/2026/beats-sightings.jpeg" alt="Screenshot of a &amp;quot;Sightings&amp;quot; webpage with a search bar and RSS icon, showing &amp;quot;Filters: Sorted by date&amp;quot; and &amp;quot;208 results page 1 / 7 next » last »»&amp;quot;. First entry: SIGHTING 7:51 PM — Acorn Woodpecker, with two photos labeled &amp;quot;Acorn Woodpecker&amp;quot; of black and white woodpeckers with red caps on tree branches, dated 2nd May 2026. Second entry: SIGHTING 10:08 AM – 11:17 AM — Acorn Woodpecker, Western Fence Lizard, Osprey, with three photos labeled &amp;quot;Acorn Woodpecker&amp;quot; (bird on bare branches against blue sky), &amp;quot;Wester...&amp;quot; (lizard on tree bark), and &amp;quot;Osprey&amp;quot; (nest on a utility pole), dated 1st May 2026. Third entry: SIGHTING 11:11 AM — White-crowned Sparrow, with a photo labeled &amp;quot;White-crowned Sparrow&amp;quot; of a sparrow with black and white striped head singing with open beak, dated 30th Apr 2026." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
 &lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-接着，我将 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;simonw&lt;/strong&gt;/inaturalist-clumps 配置为一个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Git scraping（Git 抓取）&lt;/strong&gt;仓库，用于运行该工具并将结果记录到 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;clumps.json&lt;/strong&gt; 中。
-&lt;/p&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;“观察记录”网页截图：页面顶部有搜索栏和 RSS 图标，显示“Filters: Sorted by date”（筛选：按日期排序）及“208 results page 1 / 7 next » last »»”（208 条结果 第 1 / 7 页 下一页 » 末页 »»）。第一条记录：晚上 7:51 的观察记录——橡树啄木鸟（Acorn Woodpecker），配有两张标注为“Acorn Woodpecker”的照片，照片中黑白相间、头顶红冠的啄木鸟栖息在树枝上，日期为 2026 年 5 月 2 日。第二条记录：上午 10:08 至 11:17 的观察记录——橡树啄木鸟、西部栅栏蜥蜴（Western Fence Lizard）、鹗（Osprey），配有三张分别标注为“Acorn Woodpecker”（一只鸟站在光秃树枝上，背景是蓝天）、“Wester...”（树皮上的蜥蜴）和“Osprey”（电线杆上的鸟巢）的照片，日期为 2026 年 5 月 1 日。第三条记录：上午 11:11 的观察记录——白冠带鹀（White-crowned Sparrow），配有一张标注为“White-crowned Sparrow”的照片，画面中一只头部有黑白条纹的麻雀正张嘴鸣唱，日期为 2026 年 4 月 30 日。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-That &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;JSON&lt;/strong&gt; file is hosted on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GitHub&lt;/strong&gt;, which means it can be fetched by JavaScript using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CORS&lt;/strong&gt;.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-该 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;JSON（JavaScript 对象表示法）&lt;/strong&gt;文件托管在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;GitHub&lt;/strong&gt; 上，这意味着可以通过 JavaScript 使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;CORS（跨域资源共享）&lt;/strong&gt;获取。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I built this feature on my phone using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt; for web, as an extension of my &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;beats&lt;/strong&gt; systemfor &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;syndicating&lt;/strong&gt; external content. Here'sthe &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PR&lt;/strong&gt;and prompt.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我在手机上使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude Code&lt;/strong&gt;（Claude 代码助手）网页版构建了这一功能，作为我的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;beats&lt;/strong&gt;（Beats）系统——用于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;syndicating&lt;/strong&gt;（内容聚合/联合供稿）外部内容——的扩展。这是相关的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;PR&lt;/strong&gt;（Pull Request，拉取请求）和提示词。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Finally I ran this prompt against my &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;simonw&lt;/strong&gt;/tools repo:
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-最后，我在我的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;simonw&lt;/strong&gt;/tools 仓库中运行了如下提示词：
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;As with my other forms of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;incoming syndicated content&lt;/strong&gt; sightings show up on the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;homepage&lt;/strong&gt;, the date archive pages, and in &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;site search&lt;/strong&gt; results.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;与我的其他 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;incoming syndicated content&lt;/strong&gt;（入站聚合内容）一样，观察记录也会出现在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;homepage&lt;/strong&gt;（主页）、日期归档页面以及 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;site search&lt;/strong&gt;（站内搜索）结果中。&lt;/p&gt;
 
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Build &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;inat-sightings.html&lt;/strong&gt; - an app that does a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;fetch()&lt;/strong&gt; against https://raw.githubusercontent.com/simonw/inaturalist-clumps/refs/heads/main/clumps.json and then displays all of the observations on one page using the https://static.inaturalist.org/photos/538073008/small.jpg &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;small.jpg&lt;/strong&gt; URLs for the thumbnails - with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;loading=lazy&lt;/strong&gt; - but when a thumbnail is clicked showing the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;large.jpg&lt;/strong&gt; in an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;HTML modal&lt;/strong&gt;. Both small and large should include the common species names if available
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-构建一个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;inat-sightings.html&lt;/strong&gt; 文件——一个应用，通过 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;fetch()&lt;/strong&gt; 请求 https://raw.githubusercontent.com/simonw/inaturalist-clumps/refs/heads/main/clumps.json，然后在一页中展示所有观察记录，使用 https://static.inaturalist.org/photos/538073008/small.jpg 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;small.jpg&lt;/strong&gt; URL 作为缩略图，并添加 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;loading=lazy&lt;/strong&gt;（懒加载）属性；但当点击缩略图时，在一个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;HTML modal（弹窗）&lt;/strong&gt;中显示 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;large.jpg&lt;/strong&gt; 大图。small 和 large 两种尺寸在可能的情况下都应包含物种常见名称。
-&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;back-populated&lt;/strong&gt; over a decade of &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;iNaturalist&lt;/strong&gt; sightings, which means you that if you search for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;lemur&lt;/strong&gt; you'll see my lemur photos from Madagascar in 2019!&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我为 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;iNaturalist&lt;/strong&gt;（iNaturalist 自然观察平台）上的观察记录进行了 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;back-populated&lt;/strong&gt;（回填），补录了超过十年的数据，这意味着如果你搜索 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;lemur&lt;/strong&gt;（狐猴），就能看到我在2019年于马达加斯加拍摄的狐猴照片！&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Build &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;inat-sightings.html&lt;/strong&gt; - an app that does a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;fetch()&lt;/strong&gt; against https://raw.githubusercontent.com/simonw/inaturalist-clumps/refs/heads/main/clumps.json and then displays all of the observations on one page using the https://static.inaturalist.org/photos/538073008/small.jpg &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;small.jpg&lt;/strong&gt; URLs for the thumbnails - with &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;loading=lazy&lt;/strong&gt; - but when a thumbnail is clicked showing the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;large.jpg&lt;/strong&gt; in an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;HTML modal&lt;/strong&gt;. Both small and large should include the common species names if available
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-构建一个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;inat-sightings.html&lt;/strong&gt; 文件——一个应用，通过 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;fetch()&lt;/strong&gt; 请求 https://raw.githubusercontent.com/simonw/inaturalist-clumps/refs/heads/main/clumps.json，然后在一页中展示所有观察记录，使用 https://static.inaturalist.org/photos/538073008/small.jpg 的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;small.jpg&lt;/strong&gt; URL 作为缩略图，并添加 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;loading=lazy&lt;/strong&gt;（懒加载）属性；但当点击缩略图时，在一个 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;HTML modal（弹窗）&lt;/strong&gt;中显示 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;large.jpg&lt;/strong&gt; 大图。small 和 large 两种尺寸在可能的情况下都应包含物种常见名称。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Tags: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;tools&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;claude-code&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;inaturalist&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;, ai, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;tools&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;claude-code&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;inaturalist&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;、ai、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms（大语言模型）&lt;/strong&gt;
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags:blogging,photography,wildlife,ai,inaturalist,generative-ai,llms,ai-assisted-programming,claude-code&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：blogging（博客）、photography（摄影）、wildlife（野生动物）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;（人工智能）、inaturalist、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;（生成式人工智能）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;（大语言模型）、ai-assisted programming（AI辅助编程）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;claude-code&lt;/strong&gt;（Claude Code）。&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything</guid>
-      <pubDate>Fri, 01 May 2026 19:35:41 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/May/2/sightings/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/2/sightings/#atom-everything</guid>
+      <pubDate>Sat, 02 May 2026 17:26:40 +0000</pubDate>
     </item>
   </channel>
 </rss>
