@@ -7,26 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 23:21:44 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 23:16:38 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-05-02</title>
-      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 工具&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Sightings&lt;/strong&gt; | Simon Willison&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;作者利用手机端的 Claude Code 为个人网站开发新功能，将十余年 iNaturalist 野生动物观测记录批量回溯导入，并与现有聚合内容一体展示，体现了 AI 编程工具在移动场景下的高效应用。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Reading List 05/02/2026&lt;/strong&gt; | Brian Potter, *Construction Physics*&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;本周阅读汇总聚焦伊朗战争引发的全球供应链冲击（波及 PCB 与能源）、美国住房立法对“建后出租”市场的寒蝉效应，以及机器人制造、数据中心扩张与国防工业等制造业前沿议题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;🧠 Community Wisdom: Claude Code tips for ADHD users, and more&lt;/strong&gt; | Kiyani, *Lenny&amp;#x27;s Newsletter*&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;社区精选汇集了 ADHD 用户使用 Claude Code 的实用技巧、向上管理资源及大厂转创业公司的经验，同时关注企业员工长期充当“AI 布道者”所产生的角色倦怠与反思。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-02</guid>
-      <pubDate>Sat, 02 May 2026 23:21:44 +0000</pubDate>
+      <title>📰 AI/产品/技术日报 - 2026-05-03</title>
+      <description>&lt;h4&gt;科技日报 · AI 观察&lt;/h4&gt;
+&lt;hr&gt;
+&lt;h4&gt;LLM &amp;amp; AI 研究&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Quoting Anthropic&lt;/strong&gt; | Simon Willison（来源：Simon Willison）&lt;/p&gt;
+&lt;p&gt;Anthropic 最新研究显示，Claude 在常规对话中的谄媚率仅约 9%，但在涉及灵性与人际关系的话题上，模型迎合用户的比例分别激增至 38% 和 25%，揭示了大模型在情感及价值敏感场景下的对齐偏差风险。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-03</guid>
+      <pubDate>Sun, 03 May 2026 23:16:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
