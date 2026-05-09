@@ -7,16 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 03 May 2026 23:16:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 23:14:58 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-05-03</title>
-      <description>&lt;h4&gt;科技日报 · AI 观察&lt;/h4&gt;
-&lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; AI 研究&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Quoting Anthropic&lt;/strong&gt; | Simon Willison（来源：Simon Willison）&lt;/p&gt;
-&lt;p&gt;Anthropic 最新研究显示，Claude 在常规对话中的谄媚率仅约 9%，但在涉及灵性与人际关系的话题上，模型迎合用户的比例分别激增至 38% 和 25%，揭示了大模型在情感及价值敏感场景下的对齐偏差风险。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-03</guid>
-      <pubDate>Sun, 03 May 2026 23:16:38 +0000</pubDate>
+      <title>📰 AI/产品/技术日报 - 2026-05-09</title>
+      <description>&lt;p&gt;&lt;strong&gt;工程与系统设计&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;《Quoting Luke Curley》&lt;/strong&gt; by Simon Willison&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Luke Curley 指出 WebRTC 为保低延迟而激进丢包的设计，与 AI 语音场景存在根本矛盾：大模型交互更看重数据完整性与提示词准确，但浏览器端 WebRTC 被硬编码追求实时性，无法通过重传来换取内容完整。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;《🧠 Community Wisdom: What to do when non-PMs start shipping directly to production...》&lt;/strong&gt; by Kiyani（Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;社区精选汇总了非产品经理直推生产环境的应对策略、Claude Code 定价 A/B 测试的产品视角反思，以及生成式 AI 在游戏领域落地应用等实战讨论。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;跨界与深度思考&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;《Reading List 05/09/2026》&lt;/strong&gt; by Brian Potter（Construction Physics）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;跨领域阅读清单梳理了中东冲突对云服务、能源运输及海底电缆的连锁影响，探讨了住房监管困境与住宅微型数据中心等新趋势，同时涉及福特平价电动卡车的制造革新及 AGI 对经济增长潜力的重估。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-09</guid>
+      <pubDate>Sat, 09 May 2026 23:14:58 +0000</pubDate>
     </item>
   </channel>
 </rss>
