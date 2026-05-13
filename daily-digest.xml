@@ -7,23 +7,27 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 10 May 2026 23:15:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 23:51:50 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-05-10</title>
-      <description>&lt;p&gt;&lt;strong&gt;每日科技日报&lt;/strong&gt;&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-05-13</title>
+      <description>&lt;p&gt;以下是今日科技日报：&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3&gt;工程与系统设计&lt;/h3&gt;
+&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Quoting Andrew Quinn&lt;/strong&gt; | Simon Willison（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SANS 推出 AI 安全成熟度模型&lt;/strong&gt;：该框架提供五阶段系统化评估与基于证据的评分机制，对齐 NIST、EU AI Act 等主流标准，帮助企业精准评估现状并稳步提升 AI 安全防护能力。（来源：TLDR AI）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Andrew Quinn 指出，因担心已有更优方案而畏惧“造轮子”是一种认知陷阱。带着问题重新实现少量关键轮子，这种实践驱动的方式远比被动学习更能快速将开发者推向真正的技术前沿。&lt;/p&gt;
-&lt;h3&gt;产品与增长&lt;/h3&gt;
+&lt;h4&gt;工程与系统设计&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;How to build a company that withstands any era&lt;/strong&gt; | Lenny Rachitsky（Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CSP 沙盒动态白名单实验&lt;/strong&gt;：Simon Willison 展示了一种在 CSP 保护的沙盒 iframe 中管理外部请求的方案，通过自定义 &lt;code&gt;fetch()&lt;/code&gt; 拦截连接错误并上报父窗口，引导用户将受阻域名添加至允许列表后刷新页面；该实验工具由 GPT-5.5 xhigh 在 Codex 桌面应用中辅助开发。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Datasette 1.0a29 发布&lt;/strong&gt;：新增用于创建 &lt;code&gt;_r&lt;/code&gt; 字典的实用工具方法，优化空表展示，并修复了 Mobile Safari 显示异常及测试阶段因连接关闭竞态条件导致的段错误崩溃。（Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;《精益创业》作者 Eric Ries 在新书《Incorruptible》中揭示，成功企业易受“财务引力”牵引而走向平庸腐败。唯有建立保护核心使命的治理结构，才能避免创始人出局与价值侵蚀，打造真正跨越时代的公司。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-10</guid>
-      <pubDate>Sun, 10 May 2026 23:15:56 +0000</pubDate>
+&lt;h4&gt;跨界与深度思考&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;批判&amp;quot;AI 智能体数量&amp;quot;叙事&lt;/strong&gt;：Boris Mann 指出，强调&amp;quot;11 个 AI 智能体&amp;quot;毫无意义——正如不会用&amp;quot;11 个电子表格&amp;quot;或浏览器标签页来证明工作价值，AI 智能体的关键在于实际工作本质与产出，而非堆砌数量。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 23:51:50 +0000</pubDate>
     </item>
   </channel>
 </rss>
