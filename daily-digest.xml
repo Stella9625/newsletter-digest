@@ -7,27 +7,17 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 13 May 2026 23:51:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 23:43:07 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-05-13</title>
-      <description>&lt;p&gt;以下是今日科技日报：&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
+      <title>📰 AI/产品/技术日报 - 2026-05-15</title>
+      <description>&lt;h2&gt;科技日报 · 今日精选&lt;/h2&gt;
+&lt;h3&gt;LLM &amp;amp; AI 工具&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SANS 推出 AI 安全成熟度模型&lt;/strong&gt;：该框架提供五阶段系统化评估与基于证据的评分机制，对齐 NIST、EU AI Act 等主流标准，帮助企业精准评估现状并稳步提升 AI 安全防护能力。（来源：TLDR AI）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;QR code generator&lt;/strong&gt;｜Simon Willison（Simon Willison&amp;#x27;s Blog）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;工程与系统设计&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;CSP 沙盒动态白名单实验&lt;/strong&gt;：Simon Willison 展示了一种在 CSP 保护的沙盒 iframe 中管理外部请求的方案，通过自定义 &lt;code&gt;fetch()&lt;/code&gt; 拦截连接错误并上报父窗口，引导用户将受阻域名添加至允许列表后刷新页面；该实验工具由 GPT-5.5 xhigh 在 Codex 桌面应用中辅助开发。（Simon Willison）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Datasette 1.0a29 发布&lt;/strong&gt;：新增用于创建 &lt;code&gt;_r&lt;/code&gt; 字典的实用工具方法，优化空表展示，并修复了 Mobile Safari 显示异常及测试阶段因连接关闭竞态条件导致的段错误崩溃。（Simon Willison）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;跨界与深度思考&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;批判&amp;quot;AI 智能体数量&amp;quot;叙事&lt;/strong&gt;：Boris Mann 指出，强调&amp;quot;11 个 AI 智能体&amp;quot;毫无意义——正如不会用&amp;quot;11 个电子表格&amp;quot;或浏览器标签页来证明工作价值，AI 智能体的关键在于实际工作本质与产出，而非堆砌数量。（Simon Willison）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-13</guid>
-      <pubDate>Wed, 13 May 2026 23:51:50 +0000</pubDate>
+&lt;p&gt;作者借助 Claude 快速开发了一款二维码生成器，支持为文本、URL 及 WiFi 网络生成可扫描的二维码，展现了 AI 辅助编程在实用工具开发中的高效落地。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-15</guid>
+      <pubDate>Fri, 15 May 2026 23:43:07 +0000</pubDate>
     </item>
   </channel>
 </rss>

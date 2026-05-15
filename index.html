@@ -292,37 +292,22 @@
 <div class="container">
   <div class="tabs">
     <button class="tab active" onclick="switchTab('digest')">每日日报</button>
-    <button class="tab" onclick="switchTab('articles')">全部文章 (4)</button>
+    <button class="tab" onclick="switchTab('articles')">全部文章 (1)</button>
   </div>
 
   <!-- 日报 Tab -->
   <div id="tab-digest" class="tab-content active">
-    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">AI智能体</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">概念批判</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">工具视角</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">CSP</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">沙箱</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">白名单</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">AI安全</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">安全框架</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
+    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">二维码</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">工具</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">AI</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
-      <h2>2026-05-13 日报</h2>
-      <p>以下是今日科技日报：</p>
-<hr>
-<h4>LLM &amp; AI 工具</h4>
+      <h2>2026-05-15 日报</h2>
+      <h2>科技日报 · 今日精选</h2>
+<h3>LLM &amp; AI 工具</h3>
 <ul>
-<li><strong>SANS 推出 AI 安全成熟度模型</strong>：该框架提供五阶段系统化评估与基于证据的评分机制，对齐 NIST、EU AI Act 等主流标准，帮助企业精准评估现状并稳步提升 AI 安全防护能力。（来源：TLDR AI）</li>
+<li><strong>QR code generator</strong>｜Simon Willison（Simon Willison&#x27;s Blog）</li>
 </ul>
-<h4>工程与系统设计</h4>
-<ul>
-<li><strong>CSP 沙盒动态白名单实验</strong>：Simon Willison 展示了一种在 CSP 保护的沙盒 iframe 中管理外部请求的方案，通过自定义 <code>fetch()</code> 拦截连接错误并上报父窗口，引导用户将受阻域名添加至允许列表后刷新页面；该实验工具由 GPT-5.5 xhigh 在 Codex 桌面应用中辅助开发。（Simon Willison）</li>
-<li><strong>Datasette 1.0a29 发布</strong>：新增用于创建 <code>_r</code> 字典的实用工具方法，优化空表展示，并修复了 Mobile Safari 显示异常及测试阶段因连接关闭竞态条件导致的段错误崩溃。（Simon Willison）</li>
-</ul>
-<h4>跨界与深度思考</h4>
-<ul>
-<li><strong>批判&quot;AI 智能体数量&quot;叙事</strong>：Boris Mann 指出，强调&quot;11 个 AI 智能体&quot;毫无意义——正如不会用&quot;11 个电子表格&quot;或浏览器标签页来证明工作价值，AI 智能体的关键在于实际工作本质与产出，而非堆砌数量。（Simon Willison）</li>
-</ul>
-<hr>
+<p>作者借助 Claude 快速开发了一款二维码生成器，支持为文本、URL 及 WiFi 网络生成可扫描的二维码，展现了 AI 辅助编程在实用工具开发中的高效落地。</p>
     </div>
   </div>
 
@@ -331,179 +316,35 @@
     <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">鲍里斯·曼：&quot;11个AI智能体&quot;毫无意义</div>
-        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
-      </div>
-      <div class="title-en">Quoting Boris Mann</div>
-      <div class="tags"><span class="tag">AI智能体</span><span class="tag">概念批判</span><span class="tag">工具视角</span></div>
-      <div class="summary">Boris Mann认为，&quot;11个AI智能体&quot;的说法毫无意义，就像说有11个电子表格或浏览器标签页一样，单纯强调数量并不能反映实际工作的本质或价值。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">&quot;11 AI agents&quot; is meaningless as a phrase. If I said &quot;I have 11 spreadsheets&quot; or &quot;I have 11 browser tabs&quot; to do my work, it means about the same thing.</div><div class="quote-zh">&quot;11个AI智能体&quot;作为一句话毫无意义。如果我说&quot;我有11个电子表格&quot;或&quot;我有11个浏览器标签页&quot;来完成工作，意思也差不多。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Quoting <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Boris Mann</strong></h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-“11 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agents</strong>” is meaningless as a phrase.If I said “I have 11 spreadsheets” or “I have 11 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">browser tabs</strong>” to do my work, it means about the same thing.
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-“11 个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agent（智能体）</strong>”这个短语毫无意义。如果我说“我有 11 个电子表格”或“我有 11 个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">浏览器标签页</strong>”来完成工作，意思差不多。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-“11 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agents</strong>” is meaningless as a phrase.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-“11 个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agent（智能体）</strong>”这个短语毫无意义。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-If I said “I have 11 spreadsheets” or “I have 11 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">browser tabs</strong>” to do my work, it means about the same thing.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-如果我说“我有 11 个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">电子表格</strong>”或“我有 11 个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">浏览器标签页</strong>”来完成工作，意思差不多。
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/May/13/boris-mann/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">CSP 白名单实验</div>
+        <div class="title">二维码生成器</div>
         <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
       </div>
-      <div class="title-en">CSP Allow-list Experiment</div>
-      <div class="tags"><span class="tag">CSP</span><span class="tag">沙箱</span><span class="tag">白名单</span></div>
-      <div class="summary">该实验展示了一种在CSP保护的沙盒iframe中动态管理外部请求的方案：通过自定义fetch()拦截连接错误并上报父窗口，从而提示用户将受阻域名添加至允许列表并刷新页面。该工具由作者使用GPT-5.5 xhigh在Codex桌面应用中开发。</div>
+      <div class="title-en">QR code generator</div>
+      <div class="tags"><span class="tag">二维码</span><span class="tag">工具</span><span class="tag">AI</span></div>
+      <div class="summary">作者借助 Claude 开发了一款二维码生成器，支持为文本、URL 以及 WiFi 网络快速生成可扫描的二维码。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">An experiment that shows that you can load an app in a CSP-protected sandboxed iframe and have a custom fetch() that intercepts CSP errors and passes them up to the parent window... which can then prompt the user to add that domain to an allow-list and then refresh the page.</div><div class="quote-zh">一项实验表明，你可以在受 CSP 保护的沙盒 iframe 中加载应用，并通过自定义 fetch() 拦截 CSP 错误，将其传递给父窗口……父窗口随后可提示用户将该域名添加到白名单并刷新页面。</div></div>
-<div class="quote-block"><div class="quote-en">I built this one with GPT-5.5 xhigh running in the Codex desktop app.</div><div class="quote-zh">这个工具是我用运行在 Codex 桌面应用中的 GPT-5.5 xhigh 构建的。</div></div>
+<div class="quote-block"><div class="quote-en">Claude helped me build this tool for creating QR codes, for both text/URLs and for connecting to WiFi networks.</div><div class="quote-zh">Claude 帮我做了这个二维码生成工具，既能生成文本和网址的二维码，也能生成 WiFi 网络的连接二维码。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Tool:CSP Allow-list Experiment</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">工具：CSP 允许列表实验</p>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Tool:<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">QR code generator</strong></h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">工具：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">QR code generator（二维码生成器）</strong></p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">An experiment that shows that you can load an app in a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CSP</strong>-protected <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sandboxed iframe</strong> (seeprevious note) and have acustomfetch()that intercepts CSP errors and passes them up to the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">parent window</strong>... which can then prompt the user to add that domain to an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">allow-list</strong> and then refresh the page.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">该实验展示了如何在一个受 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CSP</strong>（内容安全策略）保护的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sandboxed iframe</strong>（沙盒 iframe，参见前文）中加载应用，并通过自定义的 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">fetch()</code> 方法拦截 CSP 错误，将其上报给 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">parent window</strong>（父窗口）……随后父窗口可提示用户将该域名添加至 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">allow-list</strong>（允许列表），并刷新页面。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude</strong> helped me build this tool for creating <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">QR codes</strong>, for both <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">text/URLs</strong> and for connecting to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">WiFi</strong> networks.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude</strong> 帮我构建了这个用于生成 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">QR codes（二维码）</strong> 的工具，支持为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">text/URLs（文本/网址）</strong> 以及连接 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">WiFi（无线网络）</strong> 创建二维码。</p>
 
-<img src="https://static.simonwillison.net/static/2026/csp-allow.jpg" alt="Screenshot of a web tool titled &quot;CSP Allow-list Experiment&quot; with buttons Reset sample, Clear allow-list, Refresh preview. Left panel shows HTML source code starting with &lt;!doctype html&gt;. Right panel shows Preview with CSP header default-src 'none'; script-src 'unsafe-inline'; style-s... and heading &quot;Sandbox fetch test&quot;. A modal dialog from tools.simonwillison.net is overlaid reading: &quot;The sandbox tried to connect to: https://api.inaturalist.org   Add this origin to the CSP connect-src allow-list and refresh the page?&quot; with an unchecked checkbox &quot;Don't allow tools.simonwillison.net to prompt you again&quot; and Cancel and OK buttons. Below is &quot;Messages from sandbox&quot; showing fetch-catch blocked https://api.inaturalist.org/v1/observations?per... connect-src · https://api.inaturalist.org. At the bottom left is &quot;Allowed fetch() origins&quot; with an input field containing https://api.github.com, an Add button, and a tag https://api.github.com x." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+<img src="https://static.simonwillison.net/static/2026/qr-code-generate.jpg" alt="Screenshot of a QR code generator web form. Heading &quot;QR code generator&quot; with subtitle &quot;Create a scannable code for a URL, text, or WiFi network.&quot; A segmented toggle shows &quot;URL / text&quot; and &quot;WiFi&quot; with WiFi selected. Below are fields: &quot;Network name (SSID)&quot; with placeholder &quot;My WiFi&quot;; &quot;Password&quot; with placeholder &quot;Password&quot; and a blue &quot;Show&quot; link; &quot;Security&quot; dropdown set to &quot;WPA / WPA2 / WPA3 (most common)&quot;; an unchecked &quot;Hidden&quot; checkbox; helper text &quot;Not sure? Leave it on WPA / WPA2 / WPA3 — that covers almost every home WiFi network.&quot; Below that: &quot;Style&quot; dropdown set to &quot;Square&quot;, an unchecked &quot;Border&quot; checkbox, &quot;Size&quot; dropdown set to &quot;Medium&quot;, and a &quot;Color&quot; swatch showing black. At the bottom is a blue &quot;Generate QR code&quot; button." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<img src="https://static.simonwillison.net/static/2026/csp-allow.jpg" alt="Screenshot of a web tool titled &quot;CSP Allow-list Experiment&quot; with buttons Reset sample, Clear allow-list, Refresh preview. Left panel shows HTML source code starting with &lt;!doctype html&gt;. Right panel shows Preview with CSP header default-src 'none'; script-src 'unsafe-inline'; style-s... and heading &quot;Sandbox fetch test&quot;. A modal dialog from tools.simonwillison.net is overlaid reading: &quot;The sandbox tried to connect to: https://api.inaturalist.org   Add this origin to the CSP connect-src allow-list and refresh the page?&quot; with an unchecked checkbox &quot;Don't allow tools.simonwillison.net to prompt you again&quot; and Cancel and OK buttons. Below is &quot;Messages from sandbox&quot; showing fetch-catch blocked https://api.inaturalist.org/v1/observations?per... connect-src · https://api.inaturalist.org. At the bottom left is &quot;Allowed fetch() origins&quot; with an input field containing https://api.github.com, an Add button, and a tag https://api.github.com x." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+<img src="https://static.simonwillison.net/static/2026/qr-code-generate.jpg" alt="Screenshot of a QR code generator web form. Heading &quot;QR code generator&quot; with subtitle &quot;Create a scannable code for a URL, text, or WiFi network.&quot; A segmented toggle shows &quot;URL / text&quot; and &quot;WiFi&quot; with WiFi selected. Below are fields: &quot;Network name (SSID)&quot; with placeholder &quot;My WiFi&quot;; &quot;Password&quot; with placeholder &quot;Password&quot; and a blue &quot;Show&quot; link; &quot;Security&quot; dropdown set to &quot;WPA / WPA2 / WPA3 (most common)&quot;; an unchecked &quot;Hidden&quot; checkbox; helper text &quot;Not sure? Leave it on WPA / WPA2 / WPA3 — that covers almost every home WiFi network.&quot; Below that: &quot;Style&quot; dropdown set to &quot;Square&quot;, an unchecked &quot;Border&quot; checkbox, &quot;Size&quot; dropdown set to &quot;Medium&quot;, and a &quot;Color&quot; swatch showing black. At the bottom is a blue &quot;Generate QR code&quot; button." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I built this one with <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GPT-5.5 xhigh</strong> running in the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Codex</strong> desktop app.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我使用运行在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Codex</strong> 桌面应用中的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GPT-5.5 xhigh</strong> 构建了该工具。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags:<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">content-security-policy</strong>,<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">iframes</strong>,<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">security</strong></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">content-security-policy</strong>（内容安全策略）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">iframes</strong>（内联框架）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">security</strong>（安全）。</p></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vibe-coding</strong>, tools, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">generative-ai</strong>, ai, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llms</strong></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vibe-coding（氛围编程）</strong>、tools（工具）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">generative-ai（生成式 AI）</strong>、ai（人工智能）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llms（大语言模型）</strong></p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/May/13/csp-allow/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">TLDR AI</div>
-      <div class="title-row">
-        <div class="title">Opus 4.7 加速⚡、Qwen Image 2.0 🖼️、无服务器GPU ✨</div>
-        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
-      </div>
-      <div class="title-en">Opus 4.7 Fast ⚡, Qwen Image 2.0 🖼️, serverless GPUs ✨</div>
-      <div class="tags"><span class="tag">AI安全</span><span class="tag">安全框架</span><span class="tag">合规治理</span></div>
-      <div class="summary">SANS推出的AI安全成熟度模型为企业提供了一套五阶段系统化评估框架，对齐NIST、EU AI Act等主流合规标准。该模型通过基于证据的评分机制与可落地的分步指引，帮助团队精准评估现状并稳步提升AI安全防护能力。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">AI security is on everyone&#x27;s mind - but few have a roadmap they can stand behind.</div><div class="quote-zh">AI安全是人人关心的话题，却鲜少有人能坚守一份真正值得信赖的路线图。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Opus 4.7 Fast ⚡, Qwen Image 2.0 🖼️, serverless GPUs ✨</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Opus 4.7 Fast ⚡、Qwen Image 2.0 🖼️、serverless GPUs ✨</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI security</strong> is on everyone's mind - but few have a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">roadmap</strong> they can stand behind.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI security</strong>（AI 安全）是所有人关注的焦点——但很少有人拥有一份能够真正信赖的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">roadmap</strong>（路线图）。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">SANS</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI Security Maturity Model</strong> helps you to assess your current stage and progress with confidence using a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">5-stage framework</strong> with defined <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">controls</strong>, metrics, and actions:</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">SANS</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI Security Maturity Model</strong>（AI 安全成熟度模型）可帮助您通过包含明确定义的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">controls</strong>（控制措施）、指标和行动的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">5-stage framework</strong>（五阶段框架），自信地评估当前所处阶段并稳步推进。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-  <ul style="list-style:none;padding-left:0;">
-    <li>✅ Mapped to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NIST AI RMF</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">EU AI Act</strong>, ISO 42001, and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OWASP</strong></li>
-    <li>✅ <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Evidenced-based scoring models</strong> across Protect, Govern, and Utilize</li>
-    <li>✅ Step-by-step guidance your team can immediately apply</li>
-  </ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-  ✅ 映射至 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NIST AI RMF</strong>（NIST AI 风险管理框架）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">EU AI Act</strong>（欧盟人工智能法案）、ISO 42001 及 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OWASP</strong> 标准<br/>
-  ✅ 覆盖 Protect（保护）、Govern（治理）与 Utilize（利用）的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">evidenced-based scoring models</strong>（循证评分模型）<br/>
-  ✅ 您的团队可立即落地的分步指导
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Download the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SANS AI Security Maturity Model eBook</strong> by <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Chris Cochran</strong>, Field CISO and VP of AI Security</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">下载由 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Chris Cochran</strong>（现场 CISO 兼 AI 安全副总裁）撰写的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SANS AI Security Maturity Model eBook</strong>（SANS AI 安全成熟度模型电子书）。</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Browse more <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">SANS</strong> AI resources for ways to build, break, and defend AI in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">production</strong></div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">浏览更多 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">SANS</strong> AI 资源，了解如何在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">production</strong>（生产环境）中构建、攻破和防御 AI。</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://tldr.tech/ai/2026-05-13" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">Datasette 1.0a29 发布说明</div>
-        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
-      </div>
-      <div class="title-en">datasette 1.0a29</div>
-      <div class="tags"><span class="tag">Datasette</span><span class="tag">版本发布</span><span class="tag">Bug修复</span></div>
-      <div class="summary">Datasette 发布 1.0a29 版本，新增用于创建 &quot;_r&quot; 字典的实用工具方法并优化了空表展示，同时修复了 Mobile Safari 显示异常及测试时因连接关闭竞态条件导致的段错误崩溃。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">That segfault bug was gnarly.</div><div class="quote-zh">那个段错误（segfault）bug 真是棘手。</div></div>
-<div class="quote-block"><div class="quote-en">I ended up solving that by having Codex CLI (with GPT-5.5 xhigh) create a minimal Dockerfile that recreated the bug.</div><div class="quote-zh">我最终是通过让 Codex CLI（使用 GPT-5.5 xhigh）创建一个最小化的 Dockerfile 来重现该 bug，从而解决了这个问题。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Release: datasette 1.0a29</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">发布：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">datasette</strong> 1.0a29</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NewTokenRestrictions</strong>.abbreviated(datasette)utility methodfor creating"_r"dictionaries.#2695Table headers and column options are now visible even if a table contains zero rows.#2701Fixed bug with display of column actions dialog on Mobile Safari.#2708Fixed bug where tests could crash with a segfault due to a race condition betweenDatasette.close()andDatabase.close().#2709
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-新增 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NewTokenRestrictions</strong>.abbreviated(datasette) 工具方法，用于创建 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">"_r"</code> 字典。#2695 即使表格包含零行，现在也会显示表头和列选项。#2701 修复了在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mobile Safari</strong> 上列操作对话框显示异常的问题。#2708 修复了由于 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">Datasette.close()</code> 与 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">Database.close()</code> 之间存在 race condition（竞态条件）而导致测试可能因 segfault（段错误）崩溃的缺陷。#2709
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<ul style="margin:0;padding-left:20px;">
-<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NewTokenRestrictions</strong>.abbreviated(datasette)utility methodfor creating"_r"dictionaries.#2695</li>
-<li>Table headers and column options are now visible even if a table contains zero rows.#2701</li>
-<li>Fixed bug with display of column actions dialog on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mobile Safari</strong>.#2708</li>
-<li>Fixed bug where tests could crash with a segfault due to a race condition betweenDatasette.close()andDatabase.close().#2709</li>
-</ul>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-• 新增 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">NewTokenRestrictions</strong>.abbreviated(datasette) 工具方法，用于创建 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">"_r"</code> 字典。#2695<br>
-• 即使表格包含零行，表头和列选项现在也会显示。#2701<br>
-• 修复了在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mobile Safari</strong> 上列操作对话框显示异常的问题。#2708<br>
-• 修复了由于 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">Datasette.close()</code> 与 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">Database.close()</code> 之间存在 race condition（竞态条件）而导致测试可能因 segfault（段错误）崩溃的缺陷。#2709
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-That segfault bug wasgnarly. I added a mechanism to Datasette recently that would automatically close connections at the end of each test, but it turned out that introduced a race condition where an in-flight query could sometimes be executing in a thread against a connection while it was being closed. I ended up solving that by having Codex CLI (with GPT-5.5 xhigh) createa minimal Dockerfilethat recreated the bug.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-那个 segfault（段错误）缺陷非常棘手。我最近为 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Datasette</strong> 添加了一个机制，可以在每次测试结束时自动关闭连接，但结果这引入了 race condition（竞态条件）：有时一个正在执行的查询可能正在某个线程中针对连接运行，而与此同时该连接正在被关闭。我最终通过让 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Codex CLI</strong>（配合 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GPT-5.5 xhigh</strong>）创建一个最小化的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Dockerfile</strong> 来重现该缺陷，从而解决了这个问题。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags: projects, datasette
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：projects, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">datasette</strong>
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/May/12/datasette/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-05-13
+  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-05-15
 </div>
 
 <script>
