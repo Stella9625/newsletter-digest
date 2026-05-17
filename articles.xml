@@ -7,30 +7,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 15 May 2026 23:42:42 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 23:14:38 +0000</lastBuildDate>
     <item>
-      <title>[翻译] Simon Willison: 二维码生成器</title>
-      <link>https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #二维码 #工具 #AI&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 作者借助 Claude 开发了一款二维码生成器，支持为文本、URL 以及 WiFi 网络快速生成可扫描的二维码。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: QR code generator&lt;/p&gt;
+      <title>[翻译] Simon Willison: GDS就NHS退出开源决定公开表态</title>
+      <link>https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #开源 #政府 #AI安全&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 英国政府数字服务局（GDS）近日明确建议公共部门应坚持&amp;quot;默认开放&amp;quot;原则，认为代码私有化将增加交付成本并削弱审查与重用；尽管未直接点名，但该表态被普遍视为对英国国家医疗服务体系（NHS）退出开源决定的罕见公开批评。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: GDS weighs in on the NHS&amp;#x27;s decision to retreat from Open Source&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Tool:&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;QR code generator&lt;/strong&gt;&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;工具：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;QR code generator（二维码生成器）&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;GDS weighs in on the NHS's decision to retreat from Open Source&lt;/h3&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; helped me build this tool for creating &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;QR codes&lt;/strong&gt;, for both &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;text/URLs&lt;/strong&gt; and for connecting to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;WiFi&lt;/strong&gt; networks.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; 帮我构建了这个用于生成 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;QR codes（二维码）&lt;/strong&gt; 的工具，支持为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;text/URLs（文本/网址）&lt;/strong&gt; 以及连接 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;WiFi（无线网络）&lt;/strong&gt; 创建二维码。&lt;/p&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;GDS&lt;/strong&gt;（英国政府数字服务）就 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NHS&lt;/strong&gt;（英国国家医疗服务体系）退出 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Open Source&lt;/strong&gt;（开源）领域的决定表态
+&lt;/p&gt;
 
-&lt;img src="https://static.simonwillison.net/static/2026/qr-code-generate.jpg" alt="Screenshot of a QR code generator web form. Heading &amp;quot;QR code generator&amp;quot; with subtitle &amp;quot;Create a scannable code for a URL, text, or WiFi network.&amp;quot; A segmented toggle shows &amp;quot;URL / text&amp;quot; and &amp;quot;WiFi&amp;quot; with WiFi selected. Below are fields: &amp;quot;Network name (SSID)&amp;quot; with placeholder &amp;quot;My WiFi&amp;quot;; &amp;quot;Password&amp;quot; with placeholder &amp;quot;Password&amp;quot; and a blue &amp;quot;Show&amp;quot; link; &amp;quot;Security&amp;quot; dropdown set to &amp;quot;WPA / WPA2 / WPA3 (most common)&amp;quot;; an unchecked &amp;quot;Hidden&amp;quot; checkbox; helper text &amp;quot;Not sure? Leave it on WPA / WPA2 / WPA3 — that covers almost every home WiFi network.&amp;quot; Below that: &amp;quot;Style&amp;quot; dropdown set to &amp;quot;Square&amp;quot;, an unchecked &amp;quot;Border&amp;quot; checkbox, &amp;quot;Size&amp;quot; dropdown set to &amp;quot;Medium&amp;quot;, and a &amp;quot;Color&amp;quot; swatch showing black. At the bottom is a blue &amp;quot;Generate QR code&amp;quot; button." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Now the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Government Digital Service&lt;/strong&gt; have joined the conversation with&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open code&lt;/strong&gt; and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vulnerability risk&lt;/strong&gt; in the public sector, published May 14th. Their key recommendation:
 
-&lt;img src="https://static.simonwillison.net/static/2026/qr-code-generate.jpg" alt="Screenshot of a QR code generator web form. Heading &amp;quot;QR code generator&amp;quot; with subtitle &amp;quot;Create a scannable code for a URL, text, or WiFi network.&amp;quot; A segmented toggle shows &amp;quot;URL / text&amp;quot; and &amp;quot;WiFi&amp;quot; with WiFi selected. Below are fields: &amp;quot;Network name (SSID)&amp;quot; with placeholder &amp;quot;My WiFi&amp;quot;; &amp;quot;Password&amp;quot; with placeholder &amp;quot;Password&amp;quot; and a blue &amp;quot;Show&amp;quot; link; &amp;quot;Security&amp;quot; dropdown set to &amp;quot;WPA / WPA2 / WPA3 (most common)&amp;quot;; an unchecked &amp;quot;Hidden&amp;quot; checkbox; helper text &amp;quot;Not sure? Leave it on WPA / WPA2 / WPA3 — that covers almost every home WiFi network.&amp;quot; Below that: &amp;quot;Style&amp;quot; dropdown set to &amp;quot;Square&amp;quot;, an unchecked &amp;quot;Border&amp;quot; checkbox, &amp;quot;Size&amp;quot; dropdown set to &amp;quot;Medium&amp;quot;, and a &amp;quot;Color&amp;quot; swatch showing black. At the bottom is a blue &amp;quot;Generate QR code&amp;quot; button." style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+Keep open by default. Making everything private adds additional delivery and policy costs, and can reduce reuse and scrutiny. Openness should remain the default posture, with closure used sparingly and deliberately.
+&lt;/blockquote&gt;
+&lt;/div&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vibe-coding&lt;/strong&gt;, tools, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;, ai, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vibe-coding（氛围编程）&lt;/strong&gt;、tools（工具）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai（生成式 AI）&lt;/strong&gt;、ai（人工智能）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms（大语言模型）&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 6px;line-height:1.8;font-size:15px;"&gt;
+英国 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Government Digital Service&lt;/strong&gt;（政府数字服务，GDS）于5月14日就 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;（人工智能）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open code&lt;/strong&gt;（开放代码）以及 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vulnerability risk&lt;/strong&gt;（漏洞风险）等议题加入公共部门（public sector）的相关讨论。他们的核心建议如下：
+&lt;/p&gt;
+
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:0 0 24px;background:#f9f9fb;"&gt;
+默认保持开放。将所有内容私有化会增加额外的交付与政策成本，并可能降低复用性与审查力度。开放应继续作为默认姿态，而封闭则应谨慎且有意识地使用。
+&lt;/blockquote&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Keep open by default. Making everything &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;private&lt;/strong&gt; adds additional delivery and policy costs, and can reduce reuse and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;scrutiny&lt;/strong&gt;. Openness should remain the default posture, with closure used sparingly and deliberately.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+默认保持 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open by default&lt;/strong&gt;（默认开放）。将所有内容私有化会增加额外的交付与政策成本，并可能降低复用性与 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;scrutiny&lt;/strong&gt;（审查力度）。开放应继续作为默认姿态，而封闭则应谨慎且有意识地使用。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+While they don't mention the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NHS&lt;/strong&gt; by name, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Terence Eden&lt;/strong&gt; speaks the language of the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;civil service&lt;/strong&gt; and interprets this as a major escalation:
+
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+Within the UK's &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Civil Service&lt;/strong&gt; you occasionally hear the expression "being invited to a meetingwithout biscuits". It implies a rather frosty discussion without any of the polite niceties of a normal meeting. In general though, even when people have severe disagreements, it is rare for tempers to fray. It is even rarer for those &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;internal disagreements&lt;/strong&gt; to spill over into public.
+&lt;/blockquote&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 6px;line-height:1.8;font-size:15px;"&gt;
+尽管文中并未点名 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NHS&lt;/strong&gt;（英国国家医疗服务体系），但 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Terence Eden&lt;/strong&gt;（泰伦斯·伊登）以 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;civil service&lt;/strong&gt;（英国公务员体系）的措辞风格解读称，这是一次重大升级：
+&lt;/p&gt;
+
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:0 0 24px;background:#f9f9fb;"&gt;
+在英国 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Civil Service&lt;/strong&gt;（公务员体系）中，你偶尔会听到“被邀请参加一个没有饼干的会议”（being invited to a meeting without biscuits）这种说法。它暗示着一场相当冷淡的讨论，没有任何正常会议中的礼貌客套。不过一般来说，即使人们存在严重分歧，也很少会情绪失控。而这些 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;internal disagreements&lt;/strong&gt;（内部分歧）公开化则更为罕见。
+&lt;/blockquote&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Within the UK's &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Civil Service&lt;/strong&gt; you occasionally hear the expression "being invited to a meetingwithout biscuits". It implies a rather frosty discussion without any of the polite niceties of a normal meeting. In general though, even when people have severe disagreements, it is rare for tempers to fray. It is even rarer for those internal disagreements to spill over into public.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+在英国 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Civil Service&lt;/strong&gt;（公务员体系）中，你偶尔会听到“被邀请参加一个没有饼干的会议”（being invited to a meeting without biscuits）这种说法。它暗示着一场相当冷淡的讨论，没有任何正常会议中的礼貌客套。不过一般来说，即使人们存在严重分歧，也很少会情绪失控。而这些内部分歧公开化则更为罕见。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Tags:&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open-source&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;security&lt;/strong&gt;,ai,generative-ai,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;,gov-uk,terence-eden,ai-ethics,ai-security-research
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open-source&lt;/strong&gt;（开源）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;security&lt;/strong&gt;（安全）、ai（人工智能）、generative-ai（生成式人工智能）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;（大语言模型）、gov-uk（英国政府）、terence-eden（泰伦斯·伊登）、ai-ethics（人工智能伦理）、ai-security-research（人工智能安全研究）
+&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything</guid>
-      <pubDate>Fri, 15 May 2026 04:00:49 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything</guid>
+      <pubDate>Sun, 17 May 2026 15:59:41 +0000</pubDate>
     </item>
   </channel>
 </rss>

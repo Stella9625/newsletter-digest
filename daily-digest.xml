@@ -7,17 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 15 May 2026 23:43:07 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 23:15:05 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-05-15</title>
+      <title>📰 AI/产品/技术日报 - 2026-05-17</title>
       <description>&lt;h2&gt;科技日报 · 今日精选&lt;/h2&gt;
-&lt;h3&gt;LLM &amp;amp; AI 工具&lt;/h3&gt;
+&lt;h3&gt;跨界与深度思考&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;QR code generator&lt;/strong&gt;｜Simon Willison（Simon Willison&amp;#x27;s Blog）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;作者借助 Claude 快速开发了一款二维码生成器，支持为文本、URL 及 WiFi 网络生成可扫描的二维码，展现了 AI 辅助编程在实用工具开发中的高效落地。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-15</guid>
-      <pubDate>Fri, 15 May 2026 23:43:07 +0000</pubDate>
+&lt;li&gt;&lt;strong&gt;GDS 罕见批评 NHS 退出开源&lt;/strong&gt;（Simon Willison / Simon Willison）：英国政府数字服务局（GDS）重申公共部门应坚持&amp;quot;默认开放&amp;quot;原则，指出代码私有化将推高交付成本并削弱代码审查与重用能力；该表态被普遍视为对英国国家医疗服务体系（NHS）近期闭源转向的罕见公开批评。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-17</guid>
+      <pubDate>Sun, 17 May 2026 23:15:05 +0000</pubDate>
     </item>
   </channel>
 </rss>
