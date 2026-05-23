@@ -292,108 +292,182 @@
 <div class="container">
   <div class="tabs">
     <button class="tab active" onclick="switchTab('digest')">每日日报</button>
-    <button class="tab" onclick="switchTab('articles')">全部文章 (1)</button>
+    <button class="tab" onclick="switchTab('articles')">全部文章 (3)</button>
   </div>
 
   <!-- 日报 Tab -->
   <div id="tab-digest" class="tab-content active">
-    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">开源</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">政府</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">AI安全</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div></div>
+    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">社区精选</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">AI应用</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">职业建议</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">HTML</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">语义化</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">无障碍</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">住房</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">半导体</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
-      <h2>2026-05-17 日报</h2>
-      <h2>科技日报 · 今日精选</h2>
+      <h2>2026-05-23 日报</h2>
+      <h3>工程与系统设计</h3>
+<ul>
+<li><strong>On the &lt;dl&gt;</strong> | Simon Willison（Simon Willison）</li>
+</ul>
+<p>介绍了 HTML 描述列表的现代表述，明确其自 HTML5 起已正名为“描述列表”而非“定义列表”，并说明了一对多映射、<code>&lt;div&gt;</code>包裹样式及 ARIA 无障碍标注等实践细节。</p>
+<h3>产品与增长</h3>
+<ul>
+<li><strong>🧠 Community Wisdom</strong> | Kiyani（Lenny&#x27;s Newsletter）</li>
+</ul>
+<p>汇总 Slack 社区精华，涵盖最佳 AI 外联工具推荐、大学生产品经理求职建议、AI 设计现状及 2026 年 QA 角色前景等话题。</p>
 <h3>跨界与深度思考</h3>
 <ul>
-<li><strong>GDS 罕见批评 NHS 退出开源</strong>（Simon Willison / Simon Willison）：英国政府数字服务局（GDS）重申公共部门应坚持&quot;默认开放&quot;原则，指出代码私有化将推高交付成本并削弱代码审查与重用能力；该表态被普遍视为对英国国家医疗服务体系（NHS）近期闭源转向的罕见公开批评。</li>
+<li><strong>Reading List 05/23/26</strong> | Brian Potter（Construction Physics）</li>
 </ul>
+<p>聚焦建筑与工业技术，梳理了伊朗战争对全球航运及能源供应链的冲击、美国住房短缺危机，以及苹果通过屏蔽缺陷核心回收利用次品芯片的制造策略。</p>
     </div>
   </div>
 
   <!-- 文章 Tab -->
   <div id="tab-articles" class="tab-content">
     <div class="article-card">
-      <div class="source">Simon Willison</div>
+      <div class="source">Lenny&#x27;s Newsletter</div>
       <div class="title-row">
-        <div class="title">GDS就NHS退出开源决定公开表态</div>
+        <div class="title">社区智慧：AI外联工具推荐、PM职业建议、AI设计趋势及更多</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">GDS weighs in on the NHS&#x27;s decision to retreat from Open Source</div>
-      <div class="tags"><span class="tag">开源</span><span class="tag">政府</span><span class="tag">AI安全</span></div>
-      <div class="summary">英国政府数字服务局（GDS）近日明确建议公共部门应坚持&quot;默认开放&quot;原则，认为代码私有化将增加交付成本并削弱审查与重用；尽管未直接点名，但该表态被普遍视为对英国国家医疗服务体系（NHS）退出开源决定的罕见公开批评。</div>
+      <div class="title-en">🧠 Community Wisdom: Best AI cold outreach app, advice for college students interested in PM, the state of AI in design, the relevance of QA in 2026, and more</div>
+      <div class="tags"><span class="tag">社区精选</span><span class="tag">AI应用</span><span class="tag">职业建议</span></div>
+      <div class="summary">本周会员专享的《Community Wisdom》邮件汇总了Slack社区中的精华对话，涵盖最佳AI外联工具、大学生产品经理求职建议、AI设计现状及2026年QA前景等热门话题。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Within the UK&#x27;s Civil Service you occasionally hear the expression &quot;being invited to a meeting without biscuits&quot;. It implies a rather frosty discussion without any of the polite niceties of a normal meeting.</div><div class="quote-zh">在英国公务员体系内，你偶尔会听到&quot;被邀请参加一个没有饼干的会议&quot;这种说法。它暗示了一场相当冷淡的讨论，毫无正常会议中的礼貌客套。</div></div>
-<div class="quote-block"><div class="quote-en">It is even rarer for those internal disagreements to spill over into public.</div><div class="quote-zh">这些内部分歧泄露到公众视野中，更是稀罕至极。</div></div>
+<div class="quote-block"><div class="quote-en">👋 Hello and welcome to this week’s edition of ✨Community Wisdom✨ a subscriber-only email, delivered every Saturday, highlighting the most helpful conversations inour members-only Slack community.</div><div class="quote-zh">👋 你好，欢迎阅读本周的✨社群智慧✨特辑——这是一封仅向订阅者发送的周六邮件，旨在精选我们专属Slack社区中最有价值的讨论。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">GDS weighs in on the NHS's decision to retreat from Open Source</h3>
-
+      <div class="translation"><div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+👋 Hello and welcome to this week’s edition of ✨<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Community Wisdom</strong>✨ a subscriber-only email, delivered every Saturday, highlighting the most helpful conversations inour members-only <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong> community.
+</div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">GDS</strong>（英国政府数字服务）就 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NHS</strong>（英国国家医疗服务体系）退出 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Open Source</strong>（开源）领域的决定表态
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Now the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Government Digital Service</strong> have joined the conversation with<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">open code</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vulnerability risk</strong> in the public sector, published May 14th. Their key recommendation:
-
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-Keep open by default. Making everything private adds additional delivery and policy costs, and can reduce reuse and scrutiny. Openness should remain the default posture, with closure used sparingly and deliberately.
-</blockquote>
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 6px;line-height:1.8;font-size:15px;">
-英国 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Government Digital Service</strong>（政府数字服务，GDS）于5月14日就 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong>（人工智能）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">open code</strong>（开放代码）以及 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vulnerability risk</strong>（漏洞风险）等议题加入公共部门（public sector）的相关讨论。他们的核心建议如下：
-</p>
-
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:0 0 24px;background:#f9f9fb;">
-默认保持开放。将所有内容私有化会增加额外的交付与政策成本，并可能降低复用性与审查力度。开放应继续作为默认姿态，而封闭则应谨慎且有意识地使用。
-</blockquote>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Keep open by default. Making everything <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">private</strong> adds additional delivery and policy costs, and can reduce reuse and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">scrutiny</strong>. Openness should remain the default posture, with closure used sparingly and deliberately.
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-默认保持 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">open by default</strong>（默认开放）。将所有内容私有化会增加额外的交付与政策成本，并可能降低复用性与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">scrutiny</strong>（审查力度）。开放应继续作为默认姿态，而封闭则应谨慎且有意识地使用。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-While they don't mention the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NHS</strong> by name, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Terence Eden</strong> speaks the language of the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">civil service</strong> and interprets this as a major escalation:
-
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-Within the UK's <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Civil Service</strong> you occasionally hear the expression "being invited to a meetingwithout biscuits". It implies a rather frosty discussion without any of the polite niceties of a normal meeting. In general though, even when people have severe disagreements, it is rare for tempers to fray. It is even rarer for those <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">internal disagreements</strong> to spill over into public.
-</blockquote>
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 6px;line-height:1.8;font-size:15px;">
-尽管文中并未点名 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NHS</strong>（英国国家医疗服务体系），但 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Terence Eden</strong>（泰伦斯·伊登）以 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">civil service</strong>（英国公务员体系）的措辞风格解读称，这是一次重大升级：
-</p>
-
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:0 0 24px;background:#f9f9fb;">
-在英国 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Civil Service</strong>（公务员体系）中，你偶尔会听到“被邀请参加一个没有饼干的会议”（being invited to a meeting without biscuits）这种说法。它暗示着一场相当冷淡的讨论，没有任何正常会议中的礼貌客套。不过一般来说，即使人们存在严重分歧，也很少会情绪失控。而这些 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">internal disagreements</strong>（内部分歧）公开化则更为罕见。
-</blockquote>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Within the UK's <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Civil Service</strong> you occasionally hear the expression "being invited to a meetingwithout biscuits". It implies a rather frosty discussion without any of the polite niceties of a normal meeting. In general though, even when people have severe disagreements, it is rare for tempers to fray. It is even rarer for those internal disagreements to spill over into public.
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-在英国 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Civil Service</strong>（公务员体系）中，你偶尔会听到“被邀请参加一个没有饼干的会议”（being invited to a meeting without biscuits）这种说法。它暗示着一场相当冷淡的讨论，没有任何正常会议中的礼貌客套。不过一般来说，即使人们存在严重分歧，也很少会情绪失控。而这些内部分歧公开化则更为罕见。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags:<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">open-source</strong>,<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">security</strong>,ai,generative-ai,<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llms</strong>,gov-uk,terence-eden,ai-ethics,ai-security-research
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">open-source</strong>（开源）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">security</strong>（安全）、ai（人工智能）、generative-ai（生成式人工智能）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llms</strong>（大语言模型）、gov-uk（英国政府）、terence-eden（泰伦斯·伊登）、ai-ethics（人工智能伦理）、ai-security-research（人工智能安全研究）
+👋 你好，欢迎阅读本周 ✨<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Community Wisdom（社区智慧）</strong>✨ 栏目——这是一封订阅者专享邮件，每周六发送，精选我们仅限会员的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong> 社区中最有价值的讨论。
 </p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://www.lennysnewsletter.com/p/community-wisdom-best-ai-cold-outreach" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Simon Willison</div>
+      <div class="title-row">
+        <div class="title">关于 &lt;dl&gt; 元素</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
+      </div>
+      <div class="title-en">On the &lt;dl&gt;</div>
+      <div class="tags"><span class="tag">HTML</span><span class="tag">语义化</span><span class="tag">无障碍</span></div>
+      <div class="summary">本文介绍了HTML描述列表（&amp;lt;dl&amp;gt;）的现代表述与核心用法，指出一个&amp;lt;dt&amp;gt;可对应多个&amp;lt;dd&amp;gt;、允许用&amp;lt;div&amp;gt;包裹以便样式设计且支持ARIA标注，并澄清该元素自2008年HTML5草案起已更名为&quot;描述列表&quot;而非&quot;定义列表&quot;。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">They&#x27;ve been called &quot;description lists&quot;, not &quot;definition lists&quot;, sincean HTML5 draft in 2008.</div><div class="quote-zh">自2008年的一份HTML5草案起，它们就被称为“描述列表”，而非“定义列表”。</div></div>
+</div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">On the <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;dl&gt;</code></h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">关于 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;dl&gt;</code> 元素</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li>A <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;dt&gt;</code> can be followed by multiple <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;dd&gt;</code></li>
+<li>You can optionally group the <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;dt&gt;</code> and <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;dd&gt;</code> elements in a <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;div&gt;</code> for styling - but only a <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;div&gt;</code>.</li>
+<li>You can label them using <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ARIA</strong>.</li>
+<li>They've been called "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">description lists</strong>", not "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">definition lists</strong>", since an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">HTML5</strong> draft in 2008.</li>
+</ul>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<ul style="margin:0;padding-left:20px;">
+<li>一个 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;dt&gt;</code> 后面可以跟多个 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;dd&gt;</code></li>
+<li>你可以根据需要把 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;dt&gt;</code> 和 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;dd&gt;</code> 元素归组到一个 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;div&gt;</code> 中以便添加样式——但只能使用 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;div&gt;</code>。</li>
+<li>你可以使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ARIA</strong>（无障碍富互联网应用程序）为它们添加标签。</li>
+<li>自 2008 年的一份 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">HTML5</strong> 草案起，它们就被称为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">description lists</strong>（描述列表），而非 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">definition lists</strong>（定义列表）。</li>
+</ul>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">So this is valid:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">因此，这是有效的：</p>
+
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>&lt;h2id="credits"&gt;Credits&lt;/h2&gt;&lt;dlaria-labelledby="credits"&gt;&lt;div&gt;&lt;dt&gt;Author&lt;/dt&gt;&lt;dd&gt;Jeffrey Zeldman&lt;/dd&gt;&lt;dd&gt;Ethan Marcotte&lt;/dd&gt;&lt;/div&gt;&lt;/dl&gt;</code></pre>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Here's a useful note from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Adrian Roselli</strong> on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">screen reader</strong> support for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">description lists</strong>.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这里有一则来自 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Adrian Roselli</strong> 关于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">screen reader</strong>（屏幕阅读器）支持 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">description lists</strong>（描述列表）的实用说明。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Via <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">来源：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong></p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">css</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">html</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">screen-readers</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">web-standards</strong></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">css</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">html</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">screen-readers</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">web-standards</strong></p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Construction Physics</div>
+      <div class="title-row">
+        <div class="title">阅读清单 05/23/26</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
+      </div>
+      <div class="title-en">Reading List 05/23/26</div>
+      <div class="tags"><span class="tag">住房</span><span class="tag">半导体</span><span class="tag">基建</span><span class="tag">能源</span></div>
+      <div class="summary">这是一份关于建筑、基础设施与工业技术的每周阅读清单，核心内容涵盖伊朗战争对全球航运及能源供应链的冲击、美国住房短缺危机与建设壁垒，以及苹果通过屏蔽缺陷核心回收利用次品芯片以提升利润的制造业策略。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">&quot;In most industries, swords just don&#x27;t make any damn sense,&quot; Jacobs says. &quot;In this particular one, it actually does.&quot;</div><div class="quote-zh">“在大多数行业里，剑压根儿讲不通，”雅各布斯说，“但在这个特定行业，它确实讲得通。”</div></div>
+<div class="quote-block"><div class="quote-en">It is the latest example of Apple deploying a decades-old chip industry strategy to squeeze profits from lesser-performing processors by selling them like eggs, gas, diamonds or hotel rooms, segmented by good, better and best.</div><div class="quote-zh">这是苹果运用一项已有数十年历史的芯片行业策略的最新例证——通过将性能较差的处理器像鸡蛋、汽油、钻石或酒店客房一样按“好、更好、最好”分级出售，从而榨取利润。</div></div>
+</div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Reading List 05/23/26</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">阅读清单 05/23/26</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!d79E!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d2cfa55-24fa-41e6-9a00-a4d7538c876a_1290x848.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Welcome to the reading list, a weekly roundup of news and links related to buildings, infrastructure and industrial technology. This week we look at squatter removal services, Apple finding uses for defective chips, process heat use in California, the brewing Colorado River crisis, and more. Roughly 2/3rds of the reading list is paywalled, so for full access become a paid subscriber.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">欢迎来到阅读清单，这是关于建筑、基础设施和工业技术的每周新闻与链接汇总。本周我们将探讨占屋者驱逐服务、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple</strong> 如何为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">defective chips（缺陷芯片）</strong> 寻找用途、加利福尼亚的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">process heat（工艺热）</strong> 使用、酝酿中的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Colorado River（科罗拉多河）</strong> 危机等话题。阅读清单中约三分之二的内容为付费墙限制，如需完整访问，请成为付费订阅者。</p>
+
+<h4 style="margin:24px 0 12px;">War in Iran</h4>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">伊朗战争</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Iran wants to charge US tech companies for use of the undersea cables that pass through the Strait of Hormuz. [Ars Technica] And Iran is starting a Bitcoin-backed ship insurance service [Bloomberg]</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">伊朗拟向通过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Strait of Hormuz（霍尔木兹海峡）</strong> 的海底电缆收取使用费，收费对象为美国科技公司。[Ars Technica] 此外，伊朗正在推出一项由 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Bitcoin（比特币）</strong> 支持的船舶保险服务。[Bloomberg]</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The hundreds of ships stuck in the Persian Gulf are starting to get damaged by all the barnacles and jellyfish that they're accumulating. "...the Gulf's shallow sandy seabed and warm waters have put ships at anchor or adrift there at risk of sand and sea creatures clogging up gratings that protect the vessel's internal pipework. Seafarers are also struggling to get hold of critical parts when systems have broken down." [FT]</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">被困在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Persian Gulf（波斯湾）</strong> 的数百艘船只正因其附着的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">barnacles（藤壶）</strong> 和水母而开始受损。"……海湾浅薄的沙质海底和温暖水域使停泊或漂流在那里的船只面临沙粒和海洋生物堵塞保护船体内部管道的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">gratings（格栅）</strong> 的风险。当系统发生故障时，海员们也难以获得关键备件。"[FT]</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">An interesting example of the complexity of petroleum and petrochemical supply chains: a cooking oil shortage in India is driving up gas prices in California. "India, the most populous country, uses LPG as its primary cooking fuel. Cut off from Middle Eastern LPG, which represented over 90% of India's total imports of the fuel before the Iran war, New Delhi has directed refiners to maximize LPG output. To comply, refiners have cut production of alkylates - motor fuel additives made using LPG as feedstock. For California, shrinking alkylate supply compounds concerns of a potential gasoline shortage due to declining fuel production and exports from Asian refiners struggling to access Middle Eastern crude oil. Alkylates are highly sought in California because they burn cleaner than other additives, and the state requires a unique gasoline blend to reduce smog." [Reuters]</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这是一个展现石油和石化供应链复杂性的有趣案例：印度的食用油短缺正在推高加利福尼亚的天然气价格。"作为全球人口最多的国家，印度以 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LPG（液化石油气）</strong> 作为主要烹饪燃料。由于伊朗战争切断了曾占印度该燃料总进口量90%以上的中东 LPG 供应，新德里已指示炼油厂最大化 LPG 产量。为遵守指令，炼油厂削减了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">alkylates（烷基化物）</strong> 的产量——这是一种以 LPG 为原料生产的机动车燃料添加剂。对加利福尼亚而言，烷基化物供应的缩减加剧了潜在的汽油短缺担忧，原因是亚洲炼油厂因难以获取中东 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">crude oil（原油）</strong> 而导致燃料产量和出口下降。烷基化物在加州备受青睐，因为其燃烧比其他添加剂更清洁，且该州要求使用独特的汽油混合配方以减少烟雾。"[Reuters]</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The US has lost 42 aircraft so far in the war with Iran, most of which (24) are MQ-9 Reaper drones. [National Security Journal]</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">迄今为止，美国在与伊朗的战争中共损失42架飞行器，其中24架为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MQ-9 Reaper</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">drones（无人机）</strong>。[National Security Journal]</p>
+
+<h4 style="margin:24px 0 12px;">Housing</h4>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">住房</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The House passes its version of the Senate's Road to Housing Act, without thebuild-to-rent restriction, 396 to 13. [NPR]</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">众议院以396票对13票通过了参议院 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Road to Housing Act（住房之路法案）</strong> 的众议院版本，其中不包含 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">build-to-rent（建后出租）</strong> 限制条款。[NPR]</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The NYT has a big, data-driven opinion piece on the need for the US to build more homes to bring down the price of housing. "The situation in expensive coastal areas, however, is far worse. They have enacted onerous zoning and building rules that limit home construction. They have allowed the "not in my backyard" instinct to prevail. Many of these areas vote Democratic and identify as politically progressive, yet their housing policies have increased inequality. By maximizing home prices, these parts of blue America have benefited existing homeowners, who tend to be older and richer, at the expense of everyone else. Nationwide, the relationship between home prices and home construction is even stronger than many Americans realize."</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">NYT</strong> 发表了一篇基于大量数据的重磅评论文章，论述美国需要建造更多住房以降低房价。"然而，在昂贵的沿海地区，情况要糟糕得多。这些地区制定了繁重的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">zoning（分区规划）</strong> 和建筑法规，限制了住宅建设。它们任由 '<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">not in my backyard（别在我家后院）</strong>' 的本能占上风。这些地区中的许多地方投票支持民主党并自认政治进步，但其住房政策却加剧了不平等。通过最大化房价，这些蓝色美国的地区让现有房主——他们往往年龄更大、更富有——受益，而代价则是其他所有人的利益。在全国范围内，房价与住宅建设之间的关系甚至比许多美国人意识到的还要紧密。"</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!VPoc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a888996-3b87-44c6-bf51-2cd56ba23174_906x779.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Because California makes it so difficult to remove people living in a residence (whether they're there legally or not), some California landlords are hiring "squatter removal services" to intimidate illegal squatters from vacating the properties they're occupying. "Jacobs claims to have developed a long list of tools and tactics that enable him to remove squatters far faster than the court system, all while staying within the bounds of the law. Chief among them is a weapon he carries on every job: a katana, a curved Japanese sword that's more synonymous with samurai warriors than clearing squatters. "In most industries, swords just don't make any damn sense," Jacobs says. "In this particular one, it actually does." The lightly regulated katana, he explains, is an ideal weapon for indoor self-defense and intimidation." [Reason]</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">由于加利福尼亚州很难将居住在某处住宅中的人驱逐出去（无论其是否合法居住），一些加州房东开始雇佣 "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">squatter removal services（占屋者驱逐服务）</strong>" 来恐吓非法占屋者，迫使他们搬离所占用的房产。"<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jacobs（雅各布斯）</strong> 声称自己开发了一系列工具和策略，使他能够在法律允许的范围内，以远快于法院系统的速度驱逐占屋者。其中最重要的是他每次出任务都会携带的一件武器：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">katana（武士刀）</strong>——这种弯曲的日本长剑更多让人联想到武士，而非清理占屋者。'在大多数行业中，刀剑根本毫无意义，'雅各布斯说，'但在这一行，它确实有用。'他解释说，这种监管松散的武士刀是室内自卫和威慑的理想武器。"[Reason]</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Washington state legalizes scissor stairs, interlocking stairways that let you combine two stairways in one shaft. Scissor stairs are, like single-stair apartment buildings, a space-saving building design feature that's common in other countries but mostly illegal in the US. [Sightline]</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">华盛顿州将 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">scissor stairs（剪刀楼梯）</strong> 合法化——这种交错式楼梯允许将两部楼梯合并在一个竖井内。与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">single-stair（单梯）</strong> 公寓楼类似，剪刀楼梯是一种节省空间的建筑设计特色，在其他国家很常见，但在美国大部分地区属于非法。[Sightline]</p>
+
+<h4 style="margin:24px 0 12px;">Manufacturing</h4>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">制造业</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Because of their microscopic size and their sensitivity to minute changes in chemical concentrations, semiconductor fabricators invest an enormous amount of effort intoprocess controlto minimize the number of defects that occur on a microchip. Defects nevertheless still occur, and when they do there's often no real way to repair them. But that doesn't mean the entire chip is useless; it just means you need to find a way to use it without the damaged areas. "The chip powering the Neo is Apple's A18 Pro, the same chip first used inside the iPhone 16 Pro two years ago, but with one key difference. The Neo version of the chip has a "5-core" graphics processor, one less than the version inside the 2024 iPhones, indicating that Apple was able to save some of the A18 Pro chips with a defective core for future use. Defective cores can be disabled, leaving a chip that still functions perfectly well to power different, often cheaper devices—in this case an entry-level laptop instead of a top-of-the-line iPhone. It is the latest example of Apple deploying a decades-old chip industry strategy to squeeze profits from lesser-performing processors by selling them like eggs, gas, diamonds or hotel rooms, segmented by good, better and best." [WSJ]</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">由于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">semiconductor（半导体）</strong> 制造对象的微观尺寸及其对化学浓度微小变化的敏感性，晶圆厂投入巨大精力进行 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">process control（过程控制）</strong>，以尽量减少微芯片上出现的缺陷数量。然而缺陷仍然会发生，而且一旦发生往往没有真正的修复方法。但这并不意味着整颗芯片就毫无用处；它只是意味着你需要找到一种避开损坏区域来使用它的方法。"为 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Neo</strong> 提供动力的芯片是 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">A18 Pro</strong>——这与两年前首次用于 iPhone 16 Pro 的芯片相同，但有一个关键区别。Neo 版本的芯片采用'5核'图形处理器，比2024年 iPhone 内置的版本少了一核，这表明 Apple 能够将一些带有缺陷核心的 A18 Pro 芯片保留下来供日后使用。缺陷核心可以被禁用，留下的芯片仍能完美运行，为不同的、通常更便宜的设备提供动力——在本例中是一台入门级笔记本电脑，而非顶级 iPhone。这是 Apple 采用一项已有数十年历史的芯片行业策略的最新例证：通过将性能较低的处理器像鸡蛋、汽油、钻石或酒店房间一样按好、更好、最好进行分级销售，从中榨取利润。"[WSJ]</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Read more</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">阅读更多</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://www.construction-physics.com/p/reading-list-052326" target="_blank">阅读原文 &rarr;</a>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-05-17
+  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-05-23
 </div>
 
 <script>

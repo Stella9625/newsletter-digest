@@ -7,16 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 17 May 2026 23:15:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 23:39:31 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-05-17</title>
-      <description>&lt;h2&gt;科技日报 · 今日精选&lt;/h2&gt;
+      <title>📰 AI/产品/技术日报 - 2026-05-23</title>
+      <description>&lt;h3&gt;工程与系统设计&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;On the &amp;lt;dl&amp;gt;&lt;/strong&gt; | Simon Willison（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;介绍了 HTML 描述列表的现代表述，明确其自 HTML5 起已正名为“描述列表”而非“定义列表”，并说明了一对多映射、&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;包裹样式及 ARIA 无障碍标注等实践细节。&lt;/p&gt;
+&lt;h3&gt;产品与增长&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;🧠 Community Wisdom&lt;/strong&gt; | Kiyani（Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;汇总 Slack 社区精华，涵盖最佳 AI 外联工具推荐、大学生产品经理求职建议、AI 设计现状及 2026 年 QA 角色前景等话题。&lt;/p&gt;
 &lt;h3&gt;跨界与深度思考&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GDS 罕见批评 NHS 退出开源&lt;/strong&gt;（Simon Willison / Simon Willison）：英国政府数字服务局（GDS）重申公共部门应坚持&amp;quot;默认开放&amp;quot;原则，指出代码私有化将推高交付成本并削弱代码审查与重用能力；该表态被普遍视为对英国国家医疗服务体系（NHS）近期闭源转向的罕见公开批评。&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-17</guid>
-      <pubDate>Sun, 17 May 2026 23:15:05 +0000</pubDate>
+&lt;li&gt;&lt;strong&gt;Reading List 05/23/26&lt;/strong&gt; | Brian Potter（Construction Physics）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;聚焦建筑与工业技术，梳理了伊朗战争对全球航运及能源供应链的冲击、美国住房短缺危机，以及苹果通过屏蔽缺陷核心回收利用次品芯片的制造策略。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-23</guid>
+      <pubDate>Sat, 23 May 2026 23:39:31 +0000</pubDate>
     </item>
   </channel>
 </rss>
