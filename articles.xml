@@ -7,130 +7,178 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 23 May 2026 23:38:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 00:09:26 +0000</lastBuildDate>
     <item>
-      <title>[翻译] Construction Physics: 阅读清单 05/23/26</title>
-      <link>https://www.construction-physics.com/p/reading-list-052326</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #住房 #半导体 #基建 #能源&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 这是一份关于建筑、基础设施与工业技术的每周阅读清单，核心内容涵盖伊朗战争对全球航运及能源供应链的冲击、美国住房短缺危机与建设壁垒，以及苹果通过屏蔽缺陷核心回收利用次品芯片以提升利润的制造业策略。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Reading List 05/23/26&lt;/p&gt;
+      <title>[翻译] Simon Willison: 引用科里·奎因</title>
+      <link>https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI伦理 #Anthropic #教皇 #科技游说&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Corey Quinn讽刺Anthropic联合创始人影响教皇AI通谕《Magnifica Humanitas》，将产品技术局限性包装为宗教教义，称其为自己见过最极致的厂商游说行为。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Quoting Corey Quinn&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Reading List 05/23/26&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;阅读清单 05/23/26&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Quoting Corey Quinn / 引用 Corey Quinn 的评论&lt;/h3&gt;
 
-&lt;img src="https://substackcdn.com/image/fetch/$s_!d79E!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d2cfa55-24fa-41e6-9a00-a4d7538c876a_1290x848.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Welcome to the reading list, a weekly roundup of news and links related to buildings, infrastructure and industrial technology. This week we look at squatter removal services, Apple finding uses for defective chips, process heat use in California, the brewing Colorado River crisis, and more. Roughly 2/3rds of the reading list is paywalled, so for full access become a paid subscriber.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;欢迎来到阅读清单，这是关于建筑、基础设施和工业技术的每周新闻与链接汇总。本周我们将探讨占屋者驱逐服务、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple&lt;/strong&gt; 如何为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;defective chips（缺陷芯片）&lt;/strong&gt; 寻找用途、加利福尼亚的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;process heat（工艺热）&lt;/strong&gt; 使用、酝酿中的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Colorado River（科罗拉多河）&lt;/strong&gt; 危机等话题。阅读清单中约三分之二的内容为付费墙限制，如需完整访问，请成为付费订阅者。&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;War in Iran&lt;/h4&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;伊朗战争&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Iran wants to charge US tech companies for use of the undersea cables that pass through the Strait of Hormuz. [Ars Technica] And Iran is starting a Bitcoin-backed ship insurance service [Bloomberg]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;伊朗拟向通过 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Strait of Hormuz（霍尔木兹海峡）&lt;/strong&gt; 的海底电缆收取使用费，收费对象为美国科技公司。[Ars Technica] 此外，伊朗正在推出一项由 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Bitcoin（比特币）&lt;/strong&gt; 支持的船舶保险服务。[Bloomberg]&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The hundreds of ships stuck in the Persian Gulf are starting to get damaged by all the barnacles and jellyfish that they're accumulating. "...the Gulf's shallow sandy seabed and warm waters have put ships at anchor or adrift there at risk of sand and sea creatures clogging up gratings that protect the vessel's internal pipework. Seafarers are also struggling to get hold of critical parts when systems have broken down." [FT]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;被困在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Persian Gulf（波斯湾）&lt;/strong&gt; 的数百艘船只正因其附着的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;barnacles（藤壶）&lt;/strong&gt; 和水母而开始受损。"……海湾浅薄的沙质海底和温暖水域使停泊或漂流在那里的船只面临沙粒和海洋生物堵塞保护船体内部管道的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;gratings（格栅）&lt;/strong&gt; 的风险。当系统发生故障时，海员们也难以获得关键备件。"[FT]&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;An interesting example of the complexity of petroleum and petrochemical supply chains: a cooking oil shortage in India is driving up gas prices in California. "India, the most populous country, uses LPG as its primary cooking fuel. Cut off from Middle Eastern LPG, which represented over 90% of India's total imports of the fuel before the Iran war, New Delhi has directed refiners to maximize LPG output. To comply, refiners have cut production of alkylates - motor fuel additives made using LPG as feedstock. For California, shrinking alkylate supply compounds concerns of a potential gasoline shortage due to declining fuel production and exports from Asian refiners struggling to access Middle Eastern crude oil. Alkylates are highly sought in California because they burn cleaner than other additives, and the state requires a unique gasoline blend to reduce smog." [Reuters]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这是一个展现石油和石化供应链复杂性的有趣案例：印度的食用油短缺正在推高加利福尼亚的天然气价格。"作为全球人口最多的国家，印度以 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LPG（液化石油气）&lt;/strong&gt; 作为主要烹饪燃料。由于伊朗战争切断了曾占印度该燃料总进口量90%以上的中东 LPG 供应，新德里已指示炼油厂最大化 LPG 产量。为遵守指令，炼油厂削减了 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;alkylates（烷基化物）&lt;/strong&gt; 的产量——这是一种以 LPG 为原料生产的机动车燃料添加剂。对加利福尼亚而言，烷基化物供应的缩减加剧了潜在的汽油短缺担忧，原因是亚洲炼油厂因难以获取中东 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;crude oil（原油）&lt;/strong&gt; 而导致燃料产量和出口下降。烷基化物在加州备受青睐，因为其燃烧比其他添加剂更清洁，且该州要求使用独特的汽油混合配方以减少烟雾。"[Reuters]&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The US has lost 42 aircraft so far in the war with Iran, most of which (24) are MQ-9 Reaper drones. [National Security Journal]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;迄今为止，美国在与伊朗的战争中共损失42架飞行器，其中24架为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MQ-9 Reaper&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;drones（无人机）&lt;/strong&gt;。[National Security Journal]&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Housing&lt;/h4&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;住房&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The House passes its version of the Senate's Road to Housing Act, without thebuild-to-rent restriction, 396 to 13. [NPR]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;众议院以396票对13票通过了参议院 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Road to Housing Act（住房之路法案）&lt;/strong&gt; 的众议院版本，其中不包含 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;build-to-rent（建后出租）&lt;/strong&gt; 限制条款。[NPR]&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The NYT has a big, data-driven opinion piece on the need for the US to build more homes to bring down the price of housing. "The situation in expensive coastal areas, however, is far worse. They have enacted onerous zoning and building rules that limit home construction. They have allowed the "not in my backyard" instinct to prevail. Many of these areas vote Democratic and identify as politically progressive, yet their housing policies have increased inequality. By maximizing home prices, these parts of blue America have benefited existing homeowners, who tend to be older and richer, at the expense of everyone else. Nationwide, the relationship between home prices and home construction is even stronger than many Americans realize."&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;NYT&lt;/strong&gt; 发表了一篇基于大量数据的重磅评论文章，论述美国需要建造更多住房以降低房价。"然而，在昂贵的沿海地区，情况要糟糕得多。这些地区制定了繁重的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;zoning（分区规划）&lt;/strong&gt; 和建筑法规，限制了住宅建设。它们任由 '&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;not in my backyard（别在我家后院）&lt;/strong&gt;' 的本能占上风。这些地区中的许多地方投票支持民主党并自认政治进步，但其住房政策却加剧了不平等。通过最大化房价，这些蓝色美国的地区让现有房主——他们往往年龄更大、更富有——受益，而代价则是其他所有人的利益。在全国范围内，房价与住宅建设之间的关系甚至比许多美国人意识到的还要紧密。"&lt;/p&gt;
-
-&lt;img src="https://substackcdn.com/image/fetch/$s_!VPoc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a888996-3b87-44c6-bf51-2cd56ba23174_906x779.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Because California makes it so difficult to remove people living in a residence (whether they're there legally or not), some California landlords are hiring "squatter removal services" to intimidate illegal squatters from vacating the properties they're occupying. "Jacobs claims to have developed a long list of tools and tactics that enable him to remove squatters far faster than the court system, all while staying within the bounds of the law. Chief among them is a weapon he carries on every job: a katana, a curved Japanese sword that's more synonymous with samurai warriors than clearing squatters. "In most industries, swords just don't make any damn sense," Jacobs says. "In this particular one, it actually does." The lightly regulated katana, he explains, is an ideal weapon for indoor self-defense and intimidation." [Reason]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;由于加利福尼亚州很难将居住在某处住宅中的人驱逐出去（无论其是否合法居住），一些加州房东开始雇佣 "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;squatter removal services（占屋者驱逐服务）&lt;/strong&gt;" 来恐吓非法占屋者，迫使他们搬离所占用的房产。"&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Jacobs（雅各布斯）&lt;/strong&gt; 声称自己开发了一系列工具和策略，使他能够在法律允许的范围内，以远快于法院系统的速度驱逐占屋者。其中最重要的是他每次出任务都会携带的一件武器：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;katana（武士刀）&lt;/strong&gt;——这种弯曲的日本长剑更多让人联想到武士，而非清理占屋者。'在大多数行业中，刀剑根本毫无意义，'雅各布斯说，'但在这一行，它确实有用。'他解释说，这种监管松散的武士刀是室内自卫和威慑的理想武器。"[Reason]&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Washington state legalizes scissor stairs, interlocking stairways that let you combine two stairways in one shaft. Scissor stairs are, like single-stair apartment buildings, a space-saving building design feature that's common in other countries but mostly illegal in the US. [Sightline]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;华盛顿州将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;scissor stairs（剪刀楼梯）&lt;/strong&gt; 合法化——这种交错式楼梯允许将两部楼梯合并在一个竖井内。与 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;single-stair（单梯）&lt;/strong&gt; 公寓楼类似，剪刀楼梯是一种节省空间的建筑设计特色，在其他国家很常见，但在美国大部分地区属于非法。[Sightline]&lt;/p&gt;
-
-&lt;h4 style="margin:24px 0 12px;"&gt;Manufacturing&lt;/h4&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;制造业&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Because of their microscopic size and their sensitivity to minute changes in chemical concentrations, semiconductor fabricators invest an enormous amount of effort intoprocess controlto minimize the number of defects that occur on a microchip. Defects nevertheless still occur, and when they do there's often no real way to repair them. But that doesn't mean the entire chip is useless; it just means you need to find a way to use it without the damaged areas. "The chip powering the Neo is Apple's A18 Pro, the same chip first used inside the iPhone 16 Pro two years ago, but with one key difference. The Neo version of the chip has a "5-core" graphics processor, one less than the version inside the 2024 iPhones, indicating that Apple was able to save some of the A18 Pro chips with a defective core for future use. Defective cores can be disabled, leaving a chip that still functions perfectly well to power different, often cheaper devices—in this case an entry-level laptop instead of a top-of-the-line iPhone. It is the latest example of Apple deploying a decades-old chip industry strategy to squeeze profits from lesser-performing processors by selling them like eggs, gas, diamonds or hotel rooms, segmented by good, better and best." [WSJ]&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;由于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;semiconductor（半导体）&lt;/strong&gt; 制造对象的微观尺寸及其对化学浓度微小变化的敏感性，晶圆厂投入巨大精力进行 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;process control（过程控制）&lt;/strong&gt;，以尽量减少微芯片上出现的缺陷数量。然而缺陷仍然会发生，而且一旦发生往往没有真正的修复方法。但这并不意味着整颗芯片就毫无用处；它只是意味着你需要找到一种避开损坏区域来使用它的方法。"为 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Apple&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Neo&lt;/strong&gt; 提供动力的芯片是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;A18 Pro&lt;/strong&gt;——这与两年前首次用于 iPhone 16 Pro 的芯片相同，但有一个关键区别。Neo 版本的芯片采用'5核'图形处理器，比2024年 iPhone 内置的版本少了一核，这表明 Apple 能够将一些带有缺陷核心的 A18 Pro 芯片保留下来供日后使用。缺陷核心可以被禁用，留下的芯片仍能完美运行，为不同的、通常更便宜的设备提供动力——在本例中是一台入门级笔记本电脑，而非顶级 iPhone。这是 Apple 采用一项已有数十年历史的芯片行业策略的最新例证：通过将性能较低的处理器像鸡蛋、汽油、钻石或酒店房间一样按好、更好、最好进行分级销售，从中榨取利润。"[WSJ]&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Read more&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;阅读更多&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.construction-physics.com/p/reading-list-052326"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.construction-physics.com/p/reading-list-052326</guid>
-      <pubDate>Sat, 23 May 2026 12:02:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Lenny's Newsletter: 社区智慧：AI外联工具推荐、PM职业建议、AI设计趋势及更多</title>
-      <link>https://www.lennysnewsletter.com/p/community-wisdom-best-ai-cold-outreach</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #社区精选 #AI应用 #职业建议&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本周会员专享的《Community Wisdom》邮件汇总了Slack社区中的精华对话，涵盖最佳AI外联工具、大学生产品经理求职建议、AI设计现状及2026年QA前景等热门话题。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: 🧠 Community Wisdom: Best AI cold outreach app, advice for college students interested in PM, the state of AI in design, the relevance of QA in 2026, and more&lt;/p&gt;
-&lt;hr/&gt;
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-👋 Hello and welcome to this week’s edition of ✨&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Community Wisdom&lt;/strong&gt;✨ a subscriber-only email, delivered every Saturday, highlighting the most helpful conversations inour members-only &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt; community.
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+I cannot believe I'm saying this, but getting the literal &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pope&lt;/strong&gt; to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;canonize&lt;/strong&gt; your product's specific technical limitations as a spiritual treatise is the single greatest act of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vendor lobbying&lt;/strong&gt; I have ever seen.
+&lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-👋 你好，欢迎阅读本周 ✨&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Community Wisdom（社区智慧）&lt;/strong&gt;✨ 栏目——这是一封订阅者专享邮件，每周六发送，精选我们仅限会员的 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Slack&lt;/strong&gt; 社区中最有价值的讨论。
+我简直不敢相信我居然会这么说，但让&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pope&lt;/strong&gt;（教皇）亲自将你家产品的具体技术局限性&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;canonize&lt;/strong&gt;（册封）为一篇 spiritual treatise（灵性学说），是我迄今为止见过的最了不起的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vendor lobbying&lt;/strong&gt;（厂商游说）行为。
 &lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.lennysnewsletter.com/p/community-wisdom-best-ai-cold-outreach"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.lennysnewsletter.com/p/community-wisdom-best-ai-cold-outreach</guid>
-      <pubDate>Sat, 23 May 2026 20:33:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: 关于 &lt;dl&gt; 元素</title>
-      <link>https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #HTML #语义化 #无障碍&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本文介绍了HTML描述列表（&amp;amp;lt;dl&amp;amp;gt;）的现代表述与核心用法，指出一个&amp;amp;lt;dt&amp;amp;gt;可对应多个&amp;amp;lt;dd&amp;amp;gt;、允许用&amp;amp;lt;div&amp;amp;gt;包裹以便样式设计且支持ARIA标注，并澄清该元素自2008年HTML5草案起已更名为&amp;quot;描述列表&amp;quot;而非&amp;quot;定义列表&amp;quot;。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: On the &amp;lt;dl&amp;gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;On the &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;&amp;lt;dl&amp;gt;&lt;/code&gt;&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;关于 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;&amp;lt;dl&amp;gt;&lt;/code&gt; 元素&lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;ul style="margin:0;padding-left:20px;"&gt;
-&lt;li&gt;A &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;&amp;lt;dt&amp;gt;&lt;/code&gt; can be followed by multiple &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;&amp;lt;dd&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;You can optionally group the &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;&amp;lt;dt&amp;gt;&lt;/code&gt; and &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;&amp;lt;dd&amp;gt;&lt;/code&gt; elements in a &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;&amp;lt;div&amp;gt;&lt;/code&gt; for styling - but only a &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;&amp;lt;div&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;You can label them using &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ARIA&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;They've been called "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;description lists&lt;/strong&gt;", not "&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;definition lists&lt;/strong&gt;", since an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;HTML5&lt;/strong&gt; draft in 2008.&lt;/li&gt;
-&lt;/ul&gt;
+I cannot believe I'm saying this, but getting the literal &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pope&lt;/strong&gt; to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;canonize&lt;/strong&gt; your product's specific technical limitations as a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;spiritual treatise&lt;/strong&gt; is the single greatest act of vendor lobbying I have ever seen.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我简直不敢相信我居然会这么说，但让&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pope&lt;/strong&gt;（教皇）亲自将你家产品的具体技术局限性&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;canonize&lt;/strong&gt;（册封）为一篇&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;spiritual treatise&lt;/strong&gt;（灵性学说），是我迄今为止见过的最了不起的 vendor lobbying（厂商游说）行为。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+—&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Corey Quinn&lt;/strong&gt;, on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; co-founder &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Christopher Olah&lt;/strong&gt;'sinfluenceonMagnifica Humanitas
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Corey Quinn&lt;/strong&gt;，评 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 联合创始人 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Christopher Olah&lt;/strong&gt; 对 Magnifica Humanitas 的影响
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Tags:&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai-ethics&lt;/strong&gt;,&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;corey-quinn&lt;/strong&gt;,&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;anthropic&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai-ethics&lt;/strong&gt;,&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;corey-quinn&lt;/strong&gt;,&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;anthropic&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;
+&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything</guid>
+      <pubDate>Tue, 26 May 2026 02:28:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: 保罗·格雷厄姆谈AI代写</title>
+      <link>https://simonwillison.net/2026/May/26/paul-graham/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI写作 #创业 #诚信&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Paul Graham批评创业者使用AI代写邮件的现象，认为这种文字一旦识破便令人难以卒读，且感觉像是被欺骗。他指出这不仅反映出作者缺乏独立写作能力，且用AI代写毫无门槛，丝毫不令人印象深刻。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Quoting Paul Graham&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Quoting Paul Graham&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;引用 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Paul Graham&lt;/strong&gt;（保罗·格雷厄姆）&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+A lot of the emails I get from founders are now written in a hard-hitting journalistic style. I know they're written by &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;, because no founder ever wrote this way before. And once you realize something is written by &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;, it's hard not to ignore it.I have never knowingly finished reading an email signed by a human but written by &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;. It feels like being lied to, and who would stand for that?[...] It makes me think less of the author. It means they can't write well unaided (or feel they can't), and that they're trying to trick me.It's not impressive to use &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; to write stuff for you; any teenager can do that.
+&lt;/blockquote&gt;
 &lt;/div&gt;
 
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;ul style="margin:0;padding-left:20px;"&gt;
-&lt;li&gt;一个 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;&amp;lt;dt&amp;gt;&lt;/code&gt; 后面可以跟多个 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;&amp;lt;dd&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;你可以根据需要把 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;&amp;lt;dt&amp;gt;&lt;/code&gt; 和 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;&amp;lt;dd&amp;gt;&lt;/code&gt; 元素归组到一个 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;&amp;lt;div&amp;gt;&lt;/code&gt; 中以便添加样式——但只能使用 &lt;code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;"&gt;&amp;lt;div&amp;gt;&lt;/code&gt;。&lt;/li&gt;
-&lt;li&gt;你可以使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ARIA&lt;/strong&gt;（无障碍富互联网应用程序）为它们添加标签。&lt;/li&gt;
-&lt;li&gt;自 2008 年的一份 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;HTML5&lt;/strong&gt; 草案起，它们就被称为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;description lists&lt;/strong&gt;（描述列表），而非 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;definition lists&lt;/strong&gt;（定义列表）。&lt;/li&gt;
-&lt;/ul&gt;
+我现在收到的许多创始人的邮件现在都采用了一种犀利的新闻体风格。我知道它们是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;（人工智能）写的，因为以前从来没有创始人这样写过。一旦你意识到某样东西是 AI 写的，你就很难不去忽略它。我从未刻意读完过一封由人类署名却由 AI 撰写的邮件。这感觉像是被欺骗了，谁能忍受这种事？[……]这让我对作者的评价降低。这意味着他们无法独立写出好文章（或觉得自己做不到），而且他们在试图欺骗我。用 AI 帮你写东西并不令人印象深刻；任何青少年都能做到。
 &lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;So this is valid:&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;因此，这是有效的：&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+A lot of the emails I get from founders are now written in a hard-hitting journalistic style. I know they're written by &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;, because no founder ever wrote this way before. And once you realize something is written by &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;, it's hard not to ignore it.
+&lt;/div&gt;
 
-&lt;pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"&gt;&lt;code&gt;&amp;lt;h2id="credits"&amp;gt;Credits&amp;lt;/h2&amp;gt;&amp;lt;dlaria-labelledby="credits"&amp;gt;&amp;lt;div&amp;gt;&amp;lt;dt&amp;gt;Author&amp;lt;/dt&amp;gt;&amp;lt;dd&amp;gt;Jeffrey Zeldman&amp;lt;/dd&amp;gt;&amp;lt;dd&amp;gt;Ethan Marcotte&amp;lt;/dd&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/dl&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我现在收到的许多创始人的邮件现在都采用了一种犀利的新闻体风格。我知道它们是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 写的，因为以前从来没有创始人这样写过。一旦你意识到某样东西是 AI 写的，你就很难不去忽略它。
+&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Here's a useful note from &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Adrian Roselli&lt;/strong&gt; on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;screen reader&lt;/strong&gt; support for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;description lists&lt;/strong&gt;.&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;这里有一则来自 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Adrian Roselli&lt;/strong&gt; 关于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;screen reader&lt;/strong&gt;（屏幕阅读器）支持 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;description lists&lt;/strong&gt;（描述列表）的实用说明。&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+I have never knowingly finished reading an email signed by a human but written by &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;. It feels like being lied to, and who would stand for that?
+&lt;/div&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Via &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hacker News&lt;/strong&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;来源：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hacker News&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我从未刻意读完过一封由人类署名却由 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 撰写的邮件。这感觉像是被欺骗了，谁能忍受这种事？
+&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Tags: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;css&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;html&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;screen-readers&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;web-standards&lt;/strong&gt;&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;css&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;html&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;screen-readers&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;web-standards&lt;/strong&gt;&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+[...] It makes me think less of the author. It means they can't write well unaided (or feel they can't), and that they're trying to trick me.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+[……]这让我对作者的评价降低。这意味着他们无法独立写出好文章（或觉得自己做不到），而且他们在试图欺骗我。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+It's not impressive to use &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; to write stuff for you; any teenager can do that.
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 帮你写东西并不令人印象深刻；任何青少年都能做到。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+—&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Paul Graham&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Paul Graham&lt;/strong&gt;（保罗·格雷厄姆）
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Tags:writing,ai-misuse,paul-graham,generative-ai,ai,llms
+&lt;/div&gt;
+
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+标签：写作、ai 滥用、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Paul Graham&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative AI&lt;/strong&gt;（生成式人工智能）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt;（大语言模型）
+&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything</guid>
-      <pubDate>Sat, 23 May 2026 20:24:48 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/May/26/paul-graham/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/26/paul-graham/#atom-everything</guid>
+      <pubDate>Tue, 26 May 2026 15:02:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: 微软 Copilot Cowork 文件泄露漏洞</title>
+      <link>https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #微软 #数据外泄 #提示注入 #AI安全&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Microsoft Copilot Cowork 被曝出存在数据外泄漏洞，AI 代理可未经审批向用户发送包含外部图片的邮件，用户打开时即可能泄露数据；更严重的是，攻击者还可通过提示注入获取 OneDrive 预认证下载链接，进而窃取用户文件。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Microsoft Copilot Cowork Exfiltrates Files&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Microsoft Copilot Cowork Exfiltrates Files&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+In this case &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Copilot Cowork&lt;/strong&gt; (yes, that'sa real product name) was allowing &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agents&lt;/strong&gt; to send emails to the user's own inbox without approval... but those messages were then displayed in a way that could leak data to an attacker via rendered images:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+在这种情况下，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Copilot Cowork&lt;/strong&gt;（是的，这是一个真实的产品名）允许&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;智能体（agents）&lt;/strong&gt;在未经批准的情况下向用户自己的收件箱发送电子邮件……但这些消息随后以某种方式显示，可能通过渲染的图片将数据泄露给攻击者：
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+Because these messages can contain external images that trigger &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;network requests&lt;/strong&gt; to external websites, data can be &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;exfiltrated&lt;/strong&gt; when a user opens a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;compromised&lt;/strong&gt; message sent by the agent.
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:4px 0 24px;background:#f9f9fb;color:#2c2c2e;line-height:1.8;font-size:15px;"&gt;
+因为这些消息可能包含触发向外部网站发起&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;网络请求（network requests）&lt;/strong&gt;的外部图片，当用户打开由智能体发送的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;被篡改（compromised）&lt;/strong&gt;消息时，数据可能被&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;外泄（exfiltrated）&lt;/strong&gt;。
+&lt;/blockquote&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Because these messages can contain external images that trigger network requests to external websites, data can be exfiltrated when a user opens a compromised message sent by the agent.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+因为这些消息可能包含触发向外部网站发起网络请求的外部图片，当用户打开由智能体发送的被篡改消息时，数据可能被外泄。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Since &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OneDrive&lt;/strong&gt; can create &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;pre-authenticated&lt;/strong&gt; download links, a successful &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt injection&lt;/strong&gt; could cause those links to be leaked, allowing files to be downloaded by the attacker.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+由于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OneDrive&lt;/strong&gt; 可以创建&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;预认证（pre-authenticated）&lt;/strong&gt;下载链接，一次成功的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;提示注入（prompt injection）&lt;/strong&gt;可能导致这些链接被泄露，从而使攻击者能够下载文件。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Via&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hacker News&lt;/strong&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+来源：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hacker News&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Tags:&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;microsoft&lt;/strong&gt;,security,ai,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt-injection&lt;/strong&gt;,generative-ai,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;,exfiltration-attacks,lethal-trifecta
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+标签：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;microsoft&lt;/strong&gt;、security、ai、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt-injection（提示注入）&lt;/strong&gt;、generative-ai、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms（大语言模型）&lt;/strong&gt;、exfiltration-attacks、lethal-trifecta
+&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything</guid>
+      <pubDate>Tue, 26 May 2026 15:36:48 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -7,26 +7,31 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 23 May 2026 23:39:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 00:09:45 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-05-23</title>
-      <description>&lt;h3&gt;工程与系统设计&lt;/h3&gt;
+      <title>📰 AI/产品/技术日报 - 2026-05-27</title>
+      <description>&lt;p&gt;&lt;strong&gt;每日 AI / 产品 / 技术日报&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;LLM &amp;amp; AI 安全&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;On the &amp;lt;dl&amp;gt;&lt;/strong&gt; | Simon Willison（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft Copilot 被曝数据外泄漏洞&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;介绍了 HTML 描述列表的现代表述，明确其自 HTML5 起已正名为“描述列表”而非“定义列表”，并说明了一对多映射、&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;包裹样式及 ARIA 无障碍标注等实践细节。&lt;/p&gt;
-&lt;h3&gt;产品与增长&lt;/h3&gt;
+&lt;p&gt;AI 代理可未经审批向用户发送含外部图片的邮件，用户打开即可能触发数据泄露；攻击者还能通过提示注入获取 OneDrive 预认证下载链接以窃取文件。&lt;/p&gt;
+&lt;p&gt;*— Simon Willison*&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;跨界与深度思考&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;🧠 Community Wisdom&lt;/strong&gt; | Kiyani（Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paul Graham 批评创业者使用 AI 代写邮件&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;汇总 Slack 社区精华，涵盖最佳 AI 外联工具推荐、大学生产品经理求职建议、AI 设计现状及 2026 年 QA 角色前景等话题。&lt;/p&gt;
-&lt;h3&gt;跨界与深度思考&lt;/h3&gt;
+&lt;p&gt;他认为 AI 代笔的文字一旦被识破便令人难以忍受，且给人以欺骗感；此举既无法体现作者的独立写作能力，也毫无门槛与 impressiveness。&lt;/p&gt;
+&lt;p&gt;*— Simon Willison（转引 Paul Graham）*&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Reading List 05/23/26&lt;/strong&gt; | Brian Potter（Construction Physics）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Corey Quinn 讽刺 Anthropic 联合创始人的“教皇游说”&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;聚焦建筑与工业技术，梳理了伊朗战争对全球航运及能源供应链的冲击、美国住房短缺危机，以及苹果通过屏蔽缺陷核心回收利用次品芯片的制造策略。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-23</guid>
-      <pubDate>Sat, 23 May 2026 23:39:31 +0000</pubDate>
+&lt;p&gt;Quinn 嘲讽其影响教皇 AI 通谕《Magnifica Humanitas》，将产品技术局限性包装为宗教教义，称这是见过最极致的厂商游说行为。&lt;/p&gt;
+&lt;p&gt;*— Simon Willison（转引 Corey Quinn）*&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-27</guid>
+      <pubDate>Wed, 27 May 2026 00:09:45 +0000</pubDate>
     </item>
   </channel>
 </rss>
