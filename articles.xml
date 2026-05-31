@@ -7,178 +7,49 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 27 May 2026 00:09:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 23:32:29 +0000</lastBuildDate>
     <item>
-      <title>[翻译] Simon Willison: 引用科里·奎因</title>
-      <link>https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI伦理 #Anthropic #教皇 #科技游说&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Corey Quinn讽刺Anthropic联合创始人影响教皇AI通谕《Magnifica Humanitas》，将产品技术局限性包装为宗教教义，称其为自己见过最极致的厂商游说行为。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Quoting Corey Quinn&lt;/p&gt;
+      <title>[翻译] Simon Willison: 路透Breakingviews：Anthropic年化营收算法揭秘</title>
+      <link>https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Anthropic #年化收入 #人工智能&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 据路透援引知情人士，AI公司Anthropic对“年化收入运行率”采用特殊计算方式：将按量计费客户过去28天的销售额乘以13，再与月度订阅收入乘以12后的数值相加。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Quoting Karen Kwok for Reuters Breakingviews&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Quoting Corey Quinn / 引用 Corey Quinn 的评论&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Quoting &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Karen Kwok&lt;/strong&gt; for &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Reuters Breakingviews&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-I cannot believe I'm saying this, but getting the literal &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pope&lt;/strong&gt; to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;canonize&lt;/strong&gt; your product's specific technical limitations as a spiritual treatise is the single greatest act of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vendor lobbying&lt;/strong&gt; I have ever seen.
-&lt;/blockquote&gt;
+  &lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+    &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; defines “&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;run-rate revenue&lt;/strong&gt;” in two parts. Use the last 28 days of sales ⁠from customers charged on a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;consumption basis&lt;/strong&gt; and multiply it by 13. Then, multiply the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;monthly subscription&lt;/strong&gt; take by 12, ​and add the two together.
+  &lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我简直不敢相信我居然会这么说，但让&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pope&lt;/strong&gt;（教皇）亲自将你家产品的具体技术局限性&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;canonize&lt;/strong&gt;（册封）为一篇 spiritual treatise（灵性学说），是我迄今为止见过的最了不起的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;vendor lobbying&lt;/strong&gt;（厂商游说）行为。
+  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;run-rate revenue&lt;/strong&gt;（年化营收）分为两部分计算：取过去 28 天按 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;consumption basis&lt;/strong&gt;（按量计费）收费的客户销售额乘以 13；再将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;monthly subscription&lt;/strong&gt;（月度订阅）收入乘以 12；最后将两者相加。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-I cannot believe I'm saying this, but getting the literal &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pope&lt;/strong&gt; to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;canonize&lt;/strong&gt; your product's specific technical limitations as a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;spiritual treatise&lt;/strong&gt; is the single greatest act of vendor lobbying I have ever seen.
+  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; defines “&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;run-rate revenue&lt;/strong&gt;” in two parts. Use the last 28 days of sales ⁠from customers charged on a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;consumption basis&lt;/strong&gt; and multiply it by 13. Then, multiply the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;monthly subscription&lt;/strong&gt; take by 12, ​and add the two together.
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我简直不敢相信我居然会这么说，但让&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Pope&lt;/strong&gt;（教皇）亲自将你家产品的具体技术局限性&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;canonize&lt;/strong&gt;（册封）为一篇&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;spiritual treatise&lt;/strong&gt;（灵性学说），是我迄今为止见过的最了不起的 vendor lobbying（厂商游说）行为。
+  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;run-rate revenue&lt;/strong&gt;（年化营收）分为两部分计算：取过去 28 天按 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;consumption basis&lt;/strong&gt;（按量计费）收费的客户销售额乘以 13；再将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;monthly subscription&lt;/strong&gt;（月度订阅）收入乘以 12；最后将两者相加。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-—&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Corey Quinn&lt;/strong&gt;, on &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; co-founder &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Christopher Olah&lt;/strong&gt;'sinfluenceonMagnifica Humanitas
+  —&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Karen Kwok&lt;/strong&gt; for &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Reuters Breakingviews&lt;/strong&gt;, citing "a person familiar with the matter"
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Corey Quinn&lt;/strong&gt;，评 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 联合创始人 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Christopher Olah&lt;/strong&gt; 对 Magnifica Humanitas 的影响
+  ——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Karen Kwok&lt;/strong&gt; 为 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Reuters Breakingviews&lt;/strong&gt; 撰稿，援引“一位知情人士”的说法
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Tags:&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai-ethics&lt;/strong&gt;,&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;corey-quinn&lt;/strong&gt;,&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;anthropic&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;
+  Tags:&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;anthropic&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai-ethics&lt;/strong&gt;,&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;corey-quinn&lt;/strong&gt;,&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;anthropic&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;
-&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything</guid>
-      <pubDate>Tue, 26 May 2026 02:28:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: 保罗·格雷厄姆谈AI代写</title>
-      <link>https://simonwillison.net/2026/May/26/paul-graham/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI写作 #创业 #诚信&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Paul Graham批评创业者使用AI代写邮件的现象，认为这种文字一旦识破便令人难以卒读，且感觉像是被欺骗。他指出这不仅反映出作者缺乏独立写作能力，且用AI代写毫无门槛，丝毫不令人印象深刻。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Quoting Paul Graham&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Quoting Paul Graham&lt;/h3&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;引用 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Paul Graham&lt;/strong&gt;（保罗·格雷厄姆）&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-A lot of the emails I get from founders are now written in a hard-hitting journalistic style. I know they're written by &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;, because no founder ever wrote this way before. And once you realize something is written by &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;, it's hard not to ignore it.I have never knowingly finished reading an email signed by a human but written by &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;. It feels like being lied to, and who would stand for that?[...] It makes me think less of the author. It means they can't write well unaided (or feel they can't), and that they're trying to trick me.It's not impressive to use &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; to write stuff for you; any teenager can do that.
-&lt;/blockquote&gt;
-&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我现在收到的许多创始人的邮件现在都采用了一种犀利的新闻体风格。我知道它们是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;（人工智能）写的，因为以前从来没有创始人这样写过。一旦你意识到某样东西是 AI 写的，你就很难不去忽略它。我从未刻意读完过一封由人类署名却由 AI 撰写的邮件。这感觉像是被欺骗了，谁能忍受这种事？[……]这让我对作者的评价降低。这意味着他们无法独立写出好文章（或觉得自己做不到），而且他们在试图欺骗我。用 AI 帮你写东西并不令人印象深刻；任何青少年都能做到。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-A lot of the emails I get from founders are now written in a hard-hitting journalistic style. I know they're written by &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;, because no founder ever wrote this way before. And once you realize something is written by &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;, it's hard not to ignore it.
-&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我现在收到的许多创始人的邮件现在都采用了一种犀利的新闻体风格。我知道它们是 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 写的，因为以前从来没有创始人这样写过。一旦你意识到某样东西是 AI 写的，你就很难不去忽略它。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-I have never knowingly finished reading an email signed by a human but written by &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;. It feels like being lied to, and who would stand for that?
-&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我从未刻意读完过一封由人类署名却由 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 撰写的邮件。这感觉像是被欺骗了，谁能忍受这种事？
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-[...] It makes me think less of the author. It means they can't write well unaided (or feel they can't), and that they're trying to trick me.
-&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-[……]这让我对作者的评价降低。这意味着他们无法独立写出好文章（或觉得自己做不到），而且他们在试图欺骗我。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-It's not impressive to use &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; to write stuff for you; any teenager can do that.
-&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt; 帮你写东西并不令人印象深刻；任何青少年都能做到。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-—&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Paul Graham&lt;/strong&gt;
-&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Paul Graham&lt;/strong&gt;（保罗·格雷厄姆）
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Tags:writing,ai-misuse,paul-graham,generative-ai,ai,llms
-&lt;/div&gt;
-
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-标签：写作、ai 滥用、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Paul Graham&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative AI&lt;/strong&gt;（生成式人工智能）、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt;（大语言模型）
+  标签：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;anthropic&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;（人工智能）
 &lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/May/26/paul-graham/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/26/paul-graham/#atom-everything</guid>
-      <pubDate>Tue, 26 May 2026 15:02:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>[翻译] Simon Willison: 微软 Copilot Cowork 文件泄露漏洞</title>
-      <link>https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #微软 #数据外泄 #提示注入 #AI安全&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Microsoft Copilot Cowork 被曝出存在数据外泄漏洞，AI 代理可未经审批向用户发送包含外部图片的邮件，用户打开时即可能泄露数据；更严重的是，攻击者还可通过提示注入获取 OneDrive 预认证下载链接，进而窃取用户文件。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Microsoft Copilot Cowork Exfiltrates Files&lt;/p&gt;
-&lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Microsoft Copilot Cowork Exfiltrates Files&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-In this case &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Copilot Cowork&lt;/strong&gt; (yes, that'sa real product name) was allowing &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agents&lt;/strong&gt; to send emails to the user's own inbox without approval... but those messages were then displayed in a way that could leak data to an attacker via rendered images:
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-在这种情况下，&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Copilot Cowork&lt;/strong&gt;（是的，这是一个真实的产品名）允许&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;智能体（agents）&lt;/strong&gt;在未经批准的情况下向用户自己的收件箱发送电子邮件……但这些消息随后以某种方式显示，可能通过渲染的图片将数据泄露给攻击者：
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-Because these messages can contain external images that trigger &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;network requests&lt;/strong&gt; to external websites, data can be &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;exfiltrated&lt;/strong&gt; when a user opens a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;compromised&lt;/strong&gt; message sent by the agent.
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:4px 0 24px;background:#f9f9fb;color:#2c2c2e;line-height:1.8;font-size:15px;"&gt;
-因为这些消息可能包含触发向外部网站发起&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;网络请求（network requests）&lt;/strong&gt;的外部图片，当用户打开由智能体发送的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;被篡改（compromised）&lt;/strong&gt;消息时，数据可能被&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;外泄（exfiltrated）&lt;/strong&gt;。
-&lt;/blockquote&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Because these messages can contain external images that trigger network requests to external websites, data can be exfiltrated when a user opens a compromised message sent by the agent.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-因为这些消息可能包含触发向外部网站发起网络请求的外部图片，当用户打开由智能体发送的被篡改消息时，数据可能被外泄。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Since &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OneDrive&lt;/strong&gt; can create &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;pre-authenticated&lt;/strong&gt; download links, a successful &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt injection&lt;/strong&gt; could cause those links to be leaked, allowing files to be downloaded by the attacker.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-由于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;OneDrive&lt;/strong&gt; 可以创建&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;预认证（pre-authenticated）&lt;/strong&gt;下载链接，一次成功的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;提示注入（prompt injection）&lt;/strong&gt;可能导致这些链接被泄露，从而使攻击者能够下载文件。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Via&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hacker News&lt;/strong&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-来源：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Hacker News&lt;/strong&gt;
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Tags:&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;microsoft&lt;/strong&gt;,security,ai,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt-injection&lt;/strong&gt;,generative-ai,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;,exfiltration-attacks,lethal-trifecta
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-标签：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;microsoft&lt;/strong&gt;、security、ai、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prompt-injection（提示注入）&lt;/strong&gt;、generative-ai、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms（大语言模型）&lt;/strong&gt;、exfiltration-attacks、lethal-trifecta
-&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything</guid>
-      <pubDate>Tue, 26 May 2026 15:36:48 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything</guid>
+      <pubDate>Sun, 31 May 2026 01:48:12 +0000</pubDate>
     </item>
   </channel>
 </rss>

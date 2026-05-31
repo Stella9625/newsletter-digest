@@ -7,31 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 27 May 2026 00:09:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 23:33:04 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-05-27</title>
-      <description>&lt;p&gt;&lt;strong&gt;每日 AI / 产品 / 技术日报&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;LLM &amp;amp; AI 安全&lt;/h4&gt;
+      <title>📰 AI/产品/技术日报 - 2026-05-31</title>
+      <description>&lt;h3&gt;产品与增长&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Microsoft Copilot 被曝数据外泄漏洞&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anthropic 被曝采用非标准公式计算年化收入&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;AI 代理可未经审批向用户发送含外部图片的邮件，用户打开即可能触发数据泄露；攻击者还能通过提示注入获取 OneDrive 预认证下载链接以窃取文件。&lt;/p&gt;
-&lt;p&gt;*— Simon Willison*&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4&gt;跨界与深度思考&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Paul Graham 批评创业者使用 AI 代写邮件&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;他认为 AI 代笔的文字一旦被识破便令人难以忍受，且给人以欺骗感；此举既无法体现作者的独立写作能力，也毫无门槛与 impressiveness。&lt;/p&gt;
-&lt;p&gt;*— Simon Willison（转引 Paul Graham）*&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Corey Quinn 讽刺 Anthropic 联合创始人的“教皇游说”&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Quinn 嘲讽其影响教皇 AI 通谕《Magnifica Humanitas》，将产品技术局限性包装为宗教教义，称这是见过最极致的厂商游说行为。&lt;/p&gt;
-&lt;p&gt;*— Simon Willison（转引 Corey Quinn）*&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-27</guid>
-      <pubDate>Wed, 27 May 2026 00:09:45 +0000</pubDate>
+&lt;p&gt;据路透援引知情人士，AI 公司 Anthropic 在计算“年化收入运行率”时，将按量计费客户过去 28 天的销售额乘以 13（而非通常的 12），再与月度订阅收入乘以 12 后的数值相加。这一特殊口径可能使其 ARR 高于行业常规算法，引发对收入增速真实性的关注。（Simon Willison，援引 Reuters Breakingviews）&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-05-31</guid>
+      <pubDate>Sun, 31 May 2026 23:33:04 +0000</pubDate>
     </item>
   </channel>
 </rss>

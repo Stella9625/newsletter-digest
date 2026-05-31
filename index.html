@@ -292,41 +292,21 @@
 <div class="container">
   <div class="tabs">
     <button class="tab active" onclick="switchTab('digest')">每日日报</button>
-    <button class="tab" onclick="switchTab('articles')">全部文章 (3)</button>
+    <button class="tab" onclick="switchTab('articles')">全部文章 (1)</button>
   </div>
 
   <!-- 日报 Tab -->
   <div id="tab-digest" class="tab-content active">
-    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">微软</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">数据外泄</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">提示注入</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">AI安全</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">AI写作</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">创业</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">诚信</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">AI伦理</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
+    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">Anthropic</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">年化收入</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">人工智能</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
-      <h2>2026-05-27 日报</h2>
-      <p><strong>每日 AI / 产品 / 技术日报</strong></p>
-<hr>
-<h4>LLM &amp; AI 安全</h4>
+      <h2>2026-05-31 日报</h2>
+      <h3>产品与增长</h3>
 <ul>
-<li><strong>Microsoft Copilot 被曝数据外泄漏洞</strong></li>
+<li><strong>Anthropic 被曝采用非标准公式计算年化收入</strong></li>
 </ul>
-<p>AI 代理可未经审批向用户发送含外部图片的邮件，用户打开即可能触发数据泄露；攻击者还能通过提示注入获取 OneDrive 预认证下载链接以窃取文件。</p>
-<p>*— Simon Willison*</p>
-<hr>
-<h4>跨界与深度思考</h4>
-<ul>
-<li><strong>Paul Graham 批评创业者使用 AI 代写邮件</strong></li>
-</ul>
-<p>他认为 AI 代笔的文字一旦被识破便令人难以忍受，且给人以欺骗感；此举既无法体现作者的独立写作能力，也毫无门槛与 impressiveness。</p>
-<p>*— Simon Willison（转引 Paul Graham）*</p>
-<ul>
-<li><strong>Corey Quinn 讽刺 Anthropic 联合创始人的“教皇游说”</strong></li>
-</ul>
-<p>Quinn 嘲讽其影响教皇 AI 通谕《Magnifica Humanitas》，将产品技术局限性包装为宗教教义，称这是见过最极致的厂商游说行为。</p>
-<p>*— Simon Willison（转引 Corey Quinn）*</p>
+<p>据路透援引知情人士，AI 公司 Anthropic 在计算“年化收入运行率”时，将按量计费客户过去 28 天的销售额乘以 13（而非通常的 12），再与月度订阅收入乘以 12 后的数值相加。这一特殊口径可能使其 ARR 高于行业常规算法，引发对收入增速真实性的关注。（Simon Willison，援引 Reuters Breakingviews）</p>
     </div>
   </div>
 
@@ -335,192 +315,54 @@
     <div class="article-card">
       <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">微软 Copilot Cowork 文件泄露漏洞</div>
+        <div class="title">路透Breakingviews：Anthropic年化营收算法揭秘</div>
         <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
       </div>
-      <div class="title-en">Microsoft Copilot Cowork Exfiltrates Files</div>
-      <div class="tags"><span class="tag">微软</span><span class="tag">数据外泄</span><span class="tag">提示注入</span><span class="tag">AI安全</span></div>
-      <div class="summary">Microsoft Copilot Cowork 被曝出存在数据外泄漏洞，AI 代理可未经审批向用户发送包含外部图片的邮件，用户打开时即可能泄露数据；更严重的是，攻击者还可通过提示注入获取 OneDrive 预认证下载链接，进而窃取用户文件。</div>
+      <div class="title-en">Quoting Karen Kwok for Reuters Breakingviews</div>
+      <div class="tags"><span class="tag">Anthropic</span><span class="tag">年化收入</span><span class="tag">人工智能</span></div>
+      <div class="summary">据路透援引知情人士，AI公司Anthropic对“年化收入运行率”采用特殊计算方式：将按量计费客户过去28天的销售额乘以13，再与月度订阅收入乘以12后的数值相加。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Microsoft Copilot Cowork (yes, that&#x27;s a real product name) was allowing agents to send emails to the user&#x27;s own inbox without approval...</div><div class="quote-zh">微软 Copilot Cowork（是的，这确实是个真实的产品名称）允许代理在未经批准的情况下向用户自己的收件箱发送邮件……</div></div>
+<div class="quote-block"><div class="quote-en">Anthropic defines “run-rate revenue” in two parts. Use the last 28 days of sales from customers charged on a consumption basis and multiply it by 13. Then, multiply the monthly subscription take by 12, and add the two together.</div><div class="quote-zh">Anthropic将“运转率收入”分为两部分计算：取按量计费客户最近28天的销售额乘以13，再将月度订阅收入乘以12，两者相加。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Microsoft Copilot Cowork Exfiltrates Files</h3>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Quoting <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Karen Kwok</strong> for <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Reuters Breakingviews</strong></h3>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-In this case <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot Cowork</strong> (yes, that'sa real product name) was allowing <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agents</strong> to send emails to the user's own inbox without approval... but those messages were then displayed in a way that could leak data to an attacker via rendered images:
+  <blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+    <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> defines “<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">run-rate revenue</strong>” in two parts. Use the last 28 days of sales ⁠from customers charged on a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">consumption basis</strong> and multiply it by 13. Then, multiply the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">monthly subscription</strong> take by 12, ​and add the two together.
+  </blockquote>
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-在这种情况下，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Copilot Cowork</strong>（是的，这是一个真实的产品名）允许<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">智能体（agents）</strong>在未经批准的情况下向用户自己的收件箱发送电子邮件……但这些消息随后以某种方式显示，可能通过渲染的图片将数据泄露给攻击者：
+  <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 将 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">run-rate revenue</strong>（年化营收）分为两部分计算：取过去 28 天按 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">consumption basis</strong>（按量计费）收费的客户销售额乘以 13；再将 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">monthly subscription</strong>（月度订阅）收入乘以 12；最后将两者相加。
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-Because these messages can contain external images that trigger <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">network requests</strong> to external websites, data can be <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">exfiltrated</strong> when a user opens a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">compromised</strong> message sent by the agent.
-</blockquote>
-</div>
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:4px 0 24px;background:#f9f9fb;color:#2c2c2e;line-height:1.8;font-size:15px;">
-因为这些消息可能包含触发向外部网站发起<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">网络请求（network requests）</strong>的外部图片，当用户打开由智能体发送的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">被篡改（compromised）</strong>消息时，数据可能被<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">外泄（exfiltrated）</strong>。
-</blockquote>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Because these messages can contain external images that trigger network requests to external websites, data can be exfiltrated when a user opens a compromised message sent by the agent.
+  <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> defines “<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">run-rate revenue</strong>” in two parts. Use the last 28 days of sales ⁠from customers charged on a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">consumption basis</strong> and multiply it by 13. Then, multiply the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">monthly subscription</strong> take by 12, ​and add the two together.
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-因为这些消息可能包含触发向外部网站发起网络请求的外部图片，当用户打开由智能体发送的被篡改消息时，数据可能被外泄。
+  <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 将 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">run-rate revenue</strong>（年化营收）分为两部分计算：取过去 28 天按 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">consumption basis</strong>（按量计费）收费的客户销售额乘以 13；再将 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">monthly subscription</strong>（月度订阅）收入乘以 12；最后将两者相加。
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Since <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OneDrive</strong> can create <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pre-authenticated</strong> download links, a successful <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt injection</strong> could cause those links to be leaked, allowing files to be downloaded by the attacker.
+  —<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Karen Kwok</strong> for <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Reuters Breakingviews</strong>, citing "a person familiar with the matter"
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-由于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">OneDrive</strong> 可以创建<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">预认证（pre-authenticated）</strong>下载链接，一次成功的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">提示注入（prompt injection）</strong>可能导致这些链接被泄露，从而使攻击者能够下载文件。
+  ——<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Karen Kwok</strong> 为 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Reuters Breakingviews</strong> 撰稿，援引“一位知情人士”的说法
 </p>
 
 <div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Via<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong>
+  Tags:<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">anthropic</strong>,<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ai</strong>
 </div>
 <p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-来源：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Hacker News</strong>
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags:<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">microsoft</strong>,security,ai,<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt-injection</strong>,generative-ai,<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llms</strong>,exfiltration-attacks,lethal-trifecta
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">microsoft</strong>、security、ai、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt-injection（提示注入）</strong>、generative-ai、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llms（大语言模型）</strong>、exfiltration-attacks、lethal-trifecta
+  标签：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">anthropic</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ai</strong>（人工智能）
 </p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">保罗·格雷厄姆谈AI代写</div>
-        <span class="tone-pill" style="background:#ffe4e6;color:#be123c">😤 批评</span>
-      </div>
-      <div class="title-en">Quoting Paul Graham</div>
-      <div class="tags"><span class="tag">AI写作</span><span class="tag">创业</span><span class="tag">诚信</span></div>
-      <div class="summary">Paul Graham批评创业者使用AI代写邮件的现象，认为这种文字一旦识破便令人难以卒读，且感觉像是被欺骗。他指出这不仅反映出作者缺乏独立写作能力，且用AI代写毫无门槛，丝毫不令人印象深刻。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">I have never knowingly finished reading an email signed by a human but written by AI. It feels like being lied to, and who would stand for that?</div><div class="quote-zh">我从未在知情的情况下读完一封由人署名却实为AI代写的邮件。这感觉就像被欺骗，谁能忍受？</div></div>
-<div class="quote-block"><div class="quote-en">It&#x27;s not impressive to use AI to write stuff for you; any teenager can do that.</div><div class="quote-zh">用AI帮你写东西没什么了不起的，随便哪个青少年都能做到。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Quoting Paul Graham</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">引用 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Paul Graham</strong>（保罗·格雷厄姆）</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-A lot of the emails I get from founders are now written in a hard-hitting journalistic style. I know they're written by <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong>, because no founder ever wrote this way before. And once you realize something is written by <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong>, it's hard not to ignore it.I have never knowingly finished reading an email signed by a human but written by <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong>. It feels like being lied to, and who would stand for that?[...] It makes me think less of the author. It means they can't write well unaided (or feel they can't), and that they're trying to trick me.It's not impressive to use <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> to write stuff for you; any teenager can do that.
-</blockquote>
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我现在收到的许多创始人的邮件现在都采用了一种犀利的新闻体风格。我知道它们是 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong>（人工智能）写的，因为以前从来没有创始人这样写过。一旦你意识到某样东西是 AI 写的，你就很难不去忽略它。我从未刻意读完过一封由人类署名却由 AI 撰写的邮件。这感觉像是被欺骗了，谁能忍受这种事？[……]这让我对作者的评价降低。这意味着他们无法独立写出好文章（或觉得自己做不到），而且他们在试图欺骗我。用 AI 帮你写东西并不令人印象深刻；任何青少年都能做到。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-A lot of the emails I get from founders are now written in a hard-hitting journalistic style. I know they're written by <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong>, because no founder ever wrote this way before. And once you realize something is written by <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong>, it's hard not to ignore it.
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我现在收到的许多创始人的邮件现在都采用了一种犀利的新闻体风格。我知道它们是 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 写的，因为以前从来没有创始人这样写过。一旦你意识到某样东西是 AI 写的，你就很难不去忽略它。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-I have never knowingly finished reading an email signed by a human but written by <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong>. It feels like being lied to, and who would stand for that?
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我从未刻意读完过一封由人类署名却由 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 撰写的邮件。这感觉像是被欺骗了，谁能忍受这种事？
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-[...] It makes me think less of the author. It means they can't write well unaided (or feel they can't), and that they're trying to trick me.
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-[……]这让我对作者的评价降低。这意味着他们无法独立写出好文章（或觉得自己做不到），而且他们在试图欺骗我。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-It's not impressive to use <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> to write stuff for you; any teenager can do that.
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 帮你写东西并不令人印象深刻；任何青少年都能做到。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-—<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Paul Graham</strong>
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-——<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Paul Graham</strong>（保罗·格雷厄姆）
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags:writing,ai-misuse,paul-graham,generative-ai,ai,llms
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：写作、ai 滥用、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Paul Graham</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">generative AI</strong>（生成式人工智能）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLMs</strong>（大语言模型）
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/May/26/paul-graham/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">引用科里·奎因</div>
-        <span class="tone-pill" style="background:#ffe4e6;color:#be123c">😤 批评</span>
-      </div>
-      <div class="title-en">Quoting Corey Quinn</div>
-      <div class="tags"><span class="tag">AI伦理</span><span class="tag">Anthropic</span><span class="tag">教皇</span><span class="tag">科技游说</span></div>
-      <div class="summary">Corey Quinn讽刺Anthropic联合创始人影响教皇AI通谕《Magnifica Humanitas》，将产品技术局限性包装为宗教教义，称其为自己见过最极致的厂商游说行为。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">I cannot believe I&#x27;m saying this, but getting the literal Pope to canonize your product&#x27;s specific technical limitations as a spiritual treatise is the single greatest act of vendor lobbying I have ever seen.</div><div class="quote-zh">真不敢相信我竟会说出这种话，但让教皇本尊将你们产品的具体技术局限册封为灵性论著，这是我见过的最登峰造极的厂商游说。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Quoting Corey Quinn / 引用 Corey Quinn 的评论</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-I cannot believe I'm saying this, but getting the literal <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Pope</strong> to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">canonize</strong> your product's specific technical limitations as a spiritual treatise is the single greatest act of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vendor lobbying</strong> I have ever seen.
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我简直不敢相信我居然会这么说，但让<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Pope</strong>（教皇）亲自将你家产品的具体技术局限性<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">canonize</strong>（册封）为一篇 spiritual treatise（灵性学说），是我迄今为止见过的最了不起的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vendor lobbying</strong>（厂商游说）行为。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-I cannot believe I'm saying this, but getting the literal <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Pope</strong> to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">canonize</strong> your product's specific technical limitations as a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">spiritual treatise</strong> is the single greatest act of vendor lobbying I have ever seen.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我简直不敢相信我居然会这么说，但让<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Pope</strong>（教皇）亲自将你家产品的具体技术局限性<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">canonize</strong>（册封）为一篇<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">spiritual treatise</strong>（灵性学说），是我迄今为止见过的最了不起的 vendor lobbying（厂商游说）行为。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-—<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Corey Quinn</strong>, on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> co-founder <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Christopher Olah</strong>'sinfluenceonMagnifica Humanitas
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-——<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Corey Quinn</strong>，评 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 联合创始人 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Christopher Olah</strong> 对 Magnifica Humanitas 的影响
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags:<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ai-ethics</strong>,<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">corey-quinn</strong>,<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">anthropic</strong>,<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ai</strong>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ai-ethics</strong>,<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">corey-quinn</strong>,<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">anthropic</strong>,<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ai</strong>
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything" target="_blank">阅读原文 &rarr;</a>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-05-27
+  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-05-31
 </div>
 
 <script>
