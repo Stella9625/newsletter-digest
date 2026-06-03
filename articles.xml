@@ -7,49 +7,144 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 31 May 2026 23:32:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 00:38:29 +0000</lastBuildDate>
     <item>
-      <title>[翻译] Simon Willison: 路透Breakingviews：Anthropic年化营收算法揭秘</title>
-      <link>https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #Anthropic #年化收入 #人工智能&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 据路透援引知情人士，AI公司Anthropic对“年化收入运行率”采用特殊计算方式：将按量计费客户过去28天的销售额乘以13，再与月度订阅收入乘以12后的数值相加。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Quoting Karen Kwok for Reuters Breakingviews&lt;/p&gt;
+      <title>[翻译] Simon Willison: 粘贴即文件编辑器</title>
+      <link>https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #粘贴附件 #文件编辑器 #原型开发&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 作者受Claude.ai将大量粘贴文本自动转为文件附件的功能启发，利用Codex桌面版开发了一款原型编辑器；该工具还支持直接打开文件（包括以缩略图显示的图片）和拖拽上传功能。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Pasted File Editor&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Quoting &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Karen Kwok&lt;/strong&gt; for &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Reuters Breakingviews&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Pasted File Editor&lt;/h3&gt;
+&lt;h4 style="margin:24px 0 12px;"&gt;粘贴文件编辑器&lt;/h4&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-    &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; defines “&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;run-rate revenue&lt;/strong&gt;” in two parts. Use the last 28 days of sales ⁠from customers charged on a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;consumption basis&lt;/strong&gt; and multiply it by 13. Then, multiply the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;monthly subscription&lt;/strong&gt; take by 12, ​and add the two together.
-  &lt;/blockquote&gt;
+I really like how you can paste a large volume of text into&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;claude.ai&lt;/strong&gt;(or the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; desktop/mobile apps) and it will detect it as a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;large paste&lt;/strong&gt; and turn it into a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;file attachment&lt;/strong&gt; instead.
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;run-rate revenue&lt;/strong&gt;（年化营收）分为两部分计算：取过去 28 天按 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;consumption basis&lt;/strong&gt;（按量计费）收费的客户销售额乘以 13；再将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;monthly subscription&lt;/strong&gt;（月度订阅）收入乘以 12；最后将两者相加。
+我很喜欢这样一个功能：你可以在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;claude.ai&lt;/strong&gt;（或 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; 桌面/移动端应用）中粘贴大量文本，系统会检测到这是一次 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;large paste（大量粘贴）&lt;/strong&gt;，并将其自动转换为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;file attachment（文件附件）&lt;/strong&gt;。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; defines “&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;run-rate revenue&lt;/strong&gt;” in two parts. Use the last 28 days of sales ⁠from customers charged on a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;consumption basis&lt;/strong&gt; and multiply it by 13. Then, multiply the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;monthly subscription&lt;/strong&gt; take by 12, ​and add the two together.
+I decided to have &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex desktop&lt;/strong&gt;build me a version of thatas a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prototype&lt;/strong&gt;.
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; 将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;run-rate revenue&lt;/strong&gt;（年化营收）分为两部分计算：取过去 28 天按 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;consumption basis&lt;/strong&gt;（按量计费）收费的客户销售额乘以 13；再将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;monthly subscription&lt;/strong&gt;（月度订阅）收入乘以 12；最后将两者相加。
+我决定让 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex desktop&lt;/strong&gt; 为我构建一个该功能的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prototype（原型）&lt;/strong&gt;版本。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  —&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Karen Kwok&lt;/strong&gt; for &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Reuters Breakingviews&lt;/strong&gt;, citing "a person familiar with the matter"
+You can also open files directly - including images which will be shown as &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;thumbnails&lt;/strong&gt; - or drag files onto the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;textarea&lt;/strong&gt;.
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  ——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Karen Kwok&lt;/strong&gt; 为 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Reuters Breakingviews&lt;/strong&gt; 撰稿，援引“一位知情人士”的说法
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-  Tags:&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;anthropic&lt;/strong&gt;,&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-  标签：&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;anthropic&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;（人工智能）
+你也可以直接打开文件——包括会以 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;thumbnails（缩略图）&lt;/strong&gt;形式展示的图片——或者将文件拖拽到 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;textarea（文本区域）&lt;/strong&gt; 中。
 &lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything</guid>
-      <pubDate>Sun, 31 May 2026 01:48:12 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything</guid>
+      <pubDate>Tue, 02 Jun 2026 04:13:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: 加州褐鹈鹕</title>
+      <link>https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #褐鹈鹕 #旧金山 #观鸟&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 作者在旧金山Fort Mason参加微软Build大会时，注意到会场后方的水域中有加州褐鹈鹕正在潜水。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: California Brown Pelican&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;California Brown Pelican（加州褐鹈鹕）&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I'm at the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Build&lt;/strong&gt; conference today, held at Fort Mason in San Francisco. There are &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;California Brown Pelicans&lt;/strong&gt; diving into the water directly behind venue!&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我今天在旧金山的 Fort Mason 参加 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Build&lt;/strong&gt; 大会。会场正后方的水域中，有 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;California Brown Pelicans&lt;/strong&gt;（加州褐鹈鹕）正在俯冲入水！&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything</guid>
+      <pubDate>Tue, 02 Jun 2026 18:17:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>[翻译] Simon Willison: 微软发布MAI系列新模型</title>
+      <link>https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #微软 #大模型 #代码模型 #轻量模型&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 微软新发布了MAI-Thinking-1与MAI-Code-1-Flash两款轻量级大模型，分别聚焦推理与代码场景。不同于当前主流做法，微软强调这两款模型完全基于商业授权的干净数据从头独立训练，未对第三方模型进行蒸馏。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Microsoft&amp;#x27;s new MAI models&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Microsoft's new MAI models / 微软全新 MAI 模型&lt;/h3&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; announced two new text &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt; this morning — &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt; (reasoning, 35B parameters, available to "select early partners") and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Code-1-Flash&lt;/strong&gt; (5B parameters, "purpose-built for GitHub Copilot and VS Code to deliver high performance and lower cost [...] rolling out to GitHub Copilot individual users in Visual Studio Code"). I've not been able to try either of them just yet.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;微软（Microsoft）&lt;/strong&gt;今早发布了两款全新的文本 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM（大语言模型，Large Language Model）&lt;/strong&gt;——&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt;（推理模型，350亿参数，面向"精选早期合作伙伴"开放）和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Code-1-Flash&lt;/strong&gt;（50亿参数，"专为 GitHub Copilot 和 VS Code 打造，以提供高性能和更低成本 [...] 正在向 Visual Studio Code 中的 GitHub Copilot 个人用户推出"）。我目前还没能上手体验这两款模型。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+It's very interesting to see &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; releasing models with such low &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;parameter counts&lt;/strong&gt;, especially given how expensive larger models are to access right now. They claim &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt; "is preferred to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Sonnet 4.6&lt;/strong&gt; in our blind human side-by-side evaluations", which is impressive for a 35B model seeing as I frequently run models larger than that on my own laptop.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+看到 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;微软（Microsoft）&lt;/strong&gt;推出&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;参数量（parameter counts）&lt;/strong&gt;如此低的模型非常有趣，尤其是考虑到目前访问更大模型的成本有多高昂。他们声称 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt; "在盲测人类横向对比评估中优于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Sonnet 4.6&lt;/strong&gt;"，这对于一个350亿参数的模型来说令人印象深刻，毕竟我自己在笔记本上经常运行的模型都比它大。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Also of note:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+同样值得注意的是：
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+We trained [&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt;] from the ground up on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;enterprise grade&lt;/strong&gt;, clean and commercially licensed data, without &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;distillation&lt;/strong&gt; from third-party models.
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我们从零开始训练 [&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt;]，使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;企业级（enterprise grade）&lt;/strong&gt;、干净且具备商业许可的数据，且未采用第三方模型的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;知识蒸馏（distillation）&lt;/strong&gt;技术。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+We trained [&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt;] from the ground up on enterprise grade, clean and commercially licensed data, without distillation from third-party models.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我们从零开始训练 [&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt;]，使用企业级（enterprise grade）、干净且具备商业许可的数据，且未采用第三方模型的知识蒸馏（distillation）技术。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+And for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Code-1-Flash&lt;/strong&gt; as well:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+对于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Code-1-Flash&lt;/strong&gt; 同样如此：
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+It is built &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;end-to-end&lt;/strong&gt; by &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; using clean and appropriately licensed data.
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+该模型由 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;微软（Microsoft）&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;端到端（end-to-end）&lt;/strong&gt;构建，使用了干净且获得适当授权的数据。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+It is built end-to-end by &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; using clean and appropriately licensed data.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+该模型由 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;微软（Microsoft）&lt;/strong&gt; 端到端（end-to-end）构建，使用了干净且获得适当授权的数据。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+I would very much like to learn more about this "appropriately licensed" data! Could these be the first generally useful &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;code-specialist models&lt;/strong&gt; that didn't train on an unlicensed dump of the web?
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+我非常想进一步了解这些"获得适当授权"的数据！这些模型会不会是首批在未经网络非法抓取（unlicensed dump）的数据上训练、且具备广泛实用价值的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;代码专用模型（code-specialist models）&lt;/strong&gt;？
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Tags: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm-release&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;, ai, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;microsoft&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm-release（大语言模型发布）&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai（生成式 AI）&lt;/strong&gt;, ai, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;microsoft（微软）&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms（大语言模型）&lt;/strong&gt;
+&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything</guid>
+      <pubDate>Tue, 02 Jun 2026 22:21:52 +0000</pubDate>
     </item>
   </channel>
 </rss>
