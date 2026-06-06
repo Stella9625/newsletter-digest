@@ -7,144 +7,174 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 03 Jun 2026 00:38:29 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 00:03:22 +0000</lastBuildDate>
     <item>
-      <title>[翻译] Simon Willison: 粘贴即文件编辑器</title>
-      <link>https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #粘贴附件 #文件编辑器 #原型开发&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 作者受Claude.ai将大量粘贴文本自动转为文件附件的功能启发，利用Codex桌面版开发了一款原型编辑器；该工具还支持直接打开文件（包括以缩略图显示的图片）和拖拽上传功能。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Pasted File Editor&lt;/p&gt;
+      <title>[翻译] TLDR AI: Anthropic Oceanus 泄露、ChatGPT 梦境与递归自我改进</title>
+      <link>https://tldr.tech/ai/2026-06-05</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #数据基建 #定价策略 #AI代理&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 数据基础设施的经济格局正经历三重变革：部署模式、单位成本架构与AI代理的使用模式正在重塑行业。领先企业正通过将定价视为产品、重构计费引擎来适应商业化转型，并探索面向AI代理的定价与打包策略。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Anthropic Oceanus leaks 🤖, ChatGPT Dreaming 💭, recursive self improvement 🚀&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Pasted File Editor&lt;/h3&gt;
-&lt;h4 style="margin:24px 0 12px;"&gt;粘贴文件编辑器&lt;/h4&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Oceanus&lt;/strong&gt; leaks 🤖, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; Dreaming 💭, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;recursive self improvement&lt;/strong&gt; 🚀&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Anthropic&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Oceanus&lt;/strong&gt; 泄露 🤖，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ChatGPT&lt;/strong&gt; 梦境 💭，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;recursive self improvement（递归式自我改进）&lt;/strong&gt; 🚀&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-I really like how you can paste a large volume of text into&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;claude.ai&lt;/strong&gt;(or the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; desktop/mobile apps) and it will detect it as a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;large paste&lt;/strong&gt; and turn it into a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;file attachment&lt;/strong&gt; instead.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我很喜欢这样一个功能：你可以在 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;claude.ai&lt;/strong&gt;（或 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Claude&lt;/strong&gt; 桌面/移动端应用）中粘贴大量文本，系统会检测到这是一次 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;large paste（大量粘贴）&lt;/strong&gt;，并将其自动转换为 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;file attachment（文件附件）&lt;/strong&gt;。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;The economics of &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;data infra&lt;/strong&gt; are changing in 3 big ways:&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;data infra（数据基础设施）&lt;/strong&gt;的经济格局正在经历三大变革：&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-I decided to have &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex desktop&lt;/strong&gt;build me a version of thatas a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prototype&lt;/strong&gt;.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我决定让 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Codex desktop&lt;/strong&gt; 为我构建一个该功能的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;prototype（原型）&lt;/strong&gt;版本。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;&lt;ul style="list-style:none;padding-left:0;margin:0;"&gt;&lt;li&gt;1️⃣ &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Deployment models&lt;/strong&gt; are changing, which changes who pays for what.&lt;/li&gt;&lt;li&gt;2️⃣ New architectures are reshaping &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;unit costs&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;3️⃣ &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI agents&lt;/strong&gt; are generating usage patterns that traditional pricing models weren't built to handle.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;1️⃣ &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Deployment models（部署模式）&lt;/strong&gt;正在改变，由此改变了成本承担方的格局；&lt;br&gt;2️⃣ 新架构正在重塑&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;unit costs（单位成本）&lt;/strong&gt;；&lt;br&gt;3️⃣ &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI agents（AI 智能体）&lt;/strong&gt;正在产生传统定价模型无法应对的使用模式。&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-You can also open files directly - including images which will be shown as &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;thumbnails&lt;/strong&gt; - or drag files onto the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;textarea&lt;/strong&gt;.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-你也可以直接打开文件——包括会以 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;thumbnails（缩略图）&lt;/strong&gt;形式展示的图片——或者将文件拖拽到 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;textarea（文本区域）&lt;/strong&gt; 中。
-&lt;/p&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;This webinarexplores how leading infrastructure companies are navigating the commercial shift, managing &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;token economics&lt;/strong&gt;, and redesigning their &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;billing engines&lt;/strong&gt; for continuous &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;monetization iteration&lt;/strong&gt;.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;本场网络研讨会探讨了领先的基础设施公司如何应对这一商业转型、管理 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;token economics（Token 经济学）&lt;/strong&gt;，以及如何重新设计其 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;billing engines（计费引擎）&lt;/strong&gt; 以实现持续的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;monetization iteration（变现迭代）&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Learn why treating &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;pricing as a product&lt;/strong&gt; is key, how to price for AI agents, and why &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;packaging&lt;/strong&gt; is an underrated lever.&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;了解为何将 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;pricing as a product（定价即产品）&lt;/strong&gt; 视为关键，如何为 AI 智能体定价，以及为何 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;packaging（产品打包）&lt;/strong&gt; 是一个被低估的杠杆。&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;Save your spot&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;立即预约席位&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything</guid>
-      <pubDate>Tue, 02 Jun 2026 04:13:36 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://tldr.tech/ai/2026-06-05"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-06-05</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[翻译] Simon Willison: 加州褐鹈鹕</title>
-      <link>https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #褐鹈鹕 #旧金山 #观鸟&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 作者在旧金山Fort Mason参加微软Build大会时，注意到会场后方的水域中有加州褐鹈鹕正在潜水。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: California Brown Pelican&lt;/p&gt;
+      <title>[翻译] Simon Willison: AI拥趸与时间赛跑，怀疑论者对抗熵增</title>
+      <link>https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #AI争议 #软件工程 #组织管理&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 本文指出，AI支持者与怀疑者其实各有道理：积极拥抱AI可带来能力跃升与竞争优势，但过快交付也会侵蚀系统可靠性与机构知识。核心挑战在于组织需要设计有效的反馈机制，弥合双方对现实认知的鸿沟。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: AI enthusiasts are in a race against time, AI skeptics are in a race against entropy&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;California Brown Pelican（加州褐鹈鹕）&lt;/h3&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;AI enthusiasts are in a race against time, AI skeptics are in a race against entropy&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 狂热者（AI enthusiasts）&lt;/strong&gt;在与时间赛跑，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;AI 怀疑者（AI skeptics）&lt;/strong&gt;则在与&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;熵增（entropy）&lt;/strong&gt;抗争&lt;/p&gt;
 
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;I'm at the &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Build&lt;/strong&gt; conference today, held at Fort Mason in San Francisco. There are &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;California Brown Pelicans&lt;/strong&gt; diving into the water directly behind venue!&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;我今天在旧金山的 Fort Mason 参加 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Build&lt;/strong&gt; 大会。会场正后方的水域中，有 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;California Brown Pelicans&lt;/strong&gt;（加州褐鹈鹕）正在俯冲入水！&lt;/p&gt;
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+The enthusiasts arenot wrong. We are starting to see real, non-imaginary, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;discontinuous leaps&lt;/strong&gt; in capabilities from teams that lean in hard to working with AI. And this does not feel like a normal technology cycle where you can wait for the dust to settle; teams that sit this out while competitors are hustling could be out of business before the dust settles. That’s a real, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;existential threat&lt;/strong&gt;.The skeptics are alsonot wrong. When you ship code faster than engineers can read it, in domains where nobody has full context, you are making withdrawals from a trust account that took years to build. Reliability degrades, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;institutional knowledge&lt;/strong&gt; evaporates. You end up with systems nobody understands, products burbling into incoherence, and on-call rotations that grind people up and spit them out. That is ALSO a real existential threat.
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+AI 狂热者们并没有错。我们开始看到一些全力投入 AI 协作的团队，正在带来真正、非虚构的、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;非连续性的能力跃升（discontinuous leaps）&lt;/strong&gt;。这不像是一个可以坐等尘埃落定的普通技术周期；当竞争对手全力冲刺时，选择置身事外的团队可能会在尘埃落定之前就已被淘汰。这是一种真实的、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;关乎存亡的威胁（existential threat）&lt;/strong&gt;。怀疑者们同样没有错。当你发布代码的速度超过了工程师阅读代码的速度，而在这些领域中又没有人掌握完整上下文时，你实际上是在从一个花费数年建立起来的信任账户中提款。可靠性下降，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;制度性知识（institutional knowledge）&lt;/strong&gt;随之蒸发。最终你会得到无人理解的系统，产品变得语无伦次、混乱不堪，值班轮替将人折磨得身心俱疲、弃如敝履。这同样是一种真实的、关乎存亡的威胁。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+The enthusiasts arenot wrong. We are starting to see real, non-imaginary, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;discontinuous leaps&lt;/strong&gt; in capabilities from teams that lean in hard to working with AI. And this does not feel like a normal technology cycle where you can wait for the dust to settle; teams that sit this out while competitors are hustling could be out of business before the dust settles. That’s a real, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;existential threat&lt;/strong&gt;.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+AI 狂热者们并没有错。我们开始看到一些全力投入 AI 协作的团队，正在带来真正、非虚构的、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;非连续性的能力跃升（discontinuous leaps）&lt;/strong&gt;。这不像是一个可以坐等尘埃落定的普通技术周期；当竞争对手全力冲刺时，选择置身事外的团队可能会在尘埃落定之前就已被淘汰。这是一种真实的、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;关乎存亡的威胁（existential threat）&lt;/strong&gt;。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+The skeptics are alsonot wrong. When you ship code faster than engineers can read it, in domains where nobody has full context, you are making withdrawals from a trust account that took years to build. Reliability degrades, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;institutional knowledge&lt;/strong&gt; evaporates. You end up with systems nobody understands, products burbling into incoherence, and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;on-call rotations&lt;/strong&gt; that grind people up and spit them out. That is ALSO a real &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;existential threat&lt;/strong&gt;.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+怀疑者们同样没有错。当你发布代码的速度超过了工程师阅读代码的速度，而在这些领域中又没有人掌握完整上下文时，你实际上是在从一个花费数年建立起来的信任账户中提款。可靠性下降，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;制度性知识（institutional knowledge）&lt;/strong&gt;随之蒸发。最终你会得到无人理解的系统，产品变得语无伦次、混乱不堪，&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;值班轮替（on-call rotations）&lt;/strong&gt;将人折磨得身心俱疲、弃如敝履。这同样是一种真实的、关乎存亡的威胁。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Charity&lt;/strong&gt; recommends treating this as both a &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;leadership challenge&lt;/strong&gt; and an &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;engineering challenge&lt;/strong&gt;. The key issue:
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Charity Majors&lt;/strong&gt;建议将这既视为&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;领导力挑战（leadership challenge）&lt;/strong&gt;，也视为&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;工程挑战（engineering challenge）&lt;/strong&gt;。核心问题在于：
+&lt;/p&gt;
+
+&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+There is no natural &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;feedback loop&lt;/strong&gt; connecting enthusiasts with skeptics.
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+在狂热者与怀疑者之间，并不存在自然的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;反馈回路（feedback loop）&lt;/strong&gt;。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+There is no natural &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;feedback loop&lt;/strong&gt; connecting enthusiasts with skeptics.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+在狂热者与怀疑者之间，并不存在自然的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;反馈回路（feedback loop）&lt;/strong&gt;。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Designing &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;feedback loops&lt;/strong&gt; to help "mend the gap in shared reality" between the two groups is a fascinating &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;organizational design&lt;/strong&gt; problem.
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+设计&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;反馈回路（feedback loops）&lt;/strong&gt;，以帮助弥合两个群体之间"共享现实"的鸿沟，是一个极具吸引力的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;组织设计（organizational design）&lt;/strong&gt;问题。
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Via &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lobste.rs&lt;/strong&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+来自 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Lobste.rs&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
+Tags: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;charity-majors&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic-engineering&lt;/strong&gt;
+&lt;/div&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
+标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai&lt;/strong&gt;、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;charity-majors&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;agentic-engineering（代理式工程）&lt;/strong&gt;
+&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything</guid>
-      <pubDate>Tue, 02 Jun 2026 18:17:03 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything</guid>
+      <pubDate>Thu, 04 Jun 2026 23:55:27 +0000</pubDate>
     </item>
     <item>
-      <title>[翻译] Simon Willison: 微软发布MAI系列新模型</title>
-      <link>https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything</link>
-      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #微软 #大模型 #代码模型 #轻量模型&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; 微软新发布了MAI-Thinking-1与MAI-Code-1-Flash两款轻量级大模型，分别聚焦推理与代码场景。不同于当前主流做法，微软强调这两款模型完全基于商业授权的干净数据从头独立训练，未对第三方模型进行蒸馏。&lt;/p&gt;
-&lt;p style="color:#888;font-size:13px;"&gt;原标题: Microsoft&amp;#x27;s new MAI models&lt;/p&gt;
+      <title>[翻译] Simon Willison: 改变Ladybird的开发方式</title>
+      <link>https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;标签:&lt;/strong&gt; #开源治理 #人工智能 #责任归属&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要:&lt;/strong&gt; Ladybird浏览器创始人Andreas Kling宣布将不再接受公开Pull Request，认为在AI可大量生成代码的当下，补丁规模已无法衡量贡献诚意；他强调，随着浏览器面向真实用户，只有对变更拥有决策权并愿承担后果的人，才应向项目引入代码。&lt;/p&gt;
+&lt;p style="color:#888;font-size:13px;"&gt;原标题: Quoting Andreas Kling&lt;/p&gt;
 &lt;hr/&gt;
-&lt;h3 style="margin:24px 0 12px;"&gt;Microsoft's new MAI models / 微软全新 MAI 模型&lt;/h3&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; announced two new text &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLMs&lt;/strong&gt; this morning — &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt; (reasoning, 35B parameters, available to "select early partners") and &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Code-1-Flash&lt;/strong&gt; (5B parameters, "purpose-built for GitHub Copilot and VS Code to deliver high performance and lower cost [...] rolling out to GitHub Copilot individual users in Visual Studio Code"). I've not been able to try either of them just yet.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;微软（Microsoft）&lt;/strong&gt;今早发布了两款全新的文本 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;LLM（大语言模型，Large Language Model）&lt;/strong&gt;——&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt;（推理模型，350亿参数，面向"精选早期合作伙伴"开放）和 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Code-1-Flash&lt;/strong&gt;（50亿参数，"专为 GitHub Copilot 和 VS Code 打造，以提供高性能和更低成本 [...] 正在向 Visual Studio Code 中的 GitHub Copilot 个人用户推出"）。我目前还没能上手体验这两款模型。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-It's very interesting to see &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; releasing models with such low &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;parameter counts&lt;/strong&gt;, especially given how expensive larger models are to access right now. They claim &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt; "is preferred to &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Sonnet 4.6&lt;/strong&gt; in our blind human side-by-side evaluations", which is impressive for a 35B model seeing as I frequently run models larger than that on my own laptop.
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-看到 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;微软（Microsoft）&lt;/strong&gt;推出&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;参数量（parameter counts）&lt;/strong&gt;如此低的模型非常有趣，尤其是考虑到目前访问更大模型的成本有多高昂。他们声称 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt; "在盲测人类横向对比评估中优于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;Sonnet 4.6&lt;/strong&gt;"，这对于一个350亿参数的模型来说令人印象深刻，毕竟我自己在笔记本上经常运行的模型都比它大。
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Also of note:
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-同样值得注意的是：
-&lt;/p&gt;
+&lt;h3 style="margin:24px 0 12px;"&gt;Quoting &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Andreas Kling&lt;/strong&gt;&lt;/h3&gt;
+&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;引述 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Andreas Kling&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
 &lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-We trained [&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt;] from the ground up on &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;enterprise grade&lt;/strong&gt;, clean and commercially licensed data, without &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;distillation&lt;/strong&gt; from third-party models.
+&lt;p&gt;We will no longer accept &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;public pull requests&lt;/strong&gt;. [...]A substantial &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;patch&lt;/strong&gt; used to imply substantial effort, and that effort was a reasonable proxy for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;good faith&lt;/strong&gt;. That assumption no longer holds. [...]Whether code was typed by hand is beside the point. What matters is who is responsible for it once it enters the browser. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Ladybird&lt;/strong&gt; is becoming a browser for real users. The people introducing changes to it must be the people who decide those changes belong in the project, and who will answer for the consequences.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我们从零开始训练 [&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt;]，使用 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;企业级（enterprise grade）&lt;/strong&gt;、干净且具备商业许可的数据，且未采用第三方模型的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;知识蒸馏（distillation）&lt;/strong&gt;技术。
+我们不再接受&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;公开的拉取请求（public pull requests）&lt;/strong&gt;。[……] 一份庞大的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;补丁（patch）&lt;/strong&gt;过去意味着大量的投入，而这种投入曾是&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;善意（good faith）&lt;/strong&gt;的一种合理体现。这一假设已不再成立。[……] 代码是否手写并不重要。重要的是，一旦代码进入浏览器，由谁对其负责。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Ladybird&lt;/strong&gt; 正在成为面向真实用户的浏览器。引入变更的人必须是决定这些变更应属于项目的人，也是将为后果负责的人。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-We trained [&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt;] from the ground up on enterprise grade, clean and commercially licensed data, without distillation from third-party models.
+We will no longer accept &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;public pull requests&lt;/strong&gt;. [...]
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我们从零开始训练 [&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Thinking-1&lt;/strong&gt;]，使用企业级（enterprise grade）、干净且具备商业许可的数据，且未采用第三方模型的知识蒸馏（distillation）技术。
+我们将不再接受&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;公开的拉取请求（public pull requests）&lt;/strong&gt;。[……]
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-And for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Code-1-Flash&lt;/strong&gt; as well:
+A substantial &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;patch&lt;/strong&gt; used to imply substantial effort, and that effort was a reasonable proxy for &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;good faith&lt;/strong&gt;. That assumption no longer holds. [...]
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-对于 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;MAI-Code-1-Flash&lt;/strong&gt; 同样如此：
+一份庞大的&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;补丁（patch）&lt;/strong&gt;过去意味着大量的投入，而这种投入曾是&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;善意（good faith）&lt;/strong&gt;的一种合理体现。这一假设已不再成立。[……]
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-&lt;blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;"&gt;
-It is built &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;end-to-end&lt;/strong&gt; by &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; using clean and appropriately licensed data.
-&lt;/blockquote&gt;
+Whether code was typed by hand is beside the point. What matters is who is responsible for it once it enters the &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;browser&lt;/strong&gt;. &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Ladybird&lt;/strong&gt; is becoming a browser for real users. The people introducing changes to it must be the people who decide those changes belong in the project, and who will answer for the consequences.
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-该模型由 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;微软（Microsoft）&lt;/strong&gt; &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;端到端（end-to-end）&lt;/strong&gt;构建，使用了干净且获得适当授权的数据。
+代码是否手写并不重要。重要的是，一旦代码进入&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;浏览器（browser）&lt;/strong&gt;，由谁对其负责。&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Ladybird&lt;/strong&gt; 正在成为面向真实用户的浏览器。引入变更的人必须是决定这些变更应属于项目的人，也是将为后果负责的人。
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-It is built end-to-end by &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Microsoft&lt;/strong&gt; using clean and appropriately licensed data.
+—&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Andreas Kling&lt;/strong&gt;, &lt;em&gt;Changing How We Develop &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Ladybird&lt;/strong&gt;&lt;/em&gt;
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-该模型由 &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;微软（Microsoft）&lt;/strong&gt; 端到端（end-to-end）构建，使用了干净且获得适当授权的数据。
+——&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Andreas Kling&lt;/strong&gt;，《Changing How We Develop &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;Ladybird&lt;/strong&gt;》（《我们如何开发 Ladybird 的方式正在改变》）
 &lt;/p&gt;
 
 &lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-I would very much like to learn more about this "appropriately licensed" data! Could these be the first generally useful &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;code-specialist models&lt;/strong&gt; that didn't train on an unlicensed dump of the web?
+Tags: ladybird, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai-ethics&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open-source&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;, ai, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;andreas-kling&lt;/strong&gt;, llms
 &lt;/div&gt;
 &lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-我非常想进一步了解这些"获得适当授权"的数据！这些模型会不会是首批在未经网络非法抓取（unlicensed dump）的数据上训练、且具备广泛实用价值的 &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;代码专用模型（code-specialist models）&lt;/strong&gt;？
-&lt;/p&gt;
-
-&lt;div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"&gt;
-Tags: &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm-release&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai&lt;/strong&gt;, ai, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;microsoft&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms&lt;/strong&gt;
-&lt;/div&gt;
-&lt;p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"&gt;
-标签：&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llm-release（大语言模型发布）&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai（生成式 AI）&lt;/strong&gt;, ai, &lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;microsoft（微软）&lt;/strong&gt;, &lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;llms（大语言模型）&lt;/strong&gt;
+标签：ladybird、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;ai-ethics（人工智能伦理）&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;open-source（开源）&lt;/strong&gt;、&lt;strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;"&gt;generative-ai（生成式人工智能）&lt;/strong&gt;、ai、&lt;strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;"&gt;andreas-kling&lt;/strong&gt;、llms
 &lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything</guid>
-      <pubDate>Tue, 02 Jun 2026 22:21:52 +0000</pubDate>
+&lt;p&gt;🔗 &lt;a href="https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything</guid>
+      <pubDate>Fri, 05 Jun 2026 11:10:05 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -292,198 +292,72 @@
 <div class="container">
   <div class="tabs">
     <button class="tab active" onclick="switchTab('digest')">每日日报</button>
-    <button class="tab" onclick="switchTab('articles')">全部文章 (3)</button>
+    <button class="tab" onclick="switchTab('articles')">全部文章 (1)</button>
   </div>
 
   <!-- 日报 Tab -->
   <div id="tab-digest" class="tab-content active">
-    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">微软</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">大模型</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">代码模型</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">轻量模型</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">褐鹈鹕</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">旧金山</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">观鸟</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">粘贴附件</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
+    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">数据基建</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">定价策略</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">AI代理</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
-      <h2>2026-06-03 日报</h2>
-      <h4>LLM &amp; AI 工具</h4>
-<ul>
-<li><strong>Microsoft&#x27;s new MAI models</strong> | Simon Willison</li>
-</ul>
-<p>微软发布轻量模型 MAI-Thinking-1（专注推理）与 MAI-Code-1-Flash（专注代码），强调二者完全基于商业授权的干净数据独立训练，未对任何第三方模型进行蒸馏。</p>
+      <h2>2026-06-06 日报</h2>
+      <h3>每日 AI/产品/技术日报</h3>
 <h4>产品与增长</h4>
 <ul>
-<li><strong>Pasted File Editor</strong> | Simon Willison</li>
+<li><strong>数据基建商业化迎来三重变革</strong>：部署模式、单位成本架构与 AI 代理使用模式正在重塑行业，领先企业通过将定价视为产品、重构计费引擎适应转型，并探索面向 AI 代理的定价与打包策略。（TLDR AI）</li>
 </ul>
-<p>受 Claude.ai“粘贴文本自动转为文件附件”功能启发，作者利用 Codex 桌面版快速开发了一款原型编辑器，支持直接打开文件（含图片缩略图预览）及拖拽上传。</p>
+<h4>工程与系统设计</h4>
+<ul>
+<li><strong>AI 交付速度与系统可靠性的工程张力</strong>：AI 支持者与怀疑者各有道理——积极拥抱 AI 可带来能力跃升，但过快交付会侵蚀系统可靠性与机构知识；核心挑战在于组织需设计有效反馈机制，弥合双方对现实认知的鸿沟。（Simon Willison）</li>
+</ul>
 <h4>跨界与深度思考</h4>
 <ul>
-<li><strong>California Brown Pelican</strong> | Simon Willison</li>
+<li><strong>AI 代码生成冲击开源治理</strong>：Ladybird 浏览器创始人 Andreas Kling 宣布不再接受公开 Pull Request，认为在 AI 可大量生成代码的当下，补丁规模已无法衡量贡献诚意；强调只有对变更拥有决策权并愿承担后果的人，才应向项目引入代码。（Simon Willison）</li>
 </ul>
-<p>作者在旧金山 Fort Mason 参加微软 Build 大会期间，于会场后方水域观察到加州褐鹈鹕潜水的自然景象。</p>
     </div>
   </div>
 
   <!-- 文章 Tab -->
   <div id="tab-articles" class="tab-content">
     <div class="article-card">
-      <div class="source">Simon Willison</div>
+      <div class="source">TLDR AI</div>
       <div class="title-row">
-        <div class="title">微软发布MAI系列新模型</div>
+        <div class="title">Anthropic Oceanus 泄露、ChatGPT 梦境与递归自我改进</div>
         <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
       </div>
-      <div class="title-en">Microsoft&#x27;s new MAI models</div>
-      <div class="tags"><span class="tag">微软</span><span class="tag">大模型</span><span class="tag">代码模型</span><span class="tag">轻量模型</span></div>
-      <div class="summary">微软新发布了MAI-Thinking-1与MAI-Code-1-Flash两款轻量级大模型，分别聚焦推理与代码场景。不同于当前主流做法，微软强调这两款模型完全基于商业授权的干净数据从头独立训练，未对第三方模型进行蒸馏。</div>
+      <div class="title-en">Anthropic Oceanus leaks 🤖, ChatGPT Dreaming 💭, recursive self improvement 🚀</div>
+      <div class="tags"><span class="tag">数据基建</span><span class="tag">定价策略</span><span class="tag">AI代理</span></div>
+      <div class="summary">数据基础设施的经济格局正经历三重变革：部署模式、单位成本架构与AI代理的使用模式正在重塑行业。领先企业正通过将定价视为产品、重构计费引擎来适应商业化转型，并探索面向AI代理的定价与打包策略。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">It&#x27;s very interesting to see Microsoft releasing models with such low parameter counts, especially given how expensive larger models are to access right now.</div><div class="quote-zh">微软推出参数如此精简的模型，这一点非常有趣——尤其是在当下访问大模型的成本居高不下的情况下。</div></div>
-<div class="quote-block"><div class="quote-en">I would very much like to learn more about this &#x27;appropriately licensed&#x27; data! Could these be the first generally useful code-specialist models that didn&#x27;t train on an unlicensed dump of the web?</div><div class="quote-zh">我非常想进一步了解这些&#x27;授权得当&#x27;的数据！它们会不会是第一批没有使用未授权网络数据Dump来训练的、真正实用的代码专用模型？</div></div>
+<div class="quote-block"><div class="quote-en">AI agents are generating usage patterns that traditional pricing models weren&#x27;t built to handle.</div><div class="quote-zh">AI 智能体正在生成传统定价模型从未设计用来处理的使用模式。</div></div>
+<div class="quote-block"><div class="quote-en">Learn why treating pricing as a product is key, how to price for AI agents, and why packaging is an underrated lever.</div><div class="quote-zh">了解为何应将定价视为产品、如何为 AI 智能体定价，以及为何打包策略是一个被低估的杠杆。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Microsoft's new MAI models / 微软全新 MAI 模型</h3>
+      <div class="translation"><h3 style="margin:24px 0 12px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Oceanus</strong> leaks 🤖, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ChatGPT</strong> Dreaming 💭, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">recursive self improvement</strong> 🚀</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Oceanus</strong> 泄露 🤖，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ChatGPT</strong> 梦境 💭，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">recursive self improvement（递归式自我改进）</strong> 🚀</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong> announced two new text <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLMs</strong> this morning — <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MAI-Thinking-1</strong> (reasoning, 35B parameters, available to "select early partners") and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MAI-Code-1-Flash</strong> (5B parameters, "purpose-built for GitHub Copilot and VS Code to deliver high performance and lower cost [...] rolling out to GitHub Copilot individual users in Visual Studio Code"). I've not been able to try either of them just yet.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">微软（Microsoft）</strong>今早发布了两款全新的文本 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM（大语言模型，Large Language Model）</strong>——<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MAI-Thinking-1</strong>（推理模型，350亿参数，面向"精选早期合作伙伴"开放）和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MAI-Code-1-Flash</strong>（50亿参数，"专为 GitHub Copilot 和 VS Code 打造，以提供高性能和更低成本 [...] 正在向 Visual Studio Code 中的 GitHub Copilot 个人用户推出"）。我目前还没能上手体验这两款模型。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">The economics of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">data infra</strong> are changing in 3 big ways:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">data infra（数据基础设施）</strong>的经济格局正在经历三大变革：</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-It's very interesting to see <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong> releasing models with such low <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">parameter counts</strong>, especially given how expensive larger models are to access right now. They claim <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MAI-Thinking-1</strong> "is preferred to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Sonnet 4.6</strong> in our blind human side-by-side evaluations", which is impressive for a 35B model seeing as I frequently run models larger than that on my own laptop.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-看到 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">微软（Microsoft）</strong>推出<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">参数量（parameter counts）</strong>如此低的模型非常有趣，尤其是考虑到目前访问更大模型的成本有多高昂。他们声称 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MAI-Thinking-1</strong> "在盲测人类横向对比评估中优于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Sonnet 4.6</strong>"，这对于一个350亿参数的模型来说令人印象深刻，毕竟我自己在笔记本上经常运行的模型都比它大。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;"><ul style="list-style:none;padding-left:0;margin:0;"><li>1️⃣ <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Deployment models</strong> are changing, which changes who pays for what.</li><li>2️⃣ New architectures are reshaping <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">unit costs</strong>.</li><li>3️⃣ <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agents</strong> are generating usage patterns that traditional pricing models weren't built to handle.</li></ul></div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">1️⃣ <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Deployment models（部署模式）</strong>正在改变，由此改变了成本承担方的格局；<br>2️⃣ 新架构正在重塑<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">unit costs（单位成本）</strong>；<br>3️⃣ <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agents（AI 智能体）</strong>正在产生传统定价模型无法应对的使用模式。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Also of note:
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-同样值得注意的是：
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">This webinarexplores how leading infrastructure companies are navigating the commercial shift, managing <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">token economics</strong>, and redesigning their <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">billing engines</strong> for continuous <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">monetization iteration</strong>.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">本场网络研讨会探讨了领先的基础设施公司如何应对这一商业转型、管理 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">token economics（Token 经济学）</strong>，以及如何重新设计其 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">billing engines（计费引擎）</strong> 以实现持续的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">monetization iteration（变现迭代）</strong>。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-We trained [<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MAI-Thinking-1</strong>] from the ground up on <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">enterprise grade</strong>, clean and commercially licensed data, without <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">distillation</strong> from third-party models.
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我们从零开始训练 [<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MAI-Thinking-1</strong>]，使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">企业级（enterprise grade）</strong>、干净且具备商业许可的数据，且未采用第三方模型的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">知识蒸馏（distillation）</strong>技术。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Learn why treating <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pricing as a product</strong> is key, how to price for AI agents, and why <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">packaging</strong> is an underrated lever.</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">了解为何将 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">pricing as a product（定价即产品）</strong> 视为关键，如何为 AI 智能体定价，以及为何 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">packaging（产品打包）</strong> 是一个被低估的杠杆。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-We trained [<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MAI-Thinking-1</strong>] from the ground up on enterprise grade, clean and commercially licensed data, without distillation from third-party models.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我们从零开始训练 [<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MAI-Thinking-1</strong>]，使用企业级（enterprise grade）、干净且具备商业许可的数据，且未采用第三方模型的知识蒸馏（distillation）技术。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-And for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MAI-Code-1-Flash</strong> as well:
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-对于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MAI-Code-1-Flash</strong> 同样如此：
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-It is built <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">end-to-end</strong> by <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong> using clean and appropriately licensed data.
-</blockquote>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-该模型由 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">微软（Microsoft）</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">端到端（end-to-end）</strong>构建，使用了干净且获得适当授权的数据。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-It is built end-to-end by <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong> using clean and appropriately licensed data.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-该模型由 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">微软（Microsoft）</strong> 端到端（end-to-end）构建，使用了干净且获得适当授权的数据。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-I would very much like to learn more about this "appropriately licensed" data! Could these be the first generally useful <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">code-specialist models</strong> that didn't train on an unlicensed dump of the web?
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我非常想进一步了解这些"获得适当授权"的数据！这些模型会不会是首批在未经网络非法抓取（unlicensed dump）的数据上训练、且具备广泛实用价值的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">代码专用模型（code-specialist models）</strong>？
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llm-release</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">generative-ai</strong>, ai, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">microsoft</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llms</strong>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llm-release（大语言模型发布）</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">generative-ai（生成式 AI）</strong>, ai, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">microsoft（微软）</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">llms（大语言模型）</strong>
-</p></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Save your spot</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">立即预约席位</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">加州褐鹈鹕</div>
-        <span class="tone-pill" style="background:#fef3c7;color:#b45309">🎉 兴奋</span>
-      </div>
-      <div class="title-en">California Brown Pelican</div>
-      <div class="tags"><span class="tag">褐鹈鹕</span><span class="tag">旧金山</span><span class="tag">观鸟</span></div>
-      <div class="summary">作者在旧金山Fort Mason参加微软Build大会时，注意到会场后方的水域中有加州褐鹈鹕正在潜水。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">I&#x27;m at the Microsoft Build conference today, held at Fort Mason in San Francisco.</div><div class="quote-zh">我今天在旧金山梅森堡参加微软Build大会。</div></div>
-<div class="quote-block"><div class="quote-en">There are California Brown Pelicans diving into the water directly behind venue!</div><div class="quote-zh">会场正后方的海面上，竟有加州褐鹈鹕在俯冲入水！</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">California Brown Pelican（加州褐鹈鹕）</h3>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I'm at the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Build</strong> conference today, held at Fort Mason in San Francisco. There are <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">California Brown Pelicans</strong> diving into the water directly behind venue!</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我今天在旧金山的 Fort Mason 参加 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Microsoft</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Build</strong> 大会。会场正后方的水域中，有 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">California Brown Pelicans</strong>（加州褐鹈鹕）正在俯冲入水！</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">粘贴即文件编辑器</div>
-        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
-      </div>
-      <div class="title-en">Pasted File Editor</div>
-      <div class="tags"><span class="tag">粘贴附件</span><span class="tag">文件编辑器</span><span class="tag">原型开发</span></div>
-      <div class="summary">作者受Claude.ai将大量粘贴文本自动转为文件附件的功能启发，利用Codex桌面版开发了一款原型编辑器；该工具还支持直接打开文件（包括以缩略图显示的图片）和拖拽上传功能。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">I really like how you can paste a large volume of text into claude.ai (or the Claude desktop/mobile apps) and it will detect it as a large paste and turn it into a file attachment instead.</div><div class="quote-zh">我很喜欢你可以在 claude.ai（或 Claude 桌面/移动端应用）里粘贴大量文本，它会检测到这是一次大体积粘贴，并将其转为文件附件。</div></div>
-<div class="quote-block"><div class="quote-en">I decided to have Codex desktop build me a version of that as a prototype.</div><div class="quote-zh">我决定让 Codex 桌面版为我做个类似版本，当作原型。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Pasted File Editor</h3>
-<h4 style="margin:24px 0 12px;">粘贴文件编辑器</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-I really like how you can paste a large volume of text into<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">claude.ai</strong>(or the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude</strong> desktop/mobile apps) and it will detect it as a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">large paste</strong> and turn it into a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">file attachment</strong> instead.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我很喜欢这样一个功能：你可以在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">claude.ai</strong>（或 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude</strong> 桌面/移动端应用）中粘贴大量文本，系统会检测到这是一次 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">large paste（大量粘贴）</strong>，并将其自动转换为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">file attachment（文件附件）</strong>。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-I decided to have <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex desktop</strong>build me a version of thatas a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prototype</strong>.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我决定让 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Codex desktop</strong> 为我构建一个该功能的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prototype（原型）</strong>版本。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-You can also open files directly - including images which will be shown as <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">thumbnails</strong> - or drag files onto the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">textarea</strong>.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-你也可以直接打开文件——包括会以 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">thumbnails（缩略图）</strong>形式展示的图片——或者将文件拖拽到 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">textarea（文本区域）</strong> 中。
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://tldr.tech/ai/2026-06-05" target="_blank">阅读原文 &rarr;</a>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-06-03
+  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-06-06
 </div>
 
 <script>

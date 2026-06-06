@@ -7,26 +7,24 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 03 Jun 2026 00:38:55 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 00:03:48 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-06-03</title>
-      <description>&lt;h4&gt;LLM &amp;amp; AI 工具&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Microsoft&amp;#x27;s new MAI models&lt;/strong&gt; | Simon Willison&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;微软发布轻量模型 MAI-Thinking-1（专注推理）与 MAI-Code-1-Flash（专注代码），强调二者完全基于商业授权的干净数据独立训练，未对任何第三方模型进行蒸馏。&lt;/p&gt;
+      <title>📰 AI/产品/技术日报 - 2026-06-06</title>
+      <description>&lt;h3&gt;每日 AI/产品/技术日报&lt;/h3&gt;
 &lt;h4&gt;产品与增长&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Pasted File Editor&lt;/strong&gt; | Simon Willison&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据基建商业化迎来三重变革&lt;/strong&gt;：部署模式、单位成本架构与 AI 代理使用模式正在重塑行业，领先企业通过将定价视为产品、重构计费引擎适应转型，并探索面向 AI 代理的定价与打包策略。（TLDR AI）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;受 Claude.ai“粘贴文本自动转为文件附件”功能启发，作者利用 Codex 桌面版快速开发了一款原型编辑器，支持直接打开文件（含图片缩略图预览）及拖拽上传。&lt;/p&gt;
+&lt;h4&gt;工程与系统设计&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI 交付速度与系统可靠性的工程张力&lt;/strong&gt;：AI 支持者与怀疑者各有道理——积极拥抱 AI 可带来能力跃升，但过快交付会侵蚀系统可靠性与机构知识；核心挑战在于组织需设计有效反馈机制，弥合双方对现实认知的鸿沟。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4&gt;跨界与深度思考&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;California Brown Pelican&lt;/strong&gt; | Simon Willison&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;作者在旧金山 Fort Mason 参加微软 Build 大会期间，于会场后方水域观察到加州褐鹈鹕潜水的自然景象。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-06-03</guid>
-      <pubDate>Wed, 03 Jun 2026 00:38:55 +0000</pubDate>
+&lt;li&gt;&lt;strong&gt;AI 代码生成冲击开源治理&lt;/strong&gt;：Ladybird 浏览器创始人 Andreas Kling 宣布不再接受公开 Pull Request，认为在 AI 可大量生成代码的当下，补丁规模已无法衡量贡献诚意；强调只有对变更拥有决策权并愿承担后果的人，才应向项目引入代码。（Simon Willison）&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-06-06</guid>
+      <pubDate>Sat, 06 Jun 2026 00:03:48 +0000</pubDate>
     </item>
   </channel>
 </rss>
