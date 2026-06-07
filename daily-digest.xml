@@ -7,27 +7,17 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 07 Jun 2026 00:02:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 23:35:07 +0000</lastBuildDate>
     <item>
       <title>📰 AI/产品/技术日报 - 2026-06-07</title>
-      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 安全&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2&gt;科技日报 · AI/产品/技术&lt;/h2&gt;
+&lt;h3&gt;工程与系统设计&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;OpenAI 推出&amp;quot;锁定模式&amp;quot;（Lockdown Mode）&lt;/strong&gt;：通过限制出站网络请求，从链路层面阻断提示词注入攻击导致的数据外泄。该机制以牺牲部分功能为代价，为高风险场景提供确定性安全防护。（来源：Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A new era for software testing&lt;/strong&gt; · Antirez（来源：Antirez）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;开发工具与工程&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;micropython-wasm 发布 0.1a2&lt;/strong&gt;：新增命令行界面（CLI），让用户能更便捷地在 WASM 沙盒环境中直接体验 MicroPython。（来源：Simon Willison）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;社区智慧：创业与 AI 产品路线&lt;/strong&gt;：Lenny&amp;#x27;s Newsletter 精选会员讨论，涵盖创业自举与融资权衡、Vibe 编码应用路线图构建，以及 AI Agent 数据完整性等实战话题。（来源：Kiyani / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;跨界与产业观察&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;建筑与工业科技阅读清单&lt;/strong&gt;：Construction Physics 汇总跨领域动态，包括 AI 聊天机器人介入房产销售、合成钻石应用于 AI 芯片散热，及佛罗里达州房产税改革等议题。（来源：Brian Potter / Construction Physics）&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;文章提出 LLM 正开启软件测试新范式：AI Agent 可扮演 QA 工程师执行复杂人工测试、集成验证与用户体验评估，突破传统自动化测试的时空与逻辑局限。作者认为，这将有效对冲 AI 快速编程带来的代码质量折损，从源头提升软件发布质量。&lt;/p&gt;</description>
       <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-06-07</guid>
-      <pubDate>Sun, 07 Jun 2026 00:02:58 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2026 23:35:07 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -292,322 +292,128 @@
 <div class="container">
   <div class="tabs">
     <button class="tab active" onclick="switchTab('digest')">每日日报</button>
-    <button class="tab" onclick="switchTab('articles')">全部文章 (4)</button>
+    <button class="tab" onclick="switchTab('articles')">全部文章 (1)</button>
   </div>
 
   <!-- 日报 Tab -->
   <div id="tab-digest" class="tab-content active">
-    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">WASM</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">命令行</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">沙盒</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">数据外泄</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#af52de"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">提示注入</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">大模型</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">安全</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">创业融资</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
+    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">软件测试</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">AI测试</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">质量保证</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
       <h2>2026-06-07 日报</h2>
-      <p><strong>LLM &amp; AI 安全</strong></p>
+      <h2>科技日报 · AI/产品/技术</h2>
+<h3>工程与系统设计</h3>
 <ul>
-<li><strong>OpenAI 推出&quot;锁定模式&quot;（Lockdown Mode）</strong>：通过限制出站网络请求，从链路层面阻断提示词注入攻击导致的数据外泄。该机制以牺牲部分功能为代价，为高风险场景提供确定性安全防护。（来源：Simon Willison）</li>
+<li><strong>A new era for software testing</strong> · Antirez（来源：Antirez）</li>
 </ul>
-<p><strong>开发工具与工程</strong></p>
-<ul>
-<li><strong>micropython-wasm 发布 0.1a2</strong>：新增命令行界面（CLI），让用户能更便捷地在 WASM 沙盒环境中直接体验 MicroPython。（来源：Simon Willison）</li>
-</ul>
-<p><strong>产品与增长</strong></p>
-<ul>
-<li><strong>社区智慧：创业与 AI 产品路线</strong>：Lenny&#x27;s Newsletter 精选会员讨论，涵盖创业自举与融资权衡、Vibe 编码应用路线图构建，以及 AI Agent 数据完整性等实战话题。（来源：Kiyani / Lenny&#x27;s Newsletter）</li>
-</ul>
-<p><strong>跨界与产业观察</strong></p>
-<ul>
-<li><strong>建筑与工业科技阅读清单</strong>：Construction Physics 汇总跨领域动态，包括 AI 聊天机器人介入房产销售、合成钻石应用于 AI 芯片散热，及佛罗里达州房产税改革等议题。（来源：Brian Potter / Construction Physics）</li>
-</ul>
+<p>文章提出 LLM 正开启软件测试新范式：AI Agent 可扮演 QA 工程师执行复杂人工测试、集成验证与用户体验评估，突破传统自动化测试的时空与逻辑局限。作者认为，这将有效对冲 AI 快速编程带来的代码质量折损，从源头提升软件发布质量。</p>
     </div>
   </div>
 
   <!-- 文章 Tab -->
   <div id="tab-articles" class="tab-content">
     <div class="article-card">
-      <div class="source">Simon Willison</div>
+      <div class="source">Antirez</div>
       <div class="title-row">
-        <div class="title">micropython-wasm 0.1a2 发布</div>
+        <div class="title">软件测试的新时代</div>
         <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
       </div>
-      <div class="title-en">micropython-wasm 0.1a2</div>
-      <div class="tags"><span class="tag">WASM</span><span class="tag">命令行</span><span class="tag">沙盒</span></div>
-      <div class="summary">micropython-wasm 发布 0.1a2 版本，新增了命令行界面（CLI）。该功能灵感来源于博客草稿，旨在为用户提供更便捷的&quot;亲自尝试&quot;体验。</div>
+      <div class="title-en">A new era for software testing</div>
+      <div class="tags"><span class="tag">软件测试</span><span class="tag">AI测试</span><span class="tag">质量保证</span></div>
+      <div class="summary">文章指出，大语言模型正开启软件测试的新时代：通过让AI Agent扮演QA工程师执行复杂的人工测试、集成验证和用户体验评估，不仅能突破传统测试的时空与逻辑局限，还有望提升软件发布质量，弥补AI快速编程带来的潜在代码质量折损。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">I added a CLI tomicropython-wasm(issue #7), inspired by the first draft ofthe blog entrywhen I realized it would be a great way to illustrate theTry it yourselfsection.</div><div class="quote-zh">受博客初稿启发，我为 micropython-wasm 添加了 CLI（第 7 号 issue），当时意识到这是演示「亲自尝试」部分的绝佳方式。</div></div>
+<div class="quote-block"><div class="quote-en">However, not all the software is stellar, and my feeling is that automatic programming surpasses most of the times (and if well managed) the quality of decently developed hand-written code.</div><div class="quote-zh">然而，并非所有软件都出类拔萃，我的感觉是，自动编程在大多数情况下（如果管理得当）能够超越那些还算过得去的手写代码的质量。</div></div>
+<div class="quote-block"><div class="quote-en">I have the feeling that the introduction of automatic QA may raise the bar of quality for new releases of software, and maybe partially compensate for the lower quality of the code produced at high speed with the use of automatic programming.</div><div class="quote-zh">我有一种感觉，自动QA的引入可能会提高软件新发布的质量门槛，并可能在一定程度上弥补使用自动编程高速产出的代码所存在的质量不足。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">micropython-wasm 0.1a2</h3>
+      <div class="translation"><h3 style="margin:24px 0 12px;">A new era for software testing</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Release:micropython-wasm 0.1a2</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">发布：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">micropython-wasm</strong> 0.1a2</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Automatic programming dramatically speeds up writing software in certain use cases and in the right hands. In my experience the output does not reach the structural quality and economy of complexity of the best hand-written software. However, not all the software is stellar, and my feeling is that automatic programming surpasses most of the times (and if well managed) the quality of decently developed hand-written code.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Automatic programming</strong>（自动编程）在特定用例中、且运用得当的话，能够显著加速软件编写。以我的经验，其产出在结构质量与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">complexity</strong>（复杂度）经济性方面，仍不及最优秀的手写软件。然而，并非所有软件都堪称卓越，我认为自动编程在多数情况下（若管理得当）能够超越那些仅算"过得去"的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hand-written software</strong>（手写软件）质量。
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">I added a CLI tomicropython-wasm(issue #7), inspired by the first draft ofthe blog entrywhen I realized it would be a great way to illustrate theTry it yourselfsection.</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">micropython-wasm</strong> 添加了一个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CLI</strong>（命令行界面，参见 issue #7），灵感来源于那篇博客的初稿；当时我意识到，这将是展示“<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Try it yourself</strong>”板块的绝佳方式。</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Yet, there is a tradeoff between quality and time, in the case of writing new software with AI. This tradeoff in certain projects I developed can be brutal, that is, completing projects that may take many months in a few weeks. However, there are domains where LLMs simply open new strictly more powerful ways to automate processes, without any compromise on quality. One of those domains is software QA and testing.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+然而，在使用 AI 编写新软件时，质量与时间之间存在一种 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tradeoff</strong>（权衡）。在我开发过的某些项目中，这种权衡可能相当残酷——原本需要数月才能完成的项目，几周就能收尾。不过，也存在一些领域，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLMs</strong>（大语言模型）能够在不牺牲质量的前提下，开辟全新且严格更强大的流程自动化路径。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Software QA</strong>（软件质量保证）与测试便是其中之一。
+</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tags:python,sandboxing,webassembly,micropython</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">python</strong>、sandboxing（沙箱化）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">webassembly</strong>（网页汇编）、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">micropython</strong>（微 Python）</p></div>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Traditionally software is tested using test suites that are composed of locally-scoped tests and integration tests (think of Redis: one thing is testing if SET foo 10 will be matched by GET foo => 10, another thing is testing if replication works in this case). And then by QA passes that are usually manually executed, and that can capture holes in the runnable test suite. It is a known fact that covering all the lines of the code does not mean covering all the possible states. Moreover integration testing is structurally hard: there are a number of timing issues, setups, and certain quality outputs that can only be visually inspected and not automatically checked that leave a lot of testing opportunities not really exploited because of time or logistic constraints.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+传统上，软件通过由局部作用域测试与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">integration tests</strong>（集成测试）组成的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">test suites</strong>（测试套件）进行测试（以 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Redis</strong> 为例：测试 SET foo 10 是否能被 GET foo => 10 匹配是一回事，测试此场景下复制是否正常工作则是另一回事）。随后还要经过通常由人工执行的 QA 巡检，以捕捉可运行测试套件中的漏洞。众所周知，覆盖所有代码行并不意味着覆盖所有可能状态。此外，集成测试在结构上十分困难：存在诸多 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">timing issues</strong>（时序问题）、环境搭建难题，以及某些只能通过肉眼观察而无法自动校验的质量输出，导致大量测试机会因时间或后勤限制而未能真正利用。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+LLMs offer a new way to do QA on top of the existing testing methodologies. The idea is to create a markdown file where an AI agent is asked to work as a QA engineer, performing a number of manual testings on the new release. For instance, in the case of DwarfStar (an inference engine for open weights LLMs) I use the following approach.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+LLMs 为现有测试方法论之上提供了一种新的 QA 方式。其思路是创建一个 markdown 文件，要求 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agent</strong>（AI 智能体）扮演 QA 工程师，对新版本执行一系列手动测试。例如，在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">DwarfStar</strong>（一款面向 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">open weights</strong>（开源权重）LLM 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">inference engine</strong>（推理引擎））项目中，我采用了如下方法。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+In the markdown file, the agent is asked to check what are the new commits on top of the already released version of the software project. Then the model is told a list of things that should be performed, like:
+<ul style="margin:6px 0;padding-left:24px;">
+<li>Check that distributed inference works across MacBook A and MacBook B, making sure the output is coherent, the inference works with all the GGUF files we have in both the machines, ...</li>
+<li>Make sure this release does not contain any speed regression.</li>
+</ul>
+And so forth.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 6px;line-height:1.8;font-size:15px;">
+在该 markdown 文件中，agent 被要求检查在软件已发布版本之上新增了哪些 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">commits</strong>（提交）。随后，模型会收到一份待执行事项清单，例如：
+</p>
+<ul style="margin:6px 0 6px;padding-left:24px;color:#2c2c2e;line-height:1.8;font-size:15px;">
+<li>检查 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">distributed inference</strong>（分布式推理）在 MacBook A 与 MacBook B 之间能否正常工作，确保输出一致，且我们两台机器上所有 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GGUF files</strong> 都能正常进行推理……</li>
+<li>确保本次发布不存在任何 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">speed regression</strong>（速度回退）。</li>
+</ul>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+诸如此类。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Notably, in the speed regression part, I don't have to tell the agent what was the previous expected speed, as this is a moving target that changes with new releases and new optimizations. Similarly the integration test for distributed inference does not require many instructions, at the start of the file there are just SSH endpoints and the key to use, the paths, and so forth.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+值得注意的是，在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">speed regression</strong>（速度回退）检测环节，我无需告诉 agent 先前的预期速度是多少，因为这是一个随新发布与新优化而不断变化的动态目标。同样，针对分布式推理的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">integration test</strong>（集成测试）也无需大量指令，文件开头只需提供 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SSH endpoints</strong>（SSH 端点）、所用密钥、路径等信息即可。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+The agent is asked to check the long list of QA activities <em>especially</em> in light of the added commits, starting with an inspection of the changes and with the identification of what could be affected, so that the QA pass specializes trying to find specific regressions.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+Agent 被要求对照新增的提交，<em>尤其</em>仔细检查一长串 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">QA activities</strong>（QA 活动）：先从检查变更内容入手，识别可能受影响的范围，从而使此次 QA 过程专注于排查特定的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">regressions</strong>（回退问题）。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+In the case of Redis Arrays, I used a similar methodology asking the agent to build a large array-based Redis application, to setup a production environment with replication and persistency, to simulate the usage of the application for days and with many users, checking if something was odd.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Redis Arrays</strong> 的案例中，我采用了类似方法：要求 agent 构建一个基于大型数组的 Redis 应用，搭建具备 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">replication</strong>（复制）与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">persistency</strong>（持久化）的生产环境，模拟该应用在多日、多用户下的使用场景，并检查是否有异常情况。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Testing that uses these approaches may also move in the more psychological side of software quality, asking the agent to identify all the new features that may look surprising, not documented enough, or generally sloppy from the POV of the user. All things that needed to be executed manually before, and that most of the times were mostly skipped.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+采用这类方法的测试还可能触及软件质量更偏向 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">psychological side</strong>（心理层面）的部分：要求 agent 识别所有可能令 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">user</strong>（用户）感到意外、文档不足或总体上显得粗糙的新功能。这些全都是以前需要 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">manually</strong>（手动）执行的事项，而且大多数时候都被草草略过了。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+I have the feeling that the introduction of automatic QA may raise the bar of quality for new releases of software, and maybe partially compensate for the lower quality of the code produced at high speed with the use of automatic programming.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+我有一种预感：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">automatic QA</strong>（自动 QA）的引入将提升软件新发布的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">quality</strong>（质量）基准，并可能在一定程度上弥补借助 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">automatic programming</strong>（自动编程）高速产出代码所带来的质量下降。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Comments</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">评论</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Simon Willison</div>
-      <div class="title-row">
-        <div class="title">OpenAI 锁定模式：防御数据外泄的确定性方案</div>
-        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
-      </div>
-      <div class="title-en">OpenAI Help: Lockdown Mode</div>
-      <div class="tags"><span class="tag">数据外泄</span><span class="tag">提示注入</span><span class="tag">大模型</span><span class="tag">安全</span></div>
-      <div class="summary">OpenAI推出&quot;锁定模式&quot;（Lockdown Mode），通过限制出站网络请求来阻断提示词注入攻击中的数据外泄环节。这一确定性防护机制虽会牺牲部分功能，但能为面临高风险的用户提供更可靠的安全保障。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">The only way to solve the trifecta is to cut off one of the three legs, and by far the easiest leg to restrict without making your LLM systems far less useful is the exfiltration vectors to steal data.</div><div class="quote-zh">破解这一致命三重困境的唯一办法是砍断三条腿中的一条，而在不使LLM系统大失实用性的前提下，最容易限制的无疑是窃取数据的外泄通道。</div></div>
-<div class="quote-block"><div class="quote-en">The existence of lockdown mode does however imply that ChatGPT, in its default settings, does not provide robust protection against sufficiently determined data exfiltration attacks!</div><div class="quote-zh">然而，锁定模式的存在恰恰暗示，在默认设置下，ChatGPT并不能为抵御足够坚决的数据外泄攻击提供强有力的防护！</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">OpenAI Help: Lockdown Mode</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 帮助文档：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">锁定模式（Lockdown Mode）</strong></p>
-
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Lockdown Mode is designed to help prevent the final stage of data exfiltration from a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt injection</strong> attack by limiting outbound network requests that could transfer sensitive data to an attacker. Lockdown Mode does not prevent prompt injections from appearing in the content <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatGPT</strong> processes. For example, a prompt injection could appear in cached web content or in an uploaded file, and could still affect the behavior or accuracy of a response.
-</div>
-</blockquote>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">锁定模式（Lockdown Mode）</strong>旨在通过限制可能将敏感数据传输给攻击者的出站网络请求，帮助防止<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">提示词注入（prompt injection）</strong>攻击最后阶段的数据外泄。锁定模式并不能阻止提示词注入出现在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatGPT</strong> 处理的内容中。例如，提示词注入可能出现在缓存的网页内容或上传的文件中，并且仍然可能影响回复的行为或准确性。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Lockdown Mode is designed to help prevent the final stage of data exfiltration from a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prompt injection</strong> attack by limiting outbound network requests that could transfer sensitive data to an attacker. Lockdown Mode does not prevent prompt injections from appearing in the content <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatGPT</strong> processes. For example, a prompt injection could appear in cached web content or in an uploaded file, and could still affect the behavior or accuracy of a response.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">锁定模式（Lockdown Mode）</strong>旨在通过限制可能将敏感数据传输给攻击者的出站网络请求，帮助防止<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">提示词注入（prompt injection）</strong>攻击最后阶段的数据外泄。锁定模式并不能阻止提示词注入出现在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatGPT</strong> 处理的内容中。例如，提示词注入可能出现在缓存的网页内容或上传的文件中，并且仍然可能影响回复的行为或准确性。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-This looks really good to me.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-在我看来，这非常不错。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-The<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Lethal Trifecta</strong>occurs when an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM</strong> system has access to all three of access to private data, exposure to untrusted content and a way to steal data and transmit it back to the attacker.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-当 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM</strong> 系统同时满足三个条件时——能够访问私人数据、暴露于不受信任的内容，以及存在窃取数据并将其传回给攻击者的途径——<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">致命三重威胁（Lethal Trifecta）</strong>就会发生。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-The only way to solve the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">trifecta</strong> is to cut off one of the three legs, and by far the easiest leg to restrict without making your <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM</strong> systems far less useful is the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">exfiltration vectors</strong> to steal data.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-解决这一<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">三重威胁（trifecta）</strong>的唯一方法是切断三条腿中的一条，而迄今为止，在不让 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLM</strong> 系统大幅降低实用性的前提下，最容易限制的便是用于窃取数据的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">外泄向量（exfiltration vectors）</strong>。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-It looks to me like <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">lockdown mode</strong> directly attacks that leg, using mechanisms that are deterministic and, crucially, are not evaluated by <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> systems that themselves can be subverted by sufficiently devious attacks.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-在我看来，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">锁定模式（lockdown mode）</strong>直接针对这条腿发起攻击，它所采用的机制是确定性的，且关键的是，这些机制不会由 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 系统进行评估——而这些系统本身就可能被足够狡猾的攻击所颠覆。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-The existence of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">lockdown mode</strong> does however imply that <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatGPT</strong>, in its default settings, doesnot<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">provide</strong> robust protection against sufficiently determined <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">data exfiltration</strong> attacks!
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-然而，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">锁定模式（lockdown mode）</strong>的存在恰恰意味着，在默认设置下，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatGPT</strong> 并不能为抵御决心足够的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">数据外泄（data exfiltration）</strong>攻击提供强有力的保护！
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Update:</strong>This tweet<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> CISO <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Dane Stuckey</strong>:
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">更新：</strong>这条推文来自 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 首席信息安全官（CISO）<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Dane Stuckey</strong>：
-</p>
-
-<blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Lockdown mode is not meant for everyone. However, for folks who have an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">elevated risk profile</strong> - due to who they are, what they work on, or the types of data they work with - it's an excellent tool for further securing themselves. This has some <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tradeoffs</strong> on functionality and utility, but for these users, the tradeoff is worthwhile.
-</div>
-</blockquote>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-锁定模式并非面向所有用户。然而，对于那些因自身身份、工作内容或所处理数据类型而具有<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">较高风险特征（elevated risk profile）</strong>的人来说，这是一个进一步保护自身安全的绝佳工具。这在功能和实用性上会有一些<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">权衡（tradeoffs）</strong>，但对这些用户而言，这种权衡是值得的。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Lockdown mode is not meant for everyone. However, for folks who have an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">elevated risk profile</strong> - due to who they are, what they work on, or the types of data they work with - it's an excellent tool for further securing themselves. This has some <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tradeoffs</strong> on functionality and utility, but for these users, the tradeoff is worthwhile.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-锁定模式并非面向所有用户。然而，对于那些因自身身份、工作内容或所处理数据类型而具有<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">较高风险特征（elevated risk profile）</strong>的人来说，这是一个进一步保护自身安全的绝佳工具。这在功能和实用性上会有一些<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">权衡（tradeoffs）</strong>，但对这些用户而言，这种权衡是值得的。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Tags: <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">security</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ai</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">openai</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">prompt-injection</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llms</code>, <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">lethal-trifecta</code>
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-标签：<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">security</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ai</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">openai</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">prompt-injection</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">llms</code>、<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">lethal-trifecta</code>
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Lenny&#x27;s Newsletter</div>
-      <div class="title-row">
-        <div class="title">社区智慧：自举与融资、Vibe编码应用路线图、AI智能体与数据完整性等</div>
-        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
-      </div>
-      <div class="title-en">🧠 Community Wisdom: Bootstrapping vs. raising funding, building the roadmap of your vibe-coded app, AI agents and data integrity, your first project as an APM, and more</div>
-      <div class="tags"><span class="tag">创业融资</span><span class="tag">AI编程</span><span class="tag">产品路线</span><span class="tag">社区精选</span></div>
-      <div class="summary">本期&quot;社区智慧&quot;周刊精选了会员Slack社群的热门讨论，涵盖创业自举与融资权衡、Vibe编码应用路线图构建、AI代理数据完整性，以及新任APM如何规划首个项目等关键话题。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Hello and welcome to this week’s edition of ✨Community Wisdom✨ a subscriber-only email, delivered every Saturday, highlighting the most helpful conversations inour members-only Slack community.</div><div class="quote-zh">欢迎阅读本周的✨社区智慧✨，这是一封仅限订阅者的邮件，每周六发送，精选我们会员专属Slack社区中最有帮助的讨论。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">🧠 Community Wisdom: Bootstrapping vs. raising funding, building the roadmap of your vibe-coded app, AI agents and data integrity, your first project as an APM, and more</h3>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">🧠 社区智慧：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Bootstrapping</strong>（自举）与融资、构建你的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">vibe-coded</strong>（氛围编程）应用路线图、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agents</strong>（AI 智能体）与 data integrity（数据完整性）、作为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">APM</strong>（助理产品经理）的首个项目，以及更多精彩内容</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-👋 Hello and welcome to this week’s edition of ✨Community Wisdom✨ a subscriber-only email, delivered every Saturday, highlighting the most helpful conversations inour members-only Slack community.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-👋 你好，欢迎阅读本周的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Community Wisdom</strong> 专栏。这是一封仅对订阅者开放的邮件，每周六发送，精选我们仅限会员的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong> 社区中最有价值的讨论。
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://www.lennysnewsletter.com/p/community-wisdom-bootstrapping-vs" target="_blank">阅读原文 &rarr;</a>
-    </div>
-
-<div class="article-card">
-      <div class="source">Construction Physics</div>
-      <div class="title-row">
-        <div class="title">本周阅读清单 06/06/26</div>
-        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
-      </div>
-      <div class="title-en">Reading List 06/06/26</div>
-      <div class="tags"><span class="tag">房地产</span><span class="tag">制造业</span><span class="tag">基础设施</span><span class="tag">AI</span></div>
-      <div class="summary">本周阅读清单汇总了建筑、基础设施与工业科技领域的热点文章，涵盖AI聊天机器人替代理房产经纪人卖房、中国合成钻石应用于AI芯片散热、佛罗里达州酝酿取消大部分房产税，以及伦敦摩天大楼通过设置公共屋顶平台获取规划许可等话题。此外，清单还涉及伊朗局势、AI引发生物安全风险，以及3D打印机和半导体制造相关的科技政策动态。</div>
-      <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">Opposition to property taxes is having a political moment, which as we’ve mentioned previously is a pretty bad idea.</div><div class="quote-zh">反对房产税正在成为一个政治热点，正如我们此前提到的，这是个相当糟糕的主意。</div></div>
-</div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">Reading List 06/06/26</h3>
-
-<img src="https://substackcdn.com/image/fetch/$s_!l1sS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F118455ae-d3f0-48e8-99ba-17700df85805_1920x1272.jpeg" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Welcome to the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reading list</strong>, a weekly roundup of news and links related to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">buildings</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">infrastructure</strong> and industrial technology. This week we look at <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">chatbots</strong> replacing realtors, Chinese synthetic diamonds, Australian batteries, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Meta</strong>'s data center tents, and more. Roughly 2/3rds of the reading list is paywalled, so for full access become a paid subscriber.
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-欢迎来到<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">阅读清单</strong>，这是关于<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">建筑</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">基础设施</strong>（infrastructure）和工业技术的每周新闻与链接汇总。本周我们将探讨<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">聊天机器人</strong>（chatbots）取代房地产经纪人、中国人造钻石、澳大利亚电池、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Meta</strong>的数据中心帐篷等话题。阅读清单中约有三分之二的内容设有付费墙，如需完整访问请成为付费订阅者。
-</p>
-
-<h4 style="margin:24px 0 12px;">Iran war</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Iran breaks off negotiations with the US and vows to "completely block" the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Strait of Hormuz</strong>. [CNBC]
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-伊朗中断与美国的谈判，并发誓要"完全封锁"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">霍尔木兹海峡</strong>（Strait of Hormuz）。[CNBC]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Analysis of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">satellite data</strong> by the BBC suggests the damage Iran has inflicted on US military facilities is more extensive than has been previously reported. [BBC]
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-BBC对<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">卫星数据</strong>（satellite data）的分析表明，伊朗对美国军事设施造成的破坏比以往报道的更为严重。[BBC]
-</p>
-
-<h4 style="margin:24px 0 12px;">Housing</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-A NYT reporter successfully uses an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI chatbot</strong> instead of a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">realtor</strong> to sell their house. "A flurry of bookings to view our house over the coming weekend arrived in my inbox within hours. I struggled to manage the appointments until, again, I just let the chatbot do everything for me. I told agents that they had to email or text — no phone calls. Whatever they wrote, I copied and pasted into the chatbot; whatever it replied, I copied and pasted right back to the agents. I was worried that pushy ones would prey on my inexperience, so I had the chatbot come up with a list of potential conflicts and write confident responses I could have ready." [NYT]
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-《纽约时报》一位记者成功地使用<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI聊天机器人</strong>（AI chatbot）而非<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">房地产经纪人</strong>（realtor）来出售自己的房屋。"在接下来的周末，大量看房预约在几小时内涌入我的收件箱。我疲于应付这些预约，直到后来干脆让聊天机器人包办一切。我告诉中介必须通过邮件或短信联系——不接受电话。他们写了什么，我就复制粘贴到聊天机器人里；它回复了什么，我就直接复制粘贴回给中介。我担心那些强势的中介会利用我的经验不足，于是让聊天机器人列出潜在的冲突点，并撰写好自信的回复供我备用。"[NYT]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Opposition to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">property taxes</strong> is having a political moment, which as we've mentioned previously is aprettybad idea. Now Florida really seems like it might be on the verge of effectively eliminating homeowner property taxes. "<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gov. Ron DeSantis</strong>' property tax plan for the November ballot would raise the homestead exemption to $250,000 and require the Legislature to enact a plan to eliminate property taxes entirely for the vast majority of Floridians who own the homes they live in, he announced Wednesday DeSantis said he was calling the Legislature back to Tallahassee on Monday to add an amendment to the ballot that would eventually eliminate property taxes for 92% of those Floridians by raising the homestead exemption to $500,000." [Governing]
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-反对<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">财产税</strong>（property taxes）的呼声正迎来一个政治风口，正如我们此前提到的，这是一个相当糟糕的主意。如今佛罗里达州似乎真的处于有效取消房主财产税的边缘。"<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">罗恩·德桑蒂斯</strong>（Ron DeSantis）州长周三宣布，他针对11月选票推出的财产税计划将把宅地豁免额（homestead exemption）提高到25万美元，并要求州议会制定一项计划，为绝大多数拥有自住房的佛罗里达人完全取消财产税。德桑蒂斯表示，他将于周一召集州议会回到塔拉哈西，在选票上增加一项修正案，通过将宅地豁免额提高到50万美元，最终为92%的佛罗里达人取消财产税。"[Governing]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-The urban benefits of allowing tall buildings. "Land-use regulations, including <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">height limits</strong>, affect housing affordability and urban productivity. This column analyses over 11,000 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">urban agglomerations</strong> and 300,000 tall buildings to explore the effect of height restrictions on welfare. <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Vertical growth</strong> enhances land efficiency, reduces commuting, and boosts worker welfare. While higher density can increase housing demand and rents, the associated gains more than offset the costs." [VoxEU]
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-允许建造高层建筑的都市效益。"包括<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">高度限制</strong>（height limits）在内的土地利用法规会影响住房可负担性和城市生产力。本专栏分析了超过11,000个<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">城市群</strong>（urban agglomerations）和300,000栋高层建筑，以探讨高度限制对福利的影响。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">垂直发展</strong>（vertical growth）提高了土地利用效率，减少了通勤时间，并提升了劳动者福利。虽然更高的密度可能增加住房需求和租金，但由此带来的收益远超成本。"[VoxEU]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-It's apparently easier to get <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">planning permission</strong> to build a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">skyscraper</strong> in London (a city which has notoriously made it almost impossible to build new housing) if you include a publicly accessible roof deck, and thus quite a few London skyscrapers have them. [Diamond Geezer]
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-显然，在伦敦（这座以几乎不可能建造新住房而臭名昭著的城市），如果你设计一个可供公众进入的屋顶露台，获得建造<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">摩天大楼</strong>（skyscraper）的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">规划许可</strong>（planning permission）会更容易，因此伦敦不少摩天大楼都设有此类设施。[Diamond Geezer]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-A census map of where <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">air conditioning</strong> is uncommon in the US. [X]
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-一张显示美国哪些地区<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">空调</strong>（air conditioning）不普及的人口普查地图。[X]
-</p>
-
-<img src="https://substackcdn.com/image/fetch/$s_!pTXV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b590358-436d-4c2c-b1d8-76fcf6771b47_999x707.png" alt="" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
-
-<h4 style="margin:24px 0 12px;">Manufacturing</h4>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-As AI gets more capable, the risk that someone uses it to design an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">engineered virus</strong> or pathogen rises. To help mitigate this risk, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">IFP</strong> co-led an open letter calling for mandatory record-keeping of who has purchased <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">synthetic nucleic acids</strong> and the equipment for making them. "As life sciences researchers, builders of AI and biotechnology, and experts with a wide range of views on how to approach AI policy, we call on legislators to make screening of orders for synthetic nucleic acids — and the equipment needed to make them — mandatory." [ScreenDNA.org]
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-随着AI能力日益增强，有人利用其设计<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">工程化病毒</strong>（engineered virus）或病原体的风险也在上升。为帮助降低这一风险，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">IFP</strong>联合发起了一封公开信，呼吁对购买<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">合成核酸</strong>（synthetic nucleic acids）及其合成设备的人员进行强制性记录保存。"作为生命科学研究人员、AI与生物技术建设者，以及在AI政策上持有广泛观点的专家，我们呼吁立法者强制要求对合成核酸订单——以及制造它们所需的设备——进行筛查。"[ScreenDNA.org]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-One surprising beneficiary of the AI boom: Chinese manufacturers of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">synthetic diamonds</strong>, which are used as part of cooling systems for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">semiconductors</strong>. "Traditionally associated with jewelry, these synthetic gems are now being adopted as chip‑cooling materials, enabling denser and more powerful AI semiconductors. Momentum has accelerated after several Chinese producers reported that clients validated their diamonds as effective <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">heat spreaders</strong> and began commercial shipments." [Bloomberg]
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-AI热潮的一个意外受益者：中国人造钻石制造商，其产品被用作<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">半导体</strong>（semiconductors）冷却系统的一部分。"这些<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">合成钻石</strong>（synthetic diamonds）传统上与珠宝相关联，如今正被采纳为芯片冷却材料，使密度更高、性能更强的AI半导体成为可能。在几家中国生产商报告客户已验证其钻石为有效的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">散热片</strong>（heat spreaders）并开始商业发货后，这一势头进一步加速。"[Bloomberg]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-California passes a bill requiring <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">3D printers</strong> to include controls to block the production of "<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">ghost guns</strong>." [The Register]
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-加利福尼亚州通过一项法案，要求<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">3D打印机</strong>（3D printers）内置控制机制，以阻止"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">幽灵枪</strong>"（ghost guns）的生产。[The Register]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Elon Musk</strong>'s "Terafab" <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">semiconductor fab</strong> gets a big <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tax break</strong> from a Texas county. [KBTX]
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">埃隆·马斯克</strong>（Elon Musk）的"Terafab"<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">半导体工厂</strong>（semiconductor fab）从德克萨斯州一县获得了大幅<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">税收减免</strong>（tax break）。[KBTX]
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Read more
-</div>
-
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-阅读更多
-</p></div>
-      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="https://www.construction-physics.com/p/reading-list-060626" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="http://antirez.com/news/168" target="_blank">阅读原文 &rarr;</a>
     </div>
   </div>
 </div>
