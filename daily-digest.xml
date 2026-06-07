@@ -7,24 +7,27 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 06 Jun 2026 00:03:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 00:02:58 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-06-06</title>
-      <description>&lt;h3&gt;每日 AI/产品/技术日报&lt;/h3&gt;
-&lt;h4&gt;产品与增长&lt;/h4&gt;
+      <title>📰 AI/产品/技术日报 - 2026-06-07</title>
+      <description>&lt;p&gt;&lt;strong&gt;LLM &amp;amp; AI 安全&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;数据基建商业化迎来三重变革&lt;/strong&gt;：部署模式、单位成本架构与 AI 代理使用模式正在重塑行业，领先企业通过将定价视为产品、重构计费引擎适应转型，并探索面向 AI 代理的定价与打包策略。（TLDR AI）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI 推出&amp;quot;锁定模式&amp;quot;（Lockdown Mode）&lt;/strong&gt;：通过限制出站网络请求，从链路层面阻断提示词注入攻击导致的数据外泄。该机制以牺牲部分功能为代价，为高风险场景提供确定性安全防护。（来源：Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;工程与系统设计&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;开发工具与工程&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AI 交付速度与系统可靠性的工程张力&lt;/strong&gt;：AI 支持者与怀疑者各有道理——积极拥抱 AI 可带来能力跃升，但过快交付会侵蚀系统可靠性与机构知识；核心挑战在于组织需设计有效反馈机制，弥合双方对现实认知的鸿沟。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;micropython-wasm 发布 0.1a2&lt;/strong&gt;：新增命令行界面（CLI），让用户能更便捷地在 WASM 沙盒环境中直接体验 MicroPython。（来源：Simon Willison）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;跨界与深度思考&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;产品与增长&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AI 代码生成冲击开源治理&lt;/strong&gt;：Ladybird 浏览器创始人 Andreas Kling 宣布不再接受公开 Pull Request，认为在 AI 可大量生成代码的当下，补丁规模已无法衡量贡献诚意；强调只有对变更拥有决策权并愿承担后果的人，才应向项目引入代码。（Simon Willison）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;社区智慧：创业与 AI 产品路线&lt;/strong&gt;：Lenny&amp;#x27;s Newsletter 精选会员讨论，涵盖创业自举与融资权衡、Vibe 编码应用路线图构建，以及 AI Agent 数据完整性等实战话题。（来源：Kiyani / Lenny&amp;#x27;s Newsletter）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;跨界与产业观察&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;建筑与工业科技阅读清单&lt;/strong&gt;：Construction Physics 汇总跨领域动态，包括 AI 聊天机器人介入房产销售、合成钻石应用于 AI 芯片散热，及佛罗里达州房产税改革等议题。（来源：Brian Potter / Construction Physics）&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-06-06</guid>
-      <pubDate>Sat, 06 Jun 2026 00:03:48 +0000</pubDate>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-06-07</guid>
+      <pubDate>Sun, 07 Jun 2026 00:02:58 +0000</pubDate>
     </item>
   </channel>
 </rss>
