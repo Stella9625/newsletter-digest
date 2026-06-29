@@ -292,134 +292,782 @@
 <div class="container">
   <div class="tabs">
     <button class="tab active" onclick="switchTab('digest')">每日日报</button>
-    <button class="tab" onclick="switchTab('articles')">全部文章 (1)</button>
+    <button class="tab" onclick="switchTab('articles')">全部文章 (5)</button>
   </div>
 
   <!-- 日报 Tab -->
   <div id="tab-digest" class="tab-content active">
-    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">软件测试</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">AI测试</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">1</span></div>
-<div class="chart-row"><span class="chart-label">质量保证</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#ff9500"></div></div><span class="chart-count">1</span></div></div>
+    <div class="topic-chart"><h2>今日主题分布</h2><div class="chart-row"><span class="chart-label">大模型</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#0071e3"></div></div><span class="chart-count">2</span></div>
+<div class="chart-row"><span class="chart-label">AI编程</span><div class="chart-bar-bg"><div class="chart-bar" style="width:100%;background:#34c759"></div></div><span class="chart-count">2</span></div>
+<div class="chart-row"><span class="chart-label">Safari</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ff9500"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">AppleScript</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#af52de"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">标签页</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ff3b30"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">浏览器</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#5ac8fa"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">编程</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ff2d55"></div></div><span class="chart-count">1</span></div>
+<div class="chart-row"><span class="chart-label">开源</span><div class="chart-bar-bg"><div class="chart-bar" style="width:50%;background:#ffcc00"></div></div><span class="chart-count">1</span></div></div>
     <div class="digest-card">
-      <h2>2026-06-07 日报</h2>
-      <h2>科技日报 · AI/产品/技术</h2>
-<h3>工程与系统设计</h3>
+      <h2>2026-06-29 日报</h2>
+      <h3>今日 AI/产品/技术日报</h3>
+<h4>大模型与 AI 生态</h4>
 <ul>
-<li><strong>A new era for software testing</strong> · Antirez（来源：Antirez）</li>
+<li><strong>Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding</strong> | Simon Willison / Simon Willison</li>
 </ul>
-<p>文章提出 LLM 正开启软件测试新范式：AI Agent 可扮演 QA 工程师执行复杂人工测试、集成验证与用户体验评估，突破传统自动化测试的时空与逻辑局限。作者认为，这将有效对冲 AI 快速编程带来的代码质量折损，从源头提升软件发布质量。</p>
+<p>开源（Apache 2.0）“自脚手架”模型基于 Gemma 4 与 Qwen 3.5，参数覆盖 9B–397B，在同等规模开源模型中代码能力领先；作者本地运行 35B 版本，发现其在多工具调用 Agent 编程和代码检索上表现出色。</p>
+<ul>
+<li><strong>🎙️ How I AI: GLM-5.2 review &amp; How Gusto built a new product line with Claude Code</strong> | Lenny Rachitsky / Lenny&#x27;s Newsletter</li>
+</ul>
+<p>在真实代码库中实测显示，Z.ai 开源的 GLM-5.2 已接近 Claude Opus，具备百万 token 上下文、低成本和可自托管优势，但复杂 React Agent 任务的稳定性仍需进一步验证。</p>
+<ul>
+<li><strong>GPT-5.6 preview ☀️, Grok 4.5 beta 🤖, Google limits Meta 🛑</strong> | TLDR / TLDR AI</li>
+</ul>
+<p>OpenAI 发布 GPT-5.6 Preview 家族（Sol、Terra、Luna）并加强安全测试；马斯克宣布 Grok 4.5 已在 SpaceX 与特斯拉内测，早期评测接近或超过 Opus；另有报道称 Google 因算力紧张限制了 Meta 对 Gemini 的使用。</p>
+<h4>AI 编程与产品团队实践</h4>
+<ul>
+<li><strong>No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code</strong> | Claire Vo &amp; Lenny Rachitsky / Lenny&#x27;s Newsletter</li>
+</ul>
+<p>Gusto CTO Eddie Kim 带领 1 名设计师和 3 名工程师，在 10 周内从零代码推出 AI 产品线 Gusto Cofounder；团队弃用 Figma、Jira 和传统文档，改用 Claude Code、AI 工具、实时协作与“写完即删”的 PR 决策法，Lenny 与 Claire 分别从管理和实践视角记录了这一流程重构。</p>
+<h4>工具与效率技巧</h4>
+<ul>
+<li><strong>Count the number of Safari tabs</strong> | Simon Willison / Simon Willison</li>
+</ul>
+<p>分享一段 AppleScript 小技巧，可统计 Safari 所有窗口中打开的标签页总数；作者顺便自嘲自己竟同时开着 370 个标签页。</p>
     </div>
   </div>
 
   <!-- 文章 Tab -->
   <div id="tab-articles" class="tab-content">
     <div class="article-card">
-      <div class="source">Antirez</div>
+      <div class="source">Simon Willison</div>
       <div class="title-row">
-        <div class="title">软件测试的新时代</div>
+        <div class="title">统计 Safari 标签页数量</div>
         <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
       </div>
-      <div class="title-en">A new era for software testing</div>
-      <div class="tags"><span class="tag">软件测试</span><span class="tag">AI测试</span><span class="tag">质量保证</span></div>
-      <div class="summary">文章指出，大语言模型正开启软件测试的新时代：通过让AI Agent扮演QA工程师执行复杂的人工测试、集成验证和用户体验评估，不仅能突破传统测试的时空与逻辑局限，还有望提升软件发布质量，弥补AI快速编程带来的潜在代码质量折损。</div>
+      <div class="title-en">Count the number of Safari tabs</div>
+      <div class="tags"><span class="tag">Safari</span><span class="tag">AppleScript</span><span class="tag">标签页</span><span class="tag">浏览器</span></div>
+      <div class="summary">作者分享了一个通过 AppleScript 统计 Safari 所有打开标签页数量的小技巧，并自嘲自己目前竟有 370 个标签页同时打开。</div>
       <div class="quotes-section">
-<div class="quote-block"><div class="quote-en">However, not all the software is stellar, and my feeling is that automatic programming surpasses most of the times (and if well managed) the quality of decently developed hand-written code.</div><div class="quote-zh">然而，并非所有软件都出类拔萃，我的感觉是，自动编程在大多数情况下（如果管理得当）能够超越那些还算过得去的手写代码的质量。</div></div>
-<div class="quote-block"><div class="quote-en">I have the feeling that the introduction of automatic QA may raise the bar of quality for new releases of software, and maybe partially compensate for the lower quality of the code produced at high speed with the use of automatic programming.</div><div class="quote-zh">我有一种感觉，自动QA的引入可能会提高软件新发布的质量门槛，并可能在一定程度上弥补使用自动编程高速产出的代码所存在的质量不足。</div></div>
+<div class="quote-block"><div class="quote-en">Tiniest TIL, using AppleScript to count the number of open browser tabs in Safari:</div><div class="quote-zh">超短的今日所学：用 AppleScript 统计 Safari 中打开的浏览器标签页数量：</div></div>
+<div class="quote-block"><div class="quote-en">I ran it in a terminal window and got back 370.</div><div class="quote-zh">我在终端窗口里运行了一下，返回结果是 370。</div></div>
 </div>
-      <div class="translation"><h3 style="margin:24px 0 12px;">A new era for software testing</h3>
+      <div class="translation"><h3 style="margin:24px 0 12px;">Count the number of Safari tabs</h3>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Automatic programming dramatically speeds up writing software in certain use cases and in the right hands. In my experience the output does not reach the structural quality and economy of complexity of the best hand-written software. However, not all the software is stellar, and my feeling is that automatic programming surpasses most of the times (and if well managed) the quality of decently developed hand-written code.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Automatic programming</strong>（自动编程）在特定用例中、且运用得当的话，能够显著加速软件编写。以我的经验，其产出在结构质量与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">complexity</strong>（复杂度）经济性方面，仍不及最优秀的手写软件。然而，并非所有软件都堪称卓越，我认为自动编程在多数情况下（若管理得当）能够超越那些仅算"过得去"的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">hand-written software</strong>（手写软件）质量。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">29th June 2026</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">2026 年 6 月 29 日</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Yet, there is a tradeoff between quality and time, in the case of writing new software with AI. This tradeoff in certain projects I developed can be brutal, that is, completing projects that may take many months in a few weeks. However, there are domains where LLMs simply open new strictly more powerful ways to automate processes, without any compromise on quality. One of those domains is software QA and testing.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-然而，在使用 AI 编写新软件时，质量与时间之间存在一种 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tradeoff</strong>（权衡）。在我开发过的某些项目中，这种权衡可能相当残酷——原本需要数月才能完成的项目，几周就能收尾。不过，也存在一些领域，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLMs</strong>（大语言模型）能够在不牺牲质量的前提下，开辟全新且严格更强大的流程自动化路径。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Software QA</strong>（软件质量保证）与测试便是其中之一。
-</p>
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Tiniest TIL, using <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AppleScript</strong> to count the number of open browser <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tabs</strong> in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Safari</strong>:</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">超小的一个今日所学（TIL，Today I Learned），使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AppleScript</strong> 来统计 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Safari</strong> 中打开的浏览器 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">标签页</strong> 数量：</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Traditionally software is tested using test suites that are composed of locally-scoped tests and integration tests (think of Redis: one thing is testing if SET foo 10 will be matched by GET foo => 10, another thing is testing if replication works in this case). And then by QA passes that are usually manually executed, and that can capture holes in the runnable test suite. It is a known fact that covering all the lines of the code does not mean covering all the possible states. Moreover integration testing is structurally hard: there are a number of timing issues, setups, and certain quality outputs that can only be visually inspected and not automatically checked that leave a lot of testing opportunities not really exploited because of time or logistic constraints.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-传统上，软件通过由局部作用域测试与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">integration tests</strong>（集成测试）组成的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">test suites</strong>（测试套件）进行测试（以 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Redis</strong> 为例：测试 SET foo 10 是否能被 GET foo => 10 匹配是一回事，测试此场景下复制是否正常工作则是另一回事）。随后还要经过通常由人工执行的 QA 巡检，以捕捉可运行测试套件中的漏洞。众所周知，覆盖所有代码行并不意味着覆盖所有可能状态。此外，集成测试在结构上十分困难：存在诸多 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">timing issues</strong>（时序问题）、环境搭建难题，以及某些只能通过肉眼观察而无法自动校验的质量输出，导致大量测试机会因时间或后勤限制而未能真正利用。
-</p>
+<pre style="background:#1d1d1f;color:#f5f5f7;padding:16px;border-radius:8px;overflow-x:auto;font-size:13px;margin:12px 0;"><code>osascript -e 'tell application "Safari" to count tabs of every window'</code></pre>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">上述 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">osascript</code> 命令会请求 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Safari</strong> 统计每个窗口中的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">标签页</strong> 数量并返回总数。</p>
 
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-LLMs offer a new way to do QA on top of the existing testing methodologies. The idea is to create a markdown file where an AI agent is asked to work as a QA engineer, performing a number of manual testings on the new release. For instance, in the case of DwarfStar (an inference engine for open weights LLMs) I use the following approach.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-LLMs 为现有测试方法论之上提供了一种新的 QA 方式。其思路是创建一个 markdown 文件，要求 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI agent</strong>（AI 智能体）扮演 QA 工程师，对新版本执行一系列手动测试。例如，在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">DwarfStar</strong>（一款面向 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">open weights</strong>（开源权重）LLM 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">inference engine</strong>（推理引擎））项目中，我采用了如下方法。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-In the markdown file, the agent is asked to check what are the new commits on top of the already released version of the software project. Then the model is told a list of things that should be performed, like:
-<ul style="margin:6px 0;padding-left:24px;">
-<li>Check that distributed inference works across MacBook A and MacBook B, making sure the output is coherent, the inference works with all the GGUF files we have in both the machines, ...</li>
-<li>Make sure this release does not contain any speed regression.</li>
-</ul>
-And so forth.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 6px;line-height:1.8;font-size:15px;">
-在该 markdown 文件中，agent 被要求检查在软件已发布版本之上新增了哪些 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">commits</strong>（提交）。随后，模型会收到一份待执行事项清单，例如：
-</p>
-<ul style="margin:6px 0 6px;padding-left:24px;color:#2c2c2e;line-height:1.8;font-size:15px;">
-<li>检查 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">distributed inference</strong>（分布式推理）在 MacBook A 与 MacBook B 之间能否正常工作，确保输出一致，且我们两台机器上所有 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GGUF files</strong> 都能正常进行推理……</li>
-<li>确保本次发布不存在任何 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">speed regression</strong>（速度回退）。</li>
-</ul>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-诸如此类。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Notably, in the speed regression part, I don't have to tell the agent what was the previous expected speed, as this is a moving target that changes with new releases and new optimizations. Similarly the integration test for distributed inference does not require many instructions, at the start of the file there are just SSH endpoints and the key to use, the paths, and so forth.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-值得注意的是，在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">speed regression</strong>（速度回退）检测环节，我无需告诉 agent 先前的预期速度是多少，因为这是一个随新发布与新优化而不断变化的动态目标。同样，针对分布式推理的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">integration test</strong>（集成测试）也无需大量指令，文件开头只需提供 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">SSH endpoints</strong>（SSH 端点）、所用密钥、路径等信息即可。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-The agent is asked to check the long list of QA activities <em>especially</em> in light of the added commits, starting with an inspection of the changes and with the identification of what could be affected, so that the QA pass specializes trying to find specific regressions.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-Agent 被要求对照新增的提交，<em>尤其</em>仔细检查一长串 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">QA activities</strong>（QA 活动）：先从检查变更内容入手，识别可能受影响的范围，从而使此次 QA 过程专注于排查特定的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">regressions</strong>（回退问题）。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-In the case of Redis Arrays, I used a similar methodology asking the agent to build a large array-based Redis application, to setup a production environment with replication and persistency, to simulate the usage of the application for days and with many users, checking if something was odd.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Redis Arrays</strong> 的案例中，我采用了类似方法：要求 agent 构建一个基于大型数组的 Redis 应用，搭建具备 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">replication</strong>（复制）与 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">persistency</strong>（持久化）的生产环境，模拟该应用在多日、多用户下的使用场景，并检查是否有异常情况。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-Testing that uses these approaches may also move in the more psychological side of software quality, asking the agent to identify all the new features that may look surprising, not documented enough, or generally sloppy from the POV of the user. All things that needed to be executed manually before, and that most of the times were mostly skipped.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-采用这类方法的测试还可能触及软件质量更偏向 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">psychological side</strong>（心理层面）的部分：要求 agent 识别所有可能令 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">user</strong>（用户）感到意外、文档不足或总体上显得粗糙的新功能。这些全都是以前需要 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">manually</strong>（手动）执行的事项，而且大多数时候都被草草略过了。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
-I have the feeling that the introduction of automatic QA may raise the bar of quality for new releases of software, and maybe partially compensate for the lower quality of the code produced at high speed with the use of automatic programming.
-</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
-我有一种预感：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">automatic QA</strong>（自动 QA）的引入将提升软件新发布的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">quality</strong>（质量）基准，并可能在一定程度上弥补借助 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">automatic programming</strong>（自动编程）高速产出代码所带来的质量下降。
-</p>
-
-<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Comments</div>
-<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">评论</p></div>
+<img src="https://static.simonwillison.net/static/2026/tab-shame.jpg" alt="I ran it in a terminal window and got back 370." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+<img src="https://static.simonwillison.net/static/2026/tab-shame.jpg" alt="I ran it in a terminal window and got back 370." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我在终端窗口中运行了该命令，返回结果是 370。</p></div>
       <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
-      <a class="link" href="http://antirez.com/news/168" target="_blank">阅读原文 &rarr;</a>
+      <a class="link" href="https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Simon Willison</div>
+      <div class="title-row">
+        <div class="title">Ornith-1.0：用于智能体编码的自脚手架大语言模型</div>
+        <span class="tone-pill" style="background:#d1fae5;color:#047857">🧪 实验记录</span>
+      </div>
+      <div class="title-en">Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding</div>
+      <div class="tags"><span class="tag">大模型</span><span class="tag">编程</span><span class="tag">开源</span><span class="tag">智能体</span></div>
+      <div class="summary">Ornith-1.0 是一款基于 Apache 2.0 许可的 Gemma 4 和 Qwen 3.5 构建的“自脚手架”大模型，提供 9B 到 397B 等多个参数版本，在同等规模开源模型中达到了领先的代码能力水平；作者通过 LM Studio 在本地试用了 35B 版本，发现其在多工具调用的 Agent 编程和代码检索等任务上表现非常出色。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">As far as I can tell the licenses of those underlying models is compatible with being used in this way - Gemma 4 is Apache 2.0 licensed (and not bound by the janky additional Gemma Terms of Use that afflicted the previous Gemma models) and Qwen 3.5 is Apache 2.0 licensed as well.</div><div class="quote-zh">据我所知，这些底层模型的许可证允许这样使用——Gemma 4 采用 Apache 2.0 许可证（不再受困扰旧版 Gemma 模型的那些蹩脚附加使用条款约束），Qwen 3.5 也是 Apache 2.0 许可证。</div></div>
+<div class="quote-block"><div class="quote-en">It&#x27;s a little bit mangled but the pelican is clearly a pelican.</div><div class="quote-zh">虽然有点歪歪扭扭，但这只鹈鹕明显就是鹈鹕。</div></div>
+</div>
+      <div class="translation"><h3 style="margin:24px 0 12px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Ornith-1.0</strong>: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Self-Scaffolding</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LLMs</strong> for <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Agentic Coding</strong></h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Ornith-1.0</strong>：用于<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">智能体编程</strong>（Agentic Coding）的<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">自脚手架</strong>（Self-Scaffolding）<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">大语言模型</strong>（LLMs）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">[...] with variants including 9B <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Dense</strong>, 31B Dense, 35B <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MoE</strong>, and 397B MoE. Built on top of pretrained <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemma 4</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen 3.5</strong>, it achieves state-of-the-art performance among open-source models of comparable size on coding benchmarks.</blockquote>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">[……] 包括 9B <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Dense</strong>、31B Dense、35B <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MoE</strong> 和 397B MoE 等变体。它基于预训练的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemma 4</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen 3.5</strong> 构建，在同等规模的开源模型中，于编码基准测试上取得了最先进的性能。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">[...] with variants including 9B <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Dense</strong>, 31B Dense, 35B <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MoE</strong>, and 397B MoE. Built on top of pretrained <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemma 4</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen 3.5</strong>, it achieves state-of-the-art performance among open-source models of comparable size on coding benchmarks.</blockquote>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">[……] 包括 9B <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Dense</strong>、31B Dense、35B <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MoE</strong> 和 397B MoE 等变体。它基于预训练的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemma 4</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen 3.5</strong> 构建，在同等规模的开源模型中，于编码基准测试上取得了最先进的性能。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  As far as I can tell the licenses of those underlying models is compatible with being used in this way - <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemma 4</strong> is <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Apache 2.0</strong> licensed (and not bound by the janky additional Gemma Terms of Use that afflicted the previous Gemma models) and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen 3.5</strong> is Apache 2.0 licensed as well.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">据我所知，这些底层模型的许可证与这种使用方式是兼容的——<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemma 4</strong> 采用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Apache 2.0</strong> 许可证（并且不受困扰此前 Gemma 模型的那些蹩脚附加 Gemma 使用条款的约束），<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen 3.5</strong> 同样采用 Apache 2.0 许可证。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  I've been running the model using <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LM Studio</strong> and the <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ornith-1.0-35b-Q4_K_M.gguf</code> (20GB) <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GGUF</strong>, hooked up to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Pi</strong>. Initial impressions are very good - it seems to be able to run the agent harness over many tool calls in a proficient way.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我一直在使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">LM Studio</strong> 和 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">ornith-1.0-35b-Q4_K_M.gguf</code>（20GB）<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GGUF</strong> 运行该模型，并将其连接到 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Pi</strong>。初步印象非常好——它似乎能够以熟练的方式在多次工具调用上运行智能体框架。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  Here's a terminal session where I asked it to "find the code that decodes the actor cookie" and then "find the code that opens the insert dialog when the button is clicked" against a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Datasette</strong> checkout, which it handled with ease.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">这里有一个终端会话，我在其中要求它针对一份 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Datasette</strong> 代码检出执行“找到解码 actor cookie 的代码”以及“找到按钮点击时打开插入对话框的代码”，它都轻松完成了。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  I also had it draw this pelican, which came out at 103 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tokens</strong>/second:
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我还让它画了这只鹈鹕，输出速度达到了每秒 103 个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">token</strong>：</p>
+
+<img src="https://static.simonwillison.net/static/2024/ornith-1-pelican.png" alt="Cartoon illustration of a white pelican (albeit slightly mangled) with a large orange beak riding a red bicycle across green hills. The scene has a blue sky with a yellow sun and three white clouds, and small grass tufts dot the foreground." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<img src="https://static.simonwillison.net/static/2024/ornith-1-pelican.png" alt="Cartoon illustration of a white pelican (albeit slightly mangled) with a large orange beak riding a red bicycle across green hills. The scene has a blue sky with a yellow sun and three white clouds, and small grass tufts dot the foreground." style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  It's a little bit mangled but the pelican is clearly a pelican.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">稍微有点变形，但那只鹈鹕显然就是鹈鹕。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  I couldn't find much information about <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">DeepReinforce</strong> themselves. The earliest paper I could find from them was <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CUDA-L1</strong>: Improving CUDA Optimization via <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Contrastive Reinforcement Learning</strong> from June 2025.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">我找不到太多关于 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">DeepReinforce</strong> 本身的信息。我能找到的他们最早的论文是 2025 年 6 月的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">CUDA-L1</strong>：通过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">对比强化学习</strong>（Contrastive Reinforcement Learning）改进 CUDA 优化。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  Tags: ai, generative-ai, local-llms, llms, qwen, pelican-riding-a-bicycle, gemma, llm-release, lm-studio
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">标签：ai、generative-ai、local-llms、llms、qwen、pelican-riding-a-bicycle、gemma、llm-release、lm-studio</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://simonwillison.net/2026/Jun/29/ornith/#atom-everything" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Lenny&#x27;s Newsletter</div>
+      <div class="title-row">
+        <div class="title">我如何用AI：GLM-5.2实测，以及Gusto如何用Claude Code打造新产品线</div>
+        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
+      </div>
+      <div class="title-en">🎙️ How I AI: GLM-5.2 review &amp; How Gusto built a new product line with Claude Code</div>
+      <div class="tags"><span class="tag">GLM-5.2</span><span class="tag">开源模型</span><span class="tag">AI编程</span><span class="tag">Claude Code</span></div>
+      <div class="summary">本文通过两个案例展示了AI工程化的最新实践：Claire在真实代码库中实测发现，Z.ai开源的GLM-5.2已接近Claude Opus水平，具备百万token上下文、低成本与可自托管优势，但在复杂React代理任务中稳定性仍需验证；Gusto CTO Eddie Kim则分享了一个五人团队在没有PM、Figma和Jira的情况下，仅凭Claude Code和极简流程，在10周内从零推出新产品线，说明以AI为核心成员重新设计流程能极大压缩协作成本并加速上线。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">The decision is no longer about capability ceilings but, instead, about cost, control, and vendor dependency. Claire’s live testing confirmed it: this is not a toy.</div><div class="quote-zh">决定因素不再是能力上限，而是成本、可控性和对供应商的依赖。Claire 的实测证实了这一点：它不是玩具。</div></div>
+<div class="quote-block"><div class="quote-en">If it can, the cost-and-control argument gets much harder to ignore.</div><div class="quote-zh">如果它能做到，那么“成本与可控性”这一论点就很难再被忽视了。</div></div>
+</div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">🎙️ How I AI: GLM-5.2 review &amp; How Gusto built a new product line with Claude Code</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">🎙️ How I AI：GLM-5.2 评测，以及 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto</strong> 如何借助 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 打造新产品线</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!gWeJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F361d81ef-7faf-4d8e-8028-5d5e03432a9a_2329x551.png" alt="episode header" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<h3 style="margin:24px 0 12px;">GLM-5.2: why I’m replacing Opus in Claude Code with this new model</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;"><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GLM-5.2</strong>：我为何要用这款新模型替换 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 中的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Opus</strong></p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  Listen now on <a href="https://www.youtube.com" target="_blank" style="color:#9a9ea6;text-decoration:underline;">YouTube</a> • <a href="https://www.spotify.com" target="_blank" style="color:#9a9ea6;text-decoration:underline;">Spotify</a> • <a href="https://podcasts.apple.com" target="_blank" style="color:#9a9ea6;text-decoration:underline;">Apple Podcasts</a>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在 <a href="https://www.youtube.com" target="_blank" style="color:#2c2c2e;text-decoration:underline;">YouTube</a> • <a href="https://www.spotify.com" target="_blank" style="color:#2c2c2e;text-decoration:underline;">Spotify</a> • <a href="https://podcasts.apple.com" target="_blank" style="color:#2c2c2e;text-decoration:underline;">Apple Podcasts</a> 收听本期节目。</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!a_tm!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad7fc184-9e1c-4219-bcf3-f52ccfe07061_718x166.png" alt="GLM-5.2 listen badges" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+    Brought to you by: <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mercury</strong> — Radically different banking, loved by over 300K entrepreneurs
+  </blockquote>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+  赞助商：<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mercury</strong> — 颠覆传统银行业务，深受 30 多万创业者喜爱。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  Brought to you by:
+  <ul style="margin:8px 0;padding-left:20px;">
+    <li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mercury</strong> — Radically different banking, loved by over 300K entrepreneurs</li>
+  </ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+  本期由以下品牌赞助：
+  <br><br>
+  • <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mercury</strong> — 颠覆传统银行业务，深受 30 多万创业者喜爱。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claire</strong> tests <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GLM-5.2</strong>, the new <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">open-weight</strong> model from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Z.ai</strong>, inside her actual ChatPRD codebase. She runs it through codebase audits, UI redesigns, and a 45-minute autonomous bug-hunting task in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cursor</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong>, and breaks down where it surprised her, where it struggled, and why it may be good enough to replace Opus for some coding workflows.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+  <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claire</strong> 在自己真实的 ChatPRD 代码库中测试了 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Z.ai</strong> 最新发布的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">open-weight（开放权重）</strong>模型 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GLM-5.2</strong>。她用它完成代码库审计、UI 重设计，以及在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cursor</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 中运行了一场长达 45 分钟的自主 bug 狩猎任务，并分析了它令人惊喜的地方、遇到的困难，以及为什么它在某些编码工作流中已足以替代 Opus。
+</p>
+
+<h4 style="margin:24px 0 12px;">Biggest takeaways:</h4>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">核心要点：</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <ul style="margin:8px 0;padding-left:20px;">
+    <li>
+      <strong style="font-weight:600;">Open-weight models are no longer a hobbyist curiosity—they are production-grade alternatives.</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GLM-5.2</strong>, built by Beijing-based <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Z.ai</strong>, benchmarks near <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Opus 4.8</strong> and above <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT-5.5</strong> on SWE Bench Pro, with a million-token <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">context window</strong> and full support for reasoning mode, function calling, structured output, and context caching. The decision is no longer about capability ceilings but, instead, about cost, control, and vendor dependency. Claire’s live testing confirmed it: this is not a toy.
+    </li>
+    <li>
+      <strong style="font-weight:600;">Self-hosting changes the vendor power dynamic in ways that matter at scale.</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Open-weight</strong> means the trained model weights are publicly available, letting teams run inference on their own hardware, fine-tune on proprietary data, and route around any single provider’s <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">API</strong> terms. When frontier labs change pricing or policy, teams using open-weight models can switch inference providers without touching a line of application code. The key: you’re not locked in.
+    </li>
+    <li>
+      <strong style="font-weight:600;">Getting GLM-5.2 running in Cursor took 30 minutes, and Claire documented the undocumented part.</strong> Route your API key through <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Open Router</strong>, override the OpenAI base URL in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cursor</strong>’s settings to <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">openrouter.ai/api/v1/cursor</code> (the <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/cursor</code> suffix isn’t documented anywhere), and add <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">z-ai/glm-5.2</code> as a custom model. <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> requires two environment variable changes and one edit to <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">claude/settings.json</code>. Total time: under an hour, once you have the exact strings.
+    </li>
+    <li>
+      <strong style="font-weight:600;">The 45-minute autonomous task revealed both the ceiling and the floor.</strong> Claire gave GLM-5.2 a single prompt inside Claude Code: pull the last 72 hours of <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Sentry</strong> errors and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Vercel</strong> logs, then build a prioritized bug-fix plan. Over 45 minutes, it ran <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MCP</strong> tool calls, authenticated into external services, and produced a dark-mode engineering canvas with 20 Sentry errors, five Vercel log signals, and 14 planned fixes, including two P0s Claire hadn’t spotted through normal monitoring. The model surfaced signal-to-noise issues in their error pipeline that weren’t showing up elsewhere.
+    </li>
+    <li>
+      <strong style="font-weight:600;">It hit a wall with React, then recovered.</strong> During the long-running task, GLM-5.2 struggled with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">TypeScript</strong> compilation errors before eventually producing clean <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">React</strong> output. Claire’s read: HTML and CSS generation is reliable; React under <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic</strong>, multi-step pressure is shakier. For teams whose codebase is primarily React (she estimates it covers 98% of her own use), this is the friction point to test before committing the model to critical paths.
+    </li>
+    <li>
+      <strong style="font-weight:600;">The cost math is striking: $3.36 for 6 million tokens, including the full 45-minute agentic session.</strong> A 72% cache rate helped, but even at full price, open-weight inference through <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Open Router</strong> sits well below Opus or GPT-5.5 rates for equivalent coding capability. For agents accumulating long <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">context windows</strong> over extended sessions (the exact workload where frontier model costs compound fastest), open-weight alternatives offer a structurally different cost curve.
+    </li>
+    <li>
+      <strong style="font-weight:600;">Claire’s recommendation: put GLM-5.2 in rotation, not in the spotlight.</strong> She’s keeping it in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cursor</strong> for frontend and design work, and in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> for long-running agentic tasks, alongside closed frontier models rather than as a replacement. The constraint she’s watching: can it handle her React-heavy workload at the same consistency she gets from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Composer</strong>? If it can, the cost-and-control argument gets much harder to ignore.
+    </li>
+  </ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+  <strong style="font-weight:600;">1. 开放权重模型不再是爱好者的玩物，而是已经可用于生产环境的替代方案。</strong>总部位于北京的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Z.ai</strong> 打造的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GLM-5.2</strong>，在 SWE Bench Pro 上的基准表现接近 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Opus 4.8</strong>、超过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT-5.5</strong>，并拥有百万 token 的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">context window（上下文窗口）</strong>，完整支持 reasoning mode（推理模式）、function calling（函数调用）、structured output（结构化输出）和 context caching（上下文缓存）。选择模型不再只看能力上限，而是看成本、可控性和对厂商的依赖。Claire 的实测证明：这不是玩具。
+  <br><br>
+  <strong style="font-weight:600;">2. 自托管正在改变厂商之间的权力格局，并在规模化时产生实质影响。</strong><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">开放权重</strong>意味着训练好的模型权重公开可用，团队可以在自己的硬件上运行 inference（推理），用专有数据 fine-tune（微调），并绕过单一服务商的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">API</strong> 条款。当前沿实验室调整价格或政策时，使用开放权重模型的团队无需改动一行应用代码就能切换推理供应商。关键是：你不会被锁定。
+  <br><br>
+  <strong style="font-weight:600;">3. 在 Cursor 中接入 GLM-5.2 花了 30 分钟，Claire 还记录了官方没有说明的部分。</strong>你需要把 API key 经由 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Open Router</strong> 转发，在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cursor</strong> 设置里把 OpenAI base URL 覆盖为 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">openrouter.ai/api/v1/cursor</code>（<code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">/cursor</code> 后缀在任何文档里都没提到），并把 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">z-ai/glm-5.2</code> 添加为自定义模型。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 则需要修改两个环境变量，并编辑 <code style="background:#f0f0f5;padding:2px 6px;border-radius:4px;font-size:13px;">claude/settings.json</code>。只要拿到这些准确的字符串，全程不到一小时。
+  <br><br>
+  <strong style="font-weight:600;">4. 这场 45 分钟的自主任务同时展现了它的上限和下限。</strong>Claire 在 Claude Code 里只给 GLM-5.2 发了一个指令：拉取过去 72 小时的 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Sentry</strong> 错误和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Vercel</strong> 日志，然后生成一份按优先级排序的 bug 修复计划。在 45 分钟内，它执行了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">MCP</strong> tool calls，完成外部服务认证，并输出了一份深色模式的工程看板，包含 20 条 Sentry 错误、5 条 Vercel 日志信号和 14 项修复计划，其中包括两个 Claire 通过常规监控未能发现的 P0 问题。模型还暴露了他们错误管道中别处没有显现的信噪比问题。
+  <br><br>
+  <strong style="font-weight:600;">5. 它在 React 上撞了墙，但随后恢复了。</strong>在这场长时间任务中，GLM-5.2 一度在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">TypeScript</strong> 编译错误上挣扎，最终才输出干净的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">React</strong> 代码。Claire 的判断是：HTML 和 CSS 生成很可靠；但在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic（自主代理式）</strong>、多步骤的压力下，React 表现更不稳定。对于主要使用 React 的团队（她估计自己 98% 的场景都是 React），这是把模型投入关键路径前必须测试的摩擦点。
+  <br><br>
+  <strong style="font-weight:600;">6. 成本数字非常惊人：600 万 token 只需 3.36 美元，还包括整场 45 分钟的 agentic 会话。</strong>72% 的缓存命中率帮了忙，但即便按全价计算，通过 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Open Router</strong> 调用开放权重推理，其价格也远低于同等编码能力下 Opus 或 GPT-5.5 的费率。对于在长时间会话中累积长 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">上下文</strong>的智能体（这正是前沿模型成本快速叠加的典型场景），开放权重替代方案提供了一条结构性不同的成本曲线。
+  <br><br>
+  <strong style="font-weight:600;">7. Claire 的建议是：让 GLM-5.2 进入轮换阵容，而不是独挑大梁。</strong>她会把它留在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Cursor</strong> 里做前端和设计工作，也放在 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 里执行长时间 agentic 任务，与闭源前沿模型并行使用，而非直接替代。她关注的约束是：它能否像 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Composer</strong> 那样稳定地处理她以 React 为主的工作负载？如果可以，那么成本和可控性的理由将变得难以忽视。
+</p>
+
+<h4 style="margin:24px 0 12px;">Blog and detailed workflow walkthroughs from this episode:</h4>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">本期博客与详细工作流教程：</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <ul style="margin:8px 0;padding-left:20px;">
+    <li>GLM 5.2: A Live Review of an Opus-Level Open-Weights Model: <a href="https://www.chatprd.ai/how-i-ai/glm-5-2-review-open-weights-model" target="_blank" style="color:#9a9ea6;text-decoration:underline;">https://www.chatprd.ai/how-i-ai/glm-5-2-review-open-weights-model</a></li>
+    <li>↳ How to Deploy an Autonomous AI Agent for Bug Triage and Prioritization: <a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-deploy-an-autonomous-ai-agent-for-bug-triage-and-prioritization" target="_blank" style="color:#9a9ea6;text-decoration:underline;">https://www.chatprd.ai/how-i-ai/workflows/how-to-deploy-an-autonomous-ai-agent-for-bug-triage-and-prioritization</a></li>
+    <li>↳ How to Perform an AI-Powered Codebase Audit and Architecture Visualization: <a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-perform-an-ai-powered-codebase-audit-and-architecture-visualization" target="_blank" style="color:#9a9ea6;text-decoration:underline;">https://www.chatprd.ai/how-i-ai/workflows/how-to-perform-an-ai-powered-codebase-audit-and-architecture-visualization</a></li>
+    <li>↳ How to Configure the Open-Weight GLM 5.2 Model in Cursor: <a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-configure-the-open-weight-glm-5-2-model-in-cursor" target="_blank" style="color:#9a9ea6;text-decoration:underline;">https://www.chatprd.ai/how-i-ai/workflows/how-to-configure-the-open-weight-glm-5-2-model-in-cursor</a></li>
+  </ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+  • <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GLM 5.2</strong>：一个 Opus 级开放权重模型的现场评测：<a href="https://www.chatprd.ai/how-i-ai/glm-5-2-review-open-weights-model" target="_blank" style="color:#2c2c2e;text-decoration:underline;">https://www.chatprd.ai/how-i-ai/glm-5-2-review-open-weights-model</a><br><br>
+  • 如何部署自主 AI 智能体进行 bug 分类与优先级排序：<a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-deploy-an-autonomous-ai-agent-for-bug-triage-and-prioritization" target="_blank" style="color:#2c2c2e;text-decoration:underline;">链接</a><br><br>
+  • 如何进行 AI 驱动的代码库审计与架构可视化：<a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-perform-an-ai-powered-codebase-audit-and-architecture-visualization" target="_blank" style="color:#2c2c2e;text-decoration:underline;">链接</a><br><br>
+  • 如何在 Cursor 中配置开放权重 GLM 5.2 模型：<a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-configure-the-open-weight-glm-5-2-model-in-cursor" target="_blank" style="color:#2c2c2e;text-decoration:underline;">链接</a>
+</p>
+
+<h3 style="margin:24px 0 12px;">No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">不用 Figma、不用 Jira、不写文档，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto</strong> 如何用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 打造新产品线 | <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Eddie Kim</strong>（CTO）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  Listen now on <a href="https://www.youtube.com" target="_blank" style="color:#9a9ea6;text-decoration:underline;">YouTube</a> • <a href="https://www.spotify.com" target="_blank" style="color:#9a9ea6;text-decoration:underline;">Spotify</a> • <a href="https://podcasts.apple.com" target="_blank" style="color:#9a9ea6;text-decoration:underline;">Apple Podcasts</a>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">在 <a href="https://www.youtube.com" target="_blank" style="color:#2c2c2e;text-decoration:underline;">YouTube</a> • <a href="https://www.spotify.com" target="_blank" style="color:#2c2c2e;text-decoration:underline;">Spotify</a> • <a href="https://podcasts.apple.com" target="_blank" style="color:#2c2c2e;text-decoration:underline;">Apple Podcasts</a> 收听本期节目。</p>
+
+<img src="https://substackcdn.com/image/fetch/$s_!QRUh!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5897fb1-897a-4eb8-90c5-c539c8a630b7_1600x114.png" alt="Gusto episode listen badges" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <blockquote style="border-left:3px solid #c0c0c0;padding:8px 16px;margin:8px 0;background:#f9f9fb;">
+    Brought to you by:<br>
+    <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Magic Patterns</strong> — Prototypes that look like your product<br>
+    <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jira Product Discovery</strong> — Prioritize with insights, build with confidence
+  </blockquote>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+  赞助商：<br>
+  <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Magic Patterns</strong> — 做出像你家产品一样的原型<br>
+  <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jira Product Discovery</strong> — 用洞察排优先级，自信地构建产品
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  Brought to you by:
+  <ul style="margin:8px 0;padding-left:20px;">
+    <li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Magic Patterns</strong> — Prototypes that look like your product</li>
+    <li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jira Product Discovery</strong> — Prioritize with insights, build with confidence</li>
+  </ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+  本期由以下品牌赞助：<br><br>
+  • <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Magic Patterns</strong> — 做出像你家产品一样的原型<br><br>
+  • <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jira Product Discovery</strong> — 用洞察排优先级，自信地构建产品
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Eddie Kim</strong> is the co-founder and CTO of <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto</strong>. In this episode, he shares how a five-person team used <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong>, a permanent Zoom room, and almost none of the usual product process—no PM, no Figma, no Jira, no long specs—to build Gusto Cofounder from scratch in just 10 weeks.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+  <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Eddie Kim</strong> 是 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto</strong> 的联合创始人兼 CTO。在本期节目中，他分享了一个五人团队如何利用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong>、一个常驻 Zoom 会议室，以及几乎没有任何常规产品流程——没有产品经理、没有 Figma、没有 Jira、没有冗长需求文档——在短短 10 周内从零打造 Gusto Cofounder。
+</p>
+
+<h4 style="margin:24px 0 12px;">Biggest takeaways:</h4>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">核心要点：</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <ul style="margin:8px 0;padding-left:20px;">
+    <li>
+      <strong style="font-weight:600;">A five-person team with no process can outship a large team with full process, if AI handles the engineering.</strong> Eddie’s product launched at <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto</strong>’s tier-one level after 10 weeks, starting from zero code. The constraint wasn’t a liability—it was the design. When <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> does the building, coordination overhead doesn’t scale the engineering; it just slows it down. The key: strip process to what the team actually needs, then let AI fill the gap.
+    </li>
+    <li>
+      <strong style="font-weight:600;">“Zero code to tier-one launch” is now a viable founding path.</strong> The team reached a production milestone at Gusto without a line of pre-existing code. This flips the assumption that early teams spend months on infrastructure before shipping anything real. With <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> as the primary builder, the initial sprint becomes about direction and judgment, not typing. It compresses the time between idea validation and real user contact from months to weeks.
+    </li>
+    <li>
+      <strong style="font-weight:600;">No meetings, no Jira, no text threads. It shipped anyway.</strong> The team had no standup cadence, no ticket system, no async thread to resolve blockers. What replaced all of that: shared context held inside the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> loop. When the model carries state and the team is small and aligned, human coordination overhead becomes optional.
+    </li>
+    <li>
+      <strong style="font-weight:600;">The technical stack for a production AI agent is shockingly minimal.</strong> The entire agent loop ran on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cloudflare Workers</strong> with the <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Vercel AI SDK</strong>. Nothing else. No proprietary orchestration layer, no third-party agent framework. Everything else was built in-house. Teams often over-architect before they’ve proven anything; Eddie’s stack is evidence that infrastructure minimalism accelerates the path to learning what the agent actually needs to do.
+    </li>
+    <li>
+      <strong style="font-weight:600;">Building agents is not as complicated as the community makes it sound.</strong> An agent is an <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI SDK</strong> running somewhere in the cloud, able to look up files and call tools. That’s the full definition. The complexity people fear (state management, orchestration, reliability) is solvable with the same judgment calls any backend system requires. Eddie’s team shipped one at production quality in 10 weeks without specialist AI infrastructure experience.
+    </li>
+    <li>
+      <strong style="font-weight:600;">The “permanent Zoom” model of AI development changes how teams think about context.</strong> <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> running in a persistent loop means the model has continuous access to the codebase’s current state. That’s closer to having an engineer who never closes their laptop than a chat interface you query on demand. For small teams, this is the equivalent of a senior engineer who is always available, always current, and never needs onboarding after a break.
+    </li>
+    <li>
+      <strong style="font-weight:600;">The lesson for founding teams isn’t “use Claude Code.” It’s “design your process for AI as a team member.”</strong> Most early teams graft <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> tools onto a human-scaled workflow: standups, tickets, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PRs</strong> reviewed by three people. Eddie’s team treated the AI as a primary contributor from day one and built their coordination model around that assumption. The result: a workflow that gets faster as the AI improves, not one that merely offloads tasks to it.
+    </li>
+  </ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+  <strong style="font-weight:600;">1. 如果 AI 负责工程实现，一个五人无流程团队可以比一支流程齐全的大团队交付得更快。</strong>Eddie 的产品从零行代码开始，10 周后以 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto</strong> 内部“一级”产品的标准上线。限制不是负担，而是设计选择。当 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 承担构建工作时，协调开销并不会放大工程产出，只会拖慢速度。关键是：把流程削减到团队真正需要的部分，然后让 AI 填补缺口。
+  <br><br>
+  <strong style="font-weight:600;">2. “从零行代码到一级产品发布”如今已成为一条可行的创业路径。</strong>团队在 Gusto 实现了生产级里程碑，却没有一行预先存在的代码。这颠覆了早期团队必须先花几个月搭建基础设施才能上线真实产品的假设。当 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 作为主要构建者时，最初的冲刺关注的是方向和判断，而不是敲代码。它把从想法验证到接触真实用户的时间从几个月压缩到几周。
+  <br><br>
+  <strong style="font-weight:600;">3. 没有会议、没有 Jira、没有文字线程。产品还是上线了。</strong>团队没有站会节奏，没有工单系统，没有异步消息来解阻塞。取而代之的，是 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 循环中承载的共享上下文。当模型掌握状态，而团队规模小且目标一致时，人与人之间的协调开销变成了可选项。
+  <br><br>
+  <strong style="font-weight:600;">4. 生产级 AI agent 的技术栈可以极简到令人惊讶。</strong>整个 agent 循环只运行在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cloudflare Workers</strong> 上，使用 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Vercel AI SDK</strong>。仅此而已。没有专有编排层，没有第三方 agent 框架，其余全部自研。团队常常在验证前就过度架构；Eddie 的技术栈证明，基础设施极简主义能加速你搞清楚 agent 真正需要做什么。
+  <br><br>
+  <strong style="font-weight:600;">5. 构建 agent 并不像社区渲染的那么复杂。</strong>一个 agent 就是运行在云端某处的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI SDK</strong>，能够查阅文件并调用工具。这就是完整定义。人们所担心的复杂性（状态管理、编排、可靠性）可以用任何后端系统都需要的那种判断来解决。Eddie 的团队在没有专业 AI 基础设施经验的情况下，10 周内就交付了一个生产质量的 agent。
+  <br><br>
+  <strong style="font-weight:600;">6. “常驻 Zoom”式的 AI 开发改变了团队对上下文的理解。</strong><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Claude Code</strong> 在一个持久循环中运行，意味着模型能持续访问代码库的最新状态。这更像是一位从不关电脑的工程师，而不是一个按需查询的聊天界面。对小团队来说，这相当于拥有一位随时在线、始终掌握最新情况、休息后也不需要重新 onboarding 的高级工程师。
+  <br><br>
+  <strong style="font-weight:600;">7. 对创始团队的启示不是“用 Claude Code”，而是“把 AI 当作团队成员来设计流程”。</strong>大多数早期团队把 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI</strong> 工具嫁接在人类规模的工作流上：站会、工单、三人审 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PR</strong>。Eddie 的团队从第一天起就把 AI 视为主要贡献者，并围绕这一假设构建协作模式。结果是：一个随着 AI 能力提升而加速的工作流，而不是一个仅仅把任务外包给 AI 的工作流。
+</p>
+
+<h4 style="margin:24px 0 12px;">Blog and detailed workflow walkthroughs from this episode:</h4>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">本期博客与详细工作流教程：</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  <ul style="margin:8px 0;padding-left:20px;">
+    <li>How Gusto Built a New Product Line in 10 Weeks with Claude Code, No Jira, and No Docs: <a href="https://www.chatprd.ai/how-i-ai/how-gusto-built-a-new-product-line-in-10-weeks-with-claude-code-no-jira-and-no-docs" target="_blank" style="color:#9a9ea6;text-decoration:underline;">https://www.chatprd.ai/how-i-ai/how-gusto-built-a-new-product-line-in-10-weeks-with-claude-code-no-jira-and-no-docs</a></li>
+    <li>↳ How to Build a New AI Product in 10 Weeks Using the ‘No-Process’ Method: <a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-build-a-new-ai-product-in-10-weeks-using-the-no-process-method" target="_blank" style="color:#9a9ea6;text-decoration:underline;">https://www.chatprd.ai/how-i-ai/workflows/how-to-build-a-new-ai-product-in-10-weeks-using-the-no-process-method</a></li>
+    <li>↳ How to Fix Bugs Using an AI-Powered Test-Driven Development (TDD) Workflow: <a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-fix-bugs-using-an-ai-powered-test-driven-development-tdd-workflow" target="_blank" style="color:#9a9ea6;text-decoration:underline;">https://www.chatprd.ai/how-i-ai/workflows/how-to-fix-bugs-using-an-ai-powered-test-driven-development-tdd-workflow</a></li>
+  </ul>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+  • Gusto 如何在没有 Jira 和文档的情况下，用 Claude Code 在 10 周内打造新产品线：<a href="https://www.chatprd.ai/how-i-ai/how-gusto-built-a-new-product-line-in-10-weeks-with-claude-code-no-jira-and-no-docs" target="_blank" style="color:#2c2c2e;text-decoration:underline;">链接</a><br><br>
+  • 如何用“无流程”方法在 10 周内打造一款新的 AI 产品：<a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-build-a-new-ai-product-in-10-weeks-using-the-no-process-method" target="_blank" style="color:#2c2c2e;text-decoration:underline;">链接</a><br><br>
+  • 如何用 AI 驱动的测试驱动开发（TDD）工作流修复 bug：<a href="https://www.chatprd.ai/how-i-ai/workflows/how-to-fix-bugs-using-an-ai-powered-test-driven-development-tdd-workflow" target="_blank" style="color:#2c2c2e;text-decoration:underline;">链接</a>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  If you’re enjoying these episodes, reply and let me know what you’d love to learn more about: <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI workflows</strong>, hiring, growth, product strategy—anything.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+  如果你喜欢这些节目，欢迎回信告诉我你还想深入了解哪些话题：<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI 工作流</strong>、招聘、增长、产品战略——什么都行。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  Catch you next week,<br>
+  <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Lenny</strong>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+  下周见，<br>
+  <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Lenny</strong>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+  P.S. Want every new episode delivered the moment it drops? Hit “Follow” on your favorite podcast app.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+  P.S. 想在新节目上线第一时间收到更新？请在你喜欢的播客应用里点击“关注（Follow）”。
+</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://www.lennysnewsletter.com/p/how-i-ai-glm-52-review-and-how-gusto" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">Lenny&#x27;s Newsletter</div>
+      <div class="title-row">
+        <div class="title">无 Figma、无 Jira、无文档：Gusto 如何用 Claude Code 打造新产品线</div>
+        <span class="tone-pill" style="background:#fef9c3;color:#a16207">💡 洞察</span>
+      </div>
+      <div class="title-en">No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)</div>
+      <div class="tags"><span class="tag">AI编程</span><span class="tag">敏捷开发</span><span class="tag">小团队</span><span class="tag">产品创新</span></div>
+      <div class="summary">Gusto 联合创始人兼 CTO Eddie Kim 带领一名设计师和三名工程师，在 10 周内从零代码打造出全新 AI 产品线 Gusto Cofounder；他们弃用了 Figma、Jira 和传统文档流程，转而以 Claude Code、AI 工具、实时协作和“写完即删”的 PR 决策法完成上线。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">Recently he did something most CTOs don’t: he went back to writing code.</div><div class="quote-zh">最近他做了大多数 CTO 不会做的事：重新回去写代码。</div></div>
+<div class="quote-block"><div class="quote-en">With three other engineers and one designer, Eddie built Gusto Cofounder, a net-new AI product, from zero code to a tier-one launch in 10 weeks.</div><div class="quote-zh">埃迪和另外三名工程师、一名设计师一起，用 10 周时间从零代码把 Gusto Cofounder 这款全新的 AI 产品打造上线，并完成了 Tier-1 发布。</div></div>
+</div>
+      <div class="translation"><h3 style="margin:24px 0 12px;">No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)</h3>
+<h3 style="margin:24px 0 12px;">没有 Figma，没有 Jira，没有文档。Gusto 如何用 Claude Code 打造一条新产品线 | Eddie Kim（CTO）</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Eddie Kim</strong> is the co-founder and CTO of the payroll and HR platform <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto</strong>, which just crossed $1 billion in revenue and serves more than 500,000 small businesses. Recently he did something most CTOs don’t: he went back to writing code. With three other engineers and one designer, Eddie built <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto Cofounder</strong>, a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">net-new AI product</strong>, from zero code to a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">tier-one launch</strong> in 10 weeks. He walks through how that team actually worked, why they threw out nearly every process, and how anyone can copy the approach.
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Eddie Kim</strong> 是薪资与人力平台 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto</strong> 的联合创始人兼 CTO（首席技术官），该公司收入刚突破 10 亿美元，服务超过 50 万家小企业。最近他做了一件大多数 CTO 不会做的事：重新回去写代码。与另外三名工程师和一名设计师一起，Eddie 在 10 周内把 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto Cofounder</strong> 这款 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">全新的 AI 产品（net-new AI product）</strong> 从零行代码推进到了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">一级发布（tier-one launch）</strong>。他详细介绍了这支团队实际如何协作、为什么几乎抛弃了所有流程，以及任何人如何复制这种方法。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Listen or watch on <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">YouTube</strong>, <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Spotify</strong>, or <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple Podcasts</strong>.
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+可在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">YouTube</strong>、<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Spotify</strong> 或 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Apple Podcasts</strong> 收听或观看。
+</p>
+
+<h3 style="margin:24px 0 12px;">What you’ll learn:</h3>
+<h3 style="margin:24px 0 12px;">你将学到什么：</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li>The <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">trash-can method</strong>: how to write, review, and delete a full <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PR</strong> as a product decision instead of a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">planning doc</strong></li>
+<li>The two-tool <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agent stack</strong> behind <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto Cofounder</strong></li>
+<li>The exact “<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">perma-Zoom</strong>” setup that replaced <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">standups</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">retros</strong>, and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong> threads for 10 weeks</li>
+<li>How a designer with no engineering background hit the <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">94th percentile</strong> for shipping code</li>
+<li>The <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">eval-first workflow</strong> Eddie uses to fix real customer bugs with <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong></li>
+<li>How a non-technical leader can <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">prototype</strong> an idea to win buy-in, then carry it all the way to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">production-quality code</strong></li>
+</ul>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<ul style="margin:0;padding-left:20px;">
+<li><strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">垃圾桶法（trash-can method）</strong>：如何撰写、评审并删掉一整个 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">PR（Pull Request，合并请求）</strong>，把它当作产品决策而非计划文档（planning doc）</li>
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto Cofounder</strong> 背后由两款工具组成的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">智能体技术栈（agent stack）</strong></li>
+<li>具体是什么样的“<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">常驻 Zoom（perma-Zoom）</strong>”设置，在 10 周内取代了站会（standups）、复盘会（retros）和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Slack</strong> 讨论串（threads）</li>
+<li>一位没有工程背景的设计师如何冲到代码交付量的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">第 94 百分位（94th percentile）</strong></li>
+<li>Eddie 使用 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> 修复真实客户 bug 时采用的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">eval-first 工作流（以评估优先的工作流）</strong></li>
+<li>非技术领导者如何把一个想法做成 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">原型（prototype）</strong> 以赢得支持，再一路推进到 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">生产级代码（production-quality code）</strong></li>
+</ul>
+</p>
+
+<h3 style="margin:24px 0 12px;">Brought to you by:</h3>
+<h3 style="margin:24px 0 12px;">赞助商：</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<img src="https://substackcdn.com/image/fetch/$s_!9xGW!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf4f709f-eb54-4b2e-bb13-369602a6e7ba_1600x114.png" alt="Magic Patterns" style="max-width:100%;border-radius:8px;margin:12px 0;"/>
+<br/>
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Magic Patterns</strong>—Prototypes that look like your product
+<br/>
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jira Product Discovery</strong>—Prioritize with insights, build with confidence
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Magic Patterns</strong>——看起来像真实产品的原型。
+<br/>
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Jira Product Discovery</strong>——用洞察排优先级，自信地构建。
+</p>
+
+<h3 style="margin:24px 0 12px;">In this episode, we cover:</h3>
+<h3 style="margin:24px 0 12px;">本期内容：</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li>(00:00) Intro: five people, 10 weeks</li>
+<li>(02:38) The origins of Cofounder</li>
+<li>(08:32) Inside the 10-week build process</li>
+<li>(12:50) Building with no PMs</li>
+<li>(14:38) The “trash can” method</li>
+<li>(17:15) The stack architecture</li>
+<li>(19:10) Shipping to production from day one</li>
+<li>(22:03) How a designer became a top engineer</li>
+<li>(29:05) Demo: Cofounder over text and Slack</li>
+<li>(31:45) Demo: running a real payroll</li>
+<li>(36:26) Live coding with evals in Claude Code</li>
+<li>(39:39) Recap: prototype, small team, permission</li>
+<li>(43:17) Lightning round</li>
+<li>(48:44) Where to find Eddie and Cofounder</li>
+</ul>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<ul style="margin:0;padding-left:20px;">
+<li>(00:00) 开场：五个人，10 周</li>
+<li>(02:38) Cofounder 的起源</li>
+<li>(08:32) 10 周构建过程内幕</li>
+<li>(12:50) 没有产品经理地构建</li>
+<li>(14:38) “垃圾桶”方法</li>
+<li>(17:15) 技术栈架构</li>
+<li>(19:10) 从第一天起就发布到生产环境</li>
+<li>(22:03) 设计师如何成为顶尖工程师</li>
+<li>(29:05) 演示：通过短信和 Slack 使用 Cofounder</li>
+<li>(31:45) 演示：运行真实薪资</li>
+<li>(36:26) 在 Claude Code 中用 eval 实时编程</li>
+<li>(39:39) 回顾：原型、小团队、许可</li>
+<li>(43:17) 快问快答</li>
+<li>(48:44) 在哪里找到 Eddie 和 Cofounder</li>
+</ul>
+</p>
+
+<h3 style="margin:24px 0 12px;">Tools referenced:</h3>
+<h3 style="margin:24px 0 12px;">提到的工具：</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto Cofounder</strong> (early access/waitlist): <a href="https://gusto.com/cofounder" style="color:#9a9ea6;text-decoration:underline;">https://gusto.com/cofounder</a></li>
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong> (<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong>): <a href="https://claude.ai/code" style="color:#9a9ea6;text-decoration:underline;">https://claude.ai/code</a></li>
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cloudflare Workers</strong>: <a href="https://workers.cloudflare.com/" style="color:#9a9ea6;text-decoration:underline;">https://workers.cloudflare.com/</a></li>
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Vercel AI SDK</strong>: <a href="https://sdk.vercel.ai/" style="color:#9a9ea6;text-decoration:underline;">https://sdk.vercel.ai/</a></li>
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">DX</strong> (engineering analytics): <a href="https://getdx.com/" style="color:#9a9ea6;text-decoration:underline;">https://getdx.com/</a></li>
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Wispr Flow</strong> (voice-to-text): <a href="https://wisprflow.ai" style="color:#9a9ea6;text-decoration:underline;">https://wisprflow.ai</a></li>
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenClaw</strong>: <a href="https://openclaw.ai/" style="color:#9a9ea6;text-decoration:underline;">https://openclaw.ai/</a></li>
+</ul>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<ul style="margin:0;padding-left:20px;">
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto Cofounder</strong>（早期访问/等待名单）：<a href="https://gusto.com/cofounder" style="color:#2c2c2e;text-decoration:underline;">https://gusto.com/cofounder</a></li>
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Claude Code</strong>（<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Anthropic</strong> 出品）：<a href="https://claude.ai/code" style="color:#2c2c2e;text-decoration:underline;">https://claude.ai/code</a></li>
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Cloudflare Workers</strong>：<a href="https://workers.cloudflare.com/" style="color:#2c2c2e;text-decoration:underline;">https://workers.cloudflare.com/</a></li>
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Vercel AI SDK</strong>：<a href="https://sdk.vercel.ai/" style="color:#2c2c2e;text-decoration:underline;">https://sdk.vercel.ai/</a></li>
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">DX</strong>（工程分析）：<a href="https://getdx.com/" style="color:#2c2c2e;text-decoration:underline;">https://getdx.com/</a></li>
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Wispr Flow</strong>（语音转文字）：<a href="https://wisprflow.ai" style="color:#2c2c2e;text-decoration:underline;">https://wisprflow.ai</a></li>
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenClaw</strong>：<a href="https://openclaw.ai/" style="color:#2c2c2e;text-decoration:underline;">https://openclaw.ai/</a></li>
+</ul>
+</p>
+
+<h3 style="margin:24px 0 12px;">Other references:</h3>
+<h3 style="margin:24px 0 12px;">其他参考：</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto</strong> (the main product, “Gusto Classic”): <a href="https://gusto.com" style="color:#9a9ea6;text-decoration:underline;">https://gusto.com</a></li>
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mindbody</strong> (referenced as customer data source): <a href="https://www.mindbodyonline.com/" style="color:#9a9ea6;text-decoration:underline;">https://www.mindbodyonline.com/</a></li>
+</ul>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<ul style="margin:0;padding-left:20px;">
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Gusto</strong>（主要产品“Gusto Classic”）：<a href="https://gusto.com" style="color:#2c2c2e;text-decoration:underline;">https://gusto.com</a></li>
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Mindbody</strong>（作为客户数据来源提及）：<a href="https://www.mindbodyonline.com/" style="color:#2c2c2e;text-decoration:underline;">https://www.mindbodyonline.com/</a></li>
+</ul>
+</p>
+
+<h3 style="margin:24px 0 12px;">Where to find Eddie Kim:</h3>
+<h3 style="margin:24px 0 12px;">如何找到 Eddie Kim：</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li>LinkedIn: <a href="https://www.linkedin.com/in/edawerd/" style="color:#9a9ea6;text-decoration:underline;">https://www.linkedin.com/in/edawerd/</a></li>
+</ul>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<ul style="margin:0;padding-left:20px;">
+<li>LinkedIn：<a href="https://www.linkedin.com/in/edawerd/" style="color:#2c2c2e;text-decoration:underline;">https://www.linkedin.com/in/edawerd/</a></li>
+</ul>
+</p>
+
+<h3 style="margin:24px 0 12px;">Where to find Claire Vo:</h3>
+<h3 style="margin:24px 0 12px;">如何找到 Claire Vo：</h3>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<ul style="margin:0;padding-left:20px;">
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatPRD</strong>: <a href="https://www.chatprd.ai/" style="color:#9a9ea6;text-decoration:underline;">https://www.chatprd.ai/</a></li>
+<li>Website: <a href="https://clairevo.com/" style="color:#9a9ea6;text-decoration:underline;">https://clairevo.com/</a></li>
+<li>LinkedIn: <a href="https://www.linkedin.com/in/clairevo/" style="color:#9a9ea6;text-decoration:underline;">https://www.linkedin.com/in/clairevo/</a></li>
+<li>X: <a href="https://x.com/clairevo" style="color:#9a9ea6;text-decoration:underline;">https://x.com/clairevo</a></li>
+</ul>
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<ul style="margin:0;padding-left:20px;">
+<li><strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">ChatPRD</strong>：<a href="https://www.chatprd.ai/" style="color:#2c2c2e;text-decoration:underline;">https://www.chatprd.ai/</a></li>
+<li>个人网站：<a href="https://clairevo.com/" style="color:#2c2c2e;text-decoration:underline;">https://clairevo.com/</a></li>
+<li>LinkedIn：<a href="https://www.linkedin.com/in/clairevo/" style="color:#2c2c2e;text-decoration:underline;">https://www.linkedin.com/in/clairevo/</a></li>
+<li>X：<a href="https://x.com/clairevo" style="color:#2c2c2e;text-decoration:underline;">https://x.com/clairevo</a></li>
+</ul>
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Production and marketing by <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Penname</strong> (<a href="https://penname.co/" style="color:#9a9ea6;text-decoration:underline;">https://penname.co/</a>). For inquiries about sponsoring the podcast, email <a href="mailto:jordan@penname.co" style="color:#9a9ea6;text-decoration:underline;">jordan@penname.co</a>.
+</div>
+
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+制作与营销由 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Penname</strong>（<a href="https://penname.co/" style="color:#2c2c2e;text-decoration:underline;">https://penname.co/</a>）负责。如有关于赞助本播客的咨询，请发送邮件至 <a href="mailto:jordan@penname.co" style="color:#2c2c2e;text-decoration:underline;">jordan@penname.co</a>。
+</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto" target="_blank">阅读原文 &rarr;</a>
+    </div>
+
+<div class="article-card">
+      <div class="source">TLDR AI</div>
+      <div class="title-row">
+        <div class="title">GPT-5.6 预览、Grok 4.5 内测与谷歌限制 Meta</div>
+        <span class="tone-pill" style="background:#dbeafe;color:#1d4ed8">📊 分析</span>
+      </div>
+      <div class="title-en">GPT-5.6 preview ☀️, Grok 4.5 beta 🤖, Google limits Meta 🛑</div>
+      <div class="tags"><span class="tag">AI</span><span class="tag">大模型</span><span class="tag">科技资讯</span></div>
+      <div class="summary">OpenAI 发布 GPT-5.6 Preview 模型家族（Sol、Terra 和 Luna），并加强安全测试；马斯克宣布 Grok 4.5 已在 SpaceX 和特斯拉开启内测，早期评测接近或超过 Opus。此外，Google  reportedly 因算力不足限制了 Meta 对 Gemini 的使用，导致后者部分 AI 项目延期。</div>
+      <div class="quotes-section">
+<div class="quote-block"><div class="quote-en">Claude Code turned every engineer into three. Now companies need more product thinkers.</div><div class="quote-zh">Claude Code 让每位工程师顶三个人，现在企业更需要具备产品思维的人才。</div></div>
+<div class="quote-block"><div class="quote-en">True continual learning requires moving past temporary in-context memory and shifting back into the model&#x27;s weights themselves.</div><div class="quote-zh">真正的持续学习需要超越临时性的上下文记忆，重新回归到模型权重本身。</div></div>
+</div>
+      <div class="translation"><h2 style="margin:28px 0 14px;color:#1d1d1f;">TLDR AI 2026-06-29</h2>
+<p style="color:#2c2c2e;margin:4px 0 28px;line-height:1.8;font-size:15px;">TLDR AI 2026-06-29</p>
+
+<h2 style="margin:28px 0 14px;color:#1d1d1f;">GPT-5.6 preview ☀️, Grok 4.5 beta 🤖, Google limits Meta 🛑</h2>
+<p style="color:#2c2c2e;margin:4px 0 28px;line-height:1.8;font-size:15px;">GPT-5.6 预览 ☀️，Grok 4.5 测试版 🤖，Google 限制 Meta 🛑</p>
+
+<h3 style="margin:24px 0 12px;">Musk Says Grok 4.5 Entered Private Beta (1 minute read)</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Musk 称 Grok 4.5 进入非公开测试（1 分钟阅读）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Elon Musk</strong> said <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Grok 4.5</strong> was in private beta at <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">SpaceX</strong> and <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Tesla</strong>. The model is based on a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">1.5T V9 foundation model</strong> with Cursor data added during supplemental training. Early evaluations were near or above Opus, with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reinforcement learning</strong> still improving the model.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Elon Musk</strong> 表示，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Grok 4.5</strong> 正在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">SpaceX</strong> 和 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Tesla</strong> 进行 private beta（非公开测试）。该模型基于 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">1.5T V9 foundation model（基础模型）</strong>，并在补充训练中加入了 Cursor 的数据。早期评测结果接近或超过 Opus，且 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reinforcement learning（强化学习）</strong> 仍在持续改进模型。
+</p>
+
+<h3 style="margin:24px 0 12px;">GPT-5.6 Sol, Terra, and Luna (39 minute read)</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">GPT-5.6 Sol、Terra 与 Luna（39 分钟阅读）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> introduced <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT-5.6 Preview</strong>, a family of models named <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Sol, Terra, and Luna</strong>, with Sol positioned as the flagship model. The <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">system card</strong> describes stronger cyber and bio safety testing, new safeguards, and a limited preview before broader availability.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">OpenAI</strong> 发布了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">GPT-5.6 Preview</strong>，这是一组名为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Sol、Terra 和 Luna</strong> 的模型，其中 Sol 定位为旗舰模型。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">System card（系统说明卡）</strong> 描述了更强的网络与生物安全测试、新的防护措施，以及在更广泛开放前的 limited preview（限量预览）。
+</p>
+
+<h3 style="margin:24px 0 12px;">Google Limiting Meta's Gemini Use (2 minute read)</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Google 限制 Meta 使用 Gemini（2 分钟阅读）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> reportedly limited <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Meta</strong>'s access to <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini</strong> capacity after Meta requested more <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">compute</strong> than Google could provide. The shortfall was said to have delayed some internal Meta AI projects and pushed staff to use <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI tokens</strong> more efficiently.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+据报道，<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> 在 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Meta</strong> 请求了超过自身可提供的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">compute（算力）</strong> 后，限制了 Meta 对 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini</strong> 容量的使用。据称这一缺口推迟了 Meta 的一些内部 AI 项目，并促使员工更高效地使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI tokens</strong>。
+</p>
+
+<h3 style="margin:24px 0 12px;">Memory Prices report from Stanford (4 minute read)</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">斯坦福发布内存价格报告（4 分钟阅读）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stanford</strong> published an interactive report on historic and current <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">memory and storage prices</strong>. The dataset follows the spirit of <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">John C. McCallum</strong>'s classic memory-price work, with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">downloadable raw data</strong> and chart export tools.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Stanford（斯坦福大学）</strong> 发布了一份关于历史与当前 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">memory and storage prices（内存与存储价格）</strong> 的交互式报告。该数据集秉承 <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">John C. McCallum</strong> 经典内存价格工作的精神，提供 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">downloadable raw data（可下载原始数据）</strong> 与图表导出工具。
+</p>
+
+<h3 style="margin:24px 0 12px;">The Next Paradigm (7 minute read)</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">下一个范式（7 分钟阅读）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+AI labs are betting that scaling <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reinforcement learning from verifiable rewards (RLVR)</strong> across millions of diverse tasks will achieve <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">artificial general intelligence (AGI)</strong>, but this paradigm hits a wall in domains that lack <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">deterministic simulators</strong>. True <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">continual learning</strong> requires moving past temporary in-context memory and shifting back into the model's weights themselves.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+AI labs（人工智能实验室）正押注于：在数百万多样化任务上扩展 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reinforcement learning from verifiable rewards（RLVR，基于可验证奖励的强化学习）</strong>，以实现 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">artificial general intelligence（AGI，通用人工智能）</strong>。但这一范式在缺乏 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">deterministic simulators（确定性模拟器）</strong> 的领域会遇到瓶颈。真正的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">continual learning（持续学习）</strong> 需要超越临时的 in-context memory（上下文记忆），转而回到模型权重本身。
+</p>
+
+<h3 style="margin:24px 0 12px;">Lean Software Scaling Laws (17 minute read)</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Lean 软件扩展定律（17 分钟阅读）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Codebases and programming languages will eventually become easier for AI models to understand, fix, and write. The <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Lean programming language</strong> has a worse <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">baseline constant</strong> and total loss on existing code bases compared to other languages, but better scaling components. This implies that implementations in Lean could eventually win and deliver large benefits in <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">program correctness</strong> at global scale.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+代码库和编程语言终将对 AI 模型来说变得更易理解、修复和编写。<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Lean programming language（Lean 编程语言）</strong> 在现有代码库上的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">baseline constant（基线常数）</strong> 和总损失比其他语言更差，但其扩展组件更优。这意味着用 Lean 实现的代码最终可能胜出，并在全球范围内为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">program correctness（程序正确性）</strong> 带来巨大收益。
+</p>
+
+<h3 style="margin:24px 0 12px;">Moneyball for Physical AI (26 minute read)</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">物理人工智能领域的“点球成金”策略（26 分钟阅读）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Data engineering pipelines should deprecate <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">cumulative operational hours</strong> as a primary metric. Engineering efficiency and model scaling should be evaluated using <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">quantifiable parameters</strong>. An optimal <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">capital allocation</strong> strategy balances data types against their specific utility metrics. Capital efficiency scales by accurately pricing <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">data novelty</strong>.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+Physical AI（物理人工智能）的数据工程流程应不再把 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">cumulative operational hours（累计运行时长）</strong> 作为主要指标。工程效率与模型扩展应通过 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">quantifiable parameters（可量化参数）</strong> 来评估。最优的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">capital allocation（资本配置）</strong> 策略会根据具体效用指标平衡数据类型。通过准确地为 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">data novelty（数据新颖性）</strong> 定价，资本效率才能扩展。
+</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">👨‍💻</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">👨‍💻</p>
+
+<h3 style="margin:24px 0 12px;">Engineering & Research</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">工程与研究</p>
+
+<h4 style="margin:20px 0 10px;">Stuck in a botsitting cycle? (Sponsor)</h4>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">陷入 botsitting 循环？（赞助商）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+The <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Work AI Index 2026</strong> from <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Glean's Work AI Institute</strong> surveyed 6,000 digital workers and found that AI saves time, but much of it goes back into cleanup. Read the report to see where AI time savings go and what <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">high AI achievers</strong> do differently.<br/><br/>
+<a href="#" style="color:#2471a3;text-decoration:none;">Download the report</a>
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Glean 的 Work AI Institute（工作人工智能研究所）</strong> 发布的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Work AI Index 2026（2026 年工作人工智能指数）</strong> 调查了 6,000 名数字工作者，发现 AI 确实节省时间，但其中很大一部分又被用于清理善后。阅读报告可了解 AI 节省的时间去向何处，以及 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">high AI achievers（AI 高绩效者）</strong> 有何不同做法。<br/><br/>
+<a href="#" style="color:#2471a3;text-decoration:none;">下载报告</a>
+</p>
+
+<h3 style="margin:24px 0 12px;">Qwen Image Agent (12 minute read)</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Qwen 图像智能体（12 分钟阅读）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen-Image-Agent</strong> improved <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">text-to-image generation</strong> by planning, reasoning, searching, using memory, and incorporating feedback to fill in missing user context. The work also introduced <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">IA-Bench</strong> to test <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic image generation</strong> across planning, reasoning, search, and memory.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Qwen-Image-Agent</strong> 通过规划、推理、搜索、使用记忆并引入反馈来补全缺失的用户上下文，从而改进了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">text-to-image generation（文本到图像生成）</strong>。该工作还引入了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">IA-Bench</strong>，用于在规划、推理、搜索和记忆方面测试 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">agentic image generation（智能体图像生成）</strong>。
+</p>
+
+<h3 style="margin:24px 0 12px;">Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction (10 minute read)</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">通过冻结多 Token 预测加速 Pixel 上的 Gemini Nano 模型（10 分钟阅读）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+Models like <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini Nano</strong> and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemma</strong> make it possible to have powerful large language models right in your pocket. Delivering these models on mobile was a significant challenge. <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> built a new architecture that retrofits <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Multi-Token Prediction</strong> onto existing 'frozen' Gemini Nano v3 models to overcome the bottleneck. The new architectural components were designed to maximize efficiency gains specifically for mobile environments. This article shows how Google's research team tackled the unique, extreme constraints of <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">edge computing</strong>.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemini Nano</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Gemma</strong> 等模型让强大的大语言模型随身携带成为可能。在移动设备上部署这些模型曾是一项重大挑战。<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Google</strong> 构建了一种新架构，将 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Multi-Token Prediction（多 Token 预测）</strong> 改装到现有“frozen”（冻结）的 Gemini Nano v3 模型上，以突破瓶颈。新的架构组件专为移动环境最大化效率增益而设计。本文介绍了 Google 研究团队如何应对 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">edge computing（边缘计算）</strong> 独特且极端的约束。
+</p>
+
+<h3 style="margin:24px 0 12px;">Reward Models Can Be Too Sensitive (22 minute read)</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">奖励模型可能过于敏感（22 分钟阅读）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Meta</strong> studied how <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reward models</strong> can overreact to equally good responses, leading reinforcement learning toward <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reward hacking</strong>. The paper proposes measuring both discriminative ability and specificity, then using <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Monte Carlo dropout</strong> to cluster rewards into safer discrete signals.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">Meta</strong> 研究了 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reward models（奖励模型）</strong> 如何会对同样优质的回复反应过度，从而将强化学习引向 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reward hacking（奖励操纵/奖励破解）</strong>。论文建议同时衡量区分能力与特异性，然后使用 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Monte Carlo dropout（蒙特卡洛 dropout）</strong> 将奖励聚类成更安全的离散信号。
+</p>
+
+<h3 style="margin:24px 0 12px;">TLDR is hiring a Senior PMM ($180k-$225k base + $40-50k annual target bonus, Fully Remote)</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">TLDR 正在招聘高级产品营销经理（底薪 18–22.5 万美元 + 年度目标奖金 4–5 万美元，全远程）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+We're hiring a <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Senior PMM</strong> to own <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">product marketing</strong> at <strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">TLDR</strong>. You'll define our positioning, build out <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sales enablement</strong>, and lead every launch.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#2471a3;background:#eaf4fd;padding:1px 4px;border-radius:3px;">TLDR</strong> 正在招聘一名 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">Senior PMM（高级产品营销经理）</strong>，负责 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">product marketing（产品营销）</strong>。你将定义我们的定位、搭建 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">sales enablement（销售赋能）</strong> 体系，并主导每一次产品发布。
+</p>
+
+<h3 style="margin:24px 0 12px;">Claude Code turned every engineer into three. Now companies need more product thinkers (8 minute read)</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">Claude Code 让每位工程师顶三个，现在企业更需要产品思维者（8 分钟阅读）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI coding agents</strong> have dramatically increased engineering output, shifting the bottleneck from writing code to deciding what to build. As software development becomes more automated, engineers who combine strong technical fundamentals with <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">product judgment</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">customer insight</strong>, and code review skills are becoming increasingly valuable.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">AI coding agents（AI 编程智能体）</strong> 极大提升了工程产出，瓶颈已从“写代码”转移到“决定做什么”。随着软件开发日益自动化，兼具扎实技术基础、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">product judgment（产品判断力）</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">customer insight（客户洞察力）</strong> 和代码审查技能的工程师正变得越来越有价值。
+</p>
+
+<h3 style="margin:24px 0 12px;">Agents as Webs of Beliefs (11 minute read)</h3>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">作为信念网络的智能体（11 分钟阅读）</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">
+A proposed framework models intelligent agents as interconnected <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">webs of beliefs</strong>, where beliefs, goals, and actions emerge from the same underlying structure instead of being treated separately. The approach argues that <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reasoning</strong>, <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">planning</strong>, and <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">decision-making</strong> arise from maintaining locally consistent <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">belief networks</strong>, offering an alternative foundation for building more capable AI agents.
+</div>
+<p style="color:#2c2c2e;margin:4px 0 24px;line-height:1.8;font-size:15px;">
+一个被提出的框架将智能体建模为相互关联的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">webs of beliefs（信念网络）</strong>，其中信念、目标和行动源自同一底层结构，而非被分别处理。该方法认为，<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">reasoning（推理）</strong>、<strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">planning（规划）</strong> 和 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">decision-making（决策）</strong> 源于维护局部一致的 <strong style="color:#c0392b;background:#fdf2f2;padding:1px 4px;border-radius:3px;">belief networks（信念网络）</strong>，为构建更强大的 AI 智能体提供了另一种基础。
+</p>
+
+<h2 style="margin:28px 0 14px;color:#1d1d1f;">Get the most interesting AI stories and breakthroughs delivered in a free daily email.</h2>
+<p style="color:#2c2c2e;margin:4px 0 28px;line-height:1.8;font-size:15px;">将最有趣的 AI 故事与突破，每日免费发送至你的邮箱。</p>
+
+<div style="color:#9a9ea6;font-size:14px;line-height:1.7;margin:20px 0 6px;">Join 1,100,000 readers for</div>
+<p style="color:#2c2c2e;margin:4px 0 28px;line-height:1.8;font-size:15px;">与 1,100,000 名读者一起加入……</p></div>
+      <button class="toggle-btn" onclick="toggleTranslation(this)">展开全文翻译</button>
+      <a class="link" href="https://tldr.tech/ai/2026-06-29" target="_blank">阅读原文 &rarr;</a>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-06-07
+  Newsletter 聚合翻译工具 &middot; Powered by AI &middot; 2026-06-29
 </div>
 
 <script>

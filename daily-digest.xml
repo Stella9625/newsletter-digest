@@ -7,17 +7,35 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 07 Jun 2026 23:35:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 23:19:50 +0000</lastBuildDate>
     <item>
-      <title>📰 AI/产品/技术日报 - 2026-06-07</title>
-      <description>&lt;h2&gt;科技日报 · AI/产品/技术&lt;/h2&gt;
-&lt;h3&gt;工程与系统设计&lt;/h3&gt;
+      <title>📰 AI/产品/技术日报 - 2026-06-29</title>
+      <description>&lt;h3&gt;今日 AI/产品/技术日报&lt;/h3&gt;
+&lt;h4&gt;大模型与 AI 生态&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;A new era for software testing&lt;/strong&gt; · Antirez（来源：Antirez）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding&lt;/strong&gt; | Simon Willison / Simon Willison&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;文章提出 LLM 正开启软件测试新范式：AI Agent 可扮演 QA 工程师执行复杂人工测试、集成验证与用户体验评估，突破传统自动化测试的时空与逻辑局限。作者认为，这将有效对冲 AI 快速编程带来的代码质量折损，从源头提升软件发布质量。&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-06-07</guid>
-      <pubDate>Sun, 07 Jun 2026 23:35:07 +0000</pubDate>
+&lt;p&gt;开源（Apache 2.0）“自脚手架”模型基于 Gemma 4 与 Qwen 3.5，参数覆盖 9B–397B，在同等规模开源模型中代码能力领先；作者本地运行 35B 版本，发现其在多工具调用 Agent 编程和代码检索上表现出色。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;🎙️ How I AI: GLM-5.2 review &amp;amp; How Gusto built a new product line with Claude Code&lt;/strong&gt; | Lenny Rachitsky / Lenny&amp;#x27;s Newsletter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在真实代码库中实测显示，Z.ai 开源的 GLM-5.2 已接近 Claude Opus，具备百万 token 上下文、低成本和可自托管优势，但复杂 React Agent 任务的稳定性仍需进一步验证。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GPT-5.6 preview ☀️, Grok 4.5 beta 🤖, Google limits Meta 🛑&lt;/strong&gt; | TLDR / TLDR AI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;OpenAI 发布 GPT-5.6 Preview 家族（Sol、Terra、Luna）并加强安全测试；马斯克宣布 Grok 4.5 已在 SpaceX 与特斯拉内测，早期评测接近或超过 Opus；另有报道称 Google 因算力紧张限制了 Meta 对 Gemini 的使用。&lt;/p&gt;
+&lt;h4&gt;AI 编程与产品团队实践&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code&lt;/strong&gt; | Claire Vo &amp;amp; Lenny Rachitsky / Lenny&amp;#x27;s Newsletter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Gusto CTO Eddie Kim 带领 1 名设计师和 3 名工程师，在 10 周内从零代码推出 AI 产品线 Gusto Cofounder；团队弃用 Figma、Jira 和传统文档，改用 Claude Code、AI 工具、实时协作与“写完即删”的 PR 决策法，Lenny 与 Claire 分别从管理和实践视角记录了这一流程重构。&lt;/p&gt;
+&lt;h4&gt;工具与效率技巧&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Count the number of Safari tabs&lt;/strong&gt; | Simon Willison / Simon Willison&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;分享一段 AppleScript 小技巧，可统计 Safari 所有窗口中打开的标签页总数；作者顺便自嘲自己竟同时开着 370 个标签页。&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://stella9625.github.io/newsletter-digest/daily-digest/2026-06-29</guid>
+      <pubDate>Mon, 29 Jun 2026 23:19:50 +0000</pubDate>
     </item>
   </channel>
 </rss>
