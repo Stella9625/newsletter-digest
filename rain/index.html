@@ -1,0 +1,903 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Rain or Go</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Rain or Go">
+<meta name="theme-color" content="#f6f8fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e141c" media="(prefers-color-scheme: dark)">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAB4klEQVR42u3c0Q2CMBRA0WLcgUWYR+MSDuESxk1dwBhsaO17PfcbmwAnBWLTZd0uRfrUySUQHIJDcAgOwSE4BIfgEByCQ4JDcAgOwSE4BIfgEByCQ3BIcAgOwSE4BIfgEByCQ3AIDgkOwSE4BIfgEByCQ3AIDsEhOCQ4BIcO6OwSjNbt8fp+wPN+NXOQUX8MHDPK6OkDjngyuvmAI6SMPj7gEByCQ3AIDsEhOASH4BAcgkOCQ3AIDsGhv5R8Dek46zHNHMFklI7rMeEIJoOPGXEMuB4TjpAy+PC1IjgEh+AQHIJDcAgOwSE4JDgEh+AQHIJDQ2Uf0spmWJ1q5mgio6RYPQRHExk5fMDRSkYCH3A0v9NxfcAhOASH4BAcgkNwCA7BITg0b0P8ZW9zJjNHpYxi84w5cdicCY5j7jcfs+CwORMcgkNwCA4JDsEhOASH4BAcgkNwCA7BITgkOASH4BAcgkNwCA7BITgEhwSH4BAcgkNwCA7BITgqqtsDbs+vjJxh5vj13PYfb+QMjxX3u8/IUd85PCn6jFzRsm4Xb17ytSI4BIfgEByCQ3AIDsEhOCQ4BIfgEByCQ3AIDsEhOASHBIfgEByCQ3AIDsEhOASH4BAcEhyCQ3AIDsEhOASHUvQG/w5uwS7O4ToAAAAASUVORK5CYII=">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+/* Layout: one narrow column, native-app rhythm; rain blue is the only accent, warnings use their official colours */
+:root{
+  --bg:#f6f8fb; --surface:#ffffff; --fg:#0f1722; --muted:#5d6b7c; --faint:#94a1b2; --line:#e3e8ef;
+  --rain:#2f74d0; --rain-soft:#cfe0f7; --prob:#7aa7e6; --thunder:#8a5cd6;
+  --ok:#2e8b57; --mid:#c08a1a; --bad:#c2410c;
+  --w-yellow:#f2c200; --w-orange:#f08a00; --w-red:#d6262b; --w-bg:#fff8e1;
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+  --display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0e141c; --surface:#151d28; --fg:#e8eef6; --muted:#9aa8ba; --faint:#66768a; --line:#243041;
+  --rain:#5aa0ff; --rain-soft:#1d3556; --prob:#4f7fc4; --thunder:#b08cf0;
+  --ok:#4cc38a; --mid:#e0b04a; --bad:#ff7a45; --w-bg:#2a2410; color-scheme:dark; } }
+:root[data-theme="dark"]{
+  --bg:#0e141c; --surface:#151d28; --fg:#e8eef6; --muted:#9aa8ba; --faint:#66768a; --line:#243041;
+  --rain:#5aa0ff; --rain-soft:#1d3556; --prob:#4f7fc4; --thunder:#b08cf0;
+  --ok:#4cc38a; --mid:#e0b04a; --bad:#ff7a45; --w-bg:#2a2410; color-scheme:dark; }
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 var(--font);
+  padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
+.wrap{max-width:640px;margin:0 auto;padding-inline:16px;padding-block:8px 40px}
+button{font:inherit;color:inherit}
+a{color:var(--rain)}
+.num{font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)} .faint{color:var(--faint)}
+.small{font-size:12px}
+
+/* header */
+.top{display:flex;align-items:center;gap:8px;padding-block:10px 4px}
+.place{flex:1;min-width:0;background:none;border:0;padding:6px 0;text-align:left;cursor:pointer}
+.place b{font:600 20px/1.2 var(--display);display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.place span{font-size:12px;color:var(--muted)}
+.iconbtn{width:38px;height:38px;border-radius:19px;border:1px solid var(--line);background:var(--surface);display:grid;place-items:center;cursor:pointer;flex:none}
+.iconbtn svg{width:18px;height:18px;stroke:var(--fg);fill:none;stroke-width:1.8}
+.iconbtn:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--rain);outline-offset:2px}
+
+/* current */
+.now{display:grid;grid-template-columns:auto 1fr;gap:4px 16px;align-items:end;padding-block:8px 14px}
+.now .t{font:200 64px/1 var(--display);letter-spacing:-2px}
+.now .cond{font-size:17px;font-weight:500}
+.now .meta{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:4px 14px;color:var(--muted);font-size:13px}
+.src{font-size:11px;color:var(--faint);grid-column:1/-1}
+
+/* warning banner */
+.warnbar{display:flex;gap:10px;align-items:flex-start;width:100%;text-align:left;border:0;border-radius:10px;padding:10px 12px;background:var(--w-bg);cursor:pointer;margin-bottom:12px}
+.warnbar .lv{width:10px;height:10px;border-radius:5px;margin-top:5px;flex:none}
+.warnbar b{font-weight:600}
+
+/* sections */
+section{padding-block:14px 6px;border-top:1px solid var(--line)}
+h2{font:600 13px/1.3 var(--font);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;display:flex;align-items:center;gap:8px}
+h2 .sp{flex:1}
+.chip{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:2px 8px;border-radius:10px;border:1px solid var(--line);letter-spacing:0;text-transform:none;color:var(--fg)}
+.dot{width:8px;height:8px;border-radius:4px;display:inline-block;flex:none}
+.c-high{background:var(--ok)} .c-mid{background:var(--mid)} .c-low{background:var(--bad)}
+
+.summary{font-size:15px;margin:0 0 10px}
+.verdict{margin-bottom:6px}
+.verdict .head{font:600 21px/1.35 var(--display);margin:0 0 6px}
+.verdict ul{list-style:none;margin:0;padding:0;display:grid;gap:5px}
+.verdict li{display:flex;gap:8px;font-size:14.5px;line-height:1.45}
+.verdict li .k{flex:none;width:3.2em;color:var(--muted)}
+.verdict li b{font-weight:600}
+.summary b{font-weight:600}
+
+/* 2h strip */
+.strip{display:grid;grid-template-columns:repeat(8,1fr);gap:3px;align-items:end;height:54px;margin-top:6px}
+.strip i{display:block;background:var(--rain);border-radius:3px 3px 0 0;min-height:2px;opacity:.9}
+.strip i.zero{background:var(--line)}
+.stripx{display:grid;grid-template-columns:repeat(8,1fr);gap:3px;font-size:11px;color:var(--faint);margin-top:3px}
+
+/* chart */
+.chartbox{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-inline:-16px;padding-inline:16px;scrollbar-width:none}
+.chartbox::-webkit-scrollbar{display:none}
+.chartbox svg{display:block}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted);margin:8px 0 4px}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.sw{width:12px;height:8px;border-radius:2px;display:inline-block}
+
+/* hourly table */
+.tbl{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}
+.tbl th{font-weight:500;color:var(--faint);font-size:11px;text-align:right;padding:4px 3px;position:sticky;top:0;background:var(--bg)}
+.tbl th:first-child,.tbl td:first-child{text-align:left}
+.tbl td{padding:7px 3px;border-top:1px solid var(--line);text-align:right;vertical-align:top;white-space:nowrap}
+.tbl tr.day td{background:none;color:var(--muted);font-weight:600;font-size:12px;padding-top:12px;text-align:left}
+.tbl .wx{text-align:left}
+.tbl .p{font-weight:600}
+.tbl .mm{color:var(--rain);font-weight:600}
+.tbl .sub{display:block;font-size:10.5px;font-weight:400;color:var(--faint);line-height:1.2}
+.tbl .wet td{background:color-mix(in srgb,var(--rain-soft) 35%,transparent)}
+.more{display:block;width:100%;margin-top:8px;padding:10px;border:1px solid var(--line);background:var(--surface);border-radius:10px;cursor:pointer;color:var(--muted)}
+
+/* radar */
+#map{height:340px;border-radius:12px;overflow:hidden;background:var(--line);z-index:0}
+.radarbar{display:flex;align-items:center;gap:10px;margin-top:8px}
+.radarbar input[type=range]{flex:1;accent-color:var(--rain)}
+.radarbar .tm{font-size:13px;min-width:92px;text-align:right}
+.tabs{display:flex;gap:6px;margin-bottom:8px}
+.tabs button{border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:4px 12px;font-size:13px;cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.rscale{display:flex;height:6px;border-radius:3px;overflow:hidden;margin-top:8px}
+.rscale i{flex:1}
+.rscalex{display:flex;justify-content:space-between;font-size:11px;color:var(--faint);margin-top:2px}
+#aemetRadar img{width:100%;border-radius:12px;display:block;background:#fff}
+
+/* daily */
+.days{display:grid;grid-template-columns:auto 26px minmax(0,1fr) auto auto;gap:0 10px;align-items:center;font-size:14px}
+.days > div{padding-block:9px;border-top:1px solid var(--line)}
+.days .d{font-weight:500}
+.days .rng{display:flex;align-items:center;gap:6px;justify-content:flex-start}
+.tbar{flex:1;height:4px;border-radius:2px;background:var(--line);position:relative;min-width:40px}
+.tbar i{position:absolute;top:0;bottom:0;border-radius:2px;background:linear-gradient(90deg,#6fb3e8,#f2b04a)}
+.days .rp{text-align:right;color:var(--rain);font-weight:600;min-width:42px}
+.days .rm{text-align:right;color:var(--muted);min-width:64px;font-size:12.5px;line-height:1.25}
+.days .rm b{display:block;color:var(--fg);font-weight:500;font-size:13px}
+
+/* warnings list */
+.warn{border-left:4px solid var(--w-yellow);padding:6px 0 6px 12px;margin-bottom:12px}
+.warn h3{margin:0 0 2px;font-size:15px}
+.warn p{margin:4px 0;font-size:13px;color:var(--muted)}
+
+/* sheets */
+.sheet{position:fixed;inset:0;background:color-mix(in srgb,#000 40%,transparent);z-index:1000;display:flex;align-items:flex-end;justify-content:center}
+.sheet .panel{background:var(--bg);width:100%;max-width:640px;border-radius:16px 16px 0 0;padding:14px 16px calc(18px + env(safe-area-inset-bottom,0px));max-height:85vh;overflow:auto}
+.sheet input[type=search],.sheet input[type=text]{width:100%;font-size:16px;padding:11px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
+.res{list-style:none;margin:8px 0 0;padding:0}
+.res li button{width:100%;text-align:left;padding:11px 4px;border:0;border-bottom:1px solid var(--line);background:none;cursor:pointer}
+.res small{color:var(--muted)}
+.row{display:flex;gap:8px;align-items:center;margin-top:10px}
+.btn{padding:9px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);cursor:pointer}
+.btn.pri{background:var(--rain);border-color:var(--rain);color:#fff}
+
+.status{font-size:12px;color:var(--muted);padding:6px 0}
+.err{color:var(--bad)}
+details.method{font-size:12.5px;color:var(--muted)}
+details.method summary{cursor:pointer;padding:6px 0;color:var(--fg)}
+details.method li{margin:3px 0}
+.skeleton{color:var(--faint)}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+.leaflet-container{font:12px var(--font)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <button class="place" id="placeBtn" aria-label="切换地点"><b id="placeName">定位中…</b><span id="placeSub">&nbsp;</span></button>
+    <button class="iconbtn" id="locBtn" aria-label="使用当前位置"><svg viewBox="0 0 24 24"><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/></svg></button>
+    <button class="iconbtn" id="refreshBtn" aria-label="刷新"><svg viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 4v7h-7"/></svg></button>
+    <button class="iconbtn" id="setBtn" aria-label="设置"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
+  </div>
+
+  <div id="now" class="now"><div class="t skeleton">--°</div><div><div class="cond skeleton">加载中</div></div></div>
+  <div id="warnTop"></div>
+
+  <section id="next">
+    <h2>一句话结论 <span class="sp"></span><span id="confChip"></span></h2>
+    <div id="verdict" class="verdict"><p class="summary" id="rainSummary">加载中…</p></div>
+    <div id="next2h"></div>
+  </section>
+
+  <section id="hourly">
+    <h2>每小时怎么下 · 48 小时</h2>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--rain)"></i>柱子越高，雨越大</span>
+      <span><i class="sw" style="background:var(--rain);opacity:.35"></i>浅色：各家预报的差距</span>
+      <span><i class="sw" style="background:var(--prob);height:2px"></i>曲线：下雨的可能性</span>
+      <span><i class="dot c-high"></i>可靠 <i class="dot c-mid"></i>一般 <i class="dot c-low"></i>没把握</span>
+    </div>
+    <div class="chartbox" id="chartBox"></div>
+    <table class="tbl num" id="hTable"></table>
+    <button class="more" id="moreBtn" hidden>显示全部 48 小时</button>
+  </section>
+
+  <section id="radar">
+    <h2>雨现在在哪 · 雷达 <span class="sp"></span><span class="small muted" id="radarAge"></span></h2>
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" id="tabRV">雷达回放 · 过去 2 小时</button>
+      <button role="tab" aria-selected="false" id="tabAE">AEMET 官方合成图</button>
+    </div>
+    <div id="rvPane">
+      <div id="map"></div>
+      <div class="radarbar">
+        <button class="iconbtn" id="playBtn" aria-label="播放"><svg viewBox="0 0 24 24" id="playIco"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+        <input type="range" id="frameRange" min="0" max="0" value="0" aria-label="雷达时间">
+        <span class="tm num" id="frameTime">—</span>
+      </div>
+      <div class="rscale"><i style="background:#9ecbf5"></i><i style="background:#5aa3ea"></i><i style="background:#2c6fd1"></i><i style="background:#1a43a6"></i><i style="background:#f2d24b"></i><i style="background:#f08a2a"></i><i style="background:#d6262b"></i><i style="background:#a0207a"></i></div>
+      <div class="rscalex"><span>小雨</span><span>中雨</span><span>大雨</span><span>强对流 / 冰雹</span></div>
+      <p class="small muted" style="margin:8px 0 2px">地图上的彩色区域就是此刻正在下雨的地方，颜色越深雨越大；红点是你的位置。点播放看过去 2 小时雨区往哪边移动。</p>
+      <p class="small faint" id="radarNote">真实雷达观测（RainViewer 合成，西班牙境内数据源为 AEMET 雷达网）。免费接口自 2026 年起不再提供雷达外推 nowcast，最高分辨率约 1 km。</p>
+    </div>
+    <div id="aemetRadar" hidden></div>
+  </section>
+
+  <section id="daily">
+    <h2>未来 7 天</h2>
+    <div class="days num" id="days"></div>
+    <p class="small faint" style="margin-top:8px">第 3 天起越远越不准，只看趋势：下雨可能性取整到 10%，雨量给大致范围。</p>
+  </section>
+
+  <section id="warnings">
+    <h2>官方预警 · AEMET</h2>
+    <div id="warnList" class="small muted">—</div>
+  </section>
+
+  <section>
+    <details class="method">
+      <summary>数据来源与方法</summary>
+      <div id="sources"></div>
+      <ul>
+        <li><b>降雨量</b>：ECMWF IFS 9 km、DWD ICON-EU、Météo-France、UK Met Office、NOAA GFS 五个模型的中位数；浅色区间为模型间最小–最大值。每行表示该小时内（如 14:00–15:00）的累计降雨。</li>
+        <li><b>降雨概率</b>：ECMWF 集合预报（51 个成员）与 ICON-EU 集合预报（40 个成员）中，该小时降雨 ≥ 0.1 mm 的成员占比。</li>
+        <li><b>一致性</b>：集合概率和确定性模型都指向同一结论（都无雨或都有雨，且雨量相近）记为<b>一致</b>；概率在 30–70% 之间、两类模型结论相反、或雨量相差 4 倍以上，记为<b>分歧</b>。</li>
+        <li><b>AEMET</b>：配置 Key 后叠加官方逐小时预报（降雨量、6 小时降雨概率、雷暴概率）、最近气象站实况、CAP 官方预警。</li>
+        <li><b>雷暴</b>：有 AEMET 数据时显示 AEMET 6 小时雷暴概率；否则显示有几个模型给出雷暴天气代码。</li>
+      </ul>
+    </details>
+  </section>
+</div>
+
+<div class="sheet" id="searchSheet" hidden>
+  <div class="panel">
+    <input type="search" id="q" placeholder="搜索城市，例如 Granada、Sevilla" autocomplete="off" enterkeyhint="search">
+    <ul class="res" id="results"></ul>
+    <div class="row"><button class="btn" id="closeSearch">关闭</button></div>
+  </div>
+</div>
+
+<div class="sheet" id="setSheet" hidden>
+  <div class="panel">
+    <h2 style="margin-top:4px">AEMET API Key</h2>
+    <p class="small muted">用于官方预警、AEMET 逐小时预报、气象站实况和官方雷达图。Key 免费，在 <a href="https://opendata.aemet.es/centrodedescargas/altaUsuario" target="_blank" rel="noopener">AEMET OpenData</a> 用邮箱申请，Key 会发到邮箱。Key 只保存在这台设备的浏览器里。</p>
+    <input type="text" id="keyInput" placeholder="粘贴 API Key" autocomplete="off" spellcheck="false">
+    <div class="row"><button class="btn pri" id="saveKey">保存</button><button class="btn" id="clearKey">清除</button><button class="btn" id="closeSet">关闭</button></div>
+    <p class="small" id="keyStatus"></p>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+"use strict";
+/* ============ config ============ */
+const DET_MODELS = [
+  {id:'ecmwf_ifs', name:'ECMWF IFS 9km'},
+  {id:'icon_eu', name:'ICON-EU 7km'},
+  {id:'meteofrance_seamless', name:'Météo-France'},
+  {id:'ukmo_seamless', name:'UK Met Office'},
+  {id:'gfs_seamless', name:'NOAA GFS'},
+];
+const ENS_MODELS = [
+  {ids:['ecmwf_ifs025','ifs_025'], name:'ECMWF ENS', days:8},
+  {ids:['icon_eu','icon_eu_eps'], name:'ICON-EU EPS', days:4},
+];
+const OM = 'https://api.open-meteo.com/v1/forecast';
+const OM_ENS = 'https://ensemble-api.open-meteo.com/v1/ensemble';
+const AEMET = 'https://opendata.aemet.es/opendata/api';
+const WET = 0.1;
+
+/* ============ small utils ============ */
+const $ = s => document.querySelector(s);
+const store = {
+  get(k, d=null){ try{ const v = localStorage.getItem(k); return v==null? d : JSON.parse(v);}catch(e){return d;} },
+  set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} },
+  del(k){ try{ localStorage.removeItem(k);}catch(e){} }
+};
+const esc = s => String(s??'').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const median = a => { if(!a.length) return null; const s=[...a].sort((x,y)=>x-y); const m=s.length>>1; return s.length%2? s[m] : (s[m-1]+s[m])/2; };
+const quant = (a,q) => { if(!a.length) return null; const s=[...a].sort((x,y)=>x-y); const i=(s.length-1)*q; const lo=Math.floor(i), hi=Math.ceil(i); return s[lo]+(s[hi]-s[lo])*(i-lo); };
+const fmtMM = v => v==null? '—' : v<0.05? '0' : v<10? v.toFixed(1) : Math.round(v).toString();
+const hh = iso => iso.slice(11,16);
+const addHour = (iso, n) => { const d = new Date(iso+':00Z'); d.setUTCHours(d.getUTCHours()+n); return d.toISOString().slice(0,16); };
+/* plain-language helpers */
+const rainWord = mm => mm==null||mm<0.1? '不下' : mm<0.5? '毛毛雨' : mm<2.5? '小雨' : mm<8? '中雨' : mm<16? '大雨' : '暴雨';
+const dayRainWord = mm => mm==null||mm<1? '' : mm<10? '小雨' : mm<25? '中雨' : mm<50? '大雨' : '暴雨';
+const probWord = p => p==null? '' : p<0.15? '基本不会下' : p<0.35? '下雨可能性小' : p<0.65? '可能下雨' : p<0.85? '很可能下雨' : '几乎肯定下雨';
+function clock(iso){ const h=+iso.slice(11,13); const part = h<5?'凌晨':h<9?'早上':h<12?'上午':h<14?'中午':h<18?'下午':h<20?'傍晚':'晚上'; const h12 = h===0?12: h>12? h-12 : h; return `${part} ${h12} 点`; }
+const WD = ['周日','周一','周二','周三','周四','周五','周六'];
+const dayLabel = (ymd, todayYmd) => { if(ymd===todayYmd) return '今天'; if(ymd===addHour(todayYmd+'T00:00',24).slice(0,10)) return '明天'; const d=new Date(ymd+'T00:00:00Z'); return WD[d.getUTCDay()]; };
+const dirName = deg => deg==null? '' : ['北','东北','东','东南','南','西南','西','西北'][Math.round(((deg%360)+360)%360/45)%8];
+async function getJSON(url, opt={}){ const r = await fetch(url, opt); if(!r.ok){ let t=''; try{ t=(await r.json()).reason||''; }catch(e){} throw new Error(`HTTP ${r.status} ${t}`); } return r.json(); }
+function haversine(a,b,c,d){ const R=6371, t=x=>x*Math.PI/180; const dl=t(c-a), dn=t(d-b); const h=Math.sin(dl/2)**2+Math.cos(t(a))*Math.cos(t(c))*Math.sin(dn/2)**2; return 2*R*Math.asin(Math.sqrt(h)); }
+
+/* WMO weather codes */
+const WMO = {0:['晴','☀︎'],1:['大致晴','🌤'],2:['局部多云','⛅'],3:['阴','☁︎'],45:['雾','🌫'],48:['雾凇','🌫'],
+  51:['毛毛雨','🌦'],53:['毛毛雨','🌦'],55:['较强毛毛雨','🌧'],56:['冻毛毛雨','🌧'],57:['冻毛毛雨','🌧'],
+  61:['小雨','🌦'],63:['中雨','🌧'],65:['大雨','🌧'],66:['冻雨','🌧'],67:['冻雨','🌧'],71:['小雪','🌨'],73:['中雪','🌨'],75:['大雪','🌨'],77:['霰','🌨'],
+  80:['阵雨','🌦'],81:['较强阵雨','🌧'],82:['强阵雨','🌧'],85:['阵雪','🌨'],86:['强阵雪','🌨'],95:['雷暴','⛈'],96:['雷暴伴冰雹','⛈'],99:['强雷暴伴冰雹','⛈']};
+const wmo = (c, isDay=1) => { const w = WMO[c] || ['—','·']; if(!isDay && c<=1) return [w[0], '☾']; return w; };
+
+/* ============ state ============ */
+let S = { loc:null, mode:null, data:null, showAll:false, fetchedAt:0 };
+
+/* ============ location ============ */
+function setPlace(name, sub){ $('#placeName').textContent = name; $('#placeSub').textContent = sub||''; }
+
+function locate(){
+  setPlace('定位中…','');
+  if(!navigator.geolocation){ return fallbackPlace('此浏览器不支持定位'); }
+  navigator.geolocation.getCurrentPosition(async pos => {
+    const lat = pos.coords.latitude, lon = pos.coords.longitude;
+    S.mode = 'gps'; store.set('mode','gps');
+    const loc = { lat, lon, name:'当前位置', sub:'', gps:true, acc:Math.round(pos.coords.accuracy) };
+    S.loc = loc; load();
+    try{ const r = await reverse(lat, lon); if(r){ loc.name = r.name; loc.sub = r.sub; if(S.loc===loc) setPlace('📍 '+r.name, r.sub); } }catch(e){}
+  }, err => {
+    fallbackPlace(err.code===1? '未获得定位权限' : '定位失败');
+  }, { enableHighAccuracy:false, timeout:12000, maximumAge:300000 });
+}
+function fallbackPlace(msg){
+  const last = store.get('lastPlace');
+  S.mode = 'manual';
+  S.loc = last || { lat:40.4168, lon:-3.7038, name:'Madrid', sub:'Comunidad de Madrid, España' };
+  load();
+  setTimeout(()=>{ $('#placeSub').textContent = msg+' · 点击地名可搜索'; }, 50);
+}
+async function reverse(lat, lon){
+  try{
+    const j = await getJSON(`https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lon}&localityLanguage=es`);
+    const name = j.city || j.locality || j.principalSubdivision;
+    if(name) return { name, sub:[j.locality&&j.locality!==name?j.locality:null, j.principalSubdivision, j.countryName].filter(Boolean).join(', ') };
+  }catch(e){}
+  const j = await getJSON(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lon}&zoom=10&accept-language=es`);
+  const a = j.address||{};
+  return { name: a.city||a.town||a.village||a.municipality||a.county||'当前位置', sub:[a.state,a.country].filter(Boolean).join(', ') };
+}
+
+/* search */
+let qTimer=null;
+function openSearch(){
+  $('#searchSheet').hidden = false; const q=$('#q'); q.value=''; renderRecents(); setTimeout(()=>q.focus(), 50);
+}
+function renderRecents(){
+  const rec = store.get('recents', []);
+  const ul = $('#results');
+  ul.innerHTML = rec.length ? '<li class="small faint" style="padding:8px 4px 0">最近</li>' + rec.map((p,i)=>`<li><button data-r="${i}"><b>${esc(p.name)}</b><br><small>${esc(p.sub)}</small></button></li>`).join('') : '';
+  ul.querySelectorAll('[data-r]').forEach(b=>b.onclick=()=>pick(rec[+b.dataset.r]));
+}
+async function doSearch(q){
+  if(q.trim().length<2){ renderRecents(); return; }
+  try{
+    const j = await getJSON(`https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(q)}&count=8&language=es&format=json`);
+    const res = (j.results||[]).map(r=>({ lat:r.latitude, lon:r.longitude, name:r.name, sub:[r.admin2&&r.admin2!==r.name?r.admin2:null, r.admin1, r.country].filter(Boolean).join(', ') }));
+    const ul = $('#results');
+    ul.innerHTML = res.length? res.map((p,i)=>`<li><button data-i="${i}"><b>${esc(p.name)}</b><br><small>${esc(p.sub)}</small></button></li>`).join('') : '<li class="small muted" style="padding:10px 4px">没有找到这个地点</li>';
+    ul.querySelectorAll('[data-i]').forEach(b=>b.onclick=()=>pick(res[+b.dataset.i]));
+  }catch(e){ $('#results').innerHTML = `<li class="small err" style="padding:10px 4px">搜索失败：${esc(e.message)}</li>`; }
+}
+function pick(p){
+  $('#searchSheet').hidden = true;
+  const place = { lat:+p.lat.toFixed(3), lon:+p.lon.toFixed(3), name:p.name, sub:p.sub };
+  S.mode='manual'; store.set('mode','manual'); store.set('lastPlace', place);
+  const rec = store.get('recents', []).filter(r=>r.name!==place.name || r.sub!==place.sub);
+  rec.unshift(place); store.set('recents', rec.slice(0,6));
+  S.loc = place; load();
+}
+
+/* ============ data fetch ============ */
+async function fetchDet(lat, lon){
+  const hourly = 'precipitation,weather_code,temperature_2m,wind_speed_10m';
+  const results = await Promise.allSettled(DET_MODELS.map(m =>
+    getJSON(`${OM}?latitude=${lat}&longitude=${lon}&hourly=${hourly}&models=${m.id}&forecast_days=3&timezone=auto`)
+      .then(j=>({m, j}))));
+  return results.map((r,i)=> r.status==='fulfilled' ? r.value : {m:DET_MODELS[i], err:r.reason?.message||'失败'});
+}
+async function fetchMain(lat, lon){
+  const cur = 'temperature_2m,apparent_temperature,relative_humidity_2m,wind_speed_10m,wind_direction_10m,wind_gusts_10m,weather_code,precipitation,is_day';
+  const hourly = 'temperature_2m,apparent_temperature,weather_code,wind_speed_10m,wind_direction_10m,wind_gusts_10m,precipitation,precipitation_probability,is_day';
+  const daily = 'weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max';
+  return getJSON(`${OM}?latitude=${lat}&longitude=${lon}&current=${cur}&hourly=${hourly}&daily=${daily}&minutely_15=precipitation&forecast_days=8&forecast_minutely_15=12&timezone=auto`);
+}
+async function fetchEns(lat, lon){
+  const out = [];
+  await Promise.all(ENS_MODELS.map(async em => {
+    for(const id of em.ids){
+      try{ const j = await getJSON(`${OM_ENS}?latitude=${lat}&longitude=${lon}&hourly=precipitation&models=${id}&forecast_days=${em.days}&timezone=auto`); out.push({em, id, j}); return; }
+      catch(e){ em.err = e.message; }
+    }
+    out.push({em, err: em.err});
+  }));
+  return out;
+}
+
+/* ---- AEMET ---- */
+const aemetKey = () => store.get('aemetKey','');
+async function aemet(path){
+  const key = aemetKey(); if(!key) throw new Error('no key');
+  const r = await fetch(`${AEMET}${path}${path.includes('?')?'&':'?'}api_key=${encodeURIComponent(key)}`);
+  const meta = await r.json();
+  if(meta.estado && meta.estado!==200) throw new Error(`AEMET ${meta.estado}: ${meta.descripcion||''}`);
+  if(Array.isArray(meta)) return {data:meta};
+  if(!meta.datos) throw new Error('AEMET: 没有返回数据地址');
+  return { url: meta.datos };
+}
+async function aemetData(path, kind='json'){
+  const m = await aemet(path);
+  if(m.data) return m.data;
+  if(kind==='url') return m.url;
+  const r = await fetch(m.url);
+  if(!r.ok) throw new Error('AEMET 数据 HTTP '+r.status);
+  const buf = await r.arrayBuffer();
+  if(kind==='buf') return buf;
+  return JSON.parse(new TextDecoder('iso-8859-1').decode(buf));
+}
+async function aemetMunicipios(){
+  const cached = store.get('aemetMuni');
+  if(cached && cached.v===1) return cached.list;
+  const raw = await aemetData('/maestro/municipios');
+  const list = raw.map(m=>[String(m.id).replace(/^id/,''), +m.latitud_dec, +m.longitud_dec, m.nombre]).filter(m=>isFinite(m[1])&&isFinite(m[2]));
+  store.set('aemetMuni', {v:1, list});
+  return list;
+}
+async function aemetHourly(lat, lon){
+  const list = await aemetMunicipios();
+  let best=null, bd=1e9;
+  for(const m of list){ const d = haversine(lat,lon,m[1],m[2]); if(d<bd){bd=d;best=m;} }
+  if(!best || bd>25) return null;
+  const j = await aemetData(`/prediccion/especifica/municipio/horaria/${best[0]}`);
+  const pred = j[0];
+  const mm = {}, prob = {}, storm = {}, sky = {};
+  const val = v => v==='Ip'? 0.05 : parseFloat(String(v).replace(',','.'));
+  for(const dia of pred.prediccion.dia){
+    const ymd = dia.fecha.slice(0,10);
+    for(const p of (dia.precipitacion||[])){ const k = ymd+'T'+p.periodo.padStart(2,'0')+':00'; mm[addHour(k,-1)] = val(p.value); }
+    for(const s of (dia.estadoCielo||[])){ if(s.periodo) sky[ymd+'T'+s.periodo.padStart(2,'0')+':00'] = s.descripcion; }
+    const spread = (arr, target) => { for(const p of (arr||[])){ if(!p.periodo || p.periodo.length!==4 || p.value==='' ) continue;
+      const a=+p.periodo.slice(0,2), b=+p.periodo.slice(2,4); let n = (b-a+24)%24; let k = ymd+'T'+String(a).padStart(2,'0')+':00';
+      for(let i=0;i<n;i++){ target[addHour(k,i)] = {v:+p.value, w:p.periodo.slice(0,2)+'–'+p.periodo.slice(2,4)}; } } };
+    spread(dia.probPrecipitacion, prob); spread(dia.probTormenta, storm);
+  }
+  return { muni: best[3], dist: bd, mm, prob, storm, sky, elaborado: pred.elaborado || j[0].elaborado };
+}
+async function aemetObs(lat, lon){
+  const cached = store.get('aemetObs');
+  let rows;
+  if(cached && Date.now()-cached.t < 10*60e3){ rows = cached.rows; }
+  else {
+    const raw = await aemetData('/observacion/convencional/todas');
+    const latest = {};
+    for(const o of raw){ if(o.ta==null) continue; const p = latest[o.idema]; if(!p || o.fint>p.fint) latest[o.idema]=o; }
+    rows = Object.values(latest).map(o=>({id:o.idema, n:o.ubi, lat:o.lat, lon:o.lon, t:o.fint, ta:o.ta, hr:o.hr, vv:o.vv, dv:o.dv, prec:o.prec}));
+    store.set('aemetObs', {t:Date.now(), rows});
+  }
+  let best=null, bd=1e9;
+  for(const r of rows){ const d=haversine(lat,lon,r.lat,r.lon); if(d<bd){bd=d;best=r;} }
+  if(!best || bd>30) return null;
+  const age = (Date.now() - Date.parse(best.t.replace(/\+0000$/,'Z')))/60e3;
+  if(age>180) return null;
+  return {...best, dist:bd, ageMin:Math.max(0,Math.round(age))};
+}
+/* CAP warnings: tar(.gz) of CAP XML, filtered by point-in-polygon */
+async function aemetWarnings(lat, lon){
+  const buf = await aemetData('/avisos_cap/ultimoelaborado/area/esp', 'buf');
+  let bytes = new Uint8Array(buf);
+  if(bytes[0]===0x1f && bytes[1]===0x8b){
+    const ds = new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip')));
+    bytes = new Uint8Array(await ds.arrayBuffer());
+  }
+  const files = [];
+  const td = new TextDecoder('utf-8');
+  const head = td.decode(bytes.slice(0,200));
+  if(head.includes('<?xml') || head.includes('<alert')){ files.push(td.decode(bytes)); }
+  else {
+    let off=0;
+    while(off+512<=bytes.length){
+      const name = td.decode(bytes.slice(off,off+100)).replace(/\0.*$/s,'');
+      if(!name) break;
+      const size = parseInt(td.decode(bytes.slice(off+124,off+136)).replace(/\0.*$/s,'').trim()||'0',8);
+      const type = String.fromCharCode(bytes[off+156]);
+      off+=512;
+      if((type==='0'||type==='\0') && size>0) files.push(td.decode(bytes.slice(off,off+size)));
+      off += Math.ceil(size/512)*512;
+    }
+  }
+  const now = Date.now(), out=[];
+  const dp = new DOMParser();
+  for(const xml of files){
+    const doc = dp.parseFromString(xml,'application/xml');
+    const infos = [...doc.getElementsByTagName('info')];
+    const pickInfo = infos.find(i=>txt(i,'language').startsWith('es')) || infos[0];
+    const enInfo = infos.find(i=>txt(i,'language').startsWith('en'));
+    if(!pickInfo) continue;
+    const exp = Date.parse(txt(pickInfo,'expires')); if(exp && exp<now) continue;
+    let level = '';
+    for(const p of pickInfo.getElementsByTagName('parameter')){ if(txt(p,'valueName').includes('nivel')) level = txt(p,'value').toLowerCase(); }
+    if(level==='verde') continue;
+    if(!level){ const sv = txt(pickInfo,'severity'); level = sv==='Extreme'?'rojo':sv==='Severe'?'naranja':sv==='Moderate'?'amarillo':''; if(!level) continue; }
+    let hit=false, areaDesc='';
+    for(const area of pickInfo.getElementsByTagName('area')){
+      for(const pg of area.getElementsByTagName('polygon')){
+        const pts = pg.textContent.trim().split(/\s+/).map(s=>s.split(',').map(Number));
+        if(pip(lat,lon,pts)){ hit=true; areaDesc=txt(area,'areaDesc'); }
+      }
+    }
+    if(!hit) continue;
+    out.push({ level, event: txt(pickInfo,'event'), eventEn: enInfo? txt(enInfo,'event') : '', headline: txt(pickInfo,'headline'),
+      desc: txt(pickInfo,'description'), instr: txt(pickInfo,'instruction'), onset: txt(pickInfo,'onset')||txt(pickInfo,'effective'), expires: txt(pickInfo,'expires'),
+      area: areaDesc, web: txt(pickInfo,'web') || 'https://www.aemet.es/es/eltiempo/prediccion/avisos' });
+  }
+  const rank = {rojo:3,naranja:2,amarillo:1};
+  out.sort((a,b)=>(rank[b.level]||0)-(rank[a.level]||0) || Date.parse(a.onset)-Date.parse(b.onset));
+  return out;
+}
+function txt(el, tag){ const n = el.getElementsByTagName(tag)[0]; return n? n.textContent.trim() : ''; }
+function pip(lat, lon, pts){ let inside=false; for(let i=0,j=pts.length-1;i<pts.length;j=i++){ const [yi,xi]=pts[i],[yj,xj]=pts[j];
+  if(((yi>lat)!==(yj>lat)) && (lon < (xj-xi)*(lat-yi)/(yj-yi)+xi)) inside=!inside; } return inside; }
+
+/* ============ build model ============ */
+function build(main, det, ens, ae){
+  const H = main.hourly, times = H.time;
+  const idx = {}; times.forEach((t,i)=>idx[t]=i);
+  const nowIso = main.current.time.slice(0,13)+':00';
+  const detSeries = det.filter(d=>d.j).map(d=>{ const m={}; d.j.hourly.time.forEach((t,i)=>m[t]={p:d.j.hourly.precipitation[i], c:d.j.hourly.weather_code[i]}); return {name:d.m.name, m}; });
+  const ensSeries = [];
+  for(const e of ens){ if(!e.j) continue; const h=e.j.hourly; const keys = Object.keys(h).filter(k=>k.startsWith('precipitation'));
+    const m={}; h.time.forEach((t,i)=>{ m[t] = keys.map(k=>h[k][i]).filter(v=>v!=null); }); ensSeries.push({name:e.em.name, m, n:keys.length}); }
+  const hours = [];
+  const start = idx[nowIso] ?? 0;
+  for(let i=start; i<Math.min(start+48, times.length-1); i++){
+    const t = times[i], tn = addHour(t,1);  // precipitation of hour t..t+1 is stored at t+1
+    const dv = detSeries.map(s=>s.m[tn]?.p).filter(v=>v!=null);
+    const codes = detSeries.map(s=>s.m[t]?.c ?? s.m[tn]?.c).filter(v=>v!=null);
+    let members = []; ensSeries.forEach(s=>{ if(s.m[tn]) members = members.concat(s.m[tn]); });
+    const p = members.length>=10 ? members.filter(v=>v>=WET).length/members.length : (H.precipitation_probability?.[i+1]!=null? H.precipitation_probability[i+1]/100 : null);
+    const wetFrac = dv.length? dv.filter(v=>v>=WET).length/dv.length : null;
+    const mmMed = dv.length? median(dv) : H.precipitation[i+1];
+    const mmMin = dv.length? Math.min(...dv) : null, mmMax = dv.length? Math.max(...dv) : null;
+    const thunderN = codes.filter(c=>c>=95).length;
+    const ap = ae ? { mm: ae.mm[t], prob: ae.prob[t], storm: ae.storm[t], sky: ae.sky[tn] } : null;
+    hours.push({ t, temp:H.temperature_2m[i], code:H.weather_code[i], isDay:H.is_day[i], wind:H.wind_speed_10m[i], gust:H.wind_gusts_10m[i], wdir:H.wind_direction_10m[i],
+      p, pSrc: members.length>=10? `${members.length} 个集合成员` : 'Open-Meteo', mm:mmMed, mmMin, mmMax, nDet:dv.length, wetFrac, thunderN, nCodes:codes.length,
+      conf: confidence(p, wetFrac, mmMin, mmMax), ae: ap });
+  }
+  // daily
+  const D = main.daily, days=[];
+  const today = nowIso.slice(0,10);
+  const ecm = ensSeries.find(s=>s.name==='ECMWF ENS');
+  for(let i=0;i<Math.min(7,D.time.length);i++){
+    const ymd = D.time[i];
+    let probDay=null, lo=null, hi=null, medSum=null;
+    if(ecm){
+      // sum per member over the local day (hours ymd T01..next T00 = precip during the day)
+      const sums = [];
+      for(let h=1; h<=24; h++){ const k = addHour(ymd+'T00:00', h); const arr = ecm.m[k]; if(!arr) { sums.length=0; break; } arr.forEach((v,mi)=>{ sums[mi]=(sums[mi]||0)+v; }); }
+      if(sums.length>=10){ probDay = sums.filter(v=>v>=1).length/sums.length; lo=quant(sums,.25); hi=quant(sums,.75); medSum=median(sums); }
+    }
+    // for today/tomorrow use the deterministic multi-model median of daily sums
+    let detSum=null;
+    if(i<2){ const sums = detSeries.map(s=>{ let x=0, ok=true; for(let h=1;h<=24;h++){ const v=s.m[addHour(ymd+'T00:00',h)]?.p; if(v==null){ok=false;break;} x+=v; } return ok?x:null; }).filter(v=>v!=null); if(sums.length) detSum = median(sums); }
+    days.push({ ymd, label: dayLabel(ymd, today), code:D.weather_code[i], tmax:D.temperature_2m_max[i], tmin:D.temperature_2m_min[i],
+      prob: probDay ?? (D.precipitation_probability_max[i]!=null? D.precipitation_probability_max[i]/100 : null), probSrc: probDay!=null?'ens':'om',
+      detSum: detSum ?? (i<2? D.precipitation_sum[i]: null), lo, hi, med:medSum, trend: i>=2 });
+  }
+  // next 2h (15-min)
+  const m15 = main.minutely_15;
+  let next2h = null;
+  if(m15){ const nowMs = main.current.time; const k = m15.time.findIndex(t=>t>=nowMs); if(k>=0) next2h = m15.time.slice(k,k+8).map((t,j)=>({t, v:m15.precipitation[k+j]})); }
+  return { hours, days, next2h, tz: main.timezone, tzAbbr: main.timezone_abbreviation, current: main.current, nowIso, detNames: detSeries.map(s=>s.name), ensInfo: ensSeries.map(s=>`${s.name}（${s.n} 个成员）`) };
+}
+function confidence(p, wetFrac, mmMin, mmMax){
+  if(p==null && wetFrac==null) return null;
+  const a = p ?? wetFrac, b = wetFrac ?? p;
+  if(a<=0.15 && b<=0.2) return 'high';
+  const spread = mmMax!=null && mmMax>=1 && mmMax > 4*Math.max(mmMin,0.25);
+  if(a>=0.75 && b>=0.75 && !spread) return 'high';
+  if(Math.abs(a-b)>0.5 || (a>=0.3 && a<=0.7) || spread) return 'low';
+  return 'mid';
+}
+const CONF_LABEL = {high:'一致', mid:'中等', low:'分歧'};
+
+/* ============ render ============ */
+function renderNow(M, obs, warns){
+  const c = M.current;
+  const [cond, ico] = wmo(c.weather_code, c.is_day);
+  let t = c.temperature_2m, hum = c.relative_humidity_2m, wind = c.wind_speed_10m, wdir=c.wind_direction_10m, src;
+  if(obs){
+    t = obs.ta; if(obs.hr!=null) hum = obs.hr; if(obs.vv!=null){ wind = obs.vv*3.6; } if(obs.dv!=null) wdir = obs.dv;
+    src = `气温/湿度/风：AEMET 气象站 ${esc(obs.n)}（${obs.dist.toFixed(0)} km，${obs.ageMin} 分钟前）· 天况与体感：模型`;
+  } else src = '模型分析值（Open-Meteo）· 配置 AEMET Key 后显示最近气象站实况';
+  $('#now').innerHTML = `
+    <div class="t num">${Math.round(t)}°</div>
+    <div><div class="cond">${esc(cond)}</div><div class="muted small num">体感 ${Math.round(c.apparent_temperature)}°</div></div>
+    <div class="meta num"><span>湿度 ${Math.round(hum)}%</span><span>风 ${Math.round(wind)} km/h ${dirName(wdir)}${c.wind_gusts_10m? ` · 阵风 ${Math.round(c.wind_gusts_10m)}`:''}</span>${c.precipitation>0?`<span>当前 ${fmtMM(c.precipitation)} mm/h</span>`:''}</div>
+    <div class="src">${src}</div>`;
+  // compact warning banner
+  const w = $('#warnTop');
+  if(warns && warns.length){
+    const top = warns[0];
+    w.innerHTML = `<button class="warnbar" onclick="document.getElementById('warnings').scrollIntoView({behavior:'smooth'})">
+      <i class="lv" style="background:${lvColor(top.level)}"></i>
+      <span><b>AEMET ${lvName(top.level)}预警</b> · ${esc(top.eventEn||top.event)}<br><span class="small muted num">${fmtRange(top.onset, top.expires, M.tz)}${warns.length>1?` · 另有 ${warns.length-1} 条`:''}</span></span></button>`;
+  } else w.innerHTML = '';
+}
+const lvColor = l => l==='rojo'?'var(--w-red)':l==='naranja'?'var(--w-orange)':'var(--w-yellow)';
+const lvName = l => l==='rojo'?'红色':l==='naranja'?'橙色':'黄色';
+function fmtRange(a,b,tz){
+  const f = new Intl.DateTimeFormat('zh-CN',{timeZone:tz, month:'numeric', day:'numeric', hour:'2-digit', minute:'2-digit', hour12:false});
+  const fd = new Intl.DateTimeFormat('zh-CN',{timeZone:tz, hour:'2-digit', minute:'2-digit', hour12:false});
+  const da = new Date(a), db = new Date(b);
+  const same = da.toLocaleDateString('en',{timeZone:tz})===db.toLocaleDateString('en',{timeZone:tz});
+  return `${f.format(da)} – ${same? fd.format(db) : f.format(db)}`;
+}
+
+function renderSummary(M, warns){
+  const all = M.hours, H = all.slice(0,24), today = M.nowIso.slice(0,10);
+  const isWet = h => (h.mm??0)>=0.2 && (h.p??1)>=0.3;
+  const dayOf = h => h.t.slice(0,10)===today ? '今天' : '明天';
+  const maxP = Math.max(0,...H.map(h=>h.p??0));
+  // reliability across hours that matter for rain
+  const rel = H.filter(h=>(h.p??0)>=0.2 || (h.wetFrac??0)>0);
+  let conf = 'high';
+  if(rel.length){ const low = rel.filter(h=>h.conf==='low').length/rel.length; conf = low>0.4?'low':low>0.15?'mid':'high'; }
+  const confTxt = {high:'各家预报看法一致，比较可靠', mid:'各家预报大体一致，具体时间可能前后差一两个小时', low:'各家预报说法不一，下不下、下多大都没把握，出门前再看一眼雷达'}[conf];
+  $('#confChip').innerHTML = `<span class="chip"><i class="dot c-${conf}"></i>${conf==='high'?'可靠':conf==='mid'?'一般':'没把握'}</span>`;
+
+  let head, items = [];
+  const first = H.findIndex(isWet);
+  if(first<0){
+    head = maxP<0.15 ? '未来 24 小时不会下雨' : maxP<0.35 ? '未来 24 小时基本不下雨' : '未来 24 小时可能有零星小雨，大概率下不起来';
+    if(maxP>=0.15){ const pk = H.reduce((a,h)=>(h.p??0)>(a.p??0)?h:a, H[0]); items.push(['何时', `最有可能下雨的时候是${dayOf(pk)}${clock(pk.t)}前后，可能性 ${Math.round(pk.p*100)}%`]); }
+  } else {
+    let peak = first; for(let i=first;i<H.length;i++){ if((H[i].mm??0)>(H[peak].mm??0)) peak=i; }
+    let end = -1; for(let i=peak;i<H.length;i++){ if(!isWet(H[i])){ end=i; break; } }
+    const pk = H[peak], word = rainWord(pk.mm);
+    const nowWet = first===0;
+    head = nowWet ? `现在就有雨，${dayOf(pk)}${clock(pk.t)}前后最大（${word}）`
+                  : `${dayOf(H[first])}${clock(H[first].t)}左右开始下雨，${word==='毛毛雨'||word==='小雨'?'以'+word+'为主':'最大是'+word}`;
+    items.push(['开始', nowWet? '现在已经在下或马上要下' : `${dayOf(H[first])}${clock(H[first].t)}左右（可能性 ${Math.round((H[first].p??0)*100)}%）`]);
+    items.push(['最大', `${dayOf(pk)}${clock(pk.t)}前后，<b>${word}</b>，每小时约 ${fmtMM(pk.mm)} mm${(pk.mmMax!=null&&pk.mmMax-pk.mmMin>=0.5)?`（各家预报 ${fmtMM(pk.mmMin)}–${fmtMM(pk.mmMax)}）`:''}`]);
+    items.push(['停', end>0? `${dayOf(H[end])}${clock(H[end].t)}左右停或明显变小` : '24 小时内看不到停的迹象']);
+    const total = H.slice(first, end>0?end:H.length).reduce((a,h)=>a+(h.mm||0),0);
+    items.push(['总量', `这一场大约 ${total<10? total.toFixed(1): Math.round(total)} mm，相当于${dayRainWord(total)||'零星小雨'}的量`]);
+  }
+  const th = H.find(h=> h.ae?.storm ? h.ae.storm.v>=30 : h.thunderN>=2);
+  if(th) items.push(['雷暴', `${dayOf(th)}${clock(th.t)}前后可能有雷暴${th.ae?.storm? `（AEMET 给出 ${th.ae.storm.v}%）` : `（${th.thunderN} 家预报这么认为）`}`]);
+  const gust = H.reduce((a,h)=>(h.gust??0)>(a.gust??0)?h:a, H[0]);
+  if((gust.gust??0)>=50) items.push(['大风', `${dayOf(gust)}${clock(gust.t)}前后阵风可达 ${Math.round(gust.gust)} km/h`]);
+  // tomorrow in one line
+  const tm = M.days[1];
+  if(tm){ const w = dayRainWord(tm.detSum); const pw = probWord(tm.prob);
+    items.push(['明天', `${Math.round(tm.tmin)}–${Math.round(tm.tmax)}°，${tm.prob!=null && tm.prob<0.15 ? '不下雨' : pw + (w?`，${w}`:'')}`]); }
+  if(warns && warns.length) items.unshift(['预警', `<b style="color:${lvColor(warns[0].level)}">AEMET ${lvName(warns[0].level)}预警</b>：${esc(warns[0].eventEn||warns[0].event)}`]);
+  items.push(['把握', confTxt]);
+  $('#verdict').innerHTML = `<p class="head">${head}</p><ul>${items.map(([k,v])=>`<li><span class="k">${k}</span><span>${v}</span></li>`).join('')}</ul>`;
+  // 0-2h strip
+  const n = M.next2h;
+  if(n && n.length){
+    const mx = Math.max(0.5, ...n.map(x=>x.v||0));
+    const tot = n.reduce((a,x)=>a+(x.v||0),0);
+    $('#next2h').innerHTML = `<div class="small muted" style="margin-top:12px">接下来 2 小时${tot<0.05?'：预报不下雨':'：每 15 分钟的雨量'}</div>
+      <div class="strip">${n.map(x=>`<i class="${(x.v||0)<0.05?'zero':''}" style="height:${Math.max(2,Math.sqrt((x.v||0)/mx)*100)}%" title="${hh(x.t)} ${fmtMM(x.v)} mm"></i>`).join('')}</div>
+      <div class="stripx num">${n.map((x,i)=>`<span>${i%2===0?hh(x.t):''}</span>`).join('')}</div>
+      <div class="small faint">这是预报；眼前这一两个小时，以下面雷达上真实的雨区为准。</div>`;
+  } else $('#next2h').innerHTML='';
+}
+
+function renderChart(M){
+  const H = M.hours, cw = 30, top = 18, pH = 46, gap = 12, bH = 90, axis = 30;
+  const W = H.length*cw + 36, Ht = top+pH+gap+bH+axis+14;
+  const css = getComputedStyle(document.documentElement);
+  const C = k => css.getPropertyValue(k).trim();
+  const maxMM = Math.max(2, ...H.map(h=>h.mmMax??h.mm??0));
+  const ysc = v => bH * Math.sqrt(Math.min(v,maxMM)/maxMM);
+  const by = top+pH+gap; // bars top
+  let s = `<svg width="${W}" height="${Ht}" viewBox="0 0 ${W} ${Ht}" role="img" aria-label="逐小时降雨概率与降雨量">`;
+  // grid
+  [1,5,10,20].filter(v=>v<=maxMM).concat([maxMM]).forEach((v,i,arr)=>{ if(i===arr.length-1 && arr.length>1 && Math.abs(v-arr[arr.length-2])<1) return;
+    const y = by+bH-ysc(v); s += `<line x1="30" x2="${W}" y1="${y}" y2="${y}" stroke="${C('--line')}" stroke-dasharray="2 3"/><text x="2" y="${y+3}" font-size="9" fill="${C('--faint')}">${v<10?v.toFixed(v%1?1:0):Math.round(v)}mm</text>`; });
+  s += `<line x1="30" x2="${W}" y1="${by+bH}" y2="${by+bH}" stroke="${C('--line')}"/>`;
+  s += `<line x1="30" x2="${W}" y1="${top}" y2="${top}" stroke="${C('--line')}" stroke-dasharray="2 3"/><text x="2" y="${top+3}" font-size="9" fill="${C('--faint')}">100%</text>`;
+  s += `<line x1="30" x2="${W}" y1="${top+pH}" y2="${top+pH}" stroke="${C('--line')}"/><text x="2" y="${top+pH+3}" font-size="9" fill="${C('--faint')}">0%</text>`;
+  // probability area
+  const px = i => 36 + i*cw + cw/2, py = p => top + pH*(1-(p??0));
+  let path = `M${px(0)},${top+pH}`; H.forEach((h,i)=>path+=` L${px(i)},${py(h.p)}`); path += ` L${px(H.length-1)},${top+pH} Z`;
+  s += `<path d="${path}" fill="${C('--prob')}" fill-opacity=".22"/>`;
+  let line=''; H.forEach((h,i)=>line+=(i?' L':'M')+px(i)+','+py(h.p)); s += `<path d="${line}" fill="none" stroke="${C('--prob')}" stroke-width="1.8"/>`;
+  H.forEach((h,i)=>{ if(h.p!=null && h.p>=0.3 && (i===0 || Math.abs((H[i-1].p??0)-h.p)>=0.15 || i%3===0)) s+=`<text x="${px(i)}" y="${py(h.p)-4}" font-size="9" text-anchor="middle" fill="${C('--muted')}">${Math.round(h.p*100)}</text>`; });
+  // bars
+  H.forEach((h,i)=>{ const x = 36+i*cw;
+    if(h.mmMax!=null && h.mmMax>=0.05){ const y1=by+bH-ysc(h.mmMax), y0=by+bH-ysc(h.mmMin||0); s+=`<rect x="${x+cw/2-7}" y="${y1}" width="14" height="${Math.max(1,y0-y1)}" rx="2" fill="${C('--rain')}" fill-opacity=".25"/>`; }
+    if(h.mm!=null && h.mm>=0.05){ const hgt = Math.max(2, ysc(h.mm)); s+=`<rect x="${x+cw/2-4}" y="${by+bH-hgt}" width="8" height="${hgt}" rx="2" fill="${C('--rain')}"/>`;
+      if(h.mm>=0.5) s+=`<text x="${x+cw/2}" y="${by+bH-hgt-3}" font-size="9" text-anchor="middle" fill="${C('--rain')}" font-weight="600">${fmtMM(h.mm)}</text>`; }
+    const th = h.ae?.storm ? h.ae.storm.v>=20 : h.thunderN>=1;
+    if(th) s+=`<text x="${x+cw/2}" y="${top+pH+11}" font-size="11" text-anchor="middle" fill="${C('--thunder')}">ϟ</text>`;
+    // hour label & day separators
+    const hr = +h.t.slice(11,13);
+    if(hr===0 && i>0){ s+=`<line x1="${x}" x2="${x}" y1="${top-10}" y2="${by+bH+axis}" stroke="${C('--muted')}" stroke-opacity=".5"/><text x="${x+3}" y="${top-6}" font-size="10" fill="${C('--muted')}" font-weight="600">${dayLabel(h.t.slice(0,10), M.nowIso.slice(0,10))}</text>`; }
+    if(i===0) s+=`<text x="${x+2}" y="${top-6}" font-size="10" fill="${C('--muted')}" font-weight="600">现在</text>`;
+    if(hr%3===0 || i===0) s+=`<text x="${x+cw/2}" y="${by+bH+14}" font-size="10" text-anchor="middle" fill="${C('--muted')}">${String(hr).padStart(2,'0')}</text>`;
+    if(h.conf) s+=`<circle cx="${x+cw/2}" cy="${by+bH+24}" r="3" fill="${C(h.conf==='high'?'--ok':h.conf==='mid'?'--mid':'--bad')}"/>`;
+  });
+  s += `</svg>`;
+  $('#chartBox').innerHTML = s;
+}
+
+function renderTable(M){
+  const rows = S.showAll? M.hours : M.hours.slice(0,24);
+  let html = `<thead><tr><th>时间</th><th class="wx" style="text-align:left">天气</th><th>下雨可能</th><th>雨量</th><th>雷暴</th><th>风 km/h</th><th>把握</th></tr></thead><tbody>`;
+  let lastDay = M.nowIso.slice(0,10);
+  rows.forEach((h,i)=>{
+    const d = h.t.slice(0,10);
+    if(d!==lastDay){ html += `<tr class="day"><td colspan="7">${dayLabel(d, M.nowIso.slice(0,10))} ${+d.slice(5,7)}/${+d.slice(8,10)}</td></tr>`; lastDay=d; }
+    const [cond, ico] = wmo(h.code, h.isDay);
+    const wet = (h.mm??0)>=0.2 || (h.p??0)>=0.5;
+    const rng = (h.mmMax!=null && h.mmMax-h.mmMin>=0.3)? `<span class="sub">范围 ${fmtMM(h.mmMin)}–${fmtMM(h.mmMax)}</span>` : '';
+    const aeMM = h.ae && h.ae.mm!=null ? `<span class="sub">AEMET ${h.ae.mm===0.05?'微量':fmtMM(h.ae.mm)}</span>` : '';
+    const aeP = h.ae && h.ae.prob ? `<span class="sub">AEMET ${h.ae.prob.v}%</span>` : '';
+    let th = '—';
+    if(h.ae && h.ae.storm) th = h.ae.storm.v ? `${h.ae.storm.v}%<span class="sub">AEMET 6h</span>` : '—';
+    else if(h.thunderN) th = `<span style="color:var(--thunder)">${h.thunderN}/${h.nCodes}</span><span class="sub">模型</span>`;
+    html += `<tr class="${wet?'wet':''}">
+      <td>${i===0?'现在':hh(h.t)}</td>
+      <td class="wx">${ico} ${Math.round(h.temp)}°</td>
+      <td class="p">${h.p==null?'—':Math.round(h.p*100)+'%'}${aeP}</td>
+      <td class="mm">${(h.mm??0)<0.1? '<span class="faint" style="font-weight:400">不下</span>' : `${rainWord(h.mm)}<span class="sub">${fmtMM(h.mm)} mm</span>`}${rng}${aeMM}</td>
+      <td>${th}</td>
+      <td>${Math.round(h.wind)}<span class="sub">${dirName(h.wdir)}${h.gust>=40?` 阵 ${Math.round(h.gust)}`:''}</span></td>
+      <td>${h.conf?`<i class="dot c-${h.conf}" title="${CONF_LABEL[h.conf]}"></i>`:''}</td></tr>`;
+  });
+  html += '</tbody>';
+  $('#hTable').innerHTML = html;
+  const mb = $('#moreBtn'); mb.hidden = M.hours.length<=24; mb.textContent = S.showAll? '只显示 24 小时' : `显示全部 ${M.hours.length} 小时`;
+}
+
+function renderDays(M){
+  const D = M.days; if(!D.length) return;
+  const lo = Math.min(...D.map(d=>d.tmin)), hi = Math.max(...D.map(d=>d.tmax)), span = Math.max(1,hi-lo);
+  $('#days').innerHTML = D.map(d=>{
+    const [cond, ico] = wmo(d.code, 1);
+    let prob = d.prob==null? '—' : d.trend? (Math.round(d.prob*10)*10)+'%' : Math.round(d.prob*100/5)*5+'%';
+    let mm, word;
+    if(!d.trend){ mm = d.detSum==null? '' : `${fmtMM(d.detSum)} mm`; word = dayRainWord(d.detSum); }
+    else if(d.lo!=null){ const a=Math.floor(d.lo), b=Math.ceil(d.hi); mm = b<1? '' : `${a}–${b} mm`; word = dayRainWord(d.med); }
+    else { mm = d.detSum!=null? `~${Math.round(d.detSum)} mm` : ''; word = dayRainWord(d.detSum); }
+    if(d.prob!=null && d.prob<0.15){ word='不下雨'; mm=''; }
+    else if(!word) word = d.prob!=null && d.prob<0.35 ? '零星小雨' : '可能有雨';
+    mm = `<b>${word}</b>${mm}`;
+    return `<div class="d">${d.label}</div><div title="${esc(cond)}">${ico}</div>
+      <div class="rng"><span class="muted">${Math.round(d.tmin)}°</span><span class="tbar"><i style="left:${(d.tmin-lo)/span*100}%;right:${(hi-d.tmax)/span*100}%"></i></span><span>${Math.round(d.tmax)}°</span></div>
+      <div class="rp">${prob}</div><div class="rm">${mm}</div>`;
+  }).join('');
+}
+
+function renderWarnings(M, warns, err){
+  const el = $('#warnList');
+  if(!aemetKey()){
+    el.innerHTML = `需要 AEMET API Key 才能按你所在位置筛选官方预警。<a href="#" id="kLink">配置 Key</a> · 也可直接查看 <a href="https://www.aemet.es/es/eltiempo/prediccion/avisos" target="_blank" rel="noopener">AEMET 预警地图</a>`;
+    $('#kLink').onclick = e=>{ e.preventDefault(); openSettings(); };
+    return;
+  }
+  if(err){ el.innerHTML = `<span class="err">AEMET 预警获取失败：${esc(err)}</span> · <a href="https://www.aemet.es/es/eltiempo/prediccion/avisos" target="_blank" rel="noopener">在 AEMET 官网查看</a>`; return; }
+  if(!warns) { el.textContent = '—'; return; }
+  if(!warns.length){ el.innerHTML = `当前位置没有生效中的黄色及以上预警。<a href="https://www.aemet.es/es/eltiempo/prediccion/avisos" target="_blank" rel="noopener">AEMET 预警地图</a>`; return; }
+  el.innerHTML = warns.map(w=>`<div class="warn" style="border-color:${lvColor(w.level)}">
+    <h3>${lvName(w.level)} · ${esc(w.eventEn||w.event)}</h3>
+    <div class="small num">${fmtRange(w.onset, w.expires, M.tz)} · ${esc(w.area)}</div>
+    <p>${esc(w.event)}</p>${w.desc?`<p>${esc(w.desc)}</p>`:''}
+    <a class="small" href="${esc(w.web)}" target="_blank" rel="noopener">AEMET 官方页面</a></div>`).join('');
+}
+
+function renderSources(M, det, ens, aeStatus){
+  const okDet = det.filter(d=>d.j).map(d=>d.m.name), badDet = det.filter(d=>!d.j).map(d=>d.m.name);
+  const okEns = ens.filter(e=>e.j).map(e=>e.em.name);
+  $('#sources').innerHTML = `<p class="num">更新于 ${new Date(S.fetchedAt).toLocaleTimeString('zh-CN',{hour:'2-digit',minute:'2-digit'})}（本机时间）· 地点时区 ${esc(M.tz)}<br>
+    确定性模型：${okDet.join('、')||'无'}${badDet.length?`；未返回：${badDet.join('、')}`:''}<br>
+    集合预报：${M.ensInfo.join('、')||'无（降雨概率回退到 Open-Meteo 默认值）'}<br>
+    AEMET：${aeStatus}</p>`;
+}
+
+/* ============ radar ============ */
+let map=null, rvFrames=[], rvLayers=[], rvIdx=0, rvTimer=null, marker=null;
+async function initRadar(loc, tz){
+  if(!window.L){ $('#radarNote').textContent='地图库加载失败。'; return; }
+  if(!map){
+    map = L.map('map', {zoomControl:false, attributionControl:true, maxZoom:10, minZoom:5});
+    const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+    L.tileLayer(`https://{s}.basemaps.cartocdn.com/${dark?'dark_all':'light_all'}/{z}/{x}/{y}{r}.png`, {maxZoom:10, attribution:'© OpenStreetMap © CARTO · Radar © RainViewer'}).addTo(map);
+    L.control.zoom({position:'topright'}).addTo(map);
+  }
+  map.setView([loc.lat, loc.lon], 8);
+  if(marker) marker.remove();
+  marker = L.circleMarker([loc.lat, loc.lon], {radius:6, color:'#fff', weight:2, fillColor:'#d6262b', fillOpacity:1}).addTo(map);
+  try{
+    const j = await getJSON('https://api.rainviewer.com/public/weather-maps.json');
+    rvLayers.forEach(l=>map.removeLayer(l)); rvLayers=[];
+    rvFrames = [...(j.radar?.past||[]), ...(j.radar?.nowcast||[]).map(f=>({...f, nowcast:true}))];
+    rvFrames.forEach(f=>{ const l = L.tileLayer(`${j.host}${f.path}/256/{z}/{x}/{y}/2/1_1.png`, {opacity:0, maxNativeZoom:7, maxZoom:10, tileSize:256, zIndex:5}); rvLayers.push(l); l.addTo(map); });
+    const r = $('#frameRange'); r.max = rvFrames.length-1;
+    const lastPast = (j.radar?.past||[]).length-1;
+    showFrame(lastPast, tz);
+    const age = Math.round((Date.now()/1000 - rvFrames[lastPast].time)/60);
+    $('#radarAge').textContent = `最新一帧 ${age} 分钟前`;
+    r.oninput = ()=>{ stopPlay(); showFrame(+r.value, tz); };
+    $('#playBtn').onclick = ()=> rvTimer? stopPlay() : startPlay(tz);
+  }catch(e){ $('#radarNote').innerHTML = `<span class="err">雷达数据获取失败：${esc(e.message)}</span>`; }
+}
+function showFrame(i, tz){
+  if(!rvLayers.length) return;
+  rvLayers.forEach((l,k)=>l.setOpacity(k===i?0.8:0)); rvIdx=i; $('#frameRange').value=i;
+  const f = rvFrames[i];
+  const t = new Intl.DateTimeFormat('zh-CN',{timeZone:tz, hour:'2-digit', minute:'2-digit', hour12:false}).format(new Date(f.time*1000));
+  $('#frameTime').textContent = (f.nowcast?'外推 ':'')+t;
+}
+function startPlay(tz){ $('#playIco').innerHTML='<path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="currentColor"/>'; rvTimer = setInterval(()=>showFrame((rvIdx+1)%rvLayers.length, tz), 600); }
+function stopPlay(){ clearInterval(rvTimer); rvTimer=null; $('#playIco').innerHTML='<path d="M8 5v14l11-7z" fill="currentColor"/>'; }
+async function loadAemetRadar(){
+  const el = $('#aemetRadar');
+  if(!aemetKey()){ el.innerHTML = `<p class="small muted">需要 AEMET API Key。也可直接打开 <a href="https://www.aemet.es/es/eltiempo/observacion/radar" target="_blank" rel="noopener">AEMET 雷达页面</a>。</p>`; return; }
+  el.innerHTML = '<p class="small muted">加载中…</p>';
+  try{ const url = await aemetData('/red/radar/nacional', 'url');
+    el.innerHTML = `<img src="${esc(url)}" alt="AEMET 全国雷达合成图"><p class="small faint">AEMET 全国雷达合成图（最新一张，官方原图，不可缩放）。<a href="https://www.aemet.es/es/eltiempo/observacion/radar" target="_blank" rel="noopener">AEMET 雷达页面</a></p>`;
+  }catch(e){ el.innerHTML = `<p class="small err">获取失败：${esc(e.message)}</p><a class="small" href="https://www.aemet.es/es/eltiempo/observacion/radar" target="_blank" rel="noopener">AEMET 雷达页面</a>`; }
+}
+
+/* ============ main load ============ */
+let loadSeq = 0;
+async function load(){
+  const loc = S.loc; if(!loc) return;
+  const seq = ++loadSeq;
+  setPlace((loc.gps?'📍 ':'')+loc.name, loc.sub || (loc.gps? `精度约 ${loc.acc} m`:''));
+  const lat = +loc.lat.toFixed(3), lon = +loc.lon.toFixed(3);
+  $('#verdict').innerHTML = '<p class="summary">加载中…</p>';
+  let main;
+  const detP = fetchDet(lat, lon), ensP = fetchEns(lat, lon);
+  const hasKey = !!aemetKey();
+  const aeHP = hasKey? aemetHourly(lat, lon).catch(e=>({err:e.message})) : Promise.resolve(null);
+  const aeOP = hasKey? aemetObs(lat, lon).catch(e=>({err:e.message})) : Promise.resolve(null);
+  const aeWP = hasKey? aemetWarnings(lat, lon).catch(e=>({err:e.message})) : Promise.resolve(null);
+  try{ main = await fetchMain(lat, lon); }
+  catch(e){ $('#verdict').innerHTML = `<span class="err">天气数据获取失败：${esc(e.message)}。请检查网络后点刷新。</span>`; return; }
+  const [det, ens, aeH] = await Promise.all([detP, ensP, aeHP]);
+  if(seq!==loadSeq) return;
+  S.fetchedAt = Date.now();
+  const ae = aeH && !aeH.err ? aeH : null;
+  const M = build(main, det, ens, ae);
+  S.data = M;
+  renderSummary(M); renderChart(M); renderTable(M); renderDays(M);
+  renderNow(M, null, null);
+  initRadar(loc, M.tz);
+  const [obs, warns] = await Promise.all([aeOP, aeWP]);
+  if(seq!==loadSeq) return;
+  const o = obs && !obs.err ? obs : null, w = warns && !warns.err ? warns : null;
+  renderNow(M, o, w);
+  if(w && w.length) renderSummary(M, w);
+  renderWarnings(M, w, warns?.err);
+  const parts = [];
+  if(!hasKey) parts.push('未配置 Key');
+  else {
+    parts.push(ae? `逐小时预报 · ${esc(ae.muni)}（${ae.dist.toFixed(0)} km）` : `逐小时预报不可用${aeH?.err?'（'+esc(aeH.err)+'）':'（附近没有西班牙市镇）'}`);
+    parts.push(o? `实况 · ${esc(o.n)}` : `实况不可用${obs?.err?'（'+esc(obs.err)+'）':''}`);
+    parts.push(w? `预警 ${w.length} 条` : `预警不可用${warns?.err?'（'+esc(warns.err)+'）':''}`);
+  }
+  renderSources(M, det, ens, parts.join('；'));
+}
+
+/* ============ settings ============ */
+function openSettings(){ $('#setSheet').hidden=false; $('#keyInput').value = aemetKey(); $('#keyStatus').textContent = aemetKey()? '已保存 Key。':''; }
+$('#saveKey').onclick = async ()=>{
+  const k = $('#keyInput').value.trim(); if(!k) return;
+  store.set('aemetKey', k); $('#keyStatus').textContent = '正在验证…';
+  try{ await aemet('/prediccion/especifica/municipio/horaria/28079'); $('#keyStatus').innerHTML = '<span style="color:var(--ok)">Key 有效，已保存。</span>'; load(); }
+  catch(e){ $('#keyStatus').innerHTML = `<span class="err">验证失败：${esc(e.message)}。Key 已保存，可稍后重试。</span>`; }
+};
+$('#clearKey').onclick = ()=>{ store.del('aemetKey'); store.del('aemetObs'); $('#keyInput').value=''; $('#keyStatus').textContent='已清除。'; load(); };
+$('#closeSet').onclick = ()=>{ $('#setSheet').hidden=true; };
+$('#setBtn').onclick = openSettings;
+
+/* ============ wiring ============ */
+$('#placeBtn').onclick = openSearch;
+$('#closeSearch').onclick = ()=>{ $('#searchSheet').hidden=true; };
+$('#q').oninput = e=>{ clearTimeout(qTimer); qTimer=setTimeout(()=>doSearch(e.target.value), 300); };
+$('#locBtn').onclick = locate;
+$('#refreshBtn').onclick = ()=>load();
+$('#moreBtn').onclick = ()=>{ S.showAll=!S.showAll; renderTable(S.data); };
+['searchSheet','setSheet'].forEach(id=>$('#'+id).addEventListener('click', e=>{ if(e.target.id===id) e.target.hidden=true; }));
+$('#tabRV').onclick = ()=>{ $('#tabRV').setAttribute('aria-selected','true'); $('#tabAE').setAttribute('aria-selected','false'); $('#rvPane').hidden=false; $('#aemetRadar').hidden=true; map&&map.invalidateSize(); };
+$('#tabAE').onclick = ()=>{ $('#tabAE').setAttribute('aria-selected','true'); $('#tabRV').setAttribute('aria-selected','false'); $('#rvPane').hidden=true; $('#aemetRadar').hidden=false; loadAemetRadar(); };
+document.addEventListener('visibilitychange', ()=>{ if(document.visibilityState==='visible' && S.loc && Date.now()-S.fetchedAt>10*60e3){ S.loc.gps? locate() : load(); } });
+matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', ()=>{ if(S.data) renderChart(S.data); });
+
+// start: always try GPS first (coordinates are never stored); fall back to the last searched place
+if(store.get('mode')==='manual' && store.get('lastPlace') && location.hash==='#last'){ S.loc=store.get('lastPlace'); load(); } else locate();
+</script>
+</body>
+</html>
