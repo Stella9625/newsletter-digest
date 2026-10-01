@@ -123,8 +123,8 @@ h2 .sp{flex:1}
 #aemetRadar img{width:100%;border-radius:12px;display:block;background:#fff}
 
 /* daily */
-.days{display:grid;grid-template-columns:auto 26px minmax(0,1fr) auto auto;gap:0 10px;align-items:center;font-size:14px}
-.days > div{padding-block:9px;border-top:1px solid var(--line)}
+.days{font-size:14px}
+.days .row{display:grid;grid-template-columns:2.6em 24px minmax(0,1fr) 46px 66px;gap:0 10px;align-items:center;padding-block:9px;border-top:1px solid var(--line)}
 .days .d{font-weight:500}
 .days .rng{display:flex;align-items:center;gap:6px;justify-content:flex-start}
 .tbar{flex:1;height:4px;border-radius:2px;background:var(--line);position:relative;min-width:40px}
@@ -718,14 +718,17 @@ function renderTable(M){
   rows.forEach((h,i)=>{
     const d = h.t.slice(0,10);
     if(d!==lastDay){ html += `<tr class="day"><td colspan="7">${dayLabel(d, M.nowIso.slice(0,10))} ${+d.slice(5,7)}/${+d.slice(8,10)}</td></tr>`; lastDay=d; }
-    const [cond, ico] = wmo(h.code, h.isDay);
+    let [cond, ico] = wmo(h.code, h.isDay);
+    const rw = rainWord(h.mm);
+    if(rw!=='不下' && (h.p??0)>=0.5 && h.code<51) ico = (rw==='毛毛雨'||rw==='小雨')? '🌦' : '🌧';
+    if(rw==='不下' && (h.p??0)<0.3 && h.code>=51) ico = '☁︎';
     const wet = (h.mm??0)>=0.2 || (h.p??0)>=0.5;
     const rng = (h.mmMax!=null && h.mmMax-h.mmMin>=0.3)? `<span class="sub">范围 ${fmtMM(h.mmMin)}–${fmtMM(h.mmMax)}</span>` : '';
     const aeMM = h.ae && h.ae.mm!=null ? `<span class="sub">AEMET ${h.ae.mm===0.05?'微量':fmtMM(h.ae.mm)}</span>` : '';
     const aeP = h.ae && h.ae.prob ? `<span class="sub">AEMET ${h.ae.prob.v}%</span>` : '';
     let th = '—';
-    if(h.ae && h.ae.storm) th = h.ae.storm.v ? `${h.ae.storm.v}%<span class="sub">AEMET 6h</span>` : '—';
-    else if(h.thunderN) th = `<span style="color:var(--thunder)">${h.thunderN}/${h.nCodes}</span><span class="sub">模型</span>`;
+    if(h.ae && h.ae.storm) th = h.ae.storm.v ? `<span style="color:var(--thunder)">${h.ae.storm.v}%</span><span class="sub">AEMET</span>` : '—';
+    else if(h.thunderN) th = `<span style="color:var(--thunder)">${h.thunderN>=h.nCodes/2?'可能':'小概率'}</span><span class="sub">${h.thunderN} 家预报</span>`;
     html += `<tr class="${wet?'wet':''}">
       <td>${i===0?'现在':hh(h.t)}</td>
       <td class="wx">${ico} ${Math.round(h.temp)}°</td>
@@ -753,9 +756,10 @@ function renderDays(M){
     if(d.prob!=null && d.prob<0.15){ word='不下雨'; mm=''; }
     else if(!word) word = d.prob!=null && d.prob<0.35 ? '零星小雨' : '可能有雨';
     mm = `<b>${word}</b>${mm}`;
-    return `<div class="d">${d.label}</div><div title="${esc(cond)}">${ico}</div>
+    const icoShown = (word==='不下雨' && d.code>=51) ? '☁︎' : (word!=='不下雨' && (d.prob??0)>=0.5 && d.code<51) ? '🌦' : ico;
+    return `<div class="row"><div class="d">${d.label}</div><div title="${esc(cond)}">${icoShown}</div>
       <div class="rng"><span class="muted">${Math.round(d.tmin)}°</span><span class="tbar"><i style="left:${(d.tmin-lo)/span*100}%;right:${(hi-d.tmax)/span*100}%"></i></span><span>${Math.round(d.tmax)}°</span></div>
-      <div class="rp">${prob}</div><div class="rm">${mm}</div>`;
+      <div class="rp">${prob}</div><div class="rm">${mm}</div></div>`;
   }).join('');
 }
 
@@ -897,7 +901,7 @@ document.addEventListener('visibilitychange', ()=>{ if(document.visibilityState=
 matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', ()=>{ if(S.data) renderChart(S.data); });
 
 // self-update: GitHub Pages and home-screen apps cache the page; fetch the live copy and reload if it changed
-const BUILD = '2026-10-01b';
+const BUILD = '2026-10-01c';
 (async()=>{ try{ const r = await fetch(location.pathname+'?_='+Date.now(), {cache:'no-store'}); const t = await r.text(); const m = t.match(/const BUILD = '([^']+)'/);
   if(m && m[1]!==BUILD && sessionStorage.getItem('rog-reloaded')!==m[1]){ sessionStorage.setItem('rog-reloaded', m[1]); location.replace(location.pathname+'?v='+m[1]); } }catch(e){} })();
 // start: always try GPS first (coordinates are never stored); fall back to the last searched place
