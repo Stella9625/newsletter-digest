@@ -896,6 +896,10 @@ $('#tabAE').onclick = ()=>{ $('#tabAE').setAttribute('aria-selected','true'); $(
 document.addEventListener('visibilitychange', ()=>{ if(document.visibilityState==='visible' && S.loc && Date.now()-S.fetchedAt>10*60e3){ S.loc.gps? locate() : load(); } });
 matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', ()=>{ if(S.data) renderChart(S.data); });
 
+// self-update: GitHub Pages and home-screen apps cache the page; fetch the live copy and reload if it changed
+const BUILD = '2026-10-01b';
+(async()=>{ try{ const r = await fetch(location.pathname+'?_='+Date.now(), {cache:'no-store'}); const t = await r.text(); const m = t.match(/const BUILD = '([^']+)'/);
+  if(m && m[1]!==BUILD && sessionStorage.getItem('rog-reloaded')!==m[1]){ sessionStorage.setItem('rog-reloaded', m[1]); location.replace(location.pathname+'?v='+m[1]); } }catch(e){} })();
 // start: always try GPS first (coordinates are never stored); fall back to the last searched place
 if(store.get('mode')==='manual' && store.get('lastPlace') && location.hash==='#last'){ S.loc=store.get('lastPlace'); load(); } else locate();
 </script>
